@@ -43,3 +43,232 @@ echo $?	echo	return status code			return status code	always <b>0</b>
 Zsh&nbsp;startup files	<div>$ZDOTDIR/.zshenv</div><div>$ZDOTDIR/.zprofile</div><div>$ZDOTDIR/.zshrc</div><div>$ZDOTDIR/.zlogin</div><div>$ZDOTDIR/.zlogout</div><div><br /></div><div>If ZDOTDIR is not set, then the value of HOME is used.</div><div><br /></div><div>`.zshenv' is sourced on all invocations of the shell, unless the -f option is set. It should contain commands to set the command search path, plus other important environment variables. `.zshenv' should not contain commands that produce output or assume the shell is attached to a tty.</div><div><br /></div><div>`.zshrc' is sourced in interactive shells. It should contain commands to set up aliases, functions, options, key bindings, etc.</div><div><br /></div><div>`.zlogin' is sourced in login shells. It should contain commands that should be executed only in login shells. `.zlogout' is sourced when login shells exit. `.zprofile' is similar to `.zlogin', except that it is sourced before `.zshrc'. `.zprofile' is meant as an alternative to `.zlogin' for ksh fans; the two are not intended to be used together, although this could certainly be done if desired. `.zlogin' is not the place for alias definitions, options, environment variable settings, etc.; as a general rule, it should not change the shell environment at all. Rather, it should be used to set the terminal type and run a series of external commands (fortune, msgs, etc).&nbsp;</div>			
 unset shell function	<b>unset -f</b> my_function<div><b>unfunction</b> my_function (zsh)</div>			
 <div>mv second_file.txt{.new,}</div>	mv second_file.txt.new second_file.txt	f		
+What is the main characteristic of a  <b>distributed                   version control system                   (DVCS)</b>?	A distributed version control system has no                   central server which                   stores the data. Every local copy contains the full history of the                   source code.                                   	
+Does the use of a                   <b>DVCS</b> require a                   central                   code                   repository?                                   	No.	
+Where does Git                   <b>commit</b> file changes to?<br />	To the local repository.	
+What happens when you <b>clone</b> a                   repository with                    Git?	An exact copy of the                   repository is created locally.<br />	
+Does the local clone of a remote repository include the                   complete history of the source code?	Yes.	
+What's the meaning of <b>master branch</b>?	"The ""master"" in Git is the default branch, which generally represents the most stable code."	
+What is a <b>commit</b>?	A commit is a pointer to a spot&nbsp;(revision)&nbsp;on the code history.	
+How are Git commits <b>identified</b>?	Instead of numbering commits, Git uses the code contents of the commit to create a unique, 40 character SHA-1 hash.	
+Does a branch created in a repository,&nbsp;which was cloned from another repository, need to have a&nbsp;counterpart in the&nbsp;remote repository?<br /> 	No it doesn't.	
+Which two steps are neccessary to persist modifications on a file in the repository?<br />	1. Staging (mark the file to be relevant for Git) = adding the file to the index.<br />2. Commiting: storing the changes in the Git repository.<br />	
+What does the term <b>staging</b> describe?	Marking changes as relevant for the version control, by adding them to the index.	
+What is a <b>Revision</b>?<br />	A revision represents a version of the source code. Git identifies                                                revisions                                                with SHA-1 IDs using a commit object. SHA-1 IDs are 160 bits long and are                                                represented                                                in                                                hexadecimal. The latest version can be addressed                                                via                                                HEAD, the version before that via                                                HEAD~1                                                and so on.	
+In which file does Git store <b>global settings</b>?<br />	In the <b>.gitconfig</b> file.<br />	
+Which file tells Git which files and directories to <b>ignore</b>?<br />	<pre>.gitignore</pre>	
+What is the difference between <b>local .gitignore</b> and <b>global .gitignore</b> files, regarding visibility?<br />	The local                .gitignore                file can be committed into the Git repository and                therefore is visible                to everyone who clones the repository. The                global                .gitignore                file is only                locally visible.                             	
+How are <b>empty directories</b> handled under Git version control / by common practice?	Git ignores empty directories, i.e. it does not put them under version control. Common practice for tracking an empty directory though, is to put a file called <b>.gitkeep</b> into such a directory.<br />	
+What does the command <b>git reflog</b>&nbsp;do?<br />	It displays the history of the complete changes of the current branch, based on the HEAD revision.<br />	
+Does <b>git reflog</b>&nbsp;also contain deleted commits?	Yes.	
+How is the <b>default branch</b> called in Git?<br />	Master.	
+What does the term <b>merging</b>&nbsp;describe?<br />	The process of combining changes of two branches.	
+What is a <b>merge conflict</b>?<br />	A merge conflict occurs, if two people have modified the same content and Git cannot automatically determine how both changes should be applied.<br />	
+What does the <b>rebase</b>&nbsp;command do?<br>	In general terms - rewrites history. E.g: Combining several commits into<br>                  one commit. Or replaying changes from one branch on top of the other.	
+What functionality does the <b>stash</b> command add?<br />	Saving the current uncommmitted changes and&nbsp;checkout&nbsp;the last committed revision. This allows pulling-in the latest changes or to develop an urgent fix. Afterwards the stashed changes can be restored, which will reapply the changes to the current version of the source code.<br /> 	
+What's the rule of thumb, concerning the <b>stash</b>&nbsp;command?<br />	It should be the exception to using Git. Typically you would create new branches for new features and switch between branches.<br />	
+What is a <b>patch file</b>?<br />	A text file that contains changes to the source code.	
+What is an <b>alias</b> in Git?	An alias in Git allows you to setup your own Git command. E.g. you can define an alias which is a short form of your own favorite commands or you can combine several commands with an alias.	
+Name two <b>transport types</b>&nbsp;that are supported protocols for Git checkouts	The native Git protocol is <b>git</b>, alternatively the <b>http</b> protocol is also supported.	
+What happens in regards to naming of the original repository, when <b>cloning</b> a remote repository?<br />	"The original repository will automatically be called ""origin"".<br />"	
+What is the possibility of using the <b>HTTP protocol</b> with Git especially helpful for?	If a firewall blocks all requests other than http.<br />	
+Which are the two variants of <b>ssh keys</b>?<br />	Public and private.<br />	
+What does <b>rev~</b> stand for?	"The first parent of a revision ""rev"""	
+What is the starting point of the scope of <b>.gitignore</b> files?	They define ignore definitions for the whole directory tree, starting from the point where the .gitignore file itself resides.	
+"What's the difference between <b>git pull</b> and <b>git fetch</b>? (<span style="" font-style: normal; font-weight: normal;"">In the simplest terms)</span>"	git pull does a git fetch followed by a git merge.	
+What is the difference between <b>git commit</b> and <b>git push</b>?	<b>commit:</b> adding changes to the repository.<div><b>push</b>: to transfer the last commit(s) to a remote server</div>	
+What is the <b>head</b> in Git?	The head is a pointer to the current branch, which is in turn the last commit you made or checked out into your working directory.	
+What is the <b>index</b> in Git?	"It's a snapshot of changes contained in your next commit, this way it's the ""<b>proposed next commit</b>""."	
+What does <b>head^</b> mean?	It means the first parent of the tip of the current branch.	
+What is the difference between <b>head~</b> and <b>head^</b> ?	&nbsp;~&lt;n&gt; means the revision that is the &lt;n&gt;th generation ancestor of the named revision, following only the first parents.<div>^&lt;n&gt; means the &lt;n&gt;th parent of that revision.</div>	
+What is a local version control system?	A database of changes kept on the same computer as the files being versioned.	
+How is a distributed version control system different from others?	Every client has a full backup of all the data.	
+"What is the ""snapshot"" concept?"	In Git, the data is more like a stream of complete snapshots of a mini filesystem rather than a list of file changes like you'll see in SVN, Perforce, etc.	
+Why are most git operations so fast?<br>	They happen on the local disk, rather than over a network<br>	
+How does git maintain file integrity?<br>	Everything is SHA-1 checksummed and stored not by filename, but rather hash value of each file's contents.<br>	
+What are the 3 git states your files can reside in?<br>	committed, modified, and staged<br>	
+"What does it mean when a file is in the ""committed"" state?<br>"	The data is safely stored in your local database<br>	
+"What does it mean if a file is in the ""modified"" state?<br>"	You have changed the file, but not yet committed it.<br>	
+"What does it mean if a file is in the ""staged"" state?<br>"	You have marked a file in its current state to go into the next commit snapshot.<br>	
+What are the 3 sections of a git project?<br />	the Git directory (repository), the working directory, and the staging area<br />	
+What is stored in the Git directory?<br>	The metadata and object database for your project<br>	
+What is copied when you clone a repository from another computer?<br>	the Git directory<br>	
+What is the working directory?<br>	A single checkout of one version of the project. These files are pulled out of the compressed database in the git directory and placed on disk for you to use and modify.<br>	
+What is the staging area?	"It is a file in the git directory that stores information about what goes into the next commit. It is sometimes referred to as the ""index""."	
+What is the 3-step basic git workflow?	1. modify files in working directory<div>2. stage files, adding snapshots of them to the staging area</div><div>3. commit, which takes the files in the staging area and stores that snapshot permanently to your git directory</div>	
+Where are the three places that git config variables can be stored?	1. systemwide: &nbsp;/etc/gitconfig<div>2. per user: ~/.gitconfig or ~/.config/git/config</div><div>3. per project: .git/config</div>	
+What option do you pass to git config to modify system-level configs?	--system	
+What option do you pass to git config to make changes for specific to your user?	--global	
+What are three ways to get help on a git verb?	1. git help &lt;verb&gt;<div>2. git &lt;verb&gt; --help</div><div>3. man git-&lt;verb&gt;</div>	
+"How do you get a copy of an existing git repository, say https://github.com/libgit2/libgit2<span style=""line-height: 1.1;"">?</span><br>"	git clone&nbsp;https://github.com/libgit2/libgit2	
+What are a couple different transfer protocols used by git?	https://<div>git://</div>	
+What is the difference between a tracked and untracked file?	Tracked files are all files that were in the last snapshot. They can be unmodified, modified, or staged. Untracked files are not in the latest snapshot or staged.	
+Why is it possible for a tracked file to be both in staging and modified state?	"Because the staged version is the contents of the file at the exact time you ran ""git add"" to stage the file. You have to run ""git add"" again if you've modified it and want to stage the latest contents of the file."	
+What file is used to ignore some untracked files?	.gitignore	
+What is the default shortname for cloned repositories?	origin	
+How does git fetch affect your local repository?	It pulls the data, but does not merge or modify your working copy. To actually merge, it must be manually done.	
+What is stored in a git commit object?	* pointer to the snapshot of the staged content<div>* author's name and email</div><div>* commit message</div><div>* pointer to the commit(s) directly before this one</div>	
+What is a branch in terms of git commit objects?	A lightweight movable pointer to one of the commits	
+What is the name of the special pointer which tells you which local branch you're currently on?	HEAD	
+What happens to the HEAD pointer when you create a new branch?	Nothing, it continues to point to the existing branch (such as master, if you haven't changed it yet). It does not switch to the new branch automatically.	
+What happens to the working directory when you switch branches?	The files are updated to reflect the last commit of the branch. If it cannot be updated cleanly, git will not let you switch.	
+Why is a git branch cheap?	A branch is a simple file that contains the 40 character SHA-1 checksum of the commit it points to.	
+"What is a ""fast-forward"" merge?"	"When you try to merge a commit that can be reached by following the first commit's history, git will simply move the pointer forward because there is no divergent work to merge together. This is known as a ""fast-forward"" merge."	
+What is a merge commit?	When two divergent branches are merged, git creates a new snapshot and a new commit that points to it. A merge commit has more than one parent.	
+How is git different in dealing with the merge base when merging branches?	Git determines the best common ancestor to use for its merge base, which is a lot simpler than many other VCSes.	
+What does the leading * character mean in the output of git branch?	It indicates the branch you have currently checked out (that HEAD points to).	
+What is the name used for a branching workflow where sets of commits graduate to a more stable silo when they're fully tested?<br>	progressive-stability branching<br>	
+What is the name for a short-lived branch for a single particular feature or related work?<br>	topic branch<br>	
+What are remote branches?<br>	Pointers to the state of branches in remote repositories. They are local branches that you cannot move.<br>	
+When are remote branch pointers updated?<br>	They are automatically moved when you do any network communication.<br>	
+When you fetch a remote branch, will it automatically set up a local branch with the same name?	No. You must either merge it or create your own branch from it.	
+What is the shorthand for referencing the tracking remote and branch?	@{u} or @{upstream}	
+How does rebasing affect the commit history differently than a merge?	A rebase will make the commit history look linear/clean rather than a bunch of branch merges. This is often done to make sure your commits apply cleanly to a remote branch.	
+What one tip should you follow to avoid a drawback of rebasing?	Do not rebase commits that exist outside of your repository.	
+What is a good general rule for deciding when to rebase or to merge?	Rebase local changes you haven't shared yet in order to clean up, but never rebase anything you pushed somewhere.	
+"What is a ""bare repository""?"	A repository that doesn't contain a working directory	
+Which command will <b>initialize a new, empty repository</b> in the current working directory?	<pre>git init</pre>			
+"What command is used to configure the local user's email (""email""), that are used when committing to Git repositories?"	"<pre><span style=""font-family: Arial"">git config --global user.email ""email""</span></pre>"			git shell
+What does this command do:&nbsp;<b>git add . &nbsp;</b>	It adds everything inside the current working directory to the index.	
+Which commands are needed to <b>add</b> <b>all .js files </b>to the local Git repository?	<pre>git add *.js</pre>			
+"Which command will <b>commit</b> to the local repository, including a <b>commit message </b>(""message"")?"	"<pre>git commit -m ""message""</pre>"			
+Which command prints&nbsp;&nbsp;the <b>current state</b> of your code/repository?	"<pre style=""text-align: justify;"">git status</pre>"			
+Which Git command is used to <b>list the existing branches</b>?	<pre>git branch</pre>		"Ommitting all options to the ""git branch"" command, will list the existing branches."	
+"Which command <b>creates</b> a new branch (""branchname"")?"	<pre>git branch branchname</pre>			
+"Which command will switch to the branch ""myotherbranch""?"	"<pre style=""line-height: 25px;"">git checkout myotherbranch</pre>"			
+"What commands will join everything from the branch ""bigIdea"" to be part of the ""master"" branch?"	<pre>git checkout master</pre> <pre>git merge bigIdea</pre>	
+"Which command will delete (even) an unmerged branch (""branchname"")?"	git branch -D branchname			
+Which command displays the existing <b>global Git settings</b>?<br />	<pre>git config --list</pre>			
+Which command shows<b> commit logs </b>(list of all commits, starting with newest)?<br />	<pre>git log</pre>	<div>For each commit the following info would be displayed</div>1. SHA-1 identifier<br />2. Author and Email<br />3. Date + time of the commit<br />4. Commit message header		
+Which command displays all <b>changes to tracked files since the last commit</b>?<br />	<pre>git diff</pre>			
+"Which command displays the changes in a <b>specific commit </b>(""commitid"")?"	<pre>git show commitid</pre>			
+"Which command displays the <b>change history</b> of a specific file (""filename"")?"	<pre>git log filename</pre>			
+"Which command displays which commit and author modified a file (""filename"") on a line by line basis?"	<pre>git blame filename</pre>			
+"Which command deletes a file (""filename"")&nbsp;from the working directory and at the same time marks it for the next commit?<br />"	<pre>git rm filename</pre>			
+Which command displays the existing defined <b>remote repositories</b>?<br />	<pre>git remote</pre>			
+Which command <b>cleans</b>&nbsp;untracked changes in the working directory?	<pre>git clean -f</pre>	"optional:<div>-d to remove untracked directories</div><div>-x remove also ""ignored files""</div>"		
+"How can you <b>revert a deleted or changed file </b>(""filename"")<b> that has not yet been added to the index</b>?<br />"	git checkout filename	Add -- after checkout to avoid naming conflicts if you have tag or branch with the same name		
+"How can you checkout older revisions of your source code (revision ""commitid"")?<br />"	git checkout commitid	Via checking out specific commit id		
+"Which command removes an added file (""filename"") from the index again?<br />"	<pre>git reset filename</pre>			
+"How can all changes of a commit (""commitid"") be reverted and a new commit be recorded, which documents that the other commit was reverted?<br />"	<pre>git revert commitid</pre>			
+Which command lists the <b>available tags</b>?<br />	<pre>git tag</pre>			
+"Which command creates a <b>new tag </b>(""tagname"") <b>with a description&nbsp;</b>(description)?"	<pre>git tag tagname -m 'description'</pre>			
+"Which command will <b>check out a specific tag </b>(""tagname"")?"	<pre>git checkout tagname</pre>			
+Which command / parameter <b>lists all branches, including remote</b> branches?	<pre>git branch -a</pre>			
+Which command <b>creates a new branch </b>(branchname)<b> and switches to it</b>?	git checkout -b branchname			
+"Which command would <b>delete </b>the local ""testing"" branch (if it is merged)?<br />"	<pre>git branch -d testing</pre>			
+"Which command <b>merges differences</b> of the ""testing"" branch into the current active branch?<br />"	<pre>git merge testing</pre>			
+Which default Git tool exists for <b>resolving conflicts</b>, which command starts it?<br />	git mergetool			
+Which command would <b>start interactive rebase </b>of the last seven commits?	<pre>git rebase -i HEAD~7</pre>		"More info on interactive mode here:&nbsp;<a href=""https://git-scm.com/docs/git-rebase"">https://git-scm.com/docs/git-rebase</a>"	
+"Which command displays <b>which commit deleted a specific file </b>(""filename"")?<br />"	<pre>git log -- filename</pre>			
+What is the <b>--</b> option in <b>git log</b>&nbsp;used for?<br />	To see the commit history for a file, even if the file has been deleted.<br />	
+"Which command will define an alias ""add-commit"", which<br />                  combines<br /> <b>git add . -A</b><br />                  and<br /> <b>git commit</b>?"	"<pre class=""programlisting"">git config --global alias.add-commit <span class=""hl-string"">'!git add . -A &amp;&amp; git commit'</span></pre>"	! is to specify that it's an external command		
+What does the command do: <b>git reset --soft HEAD~</b>	Undo the last commit. The affected files will be back on stage again.	
+What does <b>git reset --hard HEAD~</b>&nbsp;do? (instead of HEAD~ it could be also a commit SHA-1 or another reference)	Undo the last commit, unstage files AND undo any changes in the working directory. (Not tracked files won't be affected)	
+Which parameter allows you to <b>stage an ignored file</b>?	<pre>--force</pre>			
+"Which Git command <b>newly stages a specific file </b>(""filename"")?"	<pre>git add filename</pre>			
+"Which command will <b>undo the checking-in of an unwanted change </b>in a file ""filename""&nbsp;(remove the respective file from the index), but keep the changes in the filesystem?"	<pre>git reset filename</pre>			
+What is the difference between:<br><pre>git checkout -f</pre> and <pre>git reset --hard HEAD</pre>?	None, with these parameters they do exactly the same.	
+Remove main.txt from staging but keep in working (untrack file, after this and commit file would be remove from repo)	git rm --cached main.txt			
+"Which command / parameter changes the message of the last commit? (for ""newmessage"")<br />"	"<code>git commit --amend -m ""newmessage""</code><br />"			
+"Clone an existing repository (address: ""url"")"	git clone url			
+Create a new local repository	git init			
+Add some (allows you interactively to choose which) changes in <i>file</i> to the next commit	git add -p <i>file</i>			
+Commit all local changes in tracked files	git commit -a			
+Commit previously staged changes	git commit			
+Change the last commit [only before pushing]	git commit --amend			
+"Show changes over time (diffs) for a specific file (""filename"")"	git log -p <i>filename</i>			
+Switch HEAD to <i>branch</i>	git checkout<i>&nbsp;branch</i>			
+"Create a new branch (name ""nbranch"") based on current HEAD"	git branch n<i>branch</i>			
+"Create a new tracking branch (""tbranch"") based on a remote branch (""rbranch"")"	git branch --track t<i>branch</i> <i>rbranch</i>			
+"Delete a local branch (""branch"")"	git branch -d <i>branch</i>			
+"Mark the current commit with a tag (""tagname"")"	git tag <i>tagname</i>			
+"Show information about a remote&nbsp;(""origin"")"	git remote show <i>origin</i>			
+Add remote server 'url' with shortname 'myurl'	git remote add myurl url			
+"Download all changes from <i>remote&nbsp;</i>(""origin"")&nbsp;but don't integrate into HEAD"	git fetch <i>origin</i>			
+"Download changes from remote&nbsp;(""origin"")&nbsp;branch ""branch"" and directly merge into HEAD"	git pull <i>origin</i> <i>branch</i>			
+"Publish local changes (for a branch ""branch"") on a remote (""origin"")"	git push <i>origin</i>&nbsp;<i>branch</i>			
+"Delete a ""branch"" on the remote&nbsp;(""origin"") (old way)"	git push <i>origin</i>&nbsp;:<i>branch</i>			
+Publish your tags	git push --tags			
+Merge <i>branch</i> into your current HEAD	git merge <i>branch</i>			
+Rebase your current HEAD onto <i>branch</i>	git rebase <i>branch</i>			
+Abort a rebase	git rebase --abort			
+Continue a rebase after resolving conflicts	git rebase --continue			
+Use your configured merge tool to solve conflicts	git mergetool			
+Use your editor to manually solve conflicts during merge/rebase and after resolving mark file as resolved with:	git add <i>resolved-file or</i><div>git rm <i>resolved-file</i></div>	uncertain
+Discard all local changes in working directory	git reset --hard HEAD			
+"Discard local changes in a specific file (""filename"")"	git checkout&nbsp;<i>filename</i>			
+Reset your HEAD pointer to some previous <i>commit</i> (and discard all changes since then)	git reset --hard <i>commit</i>			
+Reset your HEAD pointer to some previous commit, and preserve all changes as unstaged changes	git reset <i>commit</i>			
+"Reset your HEAD pointer to some previous commit (""commit"") and preserve uncommited local changes"	git reset --keep <i>commit</i>	If a file that is different between &lt;commit&gt; and HEAD has local changes, reset is aborted.		
+What tool is used to get and set configuration variables that control how git looks and operates?	git config			
+What .gitignore pattern would you use to ignore all .txt files in the doc folder?	doc/**/*.txt		"<a href=""https://git-scm.com/docs/gitignore"">https://git-scm.com/docs/gitignore</a>"	
+How can you skip the staging area for modified, tracked files when doing a commit?	git commit -a			
+How do you delete a <i>file</i> that has been modified and already added to the staging area?	git rm -f file			
+"How do you rename or move a file in git (""src"" to ""target"")?"	git mv src target			
+What are some of the options to view the commit log history in different formats?	"--pretty=[oneline | short | full | fuller]<div>--pretty=format:""...""</div>"	
+How do you view the history for author jdoe with keyword potato in the commit message made in the last two weeks that added or removed a reference to the function mashThePotato that were not merges?	git log --author jdoe --grep potato --all-match -SmashThePotato --since=2.weeks --no-merges	
+"Why is git reset considered safe without ""--hard"" option?"	It only affects your staging area	
+How do you tag revision 0123abc with the name v1.0?	git tag v1.0 0123abc			
+"What happens if you try to delete a branch with ""git branch -d &lt;name&gt;"" that has not yet been merged?"	It will fail, and offer -D if you really want to lose your branch.	
+"If you want to use a different name than ""origin"" (eg ""norig"") for the remote when cloning a repository (""repo""), what parameter would you use?<br />"	git clone -o norig repo<br />			
+"How would you share a local branch called ""badname"" as ""goodname"" on a remote called ""origin""?<br>"	git push origin badname:goodname<br>			
+How would you set up a credential cache so that you don't have to keep typing your password for git push?	git config --global credential.helper cache			
+If you have a local branch and you want it to use a remote branch (say origin/hotfix) as upstream, how would you set it?	git branch -u origin/hotfix			
+How do you see what tracking branches you have set up?	git branch -vv			
+"How would you delete a remote branch (""serverfix"") from the server (""origin"")?"	git push origin --delete serverfix			
+How would you use rebase to apply master changes to branch b1, then apply b1 changes to master? The result being a linear history.	<div># method: 1</div>git checkout b1<div>git rebase master</div><div>git checkout master</div><div>git merge b1</div><div><br></div><div># method: 2</div><div>git rebase b1 master</div><div>git checkout master</div><div>git merge b1</div>	
+If you have changes on commits that no longer exist upstream (due to a remote rebase), how can you pull in those changes and avoid conflicts that would happen with git pull origin/master?	<div>git pull --rebase origin/master</div>			
+"What are limitations of the command that changes the message of the last commit (<span style=""font-family: monospace"">git commit --amend</span>)?"	It only works before the commit has been pushed to remote repo.	git shell
+"What command is used to configure the local user's name (""Name""), that are used when committing to Git repositories?"	"<pre>git config --global user.name ""Name""</pre>"			git shell
+"Show what file would be delited with ""git clean"" (dry run)"	git clean -n	(or --dry-run)		git shell
+"What option should you add to ""git clean"" in order to remove untracked directories"	-d			git shell
+"What option should you add to ""git clean"" in order to remove ""ignored"" files"	-x			git shell
+"Which command will&nbsp;<b>show the entire history (</b>including renames<b>)&nbsp;</b>for the file (""filename"")?"	<pre>git log --follow -p filename</pre>			git shell
+<b>Create a stash</b>&nbsp;with uncommitted changes (analogous to save uncommited changes, and do reset hard)	git stash			command git shell stash
+<b>Reapply the stashed changes</b>&nbsp;<b>and</b>&nbsp;<b>delete the stash&nbsp;</b>from the list of stashes	git stash pop			command git shell stash
+<b>Reapply the stashed changes</b>&nbsp;without deleting<b>&nbsp;stash&nbsp;</b>from the list of stashes	git stash apply			command git shell stash
+Show git stash stack (list of stashes)	git stash list			command git shell stash
+Show branches already merged into current branch	git branch --merged			command git shell
+Show branches not yet merged into current branch	git branch --no-merged			command git shell
+Rebase master onto develop without checking it out	git rebase master develop			command git shell
+Show remote servers with URL displayed	git remote -v			command git shell
+Rename remote 'server1' to 'server2'	git remote rename server1 server2			command git shell
+Remove remote 'server1'	git remote rm server1			command git shell
+Show last two commits with diffs	git log -p -2			command git shell
+Show commit logs with stats	git log --stat			command git shell
+<div>Show commit logs one per line</div>	git log --pretty=oneline			command git shell
+Show commit logs with ascii graph	git log --graph			command git shell
+Show commit log for the last week	git log --since=1.week			command git shell
+<div>Show prev commits for each lines 10-15 of file.rb</div>	git blame -L 10,15 file.rb			command git shell
+Reapply stash 2	git stash apply stash@{2}			command git shell
+Reapply stashed changes along with the changes in index (staging the changes, for example)	git stash apply --index			command git shell
+Drop stash 2	git stash drop stash@{2}			command git shell
+Create branch 'mybranch' from stash	git stash branch mybranch			command git shell
+Delete all stashes	git stash clear			command git shell
+Show what's staged but not yet committed	git diff --staged			command git shell
+Start binary search of commits to find bad commit	git bisect start		"<a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
+Mark current commit as broken during bisect	git bisect bad		"<a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
+<div>Mark current commit as good during bisect</div>	git bisect good		"<a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
+Mark v2.2 as last known good commit during bisect (beginning of binary search)	git bisect good v2.2		"<a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
+How do you initiate bisect algorithm in git (several commands)	"<div><div>Suppose you are trying to find the commit that broke a feature that was known to work in version v2.6.13-rc2 of your project. You start a bisect session as follows:</div><div><br /></div><div>$ git bisect start</div><div>$ git bisect bad # Current version is bad</div><div>$ git bisect good v2.6.13-rc2 # v2.6.13-rc2 is known to be good</div></div><div><br /></div><a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
+Reset to original&nbsp;HEAD when finished with bisect	git bisect reset		"<a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
+"Run 'test.sh' on each commit during bisect (automates designation of commit as ""good"" or ""bad"")"	git bisect run test.sh	Note that the script should exit with code 0 if the current source code is good/old, and exit with a code between 1 and 127 (inclusive), except 125, if the current source code is bad/new.	"<div><a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a></div>"	command git shell
+"Search the working directory for ""foo()"""	"git grep ""foo()"""			command git shell
+View all the merge conflicts (if your working tree is in corresponding state)	git diff			command git shell
+"See differences between two commits (""commitid1"", ""commitid2"")"	git diff commitid1 commitid2			command git shell
+"See the files (only filenames) changed between two commits (""commitid1"", ""commitid2"")"	git diff&nbsp;--name-only&nbsp;commitid1 commitid2&nbsp;			command git shell
+Undo non-pushed commits (if you are tracking branch origin/master)	git reset origin/master			command git shell
+"Apply a patch (""patchname.patch"")"	<div>git apply -v patchname.patch</div>			command git shell
+"Re-checkout file (""filename"") or files specified by path to version specified by <i>rev</i> (which may be specified using a SHA1 commit ID, branch name, or tag), overwriting any local changes."	git checkout rev filename			command git shell
+Check out the client branch, figure out the patches from the common ancestor of the client and server branches (the common ancestor branched from master in the past), and then replay the patches from client that are not into common ancestor onto master.	git rebase --onto master server client		"Here are some diargrams:&nbsp;<a href=""https://git-scm.com/book/ch3-6.html"">https://git-scm.com/book/ch3-6.html</a>"	command git shell
+"Create alias ""co"" for git checkout"	git config --global alias.co checkout			commands git shell
+"Add ""unstage"" alias to git (for current user)"	git config --global alias.unstage 'reset HEAD --'			commands git shell
+Filter commit by author ('jdoe') in git log	git log --author jdoe			command git log shell
+"Filter commit by presense of ""pattern"" in commit message in git log"	git log --grep pattern			command git log shell
+What parameter of git log should you use to specify that you want to see only commits matching all given patterns (with --grep option)?	--all-match			command git log shell
+Look for differences whose patch text contains added/removed lines that match &lt;regex&gt;.	git log -G&lt;regex&gt;		"<a href=""https://git-scm.com/docs/git-log"">https://git-scm.com/docs/git-log</a>"	command git log shell
+Stash all changes (including untracked and ignored files)	git stash --all		"<a href=""https://git-scm.com/docs/git-stash"">https://git-scm.com/docs/git-stash</a>"	command git shell
+Stash files in repo including untracked files (but not ignored ones)	git stash&nbsp;--include-untracked		"<a href=""https://git-scm.com/docs/git-stash"">https://git-scm.com/docs/git-stash</a>"	command git shell
+Start git stash interactive mode (allows you to &nbsp;interactively select changes, that would be stashed)	git stash -p		"<a href=""https://git-scm.com/docs/git-stash"">https://git-scm.com/docs/git-stash</a>"	command git shell
+Show status of the repository, ignoring untracked files	git status -uno	or&nbsp;--untracked-files=no. Other options - normal (Shows untracked files and directories),&nbsp;all (default, Also shows individual files in untracked directories).		command git shell
