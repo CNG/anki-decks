@@ -1,0 +1,1393 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "542c8a68-35b7-11e7-be52-2c56dc924912", 
+    "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": false, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    20
+                ], 
+                "order": 0, 
+                "perDay": 30, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 250
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "codium.jpg", 
+        "agardhiella.jpg", 
+        "ulva.jpg", 
+        "entramorpha.jpg"
+    ], 
+    "mid": "1475043240989", 
+    "name": "General::Science", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "54268f02-35b7-11e7-aba8-2c56dc924912", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Text", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Extra", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Cloze", 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Cloze", 
+                    "ord": 0, 
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ], 
+            "type": 1, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
+            "css": ".card {\n  font-family: \"Avenir Next\", Georgia;\n  font-size: 50px;\n  text-align: left;\n  color: #2aa198;\n  background-color: #002b36;\n  font-weight: bold;\n}\na {\n  text-decoration: none;\n  color: inherit;\n}\na:hover {\n  color: #d33682;\n}\n.meta {\n  color: #6c71c4;\n  font-size: 15px;\n  font-weight: normal;\n}\n.definition, .questionn {\n  margin-top:15px;\n  font-family:  \"Optima\", Georgia;\n  color: #268bd2;\n  font-size: 40px;\n  font-weight: normal;\n}\n.questionn {\n  color: #b58900;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Definition", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{text:Front}}\n\n<div class=\"meta\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</div>\n\n<div class=\"definition\">{{Back}}</div>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Forward", 
+                    "ord": 0, 
+                    "qfmt": "{{text:Front}}\n\n<div class=\"meta\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</div>\n\n<div class=\"questionn\">Definition?</div>"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "css": ".card {\n  font-family:  Georgia, Helvetica;\n  font-size: 50px;\n  text-align: center;\n  color: #2aa198;\n  background-color: #002b36;\n  xfont-weight: bold;\n}\na {\n  text-decoration: none;\n  color: inherit;\n}\na:hover {\n  color: #d33682;\n}\n.meta {\n  color: #b58900;\n  font-size: 14px;\n  font-weight: normal;\n}\n.definition {\n  margin-top:30px;\n  font-family: Georgia;\n  color: #268bd2;\n  font-size: 50px;\n  font-weight: normal;\n}\n.long {\n  font-size: 20px;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "ShowReversed", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "LongAnswer", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[18pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}", 
+            "name": "BasicDark", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1, 
+                        2
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"definition{{#LongAnswer}} long{{/LongAnswer}}\">{{Back}}</div>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "BasicDark-Forward", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{Front}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "BasicDark-Reversed", 
+                    "ord": 1, 
+                    "qfmt": "{{#ShowReversed}}\n<div class=\"definition {{#LongAnswer}}long{{/LongAnswer}}\">{{Back}}</div>\n{{/ShowReversed}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "diazotroph", 
+                "Diazotrophs are bacteria and archaea that fix atmospheric nitrogen gas into a more usable form such as ammonia. A diazotroph is an organism that is able to grow without external sources of fixed nitrogen. Examples of organisms that do this are rhizobia and Frankia (in symbiosis) and Azospirillum.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "EwZ:|Ot2YQ", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "N<sub>2</sub>O", 
+                "Nitrous oxide, commonly known as laughing gas, nitrous, nitro, or NOS is a chemical compound with the formula N<sub>2</sub>O. It is an oxide of nitrogen. At room temperature, it is a colorless, odorless non-flammable gas, with a slightly sweet taste.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "vzx5O/FYMr", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "diagenesis", 
+                "breakdown of organic material"
+            ], 
+            "flags": 0, 
+            "guid": "dLvG,F}Yb#", 
+            "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "remineralization", 
+                "<div>the first step in diagenesis is the breakdown of large, complex organic molecules into their building blocks, the process called remineralization, the general form of which is:</div><div><br /></div><div>(CH2O)<sub>x</sub>(NH3)<sub>y</sub> + <i>x</i>TER + <i>y</i>H+ --&gt; <i>x</i>CO2 + <i>y</i>NH4+ + <i>x</i>H2O</div><div><br /></div><div>Where I have used \"TER\" to indicate the terminal electron acceptor and x and y are subscripts indicating the makeup of the organic matter. Usually, these values are 106 and 16, respectively, indicating the famous Redfield ratio of these elements in plankton.</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "mG@X#*wozh", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "denitrification", 
+                "<div>Denitrification is a heterotrophic process (meaning the organisms involved must consume their carbon, rather than producing it themselves) that reduces nitrate into nitrogen gas, and follows the general equation:</div><div><br /></div><div>(CH<sub>2</sub>O)<sub>106</sub>(NH<sub>3</sub>)<sub>16</sub> + 85NO<sub>3</sub> + 100H<sup>+</sup> --&gt; 106CO<sub>2</sub> + 16NH<sub>4</sub><sup>+</sup> + 43N<sub>2</sub> + 149H<sub>2</sub>O</div><div><br /></div><div>(Please Note that the equation is very slightly imbalanced, as I have rounded the decimal points in the stoichiometric coefficients).</div><div><br /></div><div>The net result of this equation is the relatively large removal of nitrogen in the form of dinitrogen gas.</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Cc->TNl6bK", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "benthic zone", 
+                "The benthic zone is the ecological region at the lowest level of a body of water such as an ocean or a lake, including the sediment surface and some sub-surface layers. Organisms living in this zone are called benthos, e.g. the benthic invertebrate community, including crustaceans and polychaetes.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "x#iQ1rTnwc", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "redox cascade", 
+                "Once both nitrate and oxygen have been consumed, any remaining organic material continues to be broken down by energetically less favorable terminal electron acceptors according to a well-established cascade, continuing next with iron reduction, and finally with sulfate reduction. In most cases, organic matter is consumed long before sulfate is depleted, so our discussion can end with that step. Collectively, all of these metabolic pathways are termed the redox cascade, referring to the cascade of less desirable terminal electron acceptors as heterotrophic organisms consume organic matter in the sediment.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z&hAXr>Ns$", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "carbonate", 
+                "<div>1. salt of carbonic acid (H<sub>2</sub>CO<sub>3</sub>), characterized by the presence of the carbonate ion, CO<sub>3</sub><sup>2−</sup></div><div>2.&nbsp;an ester of carbonic acid, an organic compound containing the carbonate group C(=O)(O–)<sub>2</sub></div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p/]0q!Qf9n", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "vaccines that scar", 
+                "1. smallpox<div>2. BCG (Bacillus Calmette-Guérin), for tuberculosis</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xJKi-!+sO@", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When did smallpox vaccination end?", 
+                "The last natural case of Smallpox occurred in Somalia in 1977, and the disease was officially declared eradicated in 1980.&nbsp;Routine smallpox vaccination stopped in 1972 in the U.S. All countries had quit routine vaccination by 1986.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "B8.rGyX>;l", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "feather shaped rays that form the crown of feather duster worms", 
+                "radioles", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wk7Uvik]{#", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How does feather duster worm sort food particles?", 
+                "The sorting of trapped particles in the crown begins in the <b>conducting grooves on the radioles</b> and finishes at the base of the crown. Large particles ride high on the conducting grooves and they are rejected and emitted up into the current stream at the base. Medium sized particles pass along the center of the conducting grooves and are moved to storage areas where they are subsequently used in the construction of the tube in soft tube species. Fine particles are moved by cilia along the lower portion of the conducting groove into tracts that lead into the mouth. The food includes bacteria, fine detritus and other particulate organic matter, phytoplankton, and tiny microorganisms", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "9Tq)m.%%W", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "feather duster worm&nbsp;phylum", 
+                "Feather duster worms are members of the Phylum <b>annelida</b>, the segmented worms, which includes the common earthworm.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "B9&F+]3Hy,", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "feather duster worm&nbsp;class", 
+                "The feather dusters belong to the class <b>Polychaeta</b>, one of the four classes of annelids. The Polychaetes (literally \"many hairs\") have segmented bodies, and each segment bears two or more appendages called parapodia. The appendages are often hair-like, hence the name bristle worms for many varieties of polychaets. In feather duster worms the hair-like chaetae are much reduced.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "QW#ggQc!&s", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "soft tubed feather duster worms family", 
+                "Those with soft tubes consisting of a polysaccharide matrix and trapped detritus are in the family <b>Sabellidae</b>, which has only one genus with an exceptional calcareous tube.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "s0Tn(Zi{2R", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "hard tubed feather duster worms family", 
+                "Most \"hard-tube\" feather dusters belong to the family <b>Serpulidae</b>, and many members of this family have an operculum that is formed from a modified radiole in their crown. The operculum is a \"trap door\" that shuts the entrance to the tube when the worm withdraws. The ornamentation of the operculum is used for identification of some species.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qVGn*Y2{-]", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "budding process by which dense colonies of feather duster worm clones form", 
+                "<b>scissipary</b><div><br /></div><div>In this process, the posterior end of the worm breaks off and develops a new crown while the “parent” grows a new posterior.</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Q:x:0*GtqF", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How do feather duster worms reproduce?", 
+                "Feather duster worms reproduce both <b>sexually and asexually</b>. Sexual reproduction involves the release of gametes into the water where the fertilized eggs develop into free-swimming larvae that eventually settle in an appropriate habitat. In the case of Serpulids, they settle on corals and the coral grows around the calcareous tube they build, making asexual reproduction nearly an impossibility for them.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "FJ>qp28B`r", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "feather duster worm tube rebuild duration", 
+                "The worm can build a new transparent tube in a matter of hours, and it will coat the tube with sand and detritus over a matter of a few days.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "B0>Iy{@u#l", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "cluster duster species", 
+                "<i>Bispira brunnea</i>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "o:c:8hBR$@", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "rhodophyta pigment", 
+                "Red algae contain a pigment called <b>phycoerythrin</b>. This pigment absorbs blue light and reflects red light, giving the algae its red color. Being that blue light penetrates deeper in the water column, red algae tend to be found growing at greater depths.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Qz(S73xY/n", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "red algae", 
+                "rhodophyta", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "v4DAeK[[w0", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<img src=\"entramorpha.jpg\" />", 
+                "<i>Ulva intestinalis</i>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Iuu|Dvv@nl", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<img src=\"ulva.jpg\" />", 
+                "<i>Ulva lactuca</i>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "A3yx]C{OLb", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<img src=\"codium.jpg\" />", 
+                "<i>Codium fragile</i> with a red algae growing as an epiphyte", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "yPG5_xQL?n", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Dead Man's Fingers or Green Fleece", 
+                "Arriving to the east coast of America from the Pacific in 1957, <i>Codium fragile</i> is an invasive green alga that is quite abundant. Commonly called Dead Man's Fingers or Green Fleece, <i>C. fragile</i> grows in ropelike spongy branches, and when exposed at low tide, it looks like fingers. <i>C. fragile</i> is unique as it is a long single cell that is made up of many nuclei but no cell wall dividing them. Being able to reproduce by fragmentation has allowed it to spread easily through out the east coast of North America.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Q>)9,`!H)~", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "brown algae", 
+                "<b>Chrysophyta</b>, the brown algae, tend to grow much larger than the greens. Some of The most common brown algae of the intertidal zone belong to the genus, <i>Fucus</i>. <i>Fucus</i> can tolerate exposure to a wide range of environmental conditions. Being exposed at low tide, it is subject to freezing in winter months, and to extreme heat and dehydration in the summer. To adapt to these harsh conditions, <i>Fucus</i> has thick rubbery blades allowing the algae to retain moisture while it is exposed. The blades of <i>Fucus</i> have many air bladders that provide buoyancy for the blades. This buoyancy allows the blades to sway in the currents removing any detritus that has settled during the low tide.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "N=GO~4uOns", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<img src=\"agardhiella.jpg\" />", 
+                "<i><b>Agardhiella tenera</b></i><div><i><br /></i></div><div>Two other species of red algae commonly found around Long Island and ranging to the tropics are, <i>Agardhiella tenera</i> and <i>Gracilaria foliifera</i>. Both species are delicately branched and their color can vary from a bright red to almost brown. They can be found attached to rocks or shells, but are more commonly found free floating. They seem to prefer calm waters where they are less likely to be washed ashore.</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "F.Aa&uRk7k", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "teratogen", 
+                "an agent or factor that causes malformation of an embryo", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Fz89#?}LUt", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "anosognosia", 
+                "Impaired awareness of illness, caused by damage to specific parts of the brain, especially the right hemisphere.<div><br /></div><div>It is the main reason people with schizophrenia and bipolar disorder do not take their medications.</div>", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wQr<MEB.SM", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-273.15 °C", 
+                "-459.67 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Dm.6QdG++^", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "T(°F) = T(°C) × {{c1::9/5}} + {{c2::32}}", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "CU0DER.(u2", 
+            "note_model_uuid": "54268f02-35b7-11e7-aba8-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-50 °C", 
+                "-58.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "An(D^<JT??", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-40 °C", 
+                "-40.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "DaeQIK,Od@", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-30 °C", 
+                "-22.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "c_K7;!{{!*", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-20 °C", 
+                "-4.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pSdCauhooF", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-10 °C", 
+                "14.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "k=gmTky1%h", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-9 °C", 
+                "15.8 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h1:2;ERXzA", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-8 °C", 
+                "17.6 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "GjZ/Z><Uo4", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-7 °C", 
+                "19.4 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "yfW34]lT{p", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-6 °C", 
+                "21.2 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ErrvU+o)Wc", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-5 °C", 
+                "23.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wf~zrVqIBS", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-4 °C", 
+                "24.8 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xkx~?j*z:z", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-3 °C", 
+                "26.6 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "oo_u|*eQwD", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-2 °C", 
+                "28.4 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "krhdA$RTQN", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "-1 °C", 
+                "30.2 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "A|Q}Lqd85+", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "0 °C", 
+                "32.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pn35@_(!.o", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "1 °C", 
+                "33.8 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e)X+j{E@I=", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "2 °C", 
+                "35.6 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "hBtimO>Pob", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "3 °C", 
+                "37.4 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "urR0|g$cXa", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "4 °C", 
+                "39.2 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nq$]3Un1+2", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "5 °C", 
+                "41.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "o$^d~_3C-8", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "6 °C", 
+                "42.8 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h*%affsj)~", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "7 °C", 
+                "44.6 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Imjk:0R7Lw", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "8 °C", 
+                "46.4 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xf-J@{.PQk", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "9 °C", 
+                "48.2 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "D&Uv6aYzbO", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "10 °C", 
+                "50.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pS41iigd[E", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "20 °C", 
+                "68.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p~l$EQd=!g", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "21 °C", 
+                "69.8 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Am=&&y;B+B", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "30 °C", 
+                "86.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wtQ`B<:eT", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "37 °C", 
+                "98.6 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Rd*_^;SZRe", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "40 °C", 
+                "104.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "hur}*1ASxQ", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "50 °C", 
+                "122.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "CW:0hIV7|x", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "60 °C", 
+                "140.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "rjNq!sxX^>", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "70 °C", 
+                "158.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "E/v5uYHHeZ", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "80 °C", 
+                "176.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "i_}McANnOw", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "90 °C", 
+                "194.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nbmUL!Fb>j", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "100 °C", 
+                "212.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "o4Wqm,wfAK", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "200 °C", 
+                "392.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "EcGjXyhsVx", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "300 °C", 
+                "572.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "u1pFhHY]gA", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "400 °C", 
+                "752.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "IzXlwBy1(E", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "500 °C", 
+                "932.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "K`Kmfw-9Gz", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "600 °C", 
+                "1112.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "NsG+nQ>~3g", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "700 °C", 
+                "1292.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "OiL3j>_<}H", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "800 °C", 
+                "1472.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "C3LKJasMRB", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "900 °C", 
+                "1652.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Jn`>rjrnMh", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "1000 °C", 
+                "1832.0 °F", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jr!z<E5]Pj", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Hib-MenCY-TT", 
+                "bivalent meningococcal conjugate vaccine that&nbsp;protects against serogroups C and Y and&nbsp;and Haemophilus influenzae type b conjugate vaccine", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "to3.cLx#;`", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "MenACWY", 
+                "quadrivalent (protects against serogroups A, C, W, and Y) meningococcal conjugate vaccine", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "N<5`y~NpxO", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "MPSV4", 
+                "quadrivalent meningococcal polysaccharide vaccine that protects against serogroups A, C, W, and Y", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Ewb/byqJ#R", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "MenB", 
+                "monovalent meningococcal vaccine that protects against serogroup B", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Ep_=QE3<g]", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "meningococcal disease", 
+                "Meningococcal disease is caused by the bacterium Neisseria meningitidis, also called meningococcus. Some people carry these bacteria in the back of their nose and throat with no signs or symptoms of disease. But sometimes these bacteria can invade the body causing certain illnesses, which collectively are known as meningococcal disease.<div><br /></div><div>The two most severe and common illnesses caused by Neisseria meningitidis include infections of the lining of the brain and spinal cord (meningitis) and bloodstream infections (bacteremia or septicemia). Meningococcal disease can be deadly and should always be viewed as a medical emergency. About 10 to 15 percent of meningococcal disease cases are fatal. Of patients who recover, up to 1 in 5 experience long-term disabilities, such as loss of limbs, deafness, nervous system problems, or brain damage.</div>", 
+                "y", 
+                "y"
+            ], 
+            "flags": 0, 
+            "guid": "P:0DIz#%3]", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }
+    ]
+}

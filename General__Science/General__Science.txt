@@ -1,0 +1,82 @@
+diazotroph	Diazotrophs are bacteria and archaea that fix atmospheric nitrogen gas into a more usable form such as ammonia. A diazotroph is an organism that is able to grow without external sources of fixed nitrogen. Examples of organisms that do this are rhizobia and Frankia (in symbiosis) and Azospirillum.			
+N<sub>2</sub>O	Nitrous oxide, commonly known as laughing gas, nitrous, nitro, or NOS is a chemical compound with the formula N<sub>2</sub>O. It is an oxide of nitrogen. At room temperature, it is a colorless, odorless non-flammable gas, with a slightly sweet taste.			
+diagenesis	breakdown of organic material	
+remineralization	"<div>the first step in diagenesis is the breakdown of large, complex organic molecules into their building blocks, the process called remineralization, the general form of which is:</div><div><br /></div><div>(CH2O)<sub>x</sub>(NH3)<sub>y</sub> + <i>x</i>TER + <i>y</i>H+ --&gt; <i>x</i>CO2 + <i>y</i>NH4+ + <i>x</i>H2O</div><div><br /></div><div>Where I have used ""TER"" to indicate the terminal electron acceptor and x and y are subscripts indicating the makeup of the organic matter. Usually, these values are 106 and 16, respectively, indicating the famous Redfield ratio of these elements in plankton.</div>"			
+denitrification	<div>Denitrification is a heterotrophic process (meaning the organisms involved must consume their carbon, rather than producing it themselves) that reduces nitrate into nitrogen gas, and follows the general equation:</div><div><br /></div><div>(CH<sub>2</sub>O)<sub>106</sub>(NH<sub>3</sub>)<sub>16</sub> + 85NO<sub>3</sub> + 100H<sup>+</sup> --&gt; 106CO<sub>2</sub> + 16NH<sub>4</sub><sup>+</sup> + 43N<sub>2</sub> + 149H<sub>2</sub>O</div><div><br /></div><div>(Please Note that the equation is very slightly imbalanced, as I have rounded the decimal points in the stoichiometric coefficients).</div><div><br /></div><div>The net result of this equation is the relatively large removal of nitrogen in the form of dinitrogen gas.</div>			
+benthic zone	The benthic zone is the ecological region at the lowest level of a body of water such as an ocean or a lake, including the sediment surface and some sub-surface layers. Organisms living in this zone are called benthos, e.g. the benthic invertebrate community, including crustaceans and polychaetes.			
+redox cascade	Once both nitrate and oxygen have been consumed, any remaining organic material continues to be broken down by energetically less favorable terminal electron acceptors according to a well-established cascade, continuing next with iron reduction, and finally with sulfate reduction. In most cases, organic matter is consumed long before sulfate is depleted, so our discussion can end with that step. Collectively, all of these metabolic pathways are termed the redox cascade, referring to the cascade of less desirable terminal electron acceptors as heterotrophic organisms consume organic matter in the sediment.			
+carbonate	<div>1. salt of carbonic acid (H<sub>2</sub>CO<sub>3</sub>), characterized by the presence of the carbonate ion, CO<sub>3</sub><sup>2−</sup></div><div>2.&nbsp;an ester of carbonic acid, an organic compound containing the carbonate group C(=O)(O–)<sub>2</sub></div>			
+vaccines that scar	1. smallpox<div>2. BCG (Bacillus Calmette-Guérin), for tuberculosis</div>			
+When did smallpox vaccination end?	The last natural case of Smallpox occurred in Somalia in 1977, and the disease was officially declared eradicated in 1980.&nbsp;Routine smallpox vaccination stopped in 1972 in the U.S. All countries had quit routine vaccination by 1986.			
+feather shaped rays that form the crown of feather duster worms	radioles			
+How does feather duster worm sort food particles?	The sorting of trapped particles in the crown begins in the <b>conducting grooves on the radioles</b> and finishes at the base of the crown. Large particles ride high on the conducting grooves and they are rejected and emitted up into the current stream at the base. Medium sized particles pass along the center of the conducting grooves and are moved to storage areas where they are subsequently used in the construction of the tube in soft tube species. Fine particles are moved by cilia along the lower portion of the conducting groove into tracts that lead into the mouth. The food includes bacteria, fine detritus and other particulate organic matter, phytoplankton, and tiny microorganisms			
+feather duster worm&nbsp;phylum	Feather duster worms are members of the Phylum <b>annelida</b>, the segmented worms, which includes the common earthworm.			
+feather duster worm&nbsp;class	"The feather dusters belong to the class <b>Polychaeta</b>, one of the four classes of annelids. The Polychaetes (literally ""many hairs"") have segmented bodies, and each segment bears two or more appendages called parapodia. The appendages are often hair-like, hence the name bristle worms for many varieties of polychaets. In feather duster worms the hair-like chaetae are much reduced."			
+soft tubed feather duster worms family	Those with soft tubes consisting of a polysaccharide matrix and trapped detritus are in the family <b>Sabellidae</b>, which has only one genus with an exceptional calcareous tube.			
+hard tubed feather duster worms family	"Most ""hard-tube"" feather dusters belong to the family <b>Serpulidae</b>, and many members of this family have an operculum that is formed from a modified radiole in their crown. The operculum is a ""trap door"" that shuts the entrance to the tube when the worm withdraws. The ornamentation of the operculum is used for identification of some species."			
+budding process by which dense colonies of feather duster worm clones form	<b>scissipary</b><div><br /></div><div>In this process, the posterior end of the worm breaks off and develops a new crown while the “parent” grows a new posterior.</div>			
+How do feather duster worms reproduce?	Feather duster worms reproduce both <b>sexually and asexually</b>. Sexual reproduction involves the release of gametes into the water where the fertilized eggs develop into free-swimming larvae that eventually settle in an appropriate habitat. In the case of Serpulids, they settle on corals and the coral grows around the calcareous tube they build, making asexual reproduction nearly an impossibility for them.			
+feather duster worm tube rebuild duration	The worm can build a new transparent tube in a matter of hours, and it will coat the tube with sand and detritus over a matter of a few days.			
+cluster duster species	<i>Bispira brunnea</i>			
+rhodophyta pigment	Red algae contain a pigment called <b>phycoerythrin</b>. This pigment absorbs blue light and reflects red light, giving the algae its red color. Being that blue light penetrates deeper in the water column, red algae tend to be found growing at greater depths.			
+red algae	rhodophyta			
+"<img src=""entramorpha.jpg"" />"	<i>Ulva intestinalis</i>			
+"<img src=""ulva.jpg"" />"	<i>Ulva lactuca</i>			
+"<img src=""codium.jpg"" />"	<i>Codium fragile</i> with a red algae growing as an epiphyte			
+Dead Man's Fingers or Green Fleece	Arriving to the east coast of America from the Pacific in 1957, <i>Codium fragile</i> is an invasive green alga that is quite abundant. Commonly called Dead Man's Fingers or Green Fleece, <i>C. fragile</i> grows in ropelike spongy branches, and when exposed at low tide, it looks like fingers. <i>C. fragile</i> is unique as it is a long single cell that is made up of many nuclei but no cell wall dividing them. Being able to reproduce by fragmentation has allowed it to spread easily through out the east coast of North America.			
+brown algae	<b>Chrysophyta</b>, the brown algae, tend to grow much larger than the greens. Some of The most common brown algae of the intertidal zone belong to the genus, <i>Fucus</i>. <i>Fucus</i> can tolerate exposure to a wide range of environmental conditions. Being exposed at low tide, it is subject to freezing in winter months, and to extreme heat and dehydration in the summer. To adapt to these harsh conditions, <i>Fucus</i> has thick rubbery blades allowing the algae to retain moisture while it is exposed. The blades of <i>Fucus</i> have many air bladders that provide buoyancy for the blades. This buoyancy allows the blades to sway in the currents removing any detritus that has settled during the low tide.			
+"<img src=""agardhiella.jpg"" />"	<i><b>Agardhiella tenera</b></i><div><i><br /></i></div><div>Two other species of red algae commonly found around Long Island and ranging to the tropics are, <i>Agardhiella tenera</i> and <i>Gracilaria foliifera</i>. Both species are delicately branched and their color can vary from a bright red to almost brown. They can be found attached to rocks or shells, but are more commonly found free floating. They seem to prefer calm waters where they are less likely to be washed ashore.</div>			
+teratogen	an agent or factor that causes malformation of an embryo	y		
+anosognosia	Impaired awareness of illness, caused by damage to specific parts of the brain, especially the right hemisphere.<div><br /></div><div>It is the main reason people with schizophrenia and bipolar disorder do not take their medications.</div>	y		
+-273.15 °C	-459.67 °F	y		
+T(°F) = T(°C) × {{c1::9/5}} + {{c2::32}}		
+-50 °C	-58.0 °F	y		
+-40 °C	-40.0 °F	y		
+-30 °C	-22.0 °F	y		
+-20 °C	-4.0 °F	y		
+-10 °C	14.0 °F	y		
+-9 °C	15.8 °F	y		
+-8 °C	17.6 °F	y		
+-7 °C	19.4 °F	y		
+-6 °C	21.2 °F	y		
+-5 °C	23.0 °F	y		
+-4 °C	24.8 °F	y		
+-3 °C	26.6 °F	y		
+-2 °C	28.4 °F	y		
+-1 °C	30.2 °F	y		
+0 °C	32.0 °F	y		
+1 °C	33.8 °F	y		
+2 °C	35.6 °F	y		
+3 °C	37.4 °F	y		
+4 °C	39.2 °F	y		
+5 °C	41.0 °F	y		
+6 °C	42.8 °F	y		
+7 °C	44.6 °F	y		
+8 °C	46.4 °F	y		
+9 °C	48.2 °F	y		
+10 °C	50.0 °F	y		
+20 °C	68.0 °F	y		
+21 °C	69.8 °F	y		
+30 °C	86.0 °F	y		
+37 °C	98.6 °F	y		
+40 °C	104.0 °F	y		
+50 °C	122.0 °F	y		
+60 °C	140.0 °F	y		
+70 °C	158.0 °F	y		
+80 °C	176.0 °F	y		
+90 °C	194.0 °F	y		
+100 °C	212.0 °F	y		
+200 °C	392.0 °F	y		
+300 °C	572.0 °F	y		
+400 °C	752.0 °F	y		
+500 °C	932.0 °F	y		
+600 °C	1112.0 °F	y		
+700 °C	1292.0 °F	y		
+800 °C	1472.0 °F	y		
+900 °C	1652.0 °F	y		
+1000 °C	1832.0 °F	y		
+Hib-MenCY-TT	bivalent meningococcal conjugate vaccine that&nbsp;protects against serogroups C and Y and&nbsp;and Haemophilus influenzae type b conjugate vaccine	y		
+MenACWY	quadrivalent (protects against serogroups A, C, W, and Y) meningococcal conjugate vaccine	y		
+MPSV4	quadrivalent meningococcal polysaccharide vaccine that protects against serogroups A, C, W, and Y	y		
+MenB	monovalent meningococcal vaccine that protects against serogroup B	y		
+meningococcal disease	Meningococcal disease is caused by the bacterium Neisseria meningitidis, also called meningococcus. Some people carry these bacteria in the back of their nose and throat with no signs or symptoms of disease. But sometimes these bacteria can invade the body causing certain illnesses, which collectively are known as meningococcal disease.<div><br /></div><div>The two most severe and common illnesses caused by Neisseria meningitidis include infections of the lining of the brain and spinal cord (meningitis) and bloodstream infections (bacteremia or septicemia). Meningococcal disease can be deadly and should always be viewed as a medical emergency. About 10 to 15 percent of meningococcal disease cases are fatal. Of patients who recover, up to 1 in 5 experience long-term disabilities, such as loss of limbs, deafness, nervous system problems, or brain damage.</div>	y	y	
