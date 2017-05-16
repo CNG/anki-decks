@@ -1,0 +1,47 @@
+/b/	<b>b</b>oy, <b>b</b>a<b>b</b>y, ro<b>b</b>	y		
+/d/	<b>d</b>o, la<b>dd</b>er, be<b>d</b>	y		
+/dʒ/	<b>j</b>ump, bu<b>dg</b>et, a<b>g</b>e	y		
+/f/	<b>f</b>ood, o<b>ff</b>er, sa<b>f</b>e	y		
+/g/	<b>g</b>et, bi<b>gg</b>er, do<b>g</b>	y		
+/h/	<b>h</b>appy, a<b>h</b>ead	y		
+/k/	<b>c</b>an, spea<b>k</b>er, sti<b>ck</b>	y		
+/l/	<b>l</b>et, fo<b>ll</b>ow, sti<b>ll</b>	y		
+/m/	<b>m</b>ake, su<b>mm</b>er, ti<b>m</b>e	y		
+/n/	<b>n</b>o, di<b>nn</b>er, thi<b>n</b>	y		
+/ŋ/	si<b>ng</b>er, thi<b>n</b>k, lo<b>ng</b>	y		
+/p/	<b>p</b>ut, a<b>pp</b>le, cu<b>p</b>	y		
+/r/	<b>r</b>un, ma<b>rr</b>y, fa<b>r</b>, sto<b>r</b>e	y		
+/s/	<b>s</b>it, <b>c</b>ity, pa<b>ss</b>ing, fa<b>c</b>e	y		
+/ʃ/	<b>sh</b>e, sta<b>ti</b>on, pu<b>sh</b>	y		
+/t/	<b>t</b>op, be<b>tt</b>er, ca<b>t</b>	y		
+/tʃ/	<b>ch</b>ur<b>ch</b>, wa<b>tch</b>ing, na<b>t</b>ure, wi<b>tch</b>	y		
+/θ/	<b>th</b>irsty, no<b>th</b>ing, ma<b>th</b>	y		
+/ð/	<b>th</b>is, mo<b>th</b>er, brea<b>th</b>e	y		
+/v/	<b>v</b>ery, se<b>v</b>en, lo<b>v</b>e	y		
+/w/	<b>w</b>ear, a<b>w</b>ay	y		
+/y/	<b>y</b>es, on<b>i</b>on	y		
+/z/	<b>z</b>oo, ea<b>s</b>y, bu<b>zz</b>	y		
+/ʒ/	mea<b>s</b>ure, televi<b>s</b>ion, bei<b>ge</b>	y		
+/æ/	<b>a</b>pple, c<b>a</b>n, h<b>a</b>t	y		
+/eɪ/	<b>ai</b>d, h<b>a</b>te, d<b>ay</b>	y		
+/ɑ/	<b>a</b>rm, f<b>a</b>ther, ah<b>a</b>	y		
+/ɛər/	<b>air</b>, c<b>are</b>ful, w<b>ear</b>	y		
+/ɔ/	<b>a</b>ll, <b>o</b>r, t<b>a</b>lk, l<b>o</b>st, s<b>aw</b>	y		
+/aʊər/	<b>hour</b>	y		
+/ɛ/	<b>e</b>ver, h<b>ea</b>d, g<b>e</b>t	y		
+/i/	<b>ea</b>t, s<b>ee</b>, n<b>ee</b>d	y		
+/ɪər/	<b>ear</b>, h<b>e</b>ro, b<b>eer</b>	y		
+/ər/	teach<b>er</b>, aft<b>er</b>ward, murd<b>erer</b>	y		
+/ɜr/	<b>ear</b>ly, b<b>ir</b>d, st<b>irr</b>ing	y		
+/ɪ/	<b>i</b>t, b<b>i</b>g, f<b>i</b>n<b>i</b>sh<b>e</b>s	y		
+/aɪ/	<b>I</b>, <b>i</b>ce, h<b>i</b>de, den<b>y</b>	y		
+/aɪər/	f<b>ire</b>, t<b>ire</b>d	y		
+/ɒ/	<b>o</b>dd, h<b>o</b>t, w<b>a</b>ffle	y		
+/oʊ/	<b>owe</b>, r<b>oa</b>d, bel<b>ow</b>	y		
+/u/	<b>oo</b>ze, f<b>oo</b>d, s<b>ou</b>p, s<b>ue</b>	y		
+/ʊ/	g<b>oo</b>d, b<b>oo</b>k, p<b>u</b>t	y		
+/ɔɪ/	<b>oi</b>l, ch<b>oi</b>ce, t<b>oy</b>	y		
+/aʊ/	<b>o</b>ut, l<b>ou</b>d, h<b>o</b>w	y		
+/ʌ/	<b>u</b>p, m<b>o</b>ther, m<b>u</b>d	y		
+/ə/	<b>a</b>bout, anim<b>a</b>l, probl<b>e</b>m, circ<b>us</b>	y		
+/ˈ/ and /ˌ/	/ˈ/ indicates primary stressed syllable follows; /ˌ/ indicates secondary stressed syllable follows, as in news‧pa‧per  /ˈnuzˌpeɪ pər/ and in‧for‧ma‧tion  /ˌɪn fərˈmeɪ ʃən/	y		
