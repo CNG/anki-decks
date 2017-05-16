@@ -1,0 +1,206 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "5466d345-35b7-11e7-b953-2c56dc924912", 
+    "deck_config_uuid": "542d7433-35b7-11e7-a50f-2c56dc924912", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "542d7433-35b7-11e7-a50f-2c56dc924912", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Medium", 
+            "new": {
+                "bury": false, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 0, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "mid": "1475043240989", 
+    "name": "General::Politics", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "css": ".card {\n  font-family:  Georgia, Helvetica;\n  font-size: 50px;\n  text-align: center;\n  color: #2aa198;\n  background-color: #002b36;\n  xfont-weight: bold;\n}\na {\n  text-decoration: none;\n  color: inherit;\n}\na:hover {\n  color: #d33682;\n}\n.meta {\n  color: #b58900;\n  font-size: 14px;\n  font-weight: normal;\n}\n.definition {\n  margin-top:30px;\n  font-family: Georgia;\n  color: #268bd2;\n  font-size: 50px;\n  font-weight: normal;\n}\n.long {\n  font-size: 20px;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "ShowReversed", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "LongAnswer", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[18pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}", 
+            "name": "BasicDark", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1, 
+                        2
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"definition{{#LongAnswer}} long{{/LongAnswer}}\">{{Back}}</div>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "BasicDark-Forward", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{Front}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "BasicDark-Reversed", 
+                    "ord": 1, 
+                    "qfmt": "{{#ShowReversed}}\n<div class=\"definition {{#LongAnswer}}long{{/LongAnswer}}\">{{Back}}</div>\n{{/ShowReversed}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "McCutcheon v. FEC", 
+                "struck down overall limits on federal political contributions", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "D8LYwkhdd6", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "2002 Bipartisan Campaign Reform Act is AKA:", 
+                "McCain-Feingold", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Hc4U!&xLC3", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "2002 Bipartisan Campaign Reform Act (\"McCain-Feingold\")", 
+                "prohibited large contributions by wealthy individuals and corporations to national party committees (all of whose receipts were publicly disclosed)", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qnVa1Jqlb:", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Party sponsored portions of TV ads", 
+                "In pre-reform 2000, the Republican and Democratic parties aired two-thirds of all advertisements in the presidential general election. In post-reform 2004, that figure dropped to one-third; in 2008, it was less than one-fourth. By 2012, just 6 percent of all advertisements were sponsored by the political parties.", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "oVyPuS)(TZ", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }
+    ]
+}
