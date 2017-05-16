@@ -1,3 +1,53 @@
+Python byte code cache location	<code>.pyc</code> files alongside <code>.py</code> files, or in 3.2 and later, in subdirectory named <code>__pycache__</code>	y		
+Can Python execute without <code>.py</code> file?	Yes, if the <code>.pyc</code> files are present			
+Python byte code is saved for which files?	Anything imported, but not the top level file that is only run as a script.			
+Python interactive interpreter automatically {{c1::<b>prints</b>}}		
+Force Python to run a file again	from imp import reload # not required to import in 2.X<div>reload(<i>script</i>)</div><div><br /></div><div>import imp # not required to import in 2.X<div>imp.reload(<i>script</i>)</div></div>			
+Reading file with <b>exec</b> in Python	2.X:<div><br /></div><div>execfile('module.py')</div><div><br /></div><div>exec(open('module.py')) # automatically reads</div><div><br /></div><div>3.X and 2.X:</div><div><br /></div><div>exec(open('module.py').read())</div>			
+$ python <b>-i</b> m.py	Enter interactive interpreter mode after running script whether it ends successfully or not, allowing accessing variables and doing postmortem		y	
+Python <b>Number</b> examples	1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()			
+Python <b>String</b> examples	"'spam', ""Bob's"", b'a\x01c', u'sp\xc4m'"			
+Python <b>List</b> examples	[1, [2, 'three'], 4.5], list(range(10))			
+Python <b>Dictionary</b> examples	{'food': 'spam', 'taste': 'yum'}, dict(hours=10)			
+Python <b>Tuple</b> examples	(1, 'spam', 4, 'U'), tuple('spam'), namedtuple			
+Python <b>File </b>examples	open('eggs.txt'), open(r'C:\ham.bin', 'wb')			
+Python <b>Set</b> examples	set('abc'), {'a', 'b', 'c'}			
+Python other core types	Booleans, types, None			
+Python program unit types	Functions, modules, classes			
+Python implementation-related types	Compiled code, stack tracebacks			
+Does Python have type declarations?	no			
+Python exponentiation operator	2 <b>**</b> 100			
+Python slice of all but last	<b>S[:-1]</b>	y		
+Python repetition	S * 8	y		
+Python string concatentation	S + 'ing'	y		
+Are strings mutable in Python?	no			
+Core Python types that are mutable	lists, dictionaries, sets			
+Core Python types that are immutable	numbers, strings, tuples			
+Python type that allows in place text changes	2.6+, 3.0+, only supports 8 bit wide characters:<div><br /></div><div>&gt;&gt;&gt; B = bytearray(b'spam')</div><div>&gt;&gt;&gt;&nbsp;B.extend(b'eggs') # 'b' needed in 3.X, not 2.X</div><div>&gt;&gt;&gt;&nbsp;B # B[i] = ord(x) works here too</div><div>bytearray(b'spameggs')</div><div>&gt;&gt;&gt;&nbsp;B.decode() # translate to normal string</div><div>'spameggs'</div>		y	
+Python's basic substring search operation	<div>&gt;&gt;&gt;&nbsp;S = 'Spam'</div>&gt;&gt;&gt;&nbsp;S.<b>find</b>('pa')<div>1</div>			
+Python string formatting expression	'%s, eggs, and %s' % ('spam', 'SPAM!') # works in 2.X and 3.X			
+Python string formatting method	<div>'{0}, eggs, and {1}'.format('spam', 'SPAM!') # works in 2.6+ and 3.0+</div><div><br /></div><div>Numbers optional:</div><div>'{}, eggs, and {}'.format('spam', 'SPAM!') # works in 2.7+ and 3.1+</div><div><br /></div>		y	
+In Python, lists all attributes available for any object	<b>dir</b>(S)			
+Python raw string literal	r'C:\text\new'			
+Python multiline string	"Use three quotes or doublequotes:<div><br /></div><div>msg = """"""</div><div>aaaaaa</div><div>bbb''''bbbbb""""bbbbb'bbbbb</div><div>ccccc</div><div>""""""</div>"			
+Python strings and Unicode	3.X, normal str strings support Unicode:<div>&gt;&gt;&gt; 'sp\xc4m' # but in 2.X this works like 3.X byte strings</div><div>'spām'</div><div><br /></div><div>3.X byte strings are raw bytes, also works in 2.6+:</div><div>&gt;&gt;&gt; b'a\x01c'</div><div>b'a\x01c'</div><div><br /></div><div>2.X Unicode literal also works in 3.3+:</div><div>&gt;&gt;&gt; u'sp\u00c4m'</div><div><div>'spām'</div></div>			
+Python short Unicode escape	\u			
+Python long Unicode escape	\U			
+Python 2.X/3.X files differences regarding Unicode	In 3.X, text files implement named encodings and accept and return str strings, but binary files instead deal in bytes strings for raw binary data.<div><br /></div><div>In 2.X, normal files' content is str bytes, and a special codecs module handles Unicode and represents content with the unicode type</div>			
+Python List description	The Python list object is the most general <i>sequence</i> provided by the language. Lists are <b>positionally ordered</b> collections of arbitrarily typed objects, and they have no fixed size and are <b>mutable</b>.			
+Python list comprehension expression example	&gt;&gt;&gt;&nbsp;M = [[1,2,3],[4,5,6],[7,8,9]]<div><div>&gt;&gt;&gt;&nbsp;col2 =&nbsp;<b>[row[1] for row in M]</b><div>&gt;&gt;&gt; col2</div><div>[2, 5, 8]</div></div></div><div><br /></div><div><div>&gt;&gt;&gt;&nbsp;col2 =&nbsp;<b>[row[1] for row in M in row[1] % 2 == 0] #filter out odd items</b><div>&gt;&gt;&gt; col2</div><div>[2, 8]</div></div></div><div><br /></div>	y		
+Python expressions to collect values need wrapping in collection in 3.X	&gt;&gt;&gt; list(range(4)) # list() required in 3.X<div>[0, 1, 2, 3]</div>			
+Python generator from comprehension	<div>&gt;&gt;&gt; G = (sum(row) for row in M) # wrap in parentheses</div><div>&gt;&gt;&gt; next(G)</div>	y		
+Python comprehension syntax can make sets and dictionaries in which versions?	<b>2.7</b> and <b>3.X</b>:<div><br /></div><div>&gt;&gt;&gt; {sum(M[i]) for i in range(3)}</div><div>{0: 6, 1: 15, 2: 24}</div>			
+Python dictionaries	Dictionaries are the only mapping type in Python's core objects set, and are also mutable: like lists, they may be changed in place and can grow and shrink on demand.<div><br /></div><div>&gt;&gt;&gt; D = {'food': 'Spam', 'quantity': 4, 'color': 'pink'}</div>		y	
+Test if Python dictionary key exists	&gt;&gt;&gt; 'f' in D<div>False</div><div><br /></div><div>&gt;&gt;&gt; if not 'f' in D:</div><div>&nbsp; &nbsp; &nbsp; &nbsp;print('missing')</div><div><br /></div><div>missing</div><div><br /></div><div><br /></div><div>Can also avoid accessing nonexistent by using get() method, conditional index with a default, or in 2.X has_key() method, or try statement, or if/else ternary</div>	y	y	
+What if we need sorted dictionary keys in Python?	Use dictionary keys() method and sort with list sort() method, then step through result with for loop<div><br /></div><div>&gt;&gt;&gt; Ks = list(D.keys())</div><div>&gt;&gt;&gt; Ks.sort()</div><div>['a', 'b', 'c']</div><div>&gt;&gt;&gt; for key in Ks:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print(key, '=&gt;', D[key]) # 3.X print, in 2.X remove parentheses</div><div><br /></div><div><div>a =&gt; 1</div></div><div><div>b =&gt; 2</div></div><div><div>c =&gt; 3</div></div>			
+Python Tuple	immutable sequence, usually coded with parentheses instead of square brackets, which is built by commas. Parentheses aren't needed where commas don't otherwise matter, such as:<div><br /></div><div>&gt;&gt;&gt; T = 'spam', 3.0, [11, 22, 33]</div><div>&gt;&gt;&gt; T[1]</div><div>3.0</div><div><br /></div>	y		
+Python set syntax	New in 3.X and 2.7, sets use {...}, as they are like keys in a valueless dictionary:<div><br /></div><div>&gt;&gt;&gt; X = set('spam')</div><div>&gt;&gt;&gt; Y = {'h', 'a', 'm'}</div><div>&gt;&gt;&gt; X, Y</div><div>({'m', 'a', 'p', 's'}, {'m', 'a', 'h'})</div><div><div><div><div>&gt;&gt;&gt; X &amp; Y # intersection</div><div>{'m', 'a'}</div></div><div><div>&gt;&gt;&gt; X | Y # union</div><div><div><div>{'m', 'h', 'a', 'p', 's'}</div></div><div><div><div>&gt;&gt;&gt; X - Y # difference</div><div>{'p', 's'}</div></div><div><div>&gt;&gt;&gt; X &gt; Y # superset</div><div><div><div>False</div></div><div><br /></div><div></div></div></div></div><div></div></div></div></div></div>		y	
+Python objects and names commonly initialized with this value	None			
+Python Booleans	True and False objects, essentially just 0 and 1 with custom display logic			
+Python type differences 2.X and 3.X	<div>2.X:<div>&gt;&gt;&gt; type(L)</div><div>&lt;type 'list'&gt;</div><div>&gt;&gt;&gt; type(type(L))</div><div>&lt;type 'type'&gt;</div><div><br /></div><div>3.X:<div>&gt;&gt;&gt; type(L)</div><div>&lt;class 'list'&gt;</div><div>&gt;&gt;&gt; type(type(L))</div><div>&lt;class 'type'&gt;</div></div></div>		y	
+Python type checking	<div><div>&gt;&gt;&gt; if type(L) == type([]):</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print('yes')</div><div><br /></div><div>yes</div></div><div><div>&gt;&gt;&gt; if type(L) == list:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print('yes')</div><div><br /></div><div>yes</div></div><div><div>&gt;&gt;&gt; if isinstance(L, list):</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print('yes')</div><div><br /></div><div>yes</div></div>		y	
 Find version available on Homebrew	brew search <i>keyword</i><div>brew info <i>result</i></div>			
 Command line convert hex to decimal	"echo $((0x<i>15a</i>))<div><br /></div><div>printf '%d\n' 0x<i>15a</i></div><div><br /></div><div>perl -e 'printf (""%d\n"", 0x<i>15a</i>)'</div><div><br /></div><div>echo 'ibase=16;obase=A;<i>15A</i>' | bc</div><div><br /></div><div>Note that ibase and obase specify the input and the output notation respectively.&nbsp;By default, the notation for both is decimal unless you change it using ibase or obase.&nbsp;Because you change the notation to hex using ibase, your obase needs to be specified in hex (A in hex = 10 in decimal).&nbsp;The input number (15A) needs to be in UPPER case. 15a will give you a parse error.</div><div><br /></div>"	y	y	
 lscpu	<div>Gathers CPU architecture information like number of CPUs, threads, cores, sockets, NUMA nodes, information about&nbsp;CPU caches, CPU family, model, bogoMIPS, byte order and stepping from sysfs and /proc/cpuinfo, &nbsp;and &nbsp;prints &nbsp;it &nbsp;in &nbsp;a&nbsp;human-readable format. &nbsp;It supports both online and offline CPUs. &nbsp;It can also print out in a parsable format, including how different caches are shared by different CPUs, which can be fed to other programs.</div>	y	y	
