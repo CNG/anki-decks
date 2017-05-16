@@ -1,0 +1,1141 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "5426a6cc-35b7-11e7-ac96-2c56dc924912", 
+    "deck_config_uuid": "604d2e8f-3a8b-11e7-b94d-2c56dc924912", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "604d2e8f-3a8b-11e7-b94d-2c56dc924912", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Aggressive", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    8
+                ], 
+                "order": 0, 
+                "perDay": 200, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 500
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 1000, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "mid": "1494360100815", 
+    "name": "General::Technical", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+            "css": ".card {\n  font-family:  Monaco, monospace;\n  font-size: 50px;\n  text-align: center;\n  color: #2aa198;\n  background-color: #002b36;\n}\n.definition, .question {\n  margin-top:15px;\n  font-family:  \"Optima\", Georgia;\n  color: #268bd2;\n  font-size: 40px;\n  font-weight: normal;\n}\n.examples {\n  margin-top:15px;\n  color: #268bd2;\n  font-size: 30px;\n  font-family:  Monaco, monospace;\n}\n.question { color: #b58900; }\n.long { font-size: 30px; }\nb {\n  font-family:  Monaco, monospace;\n  color: #2aa198;\nwhite-space:pre-wrap;\n}\nu {\n  font-family:  Monaco, monospace;\n  color: #2aa198;\n}", 
+            "flds": [
+                {
+                    "font": "Monaco", 
+                    "media": [], 
+                    "name": "sort name", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Monaco", 
+                    "media": [], 
+                    "name": "command", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Monaco", 
+                    "media": [], 
+                    "name": "extra type", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Monaco", 
+                    "media": [], 
+                    "name": "short option", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Monaco", 
+                    "media": [], 
+                    "name": "long option", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Monaco", 
+                    "media": [], 
+                    "name": "extra", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "description", 
+                    "ord": 6, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Monaco", 
+                    "media": [], 
+                    "name": "examples", 
+                    "ord": 7, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "command only", 
+                    "ord": 8, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[18pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}", 
+            "name": "Shell", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        1, 
+                        6, 
+                        8
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        6, 
+                        8
+                    ]
+                ], 
+                [
+                    2, 
+                    "all", 
+                    [
+                        3, 
+                        6
+                    ]
+                ], 
+                [
+                    3, 
+                    "all", 
+                    [
+                        4, 
+                        6
+                    ]
+                ], 
+                [
+                    4, 
+                    "all", 
+                    [
+                        3, 
+                        4
+                    ]
+                ], 
+                [
+                    5, 
+                    "all", 
+                    [
+                        3, 
+                        4
+                    ]
+                ], 
+                [
+                    6, 
+                    "all", 
+                    [
+                        3, 
+                        6
+                    ]
+                ], 
+                [
+                    7, 
+                    "all", 
+                    [
+                        4, 
+                        6
+                    ]
+                ], 
+                [
+                    8, 
+                    "all", 
+                    [
+                        3, 
+                        5
+                    ]
+                ], 
+                [
+                    9, 
+                    "all", 
+                    [
+                        3, 
+                        5
+                    ]
+                ], 
+                [
+                    10, 
+                    "all", 
+                    [
+                        4, 
+                        5
+                    ]
+                ], 
+                [
+                    11, 
+                    "all", 
+                    [
+                        4, 
+                        5
+                    ]
+                ], 
+                [
+                    12, 
+                    "all", 
+                    [
+                        5, 
+                        6
+                    ]
+                ], 
+                [
+                    13, 
+                    "all", 
+                    [
+                        5, 
+                        6
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"definition long\">{{description}}</div>\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "cmd desc", 
+                    "ord": 0, 
+                    "qfmt": "{{#description}}\n  {{#command only}}\n    <div class=\"question\">\n      Description of <b>{{command}}</b>\n    </div>\n  {{/command only}}\n{{/description}}\n"
+                }, 
+                {
+                    "afmt": "{{command}}\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "desc cmd", 
+                    "ord": 1, 
+                    "qfmt": "{{#description}}\n  {{#command only}}\n    <div class=\"question\">Command that:</div>\n    <div class=\"definition long\">{{description}}</div>\n  {{/command only}}\n{{/description}}\n"
+                }, 
+                {
+                    "afmt": "{{command}} {{short option}}\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "desc -", 
+                    "ord": 2, 
+                    "qfmt": "{{#description}}\n  {{#short option}}\n    <span class=\"question\">Short option to make <b>{{text:command}}</b></span>\n    <div class=\"definition long\">{{description}}</div>\n  {{/short option}}\n{{/description}}\n"
+                }, 
+                {
+                    "afmt": "{{command}} {{long option}}\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "desc --", 
+                    "ord": 3, 
+                    "qfmt": "{{#description}}\n  {{#long option}}\n    <span class=\"question\">Long option to make <b>{{text:command}}</b></span>\n    <div class=\"definition long\">{{description}}</div>\n  {{/long option}}\n{{/description}}\n"
+                }, 
+                {
+                    "afmt": "{{command}} {{short option}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "-- -", 
+                    "ord": 4, 
+                    "qfmt": "{{#long option}}\n  {{#short option}}\n    <div class=\"question\">short form of</div>\n    {{command}} {{long option}}\n  {{/short option}}\n{{/long option}}\n"
+                }, 
+                {
+                    "afmt": "{{command}} {{long option}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "- --", 
+                    "ord": 5, 
+                    "qfmt": "{{#long option}}\n  {{#short option}}\n    <div class=\"question\">long form of</div>\n    {{command}} {{short option}}\n  {{/short option}}\n{{/long option}}\n"
+                }, 
+                {
+                    "afmt": "<div class=\"definition long\">{{description}}</div>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "- desc", 
+                    "ord": 6, 
+                    "qfmt": "{{#description}}\n  {{#short option}}\n    <div class=\"question\">description of</div>\n    {{command}} {{short option}}\n  {{/short option}}\n{{/description}}\n"
+                }, 
+                {
+                    "afmt": "<div class=\"definition long\">{{description}}</div>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "-- desc", 
+                    "ord": 7, 
+                    "qfmt": "{{#description}}\n  {{#long option}}\n    <div class=\"question\">description of</div>\n    {{command}} {{long option}}\n  {{/long option}}\n{{/description}}\n"
+                }, 
+                {
+                    "afmt": "{{command}} {{short option}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "alias -", 
+                    "ord": 8, 
+                    "qfmt": "{{#short option}}\n  <div class=\"question\">short form of</div>\n  {{extra}}\n{{/short option}}"
+                }, 
+                {
+                    "afmt": "{{extra}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "- alias", 
+                    "ord": 9, 
+                    "qfmt": "{{#extra}}\n  <div class=\"question\">alias of</div>\n  {{#short option}}{{command}} {{short option}}{{/short option}}\n{{/extra}}\n"
+                }, 
+                {
+                    "afmt": "{{command}} {{long option}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "alias --", 
+                    "ord": 10, 
+                    "qfmt": "{{#long option}}\n  <div class=\"question\">long form of</div>\n  {{extra}}\n{{/long option}}"
+                }, 
+                {
+                    "afmt": "{{extra}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "-- alias", 
+                    "ord": 11, 
+                    "qfmt": "{{#extra}}\n  <div class=\"question\">alias of</div>\n  {{#long option}}{{command}} {{long option}}{{/long option}}\n{{/extra}}\n"
+                }, 
+                {
+                    "afmt": "{{extra}}\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "extra desc", 
+                    "ord": 12, 
+                    "qfmt": "{{#description}}\n  {{#extra}}\n    <div class=\"question\">\n      <b>{{command}}</b>\n      {{text:extra type}} that means\n    </div>\n    <div class=\"definition long\">{{description}}</div>\n  {{/extra}}\n{{/description}}\n"
+                }, 
+                {
+                    "afmt": "<div class=\"definition long\">{{description}}</div>\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "desc extra", 
+                    "ord": 13, 
+                    "qfmt": "{{#description}}\n  {{#extra}}\n    <div class=\"question\">\n      description of\n      <b>{{text:command}}</b> {{text:extra type}}\n    </div>\n    {{extra}}\n  {{/extra}}\n{{/description}}\n"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "css": ".card {\n  font-family:  Georgia, Helvetica;\n  font-size: 50px;\n  text-align: center;\n  color: #2aa198;\n  background-color: #002b36;\n  xfont-weight: bold;\n}\na {\n  text-decoration: none;\n  color: inherit;\n}\na:hover {\n  color: #d33682;\n}\n.meta {\n  color: #b58900;\n  font-size: 14px;\n  font-weight: normal;\n}\n.definition {\n  margin-top:30px;\n  font-family: Georgia;\n  color: #268bd2;\n  font-size: 50px;\n  font-weight: normal;\n}\n.long {\n  font-size: 20px;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "ShowReversed", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "LongAnswer", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[18pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}", 
+            "name": "BasicDark", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1, 
+                        2
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"definition{{#LongAnswer}} long{{/LongAnswer}}\">{{Back}}</div>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "BasicDark-Forward", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{Front}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "BasicDark-Reversed", 
+                    "ord": 1, 
+                    "qfmt": "{{#ShowReversed}}\n<div class=\"definition {{#LongAnswer}}long{{/LongAnswer}}\">{{Back}}</div>\n{{/ShowReversed}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Find version available on Homebrew", 
+                "brew search <i>keyword</i><div>brew info <i>result</i></div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nVw^)xx&{-", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Command line convert hex to decimal", 
+                "echo $((0x<i>15a</i>))<div><br /></div><div>printf '%d\\n' 0x<i>15a</i></div><div><br /></div><div>perl -e 'printf (\"%d\\n\", 0x<i>15a</i>)'</div><div><br /></div><div>echo 'ibase=16;obase=A;<i>15A</i>' | bc</div><div><br /></div><div>Note that ibase and obase specify the input and the output notation respectively.&nbsp;By default, the notation for both is decimal unless you change it using ibase or obase.&nbsp;Because you change the notation to hex using ibase, your obase needs to be specified in hex (A in hex = 10 in decimal).&nbsp;The input number (15A) needs to be in UPPER case. 15a will give you a parse error.</div><div><br /></div>", 
+                "y", 
+                "y"
+            ], 
+            "flags": 0, 
+            "guid": "l!*NGvAC9L", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "lscpu", 
+                "<div>Gathers CPU architecture information like number of CPUs, threads, cores, sockets, NUMA nodes, information about&nbsp;CPU caches, CPU family, model, bogoMIPS, byte order and stepping from sysfs and /proc/cpuinfo, &nbsp;and &nbsp;prints &nbsp;it &nbsp;in &nbsp;a&nbsp;human-readable format. &nbsp;It supports both online and offline CPUs. &nbsp;It can also print out in a parsable format, including how different caches are shared by different CPUs, which can be fed to other programs.</div>", 
+                "y", 
+                "y"
+            ], 
+            "flags": 0, 
+            "guid": "Cim3wI+j=}", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "nproc", 
+                "print the number of processing units available", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "AL0Y,j&8[@", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "command"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "$?", 
+                "previous command return code in Bash", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jG0StMrpt!", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "command"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Simulate cron environment in a script", 
+                "<div>Add this to your cron:</div><div><br /></div><div><code>30 08 * * * env &gt; ~/cronenv</code></div><div><br /></div><div>After it runs, do this:</div><div><br /></div><div><code>env - `cat ~/cronenv` /bin/sh</code></div><div><code><br /></code></div><div><code>note: if adding that to the global /etc/crontab, you'll need the username too:</code></div><div><code><br /></code></div><div><code>* * * * * root env &gt; ~/cronenv</code></div>", 
+                "y", 
+                "y"
+            ], 
+            "flags": 0, 
+            "guid": "p3L$WG=&Q3", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Typical default cron environment", 
+                "<div>HOME (user's home directory)</div><div>LOGNAME (user's login)</div><div>PATH=/usr/bin:/usr/sbin:. (usually no longer . for sec reasons)</div><div>SHELL=/usr/bin/sh</div>", 
+                "y", 
+                "y"
+            ], 
+            "flags": 0, 
+            "guid": "q;,hp]SR(h", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Connect forked Git repo to original", 
+                "git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xd+zWs5_@;", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Sync forked Git repo with original", 
+                "<div># git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git</div><div>git fetch upstream</div><div>git checkout master</div><div>git merge upstream/master</div>", 
+                "y", 
+                "y"
+            ], 
+            "flags": 0, 
+            "guid": "k2Ht/!uc?-", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "printf quoted", 
+                "printf \"%q\\n\" \"$(tput bold)\"", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Hs:N7A-peT", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how to&nbsp;use find and xargs&nbsp;together", 
+                "<div>If you use find and xargs together, you should use -print0 to separate filenames with a null character rather than new lines. You then need to use -0 with xargs.</div><div><br /></div><div>david% touch \"foo bar\"</div><div>david% find | xargs ls</div><div>ls: ./foo: No such file or directory</div><div>ls: bar: No such file or directory</div><div>david% find -print0 | xargs -0 ls</div><div>./foo bar</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "l^26ZBIZ/N", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "prevent reading uninitialized variables in shell", 
+                "set -o nounset<div>set -u</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Cc%Ay(1N@q", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "make shell exit on any nonzero return", 
+                "set -e<div>set -o errexit</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w6gL;0D_[c", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how to check $? if using set -e", 
+                "Can not do this:<div><div>command</div><div>if [ \"$?\"-ne 0]; then echo \"command failed\"; exit 1; fi</div></div><div><br /></div><div>Can do this:</div><div>command || { echo \"command failed\"; exit 1; }</div><div><br /></div><div>Or:</div><div>if ! command; then echo \"command failed\"; exit 1; fi</div><div><br /></div><div>Or:</div><div><div>set +e</div><div>command1</div><div>command2</div><div>set -e</div></div><div><br /></div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "zXpl*Z#=a~", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "disable pipe returning code of last command", 
+                "set -o pipefail", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Bq70=PbT}U", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "List all signals you can trap", 
+                "kill -l", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "N.Z`Nq17H_", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Shell trap", 
+                "<div>if [ ! -e $lockfile ]; then</div><div>&nbsp; &nbsp;trap \"rm -f $lockfile; exit\" INT TERM EXIT</div><div>&nbsp; &nbsp;touch $lockfile</div><div>&nbsp; &nbsp;critical-section</div><div>&nbsp; &nbsp;rm $lockfile</div><div>&nbsp; &nbsp;trap - INT TERM EXIT</div><div>else</div><div>&nbsp; &nbsp;echo \"critical-section is already running\"</div><div>fi</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "x[qVfBy5*&", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Lockfile race condition solution", 
+                "<div>It’s worth pointing out that there is a slight race condition in the above lock example between the time we test for the lockfile and the time we create it. A possible solution to this is to use IO redirection and bash’s noclobber mode, which won’t redirect to an existing file. We can use something similar to:</div><div><br /></div><div>if ( set -o noclobber; echo \"$$\" &gt; \"$lockfile\") 2&gt; /dev/null;&nbsp;</div><div>then</div><div>&nbsp; &nbsp;trap 'rm -f \"$lockfile\"; exit $?' INT TERM EXIT</div><div><br /></div><div>&nbsp; &nbsp;critical-section</div><div><br /></div><div>&nbsp; &nbsp;rm -f \"$lockfile\"</div><div>&nbsp; &nbsp;trap - INT TERM EXIT</div><div>else</div><div>&nbsp; &nbsp;echo \"Failed to acquire lockfile: $lockfile.\"&nbsp;</div><div>&nbsp; &nbsp;echo \"Held by $(cat $lockfile)\"</div><div>fi</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "l~pK`|d7:/", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "find .. in shell history", 
+                "grep \\\\.\\\\. ~/.zsh_history", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "O2G@PiA=YZ", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "bash for range", 
+                "for i in {1..1000}; do; echo i; done", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "G)B!tZjN-M", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "zsh synonym for true", 
+                ":", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "y}hH5ZlPux", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "change to prevoius directory", 
+                "cd -", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "bT*3+$`RVC", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "replace first &lt;old&gt; with &lt;new&gt; in current directory path", 
+                "cd &lt;old&gt; &lt;new&gt;", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "f|*.q):-*9", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "directory stack", 
+                "pushd dirname<div><br /></div><div>popd</div>", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "q(UhduSpl1", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "null byte in GNU sed", 
+                "\\x00", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "q~n&UC%}4w", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "null byte", 
+                "\\0", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "r6vi$iO+>u", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\a", 
+                "backslash escaped alert (bell)", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b{X[$<$7=f", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\b", 
+                "backslash escaped backspace", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "yBaKZ1I$#1", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\c", 
+                "backslash escaped suppress trailing newline", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "gTc?HdmM[3", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\e", 
+                "backslash escaped escape character", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Q};n?~mhH,", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\f", 
+                "backslash escaped form feed", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "LjF{S!(Q;~", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\n", 
+                "backslash escaped new line", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "5^2{^=+eo", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\r", 
+                "backslash escaped carriage return", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qN6Z<}k@nT", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\t", 
+                "backslash escaped horizontal tab", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "l]CR58wCu:", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\v", 
+                "backslash escaped vertical tab", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "O|oSw=)Rz#", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\\\", 
+                "backslash escaped backslash", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "we-8CTX>E=", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\0<b><i>nnn</i></b>", 
+                "<div>backslash escaped eight-bit character whose value is the octal value&nbsp;<b><i>nnn</i></b> (zero to three octal digits)</div>", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "m-#Oh>b(*0", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\x<b><i>HH</i></b>", 
+                "<div>backslash escaped eight-bit character whose value is the hexadecimal&nbsp;value <i><b>HH</b></i> (one or two hex digits)</div>", 
+                "y", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h@pC2>#X8s", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Zsh&nbsp;startup files", 
+                "<div>$ZDOTDIR/.zshenv</div><div>$ZDOTDIR/.zprofile</div><div>$ZDOTDIR/.zshrc</div><div>$ZDOTDIR/.zlogin</div><div>$ZDOTDIR/.zlogout</div><div><br /></div><div>If ZDOTDIR is not set, then the value of HOME is used.</div><div><br /></div><div>`.zshenv' is sourced on all invocations of the shell, unless the -f option is set. It should contain commands to set the command search path, plus other important environment variables. `.zshenv' should not contain commands that produce output or assume the shell is attached to a tty.</div><div><br /></div><div>`.zshrc' is sourced in interactive shells. It should contain commands to set up aliases, functions, options, key bindings, etc.</div><div><br /></div><div>`.zlogin' is sourced in login shells. It should contain commands that should be executed only in login shells. `.zlogout' is sourced when login shells exit. `.zprofile' is similar to `.zlogin', except that it is sourced before `.zshrc'. `.zprofile' is meant as an alternative to `.zlogin' for ksh fans; the two are not intended to be used together, although this could certainly be done if desired. `.zlogin' is not the place for alias definitions, options, environment variable settings, etc.; as a general rule, it should not change the shell environment at all. Rather, it should be used to set the terminal type and run a series of external commands (fortune, msgs, etc).&nbsp;</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "fnE@twd-fq", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "unset shell function", 
+                "<b>unset -f</b> my_function<div><b>unfunction</b> my_function (zsh)</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "B.Xp)DM8&I", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>mv second_file.txt{.new,}</div>", 
+                "mv second_file.txt.new second_file.txt", 
+                "f", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "F@w*_t?yZ+", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "echo -n", 
+                "echo", 
+                "", 
+                "-n", 
+                "", 
+                "", 
+                "<div>suppress trailing newline</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qV}2$PPZ1:", 
+            "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "echo -e", 
+                "echo", 
+                "", 
+                "-e", 
+                "", 
+                "", 
+                "enable interpretation of backslash-escaped characters", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "EwW@=JDZm.", 
+            "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "echo -E", 
+                "echo", 
+                "", 
+                "-E", 
+                "", 
+                "", 
+                "disable interpretation of backslash-escaped characters", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "FX.&tH$K!|", 
+            "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "echo $?", 
+                "echo", 
+                "return status code", 
+                "", 
+                "", 
+                "return status code", 
+                "always <b>0</b>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "oFBThttIQ%", 
+            "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+            "tags": []
+        }
+    ]
+}

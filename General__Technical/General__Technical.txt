@@ -1,0 +1,45 @@
+Find version available on Homebrew	brew search <i>keyword</i><div>brew info <i>result</i></div>			
+Command line convert hex to decimal	"echo $((0x<i>15a</i>))<div><br /></div><div>printf '%d\n' 0x<i>15a</i></div><div><br /></div><div>perl -e 'printf (""%d\n"", 0x<i>15a</i>)'</div><div><br /></div><div>echo 'ibase=16;obase=A;<i>15A</i>' | bc</div><div><br /></div><div>Note that ibase and obase specify the input and the output notation respectively.&nbsp;By default, the notation for both is decimal unless you change it using ibase or obase.&nbsp;Because you change the notation to hex using ibase, your obase needs to be specified in hex (A in hex = 10 in decimal).&nbsp;The input number (15A) needs to be in UPPER case. 15a will give you a parse error.</div><div><br /></div>"	y	y	
+lscpu	<div>Gathers CPU architecture information like number of CPUs, threads, cores, sockets, NUMA nodes, information about&nbsp;CPU caches, CPU family, model, bogoMIPS, byte order and stepping from sysfs and /proc/cpuinfo, &nbsp;and &nbsp;prints &nbsp;it &nbsp;in &nbsp;a&nbsp;human-readable format. &nbsp;It supports both online and offline CPUs. &nbsp;It can also print out in a parsable format, including how different caches are shared by different CPUs, which can be fed to other programs.</div>	y	y	
+nproc	print the number of processing units available	y		command
+$?	previous command return code in Bash	y		command
+Simulate cron environment in a script	<div>Add this to your cron:</div><div><br /></div><div><code>30 08 * * * env &gt; ~/cronenv</code></div><div><br /></div><div>After it runs, do this:</div><div><br /></div><div><code>env - `cat ~/cronenv` /bin/sh</code></div><div><code><br /></code></div><div><code>note: if adding that to the global /etc/crontab, you'll need the username too:</code></div><div><code><br /></code></div><div><code>* * * * * root env &gt; ~/cronenv</code></div>	y	y	
+Typical default cron environment	<div>HOME (user's home directory)</div><div>LOGNAME (user's login)</div><div>PATH=/usr/bin:/usr/sbin:. (usually no longer . for sec reasons)</div><div>SHELL=/usr/bin/sh</div>	y	y	
+Connect forked Git repo to original	git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git			
+Sync forked Git repo with original	<div># git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git</div><div>git fetch upstream</div><div>git checkout master</div><div>git merge upstream/master</div>	y	y	
+printf quoted	"printf ""%q\n"" ""$(tput bold)"""			
+how to&nbsp;use find and xargs&nbsp;together	"<div>If you use find and xargs together, you should use -print0 to separate filenames with a null character rather than new lines. You then need to use -0 with xargs.</div><div><br /></div><div>david% touch ""foo bar""</div><div>david% find | xargs ls</div><div>ls: ./foo: No such file or directory</div><div>ls: bar: No such file or directory</div><div>david% find -print0 | xargs -0 ls</div><div>./foo bar</div>"			
+prevent reading uninitialized variables in shell	set -o nounset<div>set -u</div>			
+make shell exit on any nonzero return	set -e<div>set -o errexit</div>			
+how to check $? if using set -e	"Can not do this:<div><div>command</div><div>if [ ""$?""-ne 0]; then echo ""command failed""; exit 1; fi</div></div><div><br /></div><div>Can do this:</div><div>command || { echo ""command failed""; exit 1; }</div><div><br /></div><div>Or:</div><div>if ! command; then echo ""command failed""; exit 1; fi</div><div><br /></div><div>Or:</div><div><div>set +e</div><div>command1</div><div>command2</div><div>set -e</div></div><div><br /></div>"			
+disable pipe returning code of last command	set -o pipefail			
+List all signals you can trap	kill -l			
+Shell trap	"<div>if [ ! -e $lockfile ]; then</div><div>&nbsp; &nbsp;trap ""rm -f $lockfile; exit"" INT TERM EXIT</div><div>&nbsp; &nbsp;touch $lockfile</div><div>&nbsp; &nbsp;critical-section</div><div>&nbsp; &nbsp;rm $lockfile</div><div>&nbsp; &nbsp;trap - INT TERM EXIT</div><div>else</div><div>&nbsp; &nbsp;echo ""critical-section is already running""</div><div>fi</div>"			
+Lockfile race condition solution	"<div>It’s worth pointing out that there is a slight race condition in the above lock example between the time we test for the lockfile and the time we create it. A possible solution to this is to use IO redirection and bash’s noclobber mode, which won’t redirect to an existing file. We can use something similar to:</div><div><br /></div><div>if ( set -o noclobber; echo ""$$"" &gt; ""$lockfile"") 2&gt; /dev/null;&nbsp;</div><div>then</div><div>&nbsp; &nbsp;trap 'rm -f ""$lockfile""; exit $?' INT TERM EXIT</div><div><br /></div><div>&nbsp; &nbsp;critical-section</div><div><br /></div><div>&nbsp; &nbsp;rm -f ""$lockfile""</div><div>&nbsp; &nbsp;trap - INT TERM EXIT</div><div>else</div><div>&nbsp; &nbsp;echo ""Failed to acquire lockfile: $lockfile.""&nbsp;</div><div>&nbsp; &nbsp;echo ""Held by $(cat $lockfile)""</div><div>fi</div>"			
+find .. in shell history	grep \\.\\. ~/.zsh_history			
+bash for range	for i in {1..1000}; do; echo i; done			
+zsh synonym for true	:			
+change to prevoius directory	cd -	y		
+replace first &lt;old&gt; with &lt;new&gt; in current directory path	cd &lt;old&gt; &lt;new&gt;	y		
+directory stack	pushd dirname<div><br /></div><div>popd</div>	y		
+null byte in GNU sed	\x00	y		
+null byte	\0	y		
+echo -n	echo		-n			<div>suppress trailing newline</div>			
+echo -e	echo		-e			enable interpretation of backslash-escaped characters			
+echo -E	echo		-E			disable interpretation of backslash-escaped characters			
+echo $?	echo	return status code			return status code	always <b>0</b>			
+\a	backslash escaped alert (bell)	y		
+\b	backslash escaped backspace	y		
+\c	backslash escaped suppress trailing newline	y		
+\e	backslash escaped escape character	y		
+\f	backslash escaped form feed	y		
+\n	backslash escaped new line	y		
+\r	backslash escaped carriage return	y		
+\t	backslash escaped horizontal tab	y		
+\v	backslash escaped vertical tab	y		
+\\	backslash escaped backslash	y		
+\0<b><i>nnn</i></b>	<div>backslash escaped eight-bit character whose value is the octal value&nbsp;<b><i>nnn</i></b> (zero to three octal digits)</div>	y		
+\x<b><i>HH</i></b>	<div>backslash escaped eight-bit character whose value is the hexadecimal&nbsp;value <i><b>HH</b></i> (one or two hex digits)</div>	y		
+Zsh&nbsp;startup files	<div>$ZDOTDIR/.zshenv</div><div>$ZDOTDIR/.zprofile</div><div>$ZDOTDIR/.zshrc</div><div>$ZDOTDIR/.zlogin</div><div>$ZDOTDIR/.zlogout</div><div><br /></div><div>If ZDOTDIR is not set, then the value of HOME is used.</div><div><br /></div><div>`.zshenv' is sourced on all invocations of the shell, unless the -f option is set. It should contain commands to set the command search path, plus other important environment variables. `.zshenv' should not contain commands that produce output or assume the shell is attached to a tty.</div><div><br /></div><div>`.zshrc' is sourced in interactive shells. It should contain commands to set up aliases, functions, options, key bindings, etc.</div><div><br /></div><div>`.zlogin' is sourced in login shells. It should contain commands that should be executed only in login shells. `.zlogout' is sourced when login shells exit. `.zprofile' is similar to `.zlogin', except that it is sourced before `.zshrc'. `.zprofile' is meant as an alternative to `.zlogin' for ksh fans; the two are not intended to be used together, although this could certainly be done if desired. `.zlogin' is not the place for alias definitions, options, environment variable settings, etc.; as a general rule, it should not change the shell environment at all. Rather, it should be used to set the terminal type and run a series of external commands (fortune, msgs, etc).&nbsp;</div>			
+unset shell function	<b>unset -f</b> my_function<div><b>unfunction</b> my_function (zsh)</div>			
+<div>mv second_file.txt{.new,}</div>	mv second_file.txt.new second_file.txt	f		
