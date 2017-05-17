@@ -1,0 +1,13 @@
+Ontario	Toronto	ON	"<img src=""ontario-map.png"" />"	"<img src=""ontario-shield.png"" />"	"<img src=""ontario-flag.png"" />"	Canada Geography Province
+Quebec	Quebec City	QC	"<img src=""quebec-map.png"" />"	"<img src=""quebec-shield.png"" />"	"<img src=""quebec-flag.png"" />"	Canada Geography Province
+Nova Scotia	Halifax	NS	"<img src=""ns-map.png"" />"	"<img src=""ns-shield.png"" />"	"<img src=""ns-flag.png"" />"	Canada Geography Province
+New Brunswick	Fredericton	NB	"<img src=""nb-map.png"" />"	"<img src=""nb-shield.png"" />"	"<img src=""nb-flag.png"" />"	Canada Geography Province
+Manitoba	Winnipeg	MB	"<img src=""manitoba-map.png"" />"	"<img src=""manitoba-shield.png"" />"	"<img src=""manitoba-flag.png"" />"	Canada Geography Province
+British Columbia	Victoria	BC	"<img src=""british-columbia-map.png"" />"	"<img src=""bc-shield.png"" />"	"<img src=""bc-flag.png"" />"	Canada Geography Province
+Prince Edward Island	Charlottetown	PE	"<img src=""pei-map.png"" />"	"<img src=""pei-shield.png"" />"	"<img src=""pei-flag.png"" />"	Canada Geography Province
+Saskatchewan	Regina	SK	"<img src=""saskatchewan-map.png"" />"	"<img src=""saskatchewan-shield.png"" />"	"<img src=""saskatchewan-flag.png"" />"	Canada Geography Province
+Alberta	Edmonton	AB	"<img src=""alberta-map.png"" />"	"<img src=""alberta-shield.png"" />"	"<img src=""alberta-flag.png"" />"	Canada Geography Province
+Newfoundland and Labrador	St. John's	NL	"<img src=""nl-map.png"" />"	"<img src=""nl-shield.png"" />"	"<img src=""nl-flag.png"" />"	Canada Geography Province
+Northwest Territories	Yellowknife	NT	"<img src=""nt-map.png"" />"	"<img src=""nt-shield.png"" />"	"<img src=""nt-flag.png"" />"	Canada Geography Territory
+Yukon	Whitehorse	YT	"<img src=""yukon-map.png"" />"	"<img src=""yukon-shield.png"" />"	"<img src=""yukon-flag.png"" />"	Canada Geography Territory
+Nunavut	Iqaluit	NU	"<img src=""nunavut-map.png"" />"	"<img src=""nunavut-shield.png"" />"	"<img src=""nunavut-flag.png"" />"	Canada Geography Territory

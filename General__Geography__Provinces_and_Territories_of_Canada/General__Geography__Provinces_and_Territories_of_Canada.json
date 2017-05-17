@@ -1,0 +1,482 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "5467907d-35b7-11e7-8f73-2c56dc924912", 
+    "deck_config_uuid": "542dc091-35b7-11e7-a0a8-2c56dc924912", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "542dc091-35b7-11e7-a0a8-2c56dc924912", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Trickle", 
+            "new": {
+                "bury": false, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 0, 
+                "perDay": 1, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 10
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "Please see the <a href='https://ankiweb.net/shared/info/'>shared deck page</a> for more info.", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "nunavut-shield.png", 
+        "nunavut-flag.png", 
+        "alberta-shield.png", 
+        "manitoba-shield.png", 
+        "manitoba-map.png", 
+        "british-columbia-map.png", 
+        "ontario-map.png", 
+        "saskatchewan-map.png", 
+        "manitoba-flag.png", 
+        "ontario-shield.png", 
+        "nunavut-map.png", 
+        "nl-map.png", 
+        "nb-shield.png", 
+        "ontario-flag.png", 
+        "nb-flag.png", 
+        "alberta-map.png", 
+        "pei-map.png", 
+        "ns-map.png", 
+        "nt-flag.png", 
+        "bc-shield.png", 
+        "yukon-flag.png", 
+        "quebec-shield.png", 
+        "nt-shield.png", 
+        "quebec-map.png", 
+        "nb-map.png", 
+        "yukon-shield.png", 
+        "nt-map.png", 
+        "saskatchewan-shield.png", 
+        "quebec-flag.png", 
+        "pei-shield.png", 
+        "bc-flag.png", 
+        "nl-flag.png", 
+        "alberta-flag.png", 
+        "nl-shield.png", 
+        "ns-flag.png", 
+        "saskatchewan-flag.png", 
+        "yukon-map.png", 
+        "pei-flag.png", 
+        "ns-shield.png"
+    ], 
+    "name": "General::Geography::Provinces and Territories of Canada", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n#context{color:gray;}\n\n.card1 { background-color: #FFFFFF; }\n.card2 { background-color: #FFFFFF; }\n.card3 { background-color: #FFFFFF; }\n.card4 { background-color: #FFFFFF; }", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Province or territory", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Capital", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Postal abbreviation", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Map", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Coat of Arms", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Flag", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Provinces and Territories of Canada", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1
+                    ]
+                ], 
+                [
+                    2, 
+                    "all", 
+                    [
+                        3
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span style=\"   \">{{Capital}}</span>\n<br>\n{{Map}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Province or Territory -> Capital", 
+                    "ord": 0, 
+                    "qfmt": "<div id=\"context\">Province or terriotry:</div>\n{{Province or territory}}"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span style=\"   \">{{Province or territory}}</span>\n<br>\n{{Map}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Capital -> Province or Territory", 
+                    "ord": 1, 
+                    "qfmt": "<div id=\"context\">Capital:</div>\n{{Capital}}"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Province or territory}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Map -> Province or Territory", 
+                    "ord": 2, 
+                    "qfmt": "{{Map}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ontario", 
+                "Toronto", 
+                "ON", 
+                "<img src=\"ontario-map.png\" />", 
+                "<img src=\"ontario-shield.png\" />", 
+                "<img src=\"ontario-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "sm1,o4;oP4", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Quebec", 
+                "Quebec City", 
+                "QC", 
+                "<img src=\"quebec-map.png\" />", 
+                "<img src=\"quebec-shield.png\" />", 
+                "<img src=\"quebec-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "pZk(umDj{F", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Nova Scotia", 
+                "Halifax", 
+                "NS", 
+                "<img src=\"ns-map.png\" />", 
+                "<img src=\"ns-shield.png\" />", 
+                "<img src=\"ns-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "k/l[D>;%>v", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "New Brunswick", 
+                "Fredericton", 
+                "NB", 
+                "<img src=\"nb-map.png\" />", 
+                "<img src=\"nb-shield.png\" />", 
+                "<img src=\"nb-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "CLAxZtZ)<4", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Manitoba", 
+                "Winnipeg", 
+                "MB", 
+                "<img src=\"manitoba-map.png\" />", 
+                "<img src=\"manitoba-shield.png\" />", 
+                "<img src=\"manitoba-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "rJwW9:g)#S", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "British Columbia", 
+                "Victoria", 
+                "BC", 
+                "<img src=\"british-columbia-map.png\" />", 
+                "<img src=\"bc-shield.png\" />", 
+                "<img src=\"bc-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "J0U^zuK:iB", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Prince Edward Island", 
+                "Charlottetown", 
+                "PE", 
+                "<img src=\"pei-map.png\" />", 
+                "<img src=\"pei-shield.png\" />", 
+                "<img src=\"pei-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "CJf&Ju/r>X", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Saskatchewan", 
+                "Regina", 
+                "SK", 
+                "<img src=\"saskatchewan-map.png\" />", 
+                "<img src=\"saskatchewan-shield.png\" />", 
+                "<img src=\"saskatchewan-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "FvgZ}lu/-W", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Alberta", 
+                "Edmonton", 
+                "AB", 
+                "<img src=\"alberta-map.png\" />", 
+                "<img src=\"alberta-shield.png\" />", 
+                "<img src=\"alberta-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "JaMDD}9^cF", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Newfoundland and Labrador", 
+                "St. John's", 
+                "NL", 
+                "<img src=\"nl-map.png\" />", 
+                "<img src=\"nl-shield.png\" />", 
+                "<img src=\"nl-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "tP?A}wPtDt", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Province"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Northwest Territories", 
+                "Yellowknife", 
+                "NT", 
+                "<img src=\"nt-map.png\" />", 
+                "<img src=\"nt-shield.png\" />", 
+                "<img src=\"nt-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "Q&:;JLI)AG", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Territory"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Yukon", 
+                "Whitehorse", 
+                "YT", 
+                "<img src=\"yukon-map.png\" />", 
+                "<img src=\"yukon-shield.png\" />", 
+                "<img src=\"yukon-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "A~b:J;-k@c", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Territory"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Nunavut", 
+                "Iqaluit", 
+                "NU", 
+                "<img src=\"nunavut-map.png\" />", 
+                "<img src=\"nunavut-shield.png\" />", 
+                "<img src=\"nunavut-flag.png\" />"
+            ], 
+            "flags": 0, 
+            "guid": "k_2Xkg]o4}", 
+            "note_model_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
+            "tags": [
+                "Canada", 
+                "Geography", 
+                "Territory"
+            ]
+        }
+    ]
+}
