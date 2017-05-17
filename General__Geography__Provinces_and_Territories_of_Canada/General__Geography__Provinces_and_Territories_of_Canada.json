@@ -61,6 +61,7 @@
         "manitoba-map.png", 
         "british-columbia-map.png", 
         "ontario-map.png", 
+        "_AvenirNext-Bold.ttf", 
         "saskatchewan-map.png", 
         "manitoba-flag.png", 
         "ontario-shield.png", 
@@ -86,9 +87,12 @@
         "pei-shield.png", 
         "bc-flag.png", 
         "nl-flag.png", 
+        "_AvenirNext-Regular.ttf", 
         "alberta-flag.png", 
         "nl-shield.png", 
+        "_canada-political-map.gif", 
         "ns-flag.png", 
+        "_Optima-Regular.ttf", 
         "saskatchewan-flag.png", 
         "yukon-map.png", 
         "pei-flag.png", 
@@ -99,7 +103,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n#context{color:gray;}\n\n.card1 { background-color: #FFFFFF; }\n.card2 { background-color: #FFFFFF; }\n.card3 { background-color: #FFFFFF; }\n.card4 { background-color: #FFFFFF; }", 
+            "css": ".card {\n  font-family: \"Avenir Next\", \"Avenir Next Bold\", Georgia;\n  font-size: 50px;\n  text-align: left;\n  color: #2aa198; /* green */\n  background-color: #002b36;\n  font-weight: bold;\n}\n.keyword { color: #2aa198; /* green */  font-weight: bold; }\n.definition, .question {\n  font-family:  \"Optima\", \"Optima Regular\", Georgia;\n  font-size: 40px;\n  font-weight: normal;\n}\n.definition {\n  margin:0 0 15px 0;\n  color: #268bd2; /* blue */\n}\n.question {\n  color: #b58900; /* yellow */\n}\n@font-face { font-family: \"Avenir Next Bold\"; src: url('_AvenirNext-Bold.ttf'); }\n@font-face { font-family: \"Avenir Next Regular\"; src: url('_AvenirNext-Regular.ttf'); }\n@font-face { font-family: \"Optima Regular\"; src: url('_Optima-Regular.ttf'); }\n", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -186,25 +190,25 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span style=\"   \">{{Capital}}</span>\n<br>\n{{Map}}", 
+                    "afmt": "<div>{{Capital}}</div>\n<div>{{Map}}</div>\n<img src=\"_canada-political-map.gif\" width=\"100%\">\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Province or Territory -> Capital", 
                     "ord": 0, 
-                    "qfmt": "<div id=\"context\">Province or terriotry:</div>\n{{Province or territory}}"
+                    "qfmt": "<div class=\"question\">capital of</div>\n{{Province or territory}}"
                 }, 
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span style=\"   \">{{Province or territory}}</span>\n<br>\n{{Map}}", 
+                    "afmt": "<div>{{Province or territory}}</div>\n<div>{{Map}}</div>\n<img src=\"_canada-political-map.gif\" width=\"100%\">\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Capital -> Province or Territory", 
                     "ord": 1, 
-                    "qfmt": "<div id=\"context\">Capital:</div>\n{{Capital}}"
+                    "qfmt": "<div class=\"question\">province or territory whose capital is</div>\n{{Capital}}"
                 }, 
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Province or territory}}", 
+                    "afmt": "<div>{{Province or territory}}</div>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
