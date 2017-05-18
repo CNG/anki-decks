@@ -1,8 +1,8 @@
 Python byte code cache location	<code>.pyc</code> files alongside <code>.py</code> files, or in 3.2 and later, in subdirectory named <code>__pycache__</code>	y		
 Can Python execute without <code>.py</code> file?	Yes, if the <code>.pyc</code> files are present			
 Python byte code is saved for which files?	Anything imported, but not the top level file that is only run as a script.			
-Python interactive interpreter automatically {{c1::<b>prints</b>}}		
-Force Python to run a file again	from imp import reload # not required to import in 2.X<div>reload(<i>script</i>)</div><div><br /></div><div>import imp # not required to import in 2.X<div>imp.reload(<i>script</i>)</div></div>			
+Python interactive interpreter automatically	prints			
+Force Python to run a file again	```<div>from imp import reload # not required to import in 2.X<div>reload(<i>script</i>)</div><div><br /></div><div>import imp # not required to import in 2.X<div>imp.reload(<i>script</i>)</div></div></div><div>```</div>			
 Reading file with <b>exec</b> in Python	2.X:<div><br /></div><div>execfile('module.py')</div><div><br /></div><div>exec(open('module.py')) # automatically reads</div><div><br /></div><div>3.X and 2.X:</div><div><br /></div><div>exec(open('module.py').read())</div>			
 $ python <b>-i</b> m.py	Enter interactive interpreter mode after running script whether it ends successfully or not, allowing accessing variables and doing postmortem		y	
 Python <b>Number</b> examples	1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()			
@@ -29,7 +29,7 @@ Python string formatting expression	'%s, eggs, and %s' % ('spam', 'SPAM!') # wor
 Python string formatting method	<div>'{0}, eggs, and {1}'.format('spam', 'SPAM!') # works in 2.6+ and 3.0+</div><div><br /></div><div>Numbers optional:</div><div>'{}, eggs, and {}'.format('spam', 'SPAM!') # works in 2.7+ and 3.1+</div><div><br /></div>		y	
 In Python, lists all attributes available for any object	<b>dir</b>(S)			
 Python raw string literal	r'C:\text\new'			
-Python multiline string	"Use three quotes or doublequotes:<div><br /></div><div>msg = """"""</div><div>aaaaaa</div><div>bbb''''bbbbb""""bbbbb'bbbbb</div><div>ccccc</div><div>""""""</div>"			
+Python multiline string	"Use three quotes or doublequotes:<div>```</div><br><div>msg = """"""</div><div>aaaaaa</div><div>bbb''''bbbbb""""bbbbb'bbbbb</div><div>ccccc</div><div>""""""</div><div>```</div>"			
 Python strings and Unicode	3.X, normal str strings support Unicode:<div>&gt;&gt;&gt; 'sp\xc4m' # but in 2.X this works like 3.X byte strings</div><div>'spām'</div><div><br /></div><div>3.X byte strings are raw bytes, also works in 2.6+:</div><div>&gt;&gt;&gt; b'a\x01c'</div><div>b'a\x01c'</div><div><br /></div><div>2.X Unicode literal also works in 3.3+:</div><div>&gt;&gt;&gt; u'sp\u00c4m'</div><div><div>'spām'</div></div>			
 Python short Unicode escape	\u			
 Python long Unicode escape	\U			
@@ -39,7 +39,7 @@ Python list comprehension expression example	&gt;&gt;&gt;&nbsp;M = [[1,2,3],[4,5
 Python expressions to collect values need wrapping in collection in 3.X	&gt;&gt;&gt; list(range(4)) # list() required in 3.X<div>[0, 1, 2, 3]</div>			
 Python generator from comprehension	<div>&gt;&gt;&gt; G = (sum(row) for row in M) # wrap in parentheses</div><div>&gt;&gt;&gt; next(G)</div>	y		
 Python comprehension syntax can make sets and dictionaries in which versions?	<b>2.7</b> and <b>3.X</b>:<div><br /></div><div>&gt;&gt;&gt; {sum(M[i]) for i in range(3)}</div><div>{0: 6, 1: 15, 2: 24}</div>			
-Python dictionaries	Dictionaries are the only mapping type in Python's core objects set, and are also mutable: like lists, they may be changed in place and can grow and shrink on demand.<div><br /></div><div>&gt;&gt;&gt; D = {'food': 'Spam', 'quantity': 4, 'color': 'pink'}</div>		y	
+Python dictionaries	Dictionaries are the only mapping type in Python's core objects set, and are also mutable: like lists, they may be changed in place and can grow and shrink on demand.<div><br></div><div>&gt;&gt;&gt; D = {'food': 'Spam', 'quantity': 4, 'color': 'pink'}</div>		y	
 Test if Python dictionary key exists	&gt;&gt;&gt; 'f' in D<div>False</div><div><br /></div><div>&gt;&gt;&gt; if not 'f' in D:</div><div>&nbsp; &nbsp; &nbsp; &nbsp;print('missing')</div><div><br /></div><div>missing</div><div><br /></div><div><br /></div><div>Can also avoid accessing nonexistent by using get() method, conditional index with a default, or in 2.X has_key() method, or try statement, or if/else ternary</div>	y	y	
 What if we need sorted dictionary keys in Python?	Use dictionary keys() method and sort with list sort() method, then step through result with for loop<div><br /></div><div>&gt;&gt;&gt; Ks = list(D.keys())</div><div>&gt;&gt;&gt; Ks.sort()</div><div>['a', 'b', 'c']</div><div>&gt;&gt;&gt; for key in Ks:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print(key, '=&gt;', D[key]) # 3.X print, in 2.X remove parentheses</div><div><br /></div><div><div>a =&gt; 1</div></div><div><div>b =&gt; 2</div></div><div><div>c =&gt; 3</div></div>			
 Python Tuple	immutable sequence, usually coded with parentheses instead of square brackets, which is built by commas. Parentheses aren't needed where commas don't otherwise matter, such as:<div><br /></div><div>&gt;&gt;&gt; T = 'spam', 3.0, [11, 22, 33]</div><div>&gt;&gt;&gt; T[1]</div><div>3.0</div><div><br /></div>	y		
@@ -306,7 +306,7 @@ tar -o	tar		-o			(<b>c</b>, <b>r</b>, and <b>u</b> mode) A synonym for <b>--form
 tar --one-file-system	tar			--one-file-system		(<b>c</b>, <b>r</b>, and <b>u</b> modes) Do not cross mount points.			
 tar --options	tar			--options options		<div>Select optional behaviors for particular modules. The argument is a text string containing comma-separated keywords and values. These are passed to the modules that handle particular formats to control how those formats will behave. Each option has one of the following forms:</div><div><ul><li><b>key=value</b><br />The key will be set to the specified value in every module that supports it. Modules that do not support this key will ignore it.</li><li><b>key</b><br />The key will be enabled in every module that supports it. This is equivalent to <b>key=1</b>.</li><li><b>!key</b><br />The key will be disabled in every module that supports it.</li><li><b>module:key=value</b>, <b>module:key</b>, <b>module:!key</b><br />As above, but the corresponding key and value will be provided only to modules whose name matches module.</li></ul></div><div>The currently supported modules and keys are:</div><div><ul><li><b>iso9660:joliet</b><br />Support Joliet extensions. This is enabled by default, use <b>!joliet</b> or <b>iso9660:!joliet</b> to disable.</li><li><b>iso9660:rockridge</b><br />Support Rock Ridge extensions. This is enabled by default, use <b>!rockridge</b> or <b>iso9660:!rockridge</b> to disable.</li><li><b>gzip:compression-level</b><br />A decimal integer from 0 to 9 specifying the <b>gzip</b> compression level.</li><li><b>xz:compression-level</b><br />A decimal integer from 0 to 9 specifying the <b>xz</b> compression level.</li><li><b>mtree:keyword</b><br />The <b>mtree</b> writer module allows you to specify which mtree keywords will be included in the output. Supported keywords include: <b>cksum</b>, <b>device</b>, <b>flags</b>, <b>gid</b>, <b>gname</b>, <b>indent</b>, <b>link</b>, <b>md5</b>, <b>mode</b>, <b>nlink</b>, <b>rmd160</b>, <b>sha1</b>, <b>sha256</b>, <b>sha384</b>, <b>sha512</b>, <b>size</b>, <b>time</b>, <b>uid</b>, <b>uname</b>. The default is equivalent to: <b>device</b>, <b>flags</b>, <b>gid</b>, <b>gname</b>, <b>link</b>, <b>mode</b>, <b>nlink</b>, <b>size</b>, <b>time</b>, <b>type</b>, <b>uid</b>, <b>uname</b>.</li><li><b>mtree:all</b><br />Enables all of the above keywords. You can also use <b>mtree:!all</b> to disable all keywords.</li><li><b>mtree:use-set</b><br />Enable generation of <b>/set</b> lines in the output.</li><li><b>mtree:indent</b><br />Produce human-readable output by indenting options and splitting lines to fit into 80 columns.</li><li><b>zip:compression=type</b><br />Use type as compression method. Supported values are store (uncompressed) and deflate (<b>gzip</b> algorithm).</li></ul></div><div>If a provided option is not supported by any module, that is a fatal error.</div>			
 tar -P	tar		-P			Preserve pathnames. By default, absolute pathnames (those that begin with a <b>/</b> character) have the leading slash removed both when creating archives and extracting from them. Also, <b>tar</b> will refuse to extract archive entries whose pathnames contain .. or whose <b>tar</b>get directory would be altered by a symlink. This option suppresses these behaviors.			
-tar -p	tar		-p			(<b>x</b> mode only) Preserve file permissions. Attempt to restore the full permissions, including owner, file modes, file flags and ACLs, if available, for each item extracted from the archive. By default, newly-created files are owned by the user running <b>tar</b>, the file mode is restored for newly-created regular files, and all other types of entries receive default permissions. If <b>tar</b> is being run by root, the default is to restore the owner unless the <b>-o</b> option is also specified.			
+tar -p	tar		-p			(`x` mode only) Preserve file permissions. Attempt to restore the full permissions, including owner, file modes, file flags and ACLs, if available, for each item extracted from the archive. By default, newly-created files are owned by the user running <b>tar</b>, the file mode is restored for newly-created regular files, and all other types of entries receive default permissions. If <b>tar</b> is being run by root, the default is to restore the owner unless the <b>-o</b> option is also specified.			
 tar --fast-read	tar		-q	--fast-read		(<b>x</b> and <b>t</b> mode only) Extract or list only the first archive entry that matches each pattern or filename operand. Exit as soon as each specified pattern or filename has been matched. By default, the archive is always read to the very end, since there can be multiple entries with the same name and, by convention, later entries overwrite earlier entries. This option is provided as a performance optimization.			
 tar -S	tar		-S			(<b>x</b> mode only) Extract files as sparse files. For every block on disk, check first if it contains only NULL bytes and seek over it otherwise. This works similiar to the <b>conv=sparse</b> option of <b>dd</b>.			
 tar --strip-components	tar			--strip-components <u>count</u>		(<b>x</b> mode only) Remove the specified number of leading path elements. Pathnames with fewer elements will be silently skipped. Note that the pathname is edited after checking inclusion/exclusion patterns but before security checks.			
@@ -482,100 +482,100 @@ locate -s	locate		-s			<div>Use the <b>stdio</b>(3) library instead of <b>mmap</
 apropos	apropos					searches  a  set  of database files containing short descriptions of system commands for keywords and displays the result on the        standard output	apropos&nbsp;<u>keyword</u>	y	
 whatis	whatis					Searches  a  set  of  database files containing short descriptions of system commands for keywords and displays the result on the        standard output.  Only complete word matches are displayed.	<b>whatis</b>&nbsp;<u>keyword</u><div><u><br /></u></div><div>The database is created using the command <u>/usr/libexec/makewhatis</u></div>	y	
 man [section]	man					<p>Following 8 sections are available in the man page.</p> <ol> <li>General commands</li> <li>System calls</li> <li>C library functions</li> <li>Special files (usually devices, those found in /dev) and drivers</li> <li>File formats and conventions</li> <li>Games and screensavers</li> <li>Miscellaneous</li> <li>System administration commands and daemons</li></ol>	<b><div>$ whatis crontab</div><div>crontab (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- maintain crontab files for individual users (V3)</div><div>crontab (5) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- tables for driving cron</div><div><br /></div><div>$ man 5 crontab</div></b>	y	
-What is the main characteristic of a  <b>distributed                   version control system                   (DVCS)</b>?	A distributed version control system has no                   central server which                   stores the data. Every local copy contains the full history of the                   source code.                                   	
-Does the use of a                   <b>DVCS</b> require a                   central                   code                   repository?                                   	No.	
-Where does Git                   <b>commit</b> file changes to?<br />	To the local repository.	
-What happens when you <b>clone</b> a                   repository with                    Git?	An exact copy of the                   repository is created locally.<br />	
-Does the local clone of a remote repository include the                   complete history of the source code?	Yes.	
-What's the meaning of <b>master branch</b>?	"The ""master"" in Git is the default branch, which generally represents the most stable code."	
-What is a <b>commit</b>?	A commit is a pointer to a spot&nbsp;(revision)&nbsp;on the code history.	
-How are Git commits <b>identified</b>?	Instead of numbering commits, Git uses the code contents of the commit to create a unique, 40 character SHA-1 hash.	
-Does a branch created in a repository,&nbsp;which was cloned from another repository, need to have a&nbsp;counterpart in the&nbsp;remote repository?<br /> 	No it doesn't.	
-Which two steps are neccessary to persist modifications on a file in the repository?<br />	1. Staging (mark the file to be relevant for Git) = adding the file to the index.<br />2. Commiting: storing the changes in the Git repository.<br />	
-What does the term <b>staging</b> describe?	Marking changes as relevant for the version control, by adding them to the index.	
-What is a <b>Revision</b>?<br />	A revision represents a version of the source code. Git identifies                                                revisions                                                with SHA-1 IDs using a commit object. SHA-1 IDs are 160 bits long and are                                                represented                                                in                                                hexadecimal. The latest version can be addressed                                                via                                                HEAD, the version before that via                                                HEAD~1                                                and so on.	
-In which file does Git store <b>global settings</b>?<br />	In the <b>.gitconfig</b> file.<br />	
-Which file tells Git which files and directories to <b>ignore</b>?<br />	<pre>.gitignore</pre>	
-What is the difference between <b>local .gitignore</b> and <b>global .gitignore</b> files, regarding visibility?<br />	The local                .gitignore                file can be committed into the Git repository and                therefore is visible                to everyone who clones the repository. The                global                .gitignore                file is only                locally visible.                             	
-How are <b>empty directories</b> handled under Git version control / by common practice?	Git ignores empty directories, i.e. it does not put them under version control. Common practice for tracking an empty directory though, is to put a file called <b>.gitkeep</b> into such a directory.<br />	
-What does the command <b>git reflog</b>&nbsp;do?<br />	It displays the history of the complete changes of the current branch, based on the HEAD revision.<br />	
-Does <b>git reflog</b>&nbsp;also contain deleted commits?	Yes.	
-How is the <b>default branch</b> called in Git?<br />	Master.	
-What does the term <b>merging</b>&nbsp;describe?<br />	The process of combining changes of two branches.	
-What is a <b>merge conflict</b>?<br />	A merge conflict occurs, if two people have modified the same content and Git cannot automatically determine how both changes should be applied.<br />	
-What does the <b>rebase</b>&nbsp;command do?<br>	In general terms - rewrites history. E.g: Combining several commits into<br>                  one commit. Or replaying changes from one branch on top of the other.	
-What functionality does the <b>stash</b> command add?<br />	Saving the current uncommmitted changes and&nbsp;checkout&nbsp;the last committed revision. This allows pulling-in the latest changes or to develop an urgent fix. Afterwards the stashed changes can be restored, which will reapply the changes to the current version of the source code.<br /> 	
-What's the rule of thumb, concerning the <b>stash</b>&nbsp;command?<br />	It should be the exception to using Git. Typically you would create new branches for new features and switch between branches.<br />	
-What is a <b>patch file</b>?<br />	A text file that contains changes to the source code.	
-What is an <b>alias</b> in Git?	An alias in Git allows you to setup your own Git command. E.g. you can define an alias which is a short form of your own favorite commands or you can combine several commands with an alias.	
-Name two <b>transport types</b>&nbsp;that are supported protocols for Git checkouts	The native Git protocol is <b>git</b>, alternatively the <b>http</b> protocol is also supported.	
-What happens in regards to naming of the original repository, when <b>cloning</b> a remote repository?<br />	"The original repository will automatically be called ""origin"".<br />"	
-What is the possibility of using the <b>HTTP protocol</b> with Git especially helpful for?	If a firewall blocks all requests other than http.<br />	
-Which are the two variants of <b>ssh keys</b>?<br />	Public and private.<br />	
-What does <b>rev~</b> stand for?	"The first parent of a revision ""rev"""	
-What is the starting point of the scope of <b>.gitignore</b> files?	They define ignore definitions for the whole directory tree, starting from the point where the .gitignore file itself resides.	
-"What's the difference between <b>git pull</b> and <b>git fetch</b>? (<span style="" font-style: normal; font-weight: normal;"">In the simplest terms)</span>"	git pull does a git fetch followed by a git merge.	
-What is the difference between <b>git commit</b> and <b>git push</b>?	<b>commit:</b> adding changes to the repository.<div><b>push</b>: to transfer the last commit(s) to a remote server</div>	
-What is the <b>head</b> in Git?	The head is a pointer to the current branch, which is in turn the last commit you made or checked out into your working directory.	
-What is the <b>index</b> in Git?	"It's a snapshot of changes contained in your next commit, this way it's the ""<b>proposed next commit</b>""."	
-What does <b>head^</b> mean?	It means the first parent of the tip of the current branch.	
-What is the difference between <b>head~</b> and <b>head^</b> ?	&nbsp;~&lt;n&gt; means the revision that is the &lt;n&gt;th generation ancestor of the named revision, following only the first parents.<div>^&lt;n&gt; means the &lt;n&gt;th parent of that revision.</div>	
-What is a local version control system?	A database of changes kept on the same computer as the files being versioned.	
-How is a distributed version control system different from others?	Every client has a full backup of all the data.	
-"What is the ""snapshot"" concept?"	In Git, the data is more like a stream of complete snapshots of a mini filesystem rather than a list of file changes like you'll see in SVN, Perforce, etc.	
-Why are most git operations so fast?<br>	They happen on the local disk, rather than over a network<br>	
-How does git maintain file integrity?<br>	Everything is SHA-1 checksummed and stored not by filename, but rather hash value of each file's contents.<br>	
-What are the 3 git states your files can reside in?<br>	committed, modified, and staged<br>	
-"What does it mean when a file is in the ""committed"" state?<br>"	The data is safely stored in your local database<br>	
-"What does it mean if a file is in the ""modified"" state?<br>"	You have changed the file, but not yet committed it.<br>	
-"What does it mean if a file is in the ""staged"" state?<br>"	You have marked a file in its current state to go into the next commit snapshot.<br>	
-What are the 3 sections of a git project?<br />	the Git directory (repository), the working directory, and the staging area<br />	
-What is stored in the Git directory?<br>	The metadata and object database for your project<br>	
-What is copied when you clone a repository from another computer?<br>	the Git directory<br>	
-What is the working directory?<br>	A single checkout of one version of the project. These files are pulled out of the compressed database in the git directory and placed on disk for you to use and modify.<br>	
-What is the staging area?	"It is a file in the git directory that stores information about what goes into the next commit. It is sometimes referred to as the ""index""."	
-What is the 3-step basic git workflow?	1. modify files in working directory<div>2. stage files, adding snapshots of them to the staging area</div><div>3. commit, which takes the files in the staging area and stores that snapshot permanently to your git directory</div>	
-Where are the three places that git config variables can be stored?	1. systemwide: &nbsp;/etc/gitconfig<div>2. per user: ~/.gitconfig or ~/.config/git/config</div><div>3. per project: .git/config</div>	
-What option do you pass to git config to modify system-level configs?	--system	
-What option do you pass to git config to make changes for specific to your user?	--global	
-What are three ways to get help on a git verb?	1. git help &lt;verb&gt;<div>2. git &lt;verb&gt; --help</div><div>3. man git-&lt;verb&gt;</div>	
-"How do you get a copy of an existing git repository, say https://github.com/libgit2/libgit2<span style=""line-height: 1.1;"">?</span><br>"	git clone&nbsp;https://github.com/libgit2/libgit2	
-What are a couple different transfer protocols used by git?	https://<div>git://</div>	
-What is the difference between a tracked and untracked file?	Tracked files are all files that were in the last snapshot. They can be unmodified, modified, or staged. Untracked files are not in the latest snapshot or staged.	
-Why is it possible for a tracked file to be both in staging and modified state?	"Because the staged version is the contents of the file at the exact time you ran ""git add"" to stage the file. You have to run ""git add"" again if you've modified it and want to stage the latest contents of the file."	
-What file is used to ignore some untracked files?	.gitignore	
-What is the default shortname for cloned repositories?	origin	
-How does git fetch affect your local repository?	It pulls the data, but does not merge or modify your working copy. To actually merge, it must be manually done.	
-What is stored in a git commit object?	* pointer to the snapshot of the staged content<div>* author's name and email</div><div>* commit message</div><div>* pointer to the commit(s) directly before this one</div>	
-What is a branch in terms of git commit objects?	A lightweight movable pointer to one of the commits	
-What is the name of the special pointer which tells you which local branch you're currently on?	HEAD	
-What happens to the HEAD pointer when you create a new branch?	Nothing, it continues to point to the existing branch (such as master, if you haven't changed it yet). It does not switch to the new branch automatically.	
-What happens to the working directory when you switch branches?	The files are updated to reflect the last commit of the branch. If it cannot be updated cleanly, git will not let you switch.	
-Why is a git branch cheap?	A branch is a simple file that contains the 40 character SHA-1 checksum of the commit it points to.	
-"What is a ""fast-forward"" merge?"	"When you try to merge a commit that can be reached by following the first commit's history, git will simply move the pointer forward because there is no divergent work to merge together. This is known as a ""fast-forward"" merge."	
-What is a merge commit?	When two divergent branches are merged, git creates a new snapshot and a new commit that points to it. A merge commit has more than one parent.	
-How is git different in dealing with the merge base when merging branches?	Git determines the best common ancestor to use for its merge base, which is a lot simpler than many other VCSes.	
-What does the leading * character mean in the output of git branch?	It indicates the branch you have currently checked out (that HEAD points to).	
-What is the name used for a branching workflow where sets of commits graduate to a more stable silo when they're fully tested?<br>	progressive-stability branching<br>	
-What is the name for a short-lived branch for a single particular feature or related work?<br>	topic branch<br>	
-What are remote branches?<br>	Pointers to the state of branches in remote repositories. They are local branches that you cannot move.<br>	
-When are remote branch pointers updated?<br>	They are automatically moved when you do any network communication.<br>	
-When you fetch a remote branch, will it automatically set up a local branch with the same name?	No. You must either merge it or create your own branch from it.	
-What is the shorthand for referencing the tracking remote and branch?	@{u} or @{upstream}	
-How does rebasing affect the commit history differently than a merge?	A rebase will make the commit history look linear/clean rather than a bunch of branch merges. This is often done to make sure your commits apply cleanly to a remote branch.	
-What one tip should you follow to avoid a drawback of rebasing?	Do not rebase commits that exist outside of your repository.	
-What is a good general rule for deciding when to rebase or to merge?	Rebase local changes you haven't shared yet in order to clean up, but never rebase anything you pushed somewhere.	
-"What is a ""bare repository""?"	A repository that doesn't contain a working directory	
+What is the main characteristic of a  <b>distributed                   version control system                   (DVCS)</b>?	A distributed version control system has no                   central server which                   stores the data. Every local copy contains the full history of the                   source code.                                   			
+Does the use of a                   <b>DVCS</b> require a                   central                   code                   repository?                                   	No.			
+Where does Git                   <b>commit</b> file changes to?<br />	To the local repository.			
+What happens when you <b>clone</b> a                   repository with                    Git?	An exact copy of the                   repository is created locally.<br />			
+Does the local clone of a remote repository include the                   complete history of the source code?	Yes.			
+What's the meaning of <b>master branch</b>?	"The ""master"" in Git is the default branch, which generally represents the most stable code."			
+What is a <b>commit</b>?	A commit is a pointer to a spot&nbsp;(revision)&nbsp;on the code history.			
+How are Git commits <b>identified</b>?	Instead of numbering commits, Git uses the code contents of the commit to create a unique, 40 character SHA-1 hash.			
+Does a branch created in a repository,&nbsp;which was cloned from another repository, need to have a&nbsp;counterpart in the&nbsp;remote repository?<br /> 	No it doesn't.			
+Which two steps are neccessary to persist modifications on a file in the repository?<br />	1. Staging (mark the file to be relevant for Git) = adding the file to the index.<br />2. Commiting: storing the changes in the Git repository.<br />			
+What does the term <b>staging</b> describe?	Marking changes as relevant for the version control, by adding them to the index.			
+What is a <b>Revision</b>?<br />	A revision represents a version of the source code. Git identifies                                                revisions                                                with SHA-1 IDs using a commit object. SHA-1 IDs are 160 bits long and are                                                represented                                                in                                                hexadecimal. The latest version can be addressed                                                via                                                HEAD, the version before that via                                                HEAD~1                                                and so on.			
+In which file does Git store <b>global settings</b>?<br />	In the <b>.gitconfig</b> file.<br />			
+Which file tells Git which files and directories to <b>ignore</b>?<br />	<pre>.gitignore</pre>			
+What is the difference between <b>local .gitignore</b> and <b>global .gitignore</b> files, regarding visibility?<br />	The local                .gitignore                file can be committed into the Git repository and                therefore is visible                to everyone who clones the repository. The                global                .gitignore                file is only                locally visible.                             			
+How are <b>empty directories</b> handled under Git version control / by common practice?	Git ignores empty directories, i.e. it does not put them under version control. Common practice for tracking an empty directory though, is to put a file called <b>.gitkeep</b> into such a directory.<br />			
+What does the command <b>git reflog</b>&nbsp;do?<br />	It displays the history of the complete changes of the current branch, based on the HEAD revision.<br />			
+Does <b>git reflog</b>&nbsp;also contain deleted commits?	Yes.			
+How is the <b>default branch</b> called in Git?<br />	Master.			
+What does the term <b>merging</b>&nbsp;describe?<br />	The process of combining changes of two branches.			
+What is a <b>merge conflict</b>?<br />	A merge conflict occurs, if two people have modified the same content and Git cannot automatically determine how both changes should be applied.<br />			
+What does the <b>rebase</b>&nbsp;command do?<br>	In general terms - rewrites history. E.g: Combining several commits into<br>                  one commit. Or replaying changes from one branch on top of the other.			
+What functionality does the <b>stash</b> command add?<br />	Saving the current uncommmitted changes and&nbsp;checkout&nbsp;the last committed revision. This allows pulling-in the latest changes or to develop an urgent fix. Afterwards the stashed changes can be restored, which will reapply the changes to the current version of the source code.<br /> 			
+What's the rule of thumb, concerning the <b>stash</b>&nbsp;command?<br />	It should be the exception to using Git. Typically you would create new branches for new features and switch between branches.<br />			
+What is a <b>patch file</b>?<br />	A text file that contains changes to the source code.			
+What is an <b>alias</b> in Git?	An alias in Git allows you to setup your own Git command. E.g. you can define an alias which is a short form of your own favorite commands or you can combine several commands with an alias.			
+Name two <b>transport types</b>&nbsp;that are supported protocols for Git checkouts	The native Git protocol is <b>git</b>, alternatively the <b>http</b> protocol is also supported.			
+What happens in regards to naming of the original repository, when <b>cloning</b> a remote repository?<br />	"The original repository will automatically be called ""origin"".<br />"			
+What is the possibility of using the <b>HTTP protocol</b> with Git especially helpful for?	If a firewall blocks all requests other than http.<br />			
+Which are the two variants of <b>ssh keys</b>?<br />	Public and private.<br />			
+What does <b>rev~</b> stand for?	"The first parent of a revision ""rev"""			
+What is the starting point of the scope of <b>.gitignore</b> files?	They define ignore definitions for the whole directory tree, starting from the point where the .gitignore file itself resides.			
+"What's the difference between <b>git pull</b> and <b>git fetch</b>? (<span style="" font-style: normal; font-weight: normal;"">In the simplest terms)</span>"	git pull does a git fetch followed by a git merge.			
+What is the difference between <b>git commit</b> and <b>git push</b>?	<b>commit:</b> adding changes to the repository.<div><b>push</b>: to transfer the last commit(s) to a remote server</div>			
+What is the <b>head</b> in Git?	The head is a pointer to the current branch, which is in turn the last commit you made or checked out into your working directory.			
+What is the <b>index</b> in Git?	"It's a snapshot of changes contained in your next commit, this way it's the ""<b>proposed next commit</b>""."			
+What does <b>head^</b> mean?	It means the first parent of the tip of the current branch.			
+What is the difference between <b>head~</b> and <b>head^</b> ?	&nbsp;~&lt;n&gt; means the revision that is the &lt;n&gt;th generation ancestor of the named revision, following only the first parents.<div>^&lt;n&gt; means the &lt;n&gt;th parent of that revision.</div>			
+What is a local version control system?	A database of changes kept on the same computer as the files being versioned.			
+How is a distributed version control system different from others?	Every client has a full backup of all the data.			
+"What is the ""snapshot"" concept?"	In Git, the data is more like a stream of complete snapshots of a mini filesystem rather than a list of file changes like you'll see in SVN, Perforce, etc.			
+Why are most git operations so fast?<br>	They happen on the local disk, rather than over a network<br>			
+How does git maintain file integrity?<br>	Everything is SHA-1 checksummed and stored not by filename, but rather hash value of each file's contents.<br>			
+What are the 3 git states your files can reside in?<br>	committed, modified, and staged<br>			
+"What does it mean when a file is in the ""committed"" state?<br>"	The data is safely stored in your local database<br>			
+"What does it mean if a file is in the ""modified"" state?<br>"	You have changed the file, but not yet committed it.<br>			
+"What does it mean if a file is in the ""staged"" state?<br>"	You have marked a file in its current state to go into the next commit snapshot.<br>			
+What are the 3 sections of a git project?<br />	the Git directory (repository), the working directory, and the staging area<br />			
+What is stored in the Git directory?<br>	The metadata and object database for your project<br>			
+What is copied when you clone a repository from another computer?<br>	the Git directory<br>			
+What is the working directory?<br>	A single checkout of one version of the project. These files are pulled out of the compressed database in the git directory and placed on disk for you to use and modify.<br>			
+What is the staging area?	"It is a file in the git directory that stores information about what goes into the next commit. It is sometimes referred to as the ""index""."			
+What is the 3-step basic git workflow?	1. modify files in working directory<div>2. stage files, adding snapshots of them to the staging area</div><div>3. commit, which takes the files in the staging area and stores that snapshot permanently to your git directory</div>			
+Where are the three places that git config variables can be stored?	1. systemwide: &nbsp;/etc/gitconfig<div>2. per user: ~/.gitconfig or ~/.config/git/config</div><div>3. per project: .git/config</div>			
+What option do you pass to git config to modify system-level configs?	--system			
+What option do you pass to git config to make changes for specific to your user?	--global			
+What are three ways to get help on a git verb?	1. git help &lt;verb&gt;<div>2. git &lt;verb&gt; --help</div><div>3. man git-&lt;verb&gt;</div>			
+"How do you get a copy of an existing git repository, say https://github.com/libgit2/libgit2<span style=""line-height: 1.1;"">?</span><br>"	git clone&nbsp;https://github.com/libgit2/libgit2			
+What are a couple different transfer protocols used by git?	https://<div>git://</div>			
+What is the difference between a tracked and untracked file?	Tracked files are all files that were in the last snapshot. They can be unmodified, modified, or staged. Untracked files are not in the latest snapshot or staged.			
+Why is it possible for a tracked file to be both in staging and modified state?	"Because the staged version is the contents of the file at the exact time you ran ""git add"" to stage the file. You have to run ""git add"" again if you've modified it and want to stage the latest contents of the file."			
+What file is used to ignore some untracked files?	.gitignore			
+What is the default shortname for cloned repositories?	origin			
+How does git fetch affect your local repository?	It pulls the data, but does not merge or modify your working copy. To actually merge, it must be manually done.			
+What is stored in a git commit object?	* pointer to the snapshot of the staged content<div>* author's name and email</div><div>* commit message</div><div>* pointer to the commit(s) directly before this one</div>			
+What is a branch in terms of git commit objects?	A lightweight movable pointer to one of the commits			
+What is the name of the special pointer which tells you which local branch you're currently on?	HEAD			
+What happens to the HEAD pointer when you create a new branch?	Nothing, it continues to point to the existing branch (such as master, if you haven't changed it yet). It does not switch to the new branch automatically.			
+What happens to the working directory when you switch branches?	The files are updated to reflect the last commit of the branch. If it cannot be updated cleanly, git will not let you switch.			
+Why is a git branch cheap?	A branch is a simple file that contains the 40 character SHA-1 checksum of the commit it points to.			
+"What is a ""fast-forward"" merge?"	"When you try to merge a commit that can be reached by following the first commit's history, git will simply move the pointer forward because there is no divergent work to merge together. This is known as a ""fast-forward"" merge."			
+What is a merge commit?	When two divergent branches are merged, git creates a new snapshot and a new commit that points to it. A merge commit has more than one parent.			
+How is git different in dealing with the merge base when merging branches?	Git determines the best common ancestor to use for its merge base, which is a lot simpler than many other VCSes.			
+What does the leading * character mean in the output of git branch?	It indicates the branch you have currently checked out (that HEAD points to).			
+What is the name used for a branching workflow where sets of commits graduate to a more stable silo when they're fully tested?<br>	progressive-stability branching<br>			
+What is the name for a short-lived branch for a single particular feature or related work?<br>	topic branch<br>			
+What are remote branches?<br>	Pointers to the state of branches in remote repositories. They are local branches that you cannot move.<br>			
+When are remote branch pointers updated?<br>	They are automatically moved when you do any network communication.<br>			
+When you fetch a remote branch, will it automatically set up a local branch with the same name?	No. You must either merge it or create your own branch from it.			
+What is the shorthand for referencing the tracking remote and branch?	@{u} or @{upstream}			
+How does rebasing affect the commit history differently than a merge?	A rebase will make the commit history look linear/clean rather than a bunch of branch merges. This is often done to make sure your commits apply cleanly to a remote branch.			
+What one tip should you follow to avoid a drawback of rebasing?	Do not rebase commits that exist outside of your repository.			
+What is a good general rule for deciding when to rebase or to merge?	Rebase local changes you haven't shared yet in order to clean up, but never rebase anything you pushed somewhere.			
+"What is a ""bare repository""?"	A repository that doesn't contain a working directory			
 Which command will <b>initialize a new, empty repository</b> in the current working directory?	<pre>git init</pre>			
 "What command is used to configure the local user's email (""email""), that are used when committing to Git repositories?"	"<pre><span style=""font-family: Arial"">git config --global user.email ""email""</span></pre>"			git shell
-What does this command do:&nbsp;<b>git add . &nbsp;</b>	It adds everything inside the current working directory to the index.	
+What does this command do:&nbsp;<b>git add . &nbsp;</b>	It adds everything inside the current working directory to the index.			
 Which commands are needed to <b>add</b> <b>all .js files </b>to the local Git repository?	<pre>git add *.js</pre>			
 "Which command will <b>commit</b> to the local repository, including a <b>commit message </b>(""message"")?"	"<pre>git commit -m ""message""</pre>"			
 Which command prints&nbsp;&nbsp;the <b>current state</b> of your code/repository?	"<pre style=""text-align: justify;"">git status</pre>"			
 Which Git command is used to <b>list the existing branches</b>?	<pre>git branch</pre>		"Ommitting all options to the ""git branch"" command, will list the existing branches."	
 "Which command <b>creates</b> a new branch (""branchname"")?"	<pre>git branch branchname</pre>			
 "Which command will switch to the branch ""myotherbranch""?"	"<pre style=""line-height: 25px;"">git checkout myotherbranch</pre>"			
-"What commands will join everything from the branch ""bigIdea"" to be part of the ""master"" branch?"	<pre>git checkout master</pre> <pre>git merge bigIdea</pre>	
+"What commands will join everything from the branch ""bigIdea"" to be part of the ""master"" branch?"	<pre>git checkout master</pre> <pre>git merge bigIdea</pre>			
 "Which command will delete (even) an unmerged branch (""branchname"")?"	git branch -D branchname			
 Which command displays the existing <b>global Git settings</b>?<br />	<pre>git config --list</pre>			
 Which command shows<b> commit logs </b>(list of all commits, starting with newest)?<br />	<pre>git log</pre>	<div>For each commit the following info would be displayed</div>1. SHA-1 identifier<br />2. Author and Email<br />3. Date + time of the commit<br />4. Commit message header		
@@ -600,14 +600,14 @@ Which command <b>creates a new branch </b>(branchname)<b> and switches to it</b>
 Which default Git tool exists for <b>resolving conflicts</b>, which command starts it?<br />	git mergetool			
 Which command would <b>start interactive rebase </b>of the last seven commits?	<pre>git rebase -i HEAD~7</pre>		"More info on interactive mode here:&nbsp;<a href=""https://git-scm.com/docs/git-rebase"">https://git-scm.com/docs/git-rebase</a>"	
 "Which command displays <b>which commit deleted a specific file </b>(""filename"")?<br />"	<pre>git log -- filename</pre>			
-What is the <b>--</b> option in <b>git log</b>&nbsp;used for?<br />	To see the commit history for a file, even if the file has been deleted.<br />	
+What is the <b>--</b> option in <b>git log</b>&nbsp;used for?<br />	To see the commit history for a file, even if the file has been deleted.<br />			
 "Which command will define an alias ""add-commit"", which<br />                  combines<br /> <b>git add . -A</b><br />                  and<br /> <b>git commit</b>?"	"<pre class=""programlisting"">git config --global alias.add-commit <span class=""hl-string"">'!git add . -A &amp;&amp; git commit'</span></pre>"	! is to specify that it's an external command		
-What does the command do: <b>git reset --soft HEAD~</b>	Undo the last commit. The affected files will be back on stage again.	
-What does <b>git reset --hard HEAD~</b>&nbsp;do? (instead of HEAD~ it could be also a commit SHA-1 or another reference)	Undo the last commit, unstage files AND undo any changes in the working directory. (Not tracked files won't be affected)	
+What does the command do: <b>git reset --soft HEAD~</b>	Undo the last commit. The affected files will be back on stage again.			
+What does <b>git reset --hard HEAD~</b>&nbsp;do? (instead of HEAD~ it could be also a commit SHA-1 or another reference)	Undo the last commit, unstage files AND undo any changes in the working directory. (Not tracked files won't be affected)			
 Which parameter allows you to <b>stage an ignored file</b>?	<pre>--force</pre>			
 "Which Git command <b>newly stages a specific file </b>(""filename"")?"	<pre>git add filename</pre>			
 "Which command will <b>undo the checking-in of an unwanted change </b>in a file ""filename""&nbsp;(remove the respective file from the index), but keep the changes in the filesystem?"	<pre>git reset filename</pre>			
-What is the difference between:<br><pre>git checkout -f</pre> and <pre>git reset --hard HEAD</pre>?	None, with these parameters they do exactly the same.	
+What is the difference between:<br><pre>git checkout -f</pre> and <pre>git reset --hard HEAD</pre>?	None, with these parameters they do exactly the same.			
 Remove main.txt from staging but keep in working (untrack file, after this and commit file would be remove from repo)	git rm --cached main.txt			
 "Which command / parameter changes the message of the last commit? (for ""newmessage"")<br />"	"<code>git commit --amend -m ""newmessage""</code><br />"			
 "Clone an existing repository (address: ""url"")"	git clone url			
@@ -634,7 +634,7 @@ Rebase your current HEAD onto <i>branch</i>	git rebase <i>branch</i>
 Abort a rebase	git rebase --abort			
 Continue a rebase after resolving conflicts	git rebase --continue			
 Use your configured merge tool to solve conflicts	git mergetool			
-Use your editor to manually solve conflicts during merge/rebase and after resolving mark file as resolved with:	git add <i>resolved-file or</i><div>git rm <i>resolved-file</i></div>	uncertain
+Use your editor to manually solve conflicts during merge/rebase and after resolving mark file as resolved with:	git add <i>resolved-file or</i><div>git rm <i>resolved-file</i></div>			uncertain
 Discard all local changes in working directory	git reset --hard HEAD			
 "Discard local changes in a specific file (""filename"")"	git checkout&nbsp;<i>filename</i>			
 Reset your HEAD pointer to some previous <i>commit</i> (and discard all changes since then)	git reset --hard <i>commit</i>			
@@ -645,20 +645,20 @@ What .gitignore pattern would you use to ignore all .txt files in the doc folder
 How can you skip the staging area for modified, tracked files when doing a commit?	git commit -a			
 How do you delete a <i>file</i> that has been modified and already added to the staging area?	git rm -f file			
 "How do you rename or move a file in git (""src"" to ""target"")?"	git mv src target			
-What are some of the options to view the commit log history in different formats?	"--pretty=[oneline | short | full | fuller]<div>--pretty=format:""...""</div>"	
-How do you view the history for author jdoe with keyword potato in the commit message made in the last two weeks that added or removed a reference to the function mashThePotato that were not merges?	git log --author jdoe --grep potato --all-match -SmashThePotato --since=2.weeks --no-merges	
-"Why is git reset considered safe without ""--hard"" option?"	It only affects your staging area	
+What are some of the options to view the commit log history in different formats?	"--pretty=[oneline | short | full | fuller]<div>--pretty=format:""...""</div>"			
+How do you view the history for author jdoe with keyword potato in the commit message made in the last two weeks that added or removed a reference to the function mashThePotato that were not merges?	git log --author jdoe --grep potato --all-match -SmashThePotato --since=2.weeks --no-merges			
+"Why is git reset considered safe without ""--hard"" option?"	It only affects your staging area			
 How do you tag revision 0123abc with the name v1.0?	git tag v1.0 0123abc			
-"What happens if you try to delete a branch with ""git branch -d &lt;name&gt;"" that has not yet been merged?"	It will fail, and offer -D if you really want to lose your branch.	
+"What happens if you try to delete a branch with ""git branch -d &lt;name&gt;"" that has not yet been merged?"	It will fail, and offer -D if you really want to lose your branch.			
 "If you want to use a different name than ""origin"" (eg ""norig"") for the remote when cloning a repository (""repo""), what parameter would you use?<br />"	git clone -o norig repo<br />			
 "How would you share a local branch called ""badname"" as ""goodname"" on a remote called ""origin""?<br>"	git push origin badname:goodname<br>			
 How would you set up a credential cache so that you don't have to keep typing your password for git push?	git config --global credential.helper cache			
 If you have a local branch and you want it to use a remote branch (say origin/hotfix) as upstream, how would you set it?	git branch -u origin/hotfix			
 How do you see what tracking branches you have set up?	git branch -vv			
 "How would you delete a remote branch (""serverfix"") from the server (""origin"")?"	git push origin --delete serverfix			
-How would you use rebase to apply master changes to branch b1, then apply b1 changes to master? The result being a linear history.	<div># method: 1</div>git checkout b1<div>git rebase master</div><div>git checkout master</div><div>git merge b1</div><div><br></div><div># method: 2</div><div>git rebase b1 master</div><div>git checkout master</div><div>git merge b1</div>	
+How would you use rebase to apply master changes to branch b1, then apply b1 changes to master? The result being a linear history.	<div># method: 1</div>git checkout b1<div>git rebase master</div><div>git checkout master</div><div>git merge b1</div><div><br /></div><div># method: 2</div><div>git rebase b1 master</div><div>git checkout master</div><div>git merge b1</div>			
 If you have changes on commits that no longer exist upstream (due to a remote rebase), how can you pull in those changes and avoid conflicts that would happen with git pull origin/master?	<div>git pull --rebase origin/master</div>			
-"What are limitations of the command that changes the message of the last commit (<span style=""font-family: monospace"">git commit --amend</span>)?"	It only works before the commit has been pushed to remote repo.	git shell
+"What are limitations of the command that changes the message of the last commit (<span style=""font-family: monospace"">git commit --amend</span>)?"	It only works before the commit has been pushed to remote repo.			git shell
 "What command is used to configure the local user's name (""Name""), that are used when committing to Git repositories?"	"<pre>git config --global user.name ""Name""</pre>"			git shell
 "Show what file would be delited with ""git clean"" (dry run)"	git clean -n	(or --dry-run)		git shell
 "What option should you add to ""git clean"" in order to remove untracked directories"	-d			git shell
@@ -690,7 +690,7 @@ Start binary search of commits to find bad commit	git bisect start		"<a href=""h
 Mark current commit as broken during bisect	git bisect bad		"<a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
 <div>Mark current commit as good during bisect</div>	git bisect good		"<a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
 Mark v2.2 as last known good commit during bisect (beginning of binary search)	git bisect good v2.2		"<a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
-How do you initiate bisect algorithm in git (several commands)	"<div><div>Suppose you are trying to find the commit that broke a feature that was known to work in version v2.6.13-rc2 of your project. You start a bisect session as follows:</div><div><br /></div><div>$ git bisect start</div><div>$ git bisect bad # Current version is bad</div><div>$ git bisect good v2.6.13-rc2 # v2.6.13-rc2 is known to be good</div></div><div><br /></div><a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
+How do you initiate bisect algorithm in git (several commands)	"<div><div>Suppose you are trying to find the commit that broke a feature that was known to work in version v2.6.13-rc2 of your project. You start a bisect session as follows:</div><div><br /></div><div>$ git bisect start</div><div>$ git bisect bad # Current version is bad</div><div>$ git bisect good v2.6.13-rc2 # v2.6.13-rc2 is known to be good</div></div><div><br /></div><a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"			command git shell
 Reset to original&nbsp;HEAD when finished with bisect	git bisect reset		"<a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a>"	command git shell
 "Run 'test.sh' on each commit during bisect (automates designation of commit as ""good"" or ""bad"")"	git bisect run test.sh	Note that the script should exit with code 0 if the current source code is good/old, and exit with a code between 1 and 127 (inclusive), except 125, if the current source code is bad/new.	"<div><a href=""https://git-scm.com/docs/git-bisect"">https://git-scm.com/docs/git-bisect</a></div>"	command git shell
 "Search the working directory for ""foo()"""	"git grep ""foo()"""			command git shell
@@ -711,5 +711,8 @@ Stash all changes (including untracked and ignored files)	git stash --all		"<a h
 Stash files in repo including untracked files (but not ignored ones)	git stash&nbsp;--include-untracked		"<a href=""https://git-scm.com/docs/git-stash"">https://git-scm.com/docs/git-stash</a>"	command git shell
 Start git stash interactive mode (allows you to &nbsp;interactively select changes, that would be stashed)	git stash -p		"<a href=""https://git-scm.com/docs/git-stash"">https://git-scm.com/docs/git-stash</a>"	command git shell
 Show status of the repository, ignoring untracked files	git status -uno	or&nbsp;--untracked-files=no. Other options - normal (Shows untracked files and directories),&nbsp;all (default, Also shows individual files in untracked directories).		command git shell
-What is wrong with --option=~/file	~ only substituted by shell if leading filename, so needs = replaced by space	
+What is wrong with --option=~/file	~ only substituted by shell if leading filename, so needs = replaced by space			
 Make the current commit the only (initial) commit in a Git repository?	<div>The only solution that works for me (and keeps submodules working) is</div><div><br /></div><div><b>git checkout --orphan newBranch</b></div><div><b>git add -A &nbsp;# Add all files and commit them</b></div><div><b>git commit</b></div><div><b>git branch -D master &nbsp;# Deletes the master branch</b></div><div><b>git branch -m master &nbsp;# Rename the current branch to master</b></div><div><b>git push -f origin master &nbsp;# Force push master branch to github</b></div><div><b>git gc --aggressive --prune=all &nbsp; &nbsp; # remove the old files</b></div>			
+cron meaning	There is no definitive explanation but most accepted answers is reportdly from Ken Thompson (author of unix cron): cron comes from chron, the Greek prefix for ‘time’.			
+crontab short for	cron table			
+crontab restrictions	<div>if `/usr/lib/cron/cron.allow` exists:</div><div>&nbsp; `$USER` must appear in it</div><div>else if `/usr/lib/cron/cron.deny` exists:</div><div>&nbsp; `$USER` must not appear in it</div><div>else</div><div>&nbsp; only root can use crontab</div>		y	

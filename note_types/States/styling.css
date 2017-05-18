@@ -1,0 +1,24 @@
+.card {
+  font-family: "Avenir Next", "Avenir Next Bold", Georgia;
+  font-size: 50px;
+  text-align: left;
+  color: #2aa198; /* green */
+  background-color: #002b36;
+  font-weight: bold;
+}
+.keyword { color: #2aa198; /* green */  font-weight: bold; }
+.definition, .question {
+  font-family:  "Optima", "Optima Regular", Georgia;
+  font-size: 40px;
+  font-weight: normal;
+}
+.definition {
+  margin:0 0 15px 0;
+  color: #268bd2; /* blue */
+}
+.question {
+  color: #b58900; /* yellow */
+}
+@font-face { font-family: "Avenir Next Bold"; src: url('_AvenirNext-Bold.ttf'); }
+@font-face { font-family: "Avenir Next Regular"; src: url('_AvenirNext-Regular.ttf'); }
+@font-face { font-family: "Optima Regular"; src: url('_Optima-Regular.ttf'); }

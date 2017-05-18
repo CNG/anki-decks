@@ -274,7 +274,7 @@ appropriate	acquire; take possession of for one's own use without permission; se
 appurtenances	subordinate possessions; something added to a more important thing	Barron4841
 apropos	with reference to; regarding; Ex. remarks apropos (of) the present situation; ADJ. ADV.	Barron4841
 aptitude	fitness; talent	Barron4841
-aquiline	curved; hooked; of or like an eagle; Ex. aquiline nose	Barron4841
+aquiline	curved; hooked; of or like an eagle; Ex. aquiline nose<div><br /></div><div>I confuse with agylphous (adj.&nbsp;Of a snake's tooth: solid and unspecialized, without a groove for venom.).</div>	Barron4841
 arable	fit for growing crops; Ex. arable land	Barron4841
 arbiter	person with power to decide a matter in dispute; judge who is in a position ot make influential judgments; Ex. supreme arbiter of fashion in beachware	Barron4841
 arbitrary	unreasonable or capricious; random; tyrannical; Ex. arbitrary ruler	Barron4841
@@ -437,7 +437,7 @@ grudge	deep feeling of dislike; Ex. grudge fight; V.	Barron4841
 beguile	deceive; mislead or delude; cheat; pass time pleasantly; charm or attract; Ex. beguiling smile	Barron4841
 behemoth	huge creature; something of monstrous size or power	Barron4841
 beholden	obligated; indebted; owing thanks; obliged or indebted from gratitude	Barron4841
-behoove(behove)	be suited to; be incumbent upon; be right and necessary; Ex. It behooves one to do.	Barron4841
+behoove	also, <b>behove</b><div><br /></div><div>be suited to; be incumbent upon; be right and necessary; Ex. It behooves one to do.</div>	Barron4841
 belabor	harp on; dwell on tediously; explain or go over excessively or to a ridiculous degree; assail verbally; beat severely; attack physically	Barron4841
 belated	delayed	Barron4841
 beleaguer	besiege or attack (with an army); harass; beset	Barron4841
@@ -1796,7 +1796,7 @@ flamboyant	ornate; highly elaborate; richly colored; ostentatious; showy; CF. fl
 flaunt	display ostentatiously; Ex. ``Honey, if you've got it, flaunt it !''	Barron4841
 flay	strip off skin; plunder; remove the skin from; criticize harshly	Barron4841
 fleck	spot; mark with flecks; N: small mark or spot	Barron4841
-fledgling (fledgeling)	inexperienced; N: young bird that has acquired wing feathers and is learning to fly; inexperienced person	Barron4841
+fledgling	also, <b>fledgeling</b><div><br /></div><div>inexperienced; N: young bird that has acquired wing feathers and is learning to fly; inexperienced person</div>	Barron4841
 fleece	wool coat of a sheep; V: shear the fleece from; rob by a trick; swindle; plunder	Barron4841
 shear	remove (fleece or hair) by cutting; remove the hair or fleece from; cut with or as if with shears; N: shears; pair of scissors	Barron4841
 trickster	person who cheats people	Barron4841
@@ -3234,7 +3234,7 @@ parody	humorous imitation; spoof; takeoff; travesty; V.	Barron4841
 spoof	parody	Barron4841
 takeoff	burlesque; act of leaving the ground	Barron4841
 paroxysm	fit or attack of pain, laughter, rage; sudden outburst	Barron4841
-parquet	floor made of wood strips inlaid in a mosaic like matter; CF. strip: long narrow piece	Barron4841
+parquet	"floor made of wood strips inlaid in a mosaic like matter; CF. strip: long narrow piece<div><br /></div><div><img src=""wooden-parquet-floor_1219-22.jpg"" /></div>"	Barron4841
 parry	ward off a blow; deflect; Ex. He parried the unwelcome question very skillfully; N. CF. ¸·´Â´Ù´Â °³³äÀÌ ¾Æ´Ô	Barron4841
 ward	administrative division of a city; division in a hospital or prison; incompetent person placed under the protection of a guardian; V: guard; ward off: avert	Barron4841
 parsimony	stinginess; excessive frugality; ADJ. parsimonious	Barron4841
@@ -5281,7 +5281,7 @@ smarmy	adj.&nbsp;Ingratiating and wheedling in a way that is perceived as insinc
 cantankerous	adjective: Difficult to deal with: ill-tempered, quarrelsome.	
 orismology	Technical terms collectively, terminology; (also) the explanation of such terms.	
 pogonotomy	n.&nbsp;The cutting of a beard; shaving.	
-aglyphous	adj.&nbsp;Of a snake's tooth: solid and unspecialized, without a groove for venom.	
+aglyphous	adj.&nbsp;Of a snake's tooth: solid and unspecialized, without a groove for venom.<div><br /></div><div>I confuse with aquiline (curved; hooked; of or like an eagle; Ex. aquiline nose).</div>	
 pash	intr. and trans. To kiss passionately; to engage in amorous play (with).	
 gnathic	adjective: Of or relating to the jaw.	
 abortifacient	substance that causes abortion	
@@ -5304,16 +5304,16 @@ alectryomancy	Divination using a cock, typically by interpreting patterns in its
 per curiam<br>	"In law, a per curiam decision (or opinion) is a ruling issued by an appellate court of multiple judges in which the decision rendered is made by the court (or at least, a majority of the court) acting collectively and anonymously.<br><br>&nbsp;In contrast to regular opinions, a per curiam does not list the individual judge responsible for authoring the decision, but minority dissenting and concurring decisions are signed.<br><br>Per curiams are not the only type of decision that can reflect the opinion of the court. Other types of decisions can also reflect the opinion of the entire court, such as unanimous decisions, in which the opinion of the court is expressed with an author listed.<br><br>The Latin term per curiam literally means ""by the court""."	
 pro forma<br>	"The term pro forma, Latin for ""as a matter of form"" or ""for the sake of form"", is a term applied to practices or documents that are done as a pure formality, perfunctorily, or seek to satisfy the minimum requirements or to conform to a convention or doctrine<br><br>In law, pro forma court rulings are intended merely to facilitate the legal process (to move matters along).Pro forma audiences are used to obey a formal demand. For example, one pro forma audience may be heard for a judge to order the production of a certain proof or to schedule another date.<br>"	latin
 calends (kalendae)<br>	"The calends (Latin: kalendae, ""the called"") were the first days of each month of the Roman calendar. The Romans assigned these calends to the first day of the month, signifying the start of the new moon cycle.<br><br>According to some ancient or modern proposed etymologies of the word, it was derived from the phrase kalo Iuno Covella or kalo Iuno Novella, meaning respectively ""hollow Juno I call you"" and ""new Juno I call you"", an announcement about the Nones or in proclaiming the new moon that marked the Kalends which the pontiffs made every first day of the month on the Capitoline Hill in the Announcement Hall.<br>"	latin
-Nonae (Nones)<br>	The Nones was eight days before the Ides, and fell on the 5th or 7th day of the month, depending on the position of the Ides.<br><br>Thought to have originally been the day of the half moon. <br>	latin
+Nonae (Nones)<br>	The Nones was eight days before the Ides, and fell on the 5th or 7th day of the month, depending on the position of the Ides.<br><br>Thought to have originally been the day of the half moon. <br>	Latin
 Idus (Ides)<br>	Idus, Ides—thought to have originally been the day of the full moon, was the 13th day of the months with 29 days, but the 15th day of March, May, July, and October (the months with 31 days).	latin
-certiorari	"a writ of superior court to call up the records of an inferior court or a body acting in a quasi-judicial capacity <br><br>-&nbsp; an order by a higher court directing a lower court, tribunal, or public authority to send the record in a given case for review.<br><br>from the Latin verb certiorare (""to inform, apprise, show""<br>"	latin, law
+certiorari	"a writ of superior court to call up the records of an inferior court or a body acting in a quasi-judicial capacity <br><br>-&nbsp; an order by a higher court directing a lower court, tribunal, or public authority to send the record in a given case for review.<br><br>from the Latin verb certiorare (""to inform, apprise, show""<br>"	Latin law
 pareidolia	psychological phenomenon involving a vague and random stimulus (often an image or sound) being perceived as significant.<br><br>ex: seeing a human face in a mountain, or seeing animals in clouds<br>	
 mens rea	noun: Criminal intent.&nbsp;<div>From Latin mens rea (guilty mind). Earliest documented use: 1861.</div>	latin
 Aggadah	"<span style=""color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 13px; line-height: normal;"">1. A legend or parable that illustrates a point of the Law in the Talmud; the non-legal element of the Talmud</span><div><font color=""#222222"" face=""arial, sans-serif"" size=""2""><span style=""line-height: normal;"">2. (A book containing) the text recited at the Seder on the first two nights of the Passover, centred around the liberation of the Israelites in Egypt as told in the Book of Exodus. Also occas.: this recital as a ritual.</span></font><br></div>"	Judaism
 statuomania	Excessive or passionate enthusiasm for erecting statues. Chiefly with reference to France.	Judaism
 hereditament	noun: Inheritable property.&nbsp;<div><br></div><div>Hereditament is of two kinds: corporeal and incorporeal. If your grandfather willed you his collection of Superman comics, that would be corporeal hereditament. If he awarded you only the right to read those comics from time to time, it'd be incorporeal hereditament.</div>	
 liveware	Computer personnel, as opposed to the software and hardware they work with; (more widely) people, in contrast to machines or technology.<div><br><div>First used 1966</div></div>	
-lex loci	noun: The law of the place.&nbsp;<div><br></div><div>ETYMOLOGY: From Latin lex (law) + locus (place). Earliest documented use: 1832.</div>	latin, law
+lex loci	noun: The law of the place.&nbsp;<div><br></div><div>ETYMOLOGY: From Latin lex (law) + locus (place). Earliest documented use: 1832.</div>	Latin law
 agitprop	propaganda; especially : political propaganda promulgated chiefly in literature, drama, music, or art<div><br></div><div>Russian, ultimately from agitatsiya agitation + propaganda First Known Use: 1935<br></div>	
 nowt	1. cattle<div>2. a.&nbsp;An ox; a bullock; a cow or heifer.</div><div>&nbsp; &nbsp;b.&nbsp;fig. A stupid, coarse, or clumsy person; (also) a person who is obstinate or difficult.</div>	
 nutting	1. the action of gathering nuts	
@@ -5323,13 +5323,13 @@ temerarious	adjective: Presumptuously or recklessly daring or bold.
 sagacious	adjective: Having keen judgment or wisdom.	
 percipient	adjective: Having deep insight or understanding.<div><br></div><div>From Latin percipere (to perceive), from per- (thoroughly) + capere (to seize).<br></div>	
 magnanimous	adjective: Generous or forgiving, especially towards a weak rival.<div><br></div><div>great souled.</div><div><br></div><div>From Latin magnanimus (great-souled), from magnus (great) + animus (soul, mind)<br></div>	
-heortology	The science or study of the origin, meaning, growth, and history of the religious feasts and seasons of the Christian year.	religion
-rood-tree	The cross on which Jesus died.	religion
-blue blood	noun: 1. An aristocratic or socially prominent lineage.<div>&nbsp;2. A member of such a family.</div><div><br></div><div>Loan translation of Spanish sangre azul (blue blood). The term arose from the visible veins of light-skinned royalty.<br></div>	religion
+heortology	The science or study of the origin, meaning, growth, and history of the religious feasts and seasons of the Christian year.	
+rood-tree	The cross on which Jesus died.	
+blue blood	noun: 1. An aristocratic or socially prominent lineage.<div>&nbsp;2. A member of such a family.</div><div><br></div><div>Loan translation of Spanish sangre azul (blue blood). The term arose from the visible veins of light-skinned royalty.<br></div>	
 tablinum	An anteroom in an ancient Roman house, opening out of the atrium opposite the principal entrance and often containing the family archives and statues	architecture
-pyroclastic	Designating, relating to, or consisting of rock fragmented by volcanic action or comminuted in the process of eruption.	science
+pyroclastic	Designating, relating to, or consisting of rock fragmented by volcanic action or comminuted in the process of eruption.	
 running dog	noun: A servile follower; lackey.	
-opus signinum	A Roman flooring material consisting of broken tiles and other fragments mixed with lime mortar.	architecture latin,
+opus signinum	A Roman flooring material consisting of broken tiles and other fragments mixed with lime mortar.	Latin architecture
 cryptoporticus	noun, plural cryptoporticus.<br><br>1. a covered passage, as one underground, lighted on one side.<br>2. a portico at the entrance to a crypt.	architecture
 periplus	1.&nbsp;a. An account or narrative of a circumnavigation or other voyage; a manual of navigation.<div>b. A circuit; a circumnavigation; a voyage or journey round a coastline; an epic journey, an odyssey.<br></div><div><br></div><div>2.&nbsp;Ancient Greek Naut. A manoeuvre in naval warfare involving sailing round an enemy fleet. This manoeuvre was favoured by faster, lighter ships; it facilitated ramming from the side or the rear.</div>	
 philomuse	a.&nbsp;A lover of the Muses, a poetry lover.<div>b.&nbsp;Fond of or devoted to the arts or literature.</div>	Greek
@@ -5337,7 +5337,7 @@ hypostatize	Treat or represent (something abstract) as a concrete reality
 hermeneutics	"1.&nbsp;plural but sing or plural in constr : the study of the methodological principles of interpretation (as of the Bible)&nbsp;<div><br></div><div>2 : a method or principle of interpretation</div><div><br></div><div><span style=""font-family: Times; font-size: medium;"">The term&nbsp;</span><em style=""font-family: Times; font-size: medium;"">hermeneutics</em><span style=""font-family: Times; font-size: medium;"">, a Latinized version of the Greek&nbsp;</span><em style=""font-family: Times; font-size: medium;"">hermeneutice</em><span style=""font-family: Times; font-size: medium;"">, has been part of common language from the beginning of the 17</span><sup style=""line-height: 0px; font-family: Times;"">th</sup><span style=""font-family: Times; font-size: medium;"">&nbsp;century. Nevertheless, its history stretches back to ancient philosophy. Addressing the understanding of religious intuitions, Plato used this term in a number of dialogues, contrasting hermeneutic knowledge to that of&nbsp;</span><em style=""font-family: Times; font-size: medium;"">sophia</em><span style=""font-family: Times; font-size: medium;"">. Religious knowledge is a knowledge of what has been revealed or said and does not, like&nbsp;</span><em style=""font-family: Times; font-size: medium;"">sophia</em><span style=""font-family: Times; font-size: medium;"">, involve knowledge of the truth-value of the utterance. Aristotle carried this use of the term a step further, naming his work on logic and semantics&nbsp;</span><em style=""font-family: Times; font-size: medium;"">Peri hermeneias</em><span style=""font-family: Times; font-size: medium;"">, which was later rendered as&nbsp;</span><em style=""font-family: Times; font-size: medium;"">De interpretatione</em><br></div>"	
 attorn	verb tr.: To turn over rent, goods, etc. to another.&nbsp;<div>verb intr.: To agree to be a tenant of a new landlord of the same property.</div>	
 babouche	A North African or Middle Eastern slipper, typically heelless and made of soft leather<div><br></div><div>variant of papouche / papoosh<br></div>	
-inter arma enim silent leges	"Latin phrase meaning ""For among [times of] arms, the laws fall mute,"" although it is more popularly rendered as ""In times of war, the law falls silent.""&nbsp;<div><br></div><div>This maxim was likely first written in these words by Cicero in his published oration Pro Milone, although Cicero's actual wording was ""Silent enim leges inter arma."" Given Cicero's in-depth knowledge of Greek political history, it can be argued that his notion on war and law was inspired by Thucydides's opinion on the violent nature of war and the realist approach in international relations.</div>"	Latin, phrases
+inter arma enim silent leges	"Latin phrase meaning ""For among [times of] arms, the laws fall mute,"" although it is more popularly rendered as ""In times of war, the law falls silent.""&nbsp;<div><br></div><div>This maxim was likely first written in these words by Cicero in his published oration Pro Milone, although Cicero's actual wording was ""Silent enim leges inter arma."" Given Cicero's in-depth knowledge of Greek political history, it can be argued that his notion on war and law was inspired by Thucydides's opinion on the violent nature of war and the realist approach in international relations.</div>"	Latin
 nice nelly	noun: A person excessively concerned with propriety, modesty, etc.<div><br></div><div>A specialized use of the name Nelly, a nickname for Helen or Eleanor. Earliest documented use: 1922.<br></div>	
 peeping Tom	noun: Someone who gets se_xual pleasure from secretly watching others; voyeur.<div><br></div><div>From the legend of Lady Godiva who rode unclothed through the streets of Coventry, England to persuade her husband to lower taxes on the people. All the townfolk shuttered their windows, except for a tailor named Tom who couldn't resist and watched. Earliest documented use: 1769.<br></div>	
 procacity	(dated) forwardness; pertness; petulance; an instance of such	

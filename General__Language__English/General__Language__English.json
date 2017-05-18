@@ -786,6 +786,7 @@
     "extendRev": 50, 
     "media_files": [
         "latex-e34abf3c7601f491cde20e6c318f54030b0237a2.png", 
+        "wooden-parquet-floor_1219-22.jpg", 
         "PEND2.JPG", 
         "50e287f2cc2df0fef8f56114f3bb25c1-d388xdm.jpg"
     ], 
@@ -795,7 +796,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
-            "css": ".card {\n  font-family: \"Avenir Next\", Georgia;\n  font-size: 50px;\n  text-align: left;\n  color: #2aa198;\n  background-color: #002b36;\n  font-weight: bold;\n}\na {\n  text-decoration: none;\n  color: inherit;\n}\na:hover {\n  color: #d33682;\n}\n.meta {\n  color: #6c71c4;\n  font-size: 15px;\n  font-weight: normal;\n}\n.definition, .questionn {\n  margin-top:15px;\n  font-family:  \"Optima\", Georgia;\n  color: #268bd2;\n  font-size: 40px;\n  font-weight: normal;\n}\n.questionn {\n  color: #b58900;\n}", 
+            "css": ".card {\n  font-family:  \"Optima\", \"Optima Regular\", Georgia;\n  font-size: 30px;\n  text-align: left;\n  background-color: #002b36;\n  color: #93a1a1; /* grey */\n}\n\nblockquote { margin: 0; font-size: 30px; color: #268bd2; /* blue */ }\nmark, cite { font-size: 50px; }\nmark, cite { font-weight: bold; }\nmark { background-color: inherit; color: #2aa198; /* green */ }\ncite { font-style: inherit; color: #268bd2; /* blue */ }\nvar { color: #b58900; /* yellow */ }\nvar:after { content: '?'; }\n\ndetails { font-size: 20px; margin-top: 20px; }\n.long { font-size: 30px; }\n.decap:first-letter { text-transform: lowercase; }\n\nsection, blockquote { margin-bottom: 20px; }\ncode { font-family: Monaco, monospace; }\n\n@font-face { font-family: \"Optima Regular\"; src: url('_Optima-Regular.ttf'); }\n@font-face { font-family: \"Monaco\"; src: url('_Monaco.ttf'); }\n\na { color: inherit; text-decoration: none; }\na:hover { color: #d33682; }\nsmall { position: absolute; display: inline-block; top: 0; right: 0; color: #6c71c4; font-size: 18px; font-weight: normal; }\n\n/* following is a hack to allow sharing script, but must execute from template */\n</style><script>function parse() {document.getElementsByTagName(\"article\")[0].innerHTML = document.getElementsByClassName(\"card\")[0].innerHTML.replace(/<(\\w+)>(?:\\s|&nbsp;){4}(.*?)<\\/\\1>/g, '<pre><code>$2</code></pre>').replace('</code></pre><pre><code>', '\\n').replace(/<(\\w+)>```\\s*<\\/\\1>(.*?)<(\\w+)>```\\s*<\\/\\3>/g, function(match, p1, p2, offset, string){return '<pre><code>'+p2.replace(/<(\\w+)>(.*?)<\\/\\1>/g,'$2\\n')+'</code></pre>';}).replace('\\n</code></pre>', '</code></pre>').replace(/([^\\\\])`((?:.(?!<\\/[^>]+>))*?[^\\\\])`/g, '$1<code>$2</code>').replace(/\\\\`/g, '`').replace(/-/g,'&#8209;');}</script><style>\n", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -832,13 +833,13 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "{{text:Front}}\n\n<div class=\"meta\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</div>\n\n<div class=\"definition\">{{Back}}</div>", 
+                    "afmt": "<article>\n\n<section style=\"position: relative;\">\n  <small>\n    <a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n  </small>\n  <mark>{{Front}}</mark>\n</section>\n\n<section>\n  <blockquote>{{Back}}</blockquote>\n</section>\n\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "{{text:Front}}\n\n<div class=\"meta\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</div>\n\n<div class=\"questionn\">Definition?</div>"
+                    "qfmt": "<article>\n\n<section style=\"position: relative;\">\n  <small>\n    <a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n  </small>\n  <mark>{{Front}}</mark>\n</section>\n\n<section>\n  <blockquote><var>definition</var></blockquote>\n</section>\n\n</article>"
                 }
             ], 
             "type": 0, 
@@ -847,7 +848,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": ".card {\n  font-family:  Georgia, Helvetica;\n  font-size: 50px;\n  text-align: center;\n  color: #2aa198;\n  background-color: #002b36;\n  xfont-weight: bold;\n}\na {\n  text-decoration: none;\n  color: inherit;\n}\na:hover {\n  color: #d33682;\n}\n.meta {\n  color: #b58900;\n  font-size: 14px;\n  font-weight: normal;\n}\n.definition {\n  margin-top:30px;\n  font-family: Georgia;\n  color: #268bd2;\n  font-size: 50px;\n  font-weight: normal;\n}\n.long {\n  font-size: 20px;\n}\n", 
+            "css": ".card {\n  font-family: \"Avenir Next\", \"Avenir Next Bold\", Georgia;\n  font-size: 50px;\n  text-align: left;\n  color: #2aa198;\n  background-color: #002b36;\n  font-weight: bold;\n}\na { color: inherit; text-decoration: none; }\na:hover { color: #d33682; }\n.meta {\n  font-family: \"Avenir Next\", \"Avenir Next Regular\", Georgia;\n  color: #6c71c4; font-size: 15px; font-weight: normal;\n}\n.definition, .question {\n  margin-top:15px;\n  font-family:  \"Optima\", \"Optima Regular\", Georgia;\n  color: #268bd2;\n  font-size: 40px;\n  font-weight: normal;\n}\n.question {\n  color: #b58900;\n}\n.long {\n  font-size: 30px;\n}\ncode, .code {\n  color: #2aa198; /* green */\n  font-family: Monaco, monospace;\n}\n@font-face { font-family: \"Avenir Next Bold\"; src: url('_AvenirNext-Bold.ttf'); }\n@font-face { font-family: \"Avenir Next Regular\"; src: url('_AvenirNext-Regular.ttf'); }\n@font-face { font-family: \"Optima Regular\"; src: url('_Optima-Regular.ttf'); }\n\n", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -910,11 +911,11 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<div class=\"definition{{#LongAnswer}} long{{/LongAnswer}}\">{{Back}}</div>", 
+                    "afmt": "<div class=\"definition{{#LongAnswer}} long{{/LongAnswer}}\">{{Back}}</div>\n\n<script>document.getElementsByClassName(\"card\")[0].innerHTML = document.getElementsByClassName(\"card\")[0].innerHTML.replace(/<(\\w+)>(?:\\s|&nbsp;){4}(.*?)<\\/\\1>/g, '<pre><code>$2</code></pre>').replace('</code></pre><pre><code>', '\\n').replace(/(?:<(\\w+)>)?```\\s*(?:<\\/\\1>)?(.*?)(?:<(\\w+)>)?```\\s*(?:<\\/\\3>)?/g, function(match, p1, p2, offset, string){return '<pre><code>'+p2.replace(/<(\\w+)>(.*?)<\\/\\1>/g,'$2\\n').replace(/\\n(?:\\s|&nbsp;)*<br(?: \\/)?>(?:\\s|&nbsp;)*\\n/g,'\\n\\n')+'</code></pre>';}).replace('\\n</code></pre>', '</code></pre>').replace(/([^\\\\])`((?:.(?!<\\/[^>]+>))*?[^\\\\])`/g, '$1<code>$2</code>').replace(/\\\\`/g, '`');</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
-                    "name": "BasicDark-Forward", 
+                    "name": "Forward", 
                     "ord": 0, 
                     "qfmt": "{{Front}}"
                 }, 
@@ -923,9 +924,9 @@
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
-                    "name": "BasicDark-Reversed", 
+                    "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<div class=\"definition {{#LongAnswer}}long{{/LongAnswer}}\">{{Back}}</div>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<div class=\"definition {{#LongAnswer}}long{{/LongAnswer}}\">{{Back}}</div>\n\n\n<script>document.getElementsByClassName(\"card\")[0].innerHTML = document.getElementsByClassName(\"card\")[0].innerHTML.replace(/<(\\w+)>(?:\\s|&nbsp;){4}(.*?)<\\/\\1>/g, '<pre><code>$2</code></pre>').replace('</code></pre><pre><code>', '\\n').replace(/(?:<(\\w+)>)?```\\s*(?:<\\/\\1>)?(.*?)(?:<(\\w+)>)?```\\s*(?:<\\/\\3>)?/g, function(match, p1, p2, offset, string){return '<pre><code>'+p2.replace(/<(\\w+)>(.*?)<\\/\\1>/g,'$2\\n').replace(/\\n(?:\\s|&nbsp;)*<br(?: \\/)?>(?:\\s|&nbsp;)*\\n/g,'\\n\\n')+'</code></pre>';}).replace('\\n</code></pre>', '</code></pre>').replace(/([^\\\\])`((?:.(?!<\\/[^>]+>))*?[^\\\\])`/g, '$1<code>$2</code>').replace(/\\\\`/g, '`');</script>\n\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -4803,7 +4804,7 @@
             "data": "", 
             "fields": [
                 "aquiline", 
-                "curved; hooked; of or like an eagle; Ex. aquiline nose"
+                "curved; hooked; of or like an eagle; Ex. aquiline nose<div><br /></div><div>I confuse with agylphous (adj.&nbsp;Of a snake's tooth: solid and unspecialized, without a groove for venom.).</div>"
             ], 
             "flags": 0, 
             "guid": "f@TX[H`C6c", 
@@ -7084,8 +7085,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "behoove(behove)", 
-                "be suited to; be incumbent upon; be right and necessary; Ex. It behooves one to do."
+                "behoove", 
+                "also, <b>behove</b><div><br /></div><div>be suited to; be incumbent upon; be right and necessary; Ex. It behooves one to do.</div>"
             ], 
             "flags": 0, 
             "guid": "k)o>|s.^5T", 
@@ -26115,8 +26116,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "fledgling (fledgeling)", 
-                "inexperienced; N: young bird that has acquired wing feathers and is learning to fly; inexperienced person"
+                "fledgling", 
+                "also, <b>fledgeling</b><div><br /></div><div>inexperienced; N: young bird that has acquired wing feathers and is learning to fly; inexperienced person</div>"
             ], 
             "flags": 0, 
             "guid": "t$9oB^p>B:", 
@@ -46252,7 +46253,7 @@
             "data": "", 
             "fields": [
                 "parquet", 
-                "floor made of wood strips inlaid in a mosaic like matter; CF. strip: long narrow piece"
+                "floor made of wood strips inlaid in a mosaic like matter; CF. strip: long narrow piece<div><br /></div><div><img src=\"wooden-parquet-floor_1219-22.jpg\" /></div>"
             ], 
             "flags": 0, 
             "guid": "uO^Y`F+q[d", 
@@ -74001,7 +74002,7 @@
             "data": "", 
             "fields": [
                 "aglyphous", 
-                "adj.&nbsp;Of a snake's tooth: solid and unspecialized, without a groove for venom."
+                "adj.&nbsp;Of a snake's tooth: solid and unspecialized, without a groove for venom.<div><br /></div><div>I confuse with aquiline (curved; hooked; of or like an eagle; Ex. aquiline nose).</div>"
             ], 
             "flags": 0, 
             "guid": "xWh5Ga,Bhw", 
@@ -74287,7 +74288,7 @@
             "guid": "LD<H/&ng.)", 
             "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
             "tags": [
-                "latin"
+                "Latin"
             ]
         }, 
         {
@@ -74315,7 +74316,7 @@
             "guid": "Hl<(xPGJAm", 
             "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
             "tags": [
-                "latin,", 
+                "Latin", 
                 "law"
             ]
         }, 
@@ -74408,7 +74409,7 @@
             "guid": "IWZl_h!Jm~", 
             "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
             "tags": [
-                "latin,", 
+                "Latin", 
                 "law"
             ]
         }, 
@@ -74530,9 +74531,7 @@
             "flags": 0, 
             "guid": "sPX;Ze@eO-", 
             "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
-            "tags": [
-                "religion"
-            ]
+            "tags": []
         }, 
         {
             "__type__": "Note", 
@@ -74544,9 +74543,7 @@
             "flags": 0, 
             "guid": "qBm(Ziff<*", 
             "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
-            "tags": [
-                "religion"
-            ]
+            "tags": []
         }, 
         {
             "__type__": "Note", 
@@ -74558,9 +74555,7 @@
             "flags": 0, 
             "guid": "JPPz*Eks.p", 
             "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
-            "tags": [
-                "religion"
-            ]
+            "tags": []
         }, 
         {
             "__type__": "Note", 
@@ -74586,9 +74581,7 @@
             "flags": 0, 
             "guid": "J?HJl1aSUH", 
             "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
-            "tags": [
-                "science"
-            ]
+            "tags": []
         }, 
         {
             "__type__": "Note", 
@@ -74613,8 +74606,8 @@
             "guid": "dIxXM9xi*h", 
             "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
             "tags": [
-                "architecture", 
-                "latin,"
+                "Latin", 
+                "architecture"
             ]
         }, 
         {
@@ -74716,8 +74709,7 @@
             "guid": "C)f=23+v3^", 
             "note_model_uuid": "883574e3-3a81-11e7-8acc-2c56dc924912", 
             "tags": [
-                "Latin,", 
-                "phrases"
+                "Latin"
             ]
         }, 
         {

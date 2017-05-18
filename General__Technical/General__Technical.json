@@ -4071,7 +4071,7 @@
                         "-p", 
                         "", 
                         "", 
-                        "(<b>x</b> mode only) Preserve file permissions. Attempt to restore the full permissions, including owner, file modes, file flags and ACLs, if available, for each item extracted from the archive. By default, newly-created files are owned by the user running <b>tar</b>, the file mode is restored for newly-created regular files, and all other types of entries receive default permissions. If <b>tar</b> is being run by root, the default is to restore the owner unless the <b>-o</b> option is also specified.", 
+                        "(`x` mode only) Preserve file permissions. Attempt to restore the full permissions, including owner, file modes, file flags and ACLs, if available, for each item extracted from the archive. By default, newly-created files are owned by the user running <b>tar</b>, the file mode is restored for newly-created regular files, and all other types of entries receive default permissions. If <b>tar</b> is being run by root, the default is to restore the owner unless the <b>-o</b> option is also specified.", 
                         "", 
                         ""
                     ], 
@@ -7410,11 +7410,13 @@
                     "data": "", 
                     "fields": [
                         "What is wrong with --option=~/file", 
-                        "~ only substituted by shell if leading filename, so needs = replaced by space"
+                        "~ only substituted by shell if leading filename, so needs = replaced by space", 
+                        "", 
+                        ""
                     ], 
                     "flags": 0, 
                     "guid": "x#J@s]Ye#9", 
-                    "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
                 }, 
                 {
@@ -7428,6 +7430,48 @@
                     ], 
                     "flags": 0, 
                     "guid": "qofM=IFI?1", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "cron meaning", 
+                        "There is no definitive explanation but most accepted answers is reportdly from Ken Thompson (author of unix cron): cron comes from chron, the Greek prefix for ‘time’.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "f_/3PNYTeb", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "crontab short for", 
+                        "cron table", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "EHJ/577DF0", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "crontab restrictions", 
+                        "<div>if `/usr/lib/cron/cron.allow` exists:</div><div>&nbsp; `$USER` must appear in it</div><div>else if `/usr/lib/cron/cron.deny` exists:</div><div>&nbsp; `$USER` must not appear in it</div><div>else</div><div>&nbsp; only root can use crontab</div>", 
+                        "", 
+                        "y"
+                    ], 
+                    "flags": 0, 
+                    "guid": "cUkL&{<ow2", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
                 }
@@ -7454,11 +7498,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the main characteristic of a  <b>distributed\n                  version control system\n                  (DVCS)</b>?", 
-                                "A distributed version control system has no\n                  central server which\n                  stores the data. Every local copy contains the full history of the\n                  source code.\n                  \n               "
+                                "A distributed version control system has no\n                  central server which\n                  stores the data. Every local copy contains the full history of the\n                  source code.\n                  \n               ", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "b#GLS`mD*f", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7466,11 +7512,13 @@
                             "data": "", 
                             "fields": [
                                 "Does the use of a\n                  <b>DVCS</b> require a\n                  central\n                  code\n                  repository?\n                  \n               ", 
-                                "No."
+                                "No.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "CPlCr{/4m(", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7478,11 +7526,13 @@
                             "data": "", 
                             "fields": [
                                 "Where does Git\n                  <b>commit</b> file changes to?<br />", 
-                                "To the local repository."
+                                "To the local repository.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "O9BDWhx,@(", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7490,11 +7540,13 @@
                             "data": "", 
                             "fields": [
                                 "What happens when you <b>clone</b> a\n                  repository with                    Git?", 
-                                "An exact copy of the\n                  repository is created locally.<br />"
+                                "An exact copy of the\n                  repository is created locally.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "Dkiv9+0iTX", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7502,11 +7554,13 @@
                             "data": "", 
                             "fields": [
                                 "Does the local clone of a remote repository include the\n                  complete history of the source code?", 
-                                "Yes."
+                                "Yes.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "M,[&ZR-I$S", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7514,11 +7568,13 @@
                             "data": "", 
                             "fields": [
                                 "What's the meaning of <b>master branch</b>?", 
-                                "The \"master\" in Git is the default branch, which generally represents the most stable code."
+                                "The \"master\" in Git is the default branch, which generally represents the most stable code.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "bm{uO(^4b/", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7526,11 +7582,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a <b>commit</b>?", 
-                                "A commit is a pointer to a spot&nbsp;(revision)&nbsp;on the code history."
+                                "A commit is a pointer to a spot&nbsp;(revision)&nbsp;on the code history.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "LknXA>P{gu", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7538,11 +7596,13 @@
                             "data": "", 
                             "fields": [
                                 "How are Git commits <b>identified</b>?", 
-                                "Instead of numbering commits, Git uses the code contents of the commit to create a unique, 40 character SHA-1 hash."
+                                "Instead of numbering commits, Git uses the code contents of the commit to create a unique, 40 character SHA-1 hash.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "M!|;;-isLS", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7550,11 +7610,13 @@
                             "data": "", 
                             "fields": [
                                 "Does a branch created in a repository,&nbsp;which was cloned from another repository, need to have a&nbsp;counterpart in the&nbsp;remote repository?<br /> ", 
-                                "No it doesn't."
+                                "No it doesn't.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "cr,S-na/4y", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7562,11 +7624,13 @@
                             "data": "", 
                             "fields": [
                                 "Which two steps are neccessary to persist modifications on a file in the repository?<br />", 
-                                "1. Staging (mark the file to be relevant for Git) = adding the file to the index.<br />2. Commiting: storing the changes in the Git repository.<br />"
+                                "1. Staging (mark the file to be relevant for Git) = adding the file to the index.<br />2. Commiting: storing the changes in the Git repository.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "wp*ChGY&nd", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7574,11 +7638,13 @@
                             "data": "", 
                             "fields": [
                                 "What does the term <b>staging</b> describe?", 
-                                "Marking changes as relevant for the version control, by adding them to the index."
+                                "Marking changes as relevant for the version control, by adding them to the index.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "s2b*|BtuO2", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7586,11 +7652,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a <b>Revision</b>?<br />", 
-                                "A revision represents a version of the source code. Git identifies\n                                               revisions\n                                               with SHA-1 IDs using a commit object. SHA-1 IDs are 160 bits long and are\n                                               represented\n                                               in\n                                               hexadecimal. The latest version can be addressed\n                                               via\n                                               HEAD, the version before that via\n                                               HEAD~1\n                                               and so on."
+                                "A revision represents a version of the source code. Git identifies\n                                               revisions\n                                               with SHA-1 IDs using a commit object. SHA-1 IDs are 160 bits long and are\n                                               represented\n                                               in\n                                               hexadecimal. The latest version can be addressed\n                                               via\n                                               HEAD, the version before that via\n                                               HEAD~1\n                                               and so on.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "DF$yg5cnTs", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7598,11 +7666,13 @@
                             "data": "", 
                             "fields": [
                                 "In which file does Git store <b>global settings</b>?<br />", 
-                                "In the <b>.gitconfig</b> file.<br />"
+                                "In the <b>.gitconfig</b> file.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "cq9}90`8%l", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7610,11 +7680,13 @@
                             "data": "", 
                             "fields": [
                                 "Which file tells Git which files and directories to <b>ignore</b>?<br />", 
-                                "<pre>.gitignore</pre>"
+                                "<pre>.gitignore</pre>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "p{@pLqf8~)", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7622,11 +7694,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the difference between <b>local .gitignore</b> and <b>global .gitignore</b> files, regarding visibility?<br />", 
-                                "The local\n               .gitignore\n               file can be committed into the Git repository and\n               therefore is visible\n               to everyone who clones the repository. The\n               global\n               .gitignore\n               file is only\n               locally visible.\n               \n            "
+                                "The local\n               .gitignore\n               file can be committed into the Git repository and\n               therefore is visible\n               to everyone who clones the repository. The\n               global\n               .gitignore\n               file is only\n               locally visible.\n               \n            ", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "bALcFrS[,0", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7634,11 +7708,13 @@
                             "data": "", 
                             "fields": [
                                 "How are <b>empty directories</b> handled under Git version control / by common practice?", 
-                                "Git ignores empty directories, i.e. it does not put them under version control. Common practice for tracking an empty directory though, is to put a file called <b>.gitkeep</b> into such a directory.<br />"
+                                "Git ignores empty directories, i.e. it does not put them under version control. Common practice for tracking an empty directory though, is to put a file called <b>.gitkeep</b> into such a directory.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "julVRci`rj", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7646,11 +7722,13 @@
                             "data": "", 
                             "fields": [
                                 "What does the command <b>git reflog</b>&nbsp;do?<br />", 
-                                "It displays the history of the complete changes of the current branch, based on the HEAD revision.<br />"
+                                "It displays the history of the complete changes of the current branch, based on the HEAD revision.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "s$go8!a4M`", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7658,11 +7736,13 @@
                             "data": "", 
                             "fields": [
                                 "Does <b>git reflog</b>&nbsp;also contain deleted commits?", 
-                                "Yes."
+                                "Yes.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "o7*md3rMpY", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7670,11 +7750,13 @@
                             "data": "", 
                             "fields": [
                                 "How is the <b>default branch</b> called in Git?<br />", 
-                                "Master."
+                                "Master.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "KQ=K|X^!V@", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7682,11 +7764,13 @@
                             "data": "", 
                             "fields": [
                                 "What does the term <b>merging</b>&nbsp;describe?<br />", 
-                                "The process of combining changes of two branches."
+                                "The process of combining changes of two branches.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "IMAr1$Qa%~", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7694,11 +7778,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a <b>merge conflict</b>?<br />", 
-                                "A merge conflict occurs, if two people have modified the same content and Git cannot automatically determine how both changes should be applied.<br />"
+                                "A merge conflict occurs, if two people have modified the same content and Git cannot automatically determine how both changes should be applied.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "u}r83:+:~S", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7706,11 +7792,13 @@
                             "data": "", 
                             "fields": [
                                 "What does the <b>rebase</b>&nbsp;command do?<br>", 
-                                "In general terms - rewrites history. E.g: Combining several commits into<br>                  one commit. Or replaying changes from one branch on top of the other."
+                                "In general terms - rewrites history. E.g: Combining several commits into<br>                  one commit. Or replaying changes from one branch on top of the other.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "ioQ[YMk002", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7718,11 +7806,13 @@
                             "data": "", 
                             "fields": [
                                 "What functionality does the <b>stash</b> command add?<br />", 
-                                "Saving the current uncommmitted changes and&nbsp;checkout&nbsp;the last committed revision. This allows pulling-in the latest changes or to develop an urgent fix. Afterwards the stashed changes can be restored, which will reapply the changes to the current version of the source code.<br /> "
+                                "Saving the current uncommmitted changes and&nbsp;checkout&nbsp;the last committed revision. This allows pulling-in the latest changes or to develop an urgent fix. Afterwards the stashed changes can be restored, which will reapply the changes to the current version of the source code.<br /> ", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "i`-!UI5`9n", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7730,11 +7820,13 @@
                             "data": "", 
                             "fields": [
                                 "What's the rule of thumb, concerning the <b>stash</b>&nbsp;command?<br />", 
-                                "It should be the exception to using Git. Typically you would create new branches for new features and switch between branches.<br />"
+                                "It should be the exception to using Git. Typically you would create new branches for new features and switch between branches.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "My4;,HZvH:", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7742,11 +7834,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a <b>patch file</b>?<br />", 
-                                "A text file that contains changes to the source code."
+                                "A text file that contains changes to the source code.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "m5arfU*|ZX", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7754,11 +7848,13 @@
                             "data": "", 
                             "fields": [
                                 "What is an <b>alias</b> in Git?", 
-                                "An alias in Git allows you to setup your own Git command. E.g. you can define an alias which is a short form of your own favorite commands or you can combine several commands with an alias."
+                                "An alias in Git allows you to setup your own Git command. E.g. you can define an alias which is a short form of your own favorite commands or you can combine several commands with an alias.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "PE`j{-UNE?", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7766,11 +7862,13 @@
                             "data": "", 
                             "fields": [
                                 "Name two <b>transport types</b>&nbsp;that are supported protocols for Git checkouts", 
-                                "The native Git protocol is <b>git</b>, alternatively the <b>http</b> protocol is also supported."
+                                "The native Git protocol is <b>git</b>, alternatively the <b>http</b> protocol is also supported.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "BKdJz<y,i?", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7778,11 +7876,13 @@
                             "data": "", 
                             "fields": [
                                 "What happens in regards to naming of the original repository, when <b>cloning</b> a remote repository?<br />", 
-                                "The original repository will automatically be called \"origin\".<br />"
+                                "The original repository will automatically be called \"origin\".<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "xDNKnks;P;", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7790,11 +7890,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the possibility of using the <b>HTTP protocol</b> with Git especially helpful for?", 
-                                "If a firewall blocks all requests other than http.<br />"
+                                "If a firewall blocks all requests other than http.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "ykx4hD1f`?", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7802,11 +7904,13 @@
                             "data": "", 
                             "fields": [
                                 "Which are the two variants of <b>ssh keys</b>?<br />", 
-                                "Public and private.<br />"
+                                "Public and private.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "K5v/_?3y;F", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7814,11 +7918,13 @@
                             "data": "", 
                             "fields": [
                                 "What does <b>rev~</b> stand for?", 
-                                "The first parent of a revision \"rev\""
+                                "The first parent of a revision \"rev\"", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "NvGA`?8=%", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7826,11 +7932,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the starting point of the scope of <b>.gitignore</b> files?", 
-                                "They define ignore definitions for the whole directory tree, starting from the point where the .gitignore file itself resides."
+                                "They define ignore definitions for the whole directory tree, starting from the point where the .gitignore file itself resides.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "op.FKBEm<w", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7838,11 +7946,13 @@
                             "data": "", 
                             "fields": [
                                 "What's the difference between <b>git pull</b> and <b>git fetch</b>? (<span style=\" font-style: normal; font-weight: normal;\">In the simplest terms)</span>", 
-                                "git pull does a git fetch followed by a git merge."
+                                "git pull does a git fetch followed by a git merge.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "j@2Mww$9I{", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7850,11 +7960,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the difference between <b>git commit</b> and <b>git push</b>?", 
-                                "<b>commit:</b> adding changes to the repository.<div><b>push</b>: to transfer the last commit(s) to a remote server</div>"
+                                "<b>commit:</b> adding changes to the repository.<div><b>push</b>: to transfer the last commit(s) to a remote server</div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "n/=o]SCdPT", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7862,11 +7974,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the <b>head</b> in Git?", 
-                                "The head is a pointer to the current branch, which is in turn the last commit you made or checked out into your working directory."
+                                "The head is a pointer to the current branch, which is in turn the last commit you made or checked out into your working directory.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "Dgx!t", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7874,11 +7988,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the <b>index</b> in Git?", 
-                                "It's a snapshot of changes contained in your next commit, this way it's the \"<b>proposed next commit</b>\"."
+                                "It's a snapshot of changes contained in your next commit, this way it's the \"<b>proposed next commit</b>\".", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "KRd1.", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7886,11 +8002,13 @@
                             "data": "", 
                             "fields": [
                                 "What does <b>head^</b> mean?", 
-                                "It means the first parent of the tip of the current branch."
+                                "It means the first parent of the tip of the current branch.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "gTh:E.xGT7", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7898,11 +8016,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the difference between <b>head~</b> and <b>head^</b> ?", 
-                                "&nbsp;~&lt;n&gt; means the revision that is the &lt;n&gt;th generation ancestor of the named revision, following only the first parents.<div>^&lt;n&gt; means the &lt;n&gt;th parent of that revision.</div>"
+                                "&nbsp;~&lt;n&gt; means the revision that is the &lt;n&gt;th generation ancestor of the named revision, following only the first parents.<div>^&lt;n&gt; means the &lt;n&gt;th parent of that revision.</div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "oSbQ@6YX3O", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7910,11 +8030,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a local version control system?", 
-                                "A database of changes kept on the same computer as the files being versioned."
+                                "A database of changes kept on the same computer as the files being versioned.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "lyLiO", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7922,11 +8044,13 @@
                             "data": "", 
                             "fields": [
                                 "How is a distributed version control system different from others?", 
-                                "Every client has a full backup of all the data."
+                                "Every client has a full backup of all the data.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "vL>PF", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7934,11 +8058,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the \"snapshot\" concept?", 
-                                "In Git, the data is more like a stream of complete snapshots of a mini filesystem rather than a list of file changes like you'll see in SVN, Perforce, etc."
+                                "In Git, the data is more like a stream of complete snapshots of a mini filesystem rather than a list of file changes like you'll see in SVN, Perforce, etc.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "[=E+4", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7946,11 +8072,13 @@
                             "data": "", 
                             "fields": [
                                 "Why are most git operations so fast?<br>", 
-                                "They happen on the local disk, rather than over a network<br>"
+                                "They happen on the local disk, rather than over a network<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "nWWq:b)^~N", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7958,11 +8086,13 @@
                             "data": "", 
                             "fields": [
                                 "How does git maintain file integrity?<br>", 
-                                "Everything is SHA-1 checksummed and stored not by filename, but rather hash value of each file's contents.<br>"
+                                "Everything is SHA-1 checksummed and stored not by filename, but rather hash value of each file's contents.<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "j-w#1jS:X.", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7970,11 +8100,13 @@
                             "data": "", 
                             "fields": [
                                 "What are the 3 git states your files can reside in?<br>", 
-                                "committed, modified, and staged<br>"
+                                "committed, modified, and staged<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "C4^;Av:G|V", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7982,11 +8114,13 @@
                             "data": "", 
                             "fields": [
                                 "What does it mean when a file is in the \"committed\" state?<br>", 
-                                "The data is safely stored in your local database<br>"
+                                "The data is safely stored in your local database<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "d1B#YWuY@B", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -7994,11 +8128,13 @@
                             "data": "", 
                             "fields": [
                                 "What does it mean if a file is in the \"modified\" state?<br>", 
-                                "You have changed the file, but not yet committed it.<br>"
+                                "You have changed the file, but not yet committed it.<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "B*=9usvjro", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8006,11 +8142,13 @@
                             "data": "", 
                             "fields": [
                                 "What does it mean if a file is in the \"staged\" state?<br>", 
-                                "You have marked a file in its current state to go into the next commit snapshot.<br>"
+                                "You have marked a file in its current state to go into the next commit snapshot.<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "fZB+bI=,I[", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8018,11 +8156,13 @@
                             "data": "", 
                             "fields": [
                                 "What are the 3 sections of a git project?<br />", 
-                                "the Git directory (repository), the working directory, and the staging area<br />"
+                                "the Git directory (repository), the working directory, and the staging area<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "exQD~)OGAp", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8030,11 +8170,13 @@
                             "data": "", 
                             "fields": [
                                 "What is stored in the Git directory?<br>", 
-                                "The metadata and object database for your project<br>"
+                                "The metadata and object database for your project<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "tE7lTjYc[[", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8042,11 +8184,13 @@
                             "data": "", 
                             "fields": [
                                 "What is copied when you clone a repository from another computer?<br>", 
-                                "the Git directory<br>"
+                                "the Git directory<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "k,m+XqcVpU", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8054,11 +8198,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the working directory?<br>", 
-                                "A single checkout of one version of the project. These files are pulled out of the compressed database in the git directory and placed on disk for you to use and modify.<br>"
+                                "A single checkout of one version of the project. These files are pulled out of the compressed database in the git directory and placed on disk for you to use and modify.<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "K.$%A~oaD9", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8066,11 +8212,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the staging area?", 
-                                "It is a file in the git directory that stores information about what goes into the next commit. It is sometimes referred to as the \"index\"."
+                                "It is a file in the git directory that stores information about what goes into the next commit. It is sometimes referred to as the \"index\".", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "L41A}A*]ro", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8078,11 +8226,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the 3-step basic git workflow?", 
-                                "1. modify files in working directory<div>2. stage files, adding snapshots of them to the staging area</div><div>3. commit, which takes the files in the staging area and stores that snapshot permanently to your git directory</div>"
+                                "1. modify files in working directory<div>2. stage files, adding snapshots of them to the staging area</div><div>3. commit, which takes the files in the staging area and stores that snapshot permanently to your git directory</div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "F*ctH#)=J&", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8090,11 +8240,13 @@
                             "data": "", 
                             "fields": [
                                 "Where are the three places that git config variables can be stored?", 
-                                "1. systemwide: &nbsp;/etc/gitconfig<div>2. per user: ~/.gitconfig or ~/.config/git/config</div><div>3. per project: .git/config</div>"
+                                "1. systemwide: &nbsp;/etc/gitconfig<div>2. per user: ~/.gitconfig or ~/.config/git/config</div><div>3. per project: .git/config</div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "u(@cQ<B8CM", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8102,11 +8254,13 @@
                             "data": "", 
                             "fields": [
                                 "What option do you pass to git config to modify system-level configs?", 
-                                "--system"
+                                "--system", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "i})V+Dzh9J", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8114,11 +8268,13 @@
                             "data": "", 
                             "fields": [
                                 "What option do you pass to git config to make changes for specific to your user?", 
-                                "--global"
+                                "--global", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "BarEPJKq84", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8126,11 +8282,13 @@
                             "data": "", 
                             "fields": [
                                 "What are three ways to get help on a git verb?", 
-                                "1. git help &lt;verb&gt;<div>2. git &lt;verb&gt; --help</div><div>3. man git-&lt;verb&gt;</div>"
+                                "1. git help &lt;verb&gt;<div>2. git &lt;verb&gt; --help</div><div>3. man git-&lt;verb&gt;</div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "O`8m5XL4n_", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8138,11 +8296,13 @@
                             "data": "", 
                             "fields": [
                                 "How do you get a copy of an existing git repository, say https://github.com/libgit2/libgit2<span style=\"line-height: 1.1;\">?</span><br>", 
-                                "git clone&nbsp;https://github.com/libgit2/libgit2"
+                                "git clone&nbsp;https://github.com/libgit2/libgit2", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "o=}nL8EYm$", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8150,11 +8310,13 @@
                             "data": "", 
                             "fields": [
                                 "What are a couple different transfer protocols used by git?", 
-                                "https://<div>git://</div>"
+                                "https://<div>git://</div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "A}1)?]T`vM", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8162,11 +8324,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the difference between a tracked and untracked file?", 
-                                "Tracked files are all files that were in the last snapshot. They can be unmodified, modified, or staged. Untracked files are not in the latest snapshot or staged."
+                                "Tracked files are all files that were in the last snapshot. They can be unmodified, modified, or staged. Untracked files are not in the latest snapshot or staged.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "Q`hDEs1([I", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8174,11 +8338,13 @@
                             "data": "", 
                             "fields": [
                                 "Why is it possible for a tracked file to be both in staging and modified state?", 
-                                "Because the staged version is the contents of the file at the exact time you ran \"git add\" to stage the file. You have to run \"git add\" again if you've modified it and want to stage the latest contents of the file."
+                                "Because the staged version is the contents of the file at the exact time you ran \"git add\" to stage the file. You have to run \"git add\" again if you've modified it and want to stage the latest contents of the file.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "Ft&|}kHYmQ", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8186,11 +8352,13 @@
                             "data": "", 
                             "fields": [
                                 "What file is used to ignore some untracked files?", 
-                                ".gitignore"
+                                ".gitignore", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "A(Pz~1U7<!", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8198,11 +8366,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the default shortname for cloned repositories?", 
-                                "origin"
+                                "origin", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "t;V;(s*,@A", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8210,11 +8380,13 @@
                             "data": "", 
                             "fields": [
                                 "How does git fetch affect your local repository?", 
-                                "It pulls the data, but does not merge or modify your working copy. To actually merge, it must be manually done."
+                                "It pulls the data, but does not merge or modify your working copy. To actually merge, it must be manually done.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "Pj#|SXYy$f", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8222,11 +8394,13 @@
                             "data": "", 
                             "fields": [
                                 "What is stored in a git commit object?", 
-                                "* pointer to the snapshot of the staged content<div>* author's name and email</div><div>* commit message</div><div>* pointer to the commit(s) directly before this one</div>"
+                                "* pointer to the snapshot of the staged content<div>* author's name and email</div><div>* commit message</div><div>* pointer to the commit(s) directly before this one</div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "s]So><?rVW", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8234,11 +8408,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a branch in terms of git commit objects?", 
-                                "A lightweight movable pointer to one of the commits"
+                                "A lightweight movable pointer to one of the commits", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "B0mlW%vB3_", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8246,11 +8422,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the name of the special pointer which tells you which local branch you're currently on?", 
-                                "HEAD"
+                                "HEAD", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "wx>?/9M3;E", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8258,11 +8436,13 @@
                             "data": "", 
                             "fields": [
                                 "What happens to the HEAD pointer when you create a new branch?", 
-                                "Nothing, it continues to point to the existing branch (such as master, if you haven't changed it yet). It does not switch to the new branch automatically."
+                                "Nothing, it continues to point to the existing branch (such as master, if you haven't changed it yet). It does not switch to the new branch automatically.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "rSIJ1yGYe", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8270,11 +8450,13 @@
                             "data": "", 
                             "fields": [
                                 "What happens to the working directory when you switch branches?", 
-                                "The files are updated to reflect the last commit of the branch. If it cannot be updated cleanly, git will not let you switch."
+                                "The files are updated to reflect the last commit of the branch. If it cannot be updated cleanly, git will not let you switch.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "uZYKi_w!c;", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8282,11 +8464,13 @@
                             "data": "", 
                             "fields": [
                                 "Why is a git branch cheap?", 
-                                "A branch is a simple file that contains the 40 character SHA-1 checksum of the commit it points to."
+                                "A branch is a simple file that contains the 40 character SHA-1 checksum of the commit it points to.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "i}td:;X-$8", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8294,11 +8478,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a \"fast-forward\" merge?", 
-                                "When you try to merge a commit that can be reached by following the first commit's history, git will simply move the pointer forward because there is no divergent work to merge together. This is known as a \"fast-forward\" merge."
+                                "When you try to merge a commit that can be reached by following the first commit's history, git will simply move the pointer forward because there is no divergent work to merge together. This is known as a \"fast-forward\" merge.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "rVbh7YpG/J", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8306,11 +8492,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a merge commit?", 
-                                "When two divergent branches are merged, git creates a new snapshot and a new commit that points to it. A merge commit has more than one parent."
+                                "When two divergent branches are merged, git creates a new snapshot and a new commit that points to it. A merge commit has more than one parent.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "I_KQ5^#C&9", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8318,11 +8506,13 @@
                             "data": "", 
                             "fields": [
                                 "How is git different in dealing with the merge base when merging branches?", 
-                                "Git determines the best common ancestor to use for its merge base, which is a lot simpler than many other VCSes."
+                                "Git determines the best common ancestor to use for its merge base, which is a lot simpler than many other VCSes.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "tgr3Vb|<^/", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8330,11 +8520,13 @@
                             "data": "", 
                             "fields": [
                                 "What does the leading * character mean in the output of git branch?", 
-                                "It indicates the branch you have currently checked out (that HEAD points to)."
+                                "It indicates the branch you have currently checked out (that HEAD points to).", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "B@=#&gvD8$", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8342,11 +8534,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the name used for a branching workflow where sets of commits graduate to a more stable silo when they're fully tested?<br>", 
-                                "progressive-stability branching<br>"
+                                "progressive-stability branching<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "z/@Lr]Q(#S", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8354,11 +8548,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the name for a short-lived branch for a single particular feature or related work?<br>", 
-                                "topic branch<br>"
+                                "topic branch<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "i!X._o?lw1", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8366,11 +8562,13 @@
                             "data": "", 
                             "fields": [
                                 "What are remote branches?<br>", 
-                                "Pointers to the state of branches in remote repositories. They are local branches that you cannot move.<br>"
+                                "Pointers to the state of branches in remote repositories. They are local branches that you cannot move.<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "G#8JF}nb2h", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8378,11 +8576,13 @@
                             "data": "", 
                             "fields": [
                                 "When are remote branch pointers updated?<br>", 
-                                "They are automatically moved when you do any network communication.<br>"
+                                "They are automatically moved when you do any network communication.<br>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "J6*@RPtUh1", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8390,11 +8590,13 @@
                             "data": "", 
                             "fields": [
                                 "When you fetch a remote branch, will it automatically set up a local branch with the same name?", 
-                                "No. You must either merge it or create your own branch from it."
+                                "No. You must either merge it or create your own branch from it.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "Q5})51ApH+", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8402,11 +8604,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the shorthand for referencing the tracking remote and branch?", 
-                                "@{u} or @{upstream}"
+                                "@{u} or @{upstream}", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "tK3qT-!z5k", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8414,11 +8618,13 @@
                             "data": "", 
                             "fields": [
                                 "How does rebasing affect the commit history differently than a merge?", 
-                                "A rebase will make the commit history look linear/clean rather than a bunch of branch merges. This is often done to make sure your commits apply cleanly to a remote branch."
+                                "A rebase will make the commit history look linear/clean rather than a bunch of branch merges. This is often done to make sure your commits apply cleanly to a remote branch.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "zcp*jH9a&8", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8426,11 +8632,13 @@
                             "data": "", 
                             "fields": [
                                 "What one tip should you follow to avoid a drawback of rebasing?", 
-                                "Do not rebase commits that exist outside of your repository."
+                                "Do not rebase commits that exist outside of your repository.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "ATWa!RS=Z&", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8438,11 +8646,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a good general rule for deciding when to rebase or to merge?", 
-                                "Rebase local changes you haven't shared yet in order to clean up, but never rebase anything you pushed somewhere."
+                                "Rebase local changes you haven't shared yet in order to clean up, but never rebase anything you pushed somewhere.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "xN+rNGwU1e", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8450,11 +8660,13 @@
                             "data": "", 
                             "fields": [
                                 "What is a \"bare repository\"?", 
-                                "A repository that doesn't contain a working directory"
+                                "A repository that doesn't contain a working directory", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "uN=LqKN.,h", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }
                     ]
@@ -8508,11 +8720,13 @@
                             "data": "", 
                             "fields": [
                                 "What does this command do:&nbsp;<b>git add . &nbsp;</b>", 
-                                "It adds everything inside the current working directory to the index."
+                                "It adds everything inside the current working directory to the index.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "bFER[=-<|E", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8604,11 +8818,13 @@
                             "data": "", 
                             "fields": [
                                 "What commands will join everything from the branch \"bigIdea\" to be part of the \"master\" branch?", 
-                                "<pre>git checkout master</pre>\n<pre>git merge bigIdea</pre>"
+                                "<pre>git checkout master</pre>\n<pre>git merge bigIdea</pre>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "xj?aKvn]u;", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8952,11 +9168,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the <b>--</b> option in <b>git log</b>&nbsp;used for?<br />", 
-                                "To see the commit history for a file, even if the file has been deleted.<br />"
+                                "To see the commit history for a file, even if the file has been deleted.<br />", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "en>uh_WPEG", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8978,11 +9196,13 @@
                             "data": "", 
                             "fields": [
                                 "What does the command do: <b>git reset --soft HEAD~</b>", 
-                                "Undo the last commit. The affected files will be back on stage again."
+                                "Undo the last commit. The affected files will be back on stage again.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "Bb9(y,?O!N", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -8990,11 +9210,13 @@
                             "data": "", 
                             "fields": [
                                 "What does <b>git reset --hard HEAD~</b>&nbsp;do? (instead of HEAD~ it could be also a commit SHA-1 or another reference)", 
-                                "Undo the last commit, unstage files AND undo any changes in the working directory. (Not tracked files won't be affected)"
+                                "Undo the last commit, unstage files AND undo any changes in the working directory. (Not tracked files won't be affected)", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "e?#@Ae7yYi", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -9044,11 +9266,13 @@
                             "data": "", 
                             "fields": [
                                 "What is the difference between:<br><pre>git checkout -f</pre> and <pre>git reset --hard HEAD</pre>?", 
-                                "None, with these parameters they do exactly the same."
+                                "None, with these parameters they do exactly the same.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "v*,Ks", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -9420,11 +9644,13 @@
                             "data": "", 
                             "fields": [
                                 "Use your editor to manually solve conflicts during merge/rebase and after resolving mark file as resolved with:", 
-                                "git add <i>resolved-file or</i><div>git rm <i>resolved-file</i></div>"
+                                "git add <i>resolved-file or</i><div>git rm <i>resolved-file</i></div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "x:&=qX<?g[", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": [
                                 "uncertain"
                             ]
@@ -9574,11 +9800,13 @@
                             "data": "", 
                             "fields": [
                                 "What are some of the options to view the commit log history in different formats?", 
-                                "--pretty=[oneline | short | full | fuller]<div>--pretty=format:\"...\"</div>"
+                                "--pretty=[oneline | short | full | fuller]<div>--pretty=format:\"...\"</div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "mqXLAB~pFz", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -9586,11 +9814,13 @@
                             "data": "", 
                             "fields": [
                                 "How do you view the history for author jdoe with keyword potato in the commit message made in the last two weeks that added or removed a reference to the function mashThePotato that were not merges?", 
-                                "git log --author jdoe --grep potato --all-match -SmashThePotato --since=2.weeks --no-merges"
+                                "git log --author jdoe --grep potato --all-match -SmashThePotato --since=2.weeks --no-merges", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "eh}B.z/n^;", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -9598,11 +9828,13 @@
                             "data": "", 
                             "fields": [
                                 "Why is git reset considered safe without \"--hard\" option?", 
-                                "It only affects your staging area"
+                                "It only affects your staging area", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "JC%^;+L+{p", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -9624,11 +9856,13 @@
                             "data": "", 
                             "fields": [
                                 "What happens if you try to delete a branch with \"git branch -d &lt;name&gt;\" that has not yet been merged?", 
-                                "It will fail, and offer -D if you really want to lose your branch."
+                                "It will fail, and offer -D if you really want to lose your branch.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "u)(3>G(PkD", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -9720,11 +9954,13 @@
                             "data": "", 
                             "fields": [
                                 "How would you use rebase to apply master changes to branch b1, then apply b1 changes to master? The result being a linear history.", 
-                                "<div># method: 1</div>git checkout b1<div>git rebase master</div><div>git checkout master</div><div>git merge b1</div><div><br></div><div># method: 2</div><div>git rebase b1 master</div><div>git checkout master</div><div>git merge b1</div>"
+                                "<div># method: 1</div>git checkout b1<div>git rebase master</div><div>git checkout master</div><div>git merge b1</div><div><br /></div><div># method: 2</div><div>git rebase b1 master</div><div>git checkout master</div><div>git merge b1</div>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "BU,]d;k1vy", 
-                            "note_model_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": []
                         }, 
                         {
@@ -9746,11 +9982,13 @@
                             "data": "", 
                             "fields": [
                                 "What are limitations of the command that changes the message of the last commit (<span style=\"font-family: monospace\">git commit --amend</span>)?", 
-                                "It only works before the commit has been pushed to remote repo."
+                                "It only works before the commit has been pushed to remote repo.", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "p}K},k:N*K", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": [
                                 "git", 
                                 "shell"
@@ -10318,11 +10556,13 @@
                             "data": "", 
                             "fields": [
                                 "How do you initiate bisect algorithm in git (several commands)", 
-                                "<div><div>Suppose you are trying to find the commit that broke a feature that was known to work in version v2.6.13-rc2 of your project. You start a bisect session as follows:</div><div><br /></div><div>$ git bisect start</div><div>$ git bisect bad # Current version is bad</div><div>$ git bisect good v2.6.13-rc2 # v2.6.13-rc2 is known to be good</div></div><div><br /></div><a href=\"https://git-scm.com/docs/git-bisect\">https://git-scm.com/docs/git-bisect</a>"
+                                "<div><div>Suppose you are trying to find the commit that broke a feature that was known to work in version v2.6.13-rc2 of your project. You start a bisect session as follows:</div><div><br /></div><div>$ git bisect start</div><div>$ git bisect bad # Current version is bad</div><div>$ git bisect good v2.6.13-rc2 # v2.6.13-rc2 is known to be good</div></div><div><br /></div><a href=\"https://git-scm.com/docs/git-bisect\">https://git-scm.com/docs/git-bisect</a>", 
+                                "", 
+                                ""
                             ], 
                             "flags": 0, 
                             "guid": "z+Mb^@:H2B", 
-                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
+                            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": [
                                 "command", 
                                 "git", 
@@ -10765,12 +11005,14 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "Python interactive interpreter automatically {{c1::<b>prints</b>}}", 
+                        "Python interactive interpreter automatically", 
+                        "prints", 
+                        "", 
                         ""
                     ], 
                     "flags": 0, 
                     "guid": "p#6owraIzU", 
-                    "note_model_uuid": "54268f02-35b7-11e7-aba8-2c56dc924912", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
                 }, 
                 {
@@ -10778,7 +11020,7 @@
                     "data": "", 
                     "fields": [
                         "Force Python to run a file again", 
-                        "from imp import reload # not required to import in 2.X<div>reload(<i>script</i>)</div><div><br /></div><div>import imp # not required to import in 2.X<div>imp.reload(<i>script</i>)</div></div>", 
+                        "```<div>from imp import reload # not required to import in 2.X<div>reload(<i>script</i>)</div><div><br /></div><div>import imp # not required to import in 2.X<div>imp.reload(<i>script</i>)</div></div></div><div>```</div>", 
                         "", 
                         ""
                     ], 
@@ -11156,7 +11398,7 @@
                     "data": "", 
                     "fields": [
                         "Python multiline string", 
-                        "Use three quotes or doublequotes:<div><br /></div><div>msg = \"\"\"</div><div>aaaaaa</div><div>bbb''''bbbbb\"\"bbbbb'bbbbb</div><div>ccccc</div><div>\"\"\"</div>", 
+                        "Use three quotes or doublequotes:<div>```</div><br><div>msg = \"\"\"</div><div>aaaaaa</div><div>bbb''''bbbbb\"\"bbbbb'bbbbb</div><div>ccccc</div><div>\"\"\"</div><div>```</div>", 
                         "", 
                         ""
                     ], 
@@ -11296,7 +11538,7 @@
                     "data": "", 
                     "fields": [
                         "Python dictionaries", 
-                        "Dictionaries are the only mapping type in Python's core objects set, and are also mutable: like lists, they may be changed in place and can grow and shrink on demand.<div><br /></div><div>&gt;&gt;&gt; D = {'food': 'Spam', 'quantity': 4, 'color': 'pink'}</div>", 
+                        "Dictionaries are the only mapping type in Python's core objects set, and are also mutable: like lists, they may be changed in place and can grow and shrink on demand.<div><br></div><div>&gt;&gt;&gt; D = {'food': 'Spam', 'quantity': 4, 'color': 'pink'}</div>", 
                         "", 
                         "y"
                     ], 
@@ -11477,278 +11719,8 @@
     "note_models": [
         {
             "__type__": "NoteModel", 
-            "crowdanki_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0", 
-            "css": ".card {\n font-familiy: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}", 
-            "flds": [
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Front", 
-                    "ord": 0, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": false
-                }, 
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Back", 
-                    "ord": 1, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": false
-                }
-            ], 
-            "latexPost": "\\end{document}", 
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
-            "name": "Basic-0fc0c", 
-            "req": [
-                [
-                    0, 
-                    "all", 
-                    [
-                        0
-                    ]
-                ]
-            ], 
-            "sortf": 0, 
-            "tags": [], 
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
-                    "bafmt": "", 
-                    "bfont": "Arial", 
-                    "bqfmt": "", 
-                    "bsize": 12, 
-                    "did": null, 
-                    "name": "Card 1", 
-                    "ord": 0, 
-                    "qfmt": "{{Front}}"
-                }
-            ], 
-            "type": 0, 
-            "vers": []
-        }, 
-        {
-            "__type__": "NoteModel", 
-            "crowdanki_uuid": "a6a07e16-6d5b-11e6-adf3-8c705a50cbf0", 
-            "css": ".card {\n font-familiy: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}", 
-            "flds": [
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Front", 
-                    "ord": 0, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": false
-                }, 
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Back", 
-                    "ord": 1, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": false
-                }
-            ], 
-            "latexPost": "\\end{document}", 
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
-            "name": "Basic-61fb1", 
-            "req": [
-                [
-                    0, 
-                    "all", 
-                    [
-                        0
-                    ]
-                ]
-            ], 
-            "sortf": 0, 
-            "tags": [], 
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
-                    "bafmt": "", 
-                    "bfont": "Arial", 
-                    "bqfmt": "", 
-                    "bsize": 12, 
-                    "did": null, 
-                    "name": "Card 1", 
-                    "ord": 0, 
-                    "qfmt": "{{Front}}"
-                }
-            ], 
-            "type": 0, 
-            "vers": []
-        }, 
-        {
-            "__type__": "NoteModel", 
-            "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": ".card {\n  font-family:  Georgia, Helvetica;\n  font-size: 50px;\n  text-align: center;\n  color: #2aa198;\n  background-color: #002b36;\n  xfont-weight: bold;\n}\na {\n  text-decoration: none;\n  color: inherit;\n}\na:hover {\n  color: #d33682;\n}\n.meta {\n  color: #b58900;\n  font-size: 14px;\n  font-weight: normal;\n}\n.definition {\n  margin-top:30px;\n  font-family: Georgia;\n  color: #268bd2;\n  font-size: 50px;\n  font-weight: normal;\n}\n.long {\n  font-size: 20px;\n}\n", 
-            "flds": [
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Front", 
-                    "ord": 0, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": false
-                }, 
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Back", 
-                    "ord": 1, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": false
-                }, 
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "ShowReversed", 
-                    "ord": 2, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": true
-                }, 
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "LongAnswer", 
-                    "ord": 3, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": true
-                }
-            ], 
-            "latexPost": "\\end{document}", 
-            "latexPre": "\\documentclass[18pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}", 
-            "name": "BasicDark", 
-            "req": [
-                [
-                    0, 
-                    "all", 
-                    [
-                        0
-                    ]
-                ], 
-                [
-                    1, 
-                    "all", 
-                    [
-                        1, 
-                        2
-                    ]
-                ]
-            ], 
-            "sortf": 0, 
-            "tags": [], 
-            "tmpls": [
-                {
-                    "afmt": "<div class=\"definition{{#LongAnswer}} long{{/LongAnswer}}\">{{Back}}</div>", 
-                    "bafmt": "", 
-                    "bqfmt": "", 
-                    "did": null, 
-                    "name": "BasicDark-Forward", 
-                    "ord": 0, 
-                    "qfmt": "{{Front}}"
-                }, 
-                {
-                    "afmt": "{{Front}}", 
-                    "bafmt": "", 
-                    "bqfmt": "", 
-                    "did": null, 
-                    "name": "BasicDark-Reversed", 
-                    "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<div class=\"definition {{#LongAnswer}}long{{/LongAnswer}}\">{{Back}}</div>\n{{/ShowReversed}}"
-                }
-            ], 
-            "type": 0, 
-            "vers": []
-        }, 
-        {
-            "__type__": "NoteModel", 
-            "crowdanki_uuid": "a6a2f2e0-6d5b-11e6-adf3-8c705a50cbf0", 
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
-            "flds": [
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Purpose", 
-                    "ord": 0, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": false
-                }, 
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Command", 
-                    "ord": 1, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": false
-                }, 
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Extra", 
-                    "ord": 2, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": false
-                }, 
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Source", 
-                    "ord": 3, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": true
-                }
-            ], 
-            "latexPost": "\\end{document}", 
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
-            "name": "Command line", 
-            "req": [
-                [
-                    0, 
-                    "all", 
-                    [
-                        0
-                    ]
-                ]
-            ], 
-            "sortf": 0, 
-            "tags": [
-                "Linux", 
-                "bash", 
-                "command", 
-                "tar"
-            ], 
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
-                    "bafmt": "", 
-                    "bqfmt": "", 
-                    "did": null, 
-                    "name": "TypeCard", 
-                    "ord": 0, 
-                    "qfmt": "{{Purpose}}\n<br>\n{{type:Command}}"
-                }
-            ], 
-            "type": 0, 
-            "vers": []
-        }, 
-        {
-            "__type__": "NoteModel", 
             "crowdanki_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-            "css": ".card {\n  font-family:  Monaco, monospace;\n  font-size: 50px;\n  text-align: center;\n  color: #2aa198;\n  background-color: #002b36;\n}\n.definition, .question {\n  margin-top:15px;\n  font-family:  \"Optima\", Georgia;\n  color: #268bd2;\n  font-size: 40px;\n  font-weight: normal;\n}\n.examples {\n  margin-top:15px;\n  color: #268bd2;\n  font-size: 30px;\n  font-family:  Monaco, monospace;\n}\n.question { color: #b58900; }\n.long { font-size: 30px; }\nb {\n  font-family:  Monaco, monospace;\n  color: #2aa198;\nwhite-space:pre-wrap;\n}\nu {\n  font-family:  Monaco, monospace;\n  color: #2aa198;\n}", 
+            "css": ".card {\n  font-family:  \"Optima\", \"Optima Regular\", Georgia;\n  font-size: 30px;\n  text-align: left;\n  background-color: #002b36;\n  color: #93a1a1; /* grey */\n}\n\nblockquote { margin: 0; font-size: 30px; color: #268bd2; /* blue */ }\nmark, cite { font-size: 50px; }\nmark, cite { font-weight: bold; }\nmark { background-color: inherit; color: #2aa198; /* green */ }\ncite { font-style: inherit; color: #268bd2; /* blue */ }\nvar { color: #b58900; /* yellow */ }\nvar:after { content: '?'; }\n\ndetails { font-size: 20px; margin-top: 20px; }\n.long { font-size: 30px; }\n.decap:first-letter { text-transform: lowercase; }\n\nsection, blockquote { margin-bottom: 20px; }\ncode { font-family: Monaco, monospace; }\n\n@font-face { font-family: \"Optima Regular\"; src: url('_Optima-Regular.ttf'); }\n@font-face { font-family: \"Monaco\"; src: url('_Monaco.ttf'); }\n\na { color: inherit; text-decoration: none; }\na:hover { color: #d33682; }\nsmall { position: absolute; display: inline-block; top: 0; right: 0; color: #6c71c4; font-size: 18px; font-weight: normal; }\n\n/* following is a hack to allow sharing script, but must execute from template */\n</style><script>function parse() {document.getElementsByTagName(\"article\")[0].innerHTML = document.getElementsByClassName(\"card\")[0].innerHTML.replace(/<(\\w+)>(?:\\s|&nbsp;){4}(.*?)<\\/\\1>/g, '<pre><code>$2</code></pre>').replace('</code></pre><pre><code>', '\\n').replace(/<(\\w+)>```\\s*<\\/\\1>(.*?)<(\\w+)>```\\s*<\\/\\3>/g, function(match, p1, p2, offset, string){return '<pre><code>'+p2.replace(/<(\\w+)>(.*?)<\\/\\1>/g,'$2\\n')+'</code></pre>';}).replace('\\n</code></pre>', '</code></pre>').replace(/([^\\\\])`((?:.(?!<\\/[^>]+>))*?[^\\\\])`/g, '$1<code>$2</code>').replace(/\\\\`/g, '`').replace(/-/g,'&#8209;');}</script><style>\n", 
             "flds": [
                 {
                     "font": "Monaco", 
@@ -11954,130 +11926,130 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<div class=\"definition long\">{{description}}</div>\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "afmt": "<article>\n\n<section>\n  <mark><code>{{command}}</code></mark>\n</section>\n\n{{#description}}\n<blockquote>{{description}}</blockquote>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "cmd desc", 
                     "ord": 0, 
-                    "qfmt": "{{#description}}\n  {{#command only}}\n    <div class=\"question\">\n      Description of <b>{{command}}</b>\n    </div>\n  {{/command only}}\n{{/description}}\n"
+                    "qfmt": "{{#description}}\n{{#command only}}\n<article>\n\n<section>\n  <mark><code>{{command}}</code></mark>\n</section>\n\n<blockquote><var>description</var></blockquote>\n\n<script>parse();</script>\n</article>\n{{/command only}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "{{command}}\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "afmt": "<article>\n\n<section>\n  <mark><code>{{command}}</code></mark>\n</section>\n\n{{#description}}\n<blockquote>{{description}}</blockquote>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "desc cmd", 
                     "ord": 1, 
-                    "qfmt": "{{#description}}\n  {{#command only}}\n    <div class=\"question\">Command that:</div>\n    <div class=\"definition long\">{{description}}</div>\n  {{/command only}}\n{{/description}}\n"
+                    "qfmt": "{{#description}}\n{{#command only}}\n<article>\n\n<section>\n  <mark><code><var>command</var></code></mark>\n</section>\n\n<blockquote>{{description}}</blockquote>\n\n<script>parse();</script>\n</article>\n{{/command only}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "{{command}} {{short option}}\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "afmt": "<article>\n\n<section>\n  <mark><code>{{command}} {{short option}}</code></mark>\n  {{#long option}}<br><em><code>{{long option}}</code></em>{{/long option}}\n</section>\n<blockquote>{{description}}</blockquote>\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "desc -", 
                     "ord": 2, 
-                    "qfmt": "{{#description}}\n  {{#short option}}\n    <span class=\"question\">Short option to make <b>{{text:command}}</b></span>\n    <div class=\"definition long\">{{description}}</div>\n  {{/short option}}\n{{/description}}\n"
+                    "qfmt": "{{#description}}\n{{#short option}}\n<article>\n\n<section>\n  <mark><code>{{command}} <var>short option</var></code></mark>\n  {{#long option}}<br>&nbsp;{{/long option}}\n</section>\n\n<blockquote>{{description}}</blockquote>\n\n<script>parse();</script>\n</article>\n{{/short option}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "{{command}} {{long option}}\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "afmt": "<article>\n\n<section>\n  <mark><code>{{command}} {{long option}}</code></mark>\n  {{#short option}}<br><em><code>{{short option}}</code></em>{{/short option}}\n</section>\n<blockquote>{{description}}</blockquote>\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "desc --", 
                     "ord": 3, 
-                    "qfmt": "{{#description}}\n  {{#long option}}\n    <span class=\"question\">Long option to make <b>{{text:command}}</b></span>\n    <div class=\"definition long\">{{description}}</div>\n  {{/long option}}\n{{/description}}\n"
+                    "qfmt": "{{#description}}\n{{#long option}}\n<article>\n\n<section>\n  <mark><code>{{command}} <var>long option</var></code></mark>\n  {{#short option}}<br>&nbsp;{{/short option}}\n</section>\n\n<blockquote>{{description}}</blockquote>\n\n<script>parse();</script>\n</article>\n{{/long option}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "{{command}} {{short option}}", 
+                    "afmt": "<article>\n\n<section>\n  <cite><code>{{command}}</code></cite> <mark><code>{{long option}}</code></mark>\n  <br><em><code>{{short option}}</code></em>\n</section>\n<blockquote>{{description}}</blockquote>\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "-- -", 
                     "ord": 4, 
-                    "qfmt": "{{#long option}}\n  {{#short option}}\n    <div class=\"question\">short form of</div>\n    {{command}} {{long option}}\n  {{/short option}}\n{{/long option}}\n"
+                    "qfmt": "{{#long option}}\n{{#short option}}\n<article>\n\n<section>\n  <cite><code>{{command}}</code></cite> <mark><code>{{long option}}</code></mark>\n  <br><em><code><var>short option</var></code></em>\n</section>\n\n<script>parse();</script>\n</article>\n{{/short option}}\n{{/long option}}\n"
                 }, 
                 {
-                    "afmt": "{{command}} {{long option}}", 
+                    "afmt": "<article>\n\n<section>\n  <cite><code>{{command}}</code></cite> <mark><code>{{short option}}</code></mark>\n  {{#short option}}<br><em><code>{{long option}}</code></em>{{/short option}}\n</section>\n<blockquote>{{description}}</blockquote>\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "- --", 
                     "ord": 5, 
-                    "qfmt": "{{#long option}}\n  {{#short option}}\n    <div class=\"question\">long form of</div>\n    {{command}} {{short option}}\n  {{/short option}}\n{{/long option}}\n"
+                    "qfmt": "{{#long option}}\n{{#short option}}\n<article>\n\n<section>\n  <cite><code>{{command}}</code></cite> <mark><code>{{short option}}</code></mark>\n  <br><em><code><var>long option</var></code></em>\n</section>\n\n<script>parse();</script>\n</article>\n{{/short option}}\n{{/long option}}\n"
                 }, 
                 {
-                    "afmt": "<div class=\"definition long\">{{description}}</div>", 
+                    "afmt": "<article>\n\n<section>\n  <cite><code>{{command}}</code></cite> <mark><code>{{short option}}</code></mark>\n  {{#long option}}<br><em><code>{{long option}}</code></em>{{/long option}}\n</section>\n<blockquote>{{description}}</blockquote>\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "- desc", 
                     "ord": 6, 
-                    "qfmt": "{{#description}}\n  {{#short option}}\n    <div class=\"question\">description of</div>\n    {{command}} {{short option}}\n  {{/short option}}\n{{/description}}\n"
+                    "qfmt": "{{#description}}\n{{#short option}}\n<article>\n\n<section>\n  <cite><code>{{command}}</code></cite> <mark><code>{{short option}}</code></mark>\n  {{#long option}}<br>&nbsp;{{/long option}}\n</section>\n\n<section><var>description</var></section>\n\n<script>parse();</script>\n</article>\n{{/short option}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "<div class=\"definition long\">{{description}}</div>", 
+                    "afmt": "<article>\n\n<section>\n  <cite><code>{{command}}</code></cite> <mark><code>{{long option}}</code></mark>\n  {{#short option}}<br><em><code>{{short option}}</code></em>{{/short option}}\n</section>\n<blockquote>{{description}}</blockquote>\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "-- desc", 
                     "ord": 7, 
-                    "qfmt": "{{#description}}\n  {{#long option}}\n    <div class=\"question\">description of</div>\n    {{command}} {{long option}}\n  {{/long option}}\n{{/description}}\n"
+                    "qfmt": "{{#description}}\n{{#long option}}\n<article>\n\n<section>\n  <cite><code>{{command}}</code></cite> <mark><code>{{long option}}</code></mark>\n  {{#short option}}<br>&nbsp;{{/short option}}\n</section>\n\n<section><var>description</var></section>\n\n<script>parse();</script>\n</article>\n{{/long option}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "{{command}} {{short option}}", 
+                    "afmt": "<article>\n\n<section>\n  <mark><code>{{extra}}</code></mark>\n</section>\n<section>\n  <cite><code>{{command}} {{short option}}</code></cite>\n  {{#long option}}<br><em><code>{{long option}}</code></em>{{/long option}}\n</section>\n\n{{#description}}\n<blockquote>{{description}}</blockquote>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "alias -", 
                     "ord": 8, 
-                    "qfmt": "{{#short option}}\n  <div class=\"question\">short form of</div>\n  {{extra}}\n{{/short option}}"
+                    "qfmt": "{{#extra}}\n{{#short option}}\n<article>\n\n<section>\n  <mark><code>{{extra}}</code></mark>\n</section>\n\n<section>\n  <mark><code><var>alias short form</var></code></mark>\n</section>\n\n<script>parse();</script>\n</article>\n{{/short option}}\n{{/extra}}\n"
                 }, 
                 {
-                    "afmt": "{{extra}}", 
+                    "afmt": "<article>\n\n<section>\n  <mark><code>{{extra}}</code></mark>\n</section>\n<section>\n  <cite><code>{{command}} {{short option}}</code></cite>\n  {{#long option}}<br><em><code>{{long option}}</code></em>{{/long option}}\n</section>\n\n{{#description}}\n<blockquote>{{description}}</blockquote>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "- alias", 
                     "ord": 9, 
-                    "qfmt": "{{#extra}}\n  <div class=\"question\">alias of</div>\n  {{#short option}}{{command}} {{short option}}{{/short option}}\n{{/extra}}\n"
+                    "qfmt": "{{#extra}}\n{{#short option}}\n<article>\n\n<section>\n  <mark><code><var>alias</var></code></mark>\n</section>\n\n<section>\n  <cite><code>{{command}} {{short option}}</code></cite>\n  {{#long option}}<br>&nbsp;{{/long option}}\n</section>\n\n<script>parse();</script>\n</article>\n{{/short option}}\n{{/extra}}\n"
                 }, 
                 {
-                    "afmt": "{{command}} {{long option}}", 
+                    "afmt": "<article>\n\n<section>\n  <mark><code>{{extra}}</code></mark>\n</section>\n<section>\n  <cite><code>{{command}} {{long option}}</code></cite>\n  {{#short option}}<br><em><code>{{short option}}</code></em>{{/short option}}\n</section>\n\n{{#description}}\n<blockquote>{{description}}</blockquote>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "alias --", 
                     "ord": 10, 
-                    "qfmt": "{{#long option}}\n  <div class=\"question\">long form of</div>\n  {{extra}}\n{{/long option}}"
+                    "qfmt": "{{#extra}}\n{{#long option}}\n<article>\n\n<section>\n  <mark><code>{{extra}}</code></mark>\n</section>\n\n<section>\n  <mark><code><var>alias long form</var></code></mark>\n</section>\n\n<script>parse();</script>\n</article>\n{{/long option}}\n{{/extra}}\n"
                 }, 
                 {
-                    "afmt": "{{extra}}", 
+                    "afmt": "<article>\n\n<section>\n  <mark><code>{{extra}}</code></mark>\n</section>\n<section>\n  <cite><code>{{command}} {{long option}}</code></cite>\n  {{#short option}}<br><em><code>{{short option}}</code></em>{{/short option}}\n</section>\n\n{{#description}}\n<blockquote>{{description}}</blockquote>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "-- alias", 
                     "ord": 11, 
-                    "qfmt": "{{#extra}}\n  <div class=\"question\">alias of</div>\n  {{#long option}}{{command}} {{long option}}{{/long option}}\n{{/extra}}\n"
+                    "qfmt": "{{#extra}}\n{{#long option}}\n<article>\n\n<section>\n  <mark><code><var>alias</var></code></mark>\n</section>\n\n<section>\n  <cite><code>{{command}} {{long option}}</code></cite>\n  {{#short option}}<br>&nbsp;{{/short option}}\n</section>\n\n<script>parse();</script>\n</article>\n{{/long option}}\n{{/extra}}\n"
                 }, 
                 {
-                    "afmt": "{{extra}}\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
-                    "bafmt": "", 
-                    "bqfmt": "", 
-                    "did": null, 
-                    "name": "extra desc", 
-                    "ord": 12, 
-                    "qfmt": "{{#description}}\n  {{#extra}}\n    <div class=\"question\">\n      <b>{{command}}</b>\n      {{text:extra type}} that means\n    </div>\n    <div class=\"definition long\">{{description}}</div>\n  {{/extra}}\n{{/description}}\n"
-                }, 
-                {
-                    "afmt": "<div class=\"definition long\">{{description}}</div>\n{{#examples}}<div class=\"examples\">{{examples}}</div>{{/examples}}", 
+                    "afmt": "<article>\n\n<section>\n  <cite><code>{{command}}</code></cite>\n  {{extra type}}\n  <mark><code>{{extra}}</code></mark>\n</section>\n\n{{#description}}\n<blockquote>{{description}}</blockquote>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "desc extra", 
+                    "ord": 12, 
+                    "qfmt": "{{#description}}\n{{#extra}}\n<article>\n\n<section>\n  <cite><code>{{command}}</code></cite>\n  <var>{{extra type}}</var>\n</section>\n\n<blockquote>{{description}}</blockquote>\n\n<script>parse();</script>\n</article>\n{{/extra}}\n{{/description}}\n"
+                }, 
+                {
+                    "afmt": "<article>\n\n<section>\n  <cite><code>{{command}}</code></cite>\n  {{extra type}}\n  <mark><code>{{extra}}</code></mark>\n</section>\n\n{{#description}}\n<blockquote>{{description}}</blockquote>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n<script>parse();</script>\n</article>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "extra desc", 
                     "ord": 13, 
-                    "qfmt": "{{#description}}\n  {{#extra}}\n    <div class=\"question\">\n      description of\n      <b>{{text:command}}</b> {{text:extra type}}\n    </div>\n    {{extra}}\n  {{/extra}}\n{{/description}}\n"
+                    "qfmt": "{{#description}}\n{{#extra}}\n<article>\n\n<section>\n  <cite><code>{{command}}</code></cite>\n  {{extra type}}\n  <mark><code>{{extra}}</code></mark>\n</section>\n\n<blockquote><var>description</var></blockquote>\n\n<script>parse();</script>\n</article>\n{{/extra}}\n{{/description}}\n"
                 }
             ], 
             "type": 0, 
@@ -12085,14 +12057,110 @@
         }, 
         {
             "__type__": "NoteModel", 
-            "crowdanki_uuid": "54268f02-35b7-11e7-aba8-2c56dc924912", 
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}", 
+            "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "css": ".card {\n  font-family: \"Avenir Next\", \"Avenir Next Bold\", Georgia;\n  font-size: 50px;\n  text-align: left;\n  color: #2aa198;\n  background-color: #002b36;\n  font-weight: bold;\n}\na { color: inherit; text-decoration: none; }\na:hover { color: #d33682; }\n.meta {\n  font-family: \"Avenir Next\", \"Avenir Next Regular\", Georgia;\n  color: #6c71c4; font-size: 15px; font-weight: normal;\n}\n.definition, .question {\n  margin-top:15px;\n  font-family:  \"Optima\", \"Optima Regular\", Georgia;\n  color: #268bd2;\n  font-size: 40px;\n  font-weight: normal;\n}\n.question {\n  color: #b58900;\n}\n.long {\n  font-size: 30px;\n}\ncode, .code {\n  color: #2aa198; /* green */\n  font-family: Monaco, monospace;\n}\n@font-face { font-family: \"Avenir Next Bold\"; src: url('_AvenirNext-Bold.ttf'); }\n@font-face { font-family: \"Avenir Next Regular\"; src: url('_AvenirNext-Regular.ttf'); }\n@font-face { font-family: \"Optima Regular\"; src: url('_Optima-Regular.ttf'); }\n\n", 
             "flds": [
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "Text", 
+                    "name": "Front", 
                     "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "ShowReversed", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "LongAnswer", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[18pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}", 
+            "name": "BasicDark", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1, 
+                        2
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"definition{{#LongAnswer}} long{{/LongAnswer}}\">{{Back}}</div>\n\n<script>document.getElementsByClassName(\"card\")[0].innerHTML = document.getElementsByClassName(\"card\")[0].innerHTML.replace(/<(\\w+)>(?:\\s|&nbsp;){4}(.*?)<\\/\\1>/g, '<pre><code>$2</code></pre>').replace('</code></pre><pre><code>', '\\n').replace(/(?:<(\\w+)>)?```\\s*(?:<\\/\\1>)?(.*?)(?:<(\\w+)>)?```\\s*(?:<\\/\\3>)?/g, function(match, p1, p2, offset, string){return '<pre><code>'+p2.replace(/<(\\w+)>(.*?)<\\/\\1>/g,'$2\\n').replace(/\\n(?:\\s|&nbsp;)*<br(?: \\/)?>(?:\\s|&nbsp;)*\\n/g,'\\n\\n')+'</code></pre>';}).replace('\\n</code></pre>', '</code></pre>').replace(/([^\\\\])`((?:.(?!<\\/[^>]+>))*?[^\\\\])`/g, '$1<code>$2</code>').replace(/\\\\`/g, '`');</script>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Forward", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{Front}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Reverse", 
+                    "ord": 1, 
+                    "qfmt": "{{#ShowReversed}}\n<div class=\"definition {{#LongAnswer}}long{{/LongAnswer}}\">{{Back}}</div>\n\n\n<script>document.getElementsByClassName(\"card\")[0].innerHTML = document.getElementsByClassName(\"card\")[0].innerHTML.replace(/<(\\w+)>(?:\\s|&nbsp;){4}(.*?)<\\/\\1>/g, '<pre><code>$2</code></pre>').replace('</code></pre><pre><code>', '\\n').replace(/(?:<(\\w+)>)?```\\s*(?:<\\/\\1>)?(.*?)(?:<(\\w+)>)?```\\s*(?:<\\/\\3>)?/g, function(match, p1, p2, offset, string){return '<pre><code>'+p2.replace(/<(\\w+)>(.*?)<\\/\\1>/g,'$2\\n').replace(/\\n(?:\\s|&nbsp;)*<br(?: \\/)?>(?:\\s|&nbsp;)*\\n/g,'\\n\\n')+'</code></pre>';}).replace('\\n</code></pre>', '</code></pre>').replace(/([^\\\\])`((?:.(?!<\\/[^>]+>))*?[^\\\\])`/g, '$1<code>$2</code>').replace(/\\\\`/g, '`');</script>\n\n{{/ShowReversed}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "a6a2f2e0-6d5b-11e6-adf3-8c705a50cbf0", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Purpose", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Command", 
+                    "ord": 1, 
                     "rtl": false, 
                     "size": 20, 
                     "sticky": false
@@ -12101,29 +12169,52 @@
                     "font": "Arial", 
                     "media": [], 
                     "name": "Extra", 
-                    "ord": 1, 
+                    "ord": 2, 
                     "rtl": false, 
                     "size": 20, 
                     "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
                 }
             ], 
             "latexPost": "\\end{document}", 
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
-            "name": "Cloze", 
+            "name": "Command line", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
             "sortf": 0, 
-            "tags": [], 
+            "tags": [
+                "Linux", 
+                "bash", 
+                "command", 
+                "tar"
+            ], 
             "tmpls": [
                 {
-                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}", 
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
-                    "name": "Cloze", 
+                    "name": "TypeCard", 
                     "ord": 0, 
-                    "qfmt": "{{cloze:Text}}"
+                    "qfmt": "{{Purpose}}\n<br>\n{{type:Command}}"
                 }
             ], 
-            "type": 1, 
+            "type": 0, 
             "vers": []
         }
     ], 
