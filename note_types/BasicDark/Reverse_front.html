@@ -1,0 +1,21 @@
+{{#ShowReversed}}
+<article data-deck="{{Deck}}">
+
+<section style="position: relative;">
+<small class="subdeck English">
+<a href="http://dictionary.com/browse/{{text:Front}}">dictionary</a> | <a href="https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3">audio</a>
+</small>
+<mark>
+<var class="q subdeck Other">what does the following describe</var>
+<var class="q subdeck English">word or phrase</var>
+<var class="q subdeck Spanish">English</var>
+</mark>
+</section>
+
+<section>
+<blockquote{{#LongAnswer}} class="long"{{/LongAnswer}}>{{Back}}</blockquote>
+</section>
+
+</article>
+<script>currentDeckMessages();</script>
+{{/ShowReversed}}

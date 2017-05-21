@@ -61,7 +61,6 @@
         "manitoba-map.png", 
         "british-columbia-map.png", 
         "ontario-map.png", 
-        "_AvenirNext-Bold.ttf", 
         "saskatchewan-map.png", 
         "manitoba-flag.png", 
         "ontario-shield.png", 
@@ -87,12 +86,11 @@
         "pei-shield.png", 
         "bc-flag.png", 
         "nl-flag.png", 
-        "_AvenirNext-Regular.ttf", 
+        "_dark.css", 
         "alberta-flag.png", 
         "nl-shield.png", 
         "_canada-political-map.gif", 
         "ns-flag.png", 
-        "_Optima-Regular.ttf", 
         "saskatchewan-flag.png", 
         "yukon-map.png", 
         "pei-flag.png", 
@@ -103,7 +101,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "5467dc00-35b7-11e7-a645-2c56dc924912", 
-            "css": ".card {\n  font-family: \"Avenir Next\", \"Avenir Next Bold\", Georgia;\n  font-size: 50px;\n  text-align: left;\n  color: #2aa198; /* green */\n  background-color: #002b36;\n  font-weight: bold;\n}\n.keyword { color: #2aa198; /* green */  font-weight: bold; }\n.definition, .question {\n  font-family:  \"Optima\", \"Optima Regular\", Georgia;\n  font-size: 40px;\n  font-weight: normal;\n}\n.definition {\n  margin:0 0 15px 0;\n  color: #268bd2; /* blue */\n}\n.question {\n  color: #b58900; /* yellow */\n}\n@font-face { font-family: \"Avenir Next Bold\"; src: url('_AvenirNext-Bold.ttf'); }\n@font-face { font-family: \"Avenir Next Regular\"; src: url('_AvenirNext-Regular.ttf'); }\n@font-face { font-family: \"Optima Regular\"; src: url('_Optima-Regular.ttf'); }\n", 
+            "css": "@import url(\"_dark.css\");\n", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -190,31 +188,31 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<div>{{Capital}}</div>\n<div>{{Map}}</div>\n<img src=\"_canada-political-map.gif\" width=\"100%\">\n", 
+                    "afmt": "<article>\n\n<section>\n<mark>{{Province or territory}}</mark> | <cite>{{Capital}}</cite>\n</section>\n\n<section>{{Map}}</section>\n\n<section><img src=\"_canada-political-map.gif\" width=\"100%\"></section>\n\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Province or Territory -> Capital", 
                     "ord": 0, 
-                    "qfmt": "<div class=\"question\">capital of</div>\n{{Province or territory}}"
+                    "qfmt": "<article>\n\n<section>\n<mark>{{Province or territory}}</mark> | <cite><var class=\"q\">capital</var></cite>\n</section>\n\n</article>"
                 }, 
                 {
-                    "afmt": "<div>{{Province or territory}}</div>\n<div>{{Map}}</div>\n<img src=\"_canada-political-map.gif\" width=\"100%\">\n", 
+                    "afmt": "<article>\n\n<section>\n<mark>{{Province or territory}}</mark> | <cite>{{Capital}}</cite>\n</section>\n\n<section>{{Map}}</section>\n\n<section><img src=\"_canada-political-map.gif\" width=\"100%\"></section>\n\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Capital -> Province or Territory", 
                     "ord": 1, 
-                    "qfmt": "<div class=\"question\">province or territory whose capital is</div>\n{{Capital}}"
+                    "qfmt": "<article>\n\n<section>\n<mark><var class=\"q\">province or territory</var></mark> | <cite>{{Capital}}</cite>\n</section>\n\n</article>"
                 }, 
                 {
-                    "afmt": "<div>{{Province or territory}}</div>", 
+                    "afmt": "<article>\n\n<section>\n<mark>{{Province or territory}}</mark> | <cite>{{Capital}}</cite>\n</section>\n\n<section>{{Map}}</section>\n\n<section><img src=\"_canada-political-map.gif\" width=\"100%\"></section>\n\n</article>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Map -> Province or Territory", 
                     "ord": 2, 
-                    "qfmt": "{{Map}}"
+                    "qfmt": "<article>\n\n<section>\n<mark><var class=\"q\">province or territory</var></mark>\n</section>\n\n<section>\n{{Map}}\n</section>\n\n</article>"
                 }
             ], 
             "type": 0, 

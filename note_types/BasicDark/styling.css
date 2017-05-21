@@ -1,11 +1,13 @@
 @import url("_dark.css");
 </style><script>
+
 function setDisplay(selector, display) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style.display = display; }); }
 function currentDeckMessages() {
+setDisplay('.subdeck.Other', '');
 var article = document.getElementsByTagName("article")[0];
 var subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');
 setDisplay('.subdeck', 'none');
-if(subdeck === ''){ setDisplay('.subdeck.Other', ''); }
+if( ['English', 'Spanish'].indexOf(subdeck) < 0 ){ setDisplay('.subdeck.Other', ''); }
 else { setDisplay('.subdeck.' + subdeck, ''); }
 }
 </script><style>

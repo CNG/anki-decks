@@ -1,11 +1,13 @@
 <article>
 
 <section>
-  <mark><code>{{command}}</code></mark>
+<mark><code>{{command}}</code></mark>
 </section>
 
 {{#description}}
+<section>
 <blockquote>{{description}}</blockquote>
+</section>
 {{/description}}
 
 {{#examples}}
@@ -17,5 +19,5 @@
 </section>
 {{/examples}}
 
-<script>parse();</script>
 </article>
+<script>currentDeckMessages();</script>
