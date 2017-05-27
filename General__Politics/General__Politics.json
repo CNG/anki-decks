@@ -2,38 +2,41 @@
     "__type__": "Deck", 
     "children": [], 
     "crowdanki_uuid": "5466d345-35b7-11e7-b953-2c56dc924912", 
-    "deck_config_uuid": "542d7433-35b7-11e7-a50f-2c56dc924912", 
+    "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
     "deck_configurations": [
         {
             "__type__": "DeckConfig", 
             "autoplay": true, 
-            "crowdanki_uuid": "542d7433-35b7-11e7-a50f-2c56dc924912", 
+            "crowdanki_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
             "dyn": false, 
             "lapse": {
                 "delays": [
                     10
                 ], 
                 "leechAction": 0, 
-                "leechFails": 8, 
+                "leechFails": 10, 
                 "minInt": 1, 
                 "mult": 0.0
             }, 
             "maxTaken": 60, 
-            "name": "Medium", 
+            "name": "Default", 
             "new": {
-                "bury": false, 
+                "bury": true, 
                 "delays": [
                     1, 
-                    10
+                    2, 
+                    5, 
+                    25, 
+                    125, 
+                    625
                 ], 
                 "initialFactor": 2500, 
                 "ints": [
-                    1, 
-                    4, 
-                    7
+                    2, 
+                    20
                 ], 
                 "order": 0, 
-                "perDay": 20, 
+                "perDay": 50, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -42,9 +45,9 @@
                 "ease4": 1.3, 
                 "fuzz": 0.05, 
                 "ivlFct": 1.0, 
-                "maxIvl": 36500, 
+                "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 100
+                "perDay": 250
             }, 
             "timer": 0
         }
@@ -60,7 +63,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": ".card {\n  font-family:  Georgia, Helvetica;\n  font-size: 50px;\n  text-align: center;\n  color: #2aa198;\n  background-color: #002b36;\n  xfont-weight: bold;\n}\na {\n  text-decoration: none;\n  color: inherit;\n}\na:hover {\n  color: #d33682;\n}\n.meta {\n  color: #b58900;\n  font-size: 14px;\n  font-weight: normal;\n}\n.definition {\n  margin-top:30px;\n  font-family: Georgia;\n  color: #268bd2;\n  font-size: 50px;\n  font-weight: normal;\n}\n.long {\n  font-size: 20px;\n}\n", 
+            "css": "@import url(\"_dark.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\n\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar fontSize = Math.round( 400 / article.innerText.length * 100 );\nif (fontSize > 100) { fontSize = 100; }\nif (fontSize < 33) { fontSize = 33; }\nsetStyle('blockquote,details', 'fontSize', fontSize + '%');\n\n}\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -69,7 +72,7 @@
                     "ord": 0, 
                     "rtl": false, 
                     "size": 20, 
-                    "sticky": false
+                    "sticky": true
                 }, 
                 {
                     "font": "Arial", 
@@ -78,12 +81,12 @@
                     "ord": 1, 
                     "rtl": false, 
                     "size": 20, 
-                    "sticky": false
+                    "sticky": true
                 }, 
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "ShowReversed", 
+                    "name": "Example", 
                     "ord": 2, 
                     "rtl": false, 
                     "size": 20, 
@@ -92,8 +95,35 @@
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "LongAnswer", 
+                    "name": "ShowReversed", 
                     "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "LongAnswer", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Alternate", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "reference", 
+                    "ord": 6, 
                     "rtl": false, 
                     "size": 20, 
                     "sticky": true
@@ -114,8 +144,7 @@
                     1, 
                     "all", 
                     [
-                        1, 
-                        2
+                        3
                     ]
                 ]
             ], 
@@ -123,22 +152,22 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<div class=\"definition{{#LongAnswer}} long{{/LongAnswer}}\">{{Back}}</div>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>{{Front}}</mark>{{#Alternate}}; <mark>{{Alternate}}</mark>{{/Alternate}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Example}}\n<section>\n<blockquote><var>{{Example}}</var></blockquote>\n</section>\n{{/Example}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
-                    "name": "BasicDark-Forward", 
+                    "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "{{Front}}"
+                    "qfmt": "<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n"
                 }, 
                 {
-                    "afmt": "{{Front}}", 
+                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>{{Front}}</mark>{{#Alternate}}; <mark>{{Alternate}}</mark>{{/Alternate}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Example}}\n<section>\n<blockquote><var>{{Example}}</var></blockquote>\n</section>\n{{/Example}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
-                    "name": "BasicDark-Reversed", 
+                    "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<div class=\"definition {{#LongAnswer}}long{{/LongAnswer}}\">{{Back}}</div>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>\n<var class=\"q subdeck Other\">what does the following describe</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -152,6 +181,9 @@
             "fields": [
                 "McCutcheon v. FEC", 
                 "struck down overall limits on federal political contributions", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
@@ -167,6 +199,9 @@
                 "2002 Bipartisan Campaign Reform Act is AKA:", 
                 "McCain-Feingold", 
                 "", 
+                "", 
+                "", 
+                "", 
                 ""
             ], 
             "flags": 0, 
@@ -181,6 +216,9 @@
                 "2002 Bipartisan Campaign Reform Act (\"McCain-Feingold\")", 
                 "prohibited large contributions by wealthy individuals and corporations to national party committees (all of whose receipts were publicly disclosed)", 
                 "", 
+                "", 
+                "", 
+                "", 
                 ""
             ], 
             "flags": 0, 
@@ -194,6 +232,9 @@
             "fields": [
                 "Party sponsored portions of TV ads", 
                 "In pre-reform 2000, the Republican and Democratic parties aired two-thirds of all advertisements in the presidential general election. In post-reform 2004, that figure dropped to one-third; in 2008, it was less than one-fourth. By 2012, just 6 percent of all advertisements were sponsored by the political parties.", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 

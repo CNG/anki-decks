@@ -1,541 +1,540 @@
-2*1	2			2*
-2*2	4			2*
-2*3	6			2*
-2*4	8			2*
-2*5	10			2*
-2*6	12			2*
-2*7	14			2*
-2*8	16			2*
-2*9	18			2*
-2*10	20			2*
-2*11	22			2*
-2*12	24			2*
-2*13	26			2*
-2*14	28			2*
-2*15	30			2*
-2*16	32			2*
-2*17	34			2*
-2*18	36			2*
-2*19	38			2*
-2*20	40			2*
-3*1	3			3*
-3*2	6			3*
-3*3	9			3*
-3*4	12			3*
-3*5	15			3*
-3*6	18			3*
-3*7	21			3*
-3*8	24			3*
-3*9	27			3*
-3*10	30			3*
-3*11	33			3*
-3*12	36			3*
-3*13	39			3*
-3*14	42			3*
-3*15	45			3*
-3*16	48			3*
-3*17	51			3*
-3*18	54			3*
-3*19	57			3*
-3*20	60			3*
-4*1	4			4*
-4*2	8			4*
-4*3	12			4*
-4*4	16			4*
-4*5	20			4*
-4*6	24			4*
-4*7	28			4*
-4*8	32			4*
-4*9	36			4*
-4*10	40			4*
-4*11	44			4*
-4*12	48			4*
-4*13	52			4*
-4*14	56			4*
-4*15	60			4*
-4*16	64			4*
-4*17	68			4*
-4*18	72			4*
-4*19	76			4*
-4*20	80			4*
-5*1	5			5*
-5*2	10			5*
-5*3	15			5*
-5*4	20			5*
-5*5	25			5*
-5*6	30			5*
-5*7	35			5*
-5*8	40			5*
-5*9	45			5*
-5*10	50			5*
-5*11	55			5*
-5*12	60			5*
-5*13	65			5*
-5*14	70			5*
-5*15	75			5*
-5*16	80			5*
-5*17	85			5*
-5*18	90			5*
-5*19	95			5*
-5*20	100			5*
-6*1	6			6*
-6*2	12			6*
-6*3	18			6*
-6*4	24			6*
-6*5	30			6*
-6*6	36			6*
-6*7	42			6*
-6*8	48			6*
-6*9	54			6*
-6*10	60			6*
-6*11	66			6*
-6*12	72			6*
-6*13	78			6*
-6*14	84			6*
-6*15	90			6*
-6*16	96			6*
-6*17	102			6*
-6*18	108			6*
-6*19	114			6*
-6*20	120			6*
-7*1	7			7*
-7*2	14			7*
-7*3	21			7*
-7*4	28			7*
-7*5	35			7*
-7*6	42			7*
-7*7	49			7*
-7*8	56			7*
-7*9	63			7*
-7*10	70			7*
-7*11	77			7*
-7*12	84			7*
-7*13	91			7*
-7*14	98			7*
-7*15	105			7*
-7*16	112			7*
-7*17	119			7*
-7*18	126			7*
-7*19	133			7*
-7*20	140			7*
-8*1	8			8*
-8*2	16			8*
-8*3	24			8*
-8*4	32			8*
-8*5	40			8*
-8*6	48			8*
-8*7	56			8*
-8*8	64			8*
-8*9	72			8*
-8*10	80			8*
-8*11	88			8*
-8*12	96			8*
-8*13	104			8*
-8*14	112			8*
-8*15	120			8*
-8*16	128			8*
-8*17	136			8*
-8*18	144			8*
-8*19	152			8*
-8*20	160			8*
-9*1	9			9*
-9*2	18			9*
-9*3	27			9*
-9*4	36			9*
-9*5	45			9*
-9*6	54			9*
-9*7	63			9*
-9*8	72			9*
-9*9	81			9*
-9*10	90			9*
-9*11	99			9*
-9*12	108			9*
-9*13	117			9*
-9*14	126			9*
-9*15	135			9*
-9*16	144			9*
-9*17	153			9*
-9*18	162			9*
-9*19	171			9*
-9*20	180			9*
-10*1	10			10*
-10*2	20			10*
-10*3	30			10*
-10*4	40			10*
-10*5	50			10*
-10*6	60			10*
-10*7	70			10*
-10*8	80			10*
-10*9	90			10*
-10*10	100			10*
-10*11	110			10*
-10*12	120			10*
-10*13	130			10*
-10*14	140			10*
-10*15	150			10*
-10*16	160			10*
-10*17	170			10*
-10*18	180			10*
-10*19	190			10*
-10*20	200			10*
-11*1	11			11*
-11*2	22			11*
-11*3	33			11*
-11*4	44			11*
-11*5	55			11*
-11*6	66			11*
-11*7	77			11*
-11*8	88			11*
-11*9	99			11*
-11*10	110			11*
-11*11	121			11*
-11*12	132			11*
-11*13	143			11*
-11*14	154			11*
-11*15	165			11*
-11*16	176			11*
-11*17	187			11*
-11*18	198			11*
-11*19	209			11*
-11*20	220			11*
-12*1	12			12*
-12*2	24			12*
-12*3	36			12*
-12*4	48			12*
-12*5	60			12*
-12*6	72			12*
-12*7	84			12*
-12*8	96			12*
-12*9	108			12*
-12*10	120			12*
-12*11	132			12*
-12*12	144			12*
-12*13	156			12*
-12*14	168			12*
-12*15	180			12*
-12*16	192			12*
-12*17	204			12*
-12*18	216			12*
-12*19	228			12*
-12*20	240			12*
-13*1	13			13*
-13*2	26			13*
-13*3	39			13*
-13*4	52			13*
-13*5	65			13*
-13*6	78			13*
-13*7	91			13*
-13*8	104			13*
-13*9	117			13*
-13*10	130			13*
-13*11	143			13*
-13*12	156			13*
-13*13	169			13*
-13*14	182			13*
-13*15	195			13*
-13*16	208			13*
-13*17	221			13*
-13*18	234			13*
-13*19	247			13*
-13*20	260			13*
-14*1	14			14*
-14*2	28			14*
-14*3	42			14*
-14*4	56			14*
-14*5	70			14*
-14*6	84			14*
-14*7	98			14*
-14*8	112			14*
-14*9	126			14*
-14*10	140			14*
-14*11	154			14*
-14*12	168			14*
-14*13	182			14*
-14*14	196			14*
-14*15	210			14*
-14*16	224			14*
-14*17	238			14*
-14*18	252			14*
-14*19	266			14*
-14*20	280			14*
-15*1	15			15*
-15*2	30			15*
-15*3	45			15*
-15*4	60			15*
-15*5	75			15*
-15*6	90			15*
-15*7	105			15*
-15*8	120			15*
-15*9	135			15*
-15*10	150			15*
-15*11	165			15*
-15*12	180			15*
-15*13	195			15*
-15*14	210			15*
-15*15	225			15*
-15*16	240			15*
-15*17	255			15*
-15*18	270			15*
-15*19	285			15*
-15*20	300			15*
-16*1	16			16*
-16*2	32			16*
-16*3	48			16*
-16*4	64			16*
-16*5	80			16*
-16*6	96			16*
-16*7	112			16*
-16*8	128			16*
-16*9	144			16*
-16*10	160			16*
-16*11	176			16*
-16*12	192			16*
-16*13	208			16*
-16*14	224			16*
-16*15	240			16*
-16*16	256			16*
-16*17	272			16*
-16*18	288			16*
-16*19	304			16*
-16*20	320			16*
-17*1	17			17*
-17*2	34			17*
-17*3	51			17*
-17*4	68			17*
-17*5	85			17*
-17*6	102			17*
-17*7	119			17*
-17*8	136			17*
-17*9	153			17*
-17*10	170			17*
-17*11	187			17*
-17*12	204			17*
-17*13	221			17*
-17*14	238			17*
-17*15	255			17*
-17*16	272			17*
-17*17	289			17*
-17*18	306			17*
-17*19	323			17*
-17*20	340			17*
-18*1	18			18*
-18*2	36			18*
-18*3	54			18*
-18*4	72			18*
-18*5	90			18*
-18*6	108			18*
-18*7	126			18*
-18*8	144			18*
-18*9	162			18*
-18*10	180			18*
-18*11	198			18*
-18*12	216			18*
-18*13	234			18*
-18*14	252			18*
-18*15	270			18*
-18*16	288			18*
-18*17	306			18*
-18*18	324			18*
-18*19	342			18*
-18*20	360			18*
-19*1	19			19*
-19*2	38			19*
-19*3	57			19*
-19*4	76			19*
-19*5	95			19*
-19*6	114			19*
-19*7	133			19*
-19*8	152			19*
-19*9	171			19*
-19*10	190			19*
-19*11	209			19*
-19*12	228			19*
-19*13	247			19*
-19*14	266			19*
-19*15	285			19*
-19*16	304			19*
-19*17	323			19*
-19*18	342			19*
-19*19	361			19*
-19*20	380			19*
-20*1	20			20*
-20*2	40			20*
-20*3	60			20*
-20*4	80			20*
-20*5	100			20*
-20*6	120			20*
-20*7	140			20*
-20*8	160			20*
-20*9	180			20*
-20*10	200			20*
-20*11	220			20*
-20*12	240			20*
-20*13	260			20*
-20*14	280			20*
-20*15	300			20*
-20*16	320			20*
-20*17	340			20*
-20*18	360			20*
-20*19	380			20*
-20*20	400			20*
-Greek letter [$]A[/$]	symbol: uppercase Greek letter alpha		
-[$]\alpha[/$]	symbol: lowercase Greek letter alpha		
-Greek letter [$]B[/$]	symbol: uppercase Greek letter beta		
-[$]\beta[/$]	symbol: lowercase Greek letter beta		
-Greek letter [$]X[/$]	symbol: uppercase Greek letter chi		
-[$]\chi[/$]	symbol: lowercase Greek letter chi		
-[$]\Delta[/$]	symbol: uppercase Greek letter delta		
-[$]\delta[/$]	symbol: lowercase Greek letter delta		
-[$]\Epsilon[/$]	symbol: uppercase Greek letter epsilon		
-[$]\epsilon[/$]	symbol: lowercase Greek letter epsilon		
-Greek letter [$]H[/$]	symbol: uppercase Greek letter eta		
-[$]\eta[/$]	symbol: lowercase Greek letter eta		
-[$]\Gamma[/$]	symbol: uppercase Greek letter gamma		
-[$]\gamma[/$]	symbol: lowercase Greek letter gamma		
-Greek letter [$]I[/$]	symbol: uppercase Greek letter iota		
-[$]\iota[/$]	symbol: lowercase Greek letter iota		
-Greek letter [$]K[/$]	symbol: uppercase Greek letter kappa		
-[$]\kappa[/$]	symbol: lowercase Greek letter kappa		
-[$]\Lambda[/$]	symbol: uppercase Greek letter lambda		
-[$]\lambda[/$]	symbol: lowercase Greek letter lambda		
-Greek letter [$]M[/$]	symbol: uppercase Greek letter mu		
-[$]\mu[/$]	symbol: lowercase Greek letter mu		
-Greek letter [$]N[/$]	symbol: uppercase Greek letter nu		
-[$]\nu[/$]	symbol: lowercase Greek letter nu		
-[$]\Omega[/$]	symbol: uppercase Greek letter omega		
-[$]\omega[/$]	symbol: lowercase Greek letter omega		
-Greek letter [$]O[/$]	symbol: uppercase Greek letter omicron		
-Greek letter [$]o[/$]	symbol: lowercase Greek letter omicron		
-[$]\Phi[/$]	symbol: uppercase Greek letter phi		
-[$]\phi[/$]	symbol: lowercase Greek letter phi		
-[$]\Pi[/$]	symbol: uppercase Greek letter pi		
-[$]\pi[/$]	symbol: lowercase Greek letter pi		
-[$]\Psi[/$]	symbol: uppercase Greek letter psi		
-[$]\psi[/$]	symbol: lowercase Greek letter psi		
-Greek letter [$]P[/$]	symbol: uppercase Greek letter rho		
-[$]\rho[/$]	symbol: lowercase Greek letter rho		
-[$]\Sigma[/$]	symbol: uppercase Greek letter sigma		
-[$]\sigma[/$]	symbol: lowercase Greek letter sigma		
-Greek letter [$]T[/$]	symbol: uppercase Greek letter tau		
-[$]\tau[/$]	symbol: lowercase Greek letter tau		
-[$]\Theta[/$]	symbol: uppercase Greek letter theta		
-[$]\theta[/$]	symbol: lowercase Greek letter theta		
-[$]\Upsilon[/$]	symbol: uppercase Greek letter upsilon		
-[$]\upsilon[/$]	symbol: lowercase Greek letter upsilon		
-[$]\varepsilon[/$]	symbol: cursive Greek letter epsilon		
-[$]\varkappa[/$]	symbol: cursive Greek letter kappa		
-[$]\varphi[/$]	symbol: cursive Greek letter phi		
-[$]\varpi[/$]	symbol: cursive Greek letter pi		
-[$]\varrho[/$]	symbol: cursive Greek letter rho		
-[$]\varsigma[/$]	symbol: cursive Greek letter sigma		
-[$]\vartheta[/$]	symbol: cursive Greek letter theta		
-[$]\Xi[/$]	symbol: uppercase Greek letter xi		
-[$]\xi[/$]	symbol: lowercase Greek letter xi		
-Greek letter [$]Z[/$]	symbol: uppercase Greek letter zeta		
-[$]\zeta[/$]	symbol: lowercase Greek letter zeta		
-[$]\subset[/$]	symbol: is a proper subset of		
-[$]\subseteq[/$]	symbol: is a subset of		
-[$]\supseteq[/$]	symbol: is a superset of		
-[$]\supset[/$]	symbol: is a proper superset of		
-[$]\simeq[/$]	symbol: is similar or equal to		
-[$]\propto[/$]	symbol: is proportional to		
-[$]\in[/$]	symbol: is member of		
-[$]\ni[/$]	symbol: owns, has member		
-[$]\asymp[/$]	symbol: is asymptotic to		
-[$]\N[/$]	symbol: set of natural numbers		
-[$]\Z[/$]	symbol: set of integers		
-[$]\Q[/$]	symbol: set of rational numbers		
-[$]\R[/$]	symbol: set of real numbers		
-[$]\C[/$]	symbol: set of complex numbers		
-[$]\O[/$], [$]\varnothing[/$]	symbol: the empty set		
-[$]\cong[/$]	symbol: is congruent to		
-Monty Hall problem	Pick from three doors, host eliminates one door, pick other door or keep first choice. Odds 1/3 for first door, 2/3 for switching!		
-equation: population variance	[$]\sigma^2 = \frac{\sum\limits_{i=1}^N (x_i-\mu)^2}{N}[/$]		
-equation: sample variation (biased)	[$]s^2_n = \frac{\sum\limits_{i=1}^n (x_i-\bar x)^2}{n}[/$]		
-equation: sample variation (unbiased)	[$]s^2_{n-1} (or s^2) = \frac{\sum\limits_{i=1}^n (x_i-\bar x)^2}{n-1}[/$]		
-equation: permutations of [$]k[/$] items from [$]n[/$] total	[$]_nP_k = \frac{n!}{(n-k)!}[/$]		
-equation: combinations of [$]k[/$] items from [$]n[/$] total	[$]_nC_k = \frac{n!}{k!(n-k)!}[/$]		
-[$]\mu[/$] (statistics)	symbol: statistics: population mean		
-[$]\bar x[/$] (statistics)	symbol: statistics: sample mean		
-equation: Law of Sines	[$]\frac{\sin(A)}{a}=\frac{\sin(B)}{b}=\frac{\sin(C)}{c}[/$]		
-equation: Law of Cosines	[$]a^2=b^2+c^2-2bc\cos(A)[/$]		
-equation: [$]\cos(x)[/$] in terms of [$]\sin[/$]	[$]\cos(x)=\sin(90-x)[/$] or [$]\cos(x)=\sin(\frac{\pi}{2}-x)[/$]		
-circumscribed angle	angle formed by lines just touching a circle from a point, where those lines are at a right angle to the line from the center of the circle to the point of contact with the circle		
-Is [$]\cos[/$] even or odd?	Even: [$]\cos(x)=\cos(-x)[/$]		
-Is [$]\sin[/$] even or odd?	Odd: [$]\sin(-x)=-\sin(x)[/$] and [$]\sin(x)=-\sin(-x)[/$]		
-Is [$]\tan[/$] even or odd?	Odd: [$]\tan(-x)=-\tan(x)[/$] and [$]\tan(x)=-\tan(-x)[/$]		
-How does tangent relate to slope?	Tangent is the slope: [$]\tan=\frac{\sin}{\cos}=\frac{y}{x}[/$]		
-[$]\tau[/$] (trigonometry)	symbol: trigonometry: [$]\frac{circumference}{radius}[/$]		
-[$]\pi[/$] in terms of [$]\tau[/$] (trigonometry)	equation: trigonometry: [$]\tau=2\pi[/$]		
-[$]\sin^2(x)+\cos^2(x)[/$]	[$]\sin^2(x)+\cos^2(x)=1[/$]		
-Pythagorean identity	[$]\sin^2(x)+\cos^2(x)=1[/$]		
-Euler‘s formula	[$]e^{i\theta}=\cos(\theta)+i\sin(\theta)[/$]		
-Euler‘s identity	[$]e^{i\pi}+1=0[/$] or [$]e^{i\tau}=1[/$]		
-[$]\sqrt{-1}[/$]	[$]i[/$]		
-[$]i^2[/$]	[$]-1[/$]		
-[$]i^3[/$]	[$]-i[/$]		
-[$]i^4[/$]	[$]1[/$]		
-equation: discriminant	[$]b^2-4ac[/$]		
-equation: quadratic	[$]x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}[/$]		
-[$]\sqrt{a}\sqrt{b}[/$]	[$]\sqrt{ab}[/$]		
-How should the negatives be handled in simplifying [$]\sqrt{-a}\sqrt{-b}[/$]?	Convert negative to imaginary number. [$]\sqrt{-a}\sqrt{-b}\ne\sqrt{(-a)(-b)}[/$]		
-[$]\frac{x^a}{x^b}[/$]	[$]\frac{x^a}{x^b}=x^a\frac{1}{x^b}=x^ax^{-b}=x^{a-b}[/$]		
-equation: line: point-slope form	[$]y-y_1=m(x-x_1)[/$]		
-equation: line: slope-intercept form	[$]y=mx+b[/$]		
-equation: line: standard form	[$]Ax+By=C[/$]		
-equation: line: two-intercept form	[$]\frac{x}{a}+\frac{y}{b}=1[/$]		
-relatively prime	simplified as much as possible, no common factors		
-Is [$][...][/$] inclusive or exclusive?	[$][...][/$] is inclusive and [$](...)[/$] is exclusive		
-equation: axis of symmetry of parabola	[$]x=-\frac{b}{2a}[/$]		
-How can you tell if parabola opens down from the standard form equation?	Parabola is concave down if [$]a&lt;0[/$]		
-[$]81^\frac{3}{4}[/$]	[$]81^\frac{3}{4}=3^3=27[/$]		
-Definition of [$]e[/$]	[$]\lim_{n\to\infty} (1+\frac{1}{n})^n=e[/$]		
-sine in terms of the sides of a right triangle	[$]\sin=\frac{\text{opposite}}{\text{hypotenuse}}[/$]		
-cosine in terms of the sides of a right triangle	[$]\cos=\frac{\text{adjacent}}{\text{hypotenuse}}[/$]		
-tangent in terms of the sides of a right triangle	[$]\tan=\frac{\text{opposite}}{\text{adjacent}}[/$]		
-cosecant in terms of the sides of a right triangle	[$]\csc=\frac{\text{hypotenuse}}{\text{opposite}}[/$]		
-secant in terms of the sides of a right triangle	[$]\sec=\frac{\text{hypotenuse}}{\text{adjacent}}[/$]		
-cotangent in terms of the sides of a right triangle	[$]\cot=\frac{\text{adjacent}}{\text{opposite}}[/$]		
-cosecant in terms of sine, cosine or tangent	[$]\csc=\frac{1}{\sin}[/$]		
-secant in terms of sine, cosine or tangent	[$]\sec=\frac{1}{\cos}[/$]		
-cotangent in terms of sine, cosine or tangent	[$]\cot=\frac{1}{\tan}[/$]		
-sum of measures of opposite angles of an inscribed quadrilateral	180 (supplementary)		
-equation: circle: standard form	[$]x^2+y^2+Cx+Dy+E=0[/$]		
-equation: circle: center-radius form	[$](x-h)^2+(y-k)^2=r^2[/$] centered at (h,k)		
-radian	the measure of a central angle that subtends an arc whose length equals that of the radius		
-What is the length of [$]\newcommand{\tarc}{\mbox{\large$\frown$}}\newcommand{\arc}[1]{\stackrel{\tarc}{#1}}\arc{AB}[/$] if its subtended [$]\angle\theta[/$] measures 1 radian?	1 radius		
-[$]\frac{\text{inscribed angle}}{\text{subtended arc}}[/$]	[$]\frac{\text{inscribed angle}}{\text{subtended arc}}=\frac{1}{2}[/$]		
-[$]\sin(a+b)[/$]	[$]\sin(a+b)=\sin(a)\cos(b)+\cos(a)\sin(b)[/$]		
-[$]\cos(a+b)[/$]	[$]\cos(a+b)=\cos(a)\cos(b)-\sin(a)\sin(b)[/$]		
-[$]\sin(a-b)[/$]	[$]\sin(a-b)=\sin(a)\cos(b)-\cos(a)\sin(b)[/$]		
-[$]\cos(a-b)[/$]	[$]\cos(a-b)=\cos(a)\cos(b)+\sin(a)\sin(b)[/$]		
-[$]\tan(a+b)[/$]	[$]\tan(a-b)=\frac{\tan(a)+\tan(b)}{1-\tan(b)\tan(a)}[/$]		
-[$]\tan(a-b)[/$]	[$]\tan(a-b)=\frac{\tan(a)-\tan(b)}{1+\tan(b)\tan(a)}[/$]		
-[$]\sin(2x)[/$]	[$]\sin(2x)=2\sin(x)\cos(x)[/$]		
-[$]\cos(2x)[/$]	[$]\cos(2x)=\cos^2(x)-\sin^2(x)=1-2sin^2(x)=2cos^2(x)-1[/$]		
-[$]\tan(2x)[/$]	[$]\tan(2x)=\frac{2\tan(x)}{1-\tan^2(x)}[/$]		
-[$]\tan(\frac{x}{2})[/$]	[$]\tan(\frac{x}{2})=\pm\sqrt{\frac{1-\cos(x)}{1+\cos(x)}}=\frac{1-\cos(x)}{\sin(x)}=\frac{\sin(x)}{1+\cos(x)}[/$]		
-[$]\sin(\frac{x}{2})[/$]	[$]\sin(\frac{x}{2})=\pm\sqrt{\frac{1-\cos(x)}{2}}[/$]		
-[$]\cos(\frac{x}{2})[/$]	[$]\cos(\frac{x}{2})=\pm\sqrt{\frac{1+\cos(x)}{2}}[/$]		
-[$]\sin^2(x)[/$]	[$]\sin^2(x)=\frac{1-\cos(2x)}{2}[/$]		
-[$]\cos^2(x)[/$]	[$]\cos^2(x)=\frac{1+\cos(2x)}{2}[/$]		
-[$]\tan^2(x)[/$]	[$]\tan^2(x)=\frac{1-\cos(2x)}{1+\cos(2x)}[/$]		
-[$]\sin(x)+\sin(y)[/$]	[$]\sin(x)+\sin(y)=2\sin(\frac{x+y}{2})\cos(\frac{x-y}{2})[/$]		
-[$]\sin(x)-\sin(y)[/$]	[$]\sin(x)-\sin(y)=2\cos(\frac{x+y}{2})\sin(\frac{x-y}{2})[/$]		
-[$]\cos(x)+\cos(y)[/$]	[$]\cos(x)+\cos(y)=2\cos(\frac{x+y}{2})\cos(\frac{x-y}{2})[/$]		
-[$]\cos(x)-\cos(y)[/$]	[$]\cos(x)-\cos(y)=-2\sin(\frac{x+y}{2})\sin(\frac{x-y}{2})[/$]		
-[$]\sin(x)\cos(y)[/$]	[$]\sin(x)\cos(y)=\frac{\sin(x+y)+\sin(x-y)}{2}[/$]		
-[$]\cos(x)\sin(y)[/$]	[$]\cos(x)\sin(y)=\frac{\sin(x+y)-\sin(x-y)}{2}[/$]		
-[$]\cos(x)\cos(y)[/$]	[$]\cos(x)\cos(y)=\frac{\cos(x-y)+\cos(x+y)}{2}[/$]		
-[$]\sin(x)\sin(y)[/$]	[$]\sin(x)\sin(y)=\frac{\cos(x-y)-\cos(x+y)}{2}[/$]		
-[$]\begin{bmatrix}x\\y\end{bmatrix}<div>\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}</div><div>[/$]</div>	[$]\begin{bmatrix}x\\y\end{bmatrix}<div>\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}</div><div>=</div><div>\begin{bmatrix}ax+by\\cx+dy\end{bmatrix}</div><div>=</div><div>x\begin{bmatrix}a\\c\end{bmatrix}</div><div>+</div><div>y\begin{bmatrix}b\\d\end{bmatrix}[/$]</div>		
-ellipsoid equation	x^2/a^2 + y^2/b^2 + z^2/c^2 = 1		
-ellipsoid volume	4πabc/3		
-log​a​​n=​log​b​​a​​log​b​​n​​	log​a​​n=​log​b​​a​​log​b​​n​​		
-ln(a^b)	ln(a^b)​​=b*ln(a)		
-binomial expansion without Pascal’s triangle	"<img src=""Screen Shot 2016-12-29 at 21.47.09.png"" />"		
-Binomial Theorem	"<img src=""Screen Shot 2016-12-29 at 21.49.45.png"" />"		
-sum and difference of squares factors	"<img src=""Screen Shot 2016-12-29 at 23.07.26.png"" />"		
-reason squaring fractions never yields whole numbers	Simplified fraction numerators and denominators have no common factors.	y	
-Reason pure water is does not conduct electricity	<div>Pure water is a compound of one hydrogen and two oxygen atoms. During bonding (to form water) these atoms share all free electrons between themselves. Due to the absence of free electrons &nbsp;to conduct electricity, pure water is an insulator. On the contrary, tap water contains dissolved salts. When salts dissolve in water, the resulting solution contains ions; cations and anions of the respective salts. It is the ions in water that conduct electricity.</div>		
-Reason for gold plated electrical circuit contacts	<div>1. Gold is the least likely medal to oxidize. Gold's electro-potential value is -1.1, meaning it should not oxidize at all, even in water.</div><div>2.&nbsp;It is an extremely conductive material, one of the best known behind graphene carbon, silver and copper.</div><div>3. Gold is very malleable, it is very easy to get a thin sheet of it.</div>	y		
+2*1	2						multiplication
+2*2	4						multiplication
+2*3	6						multiplication
+2*4	8						multiplication
+2*5	10						multiplication
+2*6	12						multiplication
+2*7	14						multiplication
+2*8	16						multiplication
+2*9	18						multiplication
+2*10	20						multiplication
+2*11	22						multiplication
+2*12	24						multiplication
+2*13	26						multiplication
+2*14	28						multiplication
+2*15	30						multiplication
+2*16	32						multiplication
+2*17	34						multiplication
+2*18	36						multiplication
+2*19	38						multiplication
+2*20	40						multiplication
+3*1	3						multiplication
+3*2	6						multiplication
+3*3	9						multiplication
+3*4	12						multiplication
+3*5	15						multiplication
+3*6	18						multiplication
+3*7	21						multiplication
+3*8	24						multiplication
+3*9	27						multiplication
+3*10	30						multiplication
+3*11	33						multiplication
+3*12	36						multiplication
+3*13	39						multiplication
+3*14	42						multiplication
+3*15	45						multiplication
+3*16	48						multiplication
+3*17	51						multiplication
+3*18	54						multiplication
+3*19	57						multiplication
+3*20	60						multiplication
+4*1	4						multiplication
+4*2	8						multiplication
+4*3	12						multiplication
+4*4	16						multiplication
+4*5	20						multiplication
+4*6	24						multiplication
+4*7	28						multiplication
+4*8	32						multiplication
+4*9	36						multiplication
+4*10	40						multiplication
+4*11	44						multiplication
+4*12	48						multiplication
+4*13	52						multiplication
+4*14	56						multiplication
+4*15	60						multiplication
+4*16	64						multiplication
+4*17	68						multiplication
+4*18	72						multiplication
+4*19	76						multiplication
+4*20	80						multiplication
+5*1	5						multiplication
+5*2	10						multiplication
+5*3	15						multiplication
+5*4	20						multiplication
+5*5	25						multiplication
+5*6	30						multiplication
+5*7	35						multiplication
+5*8	40						multiplication
+5*9	45						multiplication
+5*10	50						multiplication
+5*11	55						multiplication
+5*12	60						multiplication
+5*13	65						multiplication
+5*14	70						multiplication
+5*15	75						multiplication
+5*16	80						multiplication
+5*17	85						multiplication
+5*18	90						multiplication
+5*19	95						multiplication
+5*20	100						multiplication
+6*1	6						multiplication
+6*2	12						multiplication
+6*3	18						multiplication
+6*4	24						multiplication
+6*5	30						multiplication
+6*6	36						multiplication
+6*7	42						multiplication
+6*8	48						multiplication
+6*9	54						multiplication
+6*10	60						multiplication
+6*11	66						multiplication
+6*12	72						multiplication
+6*13	78						multiplication
+6*14	84						multiplication
+6*15	90						multiplication
+6*16	96						multiplication
+6*17	102						multiplication
+6*18	108						multiplication
+6*19	114						multiplication
+6*20	120						multiplication
+7*1	7						multiplication
+7*2	14						multiplication
+7*3	21						multiplication
+7*4	28						multiplication
+7*5	35						multiplication
+7*6	42						multiplication
+7*7	49						multiplication
+7*8	56						multiplication
+7*9	63						multiplication
+7*10	70						multiplication
+7*11	77						multiplication
+7*12	84						multiplication
+7*13	91						multiplication
+7*14	98						multiplication
+7*15	105						multiplication
+7*16	112						multiplication
+7*17	119						multiplication
+7*18	126						multiplication
+7*19	133						multiplication
+7*20	140						multiplication
+8*1	8						multiplication
+8*2	16						multiplication
+8*3	24						multiplication
+8*4	32						multiplication
+8*5	40						multiplication
+8*6	48						multiplication
+8*7	56						multiplication
+8*8	64						multiplication
+8*9	72						multiplication
+8*10	80						multiplication
+8*11	88						multiplication
+8*12	96						multiplication
+8*13	104						multiplication
+8*14	112						multiplication
+8*15	120						multiplication
+8*16	128						multiplication
+8*17	136						multiplication
+8*18	144						multiplication
+8*19	152						multiplication
+8*20	160						multiplication
+9*1	9						multiplication
+9*2	18						multiplication
+9*3	27						multiplication
+9*4	36						multiplication
+9*5	45						multiplication
+9*6	54						multiplication
+9*7	63						multiplication
+9*8	72						multiplication
+9*9	81						multiplication
+9*10	90						multiplication
+9*11	99						multiplication
+9*12	108						multiplication
+9*13	117						multiplication
+9*14	126						multiplication
+9*15	135						multiplication
+9*16	144						multiplication
+9*17	153						multiplication
+9*18	162						multiplication
+9*19	171						multiplication
+9*20	180						multiplication
+10*1	10						multiplication
+10*2	20						multiplication
+10*3	30						multiplication
+10*4	40						multiplication
+10*5	50						multiplication
+10*6	60						multiplication
+10*7	70						multiplication
+10*8	80						multiplication
+10*9	90						multiplication
+10*10	100						multiplication
+10*11	110						multiplication
+10*12	120						multiplication
+10*13	130						multiplication
+10*14	140						multiplication
+10*15	150						multiplication
+10*16	160						multiplication
+10*17	170						multiplication
+10*18	180						multiplication
+10*19	190						multiplication
+10*20	200						multiplication
+11*1	11						multiplication
+11*2	22						multiplication
+11*3	33						multiplication
+11*4	44						multiplication
+11*5	55						multiplication
+11*6	66						multiplication
+11*7	77						multiplication
+11*8	88						multiplication
+11*9	99						multiplication
+11*10	110						multiplication
+11*11	121						multiplication
+11*12	132						multiplication
+11*13	143						multiplication
+11*14	154						multiplication
+11*15	165						multiplication
+11*16	176						multiplication
+11*17	187						multiplication
+11*18	198						multiplication
+11*19	209						multiplication
+11*20	220						multiplication
+12*1	12						multiplication
+12*2	24						multiplication
+12*3	36						multiplication
+12*4	48						multiplication
+12*5	60						multiplication
+12*6	72						multiplication
+12*7	84						multiplication
+12*8	96						multiplication
+12*9	108						multiplication
+12*10	120						multiplication
+12*11	132						multiplication
+12*12	144						multiplication
+12*13	156						multiplication
+12*14	168						multiplication
+12*15	180						multiplication
+12*16	192						multiplication
+12*17	204						multiplication
+12*18	216						multiplication
+12*19	228						multiplication
+12*20	240						multiplication
+13*1	13						multiplication
+13*2	26						multiplication
+13*3	39						multiplication
+13*4	52						multiplication
+13*5	65						multiplication
+13*6	78						multiplication
+13*7	91						multiplication
+13*8	104						multiplication
+13*9	117						multiplication
+13*10	130						multiplication
+13*11	143						multiplication
+13*12	156						multiplication
+13*13	169						multiplication
+13*14	182						multiplication
+13*15	195						multiplication
+13*16	208						multiplication
+13*17	221						multiplication
+13*18	234						multiplication
+13*19	247						multiplication
+13*20	260						multiplication
+14*1	14						multiplication
+14*2	28						multiplication
+14*3	42						multiplication
+14*4	56						multiplication
+14*5	70						multiplication
+14*6	84						multiplication
+14*7	98						multiplication
+14*8	112						multiplication
+14*9	126						multiplication
+14*10	140						multiplication
+14*11	154						multiplication
+14*12	168						multiplication
+14*13	182						multiplication
+14*14	196						multiplication
+14*15	210						multiplication
+14*16	224						multiplication
+14*17	238						multiplication
+14*18	252						multiplication
+14*19	266						multiplication
+14*20	280						multiplication
+15*1	15						multiplication
+15*2	30						multiplication
+15*3	45						multiplication
+15*4	60						multiplication
+15*5	75						multiplication
+15*6	90						multiplication
+15*7	105						multiplication
+15*8	120						multiplication
+15*9	135						multiplication
+15*10	150						multiplication
+15*11	165						multiplication
+15*12	180						multiplication
+15*13	195						multiplication
+15*14	210						multiplication
+15*15	225						multiplication
+15*16	240						multiplication
+15*17	255						multiplication
+15*18	270						multiplication
+15*19	285						multiplication
+15*20	300						multiplication
+16*1	16						multiplication
+16*2	32						multiplication
+16*3	48						multiplication
+16*4	64						multiplication
+16*5	80						multiplication
+16*6	96						multiplication
+16*7	112						multiplication
+16*8	128						multiplication
+16*9	144						multiplication
+16*10	160						multiplication
+16*11	176						multiplication
+16*12	192						multiplication
+16*13	208						multiplication
+16*14	224						multiplication
+16*15	240						multiplication
+16*16	256						multiplication
+16*17	272						multiplication
+16*18	288						multiplication
+16*19	304						multiplication
+16*20	320						multiplication
+17*1	17						multiplication
+17*2	34						multiplication
+17*3	51						multiplication
+17*4	68						multiplication
+17*5	85						multiplication
+17*6	102						multiplication
+17*7	119						multiplication
+17*8	136						multiplication
+17*9	153						multiplication
+17*10	170						multiplication
+17*11	187						multiplication
+17*12	204						multiplication
+17*13	221						multiplication
+17*14	238						multiplication
+17*15	255						multiplication
+17*16	272						multiplication
+17*17	289						multiplication
+17*18	306						multiplication
+17*19	323						multiplication
+17*20	340						multiplication
+18*1	18						multiplication
+18*2	36						multiplication
+18*3	54						multiplication
+18*4	72						multiplication
+18*5	90						multiplication
+18*6	108						multiplication
+18*7	126						multiplication
+18*8	144						multiplication
+18*9	162						multiplication
+18*10	180						multiplication
+18*11	198						multiplication
+18*12	216						multiplication
+18*13	234						multiplication
+18*14	252						multiplication
+18*15	270						multiplication
+18*16	288						multiplication
+18*17	306						multiplication
+18*18	324						multiplication
+18*19	342						multiplication
+18*20	360						multiplication
+19*1	19						multiplication
+19*2	38						multiplication
+19*3	57						multiplication
+19*4	76						multiplication
+19*5	95						multiplication
+19*6	114						multiplication
+19*7	133						multiplication
+19*8	152						multiplication
+19*9	171						multiplication
+19*10	190						multiplication
+19*11	209						multiplication
+19*12	228						multiplication
+19*13	247						multiplication
+19*14	266						multiplication
+19*15	285						multiplication
+19*16	304						multiplication
+19*17	323						multiplication
+19*18	342						multiplication
+19*19	361						multiplication
+19*20	380						multiplication
+20*1	20						multiplication
+20*2	40						multiplication
+20*3	60						multiplication
+20*4	80						multiplication
+20*5	100						multiplication
+20*6	120						multiplication
+20*7	140						multiplication
+20*8	160						multiplication
+20*9	180						multiplication
+20*10	200						multiplication
+20*11	220						multiplication
+20*12	240						multiplication
+20*13	260						multiplication
+20*14	280						multiplication
+20*15	300						multiplication
+20*16	320						multiplication
+20*17	340						multiplication
+20*18	360						multiplication
+20*19	380						multiplication
+20*20	400						multiplication
+Greek letter [$]A[/$]	symbol: uppercase Greek letter alpha						
+[$]\alpha[/$]	symbol: lowercase Greek letter alpha						
+Greek letter [$]B[/$]	symbol: uppercase Greek letter beta						
+[$]\beta[/$]	symbol: lowercase Greek letter beta						
+Greek letter [$]X[/$]	symbol: uppercase Greek letter chi						
+[$]\chi[/$]	symbol: lowercase Greek letter chi						
+[$]\Delta[/$]	symbol: uppercase Greek letter delta						
+[$]\delta[/$]	symbol: lowercase Greek letter delta						
+[$]\Epsilon[/$]	symbol: uppercase Greek letter epsilon						
+[$]\epsilon[/$]	symbol: lowercase Greek letter epsilon						
+Greek letter [$]H[/$]	symbol: uppercase Greek letter eta						
+[$]\eta[/$]	symbol: lowercase Greek letter eta						
+[$]\Gamma[/$]	symbol: uppercase Greek letter gamma						
+[$]\gamma[/$]	symbol: lowercase Greek letter gamma						
+Greek letter [$]I[/$]	symbol: uppercase Greek letter iota						
+[$]\iota[/$]	symbol: lowercase Greek letter iota						
+Greek letter [$]K[/$]	symbol: uppercase Greek letter kappa						
+[$]\kappa[/$]	symbol: lowercase Greek letter kappa						
+[$]\Lambda[/$]	symbol: uppercase Greek letter lambda						
+[$]\lambda[/$]	symbol: lowercase Greek letter lambda						
+Greek letter [$]M[/$]	symbol: uppercase Greek letter mu						
+[$]\mu[/$]	symbol: lowercase Greek letter mu						
+Greek letter [$]N[/$]	symbol: uppercase Greek letter nu						
+[$]\nu[/$]	symbol: lowercase Greek letter nu						
+[$]\Omega[/$]	symbol: uppercase Greek letter omega						
+[$]\omega[/$]	symbol: lowercase Greek letter omega						
+Greek letter [$]O[/$]	symbol: uppercase Greek letter omicron						
+Greek letter [$]o[/$]	symbol: lowercase Greek letter omicron						
+[$]\Phi[/$]	symbol: uppercase Greek letter phi						
+[$]\phi[/$]	symbol: lowercase Greek letter phi						
+[$]\Pi[/$]	symbol: uppercase Greek letter pi						
+[$]\pi[/$]	symbol: lowercase Greek letter pi						
+[$]\Psi[/$]	symbol: uppercase Greek letter psi						
+[$]\psi[/$]	symbol: lowercase Greek letter psi						
+Greek letter [$]P[/$]	symbol: uppercase Greek letter rho						
+[$]\rho[/$]	symbol: lowercase Greek letter rho						
+[$]\Sigma[/$]	symbol: uppercase Greek letter sigma						
+[$]\sigma[/$]	symbol: lowercase Greek letter sigma						
+Greek letter [$]T[/$]	symbol: uppercase Greek letter tau						
+[$]\tau[/$]	symbol: lowercase Greek letter tau						
+[$]\Theta[/$]	symbol: uppercase Greek letter theta						
+[$]\theta[/$]	symbol: lowercase Greek letter theta						
+[$]\Upsilon[/$]	symbol: uppercase Greek letter upsilon						
+[$]\upsilon[/$]	symbol: lowercase Greek letter upsilon						
+[$]\varepsilon[/$]	symbol: cursive Greek letter epsilon						
+[$]\varkappa[/$]	symbol: cursive Greek letter kappa						
+[$]\varphi[/$]	symbol: cursive Greek letter phi						
+[$]\varpi[/$]	symbol: cursive Greek letter pi						
+[$]\varrho[/$]	symbol: cursive Greek letter rho						
+[$]\varsigma[/$]	symbol: cursive Greek letter sigma						
+[$]\vartheta[/$]	symbol: cursive Greek letter theta						
+[$]\Xi[/$]	symbol: uppercase Greek letter xi						
+[$]\xi[/$]	symbol: lowercase Greek letter xi						
+Greek letter [$]Z[/$]	symbol: uppercase Greek letter zeta						
+[$]\zeta[/$]	symbol: lowercase Greek letter zeta						
+[$]\subset[/$]	symbol: is a proper subset of						
+[$]\subseteq[/$]	symbol: is a subset of						
+[$]\supseteq[/$]	symbol: is a superset of						
+[$]\supset[/$]	symbol: is a proper superset of						
+[$]\simeq[/$]	symbol: is similar or equal to						
+[$]\propto[/$]	symbol: is proportional to						
+[$]\in[/$]	symbol: is member of						
+[$]\ni[/$]	symbol: owns, has member						
+[$]\asymp[/$]	symbol: is asymptotic to						
+[$]\N[/$]	symbol: set of natural numbers						
+[$]\Z[/$]	symbol: set of integers						
+[$]\Q[/$]	symbol: set of rational numbers						
+[$]\R[/$]	symbol: set of real numbers						
+[$]\C[/$]	symbol: set of complex numbers						
+[$]\O[/$], [$]\varnothing[/$]	symbol: the empty set						
+[$]\cong[/$]	symbol: is congruent to						
+Monty Hall problem	Pick from three doors, host eliminates one door, pick other door or keep first choice. Odds 1/3 for first door, 2/3 for switching!						
+equation: population variance	[$]\sigma^2 = \frac{\sum\limits_{i=1}^N (x_i-\mu)^2}{N}[/$]						
+equation: sample variation (biased)	[$]s^2_n = \frac{\sum\limits_{i=1}^n (x_i-\bar x)^2}{n}[/$]						
+equation: sample variation (unbiased)	[$]s^2_{n-1} (or s^2) = \frac{\sum\limits_{i=1}^n (x_i-\bar x)^2}{n-1}[/$]						
+equation: permutations of [$]k[/$] items from [$]n[/$] total	[$]_nP_k = \frac{n!}{(n-k)!}[/$]						
+equation: combinations of [$]k[/$] items from [$]n[/$] total	[$]_nC_k = \frac{n!}{k!(n-k)!}[/$]						
+[$]\mu[/$] (statistics)	symbol: statistics: population mean						
+[$]\bar x[/$] (statistics)	symbol: statistics: sample mean						
+equation: Law of Sines	[$]\frac{\sin(A)}{a}=\frac{\sin(B)}{b}=\frac{\sin(C)}{c}[/$]						
+equation: Law of Cosines	[$]a^2=b^2+c^2-2bc\cos(A)[/$]						
+equation: [$]\cos(x)[/$] in terms of [$]\sin[/$]	[$]\cos(x)=\sin(90-x)[/$] or [$]\cos(x)=\sin(\frac{\pi}{2}-x)[/$]						
+circumscribed angle	angle formed by lines just touching a circle from a point, where those lines are at a right angle to the line from the center of the circle to the point of contact with the circle						
+Is [$]\cos[/$] even or odd?	Even: [$]\cos(x)=\cos(-x)[/$]						
+Is [$]\sin[/$] even or odd?	Odd: [$]\sin(-x)=-\sin(x)[/$] and [$]\sin(x)=-\sin(-x)[/$]						
+Is [$]\tan[/$] even or odd?	Odd: [$]\tan(-x)=-\tan(x)[/$] and [$]\tan(x)=-\tan(-x)[/$]						
+How does tangent relate to slope?	Tangent is the slope: [$]\tan=\frac{\sin}{\cos}=\frac{y}{x}[/$]						
+[$]\tau[/$] (trigonometry)	symbol: trigonometry: [$]\frac{circumference}{radius}[/$]						
+[$]\pi[/$] in terms of [$]\tau[/$] (trigonometry)	equation: trigonometry: [$]\tau=2\pi[/$]						
+[$]\sin^2(x)+\cos^2(x)[/$]	[$]\sin^2(x)+\cos^2(x)=1[/$]						
+Pythagorean identity	[$]\sin^2(x)+\cos^2(x)=1[/$]						
+Euler‘s formula	[$]e^{i\theta}=\cos(\theta)+i\sin(\theta)[/$]						
+Euler‘s identity	[$]e^{i\pi}+1=0[/$] or [$]e^{i\tau}=1[/$]						
+[$]\sqrt{-1}[/$]	[$]i[/$]						
+[$]i^2[/$]	[$]-1[/$]						
+[$]i^3[/$]	[$]-i[/$]						
+[$]i^4[/$]	[$]1[/$]						
+equation: discriminant	[$]b^2-4ac[/$]						
+equation: quadratic	[$]x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}[/$]						
+[$]\sqrt{a}\sqrt{b}[/$]	[$]\sqrt{ab}[/$]						
+How should the negatives be handled in simplifying [$]\sqrt{-a}\sqrt{-b}[/$]?	Convert negative to imaginary number. [$]\sqrt{-a}\sqrt{-b}\ne\sqrt{(-a)(-b)}[/$]						
+[$]\frac{x^a}{x^b}[/$]	[$]\frac{x^a}{x^b}=x^a\frac{1}{x^b}=x^ax^{-b}=x^{a-b}[/$]						
+equation: line: point-slope form	[$]y-y_1=m(x-x_1)[/$]						
+equation: line: slope-intercept form	[$]y=mx+b[/$]						
+equation: line: standard form	[$]Ax+By=C[/$]						
+equation: line: two-intercept form	[$]\frac{x}{a}+\frac{y}{b}=1[/$]						
+relatively prime	simplified as much as possible, no common factors						
+Is [$][...][/$] inclusive or exclusive?	[$][...][/$] is inclusive and [$](...)[/$] is exclusive						
+equation: axis of symmetry of parabola	[$]x=-\frac{b}{2a}[/$]						
+How can you tell if parabola opens down from the standard form equation?	Parabola is concave down if [$]a&lt;0[/$]						
+[$]81^\frac{3}{4}[/$]	[$]81^\frac{3}{4}=3^3=27[/$]						
+Definition of [$]e[/$]	[$]\lim_{n\to\infty} (1+\frac{1}{n})^n=e[/$]						
+sine in terms of the sides of a right triangle	[$]\sin=\frac{\text{opposite}}{\text{hypotenuse}}[/$]						
+cosine in terms of the sides of a right triangle	[$]\cos=\frac{\text{adjacent}}{\text{hypotenuse}}[/$]						
+tangent in terms of the sides of a right triangle	[$]\tan=\frac{\text{opposite}}{\text{adjacent}}[/$]						
+cosecant in terms of the sides of a right triangle	[$]\csc=\frac{\text{hypotenuse}}{\text{opposite}}[/$]						
+secant in terms of the sides of a right triangle	[$]\sec=\frac{\text{hypotenuse}}{\text{adjacent}}[/$]						
+cotangent in terms of the sides of a right triangle	[$]\cot=\frac{\text{adjacent}}{\text{opposite}}[/$]						
+cosecant in terms of sine, cosine or tangent	[$]\csc=\frac{1}{\sin}[/$]						
+secant in terms of sine, cosine or tangent	[$]\sec=\frac{1}{\cos}[/$]						
+cotangent in terms of sine, cosine or tangent	[$]\cot=\frac{1}{\tan}[/$]						
+sum of measures of opposite angles of an inscribed quadrilateral	180 (supplementary)						
+equation: circle: standard form	[$]x^2+y^2+Cx+Dy+E=0[/$]						
+equation: circle: center-radius form	[$](x-h)^2+(y-k)^2=r^2[/$] centered at (h,k)						
+radian	the measure of a central angle that subtends an arc whose length equals that of the radius						
+What is the length of [$]\newcommand{\tarc}{\mbox{\large$\frown$}}\newcommand{\arc}[1]{\stackrel{\tarc}{#1}}\arc{AB}[/$] if its subtended [$]\angle\theta[/$] measures 1 radian?	1 radius						
+[$]\frac{\text{inscribed angle}}{\text{subtended arc}}[/$]	[$]\frac{\text{inscribed angle}}{\text{subtended arc}}=\frac{1}{2}[/$]						
+[$]\sin(a+b)[/$]	[$]\sin(a+b)=\sin(a)\cos(b)+\cos(a)\sin(b)[/$]						
+[$]\cos(a+b)[/$]	[$]\cos(a+b)=\cos(a)\cos(b)-\sin(a)\sin(b)[/$]						
+[$]\sin(a-b)[/$]	[$]\sin(a-b)=\sin(a)\cos(b)-\cos(a)\sin(b)[/$]						
+[$]\cos(a-b)[/$]	[$]\cos(a-b)=\cos(a)\cos(b)+\sin(a)\sin(b)[/$]						
+[$]\tan(a+b)[/$]	[$]\tan(a-b)=\frac{\tan(a)+\tan(b)}{1-\tan(b)\tan(a)}[/$]						
+[$]\tan(a-b)[/$]	[$]\tan(a-b)=\frac{\tan(a)-\tan(b)}{1+\tan(b)\tan(a)}[/$]						
+[$]\sin(2x)[/$]	[$]\sin(2x)=2\sin(x)\cos(x)[/$]						
+[$]\cos(2x)[/$]	[$]\cos(2x)=\cos^2(x)-\sin^2(x)=1-2sin^2(x)=2cos^2(x)-1[/$]						
+[$]\tan(2x)[/$]	[$]\tan(2x)=\frac{2\tan(x)}{1-\tan^2(x)}[/$]						
+[$]\tan(\frac{x}{2})[/$]	[$]\tan(\frac{x}{2})=\pm\sqrt{\frac{1-\cos(x)}{1+\cos(x)}}=\frac{1-\cos(x)}{\sin(x)}=\frac{\sin(x)}{1+\cos(x)}[/$]						
+[$]\sin(\frac{x}{2})[/$]	[$]\sin(\frac{x}{2})=\pm\sqrt{\frac{1-\cos(x)}{2}}[/$]						
+[$]\cos(\frac{x}{2})[/$]	[$]\cos(\frac{x}{2})=\pm\sqrt{\frac{1+\cos(x)}{2}}[/$]						
+[$]\sin^2(x)[/$]	[$]\sin^2(x)=\frac{1-\cos(2x)}{2}[/$]						
+[$]\cos^2(x)[/$]	[$]\cos^2(x)=\frac{1+\cos(2x)}{2}[/$]						
+[$]\tan^2(x)[/$]	[$]\tan^2(x)=\frac{1-\cos(2x)}{1+\cos(2x)}[/$]						
+[$]\sin(x)+\sin(y)[/$]	[$]\sin(x)+\sin(y)=2\sin(\frac{x+y}{2})\cos(\frac{x-y}{2})[/$]						
+[$]\sin(x)-\sin(y)[/$]	[$]\sin(x)-\sin(y)=2\cos(\frac{x+y}{2})\sin(\frac{x-y}{2})[/$]						
+[$]\cos(x)+\cos(y)[/$]	[$]\cos(x)+\cos(y)=2\cos(\frac{x+y}{2})\cos(\frac{x-y}{2})[/$]						
+[$]\cos(x)-\cos(y)[/$]	[$]\cos(x)-\cos(y)=-2\sin(\frac{x+y}{2})\sin(\frac{x-y}{2})[/$]						
+[$]\sin(x)\cos(y)[/$]	[$]\sin(x)\cos(y)=\frac{\sin(x+y)+\sin(x-y)}{2}[/$]						
+[$]\cos(x)\sin(y)[/$]	[$]\cos(x)\sin(y)=\frac{\sin(x+y)-\sin(x-y)}{2}[/$]						
+[$]\cos(x)\cos(y)[/$]	[$]\cos(x)\cos(y)=\frac{\cos(x-y)+\cos(x+y)}{2}[/$]						
+[$]\sin(x)\sin(y)[/$]	[$]\sin(x)\sin(y)=\frac{\cos(x-y)-\cos(x+y)}{2}[/$]						
+[$]\begin{bmatrix}x\\y\end{bmatrix}<div>\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}</div><div>[/$]</div>	[$]\begin{bmatrix}x\\y\end{bmatrix}<div>\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}</div><div>=</div><div>\begin{bmatrix}ax+by\\cx+dy\end{bmatrix}</div><div>=</div><div>x\begin{bmatrix}a\\c\end{bmatrix}</div><div>+</div><div>y\begin{bmatrix}b\\d\end{bmatrix}[/$]</div>						
+ellipsoid equation	x^2/a^2 + y^2/b^2 + z^2/c^2 = 1						
+ellipsoid volume	4πabc/3						
+log​a​​n=​log​b​​a​​log​b​​n​​	log​a​​n=​log​b​​a​​log​b​​n​​						
+ln(a^b)	ln(a^b)​​=b*ln(a)						
+binomial expansion without Pascal’s triangle	"<img src=""Screen Shot 2016-12-29 at 21.47.09.png"" />"						
+Binomial Theorem	"<img src=""Screen Shot 2016-12-29 at 21.49.45.png"" />"						
+sum and difference of squares factors	"<img src=""Screen Shot 2016-12-29 at 23.07.26.png"" />"						
+reason squaring fractions never yields whole numbers	Simplified fraction numerators and denominators have no common factors.		y				
+Reason for gold plated electrical circuit contacts	<div>1. Gold is the least likely medal to oxidize. Gold's electro-potential value is -1.1, meaning it should not oxidize at all, even in water.</div><div>2.&nbsp;It is an extremely conductive material, one of the best known behind graphene carbon, silver and copper.</div><div>3. Gold is very malleable, it is very easy to get a thin sheet of it.</div>		y				

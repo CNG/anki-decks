@@ -2,38 +2,41 @@
     "__type__": "Deck", 
     "children": [], 
     "crowdanki_uuid": "5467907d-35b7-11e7-8f73-2c56dc924912", 
-    "deck_config_uuid": "542dc091-35b7-11e7-a0a8-2c56dc924912", 
+    "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
     "deck_configurations": [
         {
             "__type__": "DeckConfig", 
             "autoplay": true, 
-            "crowdanki_uuid": "542dc091-35b7-11e7-a0a8-2c56dc924912", 
+            "crowdanki_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
             "dyn": false, 
             "lapse": {
                 "delays": [
                     10
                 ], 
                 "leechAction": 0, 
-                "leechFails": 8, 
+                "leechFails": 10, 
                 "minInt": 1, 
                 "mult": 0.0
             }, 
             "maxTaken": 60, 
-            "name": "Trickle", 
+            "name": "Default", 
             "new": {
-                "bury": false, 
+                "bury": true, 
                 "delays": [
                     1, 
-                    10
+                    2, 
+                    5, 
+                    25, 
+                    125, 
+                    625
                 ], 
                 "initialFactor": 2500, 
                 "ints": [
-                    1, 
-                    4, 
-                    7
+                    2, 
+                    20
                 ], 
                 "order": 0, 
-                "perDay": 1, 
+                "perDay": 50, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -42,9 +45,9 @@
                 "ease4": 1.3, 
                 "fuzz": 0.05, 
                 "ivlFct": 1.0, 
-                "maxIvl": 36500, 
+                "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 10
+                "perDay": 250
             }, 
             "timer": 0
         }
