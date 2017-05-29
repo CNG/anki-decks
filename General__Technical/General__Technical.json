@@ -6066,7 +6066,7 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "find primary -exec", 
+                        "find primary -exec ;", 
                         "find", 
                         "primary", 
                         "", 
@@ -6087,13 +6087,13 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "find primary -execdir", 
+                        "find primary -execdir ;", 
                         "find", 
                         "primary", 
                         "", 
                         "", 
                         "-execdir <u>utility</u> [<u>argument</u> ...] ;", 
-                        "The <code>-r</code> primary is identical to the <code>-c</code> primary with the exception that <u>utility</u> will be executed from the directory that holds the current file.  The filename substituted for the string <code>{}</code> is not qualified.", 
+                        "Identical to the <code>-exec</code> primary with the exception that <u>utility</u> will be executed from the directory that holds the current file.  The filename substituted for the string <code>{}</code> is not qualified.", 
                         "", 
                         ""
                     ], 
@@ -7557,7 +7557,7 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "find primary -exec {}", 
+                        "find primary -exec {} +", 
                         "find", 
                         "primary", 
                         "", 
@@ -7578,7 +7578,7 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "find primary -execdir {}", 
+                        "find primary -execdir {} +", 
                         "find", 
                         "primary", 
                         "", 
@@ -10181,7 +10181,7 @@
                         "", 
                         "", 
                         "cd", 
-                        "<p>Change the current working directory to <var>directory</var>. If <var>directory</var> is not supplied, the value of the <code>HOME</code> shell variable is used. Any additional arguments following <var>directory</var> are ignored. If the shell variable <code>CDPATH</code> exists, it is used as a search path: each directory name in <code>CDPATH</code> is searched for <var>directory</var>, with alternative directory names in <code>CDPATH</code> separated by a colon (&lsquo;<samp>:</samp>&rsquo;). If <var>directory</var> begins with a slash, <code>CDPATH</code> is not used.</p><p>The <samp>-P</samp> option means to not follow symbolic links: symbolic links are resolved while <code>cd</code> is traversing <var>directory</var> and before processing an instance of &lsquo;<samp>..</samp>&rsquo; in <var>directory</var>.</p><p>By default, or when the <samp>-L</samp> option is supplied, symbolic links in <var>directory</var> are resolved after <code>cd</code> processes an instance of &lsquo;<samp>..</samp>&rsquo; in <var>directory</var>.</p><p>If &lsquo;<samp>..</samp>&rsquo; appears in <var>directory</var>, it is processed by removing the immediately preceding pathname component, back to a slash or the beginning of <var>directory</var>.</p><p>If the <samp>-e</samp> option is supplied with <samp>-P</samp> and the current working directory cannot be successfully determined after a successful directory change, <code>cd</code> will return an unsuccessful status.</p><p>On systems that support it, the <samp>-@</samp> option presents the extended attributes associated with a file as a directory.               </p><p>If <var>directory</var> is &lsquo;<samp>-</samp>&rsquo;, it is converted to <code>$OLDPWD</code> before the directory change is attempted.</p><p>If a non-empty directory name from <code>CDPATH</code> is used, or if &lsquo;<samp>-</samp>&rsquo; is the first argument, and the directory change is successful, the absolute pathname of the new working directory is written to the standard output.</p><p>The return status is zero if the directory is successfully changed, non-zero otherwise.</p>", 
+                        "<p>Change the current working directory to <var>directory</var>. If <var>directory</var> is not supplied, the value of the <code>HOME</code> shell variable is used. Any additional arguments following <var>directory</var> are ignored. If the shell variable <code>CDPATH</code> exists, it is used as a search path: each directory name in <code>CDPATH</code> is searched for <var>directory</var>, with alternative directory names in <code>CDPATH</code> separated by a colon (<samp>:</samp>). If <var>directory</var> begins with a slash, <code>CDPATH</code> is not used.</p><p>The <samp>-P</samp> option means to not follow symbolic links: symbolic links are resolved while traversing <var>directory</var> and before processing an instance of <samp>..</samp>&nbsp;in <var>directory</var>.</p><p>By default, or when the <samp>-L</samp> option is supplied, symbolic links in <var>directory</var> are resolved after processing an instance of <samp>..</samp>&nbsp;in <var>directory</var>.</p><p>If <samp>..</samp>&nbsp;appears in <var>directory</var>, it is processed by removing the immediately preceding pathname component, back to a slash or the beginning of <var>directory</var>.</p><p>If the <samp>-e</samp> option is supplied with <samp>-P</samp> and the current working directory cannot be successfully determined after a successful directory change, an unsuccessful status will be returned.</p><p>On systems that support it, the <samp>-@</samp> option presents the extended attributes associated with a file as a directory.               </p><p>If <var>directory</var> is <samp><code>-</code></samp>, it is converted to <code>$OLDPWD</code> before the directory change is attempted.</p><p>If a non-empty directory name from <code>CDPATH</code> is used, or if&nbsp;<samp><code>-</code></samp>&nbsp;is the first argument, and the directory change is successful, the absolute pathname of the new working directory is written to the standard output.</p><p>The return status is zero if the directory is successfully changed, non-zero otherwise.</p>", 
                         "cd [-L|[-P [-e]] [-@] [<var>directory</var>]", 
                         ""
                     ], 
@@ -10264,7 +10264,7 @@
                         "Bourne Shell builtin", 
                         "", 
                         "", 
-                        "exit", 
+                        "exit&nbsp;[n]", 
                         "<p>Exit the shell, returning a status of <var>n</var> to the shell&rsquo;s parent. If <var>n</var> is omitted, the exit status is that of the last command executed. Any trap on <code>EXIT</code> is executed before the shell terminates.</p>", 
                         "exit [<var>n</var>]", 
                         ""
@@ -11463,7 +11463,7 @@
                         "", 
                         "", 
                         "extglob", 
-                        "<p>If set, the extended pattern matching features described above (see <a href='Pattern-Matching.html#Pattern-Matching\"'>Pattern Matching</a>) are enabled.</p>", 
+                        "<div>enables extended pattern matching features</div>", 
                         "", 
                         ""
                     ], 
@@ -17516,6 +17516,867 @@
                     "guid": "L7{cRt<298", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash operator !", 
+                        "bash", 
+                        "expression operator", 
+                        "", 
+                        "", 
+                        "[ ! <i>EXPR</i> ]", 
+                        "True if <code><i>EXPR</i></code> is false.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "MVobu[+/cY", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash operator ()", 
+                        "bash", 
+                        "expression operator", 
+                        "", 
+                        "", 
+                        "[ ( <i>EXPR</i> ) ]", 
+                        "Returns the value of <code><i>EXPR</i></code>. This may be used to override the normal precedence of operators.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "lt)~w&Sq5p", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash operator -a", 
+                        "bash", 
+                        "expression operator", 
+                        "", 
+                        "", 
+                        "[ <i>EXPR1</i> -a <i>EXPR2</i> ]", 
+                        "True if both <code><i>EXPR1</i></code> and <code><i>EXPR2</i></code> are true.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "I8Q2N2O4Pd", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash operator -o", 
+                        "bash", 
+                        "expression operator", 
+                        "", 
+                        "", 
+                        "[ <i>EXPR1</i> -o <i>EXPR2</i> ]", 
+                        "True if either&nbsp;<code><i>EXPR1</i></code> or&nbsp;<code><i>EXPR2</i></code> are true.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "i]9^]#orH_", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -a", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -a <i>FILE</i> ]", 
+                        "<i>Deprecated.</i> True if<code><i>FILE</i></code>exists.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "vchR4[f{WY", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -b", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -b <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is a block-special file.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "LY*j@37LjT", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -c", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -c <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is a character-special file.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "lmUw2DpST3", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -d", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -d <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is a directory.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "P1?.XNg.Yp", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -e", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -e <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "qGQTz*_8q?", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -f", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -f <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is a regular file.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "P_aDc?4*_L", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -g", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -g <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and its SGID bit is set.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "yG;Eiqg<v0", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -h", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -h <i>FILE</i> ]", 
+                        "<i>Sort of deprecated.</i> True if<code><i>FILE</i></code>exists and is a symbolic link.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "fwRFwg?8~#", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -k", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -k <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and its sticky bit is set.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "l%a$Y%b|6`", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -p", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -p <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is a named pipe (FIFO).", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "k{XFFA?oAK", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -r", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -r <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is readable.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "io#kG:aMgt", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -s", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -s <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and has a size greater than zero.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "m]1mYWn?3=", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -t", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -t <i>FD</i> ]", 
+                        "True if file descriptor<code><i>FD</i></code>is open and refers to a terminal.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "rCHO$j}Y~C", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -u", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -u <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and its SUID (set user ID) bit is set.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "i,sF+S4)9/", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -w", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -w <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is writable.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "MbEZe;E@fk", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -x", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -x <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is executable.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "lKf_2#z(QY", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -O", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -O <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is owned by the effective user ID.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "GCbP@{D,2k", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -G", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -G <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is owned by the effective group ID.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "N`8-T)6!,m", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -L", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -L <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is a symbolic link.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "j@Bqu)Pi*o", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -N", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -N <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and has been modified since it was last read.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "kUAnArls1V", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -S", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -S <i>FILE</i> ]", 
+                        "True if<code><i>FILE</i></code>exists and is a socket.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "xr#&&xDfnK", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -nt", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>FILE1</i> -nt <i>FILE2</i> ]", 
+                        "True if<code><i>FILE1</i></code>has been changed more recently than<code><i>FILE2</i></code> or if<code><i>FILE1</i></code>exists and<code><i>FILE2</i></code>does not.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "pg2ts1emCV", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -ot", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>FILE1</i> -ot <i>FILE2</i> ]", 
+                        "True if <code><i>FILE1</i></code> is older than <code><i>FILE2</i></code> or if <code><i>FILE2</i></code> exists and <code><i>FILE1</i></code> does not.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "G:xZ)E*y_%", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -ef", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>FILE1</i> -ef <i>FILE2</i> ]", 
+                        "True if<code><i>FILE1</i></code>and<code><i>FILE2</i></code>refer to the same device and inode numbers.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "yXRzx9kb,O", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -o", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -o <i>NAME</i> ]", 
+                        "True if shell option <code><i>NAME</i></code> is enabled.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "+1K1s|n;n", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -z", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -z <i>STRING</i> ]", 
+                        "True if the length if<code><i>STRING</i></code>is zero.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "D&wqO}jRa7", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -n", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ -n <i>STRING</i> ] or [ <i>STRING</i> ]", 
+                        "True if the length of<code><i>STRING</i></code>is non-zero.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "w+)ktsWW@/", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary ==", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>STRING1</i> == <i>STRING2</i> ]", 
+                        "True if the strings are equal.", 
+                        "<code>=</code>&nbsp;may be used instead of&nbsp;<code>==</code>&nbsp;for strict POSIX compliance.", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "PBB-j*S*Cw", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary !=", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>STRING1</i> != <i>STRING2</i> ]", 
+                        "True if the strings are not equal.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "iaRL}q[L0,", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary <", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>STRING1</i> < <i>STRING2</i> ]", 
+                        "True if<code><i>STRING1</i></code>sorts before<code><i>STRING2</i></code>lexicographically in the current locale.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "t#CO0C7g$B", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary >", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>STRING1</i> > <i>STRING2</i> ]", 
+                        "True if<code><i>STRING1</i></code>sorts after<code><i>STRING2</i></code>lexicographically in the current locale.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Gbsl9q.;#u", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -eq", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>ARG1</i> -eq <i>ARG2</i> ]", 
+                        "Arithmetic binary operator that returns true if<code><i>ARG1</i></code>is equal to<code><i>ARG2</i></code><code><i>ARG1</i></code>and<code><i>ARG2</i></code>are integers.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "dxDy7OOKU5", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -ne", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>ARG1</i> -ne <i>ARG2</i> ]", 
+                        "Arithmetic binary operator that returns true if<code><i>ARG1</i></code>is not equal to<code><i>ARG2</i></code>.&nbsp;<code><i>ARG1</i></code>and<code><i>ARG2</i></code>are integers.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "vl;RfFC|B]", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -lt", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>ARG1</i> -lt <i>ARG2</i> ]", 
+                        "Arithmetic binary operator that returns true if<code><i>ARG1</i></code>is less than<code><i>ARG2</i></code><code><i>ARG1</i></code>and<code><i>ARG2</i></code>are integers.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "xZfON@QjD,", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -le", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>ARG1</i> -le <i>ARG2</i> ]", 
+                        "Arithmetic binary operator that returns true if<code><i>ARG1</i></code>is less than or equal to<code><i>ARG2</i></code><code><i>ARG1</i></code>and<code><i>ARG2</i></code>are integers.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "e!lB{*2lNF", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -gt", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>ARG1</i> -gt <i>ARG2</i> ]", 
+                        "Arithmetic binary operator that returns true if<code><i>ARG1</i></code>is greater than<code><i>ARG2</i></code><code><i>ARG1</i></code>and<code><i>ARG2</i></code>are integers.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "mcJ$#6O[Qc", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash primary -ge", 
+                        "bash", 
+                        "expression primary", 
+                        "", 
+                        "", 
+                        "[ <i>ARG1</i> -ge <i>ARG2</i> ]", 
+                        "Arithmetic binary operator that returns true if<code><i>ARG1</i></code>is greater than or equal to<code><i>ARG2</i></code><code><i>ARG1</i></code>and<code><i>ARG2</i></code>are integers.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "O`S+nxI-<u", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
                 }
             ]
         }, 
@@ -21286,7 +22147,7 @@
         {
             "__type__": "Deck", 
             "children": [], 
-            "crowdanki_uuid": "e6c3fb66-42ab-11e7-855e-2c56dc924912", 
+            "crowdanki_uuid": "456d7d99-443a-11e7-a268-2c56dc924912", 
             "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
             "desc": "", 
             "dyn": 0, 
@@ -21606,8 +22467,8 @@
                     "data": "", 
                     "fields": [
                         "regex metacharacter alternate escape sequence", 
-                        "<p>Some flavors also support the <tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">…</span><span class=\"regexmeta\">\\E</span></tt> escape sequence. All the characters between the <tt class=\"code\"><span class=\"regexmeta\">\\Q</span></tt> and the <tt class=\"code\"><span class=\"regexmeta\">\\E</span></tt> are interpreted as literal characters. E.g. <tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">*\\d+*</span><span class=\"regexmeta\">\\E</span></tt> matches the literal text <tt class=\"match\">*\\d+*</tt>. The <tt>\\E</tt> may be omitted at the end of the regex, so <tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">*\\d+*</span></tt> is the same as <tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">*\\d+*</span><span class=\"regexmeta\">\\E</span></tt>.</p><p>This syntax is supported by the JGsoft engine, Perl, PCRE, PHP, Delphi, Java, both inside and outside character classes. Java 4 and 5 have bugs that cause <tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">…</span><span class=\"regexmeta\">\\E</span></tt> to misbehave, however, so you shouldn’t use this syntax with Java. Boost supports it outside character classes, but not inside.</p>", 
-                        "", 
+                        "<p></p><p><tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">…</span><span class=\"regexmeta\">\\E</span></tt></p><p>Characters between&nbsp;<tt class=\"code\"><span class=\"regexmeta\">\\Q</span></tt>&nbsp;and&nbsp;<tt class=\"code\"><span class=\"regexmeta\">\\E</span></tt>&nbsp;are interpreted literally.&nbsp;<tt>\\E</tt>&nbsp;may be omitted at the end of the regex.</p>", 
+                        "<p><tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">*\\d+*</span><span class=\"regexmeta\">\\E</span></tt>&nbsp;matches the literal text&nbsp;<tt class=\"match\">*\\d+*</tt>.&nbsp;</p><p><tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">*\\d+*</span></tt>&nbsp;is the same as&nbsp;<tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">*\\d+*</span><span class=\"regexmeta\">\\E</span></tt>.</p><p>This syntax is supported by the JGsoft engine, Perl, PCRE, PHP, Delphi, Java, both inside and outside character classes. Java 4 and 5 have bugs that cause&nbsp;<tt class=\"code\"><span class=\"regexmeta\">\\Q</span><span class=\"regexplain\">…</span><span class=\"regexmeta\">\\E</span></tt>&nbsp;to misbehave, however, so you shouldn’t use this syntax with Java. Boost supports it outside character classes, but not inside.</p>", 
                         "", 
                         "y", 
                         "", 
@@ -21663,8 +22524,8 @@
                     "data": "", 
                     "fields": [
                         "regex tokens for characters if&nbsp;8-bit code pages", 
-                        "If your regex engine works with 8-bit code pages instead of Unicode, then you can include any character in your regular expression if you know its position in the character set that you are working with. In the Latin-1 character set, the copyright symbol is character 0xA9. So to search for the copyright symbol, you can use <tt class=\"code\"><span class=\"regexspecial\">\\xA9</span></tt>. Another way to search for a tab is to use <tt class=\"code\"><span class=\"regexspecial\">\\x09</span></tt>. Note that the leading zero is required.", 
-                        "", 
+                        "regex token <code>\\x<i>NN</i></code>", 
+                        "If your regex engine works with 8-bit code pages instead of Unicode, then you can include any character in your regular expression if you know its position in the character set that you are working with. In the Latin-1 character set, the copyright symbol is character&nbsp;<b>0xA9</b>. So to search for the copyright symbol, you can use&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\xA9</span></tt>. Another way to search for a tab is to use&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\x09</span></tt>. Note that the leading zero is required.", 
                         "", 
                         "y", 
                         "", 
@@ -21720,7 +22581,7 @@
                     "data": "", 
                     "fields": [
                         "regex Unicode escapes in Python gotchas", 
-                        "A similar issue exists in Python 3.2 and prior with the Unicode escape <tt class=\"code\"><span class=\"regexspecial\">\\uFFFF</span></tt>. Python has supported this syntax as part of (Unicode) string literals ever since Unicode support was added to Python. But Python's re module only supports <tt class=\"code\"><span class=\"regexspecial\">\\uFFFF</span></tt> starting with Python 3.3. In Python 3.2 and earlier, <tt class=\"code\"><span class=\"regexspecial\">\\uFFFF</span></tt> works when you add your regex as a literal (Unicode) string to your Python code. But when your Python 3.2 script reads the regex from a file or user input, <tt class=\"code\"><span class=\"regexescaped\">\\u</span><span class=\"regexplain\">FFFF</span></tt> matches <tt class=\"match\">uFFFF</tt> literally as the regex engine sees <tt class=\"code\"><span class=\"regexescaped\">\\u</span></tt> as an escaped literal <tt class=\"code\"><span class=\"regexplain\">u</span></tt>.", 
+                        "A similar issue exists in Python <b>3.2</b> and prior with the Unicode escape <tt class=\"code\"><span class=\"regexspecial\">\\uFFFF</span></tt>. Python has supported this syntax as part of (Unicode) string literals ever since Unicode support was added to Python. But Python’s <code>re</code> module only supports <tt class=\"code\"><span class=\"regexspecial\">\\uFFFF</span></tt> starting with Python <b>3.3</b>. In Python <b>3.2</b> and earlier, <tt class=\"code\"><span class=\"regexspecial\">\\uFFFF</span></tt> works when you add your regex as a literal (Unicode) string to your Python code. But when your Python <b>3.2</b> script reads the regex from a file or user input, <tt class=\"code\"><span class=\"regexescaped\">\\u</span><span class=\"regexplain\">FFFF</span></tt> matches <tt class=\"match\">uFFFF</tt> literally as the regex engine sees <tt class=\"code\"><span class=\"regexescaped\">\\u</span></tt> as an escaped literal <tt class=\"code\"><span class=\"regexplain\">u</span></tt>.", 
                         "", 
                         "", 
                         "y", 
@@ -21852,9 +22713,9 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "regex: Does [^0-9] match linebreaks?", 
-                        "Yes, negated character classes also match (invisible) line break characters. If you don't want a negated character class to match line breaks, you need to include the line break characters in the class. <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">^</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccspecial\">\\r</span><span class=\"regexccspecial\">\\n</span><span class=\"regexccopen\">]</span></tt> matches any character that is not a digit or a line break.", 
-                        "", 
+                        "regex: Does <code>[^0-9]</code> match linebreaks?", 
+                        "Yes", 
+                        "Negated character classes also match (invisible) line break characters. If you don’t want a negated character class to match line breaks, you need to include the line break characters in the class.&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">^</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccspecial\">\\r</span><span class=\"regexccspecial\">\\n</span><span class=\"regexccopen\">]</span></tt>&nbsp;matches any character that is not a digit or a line break.", 
                         "", 
                         "y", 
                         "", 
@@ -21873,8 +22734,8 @@
                     "data": "", 
                     "fields": [
                         "regex: Do metacharacters always need to be escaped?", 
-                        "<div>No, not usually in character classes.</div><div><br /></div>In most regex flavors, the only special characters or metacharacters inside a character class are the closing bracket <tt>]</tt>, the backslash <tt>\\</tt>, the caret <tt>^</tt>, and the hyphen <tt>-</tt>. The usual metacharacters are normal characters inside a character class, and do not need to be escaped by a backslash. To search for a star or plus, use <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccliteral\">+*</span><span class=\"regexccopen\">]</span></tt>. Your regex will work fine if you escape the regular metacharacters inside a character class, but doing so significantly reduces readability. <p>To include a backslash as a character without any special meaning inside a character class, you have to escape it with another backslash. <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\\\</span><span class=\"regexccliteral\">x</span><span class=\"regexccopen\">]</span></tt> matches a backslash or an x. The closing bracket <tt>]</tt>, the caret <tt>^</tt> and the hyphen <tt>-</tt> can be included by escaping them with a backslash, or by placing them in a position where they do not take on their special meaning. The POSIX and GNU flavors are an exception. They treat backslashes in character classes as literal characters. So with these flavors, you can't escape anything in character classes.</p>", 
-                        "", 
+                        "<div>No, not usually in character classes.</div>", 
+                        "In most regex flavors, the only special characters or metacharacters inside a character class are the closing bracket&nbsp;<tt>]</tt>, the backslash&nbsp;<tt>\\</tt>, the caret&nbsp;<tt>^</tt>, and the hyphen&nbsp;<tt>-</tt>. The usual metacharacters are normal characters inside a character class, and do not need to be escaped by a backslash. To search for a star or plus, use&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccliteral\">+*</span><span class=\"regexccopen\">]</span></tt>. Your regex will work fine if you escape the regular metacharacters inside a character class, but doing so significantly reduces readability.<p>To include a backslash as a character without any special meaning inside a character class, you have to escape it with another backslash.&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\\\</span><span class=\"regexccliteral\">x</span><span class=\"regexccopen\">]</span></tt>&nbsp;matches a backslash or an x. The closing bracket&nbsp;<tt>]</tt>, the caret&nbsp;<tt>^</tt>&nbsp;and the hyphen&nbsp;<tt>-</tt>&nbsp;can be included by escaping them with a backslash, or by placing them in a position where they do not take on their special meaning. The POSIX and GNU flavors are an exception. They treat backslashes in character classes as literal characters. So with these flavors, you can't escape anything in character classes.</p>", 
                         "", 
                         "y", 
                         "", 
@@ -21986,9 +22847,9 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "regex: character class excluding&nbsp;characters of&nbsp;one other class", 
-                        "Character class subtraction is supported by the XML Schema, XPath, .NET (version 2.0 and later), and JGsoft regex flavors. It makes it easy to match any single character present in one list (the character class), but not present in another list (the subtracted class). The syntax for this is <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccliteral\">class</span><span class=\"regexccopen\">-[</span><span class=\"regexccliteral\">subtract</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>. If the character after a hyphen is an opening bracket, these flavors interpret the hyphen as the subtraction operator rather than the range operator. You can use the full character class syntax within the subtracted character class. <p>The character class <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccopen\">-[</span><span class=\"regexccliteral\">aeiuo</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt> matches a single letter that is not a vowel. In other words: it matches a single consonant. Without character class subtraction or intersection, the only way to do this would be to list all consonants: <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">b</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">d</span><span class=\"regexccrange\">f</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">h</span><span class=\"regexccrange\">j</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">n</span><span class=\"regexccrange\">p</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">t</span><span class=\"regexccrange\">v</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccopen\">]</span></tt>.</p> <p>The character class <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{Nd}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">^</span><span class=\"regexccspecial\">\\p{IsThai}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt> matches any single Thai digit. The base class matches any Unicode digit. All non-Thai characters are subtracted from that class. <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{Nd}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">\\P{IsThai}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt> does the same. <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{IsThai}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">^</span><span class=\"regexccspecial\">\\p{Nd}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt> and <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{IsThai}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">\\P{Nd}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt> also match a single Thai digit by subtracting all non-digits from the Thai characters.</p>", 
-                        "", 
+                        "regex: exclude characters of&nbsp;one class from another class", 
+                        "<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccliteral\">class</span><span class=\"regexccopen\">-[</span><span class=\"regexccliteral\">subtract</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt><div><br /></div><div>Character class subtraction supported by XML Schema, XPath, .NET (version 2.0 and later), and JGsoft.</div>", 
+                        "<p>If the character after a hyphen is an opening bracket, these flavors interpret the hyphen as the subtraction operator rather than the range operator. You can use the full character class syntax within the subtracted character class.</p><p>The character class&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccopen\">-[</span><span class=\"regexccliteral\">aeiuo</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>&nbsp;matches a single letter that is not a vowel. In other words: it matches a single consonant. Without character class subtraction or intersection, the only way to do this would be to list all consonants:&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">b</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">d</span><span class=\"regexccrange\">f</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">h</span><span class=\"regexccrange\">j</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">n</span><span class=\"regexccrange\">p</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">t</span><span class=\"regexccrange\">v</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccopen\">]</span></tt>.</p><p>The character class&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{Nd}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">^</span><span class=\"regexccspecial\">\\p{IsThai}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>&nbsp;matches any single Thai digit. The base class matches any Unicode digit. All non-Thai characters are subtracted from that class.&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{Nd}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">\\P{IsThai}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>&nbsp;does the same.&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{IsThai}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">^</span><span class=\"regexccspecial\">\\p{Nd}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>&nbsp;and&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{IsThai}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">\\P{Nd}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>&nbsp;also match a single Thai digit by subtracting all non-digits from the Thai characters.</p>", 
                         "", 
                         "y", 
                         "", 
@@ -22005,8 +22866,8 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "regex: character class excluding&nbsp;characters of&nbsp;two other classes", 
-                        "While you can use nested character class subtraction, you cannot subtract two classes sequentially. To subtract ASCII characters and Greek characters from a class with all Unicode letters, combine the ASCII and Greek characters into one class, and subtract that, as in <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{L}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">\\p{IsBasicLatin}</span><span class=\"regexccspecial\">\\p{IsGreek}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>.", 
+                        "regex: exclude characters of&nbsp;two classes from another class", 
+                        "While you can use nested character class subtraction, you cannot subtract two classes sequentially. To subtract ASCII characters and Greek characters from a class with all Unicode letters, combine the ASCII and Greek characters into one class, and subtract that, as in <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{L}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">\\p{IsBasicLatin}</span><span class=\"regexccspecial\">\\p{IsGreek}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>.<div><br /></div><div>Character class subtraction supported by&nbsp;<b>XML Schema</b>,&nbsp;<b>XPath</b>,&nbsp;<b>.NET</b>&nbsp;(version 2.0 and later), and&nbsp;<b>JGsoft</b>.</div>", 
                         "", 
                         "", 
                         "y", 
@@ -22025,8 +22886,8 @@
                     "data": "", 
                     "fields": [
                         "regex: Can character class subtractions be nested?", 
-                        "Since you can use the full character class syntax within the subtracted character class, you can subtract a class from the class being subtracted. <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">-[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">6</span><span class=\"regexccopen\">-[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">3</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt> first subtracts <tt>0-3</tt> from <tt>0-6</tt>, yielding <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">-[</span><span class=\"regexccrange\">4</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">6</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>, or <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">3</span><span class=\"regexccrange\">7</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">]</span></tt>, which matches any character in the string <tt class=\"string\">0123789</tt>. <p>The class subtraction must always be the last element in the character class. <tt>[0-9-[4-6]a-f]</tt> is not a valid regular expression. It should be rewritten as <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">f</span><span class=\"regexccopen\">-[</span><span class=\"regexccrange\">4</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">6</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>. The subtraction works on the whole class. E.g. <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{Ll}</span><span class=\"regexccspecial\">\\p{Lu}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">\\p{IsBasicLatin}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt> matches all uppercase and lowercase Unicode letters, except any ASCII letters. The <tt>\\p{IsBasicLatin}</tt> is subtracted from the combination of <tt>\\p{Ll}\\p{Lu}</tt> rather than from <tt>\\p{Lu}</tt> alone. This regex will not match <tt class=\"string\">abc</tt>.</p>", 
-                        "", 
+                        "Yes, assuming character class subtractions are supported in the first place.", 
+                        "Since you can use the full character class syntax within the subtracted character class, you can subtract a class from the class being subtracted.&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">-[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">6</span><span class=\"regexccopen\">-[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">3</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>&nbsp;first subtracts&nbsp;<tt>0-3</tt>&nbsp;from&nbsp;<tt>0-6</tt>, yielding&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">-[</span><span class=\"regexccrange\">4</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">6</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>, or&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">3</span><span class=\"regexccrange\">7</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">]</span></tt>, which matches any character in the string&nbsp;<tt class=\"string\">0123789</tt>.<p>The class subtraction must always be the last element in the character class.&nbsp;<tt>[0-9-[4-6]a-f]</tt>&nbsp;is not a valid regular expression. It should be rewritten as&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">f</span><span class=\"regexccopen\">-[</span><span class=\"regexccrange\">4</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">6</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>. The subtraction works on the whole class. E.g.&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\p{Ll}</span><span class=\"regexccspecial\">\\p{Lu}</span><span class=\"regexccopen\">-[</span><span class=\"regexccspecial\">\\p{IsBasicLatin}</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>&nbsp;matches all uppercase and lowercase Unicode letters, except any ASCII letters. The&nbsp;<tt>\\p{IsBasicLatin}</tt>&nbsp;is subtracted from the combination of&nbsp;<tt>\\p{Ll}\\p{Lu}</tt>&nbsp;rather than from&nbsp;<tt>\\p{Lu}</tt>&nbsp;alone. This regex will not match&nbsp;<tt class=\"string\">abc</tt>.</p><p>Character class subtraction supported by&nbsp;<b>XML Schema</b>,&nbsp;<b>XPath</b>,&nbsp;<b>.NET</b>&nbsp;(version 2.0 and later), and&nbsp;<b>JGsoft</b>.</p>", 
                         "", 
                         "y", 
                         "", 
@@ -22044,8 +22905,8 @@
                     "data": "", 
                     "fields": [
                         "regex: character class negation or subtraction handled first?", 
-                        "<p><b>negation</b></p><p>The character class <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">^</span><span class=\"regexccliteral\">1234</span><span class=\"regexccopen\">-[</span><span class=\"regexccliteral\">3456</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt> is both negated and subtracted from. In all flavors that support character class subtraction, the base class is negated before it is subtracted from. This class should be read as \"(not 1234) minus 3456\". Thus this character class matches any character other than the digits 1, 2, 3, 4, 5, and 6.</p>", 
-                        "", 
+                        "<div>negation</div>", 
+                        "The character class&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">^</span><span class=\"regexccliteral\">1234</span><span class=\"regexccopen\">-[</span><span class=\"regexccliteral\">3456</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">]</span></tt>&nbsp;is both negated and subtracted from. In all flavors that support character class subtraction, the base class is negated before it is subtracted from. This class should be read as \"(not 1234) minus 3456\". Thus this character class matches any character other than the digits 1, 2, 3, 4, 5, and 6.", 
                         "", 
                         "y", 
                         "", 
@@ -22062,28 +22923,9 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "regex: Is character class subtraction an error if unsupported?", 
-                        "<p><b>no</b></p><p>Note that a regex like <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-[aeiuo</span><span class=\"regexccopen\">]</span><span class=\"regexplain\">]</span></tt> does not cause any errors in most regex flavors that do not support character class subtraction. But it won't match what you intended either. In most flavors, this regex consists of a character class followed by a literal <tt class=\"code\"><span class=\"regexccopen\">]</span></tt>. The character class matches a character that is either in the range a-z, or a hyphen, or an opening bracket, or a vowel. Since the a-z range and the vowels are redundant, you could write this character class as <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-[</span><span class=\"regexccopen\">]</span></tt> or <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccliteral\">-[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccopen\">]</span></tt> in Perl. A hyphen after a range is treated as a literal character, just like a hyphen immediately after the opening bracket. This is true in the XML, .NET and JGsoft flavors too. <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-_</span><span class=\"regexccopen\">]</span></tt> matches a lowercase letter, a hyphen or an underscore in these flavors.</p> <p>Strictly speaking, this means that the character class subtraction syntax is incompatible with Perl and the majority of other regex flavors. But in practice there's no difference. Using non-alphanumeric characters in character class ranges is very bad practice because it relies on the order of characters in the ASCII character table. That makes the regular expression hard to understand for the programmer who inherits your work. While <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">[</span><span class=\"regexccopen\">]</span></tt> would match any upper case letter or an opening square bracket in Perl, this regex is much clearer when written as <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">Z</span><span class=\"regexccliteral\">[</span><span class=\"regexccopen\">]</span></tt>. The former regex would cause an error with the XML, .NET and JGsoft flavors, because they interpret <tt>-[]</tt> as an empty subtracted class, leaving an unbalanced <tt>[</tt>.</p>", 
-                        "", 
-                        "", 
-                        "y", 
-                        "", 
-                        ""
-                    ], 
-                    "flags": 0, 
-                    "guid": "f434ySWfqW", 
-                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-                    "tags": [
-                        "regex"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
-                        "regex: character class intersection", 
-                        "Note that a regex like <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-[aeiuo</span><span class=\"regexccopen\">]</span><span class=\"regexplain\">]</span></tt> does not cause any errors in most regex flavors that do not support character class subtraction. But it won't match what you intended either. In most flavors, this regex consists of a character class followed by a literal <tt class=\"code\"><span class=\"regexccopen\">]</span></tt>. The character class matches a character that is either in the range a-z, or a hyphen, or an opening bracket, or a vowel. Since the a-z range and the vowels are redundant, you could write this character class as <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-[</span><span class=\"regexccopen\">]</span></tt> or <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccliteral\">-[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccopen\">]</span></tt> in Perl. A hyphen after a range is treated as a literal character, just like a hyphen immediately after the opening bracket. This is true in the XML, .NET and JGsoft flavors too. <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-_</span><span class=\"regexccopen\">]</span></tt> matches a lowercase letter, a hyphen or an underscore in these flavors. <p>Strictly speaking, this means that the character class subtraction syntax is incompatible with Perl and the majority of other regex flavors. But in practice there's no difference. Using non-alphanumeric characters in character class ranges is very bad practice because it relies on the order of characters in the ASCII character table. That makes the regular expression hard to understand for the programmer who inherits your work. While <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">[</span><span class=\"regexccopen\">]</span></tt> would match any upper case letter or an opening square bracket in Perl, this regex is much clearer when written as <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">Z</span><span class=\"regexccliteral\">[</span><span class=\"regexccopen\">]</span></tt>. The former regex would cause an error with the XML, .NET and JGsoft flavors, because they interpret <tt>-[]</tt> as an empty subtracted class, leaving an unbalanced <tt>[</tt>.</p>", 
-                        "", 
+                        "regex: character class subtraction in nonsupporting flavors", 
+                        "<div>Usually not an error, but not as intended. For example,&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-[aeiuo</span><span class=\"regexccopen\">]</span><span class=\"regexplain\">]</span></tt>&nbsp;looks like a class containing some redundant characters followed by a literal closing bracket.</div><div><br /></div><div>Character class subtraction supported by <b>XML Schema</b>, <b>XPath</b>, <b>.NET</b> (version 2.0 and later), and <b>JGsoft</b>.</div>", 
+                        "Note that a regex like&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-[aeiuo</span><span class=\"regexccopen\">]</span><span class=\"regexplain\">]</span></tt>&nbsp;does not cause any errors in most regex flavors that do not support character class subtraction. But it won't match what you intended either. In most flavors, this regex consists of a character class followed by a literal&nbsp;<tt class=\"code\"><span class=\"regexccopen\">]</span></tt>. The character class matches a character that is either in the range a-z, or a hyphen, or an opening bracket, or a vowel. Since the a-z range and the vowels are redundant, you could write this character class as&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-[</span><span class=\"regexccopen\">]</span></tt>&nbsp;or&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccliteral\">-[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccopen\">]</span></tt>&nbsp;in Perl. A hyphen after a range is treated as a literal character, just like a hyphen immediately after the opening bracket. This is true in the XML, .NET and JGsoft flavors too.&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccliteral\">-_</span><span class=\"regexccopen\">]</span></tt>&nbsp;matches a lowercase letter, a hyphen or an underscore in these flavors.<p>Strictly speaking, this means that the character class subtraction syntax is incompatible with Perl and the majority of other regex flavors. But in practice there's no difference. Using non-alphanumeric characters in character class ranges is very bad practice because it relies on the order of characters in the ASCII character table. That makes the regular expression hard to understand for the programmer who inherits your work. While&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">[</span><span class=\"regexccopen\">]</span></tt>&nbsp;would match any upper case letter or an opening square bracket in Perl, this regex is much clearer when written as&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">Z</span><span class=\"regexccliteral\">[</span><span class=\"regexccopen\">]</span></tt>. The former regex would cause an error with the XML, .NET and JGsoft flavors, because they interpret&nbsp;<tt>-[]</tt>&nbsp;as an empty subtracted class, leaving an unbalanced&nbsp;<tt>[</tt>.</p>", 
                         "", 
                         "y", 
                         "", 
@@ -22158,8 +23000,8 @@
                     "data": "", 
                     "fields": [
                         "regex: character class shorthand <code>\\w</code>", 
-                        "<span class=\"regexspecial\">\\w</span> stands for \"word character\". It always matches the ASCII characters <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">Z</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccliteral\">_</span><span class=\"regexccopen\">]</span></tt>. Notice the inclusion of the underscore and digits. In most flavors that support Unicode, <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt> includes many characters from other scripts. There is a lot of inconsistency about which characters are actually included. Letters and digits from alphabetic scripts and ideographs are generally included. Connector punctuation other than the underscore and numeric symbols that aren't digits may or may not be included. XML Schema and XPath even include all symbols in <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt>. Again, Java, JavaScript, and PCRE match only ASCII characters with <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt>.", 
-                        "", 
+                        "<i>word characters</i>: always <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">Z</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccliteral\">_</span><span class=\"regexccopen\">]</span></tt> and sometimes Unicode", 
+                        "<span class=\"regexspecial\">\\w</span>&nbsp;stands for \"word character\". It always matches the ASCII characters&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">Z</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">z</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccliteral\">_</span><span class=\"regexccopen\">]</span></tt>. Notice the inclusion of the underscore and digits. In most flavors that support Unicode,&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt>&nbsp;includes many characters from other scripts. There is a lot of inconsistency about which characters are actually included. Letters and digits from alphabetic scripts and ideographs are generally included. Connector punctuation other than the underscore and numeric symbols that aren't digits may or may not be included. XML Schema and XPath even include all symbols in&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt>. Again, Java, JavaScript, and PCRE match only ASCII characters with&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt>.", 
                         "", 
                         "y", 
                         "", 
@@ -22196,8 +23038,8 @@
                     "data": "", 
                     "fields": [
                         "regex: Can shorthand character classes be used inside brackets?", 
-                        "Yes.<div><br /></div><div>Shorthand character classes can be used both inside and outside the square brackets. <tt class=\"code\"><span class=\"regexspecial\">\\s</span><span class=\"regexspecial\">\\d</span></tt> matches a whitespace character followed by a digit. <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\s</span><span class=\"regexccspecial\">\\d</span><span class=\"regexccopen\">]</span></tt> matches a single character that is either whitespace or a digit. When applied to <tt class=\"string\">1&nbsp;+&nbsp;2&nbsp;=&nbsp;3</tt>, the former regex matches <tt class=\"match\">&nbsp;2</tt> (space two), while the latter matches <tt class=\"match\">1</tt> (one). <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\d</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">f</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">F</span><span class=\"regexccopen\">]</span></tt> matches a hexadecimal digit, and is equivalent to <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">f</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">F</span><span class=\"regexccopen\">]</span></tt> if your flavor only matches ASCII characters with <tt class=\"code\"><span class=\"regexspecial\">\\d</span></tt>.</div>", 
-                        "", 
+                        "Yes.", 
+                        "Shorthand character classes can be used both inside and outside the square brackets.&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\s</span><span class=\"regexspecial\">\\d</span></tt>&nbsp;matches a whitespace character followed by a digit.&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\s</span><span class=\"regexccspecial\">\\d</span><span class=\"regexccopen\">]</span></tt>&nbsp;matches a single character that is either whitespace or a digit. When applied to&nbsp;<tt class=\"string\">1&nbsp;+&nbsp;2&nbsp;=&nbsp;3</tt>, the former regex matches&nbsp;<tt class=\"match\">&nbsp;2</tt>&nbsp;(space two), while the latter matches&nbsp;<tt class=\"match\">1</tt>&nbsp;(one).&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\d</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">f</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">F</span><span class=\"regexccopen\">]</span></tt>&nbsp;matches a hexadecimal digit, and is equivalent to&nbsp;<tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccrange\">a</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">f</span><span class=\"regexccrange\">A</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">F</span><span class=\"regexccopen\">]</span></tt>&nbsp;if your flavor only matches ASCII characters with&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\d</span></tt>.", 
                         "", 
                         "y", 
                         "", 
@@ -22671,7 +23513,7 @@
                     "data": "", 
                     "fields": [
                         "regex anchors for start and end of string", 
-                        "<span class=\"regexspecial\">\\A</span> only ever matches at the start of the string. Likewise, <tt class=\"code\"><span class=\"regexspecial\">\\Z</span></tt> only ever matches at the end of the string. These two tokens never match at line breaks. This is true in all regex flavors discussed in this tutorial, even when you turn on \"multiline mode\". In EditPad Pro and PowerGREP, where the caret and dollar always match at the start and end of lines, <tt class=\"code\"><span class=\"regexspecial\">\\A</span></tt> and <tt class=\"code\"><span class=\"regexspecial\">\\Z</span></tt> only match at the start and the end of the entire file. <p>JavaScript, POSIX, XML, and XPath do not support <tt class=\"code\"><span class=\"regexspecial\">\\A</span></tt> and <tt class=\"code\"><span class=\"regexspecial\">\\Z</span></tt>. You're stuck with using the caret and dollar for this purpose.</p> <p>The GNU extensions to POSIX regular expressions use <tt class=\"code\"><span class=\"regexspecial\">\\`</span></tt> (backtick) to match the start of the string, and <tt class=\"code\"><span class=\"regexspecial\">\\'</span></tt> (single quote) to match the end of the string.</p>", 
+                        "<span class=\"regexspecial\">\\A</span> only ever matches at the start of the string. Likewise, <tt class=\"code\"><span class=\"regexspecial\">\\Z</span></tt> only ever matches at the end of the string. These two tokens never match at line breaks. This is true in all regex flavors discussed in this tutorial, even when you turn on \"multiline mode\". In EditPad Pro and PowerGREP, where the caret and dollar always match at the start and end of lines, <tt class=\"code\"><span class=\"regexspecial\">\\A</span></tt> and <tt class=\"code\"><span class=\"regexspecial\">\\Z</span></tt> only match at the start and the end of the entire file. <p>do not support <tt class=\"code\"><span class=\"regexspecial\">\\A</span></tt> and <tt class=\"code\"><span class=\"regexspecial\">\\Z</span></tt>. You're stuck with using the caret and dollar for this purpose.</p> <p>The GNU extensions to POSIX regular expressions use <tt class=\"code\"><span class=\"regexspecial\">\\`</span></tt> (backtick) to match the start of the string, and <tt class=\"code\"><span class=\"regexspecial\">\\'</span></tt> (single quote) to match the end of the string.</p>", 
                         "", 
                         "", 
                         "y", 
@@ -22747,7 +23589,7 @@
                     "data": "", 
                     "fields": [
                         "regex: what anchor <code>\\b</code> matches", 
-                        "This metacharacter&nbsp;is an <a href=\"anchors.html\" target=\"_top\">anchor</a> like the caret and the dollar sign. It matches at a position that is called a \"word boundary\". This match is zero-length.<div><br /></div><div>Exactly which characters are word characters depends on the regex flavor you're working with. In most flavors, characters that are matched by the <a href=\"shorthand.html\" target=\"_top\">short-hand character class</a> <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt> are the characters that are treated as word characters by word boundaries. <a href=\"java.html\" target=\"_top\">Java</a> is an exception. Java supports Unicode for this metacharacter&nbsp;but not for <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt>. <p>Most flavors, except the ones discussed below, have only one metacharacter that matches both before a word and after a word. This is because any position between characters can never be both at the start and at the end of a word. Using only one operator makes things easier for you.</p></div>", 
+                        "This metacharacter&nbsp;matches at a position that is called a \"word boundary\". This match is zero-length.<div><br /></div><div>Exactly which characters are word characters depends on the regex flavor you're working with. In most flavors, characters that are matched by the short-hand character class <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt> are the characters that are treated as word characters by word boundaries. Java is an exception. Java supports Unicode for this metacharacter&nbsp;but not for <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt>. <p>Most flavors, except the ones discussed below, have only one metacharacter that matches both before a word and after a word. This is because any position between characters can never be both at the start and at the end of a word. Using only one operator makes things easier for you.</p></div>", 
                         "Since digits are considered to be word characters,&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\b</span><span class=\"regexplain\">4</span><span class=\"regexspecial\">\\b</span></tt>&nbsp;can be used to match a 4 that is not part of a larger number. This regex does not match&nbsp;<tt class=\"string\">44 sheets of a4</tt>. So saying \"<tt class=\"code\"><span class=\"regexspecial\">\\b</span></tt>&nbsp;matches before and after an alphanumeric sequence\" is more exact than saying \"before and after a word\".<div><p><b>Exception</b></p><p>In Tcl,&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\b</span></tt>&nbsp;matches a backspace character, just like&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\x08</span></tt>&nbsp;in most regex flavors (including Tcl's).&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\B</span></tt>&nbsp;matches a single backslash character in Tcl, just like&nbsp;<tt class=\"code\"><span class=\"regexescaped\">\\\\</span></tt>&nbsp;in all other regex flavors (and Tcl too).</p></div>", 
                         "reverse", 
                         "y", 
@@ -22804,8 +23646,8 @@
                     "data": "", 
                     "fields": [
                         "regex: word boundaries in&nbsp;GNU", 
-                        "<div>This flavor has extensions that&nbsp;support the&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\b</span></tt>&nbsp;and&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\B</span></tt>&nbsp;word boundaries, and it&nbsp;also uses its own syntax for start-of-word and end-of-word boundaries. <tt class=\"code\"><span class=\"regexspecial\">\\&lt;</span></tt> matches at the start of a word, like Tcl's <tt class=\"code\"><span class=\"regexspecial\">\\m</span></tt>. <tt class=\"code\"><span class=\"regexspecial\">\\&gt;</span></tt> matches at the end of a word, like Tcl's <tt class=\"code\"><span class=\"regexspecial\">\\M</span></tt>.</div><div><p>Boost also treats <tt class=\"code\"><span class=\"regexspecial\">\\&lt;</span></tt> and <tt class=\"code\"><span class=\"regexspecial\">\\&gt;</span></tt> as word boundaries when using the ECMAScript, extended, egrep, or awk grammar.</p></div>", 
-                        "The GNU extensions to POSIX regular expressions add support for the&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\b</span></tt>&nbsp;and&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\B</span></tt>&nbsp;word boundaries.", 
+                        "<div>This flavor has extensions that&nbsp;support the&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\b</span></tt>&nbsp;and&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\B</span></tt>&nbsp;word boundaries, and it&nbsp;also uses its own syntax for start-of-word and end-of-word boundaries. <tt class=\"code\"><span class=\"regexspecial\">\\&lt;</span></tt> matches at the start of a word, like&nbsp;<b>Tcl</b>’s&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\m</span></tt>. <tt class=\"code\"><span class=\"regexspecial\">\\&gt;</span></tt> matches at the end of a word, like&nbsp;<b>Tcl</b>’s&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\M</span></tt>.</div><div><p><b>Boost</b> also treats <tt class=\"code\"><span class=\"regexspecial\">\\&lt;</span></tt> and <tt class=\"code\"><span class=\"regexspecial\">\\&gt;</span></tt> as word boundaries when using the <b>ECMAScript</b>, <b>extended</b>, <b><code>egrep</code></b>, or <b><code>awk</code></b> grammar.</p></div>", 
+                        "The <b>GNU</b> extensions to <b>POSIX</b> regular expressions add support for the&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\b</span></tt>&nbsp;and&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\B</span></tt>&nbsp;word boundaries.", 
                         "reverse", 
                         "y", 
                         "", 
@@ -22937,7 +23779,7 @@
                     "data": "", 
                     "fields": [
                         "regex: metacharacters&nbsp;<code>{}</code>", 
-                        "These metacharacters can also make something optional.&nbsp;", 
+                        "This pair of metacharacters can also make something optional.&nbsp;", 
                         "<tt class=\"code\"><span class=\"regexplain\">colo</span><span class=\"regexplain\">u</span><span class=\"regexspecial\">{0,1}</span><span class=\"regexplain\">r</span></tt>&nbsp;is the same as&nbsp;<tt class=\"code\"><span class=\"regexplain\">colo</span><span class=\"regexplain\">u</span><span class=\"regexspecial\">?</span><span class=\"regexplain\">r</span></tt><div><br /></div>\nThe syntax is <tt>{<i>min</i>,<i>max</i>}</tt>, where <i>min</i> is zero or a positive integer number indicating the minimum number of matches, and <i>max</i> is an integer equal to or greater than <i>min</i> indicating the maximum number of matches. If the comma is present but <i>max</i> is omitted, the maximum number of matches is infinite. So <tt class=\"code\"><span class=\"regexspecial\">{0,1}</span></tt> is the same as <tt class=\"code\"><span class=\"regexspecial\">?</span></tt>, <tt class=\"code\"><span class=\"regexspecial\">{0,}</span></tt> is the same as <tt class=\"code\"><span class=\"regexspecial\">*</span></tt>, and <tt class=\"code\"><span class=\"regexspecial\">{1,}</span></tt> is the same as <tt class=\"code\"><span class=\"regexspecial\">+</span></tt>. Omitting both the comma and <i>max</i> tells the engine to repeat the token exactly <i>min</i> times. <p>You could use <tt class=\"code\"><span class=\"regexspecial\">\\b</span><span class=\"regexccopen\">[</span><span class=\"regexccrange\">1</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">]</span><span class=\"regexspecial\">{3}</span><span class=\"regexspecial\">\\b</span></tt> to match a number between 1000 and 9999. <tt class=\"code\"><span class=\"regexspecial\">\\b</span><span class=\"regexccopen\">[</span><span class=\"regexccrange\">1</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">]</span><span class=\"regexccopen\">[</span><span class=\"regexccrange\">0</span><span class=\"regexccrange\">-</span><span class=\"regexccrange\">9</span><span class=\"regexccopen\">]</span><span class=\"regexspecial\">{2,4}</span><span class=\"regexspecial\">\\b</span></tt> matches a number between 100 and 99999. Notice the use of the word boundaries.</p>", 
                         "reverse", 
                         "y", 
@@ -23098,6 +23940,253 @@
                     ], 
                     "flags": 0, 
                     "guid": "Ra-{VL;ZnD", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex: what does <code>^\\d+$</code> match for string <code>123\\n</code>?", 
+                        "<code>123</code>", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "i{(bT-noxk", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex: what does <code>^\\d+$</code> match for string <code>123</code>?", 
+                        "<code>123</code>", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ci{D{4y713", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex: does what&nbsp;<code>^\\d+$</code> matches for string <code>123\\n</code>&nbsp;change in multiline mode?", 
+                        "No, it matches <code>123</code> independent of the mode.", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "z~eEGR;Rir", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex: does&nbsp;<code>\\A\\d+\\z</code> match string <code>123\\n</code> in Python?", 
+                        "No.<div><br /></div><div>Python does not support&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\z</span></tt>&nbsp;and&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\Z</span></tt>&nbsp;matches only at the very end of the string.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "J>iMw,?,a{", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex: does&nbsp;<code>\\A\\d+\\z</code> match string <code>123\\n</code>?", 
+                        "No.<div><br /></div><div><tt class=\"code\"><span class=\"regexspecial\">\\z</span></tt>&nbsp;matches after the line break, which is not matched by the shorthand character class.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "z;^~tZ=p%o", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex: does&nbsp;<code>\\A\\d+\\Z</code> match string <code>123\\n</code>?", 
+                        "Yes, except in Python.", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "O8Vo<rLvdP", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex: does&nbsp;<code>\\A\\d+\\Z</code> match string <code>123\\n</code> in Python?", 
+                        "No.<div><br /></div><div>In Python,&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\Z</span></tt>&nbsp;matches only at the very end of the string.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "G.:dIR3ZVK", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex anchor that only ever matches the start of the string", 
+                        "regex anchor&nbsp;<code>\\A</code>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ueP66ufW{*", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex anchor that only ever matches the end of the string", 
+                        "regex anchor&nbsp;<code>\\Z</code>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "cg,k3`RK8#", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex anchor <code>\\Z</code> matches line breaks when?", 
+                        "never", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "fP99N:g2+8", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex anchor <code>\\A</code> matches line breaks when?", 
+                        "never", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "RcZ`(KXX|5", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex flavors that do not support&nbsp;<code>\\A</code> or <code>\\Z</code>", 
+                        "<b>JavaScript</b>, <b>POSIX</b>, <b>XML</b>, and <b>XPath</b>", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "y|d9@Ls_YT", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "regex flavors that&nbsp;treat <code>\\</code> in character classes as literal characters", 
+                        "<b>POSIX</b> and <b>GNU</b>", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "iwe9}|u=:s", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": [
                         "regex"
@@ -23858,8 +24947,8 @@
                     "data": "", 
                     "fields": [
                         "Python sorted dictionary keys", 
-                        "<p>Use dictionary <code>keys()</code> method and sort with list <code>sort()</code> method, then step through result with for loop</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">Ks</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #24909d\">list</span><span style=\"color: #d0d0d0\">(D.keys())</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">Ks.sort()</span>\n<span style=\"color: #d0d0d0\">[</span><span style=\"color: #ed9d13\">'a'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'b'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'c'</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #6ab825; font-weight: bold\">for</span> <span style=\"color: #d0d0d0\">key</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">Ks:</span>\n        <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(key,</span> <span style=\"color: #ed9d13\">'=&gt;'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #d0d0d0\">D[key])</span> <span style=\"color: #999999; font-style: italic\"># 3.X print, in 2.X remove parentheses</span>\n\n<span style=\"color: #d0d0d0\">a</span> <span style=\"color: #d0d0d0\">=&gt;</span> <span style=\"color: #3677a9\">1</span>\n<span style=\"color: #d0d0d0\">b</span> <span style=\"color: #d0d0d0\">=&gt;</span> <span style=\"color: #3677a9\">2</span>\n<span style=\"color: #d0d0d0\">c</span> <span style=\"color: #d0d0d0\">=&gt;</span> <span style=\"color: #3677a9\">3</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUzNDczMTcsICJpZCI6ICIxNDg4NzAwODk2NzAzLTAwMSIsICJtZCI6ICJVc2UgZGljdGlvbmFyeSBga2V5cygpYCBtZXRob2QgYW5kIHNvcnQgd2l0aCBsaXN0IGBzb3J0KClgIG1ldGhvZCwgdGhlbiBzdGVwIHRocm91Z2ggcmVzdWx0IHdpdGggZm9yIGxvb3BcbiAgXG4gIFxuICBcbiAgICA6OjpweXRob25cbiAgICAmZ3Q7Jmd0OyZndDsgS3MgPSBsaXN0KEQua2V5cygpKVxuICAgICZndDsmZ3Q7Jmd0OyBLcy5zb3J0KClcbiAgICBbJmFwb3M7YSZhcG9zOywgJmFwb3M7YiZhcG9zOywgJmFwb3M7YyZhcG9zO11cbiAgICAmZ3Q7Jmd0OyZndDsgZm9yIGtleSBpbiBLczpcbiAgICAgICAgICAgIHByaW50KGtleSwgJmFwb3M7PSZndDsmYXBvczssIERba2V5XSkgIyAzLlggcHJpbnQsIGluIDIuWCByZW1vdmUgcGFyZW50aGVzZXNcbiAgXG4gICAgYSA9Jmd0OyAxXG4gICAgYiA9Jmd0OyAyXG4gICAgYyA9Jmd0OyAzXG4ifQ==---->", 
-                        "", 
+                        "<p>Use dictionary <code>keys()</code> method and sort with list <code>sort()</code> method, then step through result with for loop.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTYwMDAxNzQsICJpZCI6ICIxNDg4NzAwODk2NzAzLTAwMSIsICJtZCI6ICJVc2UgZGljdGlvbmFyeSBga2V5cygpYCBtZXRob2QgYW5kIHNvcnQgd2l0aCBsaXN0IGBzb3J0KClgIG1ldGhvZCwgdGhlbiBzdGVwIHRocm91Z2ggcmVzdWx0IHdpdGggZm9yIGxvb3AuXG4ifQ==---->", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">Ks</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #24909d\">list</span><span style=\"color: #d0d0d0\">(D.keys())</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">Ks.sort()</span>\n<span style=\"color: #d0d0d0\">[</span><span style=\"color: #ed9d13\">'a'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'b'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'c'</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #6ab825; font-weight: bold\">for</span> <span style=\"color: #d0d0d0\">key</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">Ks:</span>\n        <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(key,</span> <span style=\"color: #ed9d13\">'=&gt;'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #d0d0d0\">D[key])</span> <span style=\"color: #999999; font-style: italic\"># 3.X print, in 2.X remove parentheses</span>\n\n<span style=\"color: #d0d0d0\">a</span> <span style=\"color: #d0d0d0\">=&gt;</span> <span style=\"color: #3677a9\">1</span>\n<span style=\"color: #d0d0d0\">b</span> <span style=\"color: #d0d0d0\">=&gt;</span> <span style=\"color: #3677a9\">2</span>\n<span style=\"color: #d0d0d0\">c</span> <span style=\"color: #d0d0d0\">=&gt;</span> <span style=\"color: #3677a9\">3</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTYwMDAxNzAsICJpZCI6ICIxNDg4NzAwODk2NzAzLTAwMiIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IEtzID0gbGlzdChELmtleXMoKSlcbiAgICAmZ3Q7Jmd0OyZndDsgS3Muc29ydCgpXG4gICAgWyZhcG9zO2EmYXBvczssICZhcG9zO2ImYXBvczssICZhcG9zO2MmYXBvcztdXG4gICAgJmd0OyZndDsmZ3Q7IGZvciBrZXkgaW4gS3M6XG4gICAgICAgICAgICBwcmludChrZXksICZhcG9zOz0mZ3Q7JmFwb3M7LCBEW2tleV0pICMgMy5YIHByaW50LCBpbiAyLlggcmVtb3ZlIHBhcmVudGhlc2VzXG4gIFxuICAgIGEgPSZndDsgMVxuICAgIGIgPSZndDsgMlxuICAgIGMgPSZndDsgM1xuIn0=---->", 
                         "", 
                         "", 
                         "", 
@@ -23874,9 +24963,9 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "Python <b>Tuple</b>", 
-                        "<p>immutable sequence, usually coded with parentheses instead of square brackets, which is built by commas. Parentheses aren't needed where commas don't otherwise matter, such as:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">T</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'spam'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3.0</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">11</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">22</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">33</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">T[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #3677a9\">3.0</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUzNDczNjYsICJpZCI6ICIxNDg4NzAyNzA5NjA3LTAwMSIsICJtZCI6ICJpbW11dGFibGUgc2VxdWVuY2UsIHVzdWFsbHkgY29kZWQgd2l0aCBwYXJlbnRoZXNlcyBpbnN0ZWFkIG9mIHNxdWFyZSBicmFja2V0cywgd2hpY2ggaXMgYnVpbHQgYnkgY29tbWFzLiBQYXJlbnRoZXNlcyBhcmVuJmFwb3M7dCBuZWVkZWQgd2hlcmUgY29tbWFzIGRvbiZhcG9zO3Qgb3RoZXJ3aXNlIG1hdHRlciwgc3VjaCBhczpcbiAgXG4gIFxuICBcbiAgICA6OjpweXRob25cbiAgICAmZ3Q7Jmd0OyZndDsgVCA9ICZhcG9zO3NwYW0mYXBvczssIDMuMCwgWzExLCAyMiwgMzNdXG4gICAgJmd0OyZndDsmZ3Q7IFRbMV1cbiAgICAzLjBcbiAgXG4ifQ==---->", 
-                        "", 
+                        "<div>Python <b>Tuple</b></div>", 
+                        "<div>immutable sequence, usually coded with parentheses instead of square brackets, which is built by commas</div>", 
+                        "<p>Parentheses aren't needed where commas don't otherwise matter, such as:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">T</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'spam'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3.0</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">11</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">22</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">33</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">T[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #3677a9\">3.0</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTYwMDAwODIsICJpZCI6ICIxNDg4NzAyNzA5NjA3LTAwMiIsICJtZCI6ICJQYXJlbnRoZXNlcyBhcmVuJmFwb3M7dCBuZWVkZWQgd2hlcmUgY29tbWFzIGRvbiZhcG9zO3Qgb3RoZXJ3aXNlIG1hdHRlciwgc3VjaCBhczpcbiAgXG4gIFxuICBcbiAgICA6OjpweXRob25cbiAgICAmZ3Q7Jmd0OyZndDsgVCA9ICZhcG9zO3NwYW0mYXBvczssIDMuMCwgWzExLCAyMiwgMzNdXG4gICAgJmd0OyZndDsmZ3Q7IFRbMV1cbiAgICAzLjBcbiAgXG4ifQ==---->", 
                         "y", 
                         "", 
                         "", 
@@ -23998,11 +25087,8 @@
                 "bury": true, 
                 "delays": [
                     1, 
-                    2, 
-                    5, 
-                    25, 
-                    125, 
-                    625
+                    10, 
+                    100
                 ], 
                 "initialFactor": 2500, 
                 "ints": [
@@ -24037,7 +25123,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-            "css": "@import url(\"_dark.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\n\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar fontSize = Math.round( 400 / article.innerText.length * 100 );\nif (fontSize > 75) { fontSize = 75; }\nif (fontSize < 33) { fontSize = 33; }\nsetStyle('blockquote,details', 'fontSize', fontSize + '%');\n\n}\n</script><style>\n", 
+            "css": "@import url(\"_dark2.css\");\n\ncode i, i code, tt i, i tt, pre i, i pre, code em, em code, tt em, em tt, pre em, em pre { padding-left: 0.1em; padding-right: 0.35em; font-style: normal; }\n\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\n\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar fontSize = Math.round( 450 / article.innerText.length * 100 );\nif (fontSize > 75) { fontSize = 75; }\nif (fontSize < 33) { fontSize = 33; }\nsetStyle('blockquote,details', 'fontSize', fontSize + '%');\n\n}\n</script><style>\n", 
             "flds": [
                 {
                     "font": "Monaco", 
@@ -24240,7 +25326,9 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [], 
+            "tags": [
+                "bash"
+            ], 
             "tmpls": [
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section>\n<mark><code>{{command}}</code></mark>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>\n\n\n", 
@@ -24270,13 +25358,13 @@
                     "qfmt": "{{#description}}\n{{#long option}}\n<article data-deck=\"{{Deck}}\">\n\n<section>\n<code><em>{{command}}</em> </code><small><var class=\"q\">{{#short option}}long {{/short option}}option</var></small>\n{{#short option}}<br><small><em><code>&nbsp;</code></em></small>{{/short option}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/long option}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section>\n<code><em>\n{{command}}\n{{#short option}}<small>{{short option}}</small>{{/short option}}\n{{^short option}}{{#long option}}<small>{{long option}}</small>{{/long option}}{{/short option}}\n</em></code>\n<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</small>\n<mark><code>{{extra}}</code></mark>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section>\n<em>\n<code>{{command}}</code>\n{{#short option}}<code><small>{{short option}}</small></code>{{/short option}}\n{{^short option}}{{#long option}}<code><small>{{long option}}</small></code>{{/long option}}{{/short option}}\n</em>\n<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</small>\n<mark><code>{{extra}}</code></mark>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "desc extra", 
                     "ord": 3, 
-                    "qfmt": "{{#description}}\n{{#extra}}\n<article data-deck=\"{{Deck}}\">\n\n<section>\n<code><em>\n{{command}}\n{{#short option}}<small>{{short option}}</small>{{/short option}}\n{{^short option}}{{#long option}}<small>{{long option}}</small>{{/long option}}{{/short option}}\n</em></code>\n<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</small>\n<var class=\"q\">name</var>\n</section>\n\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/extra}}\n{{/description}}\n"
+                    "qfmt": "{{#description}}\n{{#extra}}\n<article data-deck=\"{{Deck}}\">\n\n<section>\n<em>\n<code>{{command}}</code>\n{{#short option}}<code><small>{{short option}}</small></code>{{/short option}}\n{{^short option}}{{#long option}}<code><small>{{long option}}</small></code>{{/long option}}{{/short option}}\n</em>\n<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</small>\n<var class=\"q\">name</var>\n</section>\n\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/extra}}\n{{/description}}\n"
                 }, 
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section>\n{{#command}}<mark><code>{{command}}</code></mark>{{/command}}\n<small>\n<code><mark>{{short option}}</mark></code>\n=\n</small>\n<cite><code>{{extra}}</code></cite>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
@@ -24285,7 +25373,7 @@
                     "did": null, 
                     "name": "- extra", 
                     "ord": 4, 
-                    "qfmt": "{{#extra}}\n{{#short option}}\n<article data-deck=\"{{Deck}}\">\n\n<section>\n{{#command}}<mark><code>{{command}}</code></mark>{{/command}}\n<small>\n<code><mark>{{short option}}</mark></code>\n=\n<var class=\"q\">{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</var>\n</small>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/short option}}\n{{/extra}}\n"
+                    "qfmt": "{{#extra}}\n{{#short option}}\n<article data-deck=\"{{Deck}}\">\n\n<section>\n{{#command}}<mark><code>{{command}}</code></mark>{{/command}}\n<small>\n<code><mark>{{short option}}</mark></code>\n=\n<var class=\"q\">{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</var>\n</small>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/short option}}\n{{/extra}}"
                 }, 
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section>\n{{#command}}<mark><code>{{command}}</code></mark>{{/command}}\n<small>\n<code><mark>{{long option}}</mark></code>\n=\n</small>\n<cite><code>{{extra}}</code></cite>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
@@ -24333,13 +25421,13 @@
                     "qfmt": "{{#description}}\n{{#long option}}\n<article data-deck=\"{{Deck}}\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{long option}}</mark></small></code>\n{{#short option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> </code><small><em><code>&nbsp;</code></em></small>{{/short option}}\n</section>\n\n<section>\n<blockquote><var class=\"q\">description</var></blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/long option}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section>\n<code><em>\n{{command}}\n{{#short option}}<small>{{short option}}</small>{{/short option}}\n{{^short option}}{{#long option}}<small>{{long option}}</small>{{/long option}}{{/short option}}\n</em></code>\n<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</small>\n<mark><code>{{extra}}</code></mark>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section>\n<em>\n<code>{{command}}</code>\n{{#short option}}<code><small>{{short option}}</small></code>{{/short option}}\n{{^short option}}{{#long option}}<code><small>{{long option}}</small></code>{{/long option}}{{/short option}}\n</em>\n<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</small>\n<mark><code>{{extra}}</code></mark>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "extra desc", 
                     "ord": 10, 
-                    "qfmt": "{{#description}}\n{{#extra}}\n<article data-deck=\"{{Deck}}\">\n\n<section>\n<code><em>\n{{command}}\n{{#short option}}<small>{{short option}}</small>{{/short option}}\n{{^short option}}{{#long option}}<small>{{long option}}</small>{{/long option}}{{/short option}}\n</em></code>\n<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</small>\n<mark><code>{{extra}}</code></mark>\n</section>\n\n<section>\n<blockquote><var class=\"q\">description</var></blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/extra}}\n{{/description}}\n"
+                    "qfmt": "{{#description}}\n{{#extra}}\n<article data-deck=\"{{Deck}}\">\n\n<section>\n<em>\n<code>{{command}}</code>\n{{#short option}}<code><small>{{short option}}</small></code>{{/short option}}\n{{^short option}}{{#long option}}<code><small>{{long option}}</small></code>{{/long option}}{{/short option}}\n</em>\n<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</small>\n<mark><code>{{extra}}</code></mark>\n</section>\n\n<section>\n<blockquote><var class=\"q\">description</var></blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/extra}}\n{{/description}}\n"
                 }, 
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section>\n<mark><code>{{extra}}</code></mark>\n<small>=</small>\n{{#command}}<cite><code>{{command}}</code></cite>{{/command}}\n<small><cite><code>{{short option}}</code></cite></small>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n  <details open=\"open\">\n    <summary>Examples</summary>\n    <pre><code>{{examples}}</code></pre>\n  </details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
@@ -24375,7 +25463,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\n\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar fontSize = Math.round( 400 / article.innerText.length * 100 );\nif (fontSize > 100) { fontSize = 100; }\nif (fontSize < 33) { fontSize = 33; }\nsetStyle('blockquote,details', 'fontSize', fontSize + '%');\n\n}\n</script><style>", 
+            "css": "@import url(\"_dark2.css\");\n\n\n.regexnest1, .regexplain, .regexspecial, .regexnest2, .regexnest3, .regexccopen, .regexccspecial, .regexccliteral, .regexescaped, .regexccrange, .regexcomment, .regexerr, .regexmeta, .replaceplain, .characterstring, .comment, .numericconstant, .reservedword {\n  font-family: Monaco, monospace;\n}\nmark code { color: #d75f00; /* brred */ }\n\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar fontSize = Math.round( 400 / article.innerText.length * 100 );\nif (fontSize > 100) { fontSize = 100; }\nif (fontSize < 33) { fontSize = 33; }\nsetStyle('blockquote,details', 'fontSize', fontSize + '%');\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n}\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -24461,10 +25549,12 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [], 
+            "tags": [
+                "regex"
+            ], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>{{Front}}</mark>{{#Alternate}}; <mark>{{Alternate}}</mark>{{/Alternate}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Example}}\n<section>\n<blockquote><var>{{Example}}</var></blockquote>\n</section>\n{{/Example}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>{{Front}}</mark>{{#Alternate}}; <mark>{{Alternate}}</mark>{{/Alternate}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Example}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Example}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical\">\n<summary>More</summary>\n{{Example}}\n</details>\n</section>\n{{/Example}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -24641,7 +25731,7 @@
             "data": "", 
             "fields": [
                 "Simulate cron env in script", 
-                "<div>Add to crontab:</div><div><br /></div><div>&nbsp; &nbsp; :::shell</div><div>&nbsp; &nbsp; * * * * * env &gt; ~/cronenv</div><div><br /></div><div>If adding to global `/etc/crontab`, need username too:</div><div><br /></div><div>&nbsp; &nbsp; :::shell</div><div>&nbsp; &nbsp; * * * * * root env &gt; ~/cronenv</div><div><br /></div><div>After it runs, do this:</div><div><br /></div><div>&nbsp; &nbsp; :::shell</div><div>&nbsp; &nbsp; env - `cat ~/cronenv` /bin/sh</div><div><br /></div><div><br /></div>", 
+                "<p>Add to crontab:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">* * * * * env &gt; ~/cronenv\n</pre></div>\n<p>If adding to global <code>/etc/crontab</code>, need username too:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">* * * * * root env &gt; ~/cronenv\n</pre></div>\n<p>After it runs, do this:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">env - <span style=\"color: #ed9d13\">`</span>cat ~/cronenv<span style=\"color: #ed9d13\">`</span> /bin/sh\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTU5NjE2MjQsICJpZCI6ICIxNDkwMDM5Mzc3NTU2LTAwMSIsICJtZCI6ICJBZGQgdG8gY3JvbnRhYjpcbiAgXG4gICAgOjo6c2hlbGxcbiAgICAqICogKiAqICogZW52ICZndDsgfi9jcm9uZW52XG4gIFxuSWYgYWRkaW5nIHRvIGdsb2JhbCBgL2V0Yy9jcm9udGFiYCwgbmVlZCB1c2VybmFtZSB0b286XG4gIFxuICAgIDo6OnNoZWxsXG4gICAgKiAqICogKiAqIHJvb3QgZW52ICZndDsgfi9jcm9uZW52XG4gIFxuQWZ0ZXIgaXQgcnVucywgZG8gdGhpczpcbiAgXG4gICAgOjo6c2hlbGxcbiAgICBlbnYgLSBgY2F0IH4vY3JvbmVudmAgL2Jpbi9zaFxuICBcbiAgXG4ifQ==---->", 
                 "", 
                 "y", 
                 "y", 
@@ -24815,7 +25905,7 @@
             "data": "", 
             "fields": [
                 "List all signals you can trap", 
-                "kill -l", 
+                "<code>kill -l</code>", 
                 "", 
                 "", 
                 "", 
@@ -24832,7 +25922,7 @@
             "data": "", 
             "fields": [
                 "lockfile without race condition", 
-                "<div>It’s worth pointing out that there is a slight race condition in the above lock example between the time we test for the lockfile and the time we create it. A possible solution to this is to use IO redirection and `bash`’s `noclobber` mode, which won’t redirect to an existing file. We can use something similar to:</div><div><br /></div><div><br /></div><div>&nbsp; &nbsp; :::bash</div><div>&nbsp; &nbsp; if ( set -o noclobber; echo \"$$\" &gt; \"$lockfile\") 2&gt; /dev/null; </div><div>&nbsp; &nbsp; then</div><div>&nbsp; &nbsp; &nbsp; &nbsp;trap 'rm -f \"$lockfile\"; exit $?' INT TERM EXIT</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp;critical-section</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp;rm -f \"$lockfile\"</div><div>&nbsp; &nbsp; &nbsp; &nbsp;trap - INT TERM EXIT</div><div>&nbsp; &nbsp; else</div><div>&nbsp; &nbsp; &nbsp; &nbsp;echo \"Failed to acquire lockfile: $lockfile.\" </div><div>&nbsp; &nbsp; &nbsp; &nbsp;echo \"Held by $(cat $lockfile)\"</div><div>&nbsp; &nbsp; fi</div>", 
+                "<p>It’s worth pointing out that there is a slight race condition in the above lock example between the time we test for the lockfile and the time we create it. A possible solution to this is to use IO redirection and <code>bash</code>’s <code>noclobber</code> mode, which won’t redirect to an existing file. We can use something similar to:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">if</span> <span style=\"color: #d0d0d0\">(</span> <span style=\"color: #24909d\">set</span> -o noclobber<span style=\"color: #d0d0d0\">;</span> <span style=\"color: #24909d\">echo</span> <span style=\"color: #ed9d13\">\"</span><span style=\"color: #40ffff\">$$</span><span style=\"color: #ed9d13\">\"</span> &gt; <span style=\"color: #ed9d13\">\"</span><span style=\"color: #40ffff\">$lockfile</span><span style=\"color: #ed9d13\">\"</span><span style=\"color: #d0d0d0\">)</span> 2&gt; /dev/null<span style=\"color: #d0d0d0\">;</span> \n<span style=\"color: #6ab825; font-weight: bold\">then</span>\n   <span style=\"color: #24909d\">trap</span> <span style=\"color: #ed9d13\">'rm -f \"$lockfile\"; exit $?'</span> INT TERM EXIT\n\n   critical-section\n\n   rm -f <span style=\"color: #ed9d13\">\"</span><span style=\"color: #40ffff\">$lockfile</span><span style=\"color: #ed9d13\">\"</span>\n   <span style=\"color: #24909d\">trap</span> - INT TERM EXIT\n<span style=\"color: #6ab825; font-weight: bold\">else</span>\n   <span style=\"color: #24909d\">echo</span> <span style=\"color: #ed9d13\">\"Failed to acquire lockfile: </span><span style=\"color: #40ffff\">$lockfile</span><span style=\"color: #ed9d13\">.\"</span> \n   <span style=\"color: #24909d\">echo</span> <span style=\"color: #ed9d13\">\"Held by </span><span style=\"color: #6ab825; font-weight: bold\">$(</span>cat <span style=\"color: #40ffff\">$lockfile</span><span style=\"color: #6ab825; font-weight: bold\">)</span><span style=\"color: #ed9d13\">\"</span>\n<span style=\"color: #6ab825; font-weight: bold\">fi</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTU5NjE2NTUsICJpZCI6ICIxNDkwNDcyOTQ4ODIyLTAwMSIsICJtZCI6ICJJdFx1MjAxOXMgd29ydGggcG9pbnRpbmcgb3V0IHRoYXQgdGhlcmUgaXMgYSBzbGlnaHQgcmFjZSBjb25kaXRpb24gaW4gdGhlIGFib3ZlIGxvY2sgZXhhbXBsZSBiZXR3ZWVuIHRoZSB0aW1lIHdlIHRlc3QgZm9yIHRoZSBsb2NrZmlsZSBhbmQgdGhlIHRpbWUgd2UgY3JlYXRlIGl0LiBBIHBvc3NpYmxlIHNvbHV0aW9uIHRvIHRoaXMgaXMgdG8gdXNlIElPIHJlZGlyZWN0aW9uIGFuZCBgYmFzaGBcdTIwMTlzIGBub2Nsb2JiZXJgIG1vZGUsIHdoaWNoIHdvblx1MjAxOXQgcmVkaXJlY3QgdG8gYW4gZXhpc3RpbmcgZmlsZS4gV2UgY2FuIHVzZSBzb21ldGhpbmcgc2ltaWxhciB0bzpcbiAgXG4gIFxuICAgIDo6OmJhc2hcbiAgICBpZiAoIHNldCAtbyBub2Nsb2JiZXI7IGVjaG8gJnF1b3Q7JCQmcXVvdDsgJmd0OyAmcXVvdDskbG9ja2ZpbGUmcXVvdDspIDImZ3Q7IC9kZXYvbnVsbDsgXG4gICAgdGhlblxuICAgICAgIHRyYXAgJmFwb3M7cm0gLWYgJnF1b3Q7JGxvY2tmaWxlJnF1b3Q7OyBleGl0ICQ/JmFwb3M7IElOVCBURVJNIEVYSVRcbiAgXG4gICAgICAgY3JpdGljYWwtc2VjdGlvblxuICBcbiAgICAgICBybSAtZiAmcXVvdDskbG9ja2ZpbGUmcXVvdDtcbiAgICAgICB0cmFwIC0gSU5UIFRFUk0gRVhJVFxuICAgIGVsc2VcbiAgICAgICBlY2hvICZxdW90O0ZhaWxlZCB0byBhY3F1aXJlIGxvY2tmaWxlOiAkbG9ja2ZpbGUuJnF1b3Q7IFxuICAgICAgIGVjaG8gJnF1b3Q7SGVsZCBieSAkKGNhdCAkbG9ja2ZpbGUpJnF1b3Q7XG4gICAgZmlcbiJ9---->", 
                 "", 
                 "", 
                 "", 
@@ -24842,9 +25932,7 @@
             "flags": 0, 
             "guid": "l~pK`|d7:/", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "marked"
-            ]
+            "tags": []
         }, 
         {
             "__type__": "Note", 
@@ -25234,7 +26322,7 @@
             "data": "", 
             "fields": [
                 "unset shell function", 
-                "<b>unset -f</b> my_function<div><b>unfunction</b> my_function (zsh)</div>", 
+                "<code>unset -f <i>my_function</i></code><br /><div><code>unfunction <i>my_function</i></code>&nbsp;(zsh)</div>", 
                 "", 
                 "", 
                 "", 
@@ -25244,9 +26332,7 @@
             "flags": 0, 
             "guid": "B.Xp)DM8&I", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "marked"
-            ]
+            "tags": []
         }, 
         {
             "__type__": "Note", 
@@ -25431,16 +26517,14 @@
                 "", 
                 "", 
                 "$$", 
-                "Expands to the process ID of the shell. In a `()` subshell, it expands to the process ID of the invoking shell, not the subshell.", 
+                "<p>Expands to the process ID of the shell. In a <code>()</code> subshell, it expands to the process ID of the invoking shell, not the subshell.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTU4NzI5NzYsICJpZCI6ICIxNDk1MjQ5Nzg3NjYxLTAwNiIsICJtZCI6ICJFeHBhbmRzIHRvIHRoZSBwcm9jZXNzIElEIG9mIHRoZSBzaGVsbC4gSW4gYSBgKClgIHN1YnNoZWxsLCBpdCBleHBhbmRzIHRvIHRoZSBwcm9jZXNzIElEIG9mIHRoZSBpbnZva2luZyBzaGVsbCwgbm90IHRoZSBzdWJzaGVsbC5cbiJ9---->", 
                 "", 
                 ""
             ], 
             "flags": 0, 
             "guid": "Eh?/s0},d{", 
             "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-            "tags": [
-                "marked"
-            ]
+            "tags": []
         }, 
         {
             "__type__": "Note", 
@@ -25503,13 +26587,13 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "bash positional parameter ${N}", 
+                "bash positional parameter ${<i>N</i>}", 
                 "bash", 
                 "positional parameter", 
                 "", 
                 "", 
                 "${N}", 
-                "<p>A <em>positional parameter</em> is a parameter denoted by one or more digits, other than the single digit <code>0</code>. Positional parameters are assigned from the shell’s arguments when it is invoked, and may be reassigned using the <code>set</code> builtin command. Positional parameter <code>N</code> may be referenced as <code>${N}</code>, or as <code>$N</code> when <code>N</code> consists of a single digit. Positional parameters may not be assigned to with assignment statements. The <code>set</code> and <code>shift</code> builtins are used to set and unset them (see <a href=\"Shell-Builtin-Commands.html#Shell-Builtin-Commands\">Shell Builtin Commands</a>). The positional parameters are temporarily replaced when a shell function is executed (see <a href=\"Shell-Functions.html#Shell-Functions\">Shell Functions</a>). <br />\nWhen a positional parameter consisting of more than a single digit is expanded, it must be enclosed in braces. </p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUyNTAxODgsICJpZCI6ICIxNDk1MjUwMDUxNTAxLTAwNiIsICJtZCI6ICJBIF9wb3NpdGlvbmFsIHBhcmFtZXRlcl8gaXMgYSBwYXJhbWV0ZXIgZGVub3RlZCBieSBvbmUgb3IgbW9yZSBkaWdpdHMsIG90aGVyIHRoYW4gdGhlIHNpbmdsZSBkaWdpdCBgMGAuIFBvc2l0aW9uYWwgcGFyYW1ldGVycyBhcmUgYXNzaWduZWQgZnJvbSB0aGUgc2hlbGxcdTIwMTlzIGFyZ3VtZW50cyB3aGVuIGl0IGlzIGludm9rZWQsIGFuZCBtYXkgYmUgcmVhc3NpZ25lZCB1c2luZyB0aGUgYHNldGAgYnVpbHRpbiBjb21tYW5kLiBQb3NpdGlvbmFsIHBhcmFtZXRlciBgTmAgbWF5IGJlIHJlZmVyZW5jZWQgYXMgYCR7Tn1gLCBvciBhcyBgJE5gIHdoZW4gYE5gIGNvbnNpc3RzIG9mIGEgc2luZ2xlIGRpZ2l0LiBQb3NpdGlvbmFsIHBhcmFtZXRlcnMgbWF5IG5vdCBiZSBhc3NpZ25lZCB0byB3aXRoIGFzc2lnbm1lbnQgc3RhdGVtZW50cy4gVGhlIGBzZXRgIGFuZCBgc2hpZnRgIGJ1aWx0aW5zIGFyZSB1c2VkIHRvIHNldCBhbmQgdW5zZXQgdGhlbSAoc2VlIFtTaGVsbCBCdWlsdGluIENvbW1hbmRzXShTaGVsbC1CdWlsdGluLUNvbW1hbmRzLmh0bWwjU2hlbGwtQnVpbHRpbi1Db21tYW5kcykpLiBUaGUgcG9zaXRpb25hbCBwYXJhbWV0ZXJzIGFyZSB0ZW1wb3JhcmlseSByZXBsYWNlZCB3aGVuIGEgc2hlbGwgZnVuY3Rpb24gaXMgZXhlY3V0ZWQgKHNlZSBbU2hlbGwgRnVuY3Rpb25zXShTaGVsbC1GdW5jdGlvbnMuaHRtbCNTaGVsbC1GdW5jdGlvbnMpKS4gXG5XaGVuIGEgcG9zaXRpb25hbCBwYXJhbWV0ZXIgY29uc2lzdGluZyBvZiBtb3JlIHRoYW4gYSBzaW5nbGUgZGlnaXQgaXMgZXhwYW5kZWQsIGl0IG11c3QgYmUgZW5jbG9zZWQgaW4gYnJhY2VzLiBcbiJ9---->", 
+                "<p>A <em>positional parameter</em> is a parameter denoted by one or more digits, other than the single digit <code>0</code>. Positional parameters are assigned from the shell’s arguments when it is invoked, and may be reassigned using the <code>set</code> builtin command. Positional parameter <code><i>N</i></code> may be referenced as <code>${<i>N</i>}</code>, or as <code>$<i>N</i></code> when <code><i>N</i></code> consists of a single digit. Positional parameters may not be assigned to with assignment statements. The <code>set</code> and <code>shift</code> builtins are used to set and unset them. The positional parameters are temporarily replaced when a shell function is executed. <br />\nWhen a positional parameter consisting of more than a single digit is expanded, it must be enclosed in braces. </p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUyNTAxODgsICJpZCI6ICIxNDk1MjUwMDUxNTAxLTAwNiIsICJtZCI6ICJBIF9wb3NpdGlvbmFsIHBhcmFtZXRlcl8gaXMgYSBwYXJhbWV0ZXIgZGVub3RlZCBieSBvbmUgb3IgbW9yZSBkaWdpdHMsIG90aGVyIHRoYW4gdGhlIHNpbmdsZSBkaWdpdCBgMGAuIFBvc2l0aW9uYWwgcGFyYW1ldGVycyBhcmUgYXNzaWduZWQgZnJvbSB0aGUgc2hlbGxcdTIwMTlzIGFyZ3VtZW50cyB3aGVuIGl0IGlzIGludm9rZWQsIGFuZCBtYXkgYmUgcmVhc3NpZ25lZCB1c2luZyB0aGUgYHNldGAgYnVpbHRpbiBjb21tYW5kLiBQb3NpdGlvbmFsIHBhcmFtZXRlciBgTmAgbWF5IGJlIHJlZmVyZW5jZWQgYXMgYCR7Tn1gLCBvciBhcyBgJE5gIHdoZW4gYE5gIGNvbnNpc3RzIG9mIGEgc2luZ2xlIGRpZ2l0LiBQb3NpdGlvbmFsIHBhcmFtZXRlcnMgbWF5IG5vdCBiZSBhc3NpZ25lZCB0byB3aXRoIGFzc2lnbm1lbnQgc3RhdGVtZW50cy4gVGhlIGBzZXRgIGFuZCBgc2hpZnRgIGJ1aWx0aW5zIGFyZSB1c2VkIHRvIHNldCBhbmQgdW5zZXQgdGhlbSAoc2VlIFtTaGVsbCBCdWlsdGluIENvbW1hbmRzXShTaGVsbC1CdWlsdGluLUNvbW1hbmRzLmh0bWwjU2hlbGwtQnVpbHRpbi1Db21tYW5kcykpLiBUaGUgcG9zaXRpb25hbCBwYXJhbWV0ZXJzIGFyZSB0ZW1wb3JhcmlseSByZXBsYWNlZCB3aGVuIGEgc2hlbGwgZnVuY3Rpb24gaXMgZXhlY3V0ZWQgKHNlZSBbU2hlbGwgRnVuY3Rpb25zXShTaGVsbC1GdW5jdGlvbnMuaHRtbCNTaGVsbC1GdW5jdGlvbnMpKS4gXG5XaGVuIGEgcG9zaXRpb25hbCBwYXJhbWV0ZXIgY29uc2lzdGluZyBvZiBtb3JlIHRoYW4gYSBzaW5nbGUgZGlnaXQgaXMgZXhwYW5kZWQsIGl0IG11c3QgYmUgZW5jbG9zZWQgaW4gYnJhY2VzLiBcbiJ9---->", 
                 "", 
                 ""
             ], 
