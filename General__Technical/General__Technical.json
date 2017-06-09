@@ -591,7 +591,7 @@
                         "-Z", 
                         "--null", 
                         "", 
-                        "Output a zero byte (the ASCII <code>NUL</code> character) instead of the character that normally follows a file name. For example, <code><strike>grep -lZ</strike></code> outputs a zero byte after each file name instead of the usual newline. This option makes the output unambiguous, even in the presence of file names containing unusual characters like newlines. This option can be used with commands like <code>find -print0, perl -0, sort -z</code>, and <code>xargs -0</code> to process arbitrary file names, even those that contain newline characters.", 
+                        "Output a zero byte (the ASCII <code>NUL</code> character) instead of the character that normally follows a file name. For example, <code><strike>grep -lZ</strike></code> outputs a zero byte after each file name instead of the usual newline. This option makes the output unambiguous, even in the presence of file names containing unusual characters like newlines. This option can be used with friends like <code>find -print0, perl -0, sort -z</code>, and <code>xargs -0</code> to process arbitrary file names, even those that contain newline characters.", 
                         "", 
                         ""
                     ], 
@@ -1305,7 +1305,7 @@
                         "", 
                         "--append", 
                         "", 
-                        "append data onto shorter files", 
+                        "append data onto shorter files<div><br /></div><div>This causes rsync to update a file by appending data onto the end of the\n file, which presumes that the data that already exists on the receiving\n side is\nidentical with the start of the file on the sending side. If a file \nneeds to be transferred and its size on the receiver is the same or \nlonger than the size on\nthe sender, the file is skipped. This does not interfere with the \nupdating of a file's non-content attributes (e.g. permissions, \nownership, etc.) when the file\ndoes not need to be transferred, nor does it affect the updating of any \nnon-regular files. Implies <code>--inplace</code>, but does not conflict with <code>--sparse</code>\n(since it is always extending a file's length).</div>", 
                         "", 
                         ""
                     ], 
@@ -1327,7 +1327,7 @@
                         "", 
                         "--append-verify", 
                         "", 
-                        "<code>--append</code> w/old data in file checksum", 
+                        "<code><strike>--append</strike></code> w/old data in file checksum<div><br /></div><div>This works just like the <code><strike>--append</strike></code> option, but the existing data on the receiving side is included in the full-file checksum verification step, which will cause a file to be resent if the final verification step fails (<code>rsync</code> uses a normal, non-<strike>appending</strike> <code>--inplace</code> transfer for the resend).\nNote: prior to <code>rsync</code> <b>3.0.0</b>, the <code><strike>--append</strike></code> option worked like\n<code><strike>--append-verify</strike></code>, so if you are interacting with an older <code>rsync</code> (or the transfer is using a protocol prior to<b> 30</b>), specifying either append option will initiate an <code><strike>--append-verify</strike></code> transfer. </div>", 
                         "", 
                         ""
                     ], 
@@ -3097,7 +3097,7 @@
                         "-0", 
                         "--from0", 
                         "", 
-                        "all *from/filter files are delimited by 0s<div><br /></div><div>This tells rsync that the rules/filenames it reads from a file are \nterminated by a null (<code>\\0</code>) character, not a NL, CR, or CR+LF. This \naffects\n<code>--exclude-from</code>, <code>--include-from</code>, <code>--files-from</code>, and any merged files specified in a <code>--filter</code> rule. It does not affect\n<code>--cvs-exclude</code> (since all names read from a <code>.cvsignore</code> file are split on whitespace).&nbsp;</div>", 
+                        "all *from/filter files are delimited by <code>\\0</code>s<div><br /></div><div>This tells rsync that the rules/filenames it reads from a file are \nterminated by a null (<code>\\0</code>) character, not a NL, CR, or CR+LF. This \naffects\n<code>--exclude-from</code>, <code>--include-from</code>, <code>--files-from</code>, and any merged files specified in a <code>--filter</code> rule. It does not affect\n<code>--cvs-exclude</code> (since all names read from a <code>.cvsignore</code> file are split on whitespace).&nbsp;</div>", 
                         "", 
                         ""
                     ], 
@@ -3126,6 +3126,7 @@
                     "guid": "K6%+P:jH.", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
+                        "marked", 
                         "rsync"
                     ]
                 }, 
@@ -3494,9 +3495,9 @@
                         "rsync", 
                         "", 
                         "", 
-                        "--bwlimit=RATE", 
+                        "--bwlimit=<i>KBPS</i>", 
                         "", 
-                        "limit socket I/O bandwidth", 
+                        "limit socket I/O bandwidth<div><br /></div><div>This option allows you to specify a maximum transfer rate in kilobytes per second. This option is most effective when using <code>rsync</code> with large files (several megabytes and up). Due to the nature of <code>rsync</code> transfers, blocks of data are sent, then if <code>rsync</code> determines the transfer was too fast, it will wait before sending the next data block. The result is an average transfer rate equaling the specified limit. A value of zero specifies no limit.</div>", 
                         "", 
                         ""
                     ], 
@@ -3706,8 +3707,8 @@
                         "@<u>archive</u>", 
                         "", 
                         "", 
-                        "(<code>c</code> and <code>r</code> mode only) The specified archive is opened and the entries in it will be appended to the current archive. As a simple example, <code>tar -c -f <u>-</u> <u>newfile</u> @<u>original.tar</u></code> writes a new archive to standard output containing a file <u>newfile</u> and all of the entries from <u>original.tar</u>. In contrast, <code>tar -c -f <u>-</u> <u>newfile</u> <u>original.tar</u></code> creates a new archive with only two entries. Similarly, <code>tar -czf <u>-</u> <b>--format</code> pax @<u>-</u></b> reads an archive from standard input (whose format will be determined automatically) and converts it into a gzip-compressed pax-format archive on stdout. In this way, <code>tar</code> can be used to convert archives from one format to another.", 
-                        "", 
+                        "<b><code>c</code>/<code>r</code> mode:</b> <code><u>archive</u></code> is opened and the entries in it will be appended to the current archive", 
+                        "As a simple example,&nbsp;<code>tar -c -f&nbsp;<u>-</u>&nbsp;<u>newfile</u>&nbsp;@<u>original.tar</u></code>&nbsp;writes a new archive to standard output containing a file&nbsp;<u>newfile</u>&nbsp;and all of the entries from&nbsp;<u>original.tar</u>. In contrast,&nbsp;<code>tar -c -f&nbsp;<u>-</u>&nbsp;<u>newfile</u>&nbsp;<u>original.tar</u></code>&nbsp;creates a new archive with only two entries. Similarly,&nbsp;<code>tar -czf&nbsp;<u>-</u>&nbsp;</code><code>--format pax @-</code>&nbsp;reads an archive from standard input (whose format will be determined automatically) and converts it into a&nbsp;<code>gzip</code>-compressed&nbsp;<code>pax</code>-format archive on&nbsp;<i>stdout</i>. In this way,&nbsp;<code>tar</code>&nbsp;can be used to convert archives from one format to another.", 
                         ""
                     ], 
                     "flags": 0, 
@@ -3748,7 +3749,7 @@
                         "-C <u>directory</u>", 
                         "", 
                         "", 
-                        "In <code>c</code> and <code>r</code> mode, this changes the directory before adding the following files. In <code>x</code> mode, change directories after opening the archive but before extracting entries from the archive.", 
+                        "<b><code>c</code>/<code>r</code>&nbsp;mode:</b>&nbsp;change directory before adding following files<br /><div><b><code>x</code> mode:</b>&nbsp;change directory after opening archive but before extracting entries from archive</div>", 
                         "", 
                         ""
                     ], 
@@ -3766,10 +3767,10 @@
                         "tar --check-links", 
                         "tar", 
                         "", 
-                        "", 
+                        "-l", 
                         "--check-links", 
                         "", 
-                        "(<code>c</code> and <code>r</code> modes only) Issue a warning message unless all links to each file are archived.", 
+                        "<b><code>c</code>/<code>r</code>&nbsp;mode:</b>&nbsp;Issue a warning message unless all links to each file are archived.", 
                         "", 
                         ""
                     ], 
@@ -3790,7 +3791,7 @@
                         "", 
                         "--chroot", 
                         "", 
-                        "(<code>x</code> mode only) <code>chroot</code>() to the current directory after processing any <code>-C</code> options and before extracting any files.", 
+                        "<b>x&nbsp;mode:</b>&nbsp;<code>chroot</code>() to the current directory after processing any <code>-C</code> options and before extracting any files.", 
                         "", 
                         ""
                     ], 
@@ -3832,7 +3833,7 @@
                         "", 
                         "--format <u>format</u>", 
                         "", 
-                        "(<code>c</code>, <code>r</code>, and <code>u</code> mode only) Use the specified format for the created archive. Supported formats include <code>cpio</code>, <code>pax</code>, <code>shar</code>, and <code>ustar</code>. Other formats may also be supported; see <code>libarchive-formats</code>(5) for more information about currently supported formats. In <code>r</code> and <code>u</code> modes, when extending an existing archive, the format specified here must be compatible with the format of the existing archive on disk.", 
+                        "<b><code>c</code>/<code>r</code>/<code>u</code>&nbsp;mode:</b>&nbsp;Use the specified format for the created archive. Supported formats include <code>cpio</code>, <code>pax</code>, <code>shar</code>, and <code>ustar</code>. Other formats may also be supported; see <code>libarchive-formats</code>(5) for more information about currently supported formats. In <code>r</code> and <code>u</code> modes, when extending an existing archive, the format specified here must be compatible with the format of the existing archive on disk.", 
                         "", 
                         ""
                     ], 
@@ -3874,54 +3875,12 @@
                         "-H", 
                         "", 
                         "", 
-                        "(<code>c</code> and <code>r</code> mode only) Symbolic links named on the command line will be followed; the <code>tar</code>get of the link will be archived, not the link itself.", 
+                        "<b><code>c</code>/<code>r</code> mode:</b> Symbolic links named on the command line will be followed; the target of the link will be archived, not the link itself.", 
                         "", 
                         ""
                     ], 
                     "flags": 0, 
                     "guid": "PBy+]Yom9y", 
-                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-                    "tags": [
-                        "tar"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
-                        "tar -h", 
-                        "tar", 
-                        "", 
-                        "-h", 
-                        "", 
-                        "", 
-                        "(<code>c</code> and <code>r</code> mode only) Synonym for <code>-L.</code>", 
-                        "", 
-                        ""
-                    ], 
-                    "flags": 0, 
-                    "guid": "n^Pq;_+aF#", 
-                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-                    "tags": [
-                        "tar"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
-                        "tar -I", 
-                        "tar", 
-                        "", 
-                        "-I", 
-                        "", 
-                        "", 
-                        "Synonym for <code>-T.</code>", 
-                        "", 
-                        ""
-                    ], 
-                    "flags": 0, 
-                    "guid": "CQ(AZH%Sk<", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
                         "tar"
@@ -3958,7 +3917,7 @@
                         "-j", 
                         "", 
                         "", 
-                        "(<code>c</code> mode only) Compress the resulting archive with <code>bzip2</code>(1). In extract or list modes, this option is ignored. Note that, unlike other <code>tar</code> implementations, this implementation recognizes bzip2 compression automatically when reading archives.", 
+                        "<b><code>c</code>&nbsp;mode:</b>&nbsp;Compress the resulting archive with <code>bzip2</code>. In extract or list modes, this option is ignored. Note that, unlike other <code>tar</code> implementations, this implementation recognizes <code>bzip2</code> compression automatically when reading archives.", 
                         "", 
                         ""
                     ], 
@@ -3979,7 +3938,7 @@
                         "-k", 
                         "", 
                         "", 
-                        "(<code>x</code> mode only) Do not overwrite existing files. In particular, if a file appears more than once in an archive, later copies will not overwrite earlier copies.", 
+                        "<b><code>x</code>&nbsp;mode:</b>&nbsp;Do not overwrite existing files. In particular, if a file appears more than once in an archive, later copies will not overwrite earlier copies.", 
                         "", 
                         ""
                     ], 
@@ -4000,7 +3959,7 @@
                         "", 
                         "--keep-newer-files", 
                         "", 
-                        "(<code>x</code> mode only) Do not overwrite existing files that are newer than the versions appearing in the archive being extracted.", 
+                        "<b><code>x</code>&nbsp;mode:</b>&nbsp;Do not overwrite existing files that are newer than the versions appearing in the archive being extracted.", 
                         "", 
                         ""
                     ], 
@@ -4017,37 +3976,16 @@
                     "fields": [
                         "tar -L", 
                         "tar", 
-                        "", 
+                        "synonym", 
                         "-L", 
                         "", 
-                        "", 
-                        "(<code>c</code> and <code>r</code> mode only) All symbolic links will be followed. Normally, symbolic links are archived as such. With this option, the <code>tar</code>get of the link will be archived instead.", 
+                        "tar -h", 
+                        "<b><code>c</code>/<code>r</code>&nbsp;mode:</b>&nbsp;All symbolic links will be followed. Normally, symbolic links are archived as such. With this option, the target of the link will be archived instead.", 
                         "", 
                         ""
                     ], 
                     "flags": 0, 
                     "guid": "wH]$WgxV!G", 
-                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-                    "tags": [
-                        "tar"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
-                        "tar -l", 
-                        "tar", 
-                        "", 
-                        "-l", 
-                        "", 
-                        "", 
-                        "This is a synonym for the <code>--check-links</code> option.", 
-                        "", 
-                        ""
-                    ], 
-                    "flags": 0, 
-                    "guid": "jXHsIz[Ex1", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
                         "tar"
@@ -4063,7 +4001,7 @@
                         "-m", 
                         "", 
                         "", 
-                        "(<code>x</code> mode only) Do not extract modification time. By default, the modification time is set to the time stored in the archive.", 
+                        "<b><code>x</code>&nbsp;mode:</b>&nbsp;Do not extract modification time. By default, the modification time is set to the time stored in the archive.", 
                         "", 
                         ""
                     ], 
@@ -4084,7 +4022,7 @@
                         "-n", 
                         "", 
                         "", 
-                        "(<code>c</code>, <code>r</code>, and <code>u</code> modes only) Do not recursively archive the contents of directories.", 
+                        "<b><code>c</code>/<code>r</code>/<code>u</code>&nbsp;mode:</b>&nbsp;Do not recursively archive the contents of directories.", 
                         "", 
                         ""
                     ], 
@@ -4105,7 +4043,7 @@
                         "", 
                         "--newer <u>date</u>", 
                         "", 
-                        "(<code>c</code>, <code>r</code>, and <code>u</code> modes only) Only include files and directories newer than the specified date. This compares ctime entries.", 
+                        "<b><code>c</code>/<code>r</code>/<code>u</code>&nbsp;mode:</b>&nbsp;Only include files and directories newer than the specified date. This compares <i>ctime</i> entries.", 
                         "", 
                         ""
                     ], 
@@ -4126,7 +4064,7 @@
                         "", 
                         "--newer-mtime <u>date</u>", 
                         "", 
-                        "(<code>c</code>, <code>r</code>, and <code>u</code> modes only) Like <code>--newer</code>, except it compares mtime entries instead of ctime entries.", 
+                        "<b><code>c</code>/<code>r</code>/<code>u</code>&nbsp;mode:</b>&nbsp;Like <code>--newer</code>, except it compares <i>mtime</i> entries instead of <i>ctime</i> entries.", 
                         "", 
                         ""
                     ], 
@@ -4147,7 +4085,7 @@
                         "", 
                         "--newer-than <u>file</u>", 
                         "", 
-                        "(<code>c</code>, <code>r</code>, and <code>u</code> modes only) Only include files and directories newer than the specified file. This compares ctime entries.", 
+                        "<b><code>c</code>/<code>r</code>/<code>u</code>&nbsp;mode:</b>&nbsp;Only include files and directories newer than the specified file. This compares <i>ctime</i> entries.", 
                         "", 
                         ""
                     ], 
@@ -4189,7 +4127,7 @@
                         "", 
                         "--nodump", 
                         "", 
-                        "(<code>c</code> and <code>r</code> modes only) Honor the nodump file flag by skipping this file.", 
+                        "<b><code>c</code>/<code>r</code>&nbsp;mode:</b>&nbsp;Honor the <i>nodump</i> file flag by skipping this file.", 
                         "", 
                         ""
                     ], 
@@ -4210,7 +4148,7 @@
                         "", 
                         "--null", 
                         "", 
-                        "(use with <code>-I</code>, <code>-T</code>, or <code>-X</code>) Filenames or patterns are separated by null characters, not by newlines. This is often used to read filenames output by the <code>-print0</code> option to <code>find</code>(1).", 
+                        "<p>(use with <code>-I</code>, <code>-T</code>, or <code>-X</code>) Filenames or patterns are separated by null characters, not by newlines. This is often used to read filenames output by the <code>-print0</code> option to <code>find</code>.</p>\n<p>The <code>--null</code> option causes <code>--files-from=<b>file-of-names</b></code> (<code>-T <b>file-of-names</b></code>) to read file names terminated by a NUL instead of a newline, so files whose names contain newlines can be archived using <code>--files-from</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTcwMzk3MTgsICJpZCI6ICIxNDk0Mzk1MDAwMzgwLTAwNiIsICJtZCI6ICIodXNlIHdpdGggYC1JYCwgYC1UYCwgb3IgYC1YYCkgRmlsZW5hbWVzIG9yIHBhdHRlcm5zIGFyZSBzZXBhcmF0ZWQgYnkgbnVsbCBjaGFyYWN0ZXJzLCBub3QgYnkgbmV3bGluZXMuIFRoaXMgaXMgb2Z0ZW4gdXNlZCB0byByZWFkIGZpbGVuYW1lcyBvdXRwdXQgYnkgdGhlIGAtcHJpbnQwYCBvcHRpb24gdG8gYGZpbmRgLlxuICBcblRoZSBgLS1udWxsYCBvcHRpb24gY2F1c2VzIGAtLWZpbGVzLWZyb209ZmlsZS1vZi1uYW1lc2AgKGAtVCBmaWxlLW9mLW5hbWVzYCkgdG8gcmVhZCBmaWxlIG5hbWVzIHRlcm1pbmF0ZWQgYnkgYSBOVUwgaW5zdGVhZCBvZiBhIG5ld2xpbmUsIHNvIGZpbGVzIHdob3NlIG5hbWVzIGNvbnRhaW4gbmV3bGluZXMgY2FuIGJlIGFyY2hpdmVkIHVzaW5nIGAtLWZpbGVzLWZyb21gLlxuIn0=---->", 
                         "", 
                         ""
                     ], 
@@ -4231,7 +4169,7 @@
                         "", 
                         "--numeric-owner", 
                         "", 
-                        "(<code>x</code> mode only) Ignore symbolic user and group names when restoring archives to disk, only numeric uid and gid values will be obeyed.", 
+                        "<b><code>x</code>&nbsp;mode:</b>&nbsp;Ignore symbolic user and group names when restoring archives to disk, only numeric <i>uid</i> and<i> gid</i> values will be obeyed.", 
                         "", 
                         ""
                     ], 
@@ -4252,7 +4190,7 @@
                         "-O", 
                         "", 
                         "", 
-                        "(<code>x</code>, <code>t</code> modes only) In extract (<code>-x</code>) mode, files will be written to standard out rather than being extracted to disk. In list (<code>-t</code>) mode, the file listing will be written to stderr rather than the usual stdout.", 
+                        "<b><code>x</code>&nbsp;mode:</b> write files to&nbsp;<i>stdout</i>&nbsp;rather than to disk<div><b><code>t</code>&nbsp;mode:</b> write file listing to <i>stderr</i> rather than to&nbsp;<i>stdout</i></div>", 
                         "", 
                         ""
                     ], 
@@ -4273,7 +4211,7 @@
                         "-o", 
                         "", 
                         "", 
-                        "(<code>x</code> mode) Use the user and group of the user running the program rather than those specified in the archive. Note that this has no significance unless <code>-p</code> is specified, and the program is being run by the root user. In this case, the file modes and flags from the archive will be restored, but ACLs or owner information in the archive will be discarded.", 
+                        "<b><code>x</code> mode:</b> Use the user and group of the user running the program rather than those specified in the archive. Note that this has no significance unless <code>-p</code> is specified, and the program is being run by the root user. In this case, the file modes and flags from the archive will be restored, but ACLs or owner information in the archive will be discarded.", 
                         "", 
                         ""
                     ], 
@@ -4294,7 +4232,7 @@
                         "", 
                         "--one-file-system", 
                         "", 
-                        "(<code>c</code>, <code>r</code>, and <code>u</code> modes) Do not cross mount points.", 
+                        "<b><code>c</code>/<code>r</code>/<code>u</code>&nbsp;mode:</b>&nbsp;Do not cross mount points.", 
                         "", 
                         ""
                     ], 
@@ -4315,8 +4253,8 @@
                         "", 
                         "--options options", 
                         "", 
-                        "<div>Select optional behaviors for particular modules. The argument is a text string containing comma-separated keywords and values. These are passed to the modules that handle particular formats to control how those formats will behave. Each option has one of the following forms:</div><div><ul><li><code>key=value</code><br />The key will be set to the specified value in every module that supports it. Modules that do not support this key will ignore it.</li><li><code>key</code><br />The key will be enabled in every module that supports it. This is equivalent to <code>key=1</code>.</li><li><code>!key</code><br />The key will be disabled in every module that supports it.</li><li><code>module:key=value</code>, <code>module:key</code>, <code>module:!key</code><br />As above, but the corresponding key and value will be provided only to modules whose name matches module.</li></ul></div><div>The currently supported modules and keys are:</div><div><ul><li><code>iso9660:joliet</code><br />Support Joliet extensions. This is enabled by default, use <code>!joliet</code> or <code>iso9660:!joliet</code> to disable.</li><li><code>iso9660:rockridge</code><br />Support Rock Ridge extensions. This is enabled by default, use <code>!rockridge</code> or <code>iso9660:!rockridge</code> to disable.</li><li><code>gzip:compression-level</code><br />A decimal integer from 0 to 9 specifying the <code>gzip</code> compression level.</li><li><code>xz:compression-level</code><br />A decimal integer from 0 to 9 specifying the <code>xz</code> compression level.</li><li><code>mtree:keyword</code><br />The <code>mtree</code> writer module allows you to specify which mtree keywords will be included in the output. Supported keywords include: <code>cksum</code>, <code>device</code>, <code>flags</code>, <code>gid</code>, <code>gname</code>, <code>indent</code>, <code>link</code>, <code>md5</code>, <code>mode</code>, <code>nlink</code>, <code>rmd160</code>, <code>sha1</code>, <code>sha256</code>, <code>sha384</code>, <code>sha512</code>, <code>size</code>, <code>time</code>, <code>uid</code>, <code>uname</code>. The default is equivalent to: <code>device</code>, <code>flags</code>, <code>gid</code>, <code>gname</code>, <code>link</code>, <code>mode</code>, <code>nlink</code>, <code>size</code>, <code>time</code>, <code>type</code>, <code>uid</code>, <code>uname</code>.</li><li><code>mtree:all</code><br />Enables all of the above keywords. You can also use <code>mtree:!all</code> to disable all keywords.</li><li><code>mtree:use-set</code><br />Enable generation of <code>/set</code> lines in the output.</li><li><code>mtree:indent</code><br />Produce human-readable output by indenting options and splitting lines to fit into 80 columns.</li><li><code>zip:compression=type</code><br />Use type as compression method. Supported values are store (uncompressed) and deflate (<code>gzip</code> algorithm).</li></ul></div><div>If a provided option is not supported by any module, that is a fatal error.</div>", 
-                        "", 
+                        "<div>Select optional behaviors for particular modules. The argument is a text string containing comma-separated keywords and values. These are passed to the modules that handle particular formats to control how those formats will behave. Each option has one of the following forms:</div><div><ul><li><code>key=value</code><br />The key will be set to the specified value in every module that supports it. Modules that do not support this key will ignore it.</li><li><code>key</code><br />The key will be enabled in every module that supports it. This is equivalent to <code>key=1</code>.</li><li><code>!key</code><br />The key will be disabled in every module that supports it.</li><li><code>module:key=value</code>, <code>module:key</code>, <code>module:!key</code><br />As above, but the corresponding key and value will be provided only to modules whose name matches module.</li></ul></div>", 
+                        "<div>The currently supported modules and keys are:</div><div><ul><li><code>iso9660:joliet</code><br />Support Joliet extensions. This is enabled by default, use&nbsp;<code>!joliet</code>&nbsp;or&nbsp;<code>iso9660:!joliet</code>&nbsp;to disable.</li><li><code>iso9660:rockridge</code><br />Support Rock Ridge extensions. This is enabled by default, use&nbsp;<code>!rockridge</code>&nbsp;or&nbsp;<code>iso9660:!rockridge</code>&nbsp;to disable.</li><li><code>gzip:compression-level</code><br />A decimal integer from 0 to 9 specifying the&nbsp;<code>gzip</code>&nbsp;compression level.</li><li><code>xz:compression-level</code><br />A decimal integer from 0 to 9 specifying the&nbsp;<code>xz</code>&nbsp;compression level.</li><li><code>mtree:keyword</code><br />The&nbsp;<code>mtree</code>&nbsp;writer module allows you to specify which mtree keywords will be included in the output. Supported keywords include:&nbsp;<code>cksum</code>,&nbsp;<code>device</code>,&nbsp;<code>flags</code>,&nbsp;<code>gid</code>,&nbsp;<code>gname</code>,&nbsp;<code>indent</code>,&nbsp;<code>link</code>,&nbsp;<code>md5</code>,&nbsp;<code>mode</code>,&nbsp;<code>nlink</code>,&nbsp;<code>rmd160</code>,&nbsp;<code>sha1</code>,&nbsp;<code>sha256</code>,&nbsp;<code>sha384</code>,&nbsp;<code>sha512</code>,&nbsp;<code>size</code>,&nbsp;<code>time</code>,&nbsp;<code>uid</code>,&nbsp;<code>uname</code>. The default is equivalent to:&nbsp;<code>device</code>,&nbsp;<code>flags</code>,&nbsp;<code>gid</code>,&nbsp;<code>gname</code>,&nbsp;<code>link</code>,&nbsp;<code>mode</code>,&nbsp;<code>nlink</code>,&nbsp;<code>size</code>,&nbsp;<code>time</code>,&nbsp;<code>type</code>,&nbsp;<code>uid</code>,&nbsp;<code>uname</code>.</li><li><code>mtree:all</code><br />Enables all of the above keywords. You can also use&nbsp;<code>mtree:!all</code>&nbsp;to disable all keywords.</li><li><code>mtree:use-set</code><br />Enable generation of&nbsp;<code>/set</code>&nbsp;lines in the output.</li><li><code>mtree:indent</code><br />Produce human-readable output by indenting options and splitting lines to fit into 80 columns.</li><li><code>zip:compression=type</code><br />Use type as compression method. Supported values are&nbsp;<code>store</code>&nbsp;(uncompressed) and&nbsp;<code>deflate</code>&nbsp;(<code>gzip</code>&nbsp;algorithm).</li></ul></div><div>If a provided option is not supported by any module, that is a fatal error.</div>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -4336,7 +4274,7 @@
                         "-P", 
                         "", 
                         "", 
-                        "Preserve pathnames. By default, absolute pathnames (those that begin with a <code>/</code> character) have the leading slash removed both when creating archives and extracting from them. Also, <code>tar</code> will refuse to extract archive entries whose pathnames contain .. or whose <code>tar</code>get directory would be altered by a symlink. This option suppresses these behaviors.", 
+                        "Preserve pathnames. By default, absolute pathnames (those that begin with a <code>/</code> character) have the leading slash removed both when creating archives and extracting from them. Also, <code>tar</code> will refuse to extract archive entries whose pathnames contain <code>..</code> or whose target directory would be altered by a symlink. This option suppresses these behaviors.", 
                         "", 
                         ""
                     ], 
@@ -4357,7 +4295,7 @@
                         "-p", 
                         "", 
                         "", 
-                        "(<code>x</code> mode only) Preserve file permissions. Attempt to restore the full permissions, including owner, file modes, file flags and ACLs, if available, for each item extracted from the archive. By default, newly-created files are owned by the user running <code>tar</code>, the file mode is restored for newly-created regular files, and all other types of entries receive default permissions. If <code>tar</code> is being run by root, the default is to restore the owner unless the <code>-o</code> option is also specified.", 
+                        "<b>x&nbsp;mode:</b>&nbsp;Preserve file permissions. Attempt to restore the full permissions, including owner, file modes, file flags and ACLs, if available, for each item extracted from the archive. By default, newly-created files are owned by the user running <code>tar</code>, the file mode is restored for newly-created regular files, and all other types of entries receive default permissions. If <code>tar</code> is being run by root, the default is to restore the owner unless the <code>-o</code> option is also specified.", 
                         "", 
                         ""
                     ], 
@@ -4378,7 +4316,7 @@
                         "-q", 
                         "--fast-read", 
                         "", 
-                        "(<code>x</code> and <code>t</code> mode only) Extract or list only the first archive entry that matches each pattern or filename operand. Exit as soon as each specified pattern or filename has been matched. By default, the archive is always read to the very end, since there can be multiple entries with the same name and, by convention, later entries overwrite earlier entries. This option is provided as a performance optimization.", 
+                        "<b><code>x</code>/<code>t</code>&nbsp;mode:</b>&nbsp;Extract or list only the first archive entry that matches each pattern or filename operand. Exit as soon as each specified pattern or filename has been matched. By default, the archive is always read to the very end, since there can be multiple entries with the same name and, by convention, later entries overwrite earlier entries. This option is provided as a performance optimization.", 
                         "", 
                         ""
                     ], 
@@ -4399,7 +4337,7 @@
                         "-S", 
                         "", 
                         "", 
-                        "(<code>x</code> mode only) Extract files as sparse files. For every block on disk, check first if it contains only NULL bytes and seek over it otherwise. This works similiar to the <code>conv=sparse</code> option of <code>dd</code>.", 
+                        "<b>x&nbsp;mode:</b>&nbsp;Extract files as sparse files. For every block on disk, check first if it contains only NULL bytes and seek over it otherwise. This works similiar to the <code>conv=sparse</code> option of <code>dd</code>.", 
                         "", 
                         ""
                     ], 
@@ -4420,7 +4358,7 @@
                         "", 
                         "--strip-components <u>count</u>", 
                         "", 
-                        "(<code>x</code> mode only) Remove the specified number of leading path elements. Pathnames with fewer elements will be silently skipped. Note that the pathname is edited after checking inclusion/exclusion patterns but before security checks.", 
+                        "<b><code>x</code>&nbsp;mode:</b>&nbsp;Remove the specified number of leading path elements. Pathnames with fewer elements will be silently skipped. Note that the pathname is edited after checking inclusion/exclusion patterns but before security checks.", 
                         "", 
                         ""
                     ], 
@@ -4441,8 +4379,8 @@
                         "-s <u>pattern</u>", 
                         "", 
                         "", 
-                        "Modify file or archive member names according to pattern. The pattern has the format <code>/old/new/[gps]</code> where old is a basic regular expression, new is the replacement string of the matched part, and the optional trailing letters modify how the replacement is handled. If old is not matched, the pattern is skipped. Within new, ~ is substituted with the match, 1 to 9 with the content of the corresponding captured group. The optional trailing g specifies that matching should continue after the matched part and stopped on the first unmatched pattern. The optional trailing s specifies that the pattern applies to the value of symbolic links. The optional trailing p specifies that after a successful substitution the original path name and the new path name should be printed to standard error.", 
-                        "", 
+                        "Modify file or archive member names according to <code><u>pattern</u></code>&nbsp;formatted&nbsp;<code>/<u>old</u>/<u>new</u>/[gps]</code> where <code><u>old</u></code> is a basic regular expression (BRE), <code><u>new</u></code> is the replacement string of the matched part, and the optional trailing letters modify how the replacement is handled. If <code><u>old</u></code> is not matched, the pattern is skipped.", 
+                        "<br /><div><p><b><code><u>new</u></code>&nbsp;substitutions</b><br /><code>~</code>&nbsp;= the match<br /><code>1</code>-<code>9</code>&nbsp;= the content of the corresponding captured group</p><p><b>Optional trailing specifiers:</b><br /><code>g</code>: matching should continue after the matched part and stopped on the first unmatched pattern.<br /><code>s</code>: pattern applies to the value of symbolic links.<br /><code>p</code>: print to&nbsp;<i>stderr</i>&nbsp;original and new path names after successful substitutions.</p></div>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -4458,11 +4396,11 @@
                     "fields": [
                         "tar -T", 
                         "tar", 
-                        "", 
+                        "synonym", 
                         "-T <u>filename</u>", 
                         "", 
-                        "", 
-                        "In <code>x</code> or <code>t</code> mode, <code>tar</code> will read the list of names to be extracted from filename. In <code>c</code> mode, <code>tar</code> will read names to be archived from filename. The special name <code>-C</code> on a line by itself will cause the current directory to be changed to the directory specified on the following line. Names are terminated by newlines unless <code>--null</code> is specified. Note that <code>--null</code> also disables the special handling of lines containing <code>-C.</code>", 
+                        "tar -I", 
+                        "<b><code>x</code>/<code>t</code>&nbsp;mode:</b>&nbsp;<code>tar</code> will read the list of names to be extracted from filename<br /><div><b><code>c</code>&nbsp;mode:&nbsp;</b><code>tar</code> will read names to be archived from filename.</div><div><br /></div><div>The special name <code>-C</code> on a line by itself will cause the current directory to be changed to the directory specified on the following line. Names are terminated by newlines unless <code>--null</code> is specified. Note that <code>--null</code> also disables the special handling of lines containing <code>-C.</code></div>", 
                         "", 
                         ""
                     ], 
@@ -4483,7 +4421,7 @@
                         "-U", 
                         "", 
                         "", 
-                        "(<code>x</code> mode only) Unlink files before creating them. Without this option, <code>tar</code> overwrites existing files, which preserves existing hardlinks. With this option, existing hardlinks will be broken, as will any symlink that would affect the location of an extracted file.", 
+                        "<b>x mode:</b>&nbsp;Unlink files before creating them. Without this option, <code>tar</code> overwrites existing files, which preserves existing hardlinks. With this option, existing hardlinks will be broken, as will any symlink that would affect the location of an extracted file.", 
                         "", 
                         ""
                     ], 
@@ -4504,7 +4442,7 @@
                         "", 
                         "--use-compress-program <u>program</u>", 
                         "", 
-                        "Pipe the input (in <code>x</code> or <code>t</code> mode) or the output (in <code>c</code> mode) through program instead of using the builtin compression support.", 
+                        "Pipe the input (<b><code>x</code>/<code>t</code> mode</b>) or the output (<b><code>c</code> mode</b>) through <i><code><u>program</u></code></i> instead of using the builtin compression support.", 
                         "", 
                         ""
                     ], 
@@ -4525,7 +4463,7 @@
                         "-v", 
                         "", 
                         "", 
-                        "Produce verbose output. In create and extract modes, <code>tar</code> will list each file name as it is read from or written to the archive. In list mode, <code>tar</code> will produce output similar to that of <code>ls</code>(1). Additional <code>-v</code> options will provide additional detail.", 
+                        "Produce verbose output.<div><br /></div><div><b><code>c</code>/<code>x</code>&nbsp;mode:</b>&nbsp;<code>tar</code> will list each file name as it is read from or written to the archive.</div><div><b>t mode:</b>&nbsp;<code>tar</code> will produce output similar to that of <code>ls</code>. Additional <code>-v</code> options will provide additional detail.</div>", 
                         "", 
                         ""
                     ], 
@@ -4609,7 +4547,7 @@
                         "-y", 
                         "", 
                         "", 
-                        "(<code>c</code> mode only) Compress the resulting archive with <code>bzip2</code>(1). In extract or list modes, this option is ignored. Note that, unlike other <code>tar</code> implementations, this implementation recognizes <code>bzip2</code> compression automatically when reading archives.", 
+                        "<b></b><b style=\"font-weight: bold; \"><code>x</code>/<code>t</code>&nbsp;mode</b>: Ignored<div><br /></div><b><code>c</code> mode:</b>&nbsp;Compress the resulting archive with <code>bzip2</code>.&nbsp;Some&nbsp;<code>tar</code> implementations do not recognize&nbsp;<code>bzip2</code> compression automatically when reading archives.", 
                         "", 
                         ""
                     ], 
@@ -4630,7 +4568,7 @@
                         "-z", 
                         "", 
                         "", 
-                        "(<code>c</code> mode only) Compress the resulting archive with <code>gzip</code>(1). In extract or list modes, this option is ignored. Note that, unlike other <code>tar</code> implementations, this implementation recognizes <code>gzip</code> compression automatically when reading archives.", 
+                        "<b style=\"font-weight: bold; \"><code>x</code>/<code>t</code>&nbsp;mode</b>: Ignored<div><br /><div><b>c mode</b>: Compress the resulting archive with <code>gzip</code>.&nbsp;Note that, unlike other <code>tar</code> implementations, this implementation recognizes <code>gzip</code> compression automatically when reading archives.</div></div>", 
                         "", 
                         ""
                     ], 
@@ -4651,7 +4589,7 @@
                         "-Z", 
                         "", 
                         "", 
-                        "(<code>c</code> mode only) Compress the resulting archive with <code>compress</code>(1). In extract or list modes, this option is ignored. Note that, unlike other <code>tar</code> implementations, this implementation recognizes <code>compress</code> compression automatically when reading archives.", 
+                        "<b><code>c</code> mode:</b> Compress the resulting archive with <code>compress</code>(1). In extract or list modes, this option is ignored. Note that, unlike other <code>tar</code> implementations, this implementation recognizes <code>compress</code> compression automatically when reading archives.", 
                         "", 
                         ""
                     ], 
@@ -10186,9 +10124,9 @@
                         "Bourne Shell builtin", 
                         "", 
                         "", 
-                        "cd", 
-                        "<p>Change the current working directory to <var>directory</var>. If <var>directory</var> is not supplied, the value of the <code>HOME</code> shell variable is used. Any additional arguments following <var>directory</var> are ignored. If the shell variable <code>CDPATH</code> exists, it is used as a search path: each directory name in <code>CDPATH</code> is searched for <var>directory</var>, with alternative directory names in <code>CDPATH</code> separated by a colon (<samp>:</samp>). If <var>directory</var> begins with a slash, <code>CDPATH</code> is not used.</p><p>The <samp>-P</samp> option means to not follow symbolic links: symbolic links are resolved while traversing <var>directory</var> and before processing an instance of <samp>..</samp>&nbsp;in <var>directory</var>.</p><p>By default, or when the <samp>-L</samp> option is supplied, symbolic links in <var>directory</var> are resolved after processing an instance of <samp>..</samp>&nbsp;in <var>directory</var>.</p><p>If <samp>..</samp>&nbsp;appears in <var>directory</var>, it is processed by removing the immediately preceding pathname component, back to a slash or the beginning of <var>directory</var>.</p><p>If the <samp>-e</samp> option is supplied with <samp>-P</samp> and the current working directory cannot be successfully determined after a successful directory change, an unsuccessful status will be returned.</p><p>On systems that support it, the <samp>-@</samp> option presents the extended attributes associated with a file as a directory.               </p><p>If <var>directory</var> is <samp><code>-</code></samp>, it is converted to <code>$OLDPWD</code> before the directory change is attempted.</p><p>If a non-empty directory name from <code>CDPATH</code> is used, or if&nbsp;<samp><code>-</code></samp>&nbsp;is the first argument, and the directory change is successful, the absolute pathname of the new working directory is written to the standard output.</p><p>The return status is zero if the directory is successfully changed, non-zero otherwise.</p>", 
-                        "cd [-L|[-P [-e]] [-@] [<var>directory</var>]", 
+                        "cd <i>DIR</i>", 
+                        "<p>Change the current working directory to <var><code>DIR</code></var>. If&nbsp;<var><code>DIR</code></var>&nbsp;is not supplied, the value of the <code>HOME</code> shell variable is used. Any additional arguments following&nbsp;<var><code>DIR</code></var>&nbsp;are ignored. If the shell variable&nbsp;<code><strike>CDPATH</strike></code>&nbsp;exists, it is used as a search path: each directory name in <code><strike>CDPATH</strike></code> is searched for&nbsp;<var><code>DIR</code></var>, with alternative directory names in&nbsp;<code><strike>CDPATH</strike></code>&nbsp;separated by a colon (<samp>:</samp>). If&nbsp;<var><code>DIR</code></var>&nbsp;begins with a slash,&nbsp;<code><strike>CDPATH</strike></code>&nbsp;is not used.</p><p><code><strike>cd</strike> [-L|[-P [-e]] [-@] [<i>DIR</i>]</code></p>", 
+                        "<div>The&nbsp;<samp>-P</samp>&nbsp;option means to not follow symbolic links: symbolic links are resolved while traversing&nbsp;<var><code>DIR</code></var>&nbsp;and before processing an instance of&nbsp;<samp>..</samp>&nbsp;in&nbsp;<var><code>DIR</code></var>.</div><div><p>By default, or when the&nbsp;<samp>-L</samp>&nbsp;option is supplied, symbolic links in&nbsp;<var><code>DIR</code></var>&nbsp;are resolved after processing an instance of&nbsp;<samp>..</samp>&nbsp;in&nbsp;<var><code>DIR</code></var>.</p><p>If&nbsp;<samp>..</samp>&nbsp;appears in&nbsp;<var><code>DIR</code></var>, it is processed by removing the immediately preceding pathname component, back to a slash or the beginning of&nbsp;<var><code>DIR</code></var>.</p><p>If the&nbsp;<samp>-e</samp>&nbsp;option is supplied with&nbsp;<samp>-P</samp>&nbsp;and the current working directory cannot be successfully determined after a successful directory change, an unsuccessful status will be returned.</p><p>On systems that support it, the&nbsp;<samp>-@</samp>&nbsp;option presents the extended attributes associated with a file as a directory.&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</p><p>If&nbsp;<var><code>DIR</code></var>&nbsp;is&nbsp;<samp><code>-</code></samp>, it is converted to&nbsp;<code>$OLDPWD</code>&nbsp;before the directory change is attempted.</p><p>If a non-empty directory name from&nbsp;<code>CDPATH</code>&nbsp;is used, or if&nbsp;<samp><code>-</code></samp>&nbsp;is the first argument, and the directory change is successful, the absolute pathname of the new working directory is written to the standard output.</p><p>The return status is zero if the directory is successfully changed, non-zero otherwise.</p></div>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -10417,7 +10355,7 @@
                         "Bourne Shell builtin", 
                         "", 
                         "", 
-                        "shift", 
+                        "shift <i>n</i>", 
                         "<p>Shift the positional parameters to the left by <var>n</var>. The positional parameters from <var>n</var>+1 &hellip; <code>$#</code> are renamed to <code>$1</code> &hellip; <code>$#</code>-<var>n</var>. Parameters represented by the numbers <code>$#</code> to <code>$#</code>-<var>n</var>+1 are unset.<var>n</var> must be a non-negative number less than or equal to <code>$#</code>. If <var>n</var> is zero or greater than <code>$#</code>, the positional parameters are not changed. If <var>n</var> is not supplied, it is assumed to be 1. The return status is zero unless <var>n</var> is greater than <code>$#</code> or less than zero, non-zero otherwise.</p>", 
                         "shift [<var>n</var>]", 
                         ""
@@ -18263,7 +18201,7 @@
                         "", 
                         "", 
                         "-ne", 
-                        "Arithmetic binary operator that returns true if<code><i>ARG1</i></code>is not equal to <code><i>ARG2</i></code>. <code><i>ARG1</i></code> and <code><i>ARG2</i></code> are integers.<br><br><code>[ <i>ARG1</i> -ne <i>ARG2</i> ]</code>", 
+                        "Arithmetic binary operator that returns true if <code><i>ARG1</i></code> is not equal to <code><i>ARG2</i></code>. <code><i>ARG1</i></code> and <code><i>ARG2</i></code> are integers.<br /><br /><code>[ <i>ARG1</i> -ne <i>ARG2</i> ]</code>", 
                         "", 
                         ""
                     ], 
@@ -18467,6 +18405,153 @@
                     "guid": "xQJ14b<<Hs", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "tar -c -f new.tar --include='*foo*' @old.tgz", 
+                        "tar -c -f&nbsp;<u>new.tar</u>&nbsp;--include='*<u>foo</u>*' @<u>old.tgz</u>", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        "create new archive&nbsp;<u><code>new.tar</code></u>&nbsp;containing only the entries from&nbsp;<u><code>old.tgz</code></u>&nbsp;containing the string <code>foo</code>", 
+                        "", 
+                        "y"
+                    ], 
+                    "flags": 0, 
+                    "guid": "sA0oxD=Pbe", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "tar"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "tar -s substitution ~", 
+                        "tar -s", 
+                        "pattern substitution", 
+                        "", 
+                        "", 
+                        "~", 
+                        "the match", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "F~WdBqNILn", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "tar"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "tar -s substitution 1-9", 
+                        "tar -s", 
+                        "pattern substitution", 
+                        "", 
+                        "", 
+                        "1-9", 
+                        "the content of the corresponding captured group", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "jr2QGIlL08", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "tar"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "tar -s specifier g", 
+                        "tar -s", 
+                        "trailing specifier", 
+                        "", 
+                        "", 
+                        "g", 
+                        "matching should continue after the matched part and stopped on the first unmatched pattern", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "N[^##*989G", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "tar"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "tar -s specifier s", 
+                        "tar -s", 
+                        "trailing specifier", 
+                        "", 
+                        "", 
+                        "s", 
+                        "pattern applies to the value of symbolic links", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "E^JRYoB#Pt", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "tar"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "tar -s specifier p", 
+                        "tar -s", 
+                        "trailing specifier", 
+                        "", 
+                        "", 
+                        "p", 
+                        "print to&nbsp;<i>stderr</i>&nbsp;original and new path names after successful substitutions", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "bV,!Uj|wOh", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "tar"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "tar --no-null", 
+                        "tar", 
+                        "", 
+                        "", 
+                        "--no-null", 
+                        "", 
+                        "Disable the effect of any previous <code>--null</code> option", 
+                        "<p>The <code>--no-null</code> option can be used if you need to read both <code>NUL</code>-terminated and newline-terminated files on the same command line. For example, if <code>flist</code> is a newline-terminated file, then the following command can be used to combine it with the above command:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">find . -size +800 -print0 <span style=\"color: #d0d0d0\">|</span>\ntar -c -f big.tar --null -T - --no-null -T flist\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTcwMzk1OTQsICJpZCI6ICIxNDk3MDM5NTA4NjIzLTAwNyIsICJtZCI6ICJUaGUgYC0tbm8tbnVsbGAgb3B0aW9uIGNhbiBiZSB1c2VkIGlmIHlvdSBuZWVkIHRvIHJlYWQgYm90aCBgTlVMYC10ZXJtaW5hdGVkIGFuZCBuZXdsaW5lLXRlcm1pbmF0ZWQgZmlsZXMgb24gdGhlIHNhbWUgY29tbWFuZCBsaW5lLiBGb3IgZXhhbXBsZSwgaWYgYGZsaXN0YCBpcyBhIG5ld2xpbmUtdGVybWluYXRlZCBmaWxlLCB0aGVuIHRoZSBmb2xsb3dpbmcgY29tbWFuZCBjYW4gYmUgdXNlZCB0byBjb21iaW5lIGl0IHdpdGggdGhlIGFib3ZlIGNvbW1hbmQ6XG4gIFxuICAgIDo6OnNoXG4gICAgZmluZCAuIC1zaXplICs4MDAgLXByaW50MCB8XG4gICAgdGFyIC1jIC1mIGJpZy50YXIgLS1udWxsIC1UIC0gLS1uby1udWxsIC1UIGZsaXN0XG4ifQ==---->", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "J-n-N&27U=", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "tar"
+                    ]
                 }
             ]
         }, 
@@ -23180,6 +23265,7 @@
                     "guid": "C/4U*E^9F1", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": [
+                        "marked", 
                         "regex"
                     ]
                 }, 
@@ -25811,7 +25897,7 @@
                     "data": "", 
                     "fields": [
                         "HTML element <code>&lt;ruby&gt;</code>", 
-                        "<small>HTML inline text semantics element</small><br /><b>ruby annotation</b>. Ruby annotations are for showing pronunciation of East Asian characters", 
+                        "<p><small>HTML inline text semantics element</small><br />\n<strong>ruby annotation</strong>, for showing pronunciation of East Asian characters</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&lt;</span><span style=\"color: #6ab825; font-weight: bold\">ruby</span> <span style=\"color: #bbbbbb\">xml:lang</span><span style=\"color: #d0d0d0\">=</span><span style=\"color: #ed9d13\">\"ja\"</span><span style=\"color: #d0d0d0\">&gt;</span>\n  <span style=\"color: #d0d0d0\">&lt;</span><span style=\"color: #6ab825; font-weight: bold\">rbc</span><span style=\"color: #d0d0d0\">&gt;</span>\n    <span style=\"color: #d0d0d0\">&lt;</span><span style=\"color: #6ab825; font-weight: bold\">rb</span><span style=\"color: #d0d0d0\">&gt;</span>斎<span style=\"color: #d0d0d0\">&lt;/</span><span style=\"color: #6ab825; font-weight: bold\">rb</span><span style=\"color: #d0d0d0\">&gt;</span>\n    <span style=\"color: #d0d0d0\">&lt;</span><span style=\"color: #6ab825; font-weight: bold\">rb</span><span style=\"color: #d0d0d0\">&gt;</span>藤<span style=\"color: #d0d0d0\">&lt;/</span><span style=\"color: #6ab825; font-weight: bold\">rb</span><span style=\"color: #d0d0d0\">&gt;</span>\n  <span style=\"color: #d0d0d0\">&lt;/</span><span style=\"color: #6ab825; font-weight: bold\">rbc</span><span style=\"color: #d0d0d0\">&gt;</span>\n  <span style=\"color: #d0d0d0\">&lt;</span><span style=\"color: #6ab825; font-weight: bold\">rtc</span> <span style=\"color: #bbbbbb\">class</span><span style=\"color: #d0d0d0\">=</span><span style=\"color: #ed9d13\">\"reading\"</span><span style=\"color: #d0d0d0\">&gt;</span>\n    <span style=\"color: #d0d0d0\">&lt;</span><span style=\"color: #6ab825; font-weight: bold\">rt</span><span style=\"color: #d0d0d0\">&gt;</span>さい<span style=\"color: #d0d0d0\">&lt;/</span><span style=\"color: #6ab825; font-weight: bold\">rt</span><span style=\"color: #d0d0d0\">&gt;</span>\n    <span style=\"color: #d0d0d0\">&lt;</span><span style=\"color: #6ab825; font-weight: bold\">rt</span><span style=\"color: #d0d0d0\">&gt;</span>とう<span style=\"color: #d0d0d0\">&lt;/</span><span style=\"color: #6ab825; font-weight: bold\">rt</span><span style=\"color: #d0d0d0\">&gt;</span>\n  <span style=\"color: #d0d0d0\">&lt;/</span><span style=\"color: #6ab825; font-weight: bold\">rtc</span><span style=\"color: #d0d0d0\">&gt;</span>\n  <span style=\"color: #d0d0d0\">&lt;</span><span style=\"color: #6ab825; font-weight: bold\">rtc</span> <span style=\"color: #bbbbbb\">class</span><span style=\"color: #d0d0d0\">=</span><span style=\"color: #ed9d13\">\"annotation\"</span><span style=\"color: #d0d0d0\">&gt;</span>\n    <span style=\"color: #d0d0d0\">&lt;</span><span style=\"color: #6ab825; font-weight: bold\">rt</span> <span style=\"color: #bbbbbb\">rbspan</span><span style=\"color: #d0d0d0\">=</span><span style=\"color: #ed9d13\">\"2\"</span> <span style=\"color: #bbbbbb\">xml:lang</span><span style=\"color: #d0d0d0\">=</span><span style=\"color: #ed9d13\">\"en\"</span><span style=\"color: #d0d0d0\">&gt;</span>W3C Associate Chairman<span style=\"color: #d0d0d0\">&lt;/</span><span style=\"color: #6ab825; font-weight: bold\">rt</span><span style=\"color: #d0d0d0\">&gt;</span>\n  <span style=\"color: #d0d0d0\">&lt;/</span><span style=\"color: #6ab825; font-weight: bold\">rtc</span><span style=\"color: #d0d0d0\">&gt;</span>\n<span style=\"color: #d0d0d0\">&lt;/</span><span style=\"color: #6ab825; font-weight: bold\">ruby</span><span style=\"color: #d0d0d0\">&gt;</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTY5OTI3OTcsICJpZCI6ICIxNDk2MjAxMjQ3OTE4LTAwMSIsICJtZCI6ICJIVE1MIGlubGluZSB0ZXh0IHNlbWFudGljcyBlbGVtZW50ICBcbioqcnVieSBhbm5vdGF0aW9uKiouIFJ1YnkgYW5ub3RhdGlvbnMgYXJlIGZvciBzaG93aW5nIHByb251bmNpYXRpb24gb2YgRWFzdCBBc2lhbiBjaGFyYWN0ZXJzXG4gIFxuICAgIDo6Omh0bWxcbiAgICAmbHQ7cnVieSB4bWw6bGFuZz0mcXVvdDtqYSZxdW90OyZndDtcbiAgICAgICZsdDtyYmMmZ3Q7XG4gICAgICAgICZsdDtyYiZndDtcdTY1OGUmbHQ7L3JiJmd0O1xuICAgICAgICAmbHQ7cmImZ3Q7XHU4NWU0Jmx0Oy9yYiZndDtcbiAgICAgICZsdDsvcmJjJmd0O1xuICAgICAgJmx0O3J0YyBjbGFzcz0mcXVvdDtyZWFkaW5nJnF1b3Q7Jmd0O1xuICAgICAgICAmbHQ7cnQmZ3Q7XHUzMDU1XHUzMDQ0Jmx0Oy9ydCZndDtcbiAgICAgICAgJmx0O3J0Jmd0O1x1MzA2OFx1MzA0NiZsdDsvcnQmZ3Q7XG4gICAgICAmbHQ7L3J0YyZndDtcbiAgICAgICZsdDtydGMgY2xhc3M9JnF1b3Q7YW5ub3RhdGlvbiZxdW90OyZndDtcbiAgICAgICAgJmx0O3J0IHJic3Bhbj0mcXVvdDsyJnF1b3Q7IHhtbDpsYW5nPSZxdW90O2VuJnF1b3Q7Jmd0O1czQyBBc3NvY2lhdGUgQ2hhaXJtYW4mbHQ7L3J0Jmd0O1xuICAgICAgJmx0Oy9ydGMmZ3Q7XG4gICAgJmx0Oy9ydWJ5Jmd0O1xuIn0=---->", 
                         "<h2>Attributes</h2> <p>This element only includes the global attributes.</p> <h2>Examples</h2> <h3>Example 1: Character</h3> <pre><code>&lt;ruby&gt;   漢 &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;Kan&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;   字 &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;ji&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; &lt;/ruby&gt;</code></pre> <h3>Example 2: Word</h3> <pre><code>&lt;ruby&gt;   明日 &lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;Ashita&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; &lt;/ruby&gt;</code></pre>", 
                         "reverse", 
                         "", 
@@ -27358,12 +27444,12 @@
             "replayq": true, 
             "rev": {
                 "bury": true, 
-                "ease4": 1.3, 
+                "ease4": 2.5, 
                 "fuzz": 0.05, 
-                "ivlFct": 1.0, 
+                "ivlFct": 1.5, 
                 "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 250
+                "perDay": 500
             }, 
             "timer": 0
         }
@@ -27583,7 +27669,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "bash"
+                "tar"
             ], 
             "tmpls": [
                 {
@@ -27797,7 +27883,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "sushi"
+                "tar"
             ], 
             "tmpls": [
                 {
@@ -27816,7 +27902,7 @@
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
