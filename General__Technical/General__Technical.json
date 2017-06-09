@@ -3911,27 +3911,6 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "tar -j", 
-                        "tar", 
-                        "", 
-                        "-j", 
-                        "", 
-                        "", 
-                        "<b><code>c</code>&nbsp;mode:</b>&nbsp;Compress the resulting archive with <code>bzip2</code>. In extract or list modes, this option is ignored. Note that, unlike other <code>tar</code> implementations, this implementation recognizes <code>bzip2</code> compression automatically when reading archives.", 
-                        "", 
-                        ""
-                    ], 
-                    "flags": 0, 
-                    "guid": "lEyn55<%5X", 
-                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-                    "tags": [
-                        "tar"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
                         "tar -k", 
                         "tar", 
                         "", 
@@ -4148,7 +4127,7 @@
                         "", 
                         "--null", 
                         "", 
-                        "<p>(use with <code>-I</code>, <code>-T</code>, or <code>-X</code>) Filenames or patterns are separated by null characters, not by newlines. This is often used to read filenames output by the <code>-print0</code> option to <code>find</code>.</p>\n<p>The <code>--null</code> option causes <code>--files-from=<b>file-of-names</b></code> (<code>-T <b>file-of-names</b></code>) to read file names terminated by a NUL instead of a newline, so files whose names contain newlines can be archived using <code>--files-from</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTcwMzk3MTgsICJpZCI6ICIxNDk0Mzk1MDAwMzgwLTAwNiIsICJtZCI6ICIodXNlIHdpdGggYC1JYCwgYC1UYCwgb3IgYC1YYCkgRmlsZW5hbWVzIG9yIHBhdHRlcm5zIGFyZSBzZXBhcmF0ZWQgYnkgbnVsbCBjaGFyYWN0ZXJzLCBub3QgYnkgbmV3bGluZXMuIFRoaXMgaXMgb2Z0ZW4gdXNlZCB0byByZWFkIGZpbGVuYW1lcyBvdXRwdXQgYnkgdGhlIGAtcHJpbnQwYCBvcHRpb24gdG8gYGZpbmRgLlxuICBcblRoZSBgLS1udWxsYCBvcHRpb24gY2F1c2VzIGAtLWZpbGVzLWZyb209ZmlsZS1vZi1uYW1lc2AgKGAtVCBmaWxlLW9mLW5hbWVzYCkgdG8gcmVhZCBmaWxlIG5hbWVzIHRlcm1pbmF0ZWQgYnkgYSBOVUwgaW5zdGVhZCBvZiBhIG5ld2xpbmUsIHNvIGZpbGVzIHdob3NlIG5hbWVzIGNvbnRhaW4gbmV3bGluZXMgY2FuIGJlIGFyY2hpdmVkIHVzaW5nIGAtLWZpbGVzLWZyb21gLlxuIn0=---->", 
+                        "<p>(use with <code>-I</code>, <code>-T</code>, or <code>-X</code>) Filenames or patterns are separated by null characters, not by newlines. This is often used to read filenames output by the <code>-print0</code> option to <code>find</code>.</p>\n<p>The <code><strike>--null</strike></code> option causes <code>--files-from=<b>file-of-names</b></code> (<code>-T <b>file-of-names</b></code>) to read file names terminated by a NUL instead of a newline, so files whose names contain newlines can be archived using <code>--files-from</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTcwMzk3MTgsICJpZCI6ICIxNDk0Mzk1MDAwMzgwLTAwNiIsICJtZCI6ICIodXNlIHdpdGggYC1JYCwgYC1UYCwgb3IgYC1YYCkgRmlsZW5hbWVzIG9yIHBhdHRlcm5zIGFyZSBzZXBhcmF0ZWQgYnkgbnVsbCBjaGFyYWN0ZXJzLCBub3QgYnkgbmV3bGluZXMuIFRoaXMgaXMgb2Z0ZW4gdXNlZCB0byByZWFkIGZpbGVuYW1lcyBvdXRwdXQgYnkgdGhlIGAtcHJpbnQwYCBvcHRpb24gdG8gYGZpbmRgLlxuICBcblRoZSBgLS1udWxsYCBvcHRpb24gY2F1c2VzIGAtLWZpbGVzLWZyb209ZmlsZS1vZi1uYW1lc2AgKGAtVCBmaWxlLW9mLW5hbWVzYCkgdG8gcmVhZCBmaWxlIG5hbWVzIHRlcm1pbmF0ZWQgYnkgYSBOVUwgaW5zdGVhZCBvZiBhIG5ld2xpbmUsIHNvIGZpbGVzIHdob3NlIG5hbWVzIGNvbnRhaW4gbmV3bGluZXMgY2FuIGJlIGFyY2hpdmVkIHVzaW5nIGAtLWZpbGVzLWZyb21gLlxuIn0=---->", 
                         "", 
                         ""
                     ], 
@@ -4463,7 +4442,7 @@
                         "-v", 
                         "", 
                         "", 
-                        "Produce verbose output.<div><br /></div><div><b><code>c</code>/<code>x</code>&nbsp;mode:</b>&nbsp;<code>tar</code> will list each file name as it is read from or written to the archive.</div><div><b>t mode:</b>&nbsp;<code>tar</code> will produce output similar to that of <code>ls</code>. Additional <code>-v</code> options will provide additional detail.</div>", 
+                        "Produce verbose output.<div><br /></div><div><b><code>c</code>/<code>x</code>&nbsp;mode:</b>&nbsp;<code>tar</code> will list each file name as it is read from or written to the archive.</div><div><b>t mode:</b>&nbsp;<code>tar</code> will produce output similar to that of <code>ls</code>. Additional <code><strike>-v</strike></code> options will provide additional detail.</div>", 
                         "", 
                         ""
                     ], 
@@ -4543,11 +4522,11 @@
                     "fields": [
                         "tar -y", 
                         "tar", 
-                        "", 
+                        "synonym", 
                         "-y", 
                         "", 
-                        "", 
-                        "<b></b><b style=\"font-weight: bold; \"><code>x</code>/<code>t</code>&nbsp;mode</b>: Ignored<div><br /></div><b><code>c</code> mode:</b>&nbsp;Compress the resulting archive with <code>bzip2</code>.&nbsp;Some&nbsp;<code>tar</code> implementations do not recognize&nbsp;<code>bzip2</code> compression automatically when reading archives.", 
+                        "tar -j", 
+                        "<b></b><b style=\"font-weight: bold; \"><code>x</code>/<code>t</code>&nbsp;mode</b>: Ignored<div><br /></div><b><code>c</code> mode:</b>&nbsp;Compress the resulting archive with <code>bzip2</code>.&nbsp;Note some&nbsp;<code>tar</code>&nbsp;implementations do not recognize&nbsp;<code>bzip2</code>&nbsp;compression automatically when reading archives.", 
                         "", 
                         ""
                     ], 
@@ -4568,7 +4547,7 @@
                         "-z", 
                         "", 
                         "", 
-                        "<b style=\"font-weight: bold; \"><code>x</code>/<code>t</code>&nbsp;mode</b>: Ignored<div><br /><div><b>c mode</b>: Compress the resulting archive with <code>gzip</code>.&nbsp;Note that, unlike other <code>tar</code> implementations, this implementation recognizes <code>gzip</code> compression automatically when reading archives.</div></div>", 
+                        "<b style=\"font-weight: bold; \"><code>x</code>/<code>t</code>&nbsp;mode</b>: Ignored<div><br /><div><b>c mode</b>: Compress the resulting archive with <code>gzip</code>.&nbsp;Note some&nbsp;<code>tar</code>&nbsp;implementations do not recognize&nbsp;<code>gzip</code>&nbsp;compression automatically when reading archives.</div></div>", 
                         "", 
                         ""
                     ], 
@@ -4589,7 +4568,7 @@
                         "-Z", 
                         "", 
                         "", 
-                        "<b><code>c</code> mode:</b> Compress the resulting archive with <code>compress</code>(1). In extract or list modes, this option is ignored. Note that, unlike other <code>tar</code> implementations, this implementation recognizes <code>compress</code> compression automatically when reading archives.", 
+                        "<b><code><div></div></code></b><b><code></code></b><b style=\"font-weight: bold; \"><code>x</code>/<code>t</code>&nbsp;mode</b>: Ignored<div><b><code><br /></code></b></div><b><code>c</code> mode:</b> Compress the resulting archive with <code>compress</code>.&nbsp;Note some&nbsp;<code>tar</code>&nbsp;implementations do not recognize&nbsp;<code>compress</code>&nbsp;compression automatically when reading archives.", 
                         "", 
                         ""
                     ], 
