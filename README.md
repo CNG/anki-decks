@@ -1,5 +1,7 @@
 # Anki decks
 
+![Card from my shell Anki deck](/../files/screenshots/anki-shell-shopt.png?raw=true "Card from my shell Anki deck")
+
 [Anki](https://apps.ankiweb.net/) is a smart cross platform flashcard program.
 I learned about it around when I started studying Japanese on [WaniKani](https://www.wanikani.com/), which employs a similar [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) strategy to Anki’s.
 I finally starting using Anki in 2016, but I should have been using it my whole life!
@@ -27,8 +29,26 @@ I have only poked at that goal periodically, though.
 It would help if Anki shared decks were either just the content or it were more separated.
 I have already accidentally overwritten my custom code by reimporting a shared deck.
 The system is a bit tough to get right.
-So till I get that straightened out better, here are just two examples of how I try to get my cards to look.
-
-![Card from my shell Anki deck](/../files/screenshots/anki-shell.png?raw=true "Card from my shell Anki deck")
+So till I get that straightened out better, here are a few examples of how I try to get my cards to look.
 
 ![Card from my English Anki deck](/../files/screenshots/anki-english.png?raw=true "Card from my English Anki deck")
+
+![Card from my shell Anki deck](/../files/screenshots/anki-shell-readonly-back.png?raw=true "Card from my shell Anki deck")
+
+![Card from my shell Anki deck](/../files/screenshots/anki-shell-readonly-front.png?raw=true "Card from my shell Anki deck")
+
+![Card from my shell Anki deck](/../files/screenshots/anki-shell-return-back.png?raw=true "Card from my shell Anki deck")
+
+![Card from my shell Anki deck](/../files/screenshots/anki-shell-return-front.png?raw=true "Card from my shell Anki deck")
+
+### Bulk note creation
+
+I tend to copy data into a text editor and manipulate it into tab separated fields that I can import into Anki.
+Here is an example of doing that for a Unix utility manpage.
+The regular expression find-replace command is at the bottom.
+(Given how many of these I have done now, I really should have automated this.)
+
+![Card from my shell Anki deck](/../files/screenshots/regex-fu.png?raw=true "Card from my shell Anki deck")
+
+For larger datasets, I have combined shell and Python scripting.
+I scraped almost 10,000 HTML pages on a particular website to create nearly 20,000 Japanese language cards complete with audio.
