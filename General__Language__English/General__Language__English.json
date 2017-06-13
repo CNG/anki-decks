@@ -7345,8 +7345,8 @@
                     "data": "", 
                     "fields": [
                         "austere", 
-                        "forbiddingly stern; ascetic; without comfort or enjoyment; severely simple and unornamented<br>’s austere life<br><i>n.</i> austerity", 
-                        "a monk<br>austere grandeur of the cathedral", 
+                        "forbiddingly stern; ascetic; without comfort or enjoyment; severely simple and unornamented<br /><br /><i>n.</i> austerity", 
+                        "a monk’s austere life<br />austere grandeur of the cathedral", 
                         "", 
                         "", 
                         ""
@@ -43442,8 +43442,8 @@
                     "data": "", 
                     "fields": [
                         "incorrigible", 
-                        "<br>1.<br>not corrigible; bad beyond correction or reform:<br>incorrigible behavior; an incorrigible liar.<br>2.<br>impervious to constraints or punishment; willful; unruly; uncontrollable:<br>an incorrigible child; incorrigible hair.", 
-                        "", 
+                        "1.&nbsp;not corrigible; bad beyond correction or reform<br />2.&nbsp;impervious to constraints or punishment; willful; unruly; uncontrollable<br />", 
+                        "1.&nbsp;incorrigible behavior; an incorrigible liar.<br /><div>2.&nbsp;an incorrigible child; incorrigible hair.</div>", 
                         "", 
                         "", 
                         ""
@@ -78391,8 +78391,8 @@
                     "data": "", 
                     "fields": [
                         "suppress", 
-                        "put an end to forcibly; subdue; stifle; overwhelm; inhibit the expression of; check; prevent from being published or made public<br>/truth", 
-                        "suppress a smile<br>suppress the magazine", 
+                        "put an end to forcibly; subdue; stifle; overwhelm; inhibit the expression of; check; prevent from being published or made public<br />", 
+                        "suppress a smile<br />suppress the magazine/truth", 
                         "", 
                         "", 
                         ""
@@ -94435,11 +94435,11 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "armscye (or armseye)", 
+                        "armscye", 
                         "<i>n.</i> An opening in a garment for attaching a sleeve; an armhole.", 
                         "", 
                         "", 
-                        "", 
+                        "armseye", 
                         ""
                     ], 
                     "flags": 0, 
@@ -96205,20 +96205,20 @@
                 "mult": 0.0
             }, 
             "maxTaken": 60, 
-            "name": "Default", 
+            "name": "Review", 
             "new": {
                 "bury": true, 
                 "delays": [
-                    10, 
-                    120
+                    1, 
+                    10
                 ], 
                 "initialFactor": 2500, 
                 "ints": [
                     2, 
                     20
                 ], 
-                "order": 1, 
-                "perDay": 50, 
+                "order": 0, 
+                "perDay": 0, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -96229,7 +96229,7 @@
                 "ivlFct": 1.0, 
                 "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 250
+                "perDay": 10
             }, 
             "timer": 0
         }
@@ -96321,9 +96321,7 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "sushi"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
@@ -96341,7 +96339,7 @@
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 

@@ -361,7 +361,7 @@ august	impressive; majestic					Barron4841
 aureole	sun’s corona; halo; bright circle of light					Barron4841
 auroral	pertaining to the aurora borealis<br><i>cf.</i> aurora australis					Barron4841
 auspicious	favoring success; giving signs of future success<br><i>cf.</i> auspices					Barron4841
-austere	forbiddingly stern; ascetic; without comfort or enjoyment; severely simple and unornamented<br>’s austere life<br><i>n.</i> austerity	a monk<br>austere grandeur of the cathedral				Barron4841
+austere	forbiddingly stern; ascetic; without comfort or enjoyment; severely simple and unornamented<br /><br /><i>n.</i> austerity	a monk’s austere life<br />austere grandeur of the cathedral				Barron4841
 authenticate	prove genuine					Barron4841
 authoritarian	subordinating the individual to the state; completely dominating another’s will/father	authoritarian regime				Barron4841
 authoritative	having the weight of authority; regarded as providing knowledge that can be trusted; reliable; peremptory and dictatorial/manner<br><i>cf.</i> definitive	authoritative dictionary				Barron4841
@@ -2366,7 +2366,7 @@ incontinent	lacking self-restraint; not continent; licentious					Barron4841
 incontrovertible	indisputable; impossible to dispute; not open to question; unquestionable					Barron4841
 incorporate	introduce something into a larger whole; include; embody; give material form to;<br><div>adj.</div>					Barron4841
 incorporeal	without a material body; insubstantial					Barron4841
-incorrigible	<br>1.<br>not corrigible; bad beyond correction or reform:<br>incorrigible behavior; an incorrigible liar.<br>2.<br>impervious to constraints or punishment; willful; unruly; uncontrollable:<br>an incorrigible child; incorrigible hair.					Barron4841
+incorrigible	1.&nbsp;not corrigible; bad beyond correction or reform<br />2.&nbsp;impervious to constraints or punishment; willful; unruly; uncontrollable<br />	1.&nbsp;incorrigible behavior; an incorrigible liar.<br /><div>2.&nbsp;an incorrigible child; incorrigible hair.</div>				Barron4841
 incredulity	tendency to disbelief					Barron4841
 incredulous	withholding belief; skeptical; showing disbelief					Barron4841
 increment	increase					Barron4841
@@ -4307,7 +4307,7 @@ supplicate	petition humbly; pray to grant a favor					Barron4841
 supplicant	one who prays humbly					Barron4841
 supposition	assumption; hypothesis; surmise<br><i>v.</i> suppose					Barron4841
 supposititious	assumed; counterfeit; hypothetical					Barron4841
-suppress	put an end to forcibly; subdue; stifle; overwhelm; inhibit the expression of; check; prevent from being published or made public<br>/truth	suppress a smile<br>suppress the magazine				Barron4841
+suppress	put an end to forcibly; subdue; stifle; overwhelm; inhibit the expression of; check; prevent from being published or made public<br />	suppress a smile<br />suppress the magazine/truth				Barron4841
 surfeit	satiate; feed or supply to excess; stuff; indulge to excess in anything;<br><i>n.</i> surfeiting; excessive amount	surfeit of food				Barron4841
 surly	bad-tempered; rude; cross					Barron4841
 cross	bad-tempered; showing ill-humor; angry					Barron4841
@@ -5246,7 +5246,7 @@ opsigamy	<div><i>n.</i> Marriage late in life.</div>
 Nimrod	<i>n.</i> <div>1. A tyrannical ruler; a tyrant.</div><div>2. A great or skilful hunter (freq. ironic); any person who likes to hunt. Also <i>fig.</i></div><div>3. <i>n.</i> Amer. slang. A stupid or contemptible person; an idiot.<br></div><br><div>Etymology: &lt; the name of Nimrod (Hebrew Nimrōḏ, lit. ‘we will rebel’ or ‘let us rebel’, probably a polemical distortion of the name of the Mesopotamian war-god Ninurta, a mighty hunter and warrior), great grandson of Noah and traditional founder of the Babylonian dynasty, described in Genesis 10:8–9 as ‘a mighty one in the earth’ and ‘a mighty hunter before the Lord’.</div>					
 onomastics	<div><i>n.</i> The study of proper names or of terms used in a specialized field.</div>					
 albescent	<div><i>adj.</i> Growing or becoming white; shading or passing into white.</div>					
-armscye (or armseye)	<i>n.</i> An opening in a garment for attaching a sleeve; an armhole.					
+armscye	<i>n.</i> An opening in a garment for attaching a sleeve; an armhole.			armseye		
 magpiety	<div><i>n.</i> Talkativeness, garrulity (esp. on religious or moral topics); affected piety.</div>					
 bricolage	construction (as of a sculpture or a structure of ideas) achieved by using whatever comes to hand; also: something constructed in this way<div><br></div><div>the construction or creation of a work from a diverse range of things that happen to be available, or a work created by such a process. </div><br><div>The term is borrowed from the French word bricolage meaning something similar - craft works or shoddily made works.</div>					
 schadenfreude	<i>n.</i> Pleasure derived from another’s misfortune.</span>					
