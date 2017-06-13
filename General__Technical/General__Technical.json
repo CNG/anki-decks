@@ -398,7 +398,7 @@
                     "fields": [
                         "grep --quiet", 
                         "grep", 
-                        "long option", 
+                        "", 
                         "-q", 
                         "--quiet", 
                         "grep --silent", 
@@ -671,11 +671,11 @@
                     "fields": [
                         "grep --recursive", 
                         "grep", 
-                        "", 
+                        "equivalent", 
                         "-(R|r)", 
                         "--recursive", 
-                        "", 
-                        "<div>Read all files under each directory, recursively; this is equivalent to the <code>-d recurse</code> option.</div>", 
+                        "grep -d recurse", 
+                        "<div>Read all files under each directory, recursively.</div>", 
                         "", 
                         ""
                     ], 
@@ -776,11 +776,11 @@
                     "fields": [
                         "grep -I", 
                         "grep", 
-                        "", 
+                        "equivalent", 
                         "-I", 
                         "", 
-                        "", 
-                        "<div>Process a binary file as if it did not contain matching data; this is equivalent to the <code>--binary-files=without-match</code> option. </div>", 
+                        "grep&nbsp;--binary-files=without-match", 
+                        "<div>Process a binary file as if it did not contain matching data. </div>", 
                         "", 
                         ""
                     ], 
@@ -1187,6 +1187,7 @@
                     "guid": "d?)b{vXK-%", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
+                        "marked", 
                         "rsync"
                     ]
                 }, 
@@ -2164,27 +2165,6 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "rsync --del", 
-                        "rsync", 
-                        "", 
-                        "", 
-                        "--del", 
-                        "", 
-                        "an alias for <code>--delete-during</code>", 
-                        "", 
-                        ""
-                    ], 
-                    "flags": 0, 
-                    "guid": "tpN9vATQPF", 
-                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-                    "tags": [
-                        "rsync"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
                         "rsync --delete", 
                         "rsync", 
                         "", 
@@ -2229,10 +2209,10 @@
                     "fields": [
                         "rsync --delete-during", 
                         "rsync", 
-                        "", 
+                        "alias", 
                         "", 
                         "--delete-during", 
-                        "", 
+                        "rsync --del", 
                         "receiver deletes during the transfer", 
                         "", 
                         ""
@@ -2831,7 +2811,6 @@
                     "guid": "pK|Q*>j?8{", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "marked", 
                         "rsync"
                     ]
                 }, 
@@ -2971,7 +2950,7 @@
                         "-F", 
                         "", 
                         "", 
-                        "<p>same as <code>--filter='dir-merge /.rsync-filter'</code></p>\n<p>The <code>-F</code> option is a shorthand for adding two <code>--filter</code> rules to your command. The first time it is used is a shorthand for this rule: <code>CW --filter='dir-merge /.rsync-filter'</code><br />\nThis tells rsync to look for per-directory <code>.rsync-filter</code> files that have been sprinkled through the hierarchy and use their rules to filter the files in the transfer.</p>\n<p>If <code>-F</code> is repeated, it is a shorthand for this rule: <code>CW --filter='exclude .rsync-filter'</code><br />\nThis filters out the <code>.rsync-filter</code> files themselves from the transfer.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTYyMTQ4NzEsICJpZCI6ICIxNDk0Mzk1MDAwMzIxLTAwNiIsICJtZCI6ICJzYW1lIGFzIGAtLWZpbHRlcj0mYXBvcztkaXItbWVyZ2UgLy5yc3luYy1maWx0ZXImYXBvcztgXG4gIFxuVGhlIGAtRmAgb3B0aW9uIGlzIGEgc2hvcnRoYW5kIGZvciBhZGRpbmcgdHdvIGAtLWZpbHRlcmAgcnVsZXMgdG8geW91ciBjb21tYW5kLiBUaGUgZmlyc3QgdGltZSBpdCBpcyB1c2VkIGlzIGEgc2hvcnRoYW5kIGZvciB0aGlzIHJ1bGU6IGBDVyAtLWZpbHRlcj0mYXBvcztkaXItbWVyZ2UgLy5yc3luYy1maWx0ZXImYXBvcztgXG5UaGlzIHRlbGxzIHJzeW5jIHRvIGxvb2sgZm9yIHBlci1kaXJlY3RvcnkgYC5yc3luYy1maWx0ZXJgIGZpbGVzIHRoYXQgaGF2ZSBiZWVuIHNwcmlua2xlZCB0aHJvdWdoIHRoZSBoaWVyYXJjaHkgYW5kIHVzZSB0aGVpciBydWxlcyB0byBmaWx0ZXIgdGhlIGZpbGVzIGluIHRoZSB0cmFuc2Zlci5cbiAgXG5JZiBgLUZgIGlzIHJlcGVhdGVkLCBpdCBpcyBhIHNob3J0aGFuZCBmb3IgdGhpcyBydWxlOiBgQ1cgLS1maWx0ZXI9JmFwb3M7ZXhjbHVkZSAucnN5bmMtZmlsdGVyJmFwb3M7YFxuVGhpcyBmaWx0ZXJzIG91dCB0aGUgYC5yc3luYy1maWx0ZXJgIGZpbGVzIHRoZW1zZWx2ZXMgZnJvbSB0aGUgdHJhbnNmZXIuXG4ifQ==---->", 
+                        "<p>The first time it is used is a shorthand for this rule: <code>--filter='dir-merge /.rsync-filter'</code><br />\nThis tells rsync to look for per-directory <code>.rsync-filter</code> files that have been sprinkled through the hierarchy and use their rules to filter the files in the transfer.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTcxNDM0NTUsICJpZCI6ICIxNDk0Mzk1MDAwMzIxLTAwNiIsICJtZCI6ICJUaGUgZmlyc3QgdGltZSBpdCBpcyB1c2VkIGlzIGEgc2hvcnRoYW5kIGZvciB0aGlzIHJ1bGU6IGAtLWZpbHRlcj0mYXBvcztkaXItbWVyZ2UgLy5yc3luYy1maWx0ZXImYXBvcztgXG5UaGlzIHRlbGxzIHJzeW5jIHRvIGxvb2sgZm9yIHBlci1kaXJlY3RvcnkgYC5yc3luYy1maWx0ZXJgIGZpbGVzIHRoYXQgaGF2ZSBiZWVuIHNwcmlua2xlZCB0aHJvdWdoIHRoZSBoaWVyYXJjaHkgYW5kIHVzZSB0aGVpciBydWxlcyB0byBmaWx0ZXIgdGhlIGZpbGVzIGluIHRoZSB0cmFuc2Zlci5cbiJ9---->", 
                         "", 
                         ""
                     ], 
@@ -4043,7 +4022,7 @@
                         "", 
                         "--newer-mtime <u>date</u>", 
                         "", 
-                        "<b><code>c</code>/<code>r</code>/<code>u</code>&nbsp;mode:</b>&nbsp;Like <code>--newer</code>, except it compares <i>mtime</i> entries instead of <i>ctime</i> entries.", 
+                        "<b><code>c</code>/<code>r</code>/<code>u</code>&nbsp;mode:</b>&nbsp;Like <code><strike>--newer</strike></code>, except it compares <i>mtime</i> entries instead of <i>ctime</i> entries.", 
                         "", 
                         ""
                     ], 
@@ -4589,7 +4568,7 @@
                         "-H", 
                         "", 
                         "", 
-                        "Cause the file information and file type (see <code>stat</code>(2)) returned for each symbolic link specified on the command line to be those of the file referenced by the link, not the link itself.  If the referenced file does not exist, the file information and type will be for the link itself.  File information of all symbolic links not on the command line is that of the link itself.", 
+                        "<div><b>command line symlinks as references, other symlinks as files</b></div><div><br /></div>Cause the file information and file type (see <code>stat</code>(2)) returned for each symbolic link specified on the command line to be those of the file referenced by the link, not the link itself.  If the referenced file does not exist, the file information and type will be for the link itself.  File information of all symbolic links not on the command line is that of the link itself.", 
                         "", 
                         ""
                     ], 
@@ -4606,11 +4585,11 @@
                     "fields": [
                         "find -L", 
                         "find", 
-                        "", 
+                        "deprecated equivalent primary", 
                         "-L", 
                         "", 
-                        "", 
-                        "<div>Cause the file information and file type (see <code>stat</code>(2)) returned for each symbolic link to be those of the file referenced by the link, not the link itself.  If the referenced file does not exist, the file information and type will be for the link itself.</div><div>This option is equivalent to the deprecated <code>-follow</code> primary.</div>", 
+                        "find&nbsp;-follow", 
+                        "<div><b>all symlinks as references</b></div><div><br /></div><div>Cause the file information and file type (see <code>stat</code>(2)) returned for each symbolic link to be those of the file referenced by the link, not the link itself.  If the referenced file does not exist, the file information and type will be for the link itself.</div>", 
                         "", 
                         ""
                     ], 
@@ -4631,7 +4610,7 @@
                         "-P", 
                         "", 
                         "", 
-                        "Cause the file information and file type (see <code>stat</code>(2)) returned for each symbolic link to be those of the link itself.  This is the default.", 
+                        "<div><b>all symlinks as files</b></div><div><br /></div>Cause the file information and file type (see <code>stat</code>(2)) returned for each symbolic link to be those of the link itself.  This is the default.", 
                         "", 
                         ""
                     ], 
@@ -4652,7 +4631,7 @@
                         "-X", 
                         "", 
                         "", 
-                        "<div>Permit find to be safely used in conjunction with xargs(1).  If a file name contains any of the delimiting characters used by xargs(1), a diagnostic message is displayed on standard error, and the file is skipped.  The delimiting characters include single <code>'</code> and double <code>\"</code> quotes, backslash <code>\\</code>, space, tab and newline characters.</div><div>However, you may wish to consider the <code>-print0</code> primary in conjunction with <code>xargs -0</code> as an effective alternative.</div>", 
+                        "<div>Permit find to be safely used in conjunction with <code>xargs</code>.  If a file name contains any of the delimiting characters used by <code>xargs</code>, a diagnostic message is displayed on standard error, and the file is skipped.  The delimiting characters include single <code>'</code> and double <code>\"</code> quotes, backslash <code>\\</code>, space, tab and newline characters.</div><div>However, you may wish to consider the <code>-print0</code> primary in conjunction with <code>xargs -0</code> as an effective alternative.</div>", 
                         "", 
                         ""
                     ], 
@@ -4673,7 +4652,7 @@
                         "-d", 
                         "", 
                         "", 
-                        "<div>Cause find to perform a depth-first traversal, i.e., directories are visited in post-order and all entries in a directory will be acted on before the directory itself.  By default, find visits directories in pre-order, i.e., before their contents.  Note, the default is not a breadth-first traversal.</div><div>This option is equivalent to the <code>-depth</code> primary of IEEE Std 1003.1-2001 (<code>POSIX.1</code>).  The <code>-d</code> option can be useful when find is used with <code>cpio</code>(1) to process files that are contained in directories with unusual permissions.  It ensures that you have write permission while you are placing files in a directory, then sets the directory's permissions as the last thing.</div>", 
+                        "<div>Cause find to perform a depth-first traversal, i.e., directories are visited in post-order and all entries in a directory will be acted on before the directory itself.  By default, find visits directories in pre-order, i.e., before their contents.  Note, the default is not a breadth-first traversal.</div><div>This option is equivalent to the <code>-depth</code> primary of IEEE Std 1003.1-2001 (<code>POSIX.1</code>).  This&nbsp;option can be useful when <code>find</code> is used with <code>cpio</code>&nbsp;to process files that are contained in directories with unusual permissions.  It ensures that you have write permission while you are placing files in a directory, then sets the directory's permissions as the last thing.</div>", 
                         "", 
                         ""
                     ], 
@@ -4942,7 +4921,7 @@
                     "fields": [
                         "diff --context", 
                         "diff", 
-                        "short option", 
+                        "", 
                         "-c&nbsp;<u>NUM</u>", 
                         "--context[=<u>NUM</u>]", 
                         "-C <u>NUM</u>", 
@@ -4963,7 +4942,7 @@
                     "fields": [
                         "diff --unified", 
                         "diff", 
-                        "short option", 
+                        "", 
                         "-u&nbsp;<u>NUM</u>", 
                         "--unified[=<u>NUM</u>]", 
                         "-U <u>NUM</u>", 
@@ -5249,7 +5228,8 @@
                     "guid": "E=]^l&V3I9", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "diff"
+                        "diff", 
+                        "marked"
                     ]
                 }, 
                 {
@@ -5270,7 +5250,8 @@
                     "guid": "b5}+oxWK^z", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "diff"
+                        "diff", 
+                        "marked"
                     ]
                 }, 
                 {
@@ -5914,7 +5895,7 @@
                         "", 
                         "", 
                         "-d", 
-                        "Same as depth.  GNU <code>find</code> implements this as a primary in mistaken emulation of FreeBSD <code>find</code>(1).", 
+                        "Same as <code>-depth</code>.  <b>GNU</b> <code>find</code> implements this as a primary in mistaken emulation of <b>FreeBSD</b> <code>find</code>.", 
                         "", 
                         ""
                     ], 
@@ -8056,7 +8037,8 @@
                     "guid": "yN^?qwRs<M", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "bash"
+                        "bash", 
+                        "marked"
                     ]
                 }, 
                 {
@@ -10124,9 +10106,9 @@
                         "Bourne Shell builtin", 
                         "", 
                         "", 
-                        "continue", 
+                        "continue&nbsp;[<var>n</var>]", 
                         "<p>Resume the next iteration of an enclosing <code>for</code>, <code>while</code>, <code>until</code>, or <code>select</code> loop. If <var>n</var> is supplied, the execution of the <var>n</var>th enclosing loop is resumed.<var>n</var> must be greater than or equal to 1. The return status is zero unless <var>n</var> is not greater than or equal to 1.</p>", 
-                        "continue [<var>n</var>]", 
+                        "", 
                         ""
                     ], 
                     "flags": 0, 
@@ -10230,8 +10212,8 @@
                         "", 
                         "", 
                         "getopts", 
-                        "<p><code><strike>getopts</strike></code> is used by shell scripts to parse positional parameters.&nbsp;<var>optstring</var> contains the option characters to be recognized; if a character is followed by a colon, the option is expected to have an argument, which should be separated from it by whitespace. The colon (<samp>:</samp>) and question mark (<samp>?</samp>) may not be used as option characters. Each time it is invoked,&nbsp;<strike><code>getopts</code></strike>&nbsp;places the next option in the shell variable <var>name</var>, initializing <var>name</var> if it does not exist, and the index of the next argument to be processed into the variable <code>OPTIND</code>.&nbsp;<code>OPTIND</code> is initialized to 1 each time the shell or a shell script is invoked. When an option requires an argument,&nbsp;<strike><code>getopts</code></strike>&nbsp;places that argument into the variable <code>OPTARG</code>. The shell does not reset <code>OPTIND</code> automatically; it must be manually reset between multiple calls to&nbsp;<strike><code>getopts</code></strike>&nbsp;within the same shell invocation if a new set of parameters is to be used.</p><p>When the end of options is encountered,&nbsp;<strike><code>getopts</code></strike>&nbsp;exits with a return value greater than zero.&nbsp;<code>OPTIND</code> is set to the index of the first non-option argument, and <var>name</var> is set to <samp>?</samp>.</p><p><code>getopts</code> normally parses the positional parameters, but if more arguments are given in <var>args</var>,&nbsp;<strike><code>getopts</code></strike>&nbsp;parses those instead.</p><p><strike><code>getopts</code></strike>&nbsp;can report errors in two ways.  If the first character of <var>optstring</var> is a colon, <var>silent</var> error reporting is used.  In normal operation, diagnostic messages are printed when invalid options or missing option arguments are encountered. If the variable <code>OPTERR</code> is set to 0, no error messages will be displayed, even if the first character of <code>optstring</code> is not a colon.</p><p>If an invalid option is seen,&nbsp;<strike><code>getopts</code></strike>&nbsp;places <samp>?</samp>&nbsp;into <var>name</var> and, if not silent, prints an error message and unsets <code>OPTARG</code>. If&nbsp;<strike><code>getopts</code></strike>&nbsp;is silent, the option character found is placed in <code>OPTARG</code> and no diagnostic message is printed.</p><p>If a required argument is not found, and&nbsp;<strike><code>getopts</code></strike>&nbsp;is not silent, a question mark (<samp>?</samp>) is placed in <var>name</var>, <code>OPTARG</code> is unset, and a diagnostic message is printed. If&nbsp;<strike><code>getopts</code></strike>&nbsp;is silent, then a colon (<samp>:</samp>) is placed in <var>name</var> and <code>OPTARG</code> is set to the option character found.</p>", 
-                        "getopts <var>optstring</var><var>name</var> [<var>args</var>]", 
+                        "<p><code><strike>getopts</strike></code> is used by shell scripts to parse positional parameters.&nbsp;</p>", 
+                        "<code>getopts optstringname [args]</code><br /><div><br /></div><div><br /></div><div><p><var>optstring</var>&nbsp;contains the option characters to be recognized; if a character is followed by a colon, the option is expected to have an argument, which should be separated from it by whitespace. The colon (<samp>:</samp>) and question mark (<samp>?</samp>) may not be used as option characters. Each time it is invoked,&nbsp;<strike><code>getopts</code></strike>&nbsp;places the next option in the shell variable&nbsp;<var>name</var>, initializing&nbsp;<var>name</var>&nbsp;if it does not exist, and the index of the next argument to be processed into the variable&nbsp;<code>OPTIND</code>.&nbsp;<code>OPTIND</code>&nbsp;is initialized to 1 each time the shell or a shell script is invoked. When an option requires an argument,&nbsp;<strike><code>getopts</code></strike>&nbsp;places that argument into the variable&nbsp;<code>OPTARG</code>. The shell does not reset&nbsp;<code>OPTIND</code>&nbsp;automatically; it must be manually reset between multiple calls to&nbsp;<strike><code>getopts</code></strike>&nbsp;within the same shell invocation if a new set of parameters is to be used.</p><p>When the end of options is encountered,&nbsp;<strike><code>getopts</code></strike>&nbsp;exits with a return value greater than zero.&nbsp;<code>OPTIND</code>&nbsp;is set to the index of the first non-option argument, and&nbsp;<var>name</var>&nbsp;is set to&nbsp;<samp>?</samp>.</p><p><code>getopts</code>&nbsp;normally parses the positional parameters, but if more arguments are given in&nbsp;<var>args</var>,&nbsp;<strike><code>getopts</code></strike>&nbsp;parses those instead.</p><p><strike><code>getopts</code></strike>&nbsp;can report errors in two ways. If the first character of&nbsp;<var>optstring</var>&nbsp;is a colon,&nbsp;<var>silent</var>&nbsp;error reporting is used. In normal operation, diagnostic messages are printed when invalid options or missing option arguments are encountered. If the variable&nbsp;<code>OPTERR</code>&nbsp;is set to 0, no error messages will be displayed, even if the first character of&nbsp;<code>optstring</code>&nbsp;is not a colon.</p><p>If an invalid option is seen,&nbsp;<strike><code>getopts</code></strike>&nbsp;places&nbsp;<samp>?</samp>&nbsp;into&nbsp;<var>name</var>&nbsp;and, if not silent, prints an error message and unsets&nbsp;<code>OPTARG</code>. If&nbsp;<strike><code>getopts</code></strike>&nbsp;is silent, the option character found is placed in&nbsp;<code>OPTARG</code>&nbsp;and no diagnostic message is printed.</p><p>If a required argument is not found, and&nbsp;<strike><code>getopts</code></strike>&nbsp;is not silent, a question mark (<samp>?</samp>) is placed in&nbsp;<var>name</var>,&nbsp;<code>OPTARG</code>&nbsp;is unset, and a diagnostic message is printed. If&nbsp;<strike><code>getopts</code></strike>&nbsp;is silent, then a colon (<samp>:</samp>) is placed in&nbsp;<var>name</var>&nbsp;and&nbsp;<code>OPTARG</code>&nbsp;is set to the option character found.</p></div>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -10377,8 +10359,8 @@
                         "", 
                         "", 
                         "trap", 
-                        "<p>The commands in <var>arg</var> are to be read and executed when the shell receives signal <var>sigspec</var>.  If <var>arg</var> is absent (and there is a single <var>sigspec</var>) or equal to ‘<samp>-</samp>’, each specified signal’s disposition is reset to the value it had when the shell was started. If <var>arg</var> is the null string, then the signal specified by each <var>sigspec</var> is ignored by the shell and commands it invokes. If <var>arg</var> is not present and <samp>-p</samp> has been supplied, the shell displays the trap commands associated with each <var>sigspec</var>. If no arguments are supplied, or only <samp>-p</samp> is given, <code>___</code> prints the list of commands associated with each signal number in a form that may be reused as shell input. The <samp>-l</samp> option causes the shell to print a list of signal names and their corresponding numbers. Each <var>sigspec</var> is either a signal name or a signal number. Signal names are case insensitive and the <code>SIG</code> prefix is optional.</p><p>If a <var>sigspec</var> is <code>0</code> or <code>EXIT</code>, <var>arg</var> is executed when the shell exits. If a <var>sigspec</var> is <code>DEBUG</code>, the command <var>arg</var> is executed before every simple command, <code>for</code> command, <code>case</code> command, <code>select</code> command, every arithmetic <code>for</code> command, and before the first command executes in a shell function. Refer to the description of the <code>extdebug</code> option to the <code>shopt</code> builtin for details of its effect on the <code>DEBUG</code> trap. If a <var>sigspec</var> is <code>RETURN</code>, the command <var>arg</var> is executed each time a shell function or a script executed with the <code>.</code> or <code>source</code> builtins finishes executing.</p><p>If a <var>sigspec</var> is <code>ERR</code>, the command <var>arg</var>  is executed whenever a pipeline (which may consist of a single simple command), a list, or a compound command returns a non-zero exit status, subject to the following conditions. The <code>ERR</code> trap is not executed if the failed command is part of the command list immediately following an <code>until</code> or <code>while</code> keyword, part of the test following the <code>if</code> or <code>elif</code> reserved words, part of a command executed in a <code>&amp;&amp;</code> or <code>||</code> list except the command following the final <code>&amp;&amp;</code> or <code>||</code>, any command in a pipeline but the last, or if the command’s return status is being inverted using <code>!</code>. These are the same conditions obeyed by the <code>errexit</code> (<samp>-e</samp>) option.</p><p>Signals ignored upon entry to the shell cannot be trapped or reset. Trapped signals that are not being ignored are reset to their original values in a subshell or subshell environment when one is created.</p><p>The return status is zero unless a <var>sigspec</var> does not specify a valid signal.</p>", 
-                        "trap [-lp] [<var>arg</var>] [<var>sigspec</var> &hellip;]", 
+                        "<p>The commands in <var>arg</var> are to be read and executed when the shell receives signal <var>sigspec</var>.  If <var>arg</var> is absent (and there is a single <var>sigspec</var>) or equal to ‘<samp>-</samp>’, each specified signal’s disposition is reset to the value it had when the shell was started. If <var>arg</var> is the null string, then the signal specified by each <var>sigspec</var> is ignored by the shell and commands it invokes. If <var>arg</var> is not present and <samp>-p</samp> has been supplied, the shell displays the trap commands associated with each <var>sigspec</var>. If no arguments are supplied, or only <samp>-p</samp> is given, <code>___</code> prints the list of commands associated with each signal number in a form that may be reused as shell input. The <samp>-l</samp> option causes the shell to print a list of signal names and their corresponding numbers. Each <var>sigspec</var> is either a signal name or a signal number. Signal names are case insensitive and the <code>SIG</code> prefix is optional.</p>", 
+                        "<code>trap [-lp] [arg] [sigspec …]</code><br /><div><br /></div><div><p>If a&nbsp;<var>sigspec</var>&nbsp;is&nbsp;<code>0</code>&nbsp;or&nbsp;<code>EXIT</code>,&nbsp;<var>arg</var>&nbsp;is executed when the shell exits. If a&nbsp;<var>sigspec</var>&nbsp;is&nbsp;<code>DEBUG</code>, the command&nbsp;<var>arg</var>&nbsp;is executed before every simple command,&nbsp;<code>for</code>&nbsp;command,&nbsp;<code>case</code>&nbsp;command,&nbsp;<code>select</code>&nbsp;command, every arithmetic&nbsp;<code>for</code>&nbsp;command, and before the first command executes in a shell function. Refer to the description of the&nbsp;<code>extdebug</code>&nbsp;option to the&nbsp;<code>shopt</code>&nbsp;builtin for details of its effect on the&nbsp;<code>DEBUG</code>&nbsp;trap. If a&nbsp;<var>sigspec</var>&nbsp;is&nbsp;<code>RETURN</code>, the command&nbsp;<var>arg</var>&nbsp;is executed each time a shell function or a script executed with the&nbsp;<code>.</code>&nbsp;or&nbsp;<code>source</code>&nbsp;builtins finishes executing.</p><p>If a&nbsp;<var>sigspec</var>&nbsp;is&nbsp;<code>ERR</code>, the command&nbsp;<var>arg</var>&nbsp;is executed whenever a pipeline (which may consist of a single simple command), a list, or a compound command returns a non-zero exit status, subject to the following conditions. The&nbsp;<code>ERR</code>&nbsp;trap is not executed if the failed command is part of the command list immediately following an&nbsp;<code>until</code>&nbsp;or&nbsp;<code>while</code>&nbsp;keyword, part of the test following the&nbsp;<code>if</code>&nbsp;or&nbsp;<code>elif</code>&nbsp;reserved words, part of a command executed in a&nbsp;<code>&amp;&amp;</code>&nbsp;or&nbsp;<code>||</code>&nbsp;list except the command following the final&nbsp;<code>&amp;&amp;</code>&nbsp;or&nbsp;<code>||</code>, any command in a pipeline but the last, or if the command’s return status is being inverted using&nbsp;<code>!</code>. These are the same conditions obeyed by the&nbsp;<code>errexit</code>&nbsp;(<samp>-e</samp>) option.</p><p>Signals ignored upon entry to the shell cannot be trapped or reset. Trapped signals that are not being ignored are reset to their original values in a subshell or subshell environment when one is created.</p><p>The return status is zero unless a&nbsp;<var>sigspec</var>&nbsp;does not specify a valid signal.</p></div>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -18531,6 +18513,22 @@
                     "tags": [
                         "tar"
                     ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "extended attributes", 
+                        "       Extended attributes are <code>name:value</code> pairs associated permanently with\n       files and directories, similar to the environment strings associated\n       with a process.  An attribute may be defined or undefined.  If it is\n       defined, its value may be empty or non-empty.<div><br /></div><div>Extended attributes are extensions to the normal attributes which are\n       associated with all inodes in the system (i.e., the <code>stat</code> data).\n       They are often used to provide additional functionality to a\n       filesystem—for example, additional security features such as Access\n       Control Lists (ACLs) may be implemented using extended attributes.\n\n       Users with search access to a file or directory may use <code>listxattr</code>&nbsp;to retrieve a list of attribute names defined for that file or\n       directory.\n\n       Extended attributes are accessed as atomic objects.  Reading\n       (<code>getxattr</code>) retrieves the whole value of an attribute and stores it\n       in a buffer.  Writing (<code>setxattr</code>) replaces any previous value with\n       the new value.\n\n       Space consumed for extended attributes may be counted towards the\n       disk quotas of the file owner and file group.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Bg_d+T!5-w", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
                 }
             ]
         }, 
@@ -18544,7 +18542,7 @@
                     "deck_config_uuid": "a69e3016-6d5b-11e6-adf3-8c705a50cbf0", 
                     "desc": "Please see the <a href='https://ankiweb.net/shared/info/2107904924'>shared deck page</a> for more info.", 
                     "dyn": 0, 
-                    "extendNew": 10, 
+                    "extendNew": 9, 
                     "extendRev": 50, 
                     "media_files": [], 
                     "mid": 1408638528289, 
@@ -23577,7 +23575,7 @@
                     "data": "", 
                     "fields": [
                         "regex: what anchor <code>\\b</code> matches", 
-                        "This metacharacter&nbsp;matches at a position that is called a \"word boundary\". This match is zero-length.<div><br /></div><div>Exactly which characters are word characters depends on the regex flavor you're working with. In most flavors, characters that are matched by the short-hand character class <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt> are the characters that are treated as word characters by word boundaries. Java is an exception. Java supports Unicode for this metacharacter&nbsp;but not for <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt>. <p>Most flavors, except the ones discussed below, have only one metacharacter that matches both before a word and after a word. This is because any position between characters can never be both at the start and at the end of a word. Using only one operator makes things easier for you.</p></div>", 
+                        "This metacharacter&nbsp;matches at a position that is called a \"word boundary\". This match is zero-length.<div><br /></div><div>Exactly which characters are word characters depends on the regex flavor you're working with. In most flavors, characters that are matched by the short-hand character class <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt> are the characters that are treated as word characters by word boundaries. Java is an exception. <b>Java</b> supports Unicode for this metacharacter&nbsp;but not for <tt class=\"code\"><span class=\"regexspecial\">\\w</span></tt>.</div>", 
                         "Since digits are considered to be word characters,&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\b</span><span class=\"regexplain\">4</span><span class=\"regexspecial\">\\b</span></tt>&nbsp;can be used to match a 4 that is not part of a larger number. This regex does not match&nbsp;<tt class=\"string\">44 sheets of a4</tt>. So saying \"<tt class=\"code\"><span class=\"regexspecial\">\\b</span></tt>&nbsp;matches before and after an alphanumeric sequence\" is more exact than saying \"before and after a word\".<div><p><b>Exception</b></p><p>In Tcl,&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\b</span></tt>&nbsp;matches a backspace character, just like&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\x08</span></tt>&nbsp;in most regex flavors (including Tcl's).&nbsp;<tt class=\"code\"><span class=\"regexspecial\">\\B</span></tt>&nbsp;matches a single backslash character in Tcl, just like&nbsp;<tt class=\"code\"><span class=\"regexescaped\">\\\\</span></tt>&nbsp;in all other regex flavors (and Tcl too).</p></div>", 
                         "reverse", 
                         "", 
@@ -24165,6 +24163,24 @@
                     "guid": "l60RoUDPv)", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Why most regex flavors don't have anchors for both start and end of word", 
+                        "Any position between characters can never be both at the start and at the end of a word. Using only one operator makes things easier.", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "o&gK}]CV64", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "regex"
+                    ]
                 }
             ]
         }, 
@@ -25858,7 +25874,7 @@
                     "data": "", 
                     "fields": [
                         "HTML element <code>&lt;rtc&gt;</code>", 
-                        "<small>HTML inline text semantics element</small><br />embraces <b>semantic annotations</b> of characters presented in a ruby of <code>&lt;rb&gt;</code> elements used inside of <code>&lt;ruby&gt;</code> element. <code>&lt;rb&gt;</code> elements can have both pronunciation (<code>&lt;rt&gt;</code>) and semantic (<code>&lt;rtc&gt;</code>) annotations", 
+                        "<small>HTML inline text semantics element</small><br />embraces <b>semantic annotations</b> of characters presented in a ruby of <code>&lt;rb&gt;</code> elements used inside of <code>&lt;ruby&gt;</code> element. <code>&lt;rb&gt;</code> elements can have both pronunciation&nbsp;and semantic&nbsp;annotations", 
                         "<h2>Attributes</h2> <p>This element only includes the global attributes.</p> <h2>Example</h2> <pre><code>&lt;ruby&gt;    &lt;rb&gt;旧&lt;/rb&gt;    &lt;rb&gt;金&lt;/rb&gt;    &lt;rb&gt;山&lt;/rb&gt;    &lt;rt&gt;jiù&lt;/rt&gt;    &lt;rt&gt;jīn&lt;/rt&gt;    &lt;rt&gt;shān&lt;/rt&gt;    &lt;rtc&gt;San Francisco&lt;/rtc&gt; &lt;/ruby&gt;</code></pre>", 
                         "reverse", 
                         "", 
@@ -27661,7 +27677,7 @@
                     "qfmt": "{{#description}}\n{{#command only}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<var class=\"q\">command</var>\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/command only}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{short option}}</mark></small></code>\n{{#long option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> <small><em>{{long option}}</em></small></code>{{/long option}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{short option}}</mark></small></code>\n{{#long option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> <small><em>{{long option}}</em></small></code>{{/long option}}\n{{#extra}}(<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}:</small> <mark><code>{{extra}}</code></mark>){{/extra}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -27670,7 +27686,7 @@
                     "qfmt": "{{#description}}\n{{#short option}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<code><em>{{command}}</em> </code><small><var class=\"q\">{{#long option}}short {{/long option}}option</var></small>\n{{#long option}}<br><small><em><code>&nbsp;</code></em></small>{{/long option}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/short option}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{long option}}</mark></small></code>\n{{#short option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> <em><small>{{short option}}</small></em></code>{{/short option}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{long option}}</mark></small></code>\n{{#short option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> <em><small>{{short option}}</small></em></code>{{/short option}}\n{{#extra}}(<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}:</small> <mark><code>{{extra}}</code></mark>){{/extra}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -27706,7 +27722,7 @@
                     "qfmt": "{{#extra}}\n{{#long option}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n{{#command}}<mark><code>{{command}}</code></mark>{{/command}}\n<small>\n<code><mark>{{long option}}</mark></code>\n=\n<var class=\"q\">{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</var>\n</small>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/long option}}\n{{/extra}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em><small> <mark>{{short option}}</mark></small></code>\n{{#long option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em><small> <cite>{{long option}}</cite></code></small>{{/long option}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em><small> <mark>{{short option}}</mark></small></code>\n{{#long option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em><small> <cite>{{long option}}</cite></code></small>{{/long option}}\n{{#extra}}(<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}:</small> <mark><code>{{extra}}</code></mark>){{/extra}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -27724,7 +27740,7 @@
                     "qfmt": "{{#description}}\n{{#command only}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark><code>{{command}}</code></mark>\n</section>\n\n<section>\n<blockquote><var class=\"q\">description</var></blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/command only}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{short option}}</mark></small></code>\n{{#long option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> </code><small><em><code>{{long option}}</code></em></small>{{/long option}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{short option}}</mark></small></code>\n{{#long option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> </code><small><em><code>{{long option}}</code></em></small>{{/long option}}\n{{#extra}}(<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}:</small> <mark><code>{{extra}}</code></mark>){{/extra}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -27733,7 +27749,7 @@
                     "qfmt": "{{#description}}\n{{#short option}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{short option}}</mark></small></code>\n{{#long option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> </code><small><em><code>&nbsp;</code></em></small>{{/long option}}\n</section>\n\n<section>\n<blockquote><var class=\"q\">description</var></blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/short option}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{long option}}</mark></small></code>\n{{#short option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> </code><small><em><code>{{short option}}</code></em></small>{{/short option}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{long option}}</mark></small></code>\n{{#short option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> </code><small><em><code>{{short option}}</code></em></small>{{/short option}}\n{{#extra}}(<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}:</small> <mark><code>{{extra}}</code></mark>){{/extra}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -27751,25 +27767,25 @@
                     "qfmt": "{{#description}}\n{{#extra}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<em>\n<code>{{command}}</code>\n{{#short option}}<code><small>{{short option}}</small></code>{{/short option}}\n{{^short option}}{{#long option}}<code><small>{{long option}}</small></code>{{/long option}}{{/short option}}\n</em>\n<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</small>\n<mark><code>{{extra}}</code></mark>\n</section>\n\n<section>\n<blockquote><var class=\"q\">description</var></blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/extra}}\n{{/description}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<mark><code>{{extra}}</code></mark>\n<small>=</small>\n{{#command}}<cite><code>{{command}}</code></cite>{{/command}}\n<small><cite><code>{{short option}}</code></cite></small>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<mark><code>{{extra}}</code></mark>\n<small>is {{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}} of</small>\n{{#command}}<cite><code>{{command}}</code></cite>{{/command}}\n<small><cite><code>{{short option}}</code></cite></small>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "extra -", 
                     "ord": 11, 
-                    "qfmt": "{{#extra}}\n{{#short option}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark><code>{{extra}}</code></mark>\n<small>\n=\n<var class=\"q\">{{#long option}}short {{/long option}}{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</var>\n</small>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/short option}}\n{{/extra}}\n"
+                    "qfmt": "{{#extra}}\n{{#short option}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark><code>{{extra}}</code></mark>\n<small>\nis {{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}} of\n<var class=\"q\">{{#long option}}short{{/long option}} option</var>\n</small>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/short option}}\n{{/extra}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<mark><code>{{extra}}</code></mark>\n<small>=</small>\n{{#command}}<cite><code>{{command}}</code></cite>{{/command}}\n<small><cite><code>{{long option}}</code></cite></small>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<mark><code>{{extra}}</code></mark>\n<small>is {{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}} of</small>\n{{#command}}<cite><code>{{command}}</code></cite>{{/command}}\n<small><cite><code>{{long option}}</code></cite></small>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "extra --", 
                     "ord": 12, 
-                    "qfmt": "{{#extra}}\n{{#long option}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark><code>{{extra}}</code></mark>\n<small>\n=\n<var class=\"q\">{{#short option}}long {{/short option}}{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}</var>\n</small>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/long option}}\n{{/extra}}\n"
+                    "qfmt": "{{#extra}}\n{{#long option}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark><code>{{extra}}</code></mark>\n<small>\nis {{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}} of\n<var class=\"q\">{{#short option}}long{{/short option}} option</var>\n</small>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/long option}}\n{{/extra}}\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{long option}}</mark></small></code>\n{{#short option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> <small><cite>{{short option}}</cite></small></code>{{/short option}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<code><em>{{command}}</em> <small><mark>{{long option}}</mark></small></code>\n{{#short option}}<br><code><em style=\"visibility:hidden;\">{{command}}</em> <small><cite>{{short option}}</cite></small></code>{{/short option}}\n{{#extra}}(<small>{{#extra type}}{{extra type}}{{/extra type}}{{^extra type}}alias{{/extra type}}:</small> <mark><code>{{extra}}</code></mark>){{/extra}}\n</section>\n\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -27861,9 +27877,7 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "tar"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
