@@ -223,7 +223,8 @@
                     "guid": "Kx~V_L,TLw", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": [
-                        "herbs"
+                        "herbs", 
+                        "marked"
                     ]
                 }, 
                 {
@@ -530,7 +531,7 @@
                         "<img src=\"chives1.jpg\" />", 
                         "<img src=\"large_square_Chives__close.jpg\" />", 
                         "", 
-                        "Related to onions and other bulb vegetables, this herb looks a lot like \nlawn grass. Its deep-green hollow stems lend a refreshingly light oniony\n taste, which helps cut down on the heaviness of rich foods such as blue cheese and chive dressing and risotto cakes. When finely chopped, chives work well as a garnish.", 
+                        "Related to onions and other bulb vegetables, this herb looks a lot like \nlawn grass. Its deep-green hollow stems lend a refreshingly light oniony\n taste, which helps cut down on the heaviness of rich foods such as blue cheese and chive dressing and risotto cakes. When finely chopped, these work well as a garnish.", 
                         "", 
                         "http://www.epicurious.com/archive/seasonalcooking/farmtotable/visualguidefreshherbs"
                     ], 
@@ -635,7 +636,7 @@
                         "<img src=\"1200px-Thyme-Bundle.jpg\" />", 
                         "<img src=\"thyme_leaves.jpg\" />", 
                         "<img src=\"large_square_French_Select_Thyme__close.jpg\" />", 
-                        "The tiny leaves on this low-growing woody plant work best in tandem with\n other herbs and spices such as basil, sage, and lavender. Thyme is a \nmajor ingredient in the classic French flavoring herbes de Provence. And\n it plays a major role, next to parsley and bay leaf, in another blend \nof French herbs, bouquet garni, a crucial flavor component in broths, \nsoups, and stews. Thyme's importance in Middle Eastern cooking cannot be\n understated; along with oregano and marjoram, it is a crucial element \nin zaatar.\n This herbal blend is often used in flatbreads such as pita, as well as \nto flavor roasted meat and poultry. Like rosemary, recipes calling for \nthyme require you to strip the leaves off the woody stems. Using the \nentire herb infuses a headier scent and flavor.", 
+                        "The tiny leaves on this low-growing woody plant work best in tandem with\n other herbs and spices such as basil, sage, and lavender. It is a \nmajor ingredient in the classic French flavoring herbes de Provence. And\n it plays a major role, next to parsley and bay leaf, in another blend \nof French herbs, bouquet garni, a crucial flavor component in broths, \nsoups, and stews. Its importance in Middle Eastern cooking cannot be\n understated; along with oregano and marjoram, it is a crucial element \nin zaatar.\n This herbal blend is often used in flatbreads such as pita, as well as \nto flavor roasted meat and poultry. Like rosemary, recipes calling for \nit require you to strip the leaves off the woody stems. Using the \nentire herb infuses a headier scent and flavor.", 
                         "", 
                         "http://www.epicurious.com/archive/seasonalcooking/farmtotable/visualguidefreshherbs"
                     ], 
@@ -767,7 +768,7 @@
                 "tobiko-and-masago-colored-sushiFAQ-230low_000.jpg", 
                 "ricevinegar-230.jpg", 
                 "ahi-230.jpg", 
-                "glass-bowl-230.jpg", 
+                "Abura-age.jpg", 
                 "cucumber-roll-230.jpg", 
                 "unagi-260.jpg", 
                 "noritama-single-keywordsuggest.org-230low.jpg", 
@@ -779,9 +780,10 @@
                 "bakagai-orange-clam-cavemancircus.jpg", 
                 "nanami-togarashi-spiceworld-230_000.jpg", 
                 "daikon-beauty-goodeggs-230-low.jpg", 
-                "mirugai-clam-geoduck-oksfood-230low.jpg", 
+                "Kazunoko-herring-roe-re-discoveryjapan.net-230low.jpg", 
                 "Onigiri_at_an_onigiri_restaurant_by_zezebono_in_Tokyo.jpg", 
                 "gobo-230.jpg", 
+                "quail-egg-tobiko-gunkan-230.jpg", 
                 "sansho-szechuan-pepper-sanshodaiko.ca-230.jpg", 
                 "escolar-230_000.jpg", 
                 "ginger_root-JanSchone-230s.jpg", 
@@ -796,14 +798,14 @@
                 "toro-FOT2673291-230.jpg", 
                 "bonito-katsuo-web-japan.org-230low.jpg", 
                 "mackerel-shime-saba-naruto-mon.jp-230low.jpg", 
-                "Kazunoko-herring-roe-re-discoveryjapan.net-230low.jpg", 
                 "agari-dengonnet.net-230low.jpg", 
                 "yellow-arctic-surf-clam-pafco.net-230.jpg", 
                 "lotus-root-made-in-china.com-230.jpg", 
+                "mirugai-clam-geoduck-oksfood-230low.jpg", 
                 "oshizushi_mold_allaboutsushiguide-230low.jpg", 
                 "hamaguri-zush-justhungry-230-low.jpg", 
                 "riceball_230.jpg", 
-                "quail-egg-tobiko-gunkan-230.jpg", 
+                "glass-bowl-230.jpg", 
                 "susuhi-moriawase-appetiteforinstruction-230low.jpg", 
                 "green-iron-teapot-230.jpg", 
                 "tuna-naruto-okko-hiltonhead-230low.jpg", 
@@ -856,7 +858,7 @@
                     "fields": [
                         "abura bouzu", 
                         "abura sokomutsu", 
-                        "", 
+                        "<span class=\"st\">油坊主</span>", 
                         "", 
                         "", 
                         "", 
@@ -889,8 +891,8 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "aburage", 
-                        "", 
+                        "aburaage", 
+                        "<span style=\"\"><span xml:lang=\"ja\" lang=\"ja\">油揚げ</span></span>", 
                         "", 
                         "", 
                         "", 
@@ -900,7 +902,7 @@
                         "", 
                         "", 
                         "fried tofu pouches usually prepared by cooking in sweet cooking sake, shoyu, and dashi. used in various dishes, in miso shiru and for inari zushi.", 
-                        "", 
+                        "<img src=\"Abura-age.jpg\" />", 
                         "", 
                         "", 
                         "", 
@@ -1100,6 +1102,16 @@
                     "data": "", 
                     "fields": [
                         "aji-no-moto", 
+                        "味の素", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        "monosodium glutamate (MSG)", 
                         "", 
                         "", 
                         "", 
@@ -1109,18 +1121,8 @@
                         "", 
                         "", 
                         "", 
-                        "monosodium glutamate (msg).", 
                         "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
+                        "<p></p><p><b>Ajinomoto Co., Inc.</b> <span style=\"\">(<span xml:lang=\"ja\" lang=\"ja\">味の素株式会社</span><sup class=\"noprint\"><span style=\"color: #00e; font: bold 80% sans-serif; text-decoration: none; padding: 0 .1em;\">?</span></sup> <i>Ajinomoto Kabushiki-gaisha</i>)</span> is a Japanese food and chemical corporation which produces seasonings, cooking oils, TV dinners, sweeteners, amino acids, and pharmaceuticals. In particular it is the world's largest producer of aspartame, with a 40% global market share.<sup id=\"cite_ref-matsui2004_2-0\" class=\"reference\">[2]</sup> 25 October 2000</p>\n<p><i>AJI-NO-MOTO</i> <span style=\"font-weight: normal\">(<span class=\"t_nihongo_kanji\" xml:lang=\"ja\" lang=\"ja\">味の素</span>, \"essence of taste\")</span> is the trade name for the company’s original monosodium glutamate (MSG) product.<sup id=\"cite_ref-sand2005_3-0\" class=\"reference\">[3]</sup></p>\n<p>The company's head office is located in Chūō, Tokyo.<sup id=\"cite_ref-ajipr2004_4-0\" class=\"reference\">[4]</sup></p>\n<p><b>Ajinomoto</b> operates in 26 countries, employing around 27,518 people as of 2013.<sup id=\"cite_ref-financial_results_1-6\" class=\"reference\">[1]</sup> Its yearly revenue in the fiscal year of 2013 stands at around US$12 billion.</p><p>Ajinomoto main product, monosodium glutamate (MSG) seasoning, was first marketed in Japan in 1909, having been discovered and patented by Kikunae Ikeda. He found that the most important compound within seaweed broth for common use was actually a glutamate salt, which he identified with the taste <i>umami</i>,\n a word meaning 'pleasant taste' or 'savoriness'. As the simplest such \nsalt for human consumption, the popularity of MSG helped the company \nrapidly expand to other countries, with Ajinomoto U.S.A., Inc. \nestablished in 1956.<sup class=\"noprint Inline-Template Template-Fact\" style=\"white-space:nowrap;\">[<i><span title=\"This claim needs references to reliable sources. (April 2010)\">citation needed</span></i>]</sup></p>\n<p>Before the eventual publicity, the conglomerate was founded on \nIkeda's work: it was the first to suggest that industrially purified glutamic acid salts, residues or analogues, originally found in seaweed or dried fish-based broth,\n might have a characteristic taste of its own. That idea was rapidly \nconnected to the much older Japanese, culinary term of umami. This led \nto early adoption of MSG as a culinary agent in Japan.</p>", 
                         "http://www.sushifaq.com/sushi-sashimi-info/sushi-terminology/"
                     ], 
                     "flags": 0, 
@@ -1589,41 +1591,6 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "bonito", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "see katsuo (kah-tsoo-oh).", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "http://www.sushifaq.com/sushi-sashimi-info/sushi-terminology/"
-                    ], 
-                    "flags": 0, 
-                    "guid": "OYqzwzp$Iu", 
-                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-                    "tags": [
-                        "sushi"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
                         "buri", 
                         "", 
                         "", 
@@ -1879,7 +1846,7 @@
                         "", 
                         "", 
                         "", 
-                        "basic soup and cooking stock usually made from, or from a combination of iriko (dried anchovies), konbu (type of kelp) and katsuobushi (dried bonito flakes). however any form of stock can be called “dashi”.", 
+                        "basic soup and cooking stock usually made from, or from a combination of iriko (dried anchovies), konbu (type of kelp) and katsuobushi (dried bonito flakes). however any form of stock can be called this", 
                         "", 
                         "", 
                         "", 
@@ -3305,6 +3272,7 @@
                     "data": "", 
                     "fields": [
                         "katsuo", 
+                        "bonito", 
                         "", 
                         "", 
                         "", 
@@ -3313,8 +3281,7 @@
                         "", 
                         "", 
                         "", 
-                        "", 
-                        "bonito. it is usually found in sushi bars on the west coast because it lives in the pacific ocean, and doesn’t freeze very well. sometimes confused with skipjack tuna, which is incorrect as skipjack tuna is called “ha-gatsuo.”", 
+                        "it is usually found in sushi bars on the west coast because it lives in the pacific ocean, and doesn’t freeze very well. sometimes confused with skipjack tuna, which is incorrect as skipjack tuna is called “ha-gatsuo.”", 
                         "<p style=\"margin-top: 0; margin-bottom: 0\"><img src=\"bonito-katsuo-web-japan.org-230low.jpg\" /></p>", 
                         "", 
                         "", 
@@ -5414,7 +5381,7 @@
                         "", 
                         "", 
                         "", 
-                        "imitation crab meat (also called kamaboko (kah-mah-boh-koh)) usually made from pollack. generally used in california rolls and other maki, it’s not the same thing as “soft shell crab.” although “surimi” is used outside of japan, most japanese people use the term kani-kama, short for kani-kamaboko.", 
+                        "imitation crab meat (also called <b>kamaboko</b>) usually made from pollack. generally used in california rolls and other maki, it’s not the same thing as “soft shell crab.” although this term is used outside of japan, most japanese people use the term <b>kani-kama</b>, short for <b>kani-kamaboko</b>.", 
                         "<p align=\"justify\"><img src=\"kamaboko-c-cookasianfood-230low_000.jpg\" /></p>", 
                         "", 
                         "", 
@@ -6569,7 +6536,7 @@
                         "", 
                         "", 
                         "", 
-                        "A raw quail egg yolk is frequently served in a gunkan-maki (boat roll) atop crunchy tobiko, flying fish roe. The creamy egg yolk contrasted with the crunchy fish roe is considered a delicacy. Quail is uzura, egg is tamago.", 
+                        "A raw quail egg yolk is frequently served in a gunkan-maki (boat roll) atop crunchy tobiko, flying fish roe. The creamy egg yolk contrasted with the crunchy fish roe is considered a delicacy.", 
                         "<img src=\"quail-egg-tobiko-gunkan-230.jpg\" />", 
                         "", 
                         "", 
@@ -6909,7 +6876,7 @@
                 "ivlFct": 1.0, 
                 "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 10
+                "perDay": 30
             }, 
             "timer": 0
         }
@@ -6924,7 +6891,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark2.css\");\n\n.regexnest1, .regexplain, .regexspecial, .regexnest2, .regexnest3, .regexccopen, .regexccspecial, .regexccliteral, .regexescaped, .regexccrange, .regexcomment, .regexerr, .regexmeta, .replaceplain, .characterstring, .comment, .numericconstant, .reservedword {\n  font-family: Monaco, monospace;\n}\nmark code { color: #d75f00; /* brred */ }\ndetails { color: inherit; }\n\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);\nvar h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n//h = h - document.getElementsByTagName('section')[0].offsetHeight - 200;\nh = Math.round(h * 0.7);\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n[].forEach.call(document.getElementsByTagName('img'), function (el) {\nel.style.maxWidth = w+\"px\";\nel.style.maxHeight = h+\"px\";\n})\n\n}\n</script><style>", 
+            "css": "@import url(\"_dark3.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);\nvar h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n//h = h - document.getElementsByTagName('section')[0].offsetHeight - 200;\nh = Math.round(h * 0.7);\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n[].forEach.call(document.getElementsByTagName('img'), function (el) {\nel.style.maxWidth = w+\"px\";\nel.style.maxHeight = h+\"px\";\n})\n\n}\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -7387,7 +7354,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front10}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front10}}</mark>\n</section>\n\n<section class=\"subdeck English Spanish\">\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back1}}\n<section>\n<blockquote>{{Back1}}</blockquote>\n</section>\n{{/Back1}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7396,7 +7363,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Culture\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n{{#Back1}}\n<section>\n<blockquote>{{Back1}}</blockquote>\n</section>\n{{/Back1}}\n\n</article>\n<script>currentDeckMessages();</script>"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back2}}\n<section>\n<blockquote>{{Back2}}</blockquote>\n</section>\n{{/Back2}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7405,7 +7372,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Culture\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n{{#Back2}}\n<section>\n<blockquote>{{Back2}}</blockquote>\n</section>\n{{/Back2}}\n\n</article>\n<script>currentDeckMessages();</script>"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back3}}\n<section>\n<blockquote>{{Back3}}</blockquote>\n</section>\n{{/Back3}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7414,7 +7381,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Culture\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n{{#Back3}}\n<section>\n<blockquote>{{Back3}}</blockquote>\n</section>\n{{/Back3}}\n\n</article>\n<script>currentDeckMessages();</script>"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back4}}\n<section>\n<blockquote>{{Back4}}</blockquote>\n</section>\n{{/Back4}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7423,7 +7390,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Culture\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n{{#Back4}}\n<section>\n<blockquote>{{Back4}}</blockquote>\n</section>\n{{/Back4}}\n\n</article>\n<script>currentDeckMessages();</script>"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back5}}\n<section>\n<blockquote>{{Back5}}</blockquote>\n</section>\n{{/Back5}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7432,7 +7399,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Culture\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n{{#Back5}}\n<section>\n<blockquote>{{Back5}}</blockquote>\n</section>\n{{/Back5}}\n\n</article>\n<script>currentDeckMessages();</script>"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back6}}\n<section>\n<blockquote>{{Back6}}</blockquote>\n</section>\n{{/Back6}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7441,7 +7408,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Culture\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n{{#Back6}}\n<section>\n<blockquote>{{Back6}}</blockquote>\n</section>\n{{/Back6}}\n\n</article>\n<script>currentDeckMessages();</script>"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back7}}\n<section>\n<blockquote>{{Back7}}</blockquote>\n</section>\n{{/Back7}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7450,7 +7417,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Culture\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n{{#Back7}}\n<section>\n<blockquote>{{Back7}}</blockquote>\n</section>\n{{/Back7}}\n\n</article>\n<script>currentDeckMessages();</script>"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back8}}\n<section>\n<blockquote>{{Back8}}</blockquote>\n</section>\n{{/Back8}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7459,7 +7426,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Culture\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n{{#Back8}}\n<section>\n<blockquote>{{Back8}}</blockquote>\n</section>\n{{/Back8}}\n\n</article>\n<script>currentDeckMessages();</script>"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back9}}\n<section>\n<blockquote>{{Back9}}</blockquote>\n</section>\n{{/Back9}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7468,7 +7435,7 @@
                     "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Culture\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n{{#Back9}}\n<section>\n<blockquote>{{Back9}}</blockquote>\n</section>\n{{/Back9}}\n\n</article>\n<script>currentDeckMessages();</script>"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front1}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front1}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front1}}</mark>{{#Front2}}; <mark>{{Front2}}</mark>{{/Front2}}{{#Front3}}; <mark>{{Front3}}</mark>{{/Front3}}{{#Front4}}; <mark>{{Front4}}</mark>{{/Front4}}{{#Front5}}; <mark>{{Front5}}</mark>{{/Front5}}{{#Front6}}; <mark>{{Front6}}</mark>{{/Front6}}{{#Front7}}; <mark>{{Front7}}</mark>{{/Front7}}{{#Front8}}; <mark>{{Front8}}</mark>{{/Front8}}{{#Front9}}; <mark>{{Front9}}</mark>{{/Front9}}{{#Front10}}; <mark>{{Front10}}</mark>{{/Front10}}</span>\n</section>\n\n{{#Back10}}\n<section>\n<blockquote>{{Back10}}</blockquote>\n</section>\n{{/Back10}}\n\n{{#Description}}\n<section>\n<blockquote>{{Description}}</blockquote>\n</section>\n{{/Description}}\n\n{{#Extra}}\n<section>\n<details>\n<summary></summary>\n<blockquote>{{Extra}}</blockquote>\n</details>\n</section>\n{{/Extra}}\n\n</article>\n<script>currentDeckMessages();</script>", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
