@@ -22,7 +22,7 @@ abridge	condense or shorten					Barron4841
 abrogate	abolish					Barron4841
 abscission	cutting off; separation					Barron4841
 abscond	depart secretly and hide					Barron4841
-absolute	complete; totally unlimited; having complete power; certain; not relative/ruler<br><i>cf.</i> absolutism	absolute honesty				Barron4841
+absolute	complete; totally unlimited; having complete power; certain; not relative<br /><i>cf.</i> absolutism	absolute honesty<!--anki-->/ruler				Barron4841
 absolve	pardon (an offense)					Barron4841
 abstain	refrain; withhold from participation; intentionally not use one’s vote					Barron4841
 abstemious	sparing in eating and drinking; temperate					Barron4841
@@ -54,8 +54,8 @@ accoutre	equip<br><i>n.</i> accoutrement					Barron4841
 accretion	growth or increase in size by gradual addition; growth; increase; increase by natural growth<br><i>v.</i> accrete	towers and other accretions of the castle				Barron4841
 accrue	come to one as a gain; accumulate over time; come about by addition<br><i>n.</i> accrual	benefits that accrue from scientific research<br>interest accruing in a bank account				Barron4841
 acerbity	bitterness of speech and temper<br><i>adj.</i> acerbic: bitter; acrid (in taste, manner, or tone)					Barron4841
-bitter	having a sharp biting taste; causing sharp pain to the body or mind; filled with resentment, disappointment, or other unpleasant feelings/sorrow/tears	bitter wind				Barron4841
-biting	sharply painful to the body or mind/remarks	biting wind				Barron4841
+bitter	having a sharp biting taste; causing sharp pain to the body or mind; filled with resentment, disappointment, or other unpleasant feelings	bitter wind/sorrow/tears				Barron4841
+biting	sharply painful to the body or mind	biting wind/remarks				Barron4841
 acetic	vinegary					Barron4841
 acidulous	slightly sour (in taste or manner); sharp; caustic					Barron4841
 acknowledge	recognize; admit					Barron4841
@@ -71,7 +71,7 @@ actuary	someone who advises insurance companies					Barron4841
 actuate	motivate; activate; cause to act					Barron4841
 acuity	sharpness (of mind or senses of sight or hearing)					Barron4841
 acumen	mental keenness; sharpness of judgment; ability to judge quickly and well	business acumen				Barron4841
-acute	(of the senses) sharp; quickly perceptive; keen; penetrating; brief and severe/analysis/pain	acute sense of smell				Barron4841
+acute	(of the senses) sharp; quickly perceptive; keen; penetrating; brief and severe	acute sense of smell/analysis/pain				Barron4841
 adage	wise saying; proverb					Barron4841
 proverb	adage; someone or something well known for notoriety<br><i>adj.</i> proverbial: of a proverb; widely known; ADV. proverbially					Barron4841
 adamant	hard; inflexible					Barron4841
@@ -177,7 +177,7 @@ amorous	moved by sexual love; loving; of sexual love	amorous advances				Barron4
 amorphous	formless; lacking shape or definition					Barron4841
 amphibian	able to live both on land and in water;<br><div>n.</div>					Barron4841
 amphitheater	oval building with tiers of seats<br><i>cf.</i> arena					Barron4841
-ample	enough; abundant; spacious; large in size/garden<br><i>n.</i> amplitude: quality of being ample; abundance; largeness of space	ample opportunity				Barron4841
+ample	enough; abundant; spacious; large in size<br /><i>n.</i> amplitude: quality of being ample; abundance; largeness of space	ample opportunity/garden				Barron4841
 amplify	increase in size or effect; expand; broaden or clarify by expanding; intensify; make stronger’s remarks with a graph	amplify one				Barron4841
 amputate	cut off part of body; prune (a limb)					Barron4841
 amok	in a state of rage	run amok		amuck		Barron4841
@@ -322,7 +322,7 @@ askew	crookedly; slanted; at an angle					Barron4841
 asperity	sharpness; roughness; severity (of temper or weather)	asperities of a Russian winter				Barron4841
 aspersion	slanderous remark	cast aspersions on				Barron4841
 aspirant	seeker after position or status					Barron4841
-aspire	seek to attain (position or status); long for<br>/after the leadership	aspire to become president<br>aspire to				Barron4841
+aspire	seek to attain (position or status); long for<br />	aspire to become president<br />aspire to/after the leadership				Barron4841
 assail	assault					Barron4841
 assay	analyze (to discover what materials are present); evaluate (soil or ore)					Barron4841
 assent	agree; accept<br><i>n.</i> assessment					Barron4841
@@ -363,8 +363,8 @@ auroral	pertaining to the aurora borealis<br><i>cf.</i> aurora australis					Bar
 auspicious	favoring success; giving signs of future success<br><i>cf.</i> auspices					Barron4841
 austere	forbiddingly stern; ascetic; without comfort or enjoyment; severely simple and unornamented<br /><br /><i>n.</i> austerity	a monk’s austere life<br />austere grandeur of the cathedral				Barron4841
 authenticate	prove genuine					Barron4841
-authoritarian	subordinating the individual to the state; completely dominating another’s will/father	authoritarian regime				Barron4841
-authoritative	having the weight of authority; regarded as providing knowledge that can be trusted; reliable; peremptory and dictatorial/manner<br><i>cf.</i> definitive	authoritative dictionary				Barron4841
+authoritarian	subordinating the individual to the state; completely dominating another’s will	authoritarian regime/father				Barron4841
+authoritative	having the weight of authority; regarded as providing knowledge that can be trusted; reliable; peremptory and dictatorial<br /><i>cf.</i> definitive	authoritative dictionary/manner				Barron4841
 autocratic	having absolute unchecked power; dictatorial<br><i>n.</i> autocrat, autocracy					Barron4841
 automaton	mechanism that imitates actions of humans; machine that works by itself					Barron4841
 autonomous	self-governing<br><i>n.</i> autonomy					Barron4841
@@ -374,7 +374,7 @@ avalanche	great mass of falling snow and ice					Barron4841
 avarice	greediness for wealth					Barron4841
 avenge	take vengence for something or on behalf of someone	They avenged his death by burning the village.<br>He swore to avenge his brother.<br>They avenged themselves on their enemy.				Barron4841
 aver	state confidently; declare as true					Barron4841
-averse	reluctant; disinclined; not liking or opposed/doing the house work	averse to cats				Barron4841
+averse	reluctant; disinclined; not liking or opposed	averse to cats/doing the house work				Barron4841
 aversion	firm dislike					Barron4841
 avert	prevent; avoid; turn away (eyes or thought).	An accident was averted by his quick thinking<br>She averted her eyes from the terrible sight				Barron4841
 aviary	enclosure for birds; large cage					Barron4841
@@ -575,7 +575,7 @@ bullion	gold and silver in the form of bars					Barron4841
 bulwark	strong wall built for defense; earthwork or other strong defense; person who defends					Barron4841
 bungle	mismanage; blunder; botch; blow; spoil by clumsy behavior					Barron4841
 botch	mismanage; blow					Barron4841
-buoyant	able to float; cheerful and optimistic<br><i>n.</i> buoyancy/water/American market	buoyancy of wood				Barron4841
+buoyant	able to float; cheerful and optimistic<br /><i>n.</i> buoyancy	buoyancy of wood/water/American market				Barron4841
 bureaucracy	overregulated administrative system marked by red tape<br><i>adj.</i> bureaucratic					Barron4841
 burgeon	grow rapidly; grow forth; send out buds<br><i>cf.</i> bludgeon	burgeoning computer industry				Barron4841
 burlesque	give an imitation that ridicules; imitate mockingly					Barron4841
@@ -646,7 +646,7 @@ cascade	small waterfall					Barron4841
 caste	one of the hereditary classes in Hindu society; social stratification; prestige					Barron4841
 castigation	punishment; severe criticism or disapproval					Barron4841
 casualty	serious or fatal accident; person killed or wounded in an accident or battle					Barron4841
-casual	happening by chance; irregular; occasional; informal; showing or feeling little interest/labor/remark	casual reader				Barron4841
+casual	happening by chance; irregular; occasional; informal; showing or feeling little interest	casual reader/labor/remark				Barron4841
 cataclysm	deluge; upheaval; earthquake; violent and sudden event or change					Barron4841
 catalyst	agent which brings about a chemical change while it remains unaffected and unchanged<br><i>cf.</i> catalysis					Barron4841
 catapult	slingshot; hurling machine<br><i>v.</i> fire from catapult					Barron4841
@@ -659,7 +659,7 @@ categorical	without exceptions; made without any doubt in mind; unqualified; abs
 qualify	reach a necessary standard; limit the meaning of something stated					Barron4841
 catharsis	purging or cleansing of any passage of the body; purging and weakening of strong emotions as a result of experiencing a dramatic work of art					Barron4841
 cathartic	purgative; medicine that causes the bowels to empty;<br><div>adj.</div>					Barron4841
-catholic	(of likings and interests) universal; general; broad; including many different parts; wide-ranging liberal/tastes	catholic opinions				Barron4841
+catholic	(of likings and interests) universal; general; broad; including many different parts; wide-ranging liberal	catholic opinions/tastes				Barron4841
 caucus	private meeting of a group of people in a political party to select officers or determine policy<br><i>cf.</i> the Caucus club of Boston					Barron4841
 caulk	<div>or <b>calk</b></div>make watertight (by blocking up cracks as in a ship)					Barron4841
 causal	implying a cause-and-effect relationship<br><i>n.</i> causality					Barron4841
@@ -690,7 +690,7 @@ unceremonious	not done politely without due formalities					Barron4841
 certitude	certainty					Barron4841
 cessation	stoppage					Barron4841
 cession	yielding to another; ceding					Barron4841
-chafe	warm by rubbing; make sore by rubbing;<br><div>n.</div>					Barron4841
+chafe	warm by rubbing; make sore by rubbing;<br /><div><i>n.</i></div>					Barron4841
 chaff	worthless products of an endeavor; husk (outer seed cover) separated from grain	separate the wheat from the chaff				Barron4841
 chaffing	bantering; joking					Barron4841
 chagrin	annoyance and disappointment; vexation (caused by humiliation or injured pride)					Barron4841
@@ -738,7 +738,7 @@ circumvent	outwit; defeat by behaving more cleverly; outsmart; baffle; avoid; ge
 cistern	reservoir or water tank					Barron4841
 citadel	fortress					Barron4841
 cite	quote; commend	cited for bravery in an official record				Barron4841
-civil	having to do with citizens; not military or religious; courteous and polite<br>/disorder/law<br><i>n.</i> civility<br><i>cf.</i> civic	married in a civil ceremony<br>civil strife				Barron4841
+civil	having to do with citizens; not military or religious; courteous and polite<br /><i>n.</i> civility<br /><i>cf.</i> civic	married in a civil ceremony<br />civil strife/disorder/law				Barron4841
 clairvoyant	having foresight; fortuneteller<br><i>n.</i> clairvoyance					Barron4841
 hindsight	understanding the nature of an event after it has actually happened					Barron4841
 clamber	climb by crawling with difficulties; scramble					Barron4841
@@ -791,7 +791,7 @@ coincidence	the chance occurrence, at the same time, of two or more seemingly co
 colander	utensil with perforated bottom used for straining					Barron4841
 collaborate	work together; cooperate treasonably with the enemy					Barron4841
 collage	work of art put together from fragments					Barron4841
-scrap	small bit or fragment; discarded waste material; fight/cloth<br><i>v.</i> break into parts for disposal; discard as worthless; fight; quarrel	a scrap of paper				Barron4841
+scrap	small bit or fragment; discarded waste material; fight<br /><i>v.</i> break into parts for disposal; discard as worthless; fight; quarrel	a scrap of paper/cloth				Barron4841
 scraps	leftover food					Barron4841
 scrappy	quarrelsome					Barron4841
 collate	examine and compare in order to verify authenticity; arrange in order (the sheets of a book before they are bound)					Barron4841
@@ -815,7 +815,7 @@ commandeer	take (private property) for military use without needing permission o
 draft	first rough form; conscription; draught<br><i>v.</i> make a draft of; conscript					Barron4841
 draught	current of air (through a room or to a fire); act of pulling roads; act of swallowing liquid or amount of liquid swallowed at a time					Barron4841
 commemorative	remembering; honoring the memory of	commemorative stamp				Barron4841
-commemorate	honor the memory of; serve as a memorial to/those who died in the war	commemorate the 100th anniversary				Barron4841
+commemorate	honor the memory of; serve as a memorial to	commemorate the 100th anniversary/those who died in the war				Barron4841
 commensurate	equal in extent; of the same size					Barron4841
 commiserate	feel or express pity or sympathy for					Barron4841
 commodious	spacious and comfortable					Barron4841
@@ -877,7 +877,7 @@ condign	adequate; (of punishment) severe and well deserved					Barron4841
 condiments	seasonings; spices					Barron4841
 condole	express condolences<br><i>n.</i> condolence: sympathy for someone who has experienced great sorrow					Barron4841
 condone	overlook; forgive; give tacit approval; excuse					Barron4841
-conducive	helpful; contributive<br><i>v.</i> conduce/towards	conduce to				Barron4841
+conducive	helpful; contributive<br /><i>v.</i> conduce	conduce to/towards				Barron4841
 conduit	aqueduct; passageway for fluids					Barron4841
 confidant	trusted friend (to whom one tells one’s secret)			confidante		Barron4841
 confide	tell in confidence (to a person one trusts); be confident about					Barron4841
@@ -932,7 +932,7 @@ constraint	restraint; compulsion; repression of feelings; reticence<br><i>v.</i>
 construe	explain; interpret<br><i>cf.</i> misconstrue	construe her silence as meaning that she agreed				Barron4841
 consummate	complete;<br><div>v.</div>					Barron4841
 contagion	infection (by contact)<br><i>adj.</i> contagious<br><i>cf.</i> infectious: that can be passed by infection in the air					Barron4841
-drastic	strong; violent and severe/measures	drastic changes				Barron4841
+drastic	strong; violent and severe	drastic changes/measures				Barron4841
 contaminate	pollute					Barron4841
 contempt	scorn; disdain<br><i>adj.</i> contemptuous<br><i>cf.</i> contemptible					Barron4841
 contend	struggle; compete; assert earnestly; state strongly					Barron4841
@@ -1037,7 +1037,7 @@ culmination	highest point; climax<br><i>v.</i> culminate in: reach the highest p
 culpable	deserving blame; blameworthy					Barron4841
 culprit	one guilty of a crime					Barron4841
 culvert	artificial channel for water; drain crossing under a road					Barron4841
-cumbersome	heavy and awkward to carry or wear; burdensome/uniform	cumbersome parcel				Barron4841
+cumbersome	heavy and awkward to carry or wear; burdensome	cumbersome parcel/uniform				Barron4841
 cumulative	growing by addition; accumulative					Barron4841
 cupidity	greed (for wealth)<br><i>cf.</i> cupid<br><i>cf.</i> Cupid					Barron4841
 curator	superintendent; manager (in charge of a museum or a library)					Barron4841
@@ -1053,7 +1053,7 @@ dally	trifle with; toy with; treat without the necessary seriousness; procrastin
 dank	damp; unpleasantly wet					Barron4841
 dapper	neat and trim (in appearance); (of small men) neat in appearance and quick in movements; neat; spry					Barron4841
 dappled	spotted					Barron4841
-daub	smear (as with paint); cover with something sticky<br>’s clothes with mud/paint;<br><i>n.</i> small bit of sticky substance	daub one<br>a daub of paint				Barron4841
+daub	smear (as with paint); cover with something sticky;<br /><i>n.</i> small bit of sticky substance	daub one’s clothes with mud/paint<br />a daub of paint				Barron4841
 smear	spread or cover with a sticky substance;<br><i>n.</i> mark made by smearing					Barron4841
 smudge	dirty mark with unclear edges made by rubbing;<br /><div><i>v.</i></div>					Barron4841
 daunt	intimidate; frighten; discourage; dishearten					Barron4841
@@ -1069,7 +1069,7 @@ kneel	go down on one’s knee(s)					Barron4841
 debauch	corrupt morally; seduce from virtue<br><i>n.</i> debauchery: wild behavior (with sex and alcohol)					Barron4841
 seduce	lead away from proper conduct; entice<br><i>adj.</i> seductive					Barron4841
 debilitate	weaken (esp. through heat, hunger, illness); enfeeble					Barron4841
-bout	match; short period of great activity; bout of drinking/flu	wrestling bout				Barron4841
+bout	match; short period of great activity; bout of drinking	wrestling bout/flu				Barron4841
 debonair	(of men) friendly, charming, and fashionably dressed; aiming to please<br><i>cf.</i> of good disposition					Barron4841
 debris	rubble; wreckage; scattered remains of something broken or destroyed					Barron4841
 debunk	expose as false, exaggerated, worthless, etc.; ridicule					Barron4841
@@ -1079,7 +1079,7 @@ decadence	"decay; fall to a lower level (of morality, civilization, or art);&nbs
 decant	pour off gently (wine or liquid)					Barron4841
 decapitate	behead					Barron4841
 decelerate	slow down					Barron4841
-deciduous	falling off at a specific season or stage of growth as of leaves/teeth	deciduous tree				Barron4841
+deciduous	falling off at a specific season or stage of growth as of leaves	deciduous tree/teeth				Barron4841
 decimate	kill (usually one out of ten or every tenth man); destroy or kill a large part of					Barron4841
 decipher	decode<br><i>cf.</i> indecipherable					Barron4841
 declivity	downward slope					Barron4841
@@ -1090,7 +1090,7 @@ decorum	propriety; orderliness and good taste in manners; appropriateness of beh
 decorous	proper (in behavior, conduct, or appearance)					Barron4841
 decoy	lure or bait;<br><div>v.</div>					Barron4841
 decrepitude	state of collapse or weakness caused by illness or old age					Barron4841
-decrepit	weak and in bad condition from old age or hard use/man	decrepit old chair				Barron4841
+decrepit	weak and in bad condition from old age or hard use	decrepit old chair/man				Barron4841
 decry	express strong disapproval of; condemn openly (something dangerous to the public); disparage	decry the violence of modern films				Barron4841
 deducible	derived by reasoning<br><i>v.</i> deduce: infer; derive by reasoning					Barron4841
 deface	mar; disfigure					Barron4841
@@ -1198,7 +1198,7 @@ deviate	turn away from (a principle, norm); move away from an accepted standard;
 devious	roundabout; erratic; deviating from the straight course; not straightforward; not completely honest	devious route				Barron4841
 devise	think up; invent; plan; bequeath;<br><i>n.</i> bequest					Barron4841
 devoid	empty; lacking					Barron4841
-devolve	deputize; pass or be passed to others (power, work, or property)/upon/to	devolve on				Barron4841
+devolve	deputize; pass or be passed to others (power, work, or property)	devolve on/upon/to				Barron4841
 deputize	work or appoint as a deputy<br><i>n.</i> deputy: person who has the power to take charge when the leading person is away					Barron4841
 devotee	enthusiastic follower; enthusiast	devotee of Bach				Barron4841
 devout	pious; deeply religious; sincere; earnest	my devout hope				Barron4841
@@ -1216,7 +1216,7 @@ die	metal block used for shaping metal or plastic; device for stamping or impres
 diffidence	shyness; lack of self-confidence; timidity<br><i>adj.</i> diffident					Barron4841
 diffuse	wordy; verbose; rambling; spread out (like a gas)<br><i>v.</i> spread out in all directions; disperse<br><i>n.</i> diffusion<br><i>cf.</i> suffuse					Barron4841
 digression	wandering away from the subject<br><i>v.</i> digress					Barron4841
-dilapidated	falling to pieces; in a bad condition; ruined because of neglect/castle<br><i>n.</i> dilapidation	dilapidated old car				Barron4841
+dilapidated	falling to pieces; in a bad condition; ruined because of neglect<br /><i>n.</i> dilapidation	dilapidated old car/castle				Barron4841
 dilate	expand; dilate on/upon: speak or write at length on (a subject)					Barron4841
 dilatory	delaying; tending to delay					Barron4841
 dilemma	situation that requires a choice between equally unfavorable options; problem; choice of two unsatisfactory alternatives					Barron4841
@@ -1228,11 +1228,11 @@ din	continued loud noise<br><i>v.</i> make a din; instill by wearying repetition
 weary	tired after long work;<br><div>v.</div>					Barron4841
 dinghy	small boat (often ship’s boat)					Barron4841
 maroon	leave helpless on a deserted island or coast<br><i>adj.</i> red brown					Barron4841
-dingy	(of things and place) dirty and dull/curtain	dingy street				Barron4841
+dingy	(of things and place) dirty and dull	dingy street/curtain				Barron4841
 dull	(of colors or surfaces) not bright; cloudy; overcast; boring; (of edge or sound) not sharp; not rapid; sluggish; slow in thinking and understanding; stupid;<br><div>v.</div>					Barron4841
 dint	means; effort	by dint of hard work				Barron4841
 diorama	life-size, three-dimensional scene from nature or history; three-dimensional scene with modeled figures against a painted background					Barron4841
-dire	warning of disaster; disastrous; (of needs and dangers) very great; urgent/need of food	dire prediction				Barron4841
+dire	warning of disaster; disastrous; (of needs and dangers) very great; urgent	dire prediction/need of food				Barron4841
 dirge	funeral song; slow mournful piece of music (sung over a dead person)					Barron4841
 disabuse	correct a false impression; undeceive; free from a wrong belief					Barron4841
 disaffected	disloyal; lacking loyality<br><i>v.</i> disaffect: cause to lose affection or loyalty					Barron4841
@@ -1291,7 +1291,7 @@ dispassionate	calm; impartial; not influenced by personal feelings					Barron484
 dispatch	speediness; prompt execution; message sent with all due speed<br><i>v.</i> send to a specified destination; finish promptly; kill					Barron4841
 dispel	scatter; drive away; cause to vanish					Barron4841
 dispense	distribute; prepare and give out (medicines)<br><i>n.</i> dispensation: dispensing; religious system; official exemption from an obligation or a rule					Barron4841
-disperse	scatter/crowd	disperse the cloud				Barron4841
+disperse	scatter	disperse the cloud/crowd				Barron4841
 dispirited	lacking in spirit					Barron4841
 disport	amuse<br><i>cf.</i> divert	disport oneself				Barron4841
 disputatious	argumentative; fond of argument					Barron4841
@@ -1317,7 +1317,7 @@ distinct	clearly different; clearly noticed					Barron4841
 distinctive	clearly different from others of the same kind					Barron4841
 distort	twist out of shape; give a false account of; misrepresent<br><i>n.</i> distortion					Barron4841
 distrait	absentminded; distracted					Barron4841
-distraught	upset; distracted by anxiety; very anxious and troubled almost to the point of madness/worry	distraught with grief				Barron4841
+distraught	upset; distracted by anxiety; very anxious and troubled almost to the point of madness	distraught with grief/worry				Barron4841
 distract	take (one’s attention) off something; upset emotionally; make anxious<br><i>adj.</i> distracted					Barron4841
 diurnal	daily; occurring during the daytime					Barron4841
 diva	operatic singer; prima donna					Barron4841
@@ -1422,7 +1422,7 @@ edifice	building (of imposing size)					Barron4841
 eerie	weird; causing fear because strange					Barron4841
 efface	rub out; remove the surface of					Barron4841
 effectual	able to produce a desired effect; valid					Barron4841
-effective	effectual; producing a strong response; striking; in operation; in effect/photograph	effective speech				Barron4841
+effective	effectual; producing a strong response; striking; in operation; in effect	effective speech/photograph				Barron4841
 effectuate	effect; produce; achieve	effectuate a reconciliation				Barron4841
 effeminate	having womanly traits					Barron4841
 emasculate	weaken; castrate					Barron4841
@@ -1488,7 +1488,7 @@ encipher	encode; convert a message into code; put into cipher					Barron4841
 enclave	territory enclosed within an alien land					Barron4841
 encomiastic	praising; eulogistic<br><i>n.</i> encomium: very high praise; eulogy					Barron4841
 encompass	surround; include.	His activities encompass publishing and computers				Barron4841
-encroachment	gradual intrusion<br><i>v.</i> encroach: take another’s possessions or right gradually or stealthily; intrude/upon	I resent all these encroachments on my valuable time<br>encroach on				Barron4841
+encroachment	gradual intrusion<br /><i>v.</i> encroach: take another’s possessions or right gradually or stealthily; intrude	I resent all these encroachments on my valuable time<br />encroach on/upon				Barron4841
 encumber	burden<br><i>n.</i> encumbrance					Barron4841
 endearment	fond word or act; expression of affection					Barron4841
 endear	make beloved<br><i>adj.</i> dear: loved; cherished; high-priced	endear her to everyone				Barron4841
@@ -1514,7 +1514,7 @@ enormity	hugeness (in a bad sense); excessive wickedness<br><i>adj.</i> enormous
 enrapture	please intensely; fill with rapture and delight					Barron4841
 ensconce	settle comfortably; place comfortably (in a secure place)					Barron4841
 ensue	follow (as a result)					Barron4841
-entail	make necessary; require; necessitate; involve; limit the inheritance of (property) to a specified succession of heirs/upon B	entail A on				Barron4841
+entail	make necessary; require; necessitate; involve; limit the inheritance of (property) to a specified succession of heirs	entail A on/upon B				Barron4841
 enterprising	full of initiative; showing enterprise					Barron4841
 enterprise	willingness to take new ventures; initiative; business organization; plan (that is difficult or daring)	their latest enterprise to sail round the world in a small boat				Barron4841
 enthrall	capture; enslave; captivate; hold the complete attention of (as if magic); hold spellbound					Barron4841
@@ -1552,7 +1552,7 @@ equanimity	calmness of temperament; composure					Barron4841
 equestrian	rider on horseback;<br><div>adj.</div>					Barron4841
 equilibrium	balance of opposing forces; balance of the mind; equanimity					Barron4841
 equine	resembling a horse	equine face				Barron4841
-equinox	period of equal days and nights; the beginning of spring and autumn/autumnal equinox<br><i>adj.</i> equinoctial	vernal				Barron4841
+equinox	period of equal days and nights; the beginning of spring and autumn<br /><i>adj.</i> equinoctial	vernal/autumnal equinox				Barron4841
 equipoise	balance; balancing force; equilibrium					Barron4841
 equitable	fair; impartial<br><i>op.</i> inequitable					Barron4841
 equity	fairness; justice<br><i>op.</i> inequity					Barron4841
@@ -1622,7 +1622,7 @@ executive	person having administrative authority; one branch of government execu
 legislature	legislating branch of government<br><i>cf.</i> legislate: make laws					Barron4841
 judiciary	judicial branch of government					Barron4841
 exegesis	explanation, especially of biblical (of the bible) passages					Barron4841
-exemplary	serving as a model; outstanding/behavior<br><i>n.</i> exemplar: typical example; model	exemplary punishment				Barron4841
+exemplary	serving as a model; outstanding<br /><i>n.</i> exemplar: typical example; model	exemplary punishment/behavior				Barron4841
 exemplify	show by example; furnish an example; serve as an example of.	His pictures exemplify that sort of painting				Barron4841
 exempt	not subject to a duty or obligation; free from a duty;<br><div>v.</div>					Barron4841
 exertion	effort; expenditure of much physical work<br><i>v.</i> exert oneself: make a great effort					Barron4841
@@ -1640,7 +1640,7 @@ exodus	departure (of a large number of people)					Barron4841
 exonerate	acquit; exculpate; free from blame or guilt					Barron4841
 exorbitant	(of costs or demands) excessive; exceeding reasonable bounds					Barron4841
 exorcise	drive out evil spirits					Barron4841
-exotic	not native; from another part of the world; strange; intriguingly unusual/dress	exotic flower				Barron4841
+exotic	not native; from another part of the world; strange; intriguingly unusual	exotic flower/dress				Barron4841
 intrigue	make secret plans; plot; arouse the curiosity of;<br><i>n.</i> secret scheme; plot; secret love affair					Barron4841
 expansive	(of a person) outgoing and sociable; broad and extensive; able to increase in size					Barron4841
 outgoing	sociable; eager to mix socially with others					Barron4841
@@ -1750,13 +1750,13 @@ fester	rankle; produce irritation or resentment; (of a cut or wound) generate pu
 festive	joyous; celebratory; relating to a feast or festival					Barron4841
 fete	honor at a festival; celebrate or honor with a feast<br><i>n.</i> (outdoor) festival or feast<br><i>cf.</i> feast					Barron4841
 fetid	malodorous; foul			foetid		Barron4841
-foul	very bad or disagreeable; very dirty/flavor/temper/language/air/deed/weather/means<br><i>n.</i> act against the rules<br><i>v.</i> make or become foul; commit a foul	foul smell				Barron4841
+foul	very bad or disagreeable; very dirty<br /><i>n.</i> act against the rules<br /><i>v.</i> make or become foul; commit a foul	foul smell/flavor/temper/language/air/deed/weather/means				Barron4841
 fetish	or <b>fetich</b><div>object believed to have spiritual powers; object of excessive attention or reverence<br><i>cf.</i> fetishism</div>					Barron4841
 fetter	shackle; restrict the freedom of<br><i>n.</i> chain or shackle for the foot of a prisoner<br><i>cf.</i> foot					Barron4841
 fiasco	total failure<br><i>cf.</i> bottle					Barron4841
 fiat	command; arbitrary order<br><i>cf.</i> let it be done	presidential fiat				Barron4841
 fickle	changeable (in affections or friendship); faithless					Barron4841
-fictitious	imaginary; non-existent; purposely invented to deceive; untrue/boyfriend<br><i>cf.</i> fictional	fictitious name				Barron4841
+fictitious	imaginary; non-existent; purposely invented to deceive; untrue<br /><i>cf.</i> fictional	fictitious name/boyfriend				Barron4841
 fidelity	loyalty; accuracy					Barron4841
 figment	invention; something invented; imaginary thing	figment of your imagination				Barron4841
 figurative	not literal but metaphorical; using a figure (impression) of speech					Barron4841
@@ -1813,7 +1813,7 @@ florescence	condition or period of flowering					Barron4841
 florid	ruddy; (of a complexion) reddish; flowery; very ornate<br><i>cf.</i> rose					Barron4841
 flush	redden; blush; flow suddenly and abundantly; wash out by a rapid brief flow of water;<br><i>n.</i> reddish tinge; blush; brief rush; rush of strong feeling<br><i>adj.</i> having surfaces in the same plane; even; blushing	flush of pride				Barron4841
 blush	become red in the face (from embarrassment or shame); become red or rosy;<br><div>n.</div>					Barron4841
-tinge	give a slight degree of a color or quality to;<br><i>n.</i> slight degree of a color or quality/jealousy	tinged with grey				Barron4841
+tinge	give a slight degree of a color or quality to;<br /><i>n.</i> slight degree of a color or quality	tinged with grey/jealousy				Barron4841
 tint	slight degree of color<br><i>v.</i> give a tint to					Barron4841
 flowery	full of flowers; full of ornate expressions					Barron4841
 flotsam	drifting wreckage					Barron4841
@@ -1835,7 +1835,7 @@ fodder	coarse food for cattle, horses, etc.; feed for livestock<br><i>cf.</i> fo
 foible	small weakness of character; slight fault<br><i>cf.</i> feeble					Barron4841
 foil	contrast; one that by contrast enhances the distinctive characteristics of another					Barron4841
 foist	insert improperly; impose upon another by coercion; palm off; pass off as genuine or worthy<br><i>cf.</i> fist					Barron4841
-palm	conceal in the palm of the hand; palm off: pass off/the painting as a real Renoir	palm off some bad oranges onto the lady				Barron4841
+palm	conceal in the palm of the hand; palm off: pass off	palm off some bad oranges onto the lady/the painting as a real Renoir				Barron4841
 pass off	present falsely; represent falsely to be					Barron4841
 foliage	masses of leaves<br><i>cf.</i> defoliate					Barron4841
 foment	stir up; incite; instigate; promote the growth of (something evil or unpleasant)					Barron4841
@@ -1846,7 +1846,7 @@ forbearance	patience; forgiveness<br><i>v.</i> forbear: refrain from (in a gener
 ford	place where a river can be crossed on foot;<br><div>v.</div>					Barron4841
 forebears	ancestors					Barron4841
 foreboding	premonition of evil; feeling of coming evil<br><i>v.</i> forebode: be a warning of (something unpleasant)					Barron4841
-forensic	suitable to debate or courts of law; of or used in legal proceedings and the tracking of criminals/medicine	forensic science				Barron4841
+forensic	suitable to debate or courts of law; of or used in legal proceedings and the tracking of criminals	forensic science/medicine				Barron4841
 forum	public square of an ancient Roman city; public place for open discussion; court of law					Barron4841
 foreshadow	give an indication beforehand; be a sign of (what is coming); portend; prefigure					Barron4841
 prefigure	be a sign of; foreshadow					Barron4841
@@ -1859,7 +1859,7 @@ forge	counterfeit; reproduce fraudulently; form by heating in a forge and hammer
 forgo	give up; do without			forego		Barron4841
 forlorn	sad and lonely; wretched; desolate					Barron4841
 formality	ceremonious quality; ceremonious adherence to rules; something done just for form’sake	mere formality				Barron4841
-formidable	menacing; arousing fear; threatening; difficult to defeat/question	formidable foe				Barron4841
+formidable	menacing; arousing fear; threatening; difficult to defeat	formidable foe/question				Barron4841
 menace	threat<br><i>v.</i> threaten					Barron4841
 forsake	desert; abandon; renounce					Barron4841
 forswear	renounce under oath; abandon; make a solemn promise to give up<br><i>cf.</i> abjure					Barron4841
@@ -1898,12 +1898,12 @@ frond	fern leaf; palm or banana leaf					Barron4841
 litter	waste material thrown away (as bits of paper scattered untidily)<br><i>v.</i> cover untidily with scattered litter					Barron4841
 fructify	bear fruit; produce fruit					Barron4841
 frugality	thrift; economy<br><i>adj.</i> frugal: practicing economy; costing little; inexpensive					Barron4841
-fruition	bearing of fruit; fulfillment; realization/be brought to fruition	come to				Barron4841
+fruition	bearing of fruit; fulfillment; realization	come to/be brought to fruition				Barron4841
 frustrate	thwart; defeat; prevent from accomplishing a purpose					Barron4841
 fugitive	fleeting or transitory; lasting only a short time; roving (wandering); running away or fleeing as from the law;<br><i>n.</i> one who flees	fugitives at large				Barron4841
 fulcrum	support on which a lever rests or pivots					Barron4841
 fulminate	thunder; explode; issue a severe denunciation					Barron4841
-fulsome	disgustingly excessive; offensively flattering/expressions of admire	fulsome praise				Barron4841
+fulsome	disgustingly excessive; offensively flattering	fulsome praise/expressions of admire				Barron4841
 fumble	move the fingers and hands awkwardly (in search of something); mishandle or drop a ball that is in play; bungle; botch; spoil by mishandling;<br><div>n.</div>					Barron4841
 functionary	official (who performs a particular function)					Barron4841
 functional	made for practical use only (without decoration); functioning<br><i>cf.</i> functionalism	functional modern furniture				Barron4841
@@ -2012,7 +2012,7 @@ glossary	brief explanation of words used in the text					Barron4841
 glossy	smooth and shining<br><i>n.</i> gloss: shiny brightness on a surface; superficially attractive appearance	gloss of good manners				Barron4841
 mat	not shiny; matte; having a dull finish;<br><i>n.</i> flat piece of material used as a floor covering;<br><div>v.</div>					Barron4841
 finish	surface texture; completeness of execution					Barron4841
-finished	properly made and complete/performance	finished product				Barron4841
+finished	properly made and complete	finished product/performance				Barron4841
 glower	scowl; glare; look or stare angrily					Barron4841
 scowl	frown angrily;<br><i>n.</i> angry frown					Barron4841
 glut	overstock; fill beyond capacity (with food); fill to excess;<br><i>n.</i> oversupply					Barron4841
@@ -2041,7 +2041,7 @@ high-flown	highly pretentious or inflated					Barron4841
 matinée	dramatic or musical performance given in the afternoon					Barron4841
 granulate	form into grains or granules<br /><i>n.</i> granule: grain or particle					Barron4841
 graphic	pertaining to the art of delineating; vividly described					Barron4841
-vivid	(of light or color) bright and distinct; evoking lifelike mental images/description	vivid red hair				Barron4841
+vivid	(of light or color) bright and distinct; evoking lifelike mental images	vivid red hair/description				Barron4841
 graphite	black form of carbon used in lead pencils					Barron4841
 grapple	wrestle; come to grips with; take hold of and struggle with	grapple with the burglar				Barron4841
 grate	make a harsh noise; have an unpleasant effect; shred by rubbing against a rough surface<div><i>n.</i> framework of metal bars to hold fuel in a fireplace</div>	grated cheese				Barron4841
@@ -2059,7 +2059,7 @@ grimace	facial distortion to show feeling such as pain, disgust, etc;<br><div>v.
 grisly	ghastly; horrifying	grisly remains of the bodies				Barron4841
 groom	man employed to take care of horses<br><i>v.</i> make neat and trim; clean and brush (an animal)					Barron4841
 grotesque	fantastic; comically hideous; strange and unnatural (causing fear or amusement)					Barron4841
-hideous	repulsive to the sight; ugly; repugnant/scream	hideous face				Barron4841
+hideous	repulsive to the sight; ugly; repugnant	hideous face/scream				Barron4841
 grotto	small cavern					Barron4841
 grouse	complain; fuss; grumble; grouch;<br><i>n.</i> plump chickenlike game bird					Barron4841
 grumble	complain; mutter discontentedly; grouch;<br><div>n.</div>					Barron4841
@@ -2101,7 +2101,7 @@ hale	healthy					Barron4841
 hail	frozen rain drop<br><i>v.</i> salute or greet; precipitate hail					Barron4841
 hallowed	blessed; consecrated<br><i>v.</i> hallow: set apart as holy	hallowed ground				Barron4841
 hallucination	delusion; false idea; false perception of objects with a compelling sense of their reality; objects so perceived<br><i>v.</i> hallucinate<br><i>adj.</i> hallucinatory					Barron4841
-halting	hesitant; faltering; not fluent/voice<br><i>v.</i> halt: proceed or act with uncertainty; falter; hesitate; waver; stop	halting steps				Barron4841
+halting	hesitant; faltering; not fluent<br /><i>v.</i> halt: proceed or act with uncertainty; falter; hesitate; waver; stop	halting steps/voice				Barron4841
 waver	move or swing back and forth; be uncertain or unsteady in decision or movement	wavering between accepting and refusing				Barron4841
 hamper	obstruct; prevent the free movement of					Barron4841
 hap	1. chance; luck<div>2. <i>n.</i> a comforter or quilt.</div><div>3. verb (used with object). to cover with or as with a comforter or quilt</div>					Barron4841
@@ -2135,7 +2135,7 @@ heedless	not noticing; disregarding					Barron4841
 heed	pay attention to;<br><i>n.</i> close attention					Barron4841
 hegemony	dominance especially of one nation over others					Barron4841
 heinous	atrocious; wicked; hatefully bad	heinous crime				Barron4841
-gross	total; fragrant; clearly wrong; (of people’s behavior) coarse; corpulent/behavior<br><i>v.</i> earn as a total amount;<br><i>n.</i> 12 dozens	gross insolence				Barron4841
+gross	total; fragrant; clearly wrong; (of people’s behavior) coarse; corpulent<br /><i>v.</i> earn as a total amount;<br /><i>n.</i> 12 dozens	gross insolence/behavior				Barron4841
 helm	steering wheel of a ship; position of control					Barron4841
 herbivorous	grain-eating<br><i>cf.</i> herbivore					Barron4841
 heresy	opinion contrary to popular belief; opinion contrary to accepted religion<br><i>adj.</i> heretical<br><i>cf.</i> heretic					Barron4841
@@ -2172,7 +2172,7 @@ hoary	white with age					Barron4841
 hoax	trick which makes someone take action; practical joke;<br><div>v.</div>	hoax mail				Barron4841
 holocaust	destruction by fire<br><i>cf.</i> burnt whole<br><i>cf.</i> Holocaust					Barron4841
 holster	leather pistol case (that hangs on a belt around the waist)					Barron4841
-homage	honor; tribute; great respect/do homage to	pay				Barron4841
+homage	honor; tribute; great respect	pay/do homage to				Barron4841
 homeostasis	tendency of a system or organism to maintain relative stability or internal equilibrium<br><i>cf.</i> homeo-: constant	homeotherm				Barron4841
 homespun	domestic; made at home; spun or woven at home; simple and ordinary	homespun philosophy				Barron4841
 spin	rotate swiftly; make (thread) by twisting (cotton, wool, etc.);<br><div>n.</div>					Barron4841
@@ -2188,7 +2188,7 @@ hostility	unfriendliness; hatred; enmity<br><i>adj.</i> hostile					Barron4841
 hovel	shack; small wretched house					Barron4841
 hut	crude dwelling; shack					Barron4841
 shack	crude cabin					Barron4841
-shed	small roofed structure for storage and shelter<br><i>v.</i> pour forth; lose by natural process; repel without allowing penetration; radiate; cast/light/water/skin/leaves	shed tears				Barron4841
+shed	small roofed structure for storage and shelter<br /><i>v.</i> pour forth; lose by natural process; repel without allowing penetration; radiate; cast	shed tears/light/water/skin/leaves				Barron4841
 hover	hang about; (of birds or aircraft) stay in the air in one place; (of people) wait nearby; stay around one place; waver; be in an uncertain state					Barron4841
 hubbub	confused uproar; loud noise; din					Barron4841
 hubris	arrogance; excessive self-conceit					Barron4841
@@ -2286,7 +2286,7 @@ impinge	infringe; encroach; influence; touch; collide with.	The effects are impi
 impious	irreverent					Barron4841
 implacable	incapable of being pacified; impossible to appease	implacable enemy				Barron4841
 implausible	unlikely (to be true); unbelievable	implausible alibi				Barron4841
-implement	put into effect; enforce; carry out; supply with tools/suggestion;<br><i>n.</i> tool or instrument	implement the plan				Barron4841
+implement	put into effect; enforce; carry out; supply with tools;<br /><i>n.</i> tool or instrument	implement the plan/suggestion				Barron4841
 implicate	incriminate; involve incriminatingly; show to be involved (in a crime)	implicate someone in the crime				Barron4841
 implication	something hinted at or suggested; implying; implicating					Barron4841
 implicit	understood but not stated; implied; unquestioning and complete	implicit trust				Barron4841
@@ -2304,7 +2304,7 @@ masquerade	wear a mask or disguise; pretend;<br><i>n.</i> costume party or ball 
 impotent	weak; ineffective; lacking in physical strength or power					Barron4841
 crave	desire; want intensely					Barron4841
 imprecation	curse; swearword					Barron4841
-impregnable	invulnerable; impossible to capture or enter by force/argument<br><i>cf.</i> take	impregnable fort				Barron4841
+impregnable	invulnerable; impossible to capture or enter by force<br /><i>cf.</i> take	impregnable fort/argument				Barron4841
 impregnate	make pregnant; fill thoroughly; saturate					Barron4841
 impromptu	without previous preparation; off the cuff (end of a sleeve); on the spur of the moment					Barron4841
 impropriety	improperness; unsuitableness					Barron4841
@@ -2334,8 +2334,8 @@ recital	act of reciting publicly; detailed account; performance of music or danc
 incapacitate	disable<br><i>n.</i> incapacity: lack of capacity					Barron4841
 incarcerate	imprison					Barron4841
 incarnate	endowed with flesh; invested with bodily form; personified<br><i>v.</i> give bodily form to; embody	devil incarnate				Barron4841
-incarnation	act of assuming a human body and human nature; one who personifies something; personification/reincarnation	previous incarnation				Barron4841
-personify	represent (an inanimate object) as a person; be the embodiment or perfect example of/patience personified<br><i>n.</i> personification	She is evil				Barron4841
+incarnation	act of assuming a human body and human nature; one who personifies something; personification	previous incarnation/reincarnation				Barron4841
+personify	represent (an inanimate object) as a person; be the embodiment or perfect example of<br /><i>n.</i> personification	She is evil/patience personified				Barron4841
 incendiary	arsonist<br><i>adj.</i> causing fire; of arson	incendiary bomb				Barron4841
 incense	enrage; infuriate (make furious); make extremely angry; outrage;<br><i>n.</i> aromatic substance burned to produce a pleasant odor					Barron4841
 incentive	spur; motive; something which encourages one to greater activity					Barron4841
@@ -2348,7 +2348,7 @@ incident	event; event that causes a crisis					Barron4841
 incinerate	burn to ashes					Barron4841
 incipient	beginning; in an early stage					Barron4841
 incisive	(appreciatively) cutting; sharp<br><i>v.</i> incise: make a cut into	incisive remarks				Barron4841
-incite	arouse to action; goad; motivate; induce to exist/the crowd to rebellion	incite a riot				Barron4841
+incite	arouse to action; goad; motivate; induce to exist	incite a riot/the crowd to rebellion				Barron4841
 inclement	stormy; unkind; unmerciful<br><i>cf.</i> clement					Barron4841
 incline	slope; slant	steep incline				Barron4841
 inclined	tending or leaning toward; bent<br><i>v.</i> incline: slant; dispose; be disposed; tend					Barron4841
@@ -2408,13 +2408,13 @@ induce	persuade; lead to do something; bring about<br><i>n.</i> inducement					B
 inductive	pertaining to induction or proceeding from the specific to the general					Barron4841
 induct	place formally in office; install; admit as a member; initiate<br><i>n.</i> induction: inducting; process of deriving general principles from particular facts					Barron4841
 indulgent	humoring; yielding; lenient; showing indulgence					Barron4841
-indulge	yield to; gratify; allow oneself a special pleasure’s every whim/a child/in a big cigarette<br><i>n.</i> indulgence	indulge one				Barron4841
+indulge	yield to; gratify; allow oneself a special pleasure’s every whim<br /><i>n.</i> indulgence	indulge one/a child/in a big cigarette				Barron4841
 humor	indulge; comply with the wishes of<br><i>n.</i> quality that makes something amusing; state of mind; mood	in a bad humor<br>out of humor				Barron4841
 industrious	diligent; hard-working<br><i>n.</i> industry					Barron4841
 inebriated	habitually intoxicated; drunk<br><i>n.</i> inebriety					Barron4841
 inebriate	make drunk; intoxicate<br><i>n.</i> intoxicated person					Barron4841
 intoxicate	make drunk; stimulate or excite	intoxicated by all the money he might win				Barron4841
-ineffable	unutterable; not to be uttered; taboo; that cannot be expressed in speech; indescribable; unspeakable; inexpressible/joy	ineffable name				Barron4841
+ineffable	unutterable; not to be uttered; taboo; that cannot be expressed in speech; indescribable; unspeakable; inexpressible	ineffable name/joy				Barron4841
 ineffectual	not effective; not having a desired effect; weak					Barron4841
 ineluctable	irresistible; not to be escaped; unavoidable					Barron4841
 inept	unsuited; inappropriate; lacking skill; incompetent<br><i>cf.</i> inapt: (of statements or ideas) inappropriate					Barron4841
@@ -2441,7 +2441,7 @@ ingenious	marked by inventive skill; clever; resourceful<br><i>n.</i> ingenuity	
 resourceful	clever and imaginative (in dealing with difficult situations)<br><i>n.</i> resource, resourcefulness					Barron4841
 ingenuous	naive and trusting; young; unsophisticated; candid					Barron4841
 ingenue	ingénue; young innocent girl					Barron4841
-ingrained	deeply established; firmly rooted/prejudice	ingrained dirt				Barron4841
+ingrained	deeply established; firmly rooted	ingrained dirt/prejudice				Barron4841
 ingrate	ungrateful person (not expressing thanks)					Barron4841
 ingratiate	become popular with; bring (oneself) in favor of another	ingratiate himself with the boss				Barron4841
 inherent	firmly established by nature or habit; intrinsic					Barron4841
@@ -2475,12 +2475,12 @@ insightful	discerning; perceptive					Barron4841
 insinuate	hint; imply; suggest indirectly; creep in; introduce or insert (oneself) by artful means’s favor<br><i>cf.</i> ingratiate	insinuate himself into the boss				Barron4841
 creep	move with body close to the ground; move stealthily or slowly;<br><div>n.</div>					Barron4841
 artful	exhibiting art or skill; deceitful; cunning<br><i>cf.</i> artifice					Barron4841
-insipid	lacking in flavor; lacking interest; dull/character	insipid food				Barron4841
+insipid	lacking in flavor; lacking interest; dull	insipid food/character				Barron4841
 insolence	impudent disrespect; haughtiness<br><i>adj.</i> insolent<br><i>cf.</i> haughty + rude					Barron4841
 insolvent	bankrupt; lacking money to pay<br><i>n.</i> insolvency					Barron4841
 insomnia	wakefulness; inability to sleep					Barron4841
 insouciant	without concern or care; unconcerned; indifferent					Barron4841
-instigate	start; urge; provoke; incite/quarrel	instigate a search				Barron4841
+instigate	start; urge; provoke; incite	instigate a search/quarrel				Barron4841
 insubordination	disobedience; rebelliousness<br><i>adj.</i> insubordinate					Barron4841
 insubstantial	lacking substance; insignificant; frail; immaterial					Barron4841
 insularity	narrow-mindedness; isolation<br><i>adj.</i> insular: of an island; isolated; narrow-minded<br><i>cf.</i> peninsula					Barron4841
@@ -2508,9 +2508,9 @@ interpolate	insert between					Barron4841
 interregnum	period between two successive reigns or governments					Barron4841
 interrogate	question closely; cross-examine; cross-question					Barron4841
 intervene	come between; interfere<br><i>n.</i> intervention	intervened to prevent a fight				Barron4841
-intimate	hint; suggest; imply<br><i>adj.</i> marked by close relationship; familiar; private; personal/thoughts in the diary;<br><i>n.</i> close friend or confidant<br><i>cf.</i> intimacy	intimate knowledge				Barron4841
+intimate	hint; suggest; imply<br /><i>adj.</i> marked by close relationship; familiar; private; personal;<br /><i>n.</i> close friend or confidant<br /><i>cf.</i> intimacy	intimate knowledge/thoughts in the diary				Barron4841
 intimidate	frighten<br><i>n.</i> intimidation					Barron4841
-intractable	unruly; difficult to manage/child	intractable problem				Barron4841
+intractable	unruly; difficult to manage	intractable problem/child				Barron4841
 intransigence	refusal of any compromise; stubbornness<br><i>adj.</i> intransigent: uncompromising					Barron4841
 intrepid	fearless					Barron4841
 intrinsic	essential; inherent; built-in					Barron4841
@@ -2533,9 +2533,9 @@ invert	turn upside down or inside out; reverse the position or condition of					
 inveterate	deep-rooted; habitual<br><i>cf.</i> grow old					Barron4841
 invidious	designed to create ill will or envy; tending to rouse ill will or envy	invidious comparison				Barron4841 Leech
 invincible	unconquerable					Barron4841
-inviolable	secure from corruption, attack, or violation (or profanation); unassailable/rights<br><i>n.</i> inviolability	inviolable oath				Barron4841
+inviolable	secure from corruption, attack, or violation (or profanation); unassailable<br /><i>n.</i> inviolability	inviolable oath/rights				Barron4841
 invocation	prayer for help (used in invoking); calling upon as a reference or support; act of invoking					Barron4841
-invoke	call and bring into use (a right or law); call on/upon (a higher power or god) for help; ask for; beg for; conjure (a spirit)’s advisor/God	invoke the veto power<br>invoke one				Barron4841
+invoke	call and bring into use (a right or law); call on/upon (a higher power or god) for help; ask for; beg for; conjure (a spirit)	invoke the veto power<br />invoke one’s advisor/God				Barron4841
 invulnerable	incapable of injury; impossible to damage or injure					Barron4841
 iota	very small quantity					Barron4841
 irascible	irritable; easily angered					Barron4841
@@ -2568,7 +2568,7 @@ jargon	language used by special group; technical terminology; gibberish; nonsens
 jaundiced	yellowed; prejudiced (envious, hostile, or resentful) from long and disappointing experience of human affairs	with a jaundiced eye				Barron4841
 jaundice	medical condition in which the skin, the white part of the eyes, etc. turn yellow<br><i>v.</i> affect with jaundice; affect with prejudice, envy, or hostility; bias					Barron4841
 jaunt	trip; short journey					Barron4841
-jaunty	cheerful and pleased with life; lighthearted; animated; easy and carefree; dapper in appearance/hat	jaunty person				Barron4841
+jaunty	cheerful and pleased with life; lighthearted; animated; easy and carefree; dapper in appearance	jaunty person/hat				Barron4841
 jeopardize	endanger; imperil; put at risk<br><i>n.</i> jeopardy: danger					Barron4841
 jettison	throw overboard (from a ship or plane)					Barron4841
 jibe	agree; be in harmony with; or gibe, gybe, jib, jibb					Barron4841
@@ -2620,7 +2620,7 @@ laborious	demanding much work or care; tedious					Barron4841
 labyrinth	maze					Barron4841
 laceration	torn ragged wound<br><i>v.</i> lacerate: tear (the skin as with broken glass); wound					Barron4841
 rip	tear or be torn quickly and violently;<br><div>n.</div>	The sail ripped under the force of the wind				Barron4841
-rag	scrap of cloth<br><i>adj.</i> ragged: old and torn; seeming unfinished and imperfect/performance	ragged debut				Barron4841
+rag	scrap of cloth<br /><i>adj.</i> ragged: old and torn; seeming unfinished and imperfect	ragged debut/performance				Barron4841
 lachrymose	producing tears; tearful					Barron4841
 lackadaisical	lacking interest or effort; lacking purpose or zest; lazy; halfhearted; languid					Barron4841
 halfhearted	exhibiting little interest or enthusiasm					Barron4841
@@ -2660,7 +2660,7 @@ lectern	reading desk or stand for a public speaker					Barron4841
 leery	(of someone) suspicious; wary; cautious					Barron4841
 leeway	room to move; margin; latitude	leeway for the deadline				Barron4841
 margin	border; room; allowance beyond what is needed	margin of safety				Barron4841
-marginal	of a margin; barely within a limit/writing ability	marginal effect				Barron4841
+marginal	of a margin; barely within a limit	marginal effect/writing ability				Barron4841
 legacy	gift made by a will; something handed down from an ancestor					Barron4841
 legend	explanatory list of symbols on a map					Barron4841
 legerdemain	sleight (dexterity) of hand<br><i>cf.</i> light of hand					Barron4841
@@ -2699,7 +2699,7 @@ lineage	descent; ancestry					Barron4841
 lineaments	features especially of the face; distinctive shape or contour of the face<br><i>cf.</i> line					Barron4841
 feature	distinctive part of the faces (as the eyes or mouth); features: overall appearance of the face; prominent or distinctive quality; prominent article; film<br><i>v.</i> make prominent					Barron4841
 linger	loiter or dawdle; be slow in leaving; delay going; continue or persist; be slow to disappear.	The smell lingered for days				Barron4841
-persist	continue in existence; last; continue in a course of action in spite of opposition/with something<br><i>adj.</i> persistent	persist in				Barron4841
+persist	continue in existence; last; continue in a course of action in spite of opposition<br /><i>adj.</i> persistent	persist in/with something				Barron4841
 linguistic	pertaining to language					Barron4841
 lionize	treat (a person) as a celebrity					Barron4841
 liquidate	settle accounts; pay off (a debt); clear up; eliminate; kill or abolish					Barron4841
@@ -2741,7 +2741,7 @@ lumber	move heavily or clumsily;<br><i>n.</i> timber	The bear lumbered through t
 lumen	unit of light energy (one candle’s worth)					Barron4841
 luminary	celebrity (in a specific field); dignitary; object that gives light (as a celestial body)					Barron4841
 dignitary	person of high rank or position					Barron4841
-luminous	shining (esp. in the dark); issuing light/road signs	luminous paint				Barron4841
+luminous	shining (esp. in the dark); issuing light	luminous paint/road signs				Barron4841
 lunar	pertaining to the moon					Barron4841
 lunatic	insane	lunatic asylum				Barron4841
 lurid	wild; sensational; graphic; gruesome; horrible	lurid details of the murder				Barron4841
@@ -2750,7 +2750,7 @@ slink	move furtively<br><i>adj.</i> slinky: stealthy; furtive; sneaky (as in amb
 luscious	pleasing to taste or smell; delicious					Barron4841
 luster	shine; gloss (of a polished surface)					Barron4841
 lustrous	shining; brilliant	lustrous hair				Barron4841
-luxuriant	abundant; growing healthily and in large amounts; excessively ornate; rich and splendid; fertile/prose<br><i>cf.</i> luxurious, luxuriate	luxuriant forests				Barron4841
+luxuriant	abundant; growing healthily and in large amounts; excessively ornate; rich and splendid; fertile<br /><i>cf.</i> luxurious, luxuriate	luxuriant forests/prose				Barron4841
 macabre	gruesome; grisly; ghastly<br><i>cf.</i> of death					Barron4841
 morgue	mortuary; place where bodies are kept before burial or cremation					Barron4841
 cremate	incinerate (a corpse)<br><i>n.</i> crematory, crematorium					Barron4841
@@ -2809,12 +2809,12 @@ mannerism	distinctive behavioral trait; affected style in art (according to a se
 manumit	emancipate; free from slavery or bondage					Barron4841
 marital	pertaining to marriage					Barron4841
 maritime	bordering on (adjacent to) the sea; nautical; of the ships or the sea	Maritime Provinces				Barron4841
-marked	noticeable; targeted for vengeance or attack/man	marked improvement				Barron4841
+marked	noticeable; targeted for vengeance or attack	marked improvement/man				Barron4841
 marred	damaged; disfigured<br><i>v.</i> mar: spoil; disfigure					Barron4841
 marshal	put in order; guide ceremoniously to the correct place;<br><i>n.</i> military officer; official	marshal the children into the museum				Barron4841
 enlist	(cause to) join the armed forces; obtain (help, sympathy, or support)					Barron4841
 marsupial	one of a family of mammals that nurse their offspring in a pouch (pocket of skin or leather)<br><i>cf.</i> kangaroo, opossum, wombat					Barron4841
-martial	warlike; of war/law	martial art				Barron4841
+martial	warlike; of war	martial art/law				Barron4841
 cadet	student at a military school					Barron4841
 martinet	strict disciplinarian; person who demands total obedience to rules and orders<br><i>cf.</i> Jean Martinet					Barron4841
 martyr	one who voluntarily suffers death for his or her religion or cause; great sufferer	martyr to his rheumatism				Barron4841
@@ -2864,7 +2864,7 @@ mercantile	concerning trade or merchants					Barron4841
 mercenary	motivated solely by money or gain;<br><div>n.</div>					Barron4841
 mercurial	capricious; quick and changing; fickle; containing the element mercury<br><i>cf.</i> mood	mercurial temper				Barron4841
 quicksilver	mercury					Barron4841
-meretricious	flashy; tawdry; attractive on the surface but of no real value/jewel<br><i>cf.</i> prostitute	metericious argument				Barron4841
+meretricious	flashy; tawdry; attractive on the surface but of no real value<br /><i>cf.</i> prostitute	metericious argument/jewel				Barron4841
 vulgar	of the common people; deficient in refinement; not refined; coarse<br><i>n.</i> vulgarism: vulgarity; crudely indecent word<br><i>cf.</i> vulgarian: vulgar person; boor; lout	vulgar display of wealth				Barron4841
 merger	combination (of two business corporations); act of merging					Barron4841
 mesmerize	hypnotize<br><i>n.</i> mesmerism<br><i>cf.</i> Franz Mesmer					Barron4841
@@ -2873,7 +2873,7 @@ metamorphosis	change of form<br><i>v.</i> metamorphose: change by metamorphosis	
 metaphor	implied comparison<br><i>cf.</i> simile					Barron4841
 soar	rise or fly high in the air.	The rocket soared into the sky				Barron4841
 metaphysical	pertaining to speculative philosophy; of metaphysics<br><i>n.</i> metaphysics: branch of philosophy that examines the nature of reality					Barron4841
-mete	measure; distribute; administer/punishment	mete out justice				Barron4841
+mete	measure; distribute; administer	mete out justice/punishment				Barron4841
 meteoric	like a meteor; swift; momentarily brilliant<br><i>n.</i> meteor	meteoric rise to fame				Barron4841
 methodical	systematic<br><i>n.</i> method: systematic method of procedure					Barron4841
 meticulous	excessively careful (with great attention to detail); painstaking; scrupulous					Barron4841
@@ -2883,7 +2883,7 @@ miasma	swamp gas; heavy vaporous atmosphere often emanating from decaying matter
 swamp	wetland; marsh<br><i>v.</i> flood; overwhelm; drench in with liquid					Barron4841
 microcosm	small representative world; world in miniature	microcosm of English society				Barron4841
 miniature	small model; small painting<br><i>adj.</i> small					Barron4841
-migrant	changing its habitat; wandering/workers;<br><i>n.</i> one that migrates	migrant birds				Barron4841
+migrant	changing its habitat; wandering;<br /><i>n.</i> one that migrates	migrant birds/workers				Barron4841
 migratory	wandering<br><i>v.</i> migrate: move from one region and settle in another; move periodically from one region to another					Barron4841
 milieu	social environment; means of expression<br>’s milieu.	feel out of one<br>His proper milieu is watercolor				Barron4841
 militant	combative; bellicose;<br><div>n.</div>					Barron4841
@@ -2894,7 +2894,7 @@ mimicry	imitation					Barron4841
 mime	pantomime (act without dialogue); mimicry; mimer<br><i>v.</i> mimic; pantomime					Barron4841
 minatory	menacing; threatening					Barron4841
 mincing	affectedly dainty (delicate)<br><i>v.</i> mince: cut (esp. meat) into very small pieces; walk with exaggerated primness; walk in an unnatural way, taking little short steps<br><i>cf.</i> mincemeat<br><i>cf.</i> mincer	The actor minced across the stage				Barron4841
-dainty	delicate; delicately beautiful; fastidious; not easy to please/dress	dainty movement				Barron4841
+dainty	delicate; delicately beautiful; fastidious; not easy to please	dainty movement/dress				Barron4841
 exquisite	delicate; very finely made; extremely beautiful	exquisite piece of jewelry				Barron4841
 choice	delicate; of very fine quality					Barron4841
 minion	servile dependent; obsequious follower					Barron4841
@@ -2955,7 +2955,7 @@ monumental	massive; impressively large; built as a monument					Barron4841
 moodiness	fits of depression or gloom<br><i>adj.</i> moody: given to changeable moods; subject to periods of depression; gloomy <i>cf.</i> mood: state of mind or emotion					Barron4841
 moratorium	legal delay of payment or action	declare moratorium on the building of new houses				Barron4841
 morbid	given to unwholesome or unhealthy thought; moody; characteristic of disease<br><i>n.</i> morbidity<br><i>cf.</i> disease	morbid curiosity				Barron4841
-mordant	biting; sarcastic; stinging; (apprec.) incisive; cutting/wit	mordant pen				Barron4841
+mordant	biting; sarcastic; stinging; (apprec.) incisive; cutting	mordant pen/wit				Barron4841
 mores	conventions; moral standards; moral customs					Barron4841
 moribund	dying; at the point of death<br><i>cf.</i> death					Barron4841
 morose	ill-humored; sullen; sullenly melancholy					Barron4841
@@ -2984,7 +2984,7 @@ multiplicity	state of being numerous or multiple; large number<br><i>adj.</i> mu
 mundane	worldly as opposed to spiritual; everyday; of the ordinary<br><i>cf.</i> world	mundane existence				Barron4841
 munificent	very generous in giving<br><i>n.</i> munificience	munificent benefactor				Barron4841
 mural	wall painting					Barron4841
-murky	dark and gloomy; thick with fog; vague/fog<br><i>n.</i> murk: partial or complete darkness; gloom	murky night				Barron4841
+murky	dark and gloomy; thick with fog; vague<br /><i>n.</i> murk: partial or complete darkness; gloom	murky night/fog				Barron4841
 muse	ponder at length;<br><i>n.</i> source of inspiration (esp. of a poet)					Barron4841
 musky	having the odor of musk<br><i>n.</i> musk: odorous substance secreted by an Asian deer					Barron4841
 muster	gather; assemble (troops)’s strength for the ordeal;<br><div>n.</div>	muster up one				Barron4841
@@ -3003,7 +3003,7 @@ narrative	related to telling a story;<br><i>n.</i> narrated account; story<br><i
 nascent	incipient; coming into being or existence	nascent ability in music				Barron4841
 natation	swimming					Barron4841
 natty	neatly or smartly dressed; dapper; smart	natty dresser				Barron4841
-smart	intelligent; quick and energetic; fashionable/restaurant<br><i>v.</i> cause or feel a sharp pain;<br><i>n.</i> smarting pain	smart pace				Barron4841
+smart	intelligent; quick and energetic; fashionable<br /><i>v.</i> cause or feel a sharp pain;<br /><i>n.</i> smarting pain	smart pace/restaurant				Barron4841
 nauseate	cause to become sick; fill with disgust; fill nausea					Barron4841
 nausea	feeling of sickness and desire to vomit; disgust<br><i>cf.</i> seasickness					Barron4841
 nauseous	causing nausea; feeling nausea					Barron4841
@@ -3021,7 +3021,7 @@ neologism	new or newly coined word or phrase					Barron4841
 neophyte	recent convert; new member of a religious group; beginner<br><i>cf.</i> plant					Barron4841
 nepotism	favoritism (to a relative)<br><i>cf.</i> nephew					Barron4841
 favoritism	display of partiality toward a favored person					Barron4841
-nether	lower/regions	nether garments				Barron4841
+nether	lower	nether garments/regions				Barron4841
 nettle	irritate; annoy; vex<br><i>adj.</i> nettlesome					Barron4841
 nexus	connection					Barron4841
 nib	beak (bill); pen point					Barron4841
@@ -3033,8 +3033,8 @@ nip	snip off; stop something’s growth or development; bite; make numb with col
 snip	short quick cut with scissors<br><i>v.</i> cut with scissors					Barron4841
 pinch	squeeze between the thumb and a finger, or other edges’s t dreaming. <i>n.</i> amount that can be held between the thumb and a finger	I had to pinch myself to make sure I wasn				Barron4841
 nirvana	in Buddhist teachings, the ideal state in which the individual loses himself in the attainment of an impersonal beatitude					Barron4841
-impersonal	not being a person; not showing personal feelings/manner/organization	impersonal force				Barron4841
-nocturnal	done or active at night/raids<br><i>cf.</i> nocturne	nocturnal animals				Barron4841
+impersonal	not being a person; not showing personal feelings	impersonal force/manner/organization				Barron4841
+nocturnal	done or active at night<br /><i>cf.</i> nocturne	nocturnal animals/raids				Barron4841
 noisome	foul smelling; very unpleasant; unwholesome					Barron4841
 nomadic	wandering<br><i>n.</i> nomad: tribe who migrates from place to place					Barron4841
 nomenclature	terminology (system of specialized words); system of names or naming things					Barron4841
@@ -3053,7 +3053,7 @@ novelty	something new; newness<br><i>adj.</i> novel: new; original					Barron484
 novice	beginner					Barron4841
 noxious	harmful<br><i>cf.</i> obnoxious					Barron4841
 nuance	shade of slight difference in meaning or color; subtle distinction					Barron4841
-shade	slight difference in degree; nuance; degree of color/grey	shades of meaning				Barron4841
+shade	slight difference in degree; nuance; degree of color	shades of meaning/grey				Barron4841
 gradation	series of gradual stages; degree in such a progression					Barron4841
 nubile	marriageable; of marriageable age<br><i>cf.</i> connubial					Barron4841
 nugatory	worthless; futile					Barron4841
@@ -3080,9 +3080,9 @@ oblivion	obscurity; condition of being completely forgotten; forgetfulness					B
 oblivious	inattentive or unmindful; unaware; wholly absorbed; forgetful (having the habit of forgetting)					Barron4841
 obloquy	<i>n. pl.</i> <b>obloquies</b><br />1. censure, blame, or abusive language aimed at a person or thing, especially by numerous persons or by the general public.<br />2. discredit, disgrace, or bad repute resulting from public blame, abuse, or denunciation					Barron4841
 obnoxious	offensive; disagreeable	obnoxious smell				Barron4841
-obscure	dark; vague; unclear; not well known<br>/village<br><i>v.</i> darken; cover; make unclear/meaning	obscure meaning<br>obscure the moon				Barron4841
+obscure	dark; vague; unclear; not well known<br /><i>v.</i> darken; cover; make unclear	obscure meaning/village<br />obscure the moon/meaning				Barron4841
 obsequious	slavishly attentive; servile; full of servile compliance; sycophantic					Barron4841
-slavish	of or like a slave; servile; showing no originality; copied very closely/copy of the original	slavish devotion				Barron4841
+slavish	of or like a slave; servile; showing no originality; copied very closely	slavish devotion/copy of the original				Barron4841
 obsequy	funeral ceremony					Barron4841
 obsessive	related to thinking about something constantly; of an obsession; preoccupying<br><i>n.</i> obsession: compulsive preoccupation with a fixed idea; compulsive idea<br><i>v.</i> obsess: preoccupy the mind of excessively					Barron4841
 obsidian	black volcanic rock					Barron4841
@@ -3168,7 +3168,7 @@ blunt	having a dull edge; abrupt and frank in speech or manner; brusque<br><i>v.
 outstrip	outrun; surpass; outdo					Barron4841
 outwit	outsmart; defeat by behaving more cleverly					Barron4841
 ovation	enthusiastic applause					Barron4841
-overbearing	bossy; domineering and arrogant; decisively important/importance<br><i>v.</i> overbear: dominate	overbearing manner				Barron4841
+overbearing	bossy; domineering and arrogant; decisively important<br /><i>v.</i> overbear: dominate	overbearing manner/importance				Barron4841
 overt	open to view; public; not secret<br><i>cf.</i> covert					Barron4841
 overweening	arrogant; presumptuous					Barron4841
 overwrought	nervous or excited; extremely agitated; hysterical; wrought-up<br><i>cf.</i> wrought: made or done					Barron4841
@@ -3225,7 +3225,7 @@ parched	extremely dry; very thirsty<br><i>v.</i> parch: make or become extremely
 pariah	social outcast	Mariah the pariah				Barron4841
 outcast	one that has been excluded from a society;<br><div>adj.</div>					Barron4841
 parity	equality; close resemblance<br><i>cf.</i> disparate					Barron4841
-parlance	language; manner of speaking; idiom/common parlance	in legal				Barron4841
+parlance	language; manner of speaking; idiom	in legal/common parlance				Barron4841
 parley	conference (between opponents)<br><i>cf.</i> speak					Barron4841
 parochial	narrow in scope or outlook; provincial; related to parishes					Barron4841
 parish	area in the care of a single priest and served by one main church					Barron4841
@@ -3295,7 +3295,7 @@ perdition	damnation; complete ruin; hell					Barron4841
 damn	condemn; criticize severely; condemn to everlasting punishment; doom; bring to ruin<br><i>n.</i> damnation					Barron4841
 doom	condemnation to a severe penalty; ruin; fate (esp. a tragic or ruinous one);<br><div>v.</div>					Barron4841
 peregrination	journey<br><i>v.</i> peregrinate					Barron4841
-peremptory	demanding and leaving no choice; imperative/knock	peremptory decree				Barron4841
+peremptory	demanding and leaving no choice; imperative	peremptory decree/knock				Barron4841
 perennial	something long-lasting; perennial plant<br><i>adj.</i> lasting through the year or many years; lasting for a long time; enduring					Barron4841
 perfidious	treacherous; disloyal<br><i>n.</i> perfidy: treachery					Barron4841
 perforate	pierce; put a hole through					Barron4841
@@ -3304,11 +3304,11 @@ perigee	point of moon’s orbit when it is nearest the earth<br><i>cf.</i> apoge
 perimeter	outer boundary; length of the outer boundary; circumference					Barron4841
 bound	leap or spring; limit or confine; constitute the limit of<br><i>n.</i> leap or jumping; boundary<br><i>adj.</i> certain; having a duty to do something (legally or morally); confined by bonds<br><i>cf.</i> bounce, rebound	bounded by Canada;<br>We are bound to be late<br>I am bound to say my opinion				Barron4841
 peripatetic	walking about from place to place (to work); moving	peripatetic school of philosophy				Barron4841
-peripheral	of a periphery; marginal; outer; of minor importance; not central/interest	peripheral nerve				Barron4841
+peripheral	of a periphery; marginal; outer; of minor importance; not central	peripheral nerve/interest				Barron4841
 periphery	outside edge especially of a round surface; perimeter	periphery of the town				Barron4841
 perjury	false testimony while under oath<br><i>v.</i> perjure oneself: testify falsely under oath					Barron4841
 permeable	that can be permeated; penetrable; porous; allowing liquids or gas to pass through<br><i>v.</i> permeate: spread or flow throughout; charge					Barron4841
-pernicious	very harmful; deadly; very destructive/anemia	pernicious effect				Barron4841
+pernicious	very harmful; deadly; very destructive	pernicious effect/anemia				Barron4841
 peroration	conclusion of an oration; perorating<div><br /><i>v.</i> <mark>perorate<br /></mark>conclude a speech; speak at great length</div>					Barron4841
 perpetrate	commit an offense; do (something wrong)					Barron4841
 perpetual	everlasting					Barron4841
@@ -3318,7 +3318,7 @@ personable	attractive (in personality or appearance)					Barron4841
 perspicacious	(of someone) having insight; penetrating; astute					Barron4841
 perspicuity	clearness of expression; freedom from ambiguity					Barron4841
 perspicuous	(of something) plainly expressed; easy to understand	perspicuous comments				Barron4841
-pert	(esp. of a girl or young woman) impertinent; forward; trim; jaunty/hat	pert young miss				Barron4841
+pert	(esp. of a girl or young woman) impertinent; forward; trim; jaunty	pert young miss/hat				Barron4841
 forward	presumptuous or bold					Barron4841
 pertinacious	holding tenaciously to an action; stubborn; persistent					Barron4841 leech
 pertinent	suitable; to the point; relevant					Barron4841
@@ -3326,7 +3326,7 @@ perturb	disturb greatly					Barron4841
 pervasive	spread throughout<br><i>v.</i> pervade: (of smells, ideas, feelings) spread throughout; charge; permeate					Barron4841
 perverse	purposely continuing to do something wrong; stubbornly wrongheaded; perverted; directed away from what is right; wicked and unacceptable<br><i>n.</i> perversity	perverse satisfaction<br>Hannibal Lecter in a perverse mood				Barron4841
 perversion	corruption; turning from right to wrong					Barron4841
-pervert	corrupt; turn from right to wrong; misuse/scientific knowledge;<br><i>n.</i> person whose sexual behavior is not natural	perverted sexual desire				Barron4841
+pervert	corrupt; turn from right to wrong; misuse;<br /><i>n.</i> person whose sexual behavior is not natural	perverted sexual desire				Barron4841
 wrongheaded	stubbornly wrong					Barron4841
 pessimism	belief that life is basically bad or evil; gloominess; tendency to take the gloomiest possible view of a situation<br><i>adj.</i> pessimistic					Barron4841
 pestilential	causing plague; tending to cause death; baneful<br><i>n.</i> pestilence: fatal epidemic disease (esp. bubonic plague)			pestilent		Barron4841
@@ -3364,7 +3364,7 @@ pinion	restrain or immobilize by binding the wings or legs;<br><i>n.</i> bird’
 pinnacle	peak; highest point; acme	pinnacle of fame				Barron4841
 pious	devout; religious<br><i>n.</i> piety					Barron4841
 piquant	pleasantly tart-tasting; spicy; pleasantly stimulating	piquant situation when my old enemy asked for my help				Barron4841
-tart	sharp to the taste; acid-tasting; caustic; sarcastic/reply	tart apple				Barron4841
+tart	sharp to the taste; acid-tasting; caustic; sarcastic	tart apple/reply				Barron4841
 sour	having a sharp or acid taste; acid; tart; bad-tempered;<br><div>v.</div>					Barron4841
 pique	irritation; resentment from wounded pride (eg. loss in a contest)<br><i>v.</i> provoke; arouse; annoy; cause to feel resentment	pique her curiosity				Barron4841
 piscatorial	pertaining to fishing<br><i>cf.</i> Pisces					Barron4841
@@ -3378,7 +3378,7 @@ pivotal	of a pivot; central; critical; crucial					Barron4841
 placate	pacify; bring peace to; conciliate; appease					Barron4841
 placebo	harmless substance prescribed as a dummy pill					Barron4841
 tablet	small round piece of medicine; flat piece of stone or metal bearing an inscription	stone tablet on the wall				Barron4841
-placid	peaceful; calm/lake	placid child				Barron4841
+placid	peaceful; calm	placid child/lake				Barron4841
 plagiarize	steal another’s ideas or writings and pass them off as one’s own<br><i>n.</i> plagiarism<br><i>cf.</i> kidnap	ideas plagiarized from my article				Barron4841
 plaintive	expressing sorrow; mournful	plaintive song				Barron4841
 plait	braid; interwine; interweave strands or lengths of; make by weaving strands together;<br><i>n.</i> braided length as of hair o fabric<br><i>cf.</i> pigtail, ponytail	plaited hair				Barron4841
@@ -3408,7 +3408,7 @@ plutocracy	society ruled by the wealthy					Barron4841
 podiatrist	doctor who treats ailments of the feet; chiropodist<br><i>n.</i> podiatrics					Barron4841
 podium	pedestal; raised platform					Barron4841
 pedestal	support or base as for a pillar or statue					Barron4841
-poignancy	quality of being deeply moving; keenness of emotion<br><i>adj.</i> poignant: touching; deeply moving; (of sorrow, grief, etc.) painful; keenly distressing to the mind/anxiety<br><i>cf.</i> prick	poignant memory				Barron4841
+poignancy	quality of being deeply moving; keenness of emotion<br /><i>adj.</i> poignant: touching; deeply moving; (of sorrow, grief, etc.) painful; keenly distressing to the mind<br /><i>cf.</i> prick	poignant memory/anxiety				Barron4841
 polarize	split into opposite extremes or camps					Barron4841
 polarity	state of having two opposite qualities					Barron4841
 polar	of a pole; characterized by opposite extremes	polar opposites				Barron4841
@@ -3418,9 +3418,9 @@ polemical	aggressive in verbal attack; disputatious (rather than simply expressi
 politic	prudent; judicious; well judged; expedient; well devised					Barron4841
 polity	(particular form of) political organization; form of government of nation or state	student polity				Barron4841
 polygamist	one who has more than one spouse at a time<br><i>cf.</i> bigamy<br><i>cf.</i> polyandry					Barron4841
-polyglot	speaking several languages; multilingual/society;<br><div>n.</div>	polyglot person				Barron4841
+polyglot	speaking several languages; multilingual;<br /><div>n.</div>	polyglot person/society				Barron4841
 pomposity	self-important behavior; acting like a stuffed shirt (pompous person)<br><i>adj.</i> pompous: self-important					Barron4841
-ponderous	having great weight; weighty; unwieldy; lacking lightness; dull/style of writing	ponderous body				Barron4841
+ponderous	having great weight; weighty; unwieldy; lacking lightness; dull	ponderous body/style of writing				Barron4841
 pontifical	pertaining to a bishop or pope; pompous or pretentious<br><i>cf.</i> pontiff: pope; bishop					Barron4841
 pore	study industriously; ponder; scrutinize;<br><div>n.</div>	pore over the book				Barron4841
 porous	full of pores; like a sieve					Barron4841
@@ -3428,11 +3428,11 @@ interstice	narrow space between things					Barron4841
 portend	foretell; presage; be a sign or warning of<br><i>n.</i> portent: sign; omen; forewarning					Barron4841
 soothsayer	one who foretells the future					Barron4841
 portly	stout; corpulent					Barron4841
-stout	rather fat; strong in body; sturdy; resolute; determined; strong in determination/supporter	stout stick				Barron4841
+stout	rather fat; strong in body; sturdy; resolute; determined; strong in determination	stout stick/supporter				Barron4841
 poseur	person who pretends to be sophisticated, elegant, etc., to impress others; person who poses<br><i>cf.</i> pose					Barron4841
 pose	assume a particular posture; put forward; present; affect a particular attitude (to impress others);<br><div>n.</div>	pose a threat				Barron4841
 posterity	descendants; future generations<br><i>cf.</i> posterior, anterior	go down to posterity				Barron4841
-posthumous	after death (as of child born after father’s death or book published after author’s death); coming or occurring after one’s death/novel	posthumous fame				Barron4841
+posthumous	after death (as of child born after father’s death or book published after author’s death); coming or occurring after one’s death	posthumous fame/novel				Barron4841
 postmortem	autopsy<br><i>adj.</i> occurring after death; of a postmortem					Barron4841
 postulate	self-evident truth; something assumed without proof<br><i>v.</i> assume the truth of (as a basis of an argument)					Barron4841
 posture	assume an affected pose; act artificially;<br><i>n.</i> pose; attitude					Barron4841
@@ -3494,7 +3494,7 @@ presume	take for granted; assume; act overconfidently; take liberties; presume o
 pretentious	ostentatious; showy; pompous; making unjustified claims; overambitious	pretentious films that claim to be art				Barron4841
 pretend	feign; pretend to: claim to possess; make pretensions to’s t pretend to much expertise<br><i>n.</i> pretense	I don				Barron4841
 pretension	pretentiousness; claim (without foundation).	I make no pretensions to skill as an artist				Barron4841
-preternatural	beyond what is normal in nature; supernatural/forces	preternatural strength				Barron4841
+preternatural	beyond what is normal in nature; supernatural	preternatural strength/forces				Barron4841
 pretext	excuse					Barron4841
 prevail	be widespread; triumph over; gain victory; prevail on: persuade; induce	Justice has prevailed<br>prevail on someone to do something				Barron4841
 prevalent	widespread; generally accepted					Barron4841
@@ -3516,11 +3516,11 @@ procrastinate	postpone; delay or put off					Barron4841
 procurement	obtaining<br><i>v.</i> procure: obtain by effort; obtain (a prostitute) for another					Barron4841
 prod	poke (with a pointed object); stir up; urge; goad to action;<br><i>n.</i> pointed object used to prod; prodding					Barron4841
 prodigal	wasteful; reckless with money; profuse<br><i>n.</i> prodigality	a mind prodigal of ideas				Barron4841
-prodigious	enormous; marvelous; extraordinary/memory	prodigious amount				Barron4841
+prodigious	enormous; marvelous; extraordinary	prodigious amount/memory				Barron4841
 prodigy	highly gifted child; person with exceptional talents; marvel; wonder					Barron4841
 profane	<i>v. </i>violate; desecrate (something holy); treat unworthily; be profane for;<div><div><i>adj.</i> secular; nonreligious; irreverent for holy things</div></div>					Barron4841
 profligate	wasteful (of money); dissipated; wildly immoral; dissolute;<br><i>n.</i> profligate person<br><i>n.</i> profligacy					Barron4841
-profound	deep; not superficial; complete/remark/silence/deafness<br><i>n.</i> profundity	profound thinker				Barron4841
+profound	deep; not superficial; complete<br /><i>n.</i> profundity	profound thinker/remark/silence/deafness				Barron4841
 profusion	great amount; plenty; overabundance; excess; lavish expenditure<br><i>adj.</i> profuse: plentiful; copious; giving or given abundantly; extravagant	profusion of choices				Barron4841
 progenitor	ancestor					Barron4841
 progeny	children; offspring; descendants					Barron4841
@@ -3536,9 +3536,9 @@ prologue	introduction (to a poem or play)					Barron4841
 feud	bitter prolonged quarrel (usually between two peoples or families)<br><i>v.</i> <i>cf.</i> Romeo and Juliet<br><i>cf.</i> feudal, feudalism					Barron4841
 prolong	lengthen; extend; draw out					Barron4841
 prominent	protruding (sticking out); conspicuous; notable; eminent					Barron4841
-promiscuous	mixed indiscriminately; indiscriminate; not choosing carefully; indiscriminate in the choice of sexual partners; irregular, particularly sexually/girl<br><i>n.</i> promiscuity	promiscuous life				Barron4841
+promiscuous	mixed indiscriminately; indiscriminate; not choosing carefully; indiscriminate in the choice of sexual partners; irregular, particularly sexually<br /><i>n.</i> promiscuity	promiscuous life/girl				Barron4841 marked
 promontory	headland					Barron4841
-promote	advance in rank; advance; help to flourish; advocate; help actively in forming; publicize or popularize<br>/bill	Milk promotes health<br>promote a match<br>promote a new product				Barron4841
+promote	advance in rank; advance; help to flourish; advocate; help actively in forming; publicize or popularize<br />	Milk promotes health<br />promote a match<br />promote a new product/bill				Barron4841
 prompt	cause; urge; provoke; provide a cue (for an actor)<br><i>adj.</i> done without delay; done at the right time; punctual; on time;<br><i>n.</i> reminder or cue					Barron4841
 cue	word or signal (as in a play to prompt another actor’speech or entrance); reminder or hint<br><i>v.</i> give a cue to					Barron4841
 promulgate	announce; proclaim a doctrine or law; make known by official publication					Barron4841
@@ -3550,10 +3550,10 @@ prophetic	of a prophet or prophecy; having to do with predicting the future<br><
 prophylactic	used to prevent disease;<br><i>n.</i> something prophylactic; condom<br><i>n.</i> prophylaxis: prevention of disease					Barron4841
 propinquity	nearness (in space or relationship); proximity; kinship					Barron4841
 propitiate	appease; conciliate; make peaceful<br><i>adj.</i> propitiatory					Barron4841
-propitious	favorable; auspicious; advantageous; fortunate/sign	propitious day				Barron4841
+propitious	favorable; auspicious; advantageous; fortunate	propitious day/sign				Barron4841
 horoscope	diagram of the positions of stars at a given moment (eg. of a person’s birth) used by astrologers					Barron4841
 proponent	supporter; backer; opposite of opponent					Barron4841
-propound	put forth for consideration or analysis; set forth/theory	propound a problem				Barron4841
+propound	put forth for consideration or analysis; set forth	propound a problem/theory				Barron4841
 propriety	fitness; quality of being proper; correct conduct; conformity to prevailing customs and usages<br><i>cf.</i> proprietor, proprietary					Barron4841
 usage	act or manner of using; accepted practice; way in which words are actually used					Barron4841
 propulsive	driving forward<br><i>n.</i> propulsion					Barron4841
@@ -3648,7 +3648,7 @@ quandary	dilemma; state of uncertainty.	She is in a quandary about whether to go
 quarantine	isolation of a person, place, or ship to prevent spread of infection<br><i>v.</i> isolate in quarantine					Barron4841
 quarry	person or animal of pursuit; victim; object of a hunt; prey					Barron4841
 bank	heap; piled-up mass; embankment; lateral tilting (as of an aircraft in turning)<br><i>v.</i> pile up; protect with a bank; tilt in turning					Barron4841
-quash	crush; suppress; squash; subdue; annul/the decision of the low court	quash a rebellion				Barron4841
+quash	crush; suppress; squash; subdue; annul	quash a rebellion/the decision of the low court				Barron4841
 squash	crush; quash; suppress					Barron4841
 quay	dock; wharf; pier; landing place (for boats)					Barron4841
 queasy	experiencing nausea; nauseated; easily nauseated; squeamish	feel a little queasy				Barron4841
@@ -3683,10 +3683,10 @@ rakish	jaunty; stylish; sporty; morally corrupt; dissolute.	He wore his hat at a
 rake	angle of a slope<br><i>v.</i> slant from the perpendicular					Barron4841
 rally	come or bring together; call up or summon (forces, vital powers, etc.); revive or recuperate (after illness or difficulty);<br><i>n.</i> act of rallying; mass gathering					Barron4841
 ramble	wander aimlessly (physically or mentally); digress					Barron4841
-ramification	branching out; subdivision; one branch of a system; one of the results following from an action or decision/the decision	ramifications of a business				Barron4841
+ramification	branching out; subdivision; one branch of a system; one of the results following from an action or decision	ramifications of a business/the decision				Barron4841
 ramify	branch out; divide into branches or subdivisions					Barron4841
 ramp	slope; inclined plane or roadway (connecting two levels)					Barron4841
-rampant	growing or spreading uncontrollably; growing in profusion; unrestrained/weed	rampant lawlessness				Barron4841
+rampant	growing or spreading uncontrollably; growing in profusion; unrestrained	rampant lawlessness/weed				Barron4841
 rampart	defensive mound of earth					Barron4841
 ramshackle	(of a building or vehicle) poorly constructed; rickety; falling apart					Barron4841
 rickety	(of buildings) likely to break or fall apart; of rickets<br><i>cf.</i> rickets<br><i>cf.</i> vitamin D					Barron4841
@@ -3733,7 +3733,7 @@ rebuke	scold harshly; criticize severely					Barron4841
 rebus	representation of words in the form of pictures or symbols; puzzle in which pictures or letters stand for words<br><i>ex.</i> “R U 18” is a rebus for “Are you 18”.					Barron4841
 rebuttal	refutation; response with contrary evidence<br><i>v.</i> rebut: refute; disprove					Barron4841
 recalcitrant	disobedient or resisting authority even after being punished; obstinately stubborn; determined to resist authority; unruly	recalcitrant child				Barron4841
-recant	disclaim or disavow; retract a previous statement; openly confess error’s faith/a statement	recant one				Barron4841
+recant	disclaim or disavow; retract a previous statement; openly confess error’s faith	recant one/a statement				Barron4841
 recapitulate	summarize					Barron4841
 recast	reconstruct (a sentence, story, statue, etc.); fashion again					Barron4841
 fashion	give shape to; make	fashion the pot out of clay				Barron4841
@@ -3795,7 +3795,7 @@ relegate	put into a lower or worse place; banish to an inferior position; delega
 relent	become less severe; give in (surrender)<br><i>adj.</i> relentless: unyielding; continuously severe					Barron4841
 relevant	having importance; pertinent; referring to the case in hand<br><i>n.</i> relevance, relevancy					Barron4841
 relic	surviving remnant (from an extinct culture); memento; keepsake; relics: corpse	ancient relics<br>relics of his travel<br>His relics are buried at				Barron4841
-relinquish	give up something (with reluctance); yield; release/the claim to the land/his hold on my arm	relinquish power				Barron4841
+relinquish	give up something (with reluctance); yield; release	relinquish power/the claim to the land/his hold on my arm				Barron4841
 relish	enjoy; savor;<br><i>n.</i> enjoyment; zest					Barron4841
 remediable	reparable					Barron4841
 reminiscence	recollection<br><i>v.</i> reminisce: recollect the past					Barron4841
@@ -3813,8 +3813,8 @@ render	give; deliver; provide; represent in verbal or artistic form; depict; per
 rendezvous	meeting place; meeting at a set time or place;<br><div>v.</div>					Barron4841
 rendition	rendering; translation; artistic interpretation of a song, etc					Barron4841
 renegade	deserter; traitor;<br><div>adj.</div>					Barron4841
-renege	break a promise; deny; go back on/paying off the debt	renege on the contract				Barron4841
-renounce	abandon; give up (by formal announcement); disown; repudiate’s claim to the property/one’s religion; N. renunciation	renounce one				Barron4841
+renege	break a promise; deny; go back on	renege on the contract/paying off the debt				Barron4841
+renounce	abandon; give up (by formal announcement); disown; repudiate’s claim to the property; N. renunciation	renounce one/one’s religion				Barron4841
 renovate	restore to good condition; renew					Barron4841
 renown	fame<br><i>adj.</i> renowned					Barron4841
 herald	messenger; sign of something to come<br><i>v.</i> announce; proclaim	unheralded researcher				Barron4841
@@ -3889,7 +3889,7 @@ reticent	inclined to silence; uncommunicative; reserved<br><i>n.</i> reticence	H
 retinue	following; attendants					Barron4841
 retiring	shy and reserved (of a person); modest	her retiring personality				Barron4841
 retort	quick sharp reply;<br><div>v.</div>					Barron4841
-retract	withdraw; take back; draw back/an offer/claws<br><i>n.</i> retraction<br><i>cf.</i> retractile	retract a statement				Barron4841
+retract	withdraw; take back; draw back<br /><i>n.</i> retraction<br /><i>cf.</i> retractile	retract a statement/an offer/claws				Barron4841
 retrench	cut down; cut down expenses; economize					Barron4841
 retribution	deserved punishment for wrongdoing; punishment for offenses; compensation; vengeance<br><i>cf.</i> pay back					Barron4841
 retrieve	recover; put right; find and bring in; regain	retrieve the situation				Barron4841
@@ -4036,7 +4036,7 @@ sectarian	of a sect; narrow-minded; parochial;<br><i>n.</i> member of a sect; na
 denomination	religious group; unit in a system; name or designation<br><i>cf.</i> denominator: common trait or characteristic					Barron4841
 secular	worldly; not pertaining to church matters or religion; temporal					Barron4841
 sedate	composed (with no excitement); grave<br><i>v.</i> administer a sedative to<br><i>cf.</i> sedative					Barron4841
-sedentary	requiring sitting; done while sitting; not moving from one place to another; settled/population	sedentary job				Barron4841
+sedentary	requiring sitting; done while sitting; not moving from one place to another; settled	sedentary job/population				Barron4841
 sedition	conduct or language inciting rebellion; rebellion; resistance to authority; insubordination<br><i>adj.</i> seditious					Barron4841
 sedulous	diligent; assiduous; paying attention<br><i>n.</i> sedulity					Barron4841
 seedy	run-down; decrepit; disreputable; having many seeds	seedy downtown hotel				Barron4841
@@ -4046,13 +4046,13 @@ seep	pass slowly through small openings; ooze; trickle<br><i>n.</i> seepage					
 seethe	be violently disturbed; boil; (of a liquid) move about wildly as if boiling.	The nation was seething with discontent				Barron4841
 seine	seine net; net for catching fish					Barron4841
 seismic	pertaining to earthquakes					Barron4841
-semblance	outward appearance; guise/some semblance of order to the city.	We called in the troops to bring a				Barron4841
+semblance	outward appearance; guise	We called in the troops to bring a/some semblance of order to the city.				Barron4841
 seminal	related to seed or semen; germinal; creative; providing a basis for further development; influencing future developments	seminal research in a new field				Barron4841
 seminary	school for training future ministers; secondary school, especially for young women					Barron4841
 senility	old age; feeblemindedness of old age; <i>adj.</i> senile: resulting from old age; showing the weakness of body or mind from old age	senile dementia				Barron4841
 feebleminded	deficient in intelligence; very stupid					Barron4841
 sensitization	process of being made sensitive or acutely responsive to an external agent or substance<br><i>v.</i> sensitize: make or become sensitive					Barron4841
-sensual	devoted to the pleasures of the sense; carnal; voluptuous/curves/lips	sensual woman				Barron4841
+sensual	devoted to the pleasures of the sense; carnal; voluptuous	sensual woman/curves/lips				Barron4841
 voluptuous	sensual; of or giving sensual pleasure; indulging in sensual pleasures<br><i>n.</i> voluptuary: voluptuous person	voluptuous lines<br>voluptuous life of the Romans				Barron4841
 sensuous	giving pleasure to the senses; pertaining to the physical senses; operating through the senses; sensuous feeling of soft velvet on the skin					Barron4841
 sententious	pithy; terse; concise; aphoristic					Barron4841 leech
@@ -4074,7 +4074,7 @@ severity	harshness; intensity; sternness; austerity<br><i>adj.</i> severe: harsh
 sextant	navigation tool used to determine a ship’s latitude and longitude (by measuring the altitudes of stars)					Barron4841
 shackle	chain; fetter; confine with shackles;<br><div>n.</div>					Barron4841
 sham	pretend; feign<br><i>adj.</i> not genuine; fake<br>;<br><i>n.</i> something that is not what it appears; impostor; pretense.	sham jewelry<br>The agreement was a sham				Barron4841
-shambles	(place or scene of) complete disorder or ruin; wreck; mess, the coast was a shambles.	After the hurricane				Barron4841
+shambles	(place or scene of) complete disorder or ruin; wreck; mess	After the hurricane, the coast was a shambles.				Barron4841
 shard	fragment generally of broken pottery (glass, clay bowl, or cup)					Barron4841
 shaving	very thin piece, usually of wood (cut from a surface with a sharp blade)					Barron4841
 plane	carpenter’s tool for smoothing and leveling wood<br><i>v.</i> <i>cf.</i> flat					Barron4841
@@ -4083,7 +4083,7 @@ sheathe	place into a case; insert into or provide with a sheath<br><i>n.</i> she
 sherbet	flavored dessert ice					Barron4841
 shimmer	shine with a flickering light; glimmer intermittently;<br><div>n.</div>	The moonlight shimmered on the water				Barron4841
 shirk	avoid (responsibility, work, etc.); malinger					Barron4841
-shoddy	made of inferior material; sham; not genuine; inferior; dishonest/trick	shoddy goods				Barron4841
+shoddy	made of inferior material; sham; not genuine; inferior; dishonest	shoddy goods/trick				Barron4841
 shrew	scolding woman; very small mouselike animal					Barron4841
 shrewd	clever; astute					Barron4841
 shun	keep away from; avoid deliberately.	She has been shunned by her neighbors				Barron4841
@@ -4101,7 +4101,7 @@ simplistic	oversimplified					Barron4841
 simulate	feign; imitate					Barron4841
 sinecure	well-paid position with little responsibility<br><i>cf.</i> sine cure: without care<br><i>cf.</i> San Serif					Barron4841
 sinewy	(of meat) tough; strong and firm; muscular<br><i>n.</i> sinew: tendon; strong cord connecting a muscle to a bone					Barron4841
-singular	being only one; individual; unique; extraordinary; odd/behavior	singular beauty				Barron4841
+singular	being only one; individual; unique; extraordinary; odd	singular beauty/behavior				Barron4841
 sinister	evil; ominous					Barron4841
 sinuous	twisting; winding; bending in and out; not morally honest					Barron4841
 skeptic	sceptic; doubter; person who suspends judgment until he has examined the evidence supporting a point of view<br><i>adj.</i> skeptical<br><i>n.</i> skepticism; scepticism					Barron4841
@@ -4119,7 +4119,7 @@ slag	glassy residue from smelting metal; dross; waste matter					Barron4841
 slake	satisfy (thirst); quench; sate					Barron4841
 slander	defamation; utterance of false and malicious statements<br><i>v.</i> <i>adj.</i> slanderous					Barron4841
 slapdash	hasty and careless; haphazard; sloppy (carelessly done)					Barron4841
-sleazy	shabby and dirty; flimsy; insubstantial-street hotel/fabric	sleazy back				Barron4841
+sleazy	shabby and dirty; flimsy; insubstantial-street hotel	sleazy back/fabric				Barron4841
 sleeper	one that achieves unexpected success; something originally of little value or importance that in time becomes very valuable					Barron4841
 sleight	dexterity<br><i>cf.</i> sleight of hand: legerdemain; quickness of the hands in doing tricks					Barron4841
 slew	large quantity or number	slew of errands left				Barron4841
@@ -4169,10 +4169,10 @@ sophisticated	worldly wise and urbane; refined; complex<br><i>n.</i> sophisticat
 sophistry	seemingly plausible but fallacious reasoning; sophism					Barron4841
 sophomoric	immature; half-baked; like a sophomore					Barron4841
 soporific	sleep-causing; marked by sleepiness; drowsy					Barron4841
-sordid	filthy; foul; base; vile/story	sordid bed				Barron4841
+sordid	filthy; foul; base; vile	sordid bed/story				Barron4841
 spangle	small shiny metallic piece sewn to clothing for ornamentation					Barron4841
 sparse	not thick; thinly scattered; scanty					Barron4841
-spartan	without attention to comfort; lacking luxury and comfort; sternly disciplined/life	spartan living condition				Barron4841
+spartan	without attention to comfort; lacking luxury and comfort; sternly disciplined	spartan living condition/life				Barron4841
 spasmodic	fitful; periodic; of or like a spasm<br><i>n.</i> spasm: sudden involuntary muscular contraction; sudden burst of energy or emotion					Barron4841
 spat	squabble; minor dispute; minor quarrel					Barron4841
 spate	sudden flood or rush	spate of accidents				Barron4841
@@ -4192,7 +4192,7 @@ sporadic	occurring irregularly; intermittent					Barron4841
 sportive	playful; frolicsome; merry<br><i>cf.</i> sport: play or frolic<br><i>cf.</i> sportsmanlike					Barron4841
 spruce	neat and trim in appearance; smart;<br><div>v.</div>	Be spruce for your job interview				Barron4841
 spry	(esp. of older people) vigorously active; nimble					Barron4841
-nimble	quick in movement; agile; quick in understanding/mind	nimble climber				Barron4841
+nimble	quick in movement; agile; quick in understanding	nimble climber/mind				Barron4841
 spurious	false; counterfeit; forged; illogical	spurious arguments				Barron4841
 spurn	reject disdainfully; scorn.	She spurned all offers of help				Barron4841
 squabble	minor quarrel; bickering<br><i>v.</i> engage in a minor quarrel	squabbling children				Barron4841
@@ -4277,7 +4277,7 @@ substantiate	support (a claim) with evidence; establish with evidence; verify			
 substantive	substantial; essential; pertaining to the substance; substantial; considerable	substantive issues				Barron4841
 subsume	include (as a member of a group); encompass					Barron4841
 subterfuge	stratagem (deceptive scheme); pretense; evasion	resort to a harmless subterfuge				Barron4841
-subtlety	perceptiveness; ingenuity; delicacy<br><i>adj.</i> subtle: delicate; so slight as to be difficult to detect; able to make fine distinctions; clever/differences in meaning	subtle mind				Barron4841
+subtlety	perceptiveness; ingenuity; delicacy<br /><i>adj.</i> subtle: delicate; so slight as to be difficult to detect; able to make fine distinctions; clever	subtle mind/differences in meaning				Barron4841
 subversive	tending to overthrow or ruin<br><i>v.</i> subvert: overthrow completely (an established system); destroy completely<br><i>cf.</i> undermine					Barron4841
 succor	assist (someone in difficulty); aid; comfort;<br><div>n.</div>					Barron4841
 succulent	juicy; full of juice or sap; full of richness;<br><i>n.</i> succulent plant such as a cactus					Barron4841
@@ -4294,7 +4294,7 @@ sundry	miscellaneous; various; several<br><i>n.</i> sundries: small miscellaneou
 superannuated	retired or disqualified because of age; outmoded; obsolete					Barron4841
 supercilious	haughty; arrogant; condescending; patronizing<br><i>cf.</i> eyebrow, cilium					Barron4841
 supererogatory	superfluous; more than needed or demanded					Barron4841
-superficial	of the surface; not deep; shallow; not thorough; trivial/knowledge	superficial analysis				Barron4841
+superficial	of the surface; not deep; shallow; not thorough; trivial	superficial analysis/knowledge				Barron4841
 superfluous	excessive; overabundant; unnecessary<br><i>n.</i> superfluity					Barron4841
 superimpose	place over something else					Barron4841
 supernumerary	person or thing excess of what is necessary; extra<br><i>adj.</i> additional to the usual or necessary number					Barron4841
@@ -4373,11 +4373,11 @@ temporize	gain time as by postponing an action; avoid committing oneself					Bar
 tenacious	holding fast (as to a belief); persistent					Barron4841
 tenacity	firmness; persistence					Barron4841
 tendentious	promoting a particular point of view; biased; having an aim; designed to further a cause-seeking<br><i>cf.</i> tend: move in a certain direction	tendentious rather than truth				Barron4841
-tender	offer formally; extend<br>’s resignation/the exact fare;<br><i>n.</i> formal offer; money<br><i>adj.</i> young and vulnerable; sensitive to the touch; sore; soft; delicate	tender one<br>legal tender<br>child of tender years<br>tender wound				Barron4841
+tender	offer formally; extend;<br /><i>n.</i> formal offer; money<br /><i>adj.</i> young and vulnerable; sensitive to the touch; sore; soft; delicate	tender one’s resignation/the exact fare<br />legal tender<br />child of tender years<br />tender wound				Barron4841
 tenet	doctrine; dogma					Barron4841
 tensile	capable of being stretched; of tension	tensile rubber				Barron4841
 tension	stretching; condition of being stretched; mental strain; strained relationship between groups or people					Barron4841
-tentative	not fully worked out or developed; provisional; experimental; uncertain; hesitant; not definite or positive/reply	tentative agreement				Barron4841
+tentative	not fully worked out or developed; provisional; experimental; uncertain; hesitant; not definite or positive	tentative agreement/reply				Barron4841
 tenuous	thin; slim; rare					Barron4841
 tenure	holding of an office or real estate; time during which such an office is held					Barron4841
 tepid	lukewarm; slightly warm; half-hearted; not eager	tepid reaction to the new film<br>tepid supporter				Barron4841
@@ -4459,7 +4459,7 @@ translucent	partly transparent					Barron4841
 transmute	transform; change; convert to something different					Barron4841
 transparent	permitting light to pass through freely; easily detected; obvious; clear	transparent lie				Barron4841
 transpire	(of a fact) become known; be revealed; happen; give off (watery waste matter) through pores					Barron4841
-transport	strong emotion; rapture/transports of<br><i>v.</i> move to strong emotion; enrapture	in a transport				Barron4841
+transport	strong emotion; rapture<br /><i>v.</i> move to strong emotion; enrapture	in a transport/transports of				Barron4841
 trappings	outward decorations; ornaments (as an outward sign of rank)					Barron4841
 traumatic	(of an experience) deeply shocking; pertaining to an injury caused by violence<br><i>n.</i> trauma: serious wound; emotional shock that causes lasting psychological damage					Barron4841
 travail	strenuous work; toil; painful labor; labor of childbirth					Barron4841
@@ -4521,7 +4521,7 @@ unanimity	complete agreement<br><i>adj.</i> unanimous					Barron4841
 unassailable	not open to attack; impregnable; not subject to question					Barron4841
 unassuaged	unsatisfied; not soothed					Barron4841
 unassuming	modest’s unassuming manner	the champion				Barron4841
-unbridled	violent; uncontrolled/greed	unbridled rage				Barron4841
+unbridled	violent; uncontrolled	unbridled rage/greed				Barron4841
 bridle	harness fitted about a horse’s head (used to restrain); curb; check<br><i>v.</i> put a bridle on; control or restrain; show anger					Barron4841
 uncanny	strange; mysterious	uncanny knack				Barron4841
 knack	special talent; art					Barron4841
@@ -4549,7 +4549,7 @@ disbar	make (a lawyer) leave the bar or the legal profession					Barron4841
 debar	bar; forbid; exclude	debarred from jury services				Barron4841
 bar	railing in a courtroom; legal profession; vertical line dividing a staff into equal measures<br><i>v.</i> shut in or out with bars; forbid; exclude<br><i>cf.</i> barrister	prisoner at the bar				Barron4841
 bastard	illegitimate child					Barron4841
-ungainly	(of someone) awkward in movement; clumsy; (of something) unwieldy/instrument	ungainly dancer				Barron4841
+ungainly	(of someone) awkward in movement; clumsy; (of something) unwieldy	ungainly dancer/instrument				Barron4841
 unguent	ointment					Barron4841
 uniformity	sameness; monotony<br><i>adj.</i> uniform: the same all over					Barron4841
 unilateral	one-sided; involving or affecting only one side	unilateral declaration				Barron4841
@@ -4568,7 +4568,7 @@ prepossessing	attractive<br><i>cf.</i> preoccupying					Barron4841
 unravel	disentangle; solve					Barron4841
 unrequited	not requited; not reciprocated	unrequited love				Barron4841
 unruly	disobedient; lawless; difficult to control					Barron4841
-unsavory	distasteful; disagreeable; morally offensive/reputation	unsavory activity				Barron4841
+unsavory	distasteful; disagreeable; morally offensive	unsavory activity/reputation				Barron4841
 unscathed	unharmed	escape the accident unscathed				Barron4841
 unseemly	unbecoming; not proper in behavior; indecent	leave with unseemly haste				Barron4841
 unsightly	ugly; unpleasant to look at					Barron4841
@@ -4604,8 +4604,8 @@ vainglorious	boastful; excessively conceited<br><i>n.</i> vainglory: great vanit
 valedictory	pertaining to farewell;<br><i>n.</i> farewell address (esp. at graduation exercises)					Barron4841
 valediction	saying farewell; expression of leave-taking					Barron4841
 leave-taking	farewell or departure					Barron4841
-valid	logically convincing; sound; legally acceptable; effective/passport	valid reasoning				Barron4841
-sound	in good condition; showing good judgment or good sense; thorough; complete/investment/training	sound mind				Barron4841
+valid	logically convincing; sound; legally acceptable; effective	valid reasoning/passport				Barron4841
+sound	in good condition; showing good judgment or good sense; thorough; complete	sound mind/investment/training				Barron4841
 validate	make valid; confirm; ratify					Barron4841
 valor	bravery<br><i>adj.</i> valiant: possessing valor; brave					Barron4841
 vampire	ghostly being that sucks the blood of the living					Barron4841
@@ -4680,7 +4680,7 @@ vindictive	disposed to revenge; vengeful; out for revenge; spiteful; intended to
 vintner	wine merchant; winemaker; seller of wine					Barron4841
 viper	poisonous snake					Barron4841
 virile	manly; having masculine spirit or strength; full of strength					Barron4841
-virtual	in essence; existing in essence though not in actual form; for practical purposes/space	virtual ruler				Barron4841
+virtual	in essence; existing in essence though not in actual form; for practical purposes	virtual ruler/space				Barron4841
 virtue	goodness; moral excellence; good quality; advantage	by virtue of<br>make a virtue of necessity				Barron4841
 virtuoso	highly skilled artist (esp. in music)	piano virtuoso				Barron4841
 virulent	(of a disease or poison) extremely harmful or poisonous; (of a feeling) hostile; bitter<br><i>n.</i> virulence<br><i>cf.</i> virus<br><i>cf.</i> venom					Barron4841
@@ -4702,14 +4702,14 @@ vivisection	act of dissecting living animals					Barron4841
 vixen	female fox; ill-tempered woman<br><i>cf.</i> shrew					Barron4841
 vociferous	clamorous; noisy<br><i>v.</i> vociferate: cry out loudly (when complaining)					Barron4841
 vogue	popular fashion.	Jeans became the vogue				Barron4841
-volatile	changeable; of a quickly changing nature (as of temper); mercurial; tending to violence; evaporating rapidly/situation in the street	volatile character				Barron4841
+volatile	changeable; of a quickly changing nature (as of temper); mercurial; tending to violence; evaporating rapidly	volatile character/situation in the street				Barron4841
 volition	act of using one’s will; act of making a conscious choice.	She selected this dress of her own volition				Barron4841
 voluble	fluent; talkative; glib<br><i>n.</i> volubility					Barron4841
 volley	simultaneous discharge of a number of shots;<br><div>v.</div>					Barron4841
 voluminous	having great volume (as of a garment or container); bulky; large					Barron4841
 bulk	size or volume (esp. when very large); main part<br><i>adj.</i> bulky: having great size	The bulk of the work has already been done				Barron4841
 voodoo	religion practiced chiefly in Haiti					Barron4841
-voracious	ravenous; eating large quantities of food; exceedingly eager; insatiable/reader	voracious animal				Barron4841
+voracious	ravenous; eating large quantities of food; exceedingly eager; insatiable	voracious animal/reader				Barron4841
 vortex	whirlwind; whirlpool; center of turbulence; predicament into which one is inexorably plunged					Barron4841
 vouchsafe	grant condescendingly; guarantee	vouchsafe your fair return on your investment				Barron4841
 vouch	give a personal guarantee<br><i>n.</i> voucher	I can vouch for his integrity				Barron4841
@@ -4726,14 +4726,13 @@ wag	shake repeatedly from side to side;<br><i>n.</i> humorous person; wit	The do
 waif	homeless child or animal	waifs and strays				Barron4841
 waive	give up temporarily; yield<br><i>n.</i> waiver: waiving a right or claim; document that waives a right or claim					Barron4841
 wake	trail of ship or other object through water; path of something that has gone before	hunger followed in the wake of the war				Barron4841
-wallow	roll in mud; indulge in; (of a ship) roll in a rough sea; become helpless/luxury	wallow in the mud				Barron4841
-wan	having a pale or sickly color; pallid					Barron4841
+wallow	roll in mud; indulge in; (of a ship) roll in a rough sea; become helpless	wallow in the mud/luxury				Barron4841
 wanderlust	strong longing to travel					Barron4841
 wane	decrease in size or strength (after being full); grow gradually to an end;<br><div>n.</div>	The moon waxes and wanes every month				Barron4841
 wangle	achieve by cleverness or trick; wiggle out; fake.	She tried to wangle an invitation to the party				Barron4841
 wiggle	wriggle; move from side to side with irregular twisting motions					Barron4841
-fake	not genuine;<br><i>n.</i> one that is not genuine; impostor; sham<br><i>v.</i> counterfeit/the signature	fake the results of the experiment				Barron4841
-wanton	unrestrained; gratuitously cruel; willfully malicious; unchaste; sexually improper; promiscuous/killing<br><i>cf.</i> having no just cause	wanton spending				Barron4841
+fake	not genuine;<br /><i>n.</i> one that is not genuine; impostor; sham<br /><i>v.</i> counterfeit	fake the results of the experiment/the signature				Barron4841
+wanton	unrestrained; gratuitously cruel; willfully malicious; unchaste; sexually improper; promiscuous<br /><i>cf.</i> having no just cause	wanton spending/killing				Barron4841
 warble	(of a bird) sing; babble;<br><div>n.</div>					Barron4841
 warp	twist out of shape;<br><div>n.</div>					Barron4841
 warranted	justified; authorized					Barron4841
@@ -4752,14 +4751,14 @@ welter	confusion; turmoil; confused mass; bewildering jumble	welter of data				B
 wheedle	deceive, persuade, or obtain by flattery; cajole; coax	wheedle a promise out of her				Barron4841
 whelp	young animal (esp. of the dog or cat family); young wolf, dog, tiger, etc.					Barron4841
 whet	sharpen; stimulate’s appetite	whet someone				Barron4841
-whiff	puff or gust (of air, scent, etc.); short-lasting smell; hint/scandal	whiff of perfume				Barron4841
+whiff	puff or gust (of air, scent, etc.); short-lasting smell; hint	whiff of perfume/scandal				Barron4841
 whimsical	capricious; fanciful; amusingly strange					Barron4841
 whim	sudden capricious idea; fancy					Barron4841
 whimsy	whim; tendency to behave amusingly strangely	story full of whimsy				Barron4841
 whinny	neigh like a horse<br><i>cf.</i> neigh: make the sound which horses make					Barron4841
 whit	small amount; smallest speck	not a whit of				Barron4841
 whittle	pare; cut away thin bits (from wood); fashion in this way; reduce gradually; trim					Barron4841
-pare	cut away the outer covering or skin of (with a knife); trim/expenses	pare apples				Barron4841
+pare	cut away the outer covering or skin of (with a knife); trim	pare apples/expenses				Barron4841
 whorl	ring of leaves around stem; ring; circular arrangement	whorls on the fingers				Barron4841
 willful	wilful; intentional; headstrong					Barron4841
 wilt	loose freshness; droop					Barron4841
@@ -4782,7 +4781,7 @@ withstand	stand up against; resist successfully					Barron4841
 witless	lacking intelligence or wit; foolish; idiotic					Barron4841
 witticism	witty saying; wisecrack (clever joking remark)					Barron4841
 wizardry	sorcery; magic					Barron4841
-wizened	shriveled; withered/old lady	wizened apple				Barron4841
+wizened	shriveled; withered	wizened apple/old lady				Barron4841
 woe	great sorrow; deep inconsolable grief; affliction; suffering	financial woes				Barron4841
 woeful	sad; (of something bad) deplorable; deplorably bad	woeful housing conditions				Barron4841
 wont	(the stated person’s) habit or custom; habitual procedure<br><i>adj.</i> wonted: customary					Barron4841
@@ -4828,7 +4827,7 @@ alpestrine	Growing at high altitudes; alpine or subalpine.
 ament	(<i>n.</i>) A person with severely deficient intellectual capacity.					
 androsterone	A steroid hormone excreted in urine that reinforces masculine characteristics.					
 antiphon	1. A devotional composition sung responsively as part of a liturgy.<br>2. A response; a reply: &quot; It would be truer . . . to see conservation as an antiphon to the modernization of the 1950s and 1960s&quot;					
-antipode	A direct or diametrical opposite: &quot; We just sit and listen to the fullness of the quiet, as an antipode to focused busyness&quot;					
+antipode	A direct or diametrical opposite	We just sit and listen to the fullness of the quiet, as an antipode to focused busyness				
 anecdotage	anecdotes considered as a group		y			
 apercu	1. A discerning perception; an insight: &quot; Her schmoozy but magisterial aperçus inspired widespread emulation among the young&quot;<br>2. A short outline or summary; a synopsis.					
 aphagia	inability or refusal to swallow					
@@ -4975,7 +4974,7 @@ inextirpable	Difficult or impossible to eradicate or destroy.
 intinction	The administration of the Eucharist by dipping the host into the wine and thus offering both simultaneously to the communicant.					
 intussuscept	To take within, as in telescoping one part of the intestine into another; invaginate.					
 kohl	A cosmetic preparation, such as powdered antimony sulfide, used especially in the Middle East to darken the rims of the eyelids.					
-laciniate	1. Having a fringe; fringed.<br>2. Shaped or formed like a fringe, as a ligament.<br>3. Slashed into narrow pointed lobes: a laciniate leaf.					
+laciniate	1. Having a fringe; fringed.<br />2. Shaped or formed like a fringe, as a ligament.<br />3. Slashed into narrow pointed lobes: a laciniate leaf.					
 lamia	"1. (Greek Mythology) A monster represented as a serpent with the head and breasts of a woman that ate children and sucked the blood from men.<br>2. A female vampire.<div><img src=""50e287f2cc2df0fef8f56114f3bb25c1-d388xdm.jpg"" /></div>"					
 landau	1. A four-wheeled carriage with front and back passenger seats that face each other and a roof in two sections that can be lowered or detached.<br>2. A style of automobile with a similar roof.					
 legatee	The inheritor of a legacy.					
@@ -5139,7 +5138,7 @@ versant	1. The slope of a side of a mountain or mountain range.<br>2. The genera
 witenagemot	An Anglo-Saxon advisory council to the king, composed of about 100 nobles, prelates, and other officials, convened at intervals to discuss administrative and judicial affairs.					
 votary	1. A person who is fervently devoted, as to a leader or ideal; a faithful follower.<br>2. A person who is filled with enthusiasm, as for a pursuit or hobby; an enthusiast					
 shibboleth	1. a. a word or saying used by adherents of a party, sect, or belief and usually regarded by others as empty of real meaning<br>b. a widely held belief, truism, platitude.<br>2. a use of language regarded as distinctive of a particular group					
-sui generis	unique<br>Latin - “of its own kind/genus”, “unique in characteristics”					
+sui generis	unique<br>Latin - “of its own kind/genus”, “unique in characteristics”					Latin
 counterfactual	contrary to fact<br>(history) - form of historiography exploring “what if”’s<br>(psychology) counterfactual thinking - tendency for people to imagine alternatives to reality - “what if?”<br>(grammar) counterfactual conditional - conditional statement - what would be the case if an antecedent were true					
 pervicacious	very stubborn<br>from latin pervicax (stubborn)					
 nonesuch	<div>a person or thing without equal; paragon. </div>		y	nonsuch		
@@ -5208,7 +5207,7 @@ ugsome	dreadful, loathsome
 orature	<i>n.</i> A body of poetry, tales, etc., preserved through oral transmission as part of a particular culture, esp. a preliterate one					
 nemophilist	<i>n.</i> A person who loves or is fond of woods or forests					
 praxis	<i>n.</i> 1. Practice, as opposed to the theory.<div>2. Accepted praxis or custom</div><div>3. A set of practice exercises.</div><div>“The contradiction between the declared intent and the actual praxis causes a clash.”</div>					
-sine qua non	“without which not”<div><br><div>something absolutely indispensable or essential<br></div></div>					Latin
+sine qua non	“without which not”<div><br><div>something absolutely indispensable or essential<br></div></div>					latin
 Don Juan	An obsessive womanizer.<div><br></div><div>After Don Juan, a legendary 14th century Spanish nobleman, who devoted his life to seducing women. The story of Don Juan has been portrayed by many authors, including Moliere, Mozart, Byron, and Shaw. Earliest documented use: 1848.<br></div>					
 kimet	<i>adj.</i> <div>Foolish, stupid; mentally confused or disordered. Also: perverse, obstinate, intractable; awry.</div>					
 spondulics	money (UK slang)					
@@ -5243,7 +5242,7 @@ offalist	<div><i>n.</i> Someone who gathers offal. often used disparagingly </di
 <div>peristalsis</div>	The wavelike muscular contractions of the alimentary canal or other tubular structures by which contents are forced onward toward the opening, as in the digestive system.		y	peristaltic (adj)		
 tartarus	1.) A primeval god, offspring of Chaos. <div>2.) A part of the underworld where the wicked suffered punishment for their misdeeds.</div><div>3.) The underworld below the realm of Hades</div>					
 opsigamy	<div><i>n.</i> Marriage late in life.</div>					
-Nimrod	<i>n.</i> <div>1. A tyrannical ruler; a tyrant.</div><div>2. A great or skilful hunter (freq. ironic); any person who likes to hunt. Also <i>fig.</i></div><div>3. <i>n.</i> Amer. slang. A stupid or contemptible person; an idiot.<br></div><br><div>Etymology: &lt; the name of Nimrod (Hebrew Nimrōḏ, lit. ‘we will rebel’ or ‘let us rebel’, probably a polemical distortion of the name of the Mesopotamian war-god Ninurta, a mighty hunter and warrior), great grandson of Noah and traditional founder of the Babylonian dynasty, described in Genesis 10:8–9 as ‘a mighty one in the earth’ and ‘a mighty hunter before the Lord’.</div>					
+Nimrod	<i>n.</i> <div>1. A tyrannical ruler; a tyrant.</div><div>2. A great or skillful hunter (freq. ironic); any person who likes to hunt. Also <i>fig.</i></div><div>3. <i>Amer. slang.</i> A stupid or contemptible person; an idiot.<br /></div><br /><div><i>Etymology:</i> &lt; the name of Nimrod (Hebrew Nimrōḏ, lit. ‘we will rebel’ or ‘let us rebel’, probably a polemical distortion of the name of the Mesopotamian war-god Ninurta, a mighty hunter and warrior), great grandson of Noah and traditional founder of the Babylonian dynasty, described in Genesis 10:8–9 as ‘a mighty one in the earth’ and ‘a mighty hunter before the Lord’.</div>					
 onomastics	<div><i>n.</i> The study of proper names or of terms used in a specialized field.</div>					
 albescent	<div><i>adj.</i> Growing or becoming white; shading or passing into white.</div>					
 armscye	<i>n.</i> An opening in a garment for attaching a sleeve; an armhole.			armseye		
@@ -5295,18 +5294,18 @@ poseuse	A female poseur
 uranic	Heavenly, celestial; astronomical. Contrasted with telluric					
 alectryomancy	Divination using a cock, typically by interpreting patterns in its pecking at grains of corn.					
 per curiam<br>	<i></i><i>Latin:</i>&nbsp;“by the court”<div>Opinion or ruling issued by an appellate court of multiple judges in which the decision rendered is made by the court (or at least, a majority of the court) acting collectively and anonymously.<br />In contrast to regular opinions, does not list the individual judge responsible for authoring the decision, but minority dissenting and concurring decisions are signed.<br />Other types of decisions can also reflect the opinion of the entire court, such as unanimous decisions, in which the opinion of the court is expressed with an author listed.</div>		y			
-pro forma<br>	<div>The term pro forma, Latin for “as a matter of form” or “for the sake of form”, is a term applied to practices or documents that are done as a pure formality, perfunctorily, or seek to satisfy the minimum requirements or to conform to a convention or doctrine</div><div>In law, pro forma court rulings are intended merely to facilitate the legal process (to move matters along).Pro forma audiences are used to obey a formal demand. For example, one pro forma audience may be heard for a judge to order the production of a certain proof or to schedule another date.</div>					Latin
-calends<br />	The calends (Latin: kalendae, “the called”) were the first days of each month of the Roman calendar. The Romans assigned these calends to the first day of the month, signifying the start of the new moon cycle.<br />According to some ancient or modern proposed etymologies of the word, it was derived from the phrase kalo Iuno Covella or kalo Iuno Novella, meaning respectively “hollow Juno I call you” and “new Juno I call you”, an announcement about the Nones or in proclaiming the new moon that marked the Kalends which the pontiffs made every first day of the month on the Capitoline Hill in the Announcement Hall.			kalendae		Latin
+pro forma<br>	<div>The term pro forma, Latin for “as a matter of form” or “for the sake of form”, is a term applied to practices or documents that are done as a pure formality, perfunctorily, or seek to satisfy the minimum requirements or to conform to a convention or doctrine</div><div>In law, pro forma court rulings are intended merely to facilitate the legal process (to move matters along).Pro forma audiences are used to obey a formal demand. For example, one pro forma audience may be heard for a judge to order the production of a certain proof or to schedule another date.</div>					latin
+calends<br />	The calends (Latin: kalendae, “the called”) were the first days of each month of the Roman calendar. The Romans assigned these calends to the first day of the month, signifying the start of the new moon cycle.<br />According to some ancient or modern proposed etymologies of the word, it was derived from the phrase kalo Iuno Covella or kalo Iuno Novella, meaning respectively “hollow Juno I call you” and “new Juno I call you”, an announcement about the Nones or in proclaiming the new moon that marked the Kalends which the pontiffs made every first day of the month on the Capitoline Hill in the Announcement Hall.			kalendae		latin
 Nonae	Eight days before the Ides, falling on the 5th or 7th day of the month depending on the position of the Ides.<br /><br />Thought to have originally been the day of the half moon.<br />			Nones		latin marked
-Idus<br />	Thought to have originally been the day of the full moon, was the 13th day of the months with 29 days, but the 15th day of March, May, July, and October (the months with 31 days).			Ides		Latin
-certiorari	a writ of superior court to call up the records of an inferior court or a body acting in a quasi-judicial capacity<br>- an order by a higher court directing a lower court, tribunal, or public authority to send the record in a given case for review.<br>from the Latin verb certiorare (“to inform, apprise, show”					Latin law
+Idus<br />	Thought to have originally been the day of the full moon, was the 13th day of the months with 29 days, but the 15th day of March, May, July, and October (the months with 31 days).			Ides		latin
+certiorari	a writ of superior court to call up the records of an inferior court or a body acting in a quasi-judicial capacity<br>- an order by a higher court directing a lower court, tribunal, or public authority to send the record in a given case for review.<br>from the Latin verb certiorare (“to inform, apprise, show”					latin
 pareidolia	psychological phenomenon involving a vague and random stimulus (often an image or sound) being perceived as significant.<br>ex: seeing a human face in a mountain, or seeing animals in clouds					
 mens rea	<i>n.</i> Criminal intent. <div>From Latin mens rea (guilty mind). Earliest documented use: 1861.</div>					latin
-Aggadah	1. A legend or parable that illustrates a point of the Law in the Talmud; the non-legal element of the Talmud 2. (A book containing) the text recited at the Seder on the first two nights of the Passover, centred around the liberation of the Israelites in Egypt as told in the Book of Exodus. Also occas.: this recital as a ritual.					Judaism
-statuomania	Excessive or passionate enthusiasm for erecting statues. Chiefly with reference to France.					Judaism
+Aggadah	1. A legend or parable that illustrates a point of the Law in the Talmud; the non-legal element of the Talmud 2. (A book containing) the text recited at the Seder on the first two nights of the Passover, centred around the liberation of the Israelites in Egypt as told in the Book of Exodus. Also occas.: this recital as a ritual.					
+statuomania	Excessive or passionate enthusiasm for erecting statues. Chiefly with reference to France.					
 hereditament	<i>n.</i> Inheritable property. <div><br></div><div>Hereditament is of two kinds: corporeal and incorporeal. If your grandfather willed you his collection of Superman comics, that would be corporeal hereditament. If he awarded you only the right to read those comics from time to time, it’s d be incorporeal hereditament.</div>					
 liveware	Computer personnel, as opposed to the software and hardware they work with; (more widely) people, in contrast to machines or technology.<div><br><div>First used 1966</div></div>					
-lex loci	<i>n.</i> The law of the place. <div><br></div><div>ETYMOLOGY: From Latin lex (law) + locus (place). Earliest documented use: 1832.</div>					Latin law
+lex loci	<i>n.</i> The law of the place. <div><br></div><div>ETYMOLOGY: From Latin lex (law) + locus (place). Earliest documented use: 1832.</div>					latin
 agitprop	propaganda; especially: political propaganda promulgated chiefly in literature, drama, music, or art<div><br></div><div>Russian, ultimately from agitatsiya agitation + propaganda First Known Use: 1935</div>					
 nowt	1. cattle<div>2. a. An ox; a bullock; a cow or heifer.</div><div> b. <i>fig.</i> A stupid, coarse, or clumsy person; also, a person who is obstinate or difficult.</div>					
 nutting	1. the action of gathering nuts					
@@ -5319,18 +5318,18 @@ magnanimous	<i>adj.</i> Generous or forgiving, especially towards a weak rival.<
 heortology	The science or study of the origin, meaning, growth, and history of the religious feasts and seasons of the Christian year.					
 rood-tree	The cross on which Jesus died.					
 blue blood	<i>n.</i> 1. An aristocratic or socially prominent lineage.<div> 2. A member of such a family.</div><br><div>Loan translation of Spanish sangre azul (blue blood). The term arose from the visible veins of light-skinned royalty.</div>					
-tablinum	An anteroom in an ancient Roman house, opening out of the atrium opposite the principal entrance and often containing the family archives and statues					architecture
+tablinum	An anteroom in an ancient Roman house, opening out of the atrium opposite the principal entrance and often containing the family archives and statues					
 pyroclastic	Designating, relating to, or consisting of rock fragmented by volcanic action or comminuted in the process of eruption.					
 running dog	<i>n.</i> A servile follower; lackey.					
-opus signinum	A Roman flooring material consisting of broken tiles and other fragments mixed with lime mortar.					Latin architecture
-cryptoporticus	<i><i>n.</i> pl.<i><br>1. a covered passage, as one underground, lighted on one side.<br>2. a portico at the entrance to a crypt.					architecture
+opus signinum	A Roman flooring material consisting of broken tiles and other fragments mixed with lime mortar.					latin
+cryptoporticus	<i><i>n.</i> pl.<i><br>1. a covered passage, as one underground, lighted on one side.<br>2. a portico at the entrance to a crypt.					
 periplus	1. a. An account or narrative of a circumnavigation or other voyage; a manual of navigation.<div>b. A circuit; a circumnavigation; a voyage or journey round a coastline; an epic journey, an odyssey.<br></div><br><div>2. Ancient Greek Naut. A manoeuvre in naval warfare involving sailing round an enemy fleet. This manoeuvre was favoured by faster, lighter ships; it facilitated ramming from the side or the rear.</div>					
 philomuse	a. A lover of the Muses, a poetry lover.<div>b. Fond of or devoted to the arts or literature.</div>					Greek
 hypostatize	Treat or represent (something abstract) as a concrete reality					
 hermeneutics	1. <i>pl., but sing. or pl. in constr.</i> the study of the methodological principles of interpretation (as of the Bible) <div><br></div><div>2: a method or principle of interpretation</div><br><div>“The term ”<em>hermeneutics</em>“, a Latinized version of the Greek ”<em>hermeneutice</em>“, has been part of common language from the beginning of the 17”<sup>th</sup>“ century. Nevertheless, its history stretches back to ancient philosophy. Addressing the understanding of religious intuitions, Plato used this term in a number of dialogues, contrasting hermeneutic knowledge to that of ”<em>sophia</em>“. Religious knowledge is a knowledge of what has been revealed or said and does not, like ”<em>sophia</em>“, involve knowledge of the truth-value of the utterance. Aristotle carried this use of the term a step further, naming his work on logic and semantics ”<em>Peri hermeneias</em>“, which was later rendered as ”<em>De interpretatione</em><br></div>					
 attorn	<i>v. tr.</i> To turn over rent, goods, etc. to another. <div><i>v. intr.</i> To agree to be a tenant of a new landlord of the same property.</div>					
 babouche	A North African or Middle Eastern slipper, typically heelless and made of soft leather<div><br></div><div>variant of papouche / papoosh</div>					
-inter arma enim silent leges	<i>Latin.</i> “For among (times of) arms, the laws fall mute” (popularly rendered as “In times of war, the law falls silent.”)<div><br></div><div>This maxim was likely first written in these words by Cicero in his published oration Pro Milone, although Cicero’s actual wording was “Silent enim leges inter arma.” Given Cicero’s in-depth knowledge of Greek political history, it can be argued that his notion on war and law was inspired by Thucydides’s opinion on the violent nature of war and the realist approach in international relations.</div>					Latin
+inter arma enim silent leges	<i>Latin.</i> “For among (times of) arms, the laws fall mute” (popularly rendered as “In times of war, the law falls silent.”)<div><br></div><div>This maxim was likely first written in these words by Cicero in his published oration Pro Milone, although Cicero’s actual wording was “Silent enim leges inter arma.” Given Cicero’s in-depth knowledge of Greek political history, it can be argued that his notion on war and law was inspired by Thucydides’s opinion on the violent nature of war and the realist approach in international relations.</div>					latin
 nice nelly	<i>n.</i> A person excessively concerned with propriety, modesty, etc.<div><br></div><div>A specialized use of the name Nelly, a nickname for Helen or Eleanor. Earliest documented use: 1922.</div>					
 peeping Tom	<i>n.</i> Someone who gets sexual pleasure from secretly watching others; voyeur.<div><br></div><div>From the legend of Lady Godiva who rode unclothed through the streets of Coventry, England to persuade her husband to lower taxes on the people. All the townfolk shuttered their windows, except for a tailor named Tom who couldn’s t resist and watched. Earliest documented use: 1769.</div>					
 procacity	(dated) forwardness; pertness; petulance; an instance of such					
@@ -5389,14 +5388,15 @@ macédoine	1. a confused mixture; medley <div><br><div>2. a mixture of fruits or
 /ˈ/ and /ˌ/	/ˈ/ indicates primary stressed syllable follows; /ˌ/ indicates secondary stressed syllable follows, as in news‧pa‧per /ˈnuzˌpeɪ pər/ and in‧for‧ma‧tion /ˌɪn fərˈmeɪ ʃən/		y			
 pendentive	"<div>a curved triangle of vaulting formed by the intersection of a dome with its supporting arches.</div><img src=""PEND2.JPG"" />"					
 erstwhile	former, formerly					
-<i>cf.</i>	compare with; consult		y	confer (Latin)		Latin
-<i>i.e.</i>	that is		y	exempli gratia (Latin)		Latin
-<i>et al.</i>	and others		y	<i>et alia;</i> <i>et alii (Latin)</i>		Latin
-<i>viz.</i>	namely; that is to say		y	videlicet (Latin)		Latin
-<i>q.v.</i>	which to see (written after term or phrase that should be looked up elsewhere in the current document)		y	quod vide (Latin)		Latin
-<i>ibid.</i>	in the same place (used in citations to refer to a previously listed work)		y	ibidem (Latin)		Latin
-<i>sc.</i>	it is permitted to know (used to indicate that a certain word should be understood to be present in the context)		y	<i>scilicet</i>, from <i>scire licet</i> (Latin)		Latin
-<i>op. cit.</i>	in the work cited (used in citations along with a reference to an earlier citation)		y	opere citato (Latin)		Latin
-<i>loc. cit.</i>	in the place cited (used in citations)		y	loco citato (Latin)		Latin
+<i>cf.</i>	compare with; consult		y	confer (Latin)		latin
+<i>i.e.</i>	that is		y	exempli gratia (Latin)		latin
+<i>et al.</i>	and others		y	<i>et alia;</i> <i>et alii (Latin)</i>		latin
+<i>viz.</i>	namely; that is to say		y	videlicet (Latin)		latin
+<i>q.v.</i>	which to see (written after term or phrase that should be looked up elsewhere in the current document)		y	quod vide (Latin)		latin
+<i>ibid.</i>	in the same place (used in citations to refer to a previously listed work)		y	ibidem (Latin)		latin
+<i>sc.</i>	it is permitted to know (used to indicate that a certain word should be understood to be present in the context)		y	<i>scilicet</i>, from <i>scire licet</i> (Latin)		latin
+<i>op. cit.</i>	in the work cited (used in citations along with a reference to an earlier citation)		y	opere citato (Latin)		latin
+<i>loc. cit.</i>	in the place cited (used in citations)		y	loco citato (Latin)		latin
 magpie	<div><i>n.</i></div> 1. either of two corvine birds, <i>Pica pica</i> (black-billed magpie) of Eurasia and North America, or <i>P. nuttalli</i> (yellow-billed magpie) of California, having long, graduated tails, black-and-white plumage, and noisy, mischievous habits.<div>2. any of several related corvine birds.</div><div>3. any of several black-and-white birds not related to the true magpies, as Gymnorhina tibicen, of Australia.</div><div>4. an incessantly talkative person; noisy chatterer; chatterbox.</div><div>5. a person who collects or hoards things, especially indiscriminately.</div><div>6. Western U.S. a black-and-white cow or steer, as a Holstein. </div>		y			
 brouhaha	<i>n.</i><div>1. excited public interest, discussion, or the like, as the clamor attending some sensational event; hullabaloo</div><div>2. an episode involving excitement, confusion, turmoil, etc., especially a broil over a minor or ridiculous cause </div>	1. The brouhaha followed disclosures of graft at City Hall.<div>2. A brouhaha by the baseball players resulted in three black eyes. </div>				
+wan	"<style type=""text/css""> p, li { white-space: pre-wrap; } </style> <p style=""-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><br /></p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><i>adj.</i>, <b>wanner</b>, <b>wannest</b>.</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">1. of an unnatural or sickly pallor; pallid; lacking color:</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">2. showing or suggesting ill health, fatigue, unhappiness, etc.:</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">3. lacking in forcefulness, competence, or effectiveness:</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">4. <i>Archaic. </i>dark or gloomy. pale in color or hue.</p> <p style=""-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><br /></p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><i>v. (used with or without object)</i>, <b>wanned</b>, <b>wanning</b>.</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">5. to become or make wan.</p> <p style=""-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><br /><!--EndFragment--></p>"	"<p style=""white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; "">1. His wan face suddenly flushed.</p><p style=""white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; "">2. a wan look; a wan smile.</p><p style=""white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; "">3. their wan attempts to organize the alumni.</p><div><br /></div>"				
