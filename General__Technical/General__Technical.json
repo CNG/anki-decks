@@ -167,10 +167,10 @@
                     "fields": [
                         "grep --ignore-case", 
                         "grep", 
-                        "", 
+                        "obsolete alias", 
                         "-i", 
                         "--ignore-case", 
-                        "", 
+                        "-y", 
                         "Ignore case distinctions in both the <u>PATTERN</u> and the input files.", 
                         "<div><div><code><div>grep -i \"the\" demo_file</div></code></div></div>", 
                         ""
@@ -240,27 +240,6 @@
                     ], 
                     "flags": 0, 
                     "guid": "Ao3z.w.==l", 
-                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-                    "tags": [
-                        "grep"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
-                        "grep -y", 
-                        "grep", 
-                        "", 
-                        "-y", 
-                        "", 
-                        "", 
-                        "Obsolete synonym for <code>-i</code>.", 
-                        "", 
-                        ""
-                    ], 
-                    "flags": 0, 
-                    "guid": "G}.*eikNu}", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
                         "grep"
@@ -650,10 +629,10 @@
                     "fields": [
                         "grep --context", 
                         "grep", 
-                        "", 
-                        "[-C |-]<u>NUM</u>", 
+                        "alias", 
+                        "-C<u>NUM</u>", 
                         "--context=<u>NUM</u>", 
-                        "", 
+                        "grep -<u>NUM</u>", 
                         "<div>Print <u>NUM</u> lines of output context. Places a line containing a group separator (<code>--</code>) between contiguous groups of matches. With the <code>-o</code> or <code>--only-matching</code> option, this has no effect and a warning is given.</div>", 
                         "", 
                         ""
@@ -1009,7 +988,7 @@
                         "rsync", 
                         "", 
                         "-R", 
-                        "<b>--relative</b>", 
+                        "--relative", 
                         "", 
                         "<div>Use relative paths. This means that the full path names specified on the command line are sent to the server rather than just the last parts of the filenames. This is particularly useful when you want to send several different directories at the same time.</div>", 
                         "<p>For example, if you used this command:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">rsync -av /foo/bar/baz.c remote:/tmp/\n</pre></div>\n<p>this would create a file named <code>baz.c</code> in <code>/tmp/</code> on the remote machine. If instead you used</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">rsync -avR /foo/bar/baz.c remote:/tmp/\n</pre></div>\n<p>then a file named <code>/tmp/foo/bar/baz.c</code> would be created on the remote machine, preserving its full path. These extra path elements are called \"implied directories\" (i.e. the \"foo\" and the \"foo/bar\" directories in the above example).</p>\n<p>Beginning with <strong>rsync</strong> 3.0.0, <strong>rsync</strong> always sends these implied directories as real directories in the file list, even if a path element is really a symlink on the sending side. This prevents some really unexpected behaviors when copying the full path of a file that you didn't realize had a symlink in its path. If you want to duplicate a server-side symlink, include both the symlink via its path, and referent directory via its real path. If you're dealing with an older <strong>rsync</strong> on the sending side, you may need to use the <strong><code>--no-implied-dirs</code></strong> option.</p>\n<p>It is also possible to limit the amount of path information that is sent as implied directories for each path you specify. With a modern <strong>rsync</strong> on the sending side (beginning with 2.6.7), you can insert a dot and a slash into the source path, like this:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">rsync -avR /foo/./bar/baz.c remote:/tmp/\n</pre></div>\n<p>That would create <strong> /tmp/bar/baz.c</strong> on the remote machine. (Note that the dot must be followed by a slash, so \"/foo/.\" would not be abbreviated.) For older <strong>rsync</strong> versions, you would need to use a chdir to limit the source path. For example, when pushing files:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">(</span><span style=\"color: #24909d\">cd</span> /foo<span style=\"color: #d0d0d0\">;</span> rsync -avR bar/baz.c remote:/tmp/<span style=\"color: #d0d0d0\">)</span>\n</pre></div>\n<p>(Note that the parens put the two commands into a sub-shell, so that the <code>cd</code> command doesn't remain in effect for future commands.) If you're pulling files from an older rsync, use this idiom (but only for a non-daemon transfer):</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">rsync -avR --rsync-path<span style=\"color: #d0d0d0\">=</span><span style=\"color: #ed9d13\">\"cd /foo; rsync\"</span> <span style=\"color: #ed9d13\">\\</span>\nremote:bar/baz.c /tmp/\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTY2OTAwMzgsICJpZCI6ICIxNDk0Mzk1MDAwMjI3LTAwNyIsICJtZCI6ICJGb3IgZXhhbXBsZSwgaWYgeW91IHVzZWQgdGhpcyBjb21tYW5kOlxuICBcbiAgICA6OjpzaFxuICAgIHJzeW5jIC1hdiAvZm9vL2Jhci9iYXouYyByZW1vdGU6L3RtcC9cbiAgXG50aGlzIHdvdWxkIGNyZWF0ZSBhIGZpbGUgbmFtZWQgYGJhei5jYCBpbiBgL3RtcC9gIG9uIHRoZSByZW1vdGUgbWFjaGluZS4gSWYgaW5zdGVhZCB5b3UgdXNlZFxuICBcbiAgICA6OjpzaFxuICAgIHJzeW5jIC1hdlIgL2Zvby9iYXIvYmF6LmMgcmVtb3RlOi90bXAvXG4gIFxudGhlbiBhIGZpbGUgbmFtZWQgYC90bXAvZm9vL2Jhci9iYXouY2Agd291bGQgYmUgY3JlYXRlZCBvbiB0aGUgcmVtb3RlIG1hY2hpbmUsIHByZXNlcnZpbmcgaXRzIGZ1bGwgcGF0aC4gVGhlc2UgZXh0cmEgcGF0aCBlbGVtZW50cyBhcmUgY2FsbGVkICZxdW90O2ltcGxpZWQgZGlyZWN0b3JpZXMmcXVvdDsgKGkuZS4gdGhlICZxdW90O2ZvbyZxdW90OyBhbmQgdGhlICZxdW90O2Zvby9iYXImcXVvdDsgZGlyZWN0b3JpZXMgaW4gdGhlIGFib3ZlIGV4YW1wbGUpLlxuICBcbkJlZ2lubmluZyB3aXRoICoqcnN5bmMqKiAzLjAuMCwgKipyc3luYyoqIGFsd2F5cyBzZW5kcyB0aGVzZSBpbXBsaWVkIGRpcmVjdG9yaWVzIGFzIHJlYWwgZGlyZWN0b3JpZXMgaW4gdGhlIGZpbGUgbGlzdCwgZXZlbiBpZiBhIHBhdGggZWxlbWVudCBpcyByZWFsbHkgYSBzeW1saW5rIG9uIHRoZSBzZW5kaW5nIHNpZGUuIFRoaXMgcHJldmVudHMgc29tZSByZWFsbHkgdW5leHBlY3RlZCBiZWhhdmlvcnMgd2hlbiBjb3B5aW5nIHRoZSBmdWxsIHBhdGggb2YgYSBmaWxlIHRoYXQgeW91IGRpZG4mYXBvczt0IHJlYWxpemUgaGFkIGEgc3ltbGluayBpbiBpdHMgcGF0aC4gSWYgeW91IHdhbnQgdG8gZHVwbGljYXRlIGEgc2VydmVyLXNpZGUgc3ltbGluaywgaW5jbHVkZSBib3RoIHRoZSBzeW1saW5rIHZpYSBpdHMgcGF0aCwgYW5kIHJlZmVyZW50IGRpcmVjdG9yeSB2aWEgaXRzIHJlYWwgcGF0aC4gSWYgeW91JmFwb3M7cmUgZGVhbGluZyB3aXRoIGFuIG9sZGVyICoqcnN5bmMqKiBvbiB0aGUgc2VuZGluZyBzaWRlLCB5b3UgbWF5IG5lZWQgdG8gdXNlIHRoZSAqKmAtLW5vLWltcGxpZWQtZGlyc2AqKiBvcHRpb24uXG4gIFxuSXQgaXMgYWxzbyBwb3NzaWJsZSB0byBsaW1pdCB0aGUgYW1vdW50IG9mIHBhdGggaW5mb3JtYXRpb24gdGhhdCBpcyBzZW50IGFzIGltcGxpZWQgZGlyZWN0b3JpZXMgZm9yIGVhY2ggcGF0aCB5b3Ugc3BlY2lmeS4gV2l0aCBhIG1vZGVybiAqKnJzeW5jKiogb24gdGhlIHNlbmRpbmcgc2lkZSAoYmVnaW5uaW5nIHdpdGggMi42LjcpLCB5b3UgY2FuIGluc2VydCBhIGRvdCBhbmQgYSBzbGFzaCBpbnRvIHRoZSBzb3VyY2UgcGF0aCwgbGlrZSB0aGlzOlxuICBcbiAgICA6OjpzaFxuICAgIHJzeW5jIC1hdlIgL2Zvby8uL2Jhci9iYXouYyByZW1vdGU6L3RtcC9cbiAgXG5UaGF0IHdvdWxkIGNyZWF0ZSAqKiAvdG1wL2Jhci9iYXouYyoqIG9uIHRoZSByZW1vdGUgbWFjaGluZS4gKE5vdGUgdGhhdCB0aGUgZG90IG11c3QgYmUgZm9sbG93ZWQgYnkgYSBzbGFzaCwgc28gJnF1b3Q7L2Zvby8uJnF1b3Q7IHdvdWxkIG5vdCBiZSBhYmJyZXZpYXRlZC4pIEZvciBvbGRlciAqKnJzeW5jKiogdmVyc2lvbnMsIHlvdSB3b3VsZCBuZWVkIHRvIHVzZSBhIGNoZGlyIHRvIGxpbWl0IHRoZSBzb3VyY2UgcGF0aC4gRm9yIGV4YW1wbGUsIHdoZW4gcHVzaGluZyBmaWxlczpcbiAgXG4gICAgOjo6c2hcbiAgICAoY2QgL2ZvbzsgcnN5bmMgLWF2UiBiYXIvYmF6LmMgcmVtb3RlOi90bXAvKVxuICBcbiAgXG4oTm90ZSB0aGF0IHRoZSBwYXJlbnMgcHV0IHRoZSB0d28gY29tbWFuZHMgaW50byBhIHN1Yi1zaGVsbCwgc28gdGhhdCB0aGUgYGNkYCBjb21tYW5kIGRvZXNuJmFwb3M7dCByZW1haW4gaW4gZWZmZWN0IGZvciBmdXR1cmUgY29tbWFuZHMuKSBJZiB5b3UmYXBvcztyZSBwdWxsaW5nIGZpbGVzIGZyb20gYW4gb2xkZXIgcnN5bmMsIHVzZSB0aGlzIGlkaW9tIChidXQgb25seSBmb3IgYSBub24tZGFlbW9uIHRyYW5zZmVyKTpcbiAgXG4gICAgOjo6c2hcbiAgICByc3luYyAtYXZSIC0tcnN5bmMtcGF0aD0mcXVvdDtjZCAvZm9vOyByc3luYyZxdW90OyBcXFxuICAgIHJlbW90ZTpiYXIvYmF6LmMgL3RtcC9cbiJ9---->", 
@@ -1053,8 +1032,8 @@
                         "", 
                         "--debug=FLAGS", 
                         "", 
-                        "fine-grained debug verbosity", 
-                        "", 
+                        "<ul>\n<li style=\"text-align: left; \">Fine-grained control over the debug output you want to see. Flag names may be followed by a level number, with <code>0</code> meaning to silence that output, <code>1</code> being the default output level, and higher numbers increasing the output of that flag.</li>\n<li style=\"text-align: left; \">Some debug messages will only be output when <code>--msgs2stderr</code> is specified, especially those pertaining to I/O and buffer debugging.</li>\n<li style=\"text-align: left; \">Use <code><strike>--debug</strike>=help</code> to see all the available flag names, what they output, and what flag names are added for each increase in the verbose level.</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTczOTY0MzgsICJpZCI6ICIxNDk0Mzk1MDAwMjI5LTAwNiIsICJtZCI6ICIqIEZpbmUtZ3JhaW5lZCBjb250cm9sIG92ZXIgdGhlIGRlYnVnIG91dHB1dCB5b3Ugd2FudCB0byBzZWUuIEZsYWcgbmFtZXMgbWF5IGJlIGZvbGxvd2VkIGJ5IGEgbGV2ZWwgbnVtYmVyLCB3aXRoIGAwYCBtZWFuaW5nIHRvIHNpbGVuY2UgdGhhdCBvdXRwdXQsIGAxYCBiZWluZyB0aGUgZGVmYXVsdCBvdXRwdXQgbGV2ZWwsIGFuZCBoaWdoZXIgbnVtYmVycyBpbmNyZWFzaW5nIHRoZSBvdXRwdXQgb2YgdGhhdCBmbGFnLlxuKiBTb21lIGRlYnVnIG1lc3NhZ2VzIHdpbGwgb25seSBiZSBvdXRwdXQgd2hlbiBgLS1tc2dzMnN0ZGVycmAgaXMgc3BlY2lmaWVkLCBlc3BlY2lhbGx5IHRob3NlIHBlcnRhaW5pbmcgdG8gSS9PIGFuZCBidWZmZXIgZGVidWdnaW5nLlxuKiBVc2UgYC0tZGVidWc9aGVscGAgdG8gc2VlIGFsbCB0aGUgYXZhaWxhYmxlIGZsYWcgbmFtZXMsIHdoYXQgdGhleSBvdXRwdXQsIGFuZCB3aGF0IGZsYWcgbmFtZXMgYXJlIGFkZGVkIGZvciBlYWNoIGluY3JlYXNlIGluIHRoZSB2ZXJib3NlIGxldmVsLlxuIn0=---->", 
+                        "<p>Some examples:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">rsync -avvv --debug<span style=\"color: #d0d0d0\">=</span>none src/ dest/\nrsync -avA --del --debug<span style=\"color: #d0d0d0\">=</span>del2,acl src/ dest/\n</pre></div>\n<p>This option was added to <strong>3.1.0</strong>, so an older rsync on the server side might reject your attempts at fine-grained control (if one or more flags needed to be send to the server and the server was too old to understand them). See also the \"max verbosity\" caveat for dealing with a daemon. </p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTczOTY0NTcsICJpZCI6ICIxNDk0Mzk1MDAwMjI5LTAwNyIsICJtZCI6ICJTb21lIGV4YW1wbGVzOlxuICBcbiAgICA6OjpiYXNoXG4gICAgcnN5bmMgLWF2dnYgLS1kZWJ1Zz1ub25lIHNyYy8gZGVzdC9cbiAgICByc3luYyAtYXZBIC0tZGVsIC0tZGVidWc9ZGVsMixhY2wgc3JjLyBkZXN0L1xuICBcblRoaXMgb3B0aW9uIHdhcyBhZGRlZCB0byAqKjMuMS4wKiosIHNvIGFuIG9sZGVyIHJzeW5jIG9uIHRoZSBzZXJ2ZXIgc2lkZSBtaWdodCByZWplY3QgeW91ciBhdHRlbXB0cyBhdCBmaW5lLWdyYWluZWQgY29udHJvbCAoaWYgb25lIG9yIG1vcmUgZmxhZ3MgbmVlZGVkIHRvIGJlIHNlbmQgdG8gdGhlIHNlcnZlciBhbmQgdGhlIHNlcnZlciB3YXMgdG9vIG9sZCB0byB1bmRlcnN0YW5kIHRoZW0pLiBTZWUgYWxzbyB0aGUgJnF1b3Q7bWF4IHZlcmJvc2l0eSZxdW90OyBjYXZlYXQgZm9yIGRlYWxpbmcgd2l0aCBhIGRhZW1vbi4gXG4ifQ==---->", 
                         ""
                     ], 
                     "flags": 0, 
@@ -1116,7 +1095,7 @@
                         "", 
                         "--no-motd", 
                         "", 
-                        "<div>This option affects the information that is output by the client at the start of a daemon transfer. This suppresses the <strike>message of the day</strike>, but it also affects the list of modules that the daemon sends in response to the \"rsync host::\" request (due to a limitation in the rsync protocol), so omit this option if you want to request the list of modules from the daemon.</div>", 
+                        "<div>This option affects the information that is output by the client at the start of a daemon transfer. This suppresses the <strike>message of the day</strike>, but it also affects the list of modules that the daemon sends in response to the <code>rsync host::</code> request (due to a limitation in the rsync protocol), so omit this option if you want to request the list of modules from the daemon.</div>", 
                         "", 
                         ""
                     ], 
@@ -1158,7 +1137,7 @@
                         "-a", 
                         "--archive", 
                         "rsync <code>-rlptgoD</code>", 
-                        "<div>This is equivalent to <code>-rlptgoD</code>. It is a quick way of saying you want recursion and want to preserve almost everything (with <code>-H</code> being a notable omission). The only exception to the above equivalence is when <code>--files-from</code> is specified, in which case <code>-r</code> is not implied.</div><div><br /></div><div>Note that <code><strike>-a</strike></code> does not preserve hardlinks, because finding multiply-linked files is expensive. You must separately specify <code>-H</code>.</div>", 
+                        "<div>Recursion and preserve almost everything except&nbsp;hardlinks, because finding multiply-linked files is expensive. You must separately specify&nbsp;<code>-H</code>.&nbsp;When <code>--files-from</code> is specified,&nbsp;<code>-r</code> is not implied.</div>", 
                         "", 
                         ""
                     ], 
@@ -2759,7 +2738,7 @@
                         "-y", 
                         "--fuzzy", 
                         "", 
-                        "    This option tells rsync that it should look for a basis file for any destination file that is missing. The current algorithm looks in the same directory as the destination file for either a file that has an identical size and modified-time, or a similarly-named file. If found, rsync uses the fuzzy basis file to try to speed up the transfer. \nNote that the use of the <code>--delete</code> option might get rid of any potential\n    fuzzy-match files, so either use <code>--delete-after</code> or specify some filename exclusions if you need to prevent this", 
+                        "    This option tells <code>rsync</code> that it should look for a basis file for any destination file that is missing. The current algorithm looks in the same directory as the destination file for either a file that has an identical size and modified-time, or a similarly-named file. If found, <code>rsync</code> uses the fuzzy basis file to try to speed up the transfer. \nNote that the use of the <code>--delete</code> option might get rid of any potential\n    fuzzy-match files, so either use <code>--delete-after</code> or specify some filename exclusions if you need to prevent this", 
                         "", 
                         ""
                     ], 
@@ -5706,8 +5685,8 @@
                         "", 
                         "", 
                         "-Bnewer <u>file</u>", 
-                        "Same as <code>-newerBm</code>.", 
-                        "", 
+                        "<i>Shorter of two meaning:</i>&nbsp;True if the current file has a more recent&nbsp;<b>inode creation time</b>&nbsp;than the&nbsp;<b>modification time</b>&nbsp;of&nbsp;<u>file</u>.", 
+                        "Equivalent to&nbsp;<code>-newerBm&nbsp;<u>file</u></code>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -5790,8 +5769,8 @@
                         "", 
                         "", 
                         "-anewer <u>file</u>", 
-                        "Same as <code>-neweram</code>.", 
-                        "", 
+                        "<i>Shorter of two meaning:</i>&nbsp;True if the current file has a more recent&nbsp;<b>access time</b>&nbsp;than the&nbsp;<b>modification time</b>&nbsp;of&nbsp;<u>file</u>.", 
+                        "Equivalent to&nbsp;<code>-neweram&nbsp;<u>file</u></code>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -5853,8 +5832,8 @@
                         "", 
                         "", 
                         "-cnewer <u>file</u>", 
-                        "Same as <code>-newercm</code>.", 
-                        "", 
+                        "<i>Shorter of two meaning:</i>&nbsp;True if the current file has a more recent&nbsp;<b>change time</b>&nbsp;than the&nbsp;<b>modification time</b>&nbsp;of&nbsp;<u>file</u>.", 
+                        "Equivalent to&nbsp;<code>-newercm&nbsp;<u>file</u></code>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -6337,7 +6316,7 @@
                         "", 
                         "", 
                         "-mindepth <u>n</u>", 
-                        "<p>Always true; do not apply any tests or actions at levels less than <em>n</em>. If any <code>-h</code> primary is specified, it applies to the entire expression even if it would not normally be evaluated. <code>-mindepth 1</code> processes all but the command line arguments.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUzNDc5MjUsICJpZCI6ICIxNDk0NDA0NDcwMzU1LTAwNiIsICJtZCI6ICJBbHdheXMgdHJ1ZTsgZG8gbm90IGFwcGx5IGFueSB0ZXN0cyBvciBhY3Rpb25zIGF0IGxldmVscyBsZXNzIHRoYW4gX25fLiBJZiBhbnkgYC1oYCBwcmltYXJ5IGlzIHNwZWNpZmllZCwgaXQgYXBwbGllcyB0byB0aGUgZW50aXJlIGV4cHJlc3Npb24gZXZlbiBpZiBpdCB3b3VsZCBub3Qgbm9ybWFsbHkgYmUgZXZhbHVhdGVkLiBgLW1pbmRlcHRoIDFgIHByb2Nlc3NlcyBhbGwgYnV0IHRoZSBjb21tYW5kIGxpbmUgYXJndW1lbnRzLlxuIn0=---->", 
+                        "<p>Always true; do not apply any tests or actions at levels less than <em>n</em>. If any <code>-h</code> primary is specified, it applies to the entire expression even if it would not normally be evaluated. <code><strike>-mindepth</strike> 1</code> processes all but the command line arguments.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUzNDc5MjUsICJpZCI6ICIxNDk0NDA0NDcwMzU1LTAwNiIsICJtZCI6ICJBbHdheXMgdHJ1ZTsgZG8gbm90IGFwcGx5IGFueSB0ZXN0cyBvciBhY3Rpb25zIGF0IGxldmVscyBsZXNzIHRoYW4gX25fLiBJZiBhbnkgYC1oYCBwcmltYXJ5IGlzIHNwZWNpZmllZCwgaXQgYXBwbGllcyB0byB0aGUgZW50aXJlIGV4cHJlc3Npb24gZXZlbiBpZiBpdCB3b3VsZCBub3Qgbm9ybWFsbHkgYmUgZXZhbHVhdGVkLiBgLW1pbmRlcHRoIDFgIHByb2Nlc3NlcyBhbGwgYnV0IHRoZSBjb21tYW5kIGxpbmUgYXJndW1lbnRzLlxuIn0=---->", 
                         "", 
                         ""
                     ], 
@@ -6379,8 +6358,8 @@
                         "", 
                         "", 
                         "-mnewer <u>file</u>", 
-                        "<p>Same as <code>-newer</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUzNDc5MzQsICJpZCI6ICIxNDk0NDA0NDcwMzU3LTAwNiIsICJtZCI6ICJTYW1lIGFzIGAtbmV3ZXJgLlxuIn0=---->", 
-                        "", 
+                        "<div><i>Middle of three meaning:&nbsp;</i>True if the current file has a more recent <b>last modification time</b> than&nbsp;<u>file</u>.</div>", 
+                        "Equivalent&nbsp;to&nbsp;<code>-newer&nbsp;<u>file</u></code>&nbsp;and&nbsp;<code>-newermm&nbsp;<u>file</u></code>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -6463,8 +6442,8 @@
                         "", 
                         "", 
                         "-newer <u>file</u>", 
-                        "True if the current file has a more recent last modification time than <u>file</u>.", 
-                        "", 
+                        "<i>Shortest of three meaning: </i>True if the current file has a more recent <b>last modification time</b> than <u>file</u>.", 
+                        "Equivalent&nbsp;to&nbsp;<code>-mnewer&nbsp;<u>file</u></code>&nbsp;and&nbsp;<code>-newermm&nbsp;<u>file</u></code>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -6472,28 +6451,6 @@
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
                         "find"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
-                        "find primary -newerXY", 
-                        "find", 
-                        "primary", 
-                        "", 
-                        "", 
-                        "-newerXY <u>file</u>", 
-                        "<p>True if the current file has a more recent last access time (<code>X=a</code>), inode creation time (<code>X=B</code>), change time (<code>X=c</code>), or modification time (<code>X=m</code>) than the last access time (<code>Y=a</code>), inode creation time (<code>Y=B</code>), change time (<code>Y=c</code>), or modification time (Y=m) of <em>file</em>. In addition, if <code>Y=t</code>, then <em>file</em> is instead interpreted as a direct date specification of the form understood by <code>cvs</code>(1). Note that <code>-newermm</code> is equivalent to <code>-newer</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUzNDc5NTMsICJpZCI6ICIxNDk0NDA0NDcwMzYyLTAwNiIsICJtZCI6ICJUcnVlIGlmIHRoZSBjdXJyZW50IGZpbGUgaGFzIGEgbW9yZSByZWNlbnQgbGFzdCBhY2Nlc3MgdGltZSAoYFg9YWApLCBpbm9kZSBjcmVhdGlvbiB0aW1lIChgWD1CYCksIGNoYW5nZSB0aW1lIChgWD1jYCksIG9yIG1vZGlmaWNhdGlvbiB0aW1lIChgWD1tYCkgdGhhbiB0aGUgbGFzdCBhY2Nlc3MgdGltZSAoYFk9YWApLCBpbm9kZSBjcmVhdGlvbiB0aW1lIChgWT1CYCksIGNoYW5nZSB0aW1lIChgWT1jYCksIG9yIG1vZGlmaWNhdGlvbiB0aW1lIChZPW0pIG9mIF9maWxlXy4gSW4gYWRkaXRpb24sIGlmIGBZPXRgLCB0aGVuIF9maWxlXyBpcyBpbnN0ZWFkIGludGVycHJldGVkIGFzIGEgZGlyZWN0IGRhdGUgc3BlY2lmaWNhdGlvbiBvZiB0aGUgZm9ybSB1bmRlcnN0b29kIGJ5IGBjdnNgKDEpLiBOb3RlIHRoYXQgYC1uZXdlcm1tYCBpcyBlcXVpdmFsZW50IHRvIGAtbmV3ZXJgLlxuIn0=---->", 
-                        "", 
-                        ""
-                    ], 
-                    "flags": 0, 
-                    "guid": "P-D4{[CqPL", 
-                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-                    "tags": [
-                        "find", 
-                        "marked"
                     ]
                 }, 
                 {
@@ -8113,7 +8070,7 @@
                         "builtin", 
                         "", 
                         "", 
-                        "logout", 
+                        "logout <i>[<b>n</b>]</i>", 
                         "Exit a login shell, returning a status of <var>n</var> to the shell’s parent.", 
                         "", 
                         ""
@@ -9122,7 +9079,7 @@
                         "%(<var>datefmt</var>)T", 
                         "", 
                         "", 
-                        "<p>Causes <code>printf</code> to output the date-time string resulting from using <var>datefmt</var> as a format string for <code>strftime</code>(3). The corresponding <var>argument</var> is an integer representing the number of seconds since the epoch. Two special argument values may be used: <code>-1</code> represents the current time, and <code>-2</code> represents the time the shell was invoked. If no argument is specified, conversion behaves as if <code>-1</code> had been given. This is an exception to the usual <code>printf</code> behavior. </p>", 
+                        "<p>Causes <code>printf</code> to output the date-time string resulting from using <var>datefmt</var> as a format string for <code>strftime</code>. The corresponding <var>argument</var> is an integer representing the number of seconds since the epoch. Two special argument values may be used: <code>-1</code> represents the current time, and <code>-2</code> represents the time the shell was invoked. If no argument is specified, conversion behaves as if <code>-1</code> had been given. This is an exception to the usual <code>printf</code> behavior. </p>", 
                         "printf [-v <var>var</var>] <var>format</var> [<var>arguments</var>]", 
                         ""
                     ], 
@@ -10064,7 +10021,7 @@
                         "Bourne Shell builtin", 
                         "", 
                         "", 
-                        "break", 
+                        "break <i>[<b>n</b>]</i>", 
                         "<p>Exit from a <code>for</code>, <code>while</code>, <code>until</code>, or <code>select</code> loop. If <var>n</var> is supplied, the <var>n</var>th enclosing loop is exited.&nbsp;<var>n</var> must be greater than or equal to 1. The return status is zero unless <var>n</var> is not greater than or equal to 1.</p>", 
                         "break [<var>n</var>]", 
                         ""
@@ -10758,7 +10715,7 @@
                         "-H", 
                         "-o histexpand", 
                         "", 
-                        "<p>Enable &lsquo;<samp>!</samp>&rsquo; style history substitution (see <a href=History-Interaction.html#History-Interaction\">History Interaction</a>). This option is on by default for interactive shells.</p>\"", 
+                        "<p>Enable ‘<samp>!</samp>’ style history substitution (see History Interaction). This option is on by default for interactive shells.</p>", 
                         "", 
                         ""
                     ], 
@@ -14543,6 +14500,7 @@
                     "guid": "v4$?mnNFPK", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
+                        "marked", 
                         "vi"
                     ]
                 }, 
@@ -16348,8 +16306,8 @@
                         "-F", 
                         "--classify", 
                         "", 
-                        "append indicator (one of */=&gt;@|) to entries", 
-                        "", 
+                        "append indicator (one of <code>*/=&gt;@|</code>) to entries", 
+                        "<ul>\n<li><code>@</code> means symbolic link (or that the file has extended attributes).</li>\n<li><code>*</code> means executable.</li>\n<li><code>=</code> means socket.</li>\n<li><code>|</code> means named pipe.</li>\n<li><code>&gt;</code> means door.</li>\n<li><code>/</code> means directory.</li></ul>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -17742,7 +17700,7 @@
                         "", 
                         "", 
                         "[ -t <i>FD</i> ]", 
-                        "True if file descriptor<code><i>FD</i></code>is open and refers to a terminal.", 
+                        "True if file descriptor <code><i>FD</i></code> is open and refers to a terminal.", 
                         "", 
                         ""
                     ], 
@@ -18077,8 +18035,8 @@
                         "expression primary", 
                         "", 
                         "", 
-                        "[ <i>STRING1</i> != <i>STRING2</i> ]", 
-                        "True if the strings are not equal.", 
+                        "[ <i>ARG1</i> != <i>ARG2</i> ]", 
+                        "True if the <b><i>strings</i></b> are not equal.", 
                         "", 
                         ""
                     ], 
@@ -18183,7 +18141,7 @@
                         "", 
                         "", 
                         "-lt", 
-                        "Arithmetic binary operator that returns true if<code><i>ARG1</i></code>is less than <code><i>ARG2</i></code>. <code><i>ARG1</i></code> and <code><i>ARG2</i></code> are integers.<br><br><code>[ <i>ARG1</i> -lt <i>ARG2</i> ]</code>", 
+                        "Arithmetic binary operator that returns true if <code><i>ARG1</i></code> is less than <code><i>ARG2</i></code>. <code><i>ARG1</i></code> and <code><i>ARG2</i></code> are integers.<br /><br /><code>[ <i>ARG1</i> -lt <i>ARG2</i> ]</code>", 
                         "", 
                         ""
                     ], 
@@ -18529,6 +18487,552 @@
                     "guid": "Bg_d+T!5-w", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "git: revert (reset) a single file", 
+                        "<div><code>git checkout -- filename</code></div>", 
+                        "<p>This one is hard to find out there so here it is. If you have an <strong>uncommitted</strong> change (its only in your working copy) that you wish to revert (in SVN terms) to the copy in your latest commit, do the following:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">git checkout filename\n</pre></div>\n<p>This will checkout the file from HEAD, overwriting your change. This command is also used to checkout branches, and you could happen to have a file with the same name as a branch. All is not lost, you will simply need to type:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">git checkout -- filename\n</pre></div>\n<p>You can also do this with files from other branches, and such. <code>man git-checkout</code> has the details.<br />\nThe rest of the Internet will tell you to use <code>git reset --hard</code>, but this resets <strong>all</strong> uncommitted changes you’ve made in your working copy. Type this with care.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTczMzk5NzQsICJpZCI6ICIxNDk3MzM5ODg4ODg3LTAwMiIsICJtZCI6ICJUaGlzIG9uZSBpcyBoYXJkIHRvIGZpbmQgb3V0IHRoZXJlIHNvIGhlcmUgaXQgaXMuIElmIHlvdSBoYXZlIGFuICoqdW5jb21taXR0ZWQqKiBjaGFuZ2UgKGl0cyBvbmx5IGluIHlvdXIgd29ya2luZyBjb3B5KSB0aGF0IHlvdSB3aXNoIHRvIHJldmVydCAoaW4gU1ZOIHRlcm1zKSB0byB0aGUgY29weSBpbiB5b3VyIGxhdGVzdCBjb21taXQsIGRvIHRoZSBmb2xsb3dpbmc6XG4gIFxuICAgIDo6OmJhc2hcbiAgICBnaXQgY2hlY2tvdXQgZmlsZW5hbWVcbiAgXG5UaGlzIHdpbGwgY2hlY2tvdXQgdGhlIGZpbGUgZnJvbSBIRUFELCBvdmVyd3JpdGluZyB5b3VyIGNoYW5nZS4gVGhpcyBjb21tYW5kIGlzIGFsc28gdXNlZCB0byBjaGVja291dCBicmFuY2hlcywgYW5kIHlvdSBjb3VsZCBoYXBwZW4gdG8gaGF2ZSBhIGZpbGUgd2l0aCB0aGUgc2FtZSBuYW1lIGFzIGEgYnJhbmNoLiBBbGwgaXMgbm90IGxvc3QsIHlvdSB3aWxsIHNpbXBseSBuZWVkIHRvIHR5cGU6XG4gIFxuICAgIDo6OmJhc2hcbiAgICBnaXQgY2hlY2tvdXQgLS0gZmlsZW5hbWVcbiAgXG5Zb3UgY2FuIGFsc28gZG8gdGhpcyB3aXRoIGZpbGVzIGZyb20gb3RoZXIgYnJhbmNoZXMsIGFuZCBzdWNoLiBgbWFuIGdpdC1jaGVja291dGAgaGFzIHRoZSBkZXRhaWxzLlxuVGhlIHJlc3Qgb2YgdGhlIEludGVybmV0IHdpbGwgdGVsbCB5b3UgdG8gdXNlIGBnaXQgcmVzZXQgLS1oYXJkYCwgYnV0IHRoaXMgcmVzZXRzICoqYWxsKiogdW5jb21taXR0ZWQgY2hhbmdlcyB5b3VcdTIwMTl2ZSBtYWRlIGluIHlvdXIgd29ya2luZyBjb3B5LiBUeXBlIHRoaXMgd2l0aCBjYXJlLlxuIn0=---->", 
+                        "", 
+                        "", 
+                        "http://www.norbauer.com/rails-consulting/notes/git-revert-reset-a-single-file.html"
+                    ], 
+                    "flags": 0, 
+                    "guid": "JLuG+sfFBx", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "commands having&nbsp;<code>-f</code> = <code>--force</code>", 
+                        "<code>cp</code>, <code>mv</code>, <code>rm</code>", 
+                        "", 
+                        "", 
+                        "", 
+                        "http://tldp.org/LDP/abs/html/standard-options.html"
+                    ], 
+                    "flags": 0, 
+                    "guid": "QDm9sA1bEk", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "commands having&nbsp;<code>-f</code> = <code>--file</code>", 
+                        "<code>tar</code>, <code>gawk</code>", 
+                        "", 
+                        "", 
+                        "", 
+                        "http://tldp.org/LDP/abs/html/standard-options.html"
+                    ], 
+                    "flags": 0, 
+                    "guid": "F%~jTRpeP:", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "ls -F indicator @", 
+                        "ls -F", 
+                        "indicator", 
+                        "", 
+                        "", 
+                        "@", 
+                        "symbolic link or file has extended attributes", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "i%N<|**^qM", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "ls"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "ls -F indicator *", 
+                        "ls -F", 
+                        "indicator", 
+                        "", 
+                        "", 
+                        "*", 
+                        "executable", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "r6oMVXRjvw", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "ls"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "ls -F indicator =", 
+                        "ls -F", 
+                        "indicator", 
+                        "", 
+                        "", 
+                        "=", 
+                        "socket", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "jCj1Z*~6/:", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "ls"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "ls -F indicator |", 
+                        "ls -F", 
+                        "indicator", 
+                        "", 
+                        "", 
+                        "|", 
+                        "named pipe", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "yho3hz}Bao", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "ls"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "ls -F indicator &gt;", 
+                        "ls -F", 
+                        "indicator", 
+                        "", 
+                        "", 
+                        "&gt;", 
+                        "door", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Hr;Fr|Be=l", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "ls"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "ls -F indicator /", 
+                        "ls -F", 
+                        "indicator", 
+                        "", 
+                        "", 
+                        "/", 
+                        "directory", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "I0QdN*%N><", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "ls"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newermm", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newermm <u>file</u>", 
+                        "<i>Longest of three meaning:&nbsp;</i>True if the current file has a more recent&nbsp;<b>last modification time</b>&nbsp;than&nbsp;<u>file</u>.", 
+                        "Equivalent&nbsp;to&nbsp;<code>-newer&nbsp;<u>file</u></code>&nbsp;and&nbsp;<code>-mnewer&nbsp;<u>file</u></code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "MBGbjNTD.{", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newerBm", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerBm&nbsp;<u>file</u>", 
+                        "<i>Longer of two meaning:</i> True if the current file has a more recent <b>inode creation time</b> than the <b>modification time</b> of <u>file</u>.", 
+                        "Equivalent to <code>-Bnewer <u>file</u></code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "gBhWgwxX}%", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -neweram", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-neweram&nbsp;<u>file</u>", 
+                        "<i></i><i>Longer of two meaning:</i>&nbsp;True if the current file has a more recent&nbsp;<b>access time</b>&nbsp;than the&nbsp;<b>modification time</b>&nbsp;of&nbsp;<u>file</u>.", 
+                        "Equivalent to <code>-anewer <u>file</u></code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "f6bA1W%/(/", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newercm", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newercm&nbsp;<u>file</u>", 
+                        "<i></i><i>Longer of two meaning:</i>&nbsp;True if the current file has a more recent&nbsp;<b>change time</b>&nbsp;than the&nbsp;<b>modification time</b>&nbsp;of&nbsp;<u>file</u>.", 
+                        "Equivalent to <code>-cnewer <u>file</u></code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "H18ZS<.cQ[", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -neweraa", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-neweraa&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent&nbsp;<b>last access time</b>&nbsp;than&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "OD93!z8h~n", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newerBB", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerBB&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent&nbsp;<b>inode creation time</b>&nbsp;than&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "jN2y.T}o:z", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newercc", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newercc&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent&nbsp;<b>change time</b>&nbsp;than&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "t$P^eFkcI*", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -neweraB", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-neweraB&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent&nbsp;<b>last access time</b>&nbsp;than the<b> inode creation&nbsp;</b><b>time</b>&nbsp;of&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "K~r~v`[Aqq", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newerac", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerac&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent&nbsp;<b>last access time</b>&nbsp;than the<b> change&nbsp;</b><b>time</b>&nbsp;of&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Gy*b8Ql)/c", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newerBc", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerBc&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent <b>inode creation&nbsp;time</b>&nbsp;than the<b> change&nbsp;</b><b>time</b>&nbsp;of&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "fDGYCrFkAO", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newerBa", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerBa&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent <b>inode creation&nbsp;time</b>&nbsp;than the<b>&nbsp;</b><b>last access</b>&nbsp;<b>time</b>&nbsp;of&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "FOojCC9uu,", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newerca", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerca&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent <b>change&nbsp;time</b>&nbsp;than the<b>&nbsp;</b><b>last access</b>&nbsp;<b>time</b> of&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "K>iGJ<57cc", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newercB", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newercB&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent <b>change&nbsp;time</b>&nbsp;than the<b>&nbsp;</b><b></b><b>inode creation</b>&nbsp;<b>time </b>of&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Ga$EQrxHMK", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newerma", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerma&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent <b>modification&nbsp;time</b>&nbsp;than the&nbsp;<b>last access</b>&nbsp;<b>time </b>of&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Ny|Q#1O_B8", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newermB", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newermB&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent <b>modification&nbsp;time</b>&nbsp;than the&nbsp;<b>inode creation</b>&nbsp;<b>time </b>of&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "g65VYy!Tp|", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newermc", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newermc&nbsp;<u>file</u>", 
+                        "<i></i>True if the current file has a more recent <b>modification&nbsp;time</b>&nbsp;than the&nbsp;<b>change</b>&nbsp;<b>time </b>of&nbsp;<u>file</u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ux>Z,!;n:e", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>ps -aux</code> = <code>ps aux</code> ?", 
+                        "No.", 
+                        "The POSIX and UNIX standards require that <code>ps -aux</code>&nbsp;print all processes owned by a user\nnamed <i>x</i>, as well as printing all processes that would be selected by the <code>-a</code> option. If the user named <i>x</i>&nbsp;does not exist, some versions of&nbsp;<code>ps</code> may interpret\nthe command as&nbsp;<code>ps aux</code>&nbsp;instead and print a warning. This \nbehavior is intended to aid in transitioning old scripts and habits. It \nis fragile, subject to\nchange, and thus should not be relied upon.", 
+                        "reverse", 
+                        "", 
+                        "https://linux.die.net/man/1/ps"
+                    ], 
+                    "flags": 0, 
+                    "guid": "gY:N^d9iAm", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "ps"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find files and print only filenames", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">find ./dir1 -type f -printf <span style=\"color: #ed9d13\">\"%f\\n\"</span>\nfind ./dir1 -type f -exec basename <span style=\"color: #d0d0d0\">{}</span> <span style=\"color: #ed9d13\">\\;</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTgzNTE4MjEsICJpZCI6ICIxNDk4MzUxNjk2NDA0LTAwMSIsICJtZCI6ICIgICAgOjo6YmFzaFxuICAgIGZpbmQgLi9kaXIxIC10eXBlIGYgLXByaW50ZiAmcXVvdDslZlxcbiZxdW90O1xuICAgIGZpbmQgLi9kaXIxIC10eXBlIGYgLWV4ZWMgYmFzZW5hbWUge30gXFw7XG4ifQ==---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://stackoverflow.com/questions/5456120/how-to-only-get-file-name-with-linux-find"
+                    ], 
+                    "flags": 0, 
+                    "guid": "t0B&ewNW{b", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
                 }
             ]
         }, 
@@ -20895,7 +21399,7 @@
                             "guid": "x:&=qX<?g[", 
                             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                             "tags": [
-                                "uncertain"
+                                "marked"
                             ]
                         }, 
                         {
@@ -23098,6 +23602,7 @@
                     "guid": "k{xm1+(sP*", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": [
+                        "marked", 
                         "regex"
                     ]
                 }, 
@@ -23531,6 +24036,7 @@
                     "guid": "Oe+uS/s7&)", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": [
+                        "marked", 
                         "regex"
                     ]
                 }, 
@@ -24878,8 +25384,8 @@
                     "data": "", 
                     "fields": [
                         "Python dictionary key existence test", 
-                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #ed9d13\">'f'</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">D</span>\n<span style=\"color: #24909d\">False</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #6ab825; font-weight: bold\">if</span> <span style=\"color: #6ab825; font-weight: bold\">not</span> <span style=\"color: #ed9d13\">'f'</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">D:</span>\n       <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #ed9d13\">'missing'</span><span style=\"color: #d0d0d0\">)</span>\n\n<span style=\"color: #d0d0d0\">missing</span>\n</pre></div>\n<p>Can also avoid accessing nonexistent by using <code>get()</code> method, conditional index with a default, or in 2.X <code>has_key()</code> method, or <code>try</code> statement, or <code>if</code>/<code>else</code> ternary</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUzNDcyNzgsICJpZCI6ICIxNDg4NzAwNTgyMTk2LTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7ICZhcG9zO2YmYXBvczsgaW4gRFxuICAgIEZhbHNlXG4gIFxuICAgICZndDsmZ3Q7Jmd0OyBpZiBub3QgJmFwb3M7ZiZhcG9zOyBpbiBEOlxuICAgICAgICAgICBwcmludCgmYXBvczttaXNzaW5nJmFwb3M7KVxuICBcbiAgICBtaXNzaW5nXG4gIFxuICBcbkNhbiBhbHNvIGF2b2lkIGFjY2Vzc2luZyBub25leGlzdGVudCBieSB1c2luZyBgZ2V0KClgIG1ldGhvZCwgY29uZGl0aW9uYWwgaW5kZXggd2l0aCBhIGRlZmF1bHQsIG9yIGluIDIuWCBgaGFzX2tleSgpYCBtZXRob2QsIG9yIGB0cnlgIHN0YXRlbWVudCwgb3IgYGlmYC9gZWxzZWAgdGVybmFyeVxuIn0=---->", 
-                        "", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #ed9d13\">'f'</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">D</span>\n<span style=\"color: #24909d\">False</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #6ab825; font-weight: bold\">if</span> <span style=\"color: #6ab825; font-weight: bold\">not</span> <span style=\"color: #ed9d13\">'f'</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">D:</span>\n       <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #ed9d13\">'missing'</span><span style=\"color: #d0d0d0\">)</span>\n\n<span style=\"color: #d0d0d0\">missing</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTc4NTkzMDksICJpZCI6ICIxNDg4NzAwNTgyMTk2LTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7ICZhcG9zO2YmYXBvczsgaW4gRFxuICAgIEZhbHNlXG4gIFxuICAgICZndDsmZ3Q7Jmd0OyBpZiBub3QgJmFwb3M7ZiZhcG9zOyBpbiBEOlxuICAgICAgICAgICBwcmludCgmYXBvczttaXNzaW5nJmFwb3M7KVxuICBcbiAgICBtaXNzaW5nXG4gIFxuIn0=---->", 
+                        "<p>Can also avoid accessing nonexistent by using <code>get()</code> method, conditional index with a default, or in <strong>2.X</strong> <code>has_key()</code> method, or <code>try</code> statement, or <code>if</code>/<code>else</code> ternary</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTc4NTkzNDAsICJpZCI6ICIxNDg4NzAwNTgyMTk2LTAwMiIsICJtZCI6ICJDYW4gYWxzbyBhdm9pZCBhY2Nlc3Npbmcgbm9uZXhpc3RlbnQgYnkgdXNpbmcgYGdldCgpYCBtZXRob2QsIGNvbmRpdGlvbmFsIGluZGV4IHdpdGggYSBkZWZhdWx0LCBvciBpbiAqKjIuWCoqIGBoYXNfa2V5KClgIG1ldGhvZCwgb3IgYHRyeWAgc3RhdGVtZW50LCBvciBgaWZgL2BlbHNlYCB0ZXJuYXJ5XG4ifQ==---->", 
                         "y", 
                         "", 
                         ""
@@ -25046,7 +25552,7 @@
                     "data": "", 
                     "fields": [
                         "HTML element <code>&lt;base&gt;</code>", 
-                        "<small>HTML document metadata element</small><br />specifies the <b>base URL to use for all relative URLs</b> contained within a document. There can be only one <code>&lt;base&gt;</code> element in a document", 
+                        "<small>HTML document metadata element</small><br />specifies the <b>base URL to use for all relative URLs</b> contained within a document. There can be only one&nbsp;in a document", 
                         "<h2>Attributes</h2> <p>This element's attributes include the global attributes.</p> <dl> <dt><strong><code>href</code></strong></dt> <dd>The base URL to be used throughout the document for relative URL  addresses. If this attribute is specified, this element must come before  any other elements with attributes whose values are URLs. Absolute and  relative URLs are allowed.</dd> <dt><strong><code>target</code></strong></dt> <dd>A name or keyword indicating the default location to display the  result when hyperlinks or forms cause navigation, for elements that do  not have an explicit target reference. It is a name of, or keyword for, a  <em>browsing context</em> (for example: tab, window, or inline frame). The following keywords have special meanings:  <ul> <li><code>_self</code>: Load the result into the same browsing  context&nbsp;as the current one. This value is the default if the attribute  is not specified.</li> <li><code>_blank</code>: Load the result into a new unnamed browsing context.</li> <li><code>_parent</code>: Load the result into the parent browsing  context of the current one. If there is no parent, this option behaves  the same way as <code>_self</code>.</li> <li><code>_top</code>: Load the result into the top-level browsing  context (that is, the browsing context that is an ancestor of the  current one, and has no parent). If there is no parent, this option  behaves the same way as <code>_self</code>.</li> </ul> </dd> </dl> <h2>Usage notes</h2> <p>If multiple <code>&lt;base&gt;</code> elements are specified, only the first <strong>href</strong> and first <strong>target</strong> value are used; all others are ignored.</p>", 
                         "reverse", 
                         "", 
@@ -25712,7 +26218,7 @@
                     "data": "", 
                     "fields": [
                         "HTML element <code>&lt;data&gt;</code>", 
-                        "<small>HTML inline text semantics element</small><br />links a given content with a <b>machine-readable translation</b>. If the content is time- or date-related, the <code>&lt;time&gt;</code> must be used", 
+                        "<small>HTML inline text semantics element</small><br />links a given content with a <b>machine readable translation</b>. Use&nbsp;<code>&lt;time&gt;</code>&nbsp;if time or date related.", 
                         "<h2>Attributes</h2> <p>This element's attributes include the global attributes.</p> <dl> <dt><strong><code>value</code></strong></dt> <dd>This attribute specifies the machine-readable translation of the content of the element.</dd> </dl> <h2>Example</h2> <p>The following example displays product names but also associates each name with a product number.</p> <pre><code>&lt;p&gt;New Products&lt;/p&gt; &lt;ul&gt;  &lt;li&gt;&lt;data value=\"398\"&gt;Mini Ketchup&lt;/data&gt;&lt;/li&gt;  &lt;li&gt;&lt;data value=\"399\"&gt;Jumbo Ketchup&lt;/data&gt;&lt;/li&gt;  &lt;li&gt;&lt;data value=\"400\"&gt;Mega Jumbo Ketchup&lt;/data&gt;&lt;/li&gt; &lt;/ul&gt;</code></pre>", 
                         "reverse", 
                         "", 
@@ -27062,7 +27568,7 @@
                     "data": "", 
                     "fields": [
                         "HTML element <code>&lt;blink&gt;</code>", 
-                        "<small><b>Obsolete</b> HTML element</small><br />cause the enclosed text to flash slowly", 
+                        "<small><b>Obsolete</b> HTML element</small><br>cause the enclosed text to flash slowly", 
                         "", 
                         "reverse", 
                         "", 
@@ -27433,7 +27939,7 @@
                     20
                 ], 
                 "order": 1, 
-                "perDay": 50, 
+                "perDay": 100, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -27444,7 +27950,7 @@
                 "ivlFct": 1.5, 
                 "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 500
+                "perDay": 1000
             }, 
             "timer": 0
         }
@@ -27460,7 +27966,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-            "css": "@import url(\"_dark2.css\");\narticle {font-size:75%}\n\ncode i, i code, tt i, i tt, pre i, i pre, code em, em code, tt em, em tt, pre em, em pre { xpadding-left: 0.1em; padding-right: 0.35em; font-style: normal; }\n.front strike { text-decoration: none; display: inline-block; width: 4em; overflow: hidden; text-indent: -9000px; box-shadow: inset 0 -5px 0 #b58900;}\n.back strike { text-decoration: none; }\n\n\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\n\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar fontSize = Math.round( 450 / article.innerText.length * 100 );\nif (fontSize > 75) { fontSize = 75; }\nif (fontSize < 33) { fontSize = 33; }\nsetStyle('blockquote,details', 'fontSize', fontSize + '%');\n\n}\n</script><style>\n", 
+            "css": "@import url(\"_dark3.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\n\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar fontSize = Math.round( 450 / article.innerText.length * 100 );\nif (fontSize > 75) { fontSize = 75; }\nif (fontSize < 33) { fontSize = 33; }\nsetStyle('blockquote,details', 'fontSize', fontSize + '%');\n\n}\n</script><style>\n", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -27664,7 +28170,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "tar"
+                "find"
             ], 
             "tmpls": [
                 {
@@ -27800,7 +28306,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark2.css\");\n\n\n.regexnest1, .regexplain, .regexspecial, .regexnest2, .regexnest3, .regexccopen, .regexccspecial, .regexccliteral, .regexescaped, .regexccrange, .regexcomment, .regexerr, .regexmeta, .replaceplain, .characterstring, .comment, .numericconstant, .reservedword {\n  font-family: Monaco, monospace;\n}\nmark code { color: #d75f00; /* brred */ }\ndetails { color: inherit; }\n\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n}\n</script><style>", 
+            "css": "@import url(\"_dark3.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n}\nfunction playSound() {\n    var a = new Audio(document.getElementById(\"audio\"));\n    a.play();\n}\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -27880,22 +28386,22 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -28188,7 +28694,7 @@
             "data": "", 
             "fields": [
                 "disable pipe returning code of last command", 
-                "set -o pipefail", 
+                "<code>set -o pipefail</code><div><br /></div><div>Each command in a pipeline is executed in its own subshell. The exit status of a pipeline is the exit status of the last command in the pipeline, unless the<code>&nbsp;pipefail</code>&nbsp;option is enabled. If&nbsp;<code>pipefail</code>&nbsp;is enabled, the pipeline’s return status is the value of the last (rightmost) command to exit with a non-zero status, or zero if all commands exit successfully. If the reserved word&nbsp;<code>!</code>&nbsp;precedes the pipeline, the exit status is the logical negation of the exit status as described above. The shell waits for all commands in the pipeline to terminate before returning a value.</div>", 
                 "", 
                 "", 
                 "", 
@@ -28252,7 +28758,7 @@
             "data": "", 
             "fields": [
                 "bash for range", 
-                "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">for</span> i in <span style=\"color: #d0d0d0\">{</span>1..1000<span style=\"color: #d0d0d0\">};</span> <span style=\"color: #6ab825; font-weight: bold\">do</span><span style=\"color: #d0d0d0\">;</span> <span style=\"color: #24909d\">echo </span>i<span style=\"color: #d0d0d0\">;</span> <span style=\"color: #6ab825; font-weight: bold\">done</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUzODIzMTEsICJpZCI6ICIxNDkwNDc3MDMzMjM2LTAwMSIsICJtZCI6ICIgICAgOjo6YmFzaFxuICAgIGZvciBpIGluIHsxLi4xMDAwfTsgZG87IGVjaG8gaTsgZG9uZVxuIn0=---->", 
+                "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">for</span> i in <span style=\"color: #d0d0d0\">{</span>1..1000<span style=\"color: #d0d0d0\">};</span> <span style=\"color: #6ab825; font-weight: bold\">do</span> <span style=\"color: #24909d\">echo</span> <span style=\"color: #40ffff\">$i</span><span style=\"color: #d0d0d0\">;</span> <span style=\"color: #6ab825; font-weight: bold\">done</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTgzNDg4MTYsICJpZCI6ICIxNDkwNDc3MDMzMjM2LTAwMSIsICJtZCI6ICIgICAgOjo6YmFzaFxuICAgIGZvciBpIGluIHsxLi4xMDAwfTsgZG8gZWNobyAkaTsgZG9uZVxuIn0=---->", 
                 "", 
                 "", 
                 "", 
@@ -28610,7 +29116,7 @@
             "data": "", 
             "fields": [
                 "unset shell function", 
-                "<code>unset -f <i>my_function</i></code><br /><div><code>unfunction <i>my_function</i></code>&nbsp;(zsh)</div>", 
+                "<code>unset -f <i>my_function</i></code><br /><div><code>unfunction <i>my_function</i></code>&nbsp;(<b>Zsh</b>)</div>", 
                 "", 
                 "", 
                 "", 
@@ -28841,7 +29347,7 @@
                 "", 
                 "", 
                 "$0", 
-                "<p>Expands to the name of the shell or shell script. This is set at shell initialization. If Bash is invoked with a file of commands, <code><strike>$0</strike></code> is set to the name of that file. If Bash is started with the <code>-c</code> option, then <code><strike>$0</strike></code> is set to the first argument after the string to be executed, if one is present. Otherwise, it is set to the filename used to invoke Bash, as given by argument zero. </p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTY3ODIxODMsICJpZCI6ICIxNDk1MjQ5ODU4OTQxLTAwNiIsICJtZCI6ICJFeHBhbmRzIHRvIHRoZSBuYW1lIG9mIHRoZSBzaGVsbCBvciBzaGVsbCBzY3JpcHQuIFRoaXMgaXMgc2V0IGF0IHNoZWxsIGluaXRpYWxpemF0aW9uLiBJZiBCYXNoIGlzIGludm9rZWQgd2l0aCBhIGZpbGUgb2YgY29tbWFuZHMsIGAkMGAgaXMgc2V0IHRvIHRoZSBuYW1lIG9mIHRoYXQgZmlsZS4gSWYgQmFzaCBpcyBzdGFydGVkIHdpdGggdGhlIGAtY2Agb3B0aW9uLCB0aGVuIGAkMGAgaXMgc2V0IHRvIHRoZSBmaXJzdCBhcmd1bWVudCBhZnRlciB0aGUgc3RyaW5nIHRvIGJlIGV4ZWN1dGVkLCBpZiBvbmUgaXMgcHJlc2VudC4gT3RoZXJ3aXNlLCBpdCBpcyBzZXQgdG8gdGhlIGZpbGVuYW1lIHVzZWQgdG8gaW52b2tlIEJhc2gsIGFzIGdpdmVuIGJ5IGFyZ3VtZW50IHplcm8uIFxuIn0=---->", 
+                "<ul>\n<li style=\"text-align: left; \">name of the <strong>shell or shell script</strong></li>\n<li style=\"text-align: left; \">name of <strong>command file</strong> Bash invoked with</li>\n<li style=\"text-align: left; \"><strong>first argument</strong> after the string to be executed if Bash started with <code>-c</code></li>\n<li style=\"text-align: left; \">filename used to invoke Bash as given by argument zero</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTc0NzExMzUsICJpZCI6ICIxNDk1MjQ5ODU4OTQxLTAwNiIsICJtZCI6ICIqIG5hbWUgb2YgdGhlICoqc2hlbGwgb3Igc2hlbGwgc2NyaXB0KipcbiogbmFtZSBvZiAqKmNvbW1hbmQgZmlsZSoqIEJhc2ggaW52b2tlZCB3aXRoXG4qICoqZmlyc3QgYXJndW1lbnQqKiBhZnRlciB0aGUgc3RyaW5nIHRvIGJlIGV4ZWN1dGVkIGlmIEJhc2ggc3RhcnRlZCB3aXRoIGAtY2BcbiogZmlsZW5hbWUgdXNlZCB0byBpbnZva2UgQmFzaCBhcyBnaXZlbiBieSBhcmd1bWVudCB6ZXJvXG4ifQ==---->", 
                 "", 
                 ""
             ], 
@@ -28860,14 +29366,16 @@
                 "", 
                 "", 
                 "$_", 
-                "<div>At shell startup, set to the absolute pathname used to invoke the shell or shell script being executed as passed in the environment or argument list. Subsequently, expands to the last argument to the previous command, after expansion. Also set to the full pathname used to invoke each command executed and placed in the environment exported to that command. When checking mail, this parameter holds the name of the mail file. </div>", 
+                "<ul>\n<li style=\"text-align: left; \"><strong>shell invocation absolute pathname</strong></li>\n<li style=\"text-align: left; \"><strong>executing script name</strong> as passed in the environment or argument list</li>\n<li style=\"text-align: left; \">last argument to the previous command, after expansion</li>\n<li style=\"text-align: left; \">full pathname used to invoke each command executed and placed in the environment exported to that command</li>\n<li style=\"text-align: left; \"><em>when checking mail:</em> the name of the mail file</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTczOTU4ODQsICJpZCI6ICIxNDk1MjQ5OTMxNTk4LTAwNiIsICJtZCI6ICIqICoqc2hlbGwgaW52b2NhdGlvbiBhYnNvbHV0ZSBwYXRobmFtZSoqXG4qICoqZXhlY3V0aW5nIHNjcmlwdCBuYW1lKiogYXMgcGFzc2VkIGluIHRoZSBlbnZpcm9ubWVudCBvciBhcmd1bWVudCBsaXN0XG4qIGxhc3QgYXJndW1lbnQgdG8gdGhlIHByZXZpb3VzIGNvbW1hbmQsIGFmdGVyIGV4cGFuc2lvblxuKiBmdWxsIHBhdGhuYW1lIHVzZWQgdG8gaW52b2tlIGVhY2ggY29tbWFuZCBleGVjdXRlZCBhbmQgcGxhY2VkIGluIHRoZSBlbnZpcm9ubWVudCBleHBvcnRlZCB0byB0aGF0IGNvbW1hbmRcbiogX3doZW4gY2hlY2tpbmcgbWFpbDpfIHRoZSBuYW1lIG9mIHRoZSBtYWlsIGZpbGVcbiJ9---->", 
                 "", 
                 ""
             ], 
             "flags": 0, 
             "guid": "C4TR0cQ_Hp", 
             "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "bash"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -28955,6 +29463,58 @@
             ], 
             "flags": 0, 
             "guid": "MHv/>u#wb}", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Delete lines 5–10, 12 using <code>sed</code>", 
+                "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">sed -i.bak -e <span style=\"color: #ed9d13\">'5,10d;12d'</span> file\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTgzNTA1MzgsICJpZCI6ICIxNDk4MzUwNDgwNjg3LTAwMSIsICJtZCI6ICIgICAgOjo6YmFzaFxuICAgIHNlZCAtaS5iYWsgLWUgJmFwb3M7NSwxMGQ7MTJkJmFwb3M7IGZpbGVcbiAgXG4ifQ==---->", 
+                "", 
+                "reverse", 
+                "", 
+                "https://stackoverflow.com/questions/2112469/delete-specific-line-numbers-from-a-text-file-using-sed"
+            ], 
+            "flags": 0, 
+            "guid": "gTTw-ZW(ex", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "sed"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Delete lines 5–10, 12 using <code>awk</code>", 
+                "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\">awk <span style=\"color: #ed9d13\">'NR!~/^(5|10|25)$/'</span> file &gt; temp\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTgzNTA1OTQsICJpZCI6ICIxNDk4MzUwNTU3NzMwLTAwMSIsICJtZCI6ICIgICAgOjo6YmFzaFxuICAgIGF3ayAmYXBvcztOUiF+L14oNXwxMHwyNSkkLyZhcG9zOyBmaWxlICZndDsgdGVtcFxuICBcbiJ9---->", 
+                "", 
+                "reverse", 
+                "", 
+                "https://stackoverflow.com/questions/2112469/delete-specific-line-numbers-from-a-text-file-using-sed"
+            ], 
+            "flags": 0, 
+            "guid": "FsfRairw^y", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "awk"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Quote by L. Peter Deutsch", 
+                "“‘Software engineering’ is something of an oxymoron. It’s very difficult to have real engineering before you have physics, and there isn’t anything even close to physics for software.”", 
+                "Deutsch is a software veteran of the Xerox Palo Alto Research Center in the ‘70s and ‘80s.", 
+                "reverse", 
+                "", 
+                "“Dreaming in Code: Two Dozen Programmers, Three Years, 4,732 Bugs, and One Quest for Transcendent Software” by Scott Rosenberg"
+            ], 
+            "flags": 0, 
+            "guid": "iT}HMvir-a", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
         }
