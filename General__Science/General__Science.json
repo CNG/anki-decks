@@ -43,7 +43,7 @@
                 "ivlFct": 1.0, 
                 "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 10
+                "perDay": 30
             }, 
             "timer": 0
         }
@@ -64,7 +64,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark2.css\");\n\n\n.regexnest1, .regexplain, .regexspecial, .regexnest2, .regexnest3, .regexccopen, .regexccspecial, .regexccliteral, .regexescaped, .regexccrange, .regexcomment, .regexerr, .regexmeta, .replaceplain, .characterstring, .comment, .numericconstant, .reservedword {\n  font-family: Monaco, monospace;\n}\nmark code { color: #d75f00; /* brred */ }\ndetails { color: inherit; }\n\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n}\n</script><style>", 
+            "css": "@import url(\"_dark3.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n}\nfunction playSound() {\n    var a = new Audio(document.getElementById(\"audio\"));\n    a.play();\n}\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -144,22 +144,22 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -1492,6 +1492,54 @@
             ], 
             "flags": 0, 
             "guid": "P:0DIz#%3]", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Cydonia", 
+                "Region on the planet&nbsp;Mars&nbsp;that has attracted both scientific&nbsp;and popular interest.&nbsp;The name originally referred to the&nbsp;albedo feature&nbsp;(distinctively coloured area) that was visible from Earthbound&nbsp;telescopes.", 
+                "<p>The area borders plains of Acidalia Planitia and the Arabia Terra highlands.&nbsp;The area includes the regions: \"<i>Cydonia Mensae</i>\", an area of flat-topped mesa-like features, \"<i>Cydonia Colles</i>\", a region of small hills or knobs, and \"<i>Cydonia Labyrinthus</i>\", a complex of intersecting valleys.&nbsp;As with other albedo features on Mars, the name Cydonia was drawn from classical antiquity, in this case from Kydonia, a historic polis (or \"city-state\") on the island of Crete.&nbsp;Cydonia contains the \"<b>Face on Mars</b>\" feature—located about halfway between Arandas Crater and Bamberg Crater.</p>", 
+                "reverse", 
+                "", 
+                "https://en.wikipedia.org/wiki/Cydonia_(region_of_Mars)"
+            ], 
+            "flags": 0, 
+            "guid": "FqHciKk-z{", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "renin", 
+                "protein and enzyme secreted by the kidneys that participates in the body's renin-angiotensin aldosterone system (RAAS)—also known as the renin-angiotensin-aldosterone axis—that mediates extracellular volume (i.e., that of the blood plasma, lymph and interstitial fluid), and arterial vasoconstriction. Thus, it regulates the body's mean arterial blood pressure.", 
+                "", 
+                "reverse", 
+                "<!--anki-->angiotensinogenase", 
+                "https://en.wikipedia.org/wiki/Renin"
+            ], 
+            "flags": 0, 
+            "guid": "fq#C66{wxN", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "rennet", 
+                "Complex of enzymes produced in the stomachs of ruminant mammals. Chymosin, its key component, is a protease enzyme that curdles the casein in milk. This helps young mammals digest their mothers' milk. It can also be used to separate milk into solid curds for cheesemaking and liquid whey. In addition to chymosin, it contains other important enzymes such as pepsin and a lipase.", 
+                "", 
+                "reverse", 
+                "", 
+                "https://en.wikipedia.org/wiki/Rennet"
+            ], 
+            "flags": 0, 
+            "guid": "M<e~]Yy(d*", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
         }
