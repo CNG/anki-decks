@@ -1504,38 +1504,37 @@ Quote by L. Peter Deutsch	“‘Software engineering’ is something of an oxymo
 <code>.git/ORIG_HEAD</code>	<div>This is the previous state of <code>HEAD</code>.</div>		reverse		https://www.siteground.com/tutorials/git/directory.htm	git
 <code>.git/packed-refs</code>	<div>The file consists of packed heads and tags. It is useful for an efficient repository access.</div>		reverse		https://www.siteground.com/tutorials/git/directory.htm	git
 <code>.git/refs/</code>	<div>This directory normally contains three subfolders – <code>heads</code>, <code>remotes</code> and <code>tags</code>. There you will find the corresponding local branches, remote branches and tags files.</div>	For example, if you create a production branch, the file <code>.git/refs/heads/production</code> will be created and will contain the SHA-1 of the latest branch commit.	reverse		https://www.siteground.com/tutorials/git/directory.htm	git
-sort -c	sort	alt long option	-c	--check	--check=diagnose-first	check for sorted input; do not sort			sort
-sort -C	sort	alt long option	-C	--check=quiet	--check=silent	like -c, but do not report first bad line			sort
-sort -b	sort		-b	--ignore-leading-blanks	ignore leading blanks				sort
-sort -b	sort		-b	--ignore-leading-blanks	ignore leading blanks				sort
-sort -d	sort		-d	--dictionary-order	consider only blanks and alphanumeric characters				sort
-sort -f	sort		-f	--ignore-case	fold lower case to upper case characters				sort
-sort -g	sort		-g	--general-numeric-sort	compare according to general numerical value				sort
-sort -i	sort		-i	--ignore-nonprinting	consider only printable characters				sort
-sort -M	sort		-M	--month-sort	compare (unknown) < 'JAN' < ... < 'DEC'				sort
-sort -h	sort		-h	--human-numeric-sort	compare human readable numbers (e.g., 2K 1G)				sort
-sort -n	sort		-n	--numeric-sort	compare according to string numerical value				sort
-sort -R	sort		-R	--random-sort	shuffle, but group identical keys.  See shuf(1)				sort
-sort --random-source	sort			--random-source=FILE	get random bytes from FILE				sort
-sort -r	sort		-r	--reverse	reverse the result of comparisons				sort
-sort --sort	sort			--sort=WORD	sort according to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, version -V				sort
-sort -V	sort		-V	--version-sort	natural sort of (version) numbers within text				sort
-sort --batch-size	sort			--batch-size=NMERGE	merge at most NMERGE inputs at once; for more use temp files				sort
-sort --compress-program	sort			--compress-program=PROG	compress temporaries with PROG; decompress them with PROG -d				sort
-sort --debug	sort			--debug	annotate the part of the line used to sort, and warn about questionable usage to stderr				sort
-sort --files0-from	sort			--files0-from=F	read input from the files specified by NUL-terminated names in file F; If F is - then read names from standard input				sort
-sort -k	sort		-k	--key=KEYDEF	sort via a key; KEYDEF gives location and type				sort
-sort -m	sort		-m	--merge	merge already sorted files; do not sort				sort
-sort -o	sort		-o	--output=FILE	write result to FILE instead of standard output				sort
-sort -s	sort		-s	--stable	stabilize sort by disabling last-resort comparison				sort
-sort -S	sort		-S	--buffer-size=SIZE	use SIZE for main memory buffer				sort
-sort -t	sort		-t	--field-separator=SEP	use SEP instead of non-blank to blank transition				sort
-sort -T	sort		-T	--temporary-directory=DIR	use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories				sort
-sort --parallel	sort			--parallel=N	change the number of sorts run concurrently to N				sort
-sort -u	sort		-u	--unique	with -c, check for strict ordering; without -c, output only the first of an equal run				sort
-sort -z	sort		-z	--zero-terminated	line delimiter is NUL, not newline				sort
-sort --help	sort			--help	display this help and exit				sort
-sort --version	sort			--version	output version information and exit				sort
+sort -c	sort	alt long option	-c	--check	sort --check=diagnose-first	check for sorted input; do not sort			sort
+sort -C	sort	alt long option	-C	--check=quiet		like -c, but do not report first bad line			sort
+sort -b	sort		-b	--ignore-leading-blanks		ignore leading blanks			sort
+sort -d	sort		-d	--dictionary-order		consider only blanks and alphanumeric characters			sort
+sort -f	sort		-f	--ignore-case		fold lower case to upper case characters			sort
+sort -g	sort		-g	--general-numeric-sort		compare according to general numerical value			sort
+sort -i	sort		-i	--ignore-nonprinting		consider only printable characters			sort
+sort -M	sort		-M	--month-sort		compare (unknown) < 'JAN' < ... < 'DEC'			sort
+sort -h	sort		-h	--human-numeric-sort		compare human readable numbers (e.g., 2K 1G)			sort
+sort -n	sort		-n	--numeric-sort		compare according to string numerical value			sort
+sort -R	sort		-R	--random-sort		shuffle, but group identical keys.  See shuf(1)			sort
+sort --random-source	sort			--random-source=FILE		get random bytes from FILE			sort
+sort -r	sort		-r	--reverse		reverse the result of comparisons			sort
+sort --sort	sort			--sort=WORD		sort according to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, version -V			sort
+sort -V	sort		-V	--version-sort		natural sort of (version) numbers within text			sort
+sort --batch-size	sort			--batch-size=NMERGE		merge at most NMERGE inputs at once; for more use temp files			sort
+sort --compress-program	sort			--compress-program=PROG		compress temporaries with PROG; decompress them with PROG -d			sort
+sort --debug	sort			--debug		annotate the part of the line used to sort, and warn about questionable usage to stderr			sort
+sort --files0-from	sort			--files0-from=F		read input from the files specified by NUL-terminated names in file F; If F is - then read names from standard input			sort
+sort -k	sort		-k&nbsp;<i>KEYDEF</i>	--key=<i>KEYDEF</i>		sort via a key; <code><i>KEYDEF</i></code> gives location and type			sort
+sort -m	sort		-m	--merge		merge already sorted files; do not sort			sort
+sort -o	sort		-o&nbsp;<i>FILE</i>	--output=<i>FILE</i>		write result to <code><i>FILE</i></code> instead of standard output			sort
+sort -s	sort		-s	--stable		stabilize sort by disabling last-resort comparison			sort
+sort -S	sort		-S&nbsp;<i>SIZE</i>	--buffer-size=<i>SIZE</i>		use <code><i>SIZE</i></code> for main memory buffer			sort
+sort -t	sort		-t&nbsp;<i>SEP</i>	--field-separator=<i>SEP</i>		use <code><i>SEP</i></code> instead of non-blank to blank transition			sort
+sort -T	sort		-T&nbsp;<i>DIR</i>	--temporary-directory=<i>DIR</i>		use <code><i>DIR</i></code> for temporaries, not <code>$TMPDIR</code> or <code>/tmp</code>; multiple options specify multiple directories			sort
+sort --parallel	sort			--parallel<b>=</b><i>N</i>		change the number of sorts run concurrently to <code><i>N</i></code>			sort
+sort -u	sort		-u	--unique		with <code>-c</code>, check for strict ordering; without <code>-c</code>, output only the first of an equal run			sort
+sort -z	sort		-z	--zero-terminated		line delimiter is NUL, not newline			sort
+sort --help	sort			--help		display this help and exit			sort
+sort --version	sort			--version		output version information and exit			sort
 du -a	du		-a			Display an entry for each file in a file hierarchy.			du
 du -c	du		-c			Display a grand total.			du
 du -d	du		-d <u>depth</u>			Display an entry for all files and directories <u><code>depth</code></u> directories deep.			du
@@ -1602,3 +1601,14 @@ date format %:z	date	format sequence			%:z	+hh:mm numeric timezone (e.g., -04:00
 date format %::z	date	format sequence			%::z	+hh:mm:ss numeric time zone (e.g., -04:00:00)			date
 date format %:::z	date	format sequence			%:::z	numeric time zone with : to necessary precision (e.g., -04, +05:30)			date
 date format %Z	date	format sequence			%Z	alphabetic time zone abbreviation (e.g., EDT)			date
+date -d	date		-d&nbsp;<i>STRING</i>	--date=<i>STRING</i>		display time described by <i><code>STRING</code></i>, not 'now'&nbsp;			date
+date -f	date		-f&nbsp;<i>DATEFILE</i>	--file=<i>DATEFILE</i>		like <code>--date</code> once for each line of <code><i>DATEFILE</i></code>			date
+date -r	date		-r&nbsp;<i>FILE</i>	--<b>reference</b>=<i>FILE</i>		display the last modification time of&nbsp;<code><i>FILE</i></code>			date
+date -R	date		-R	--<b>rfc-2822</b>		output date and time in <b>RFC 2822</b> format. Example: Mon, 07 Aug 2006 12:34:56 <b>-0600</b>			date
+date&nbsp;--rfc-3339	date			<dt><b>--rfc-3339</b>=<i>TIMESPEC</i> </dt>		output date and time in <b>RFC 3339</b> format. <code><i>TIMESPEC</i></code>='date', 'seconds', or  'ns' for date and time to the indicated precision. Date and time  components are separated by a single space: <code>2006-08-07 12:34:56-06:00</code>			date
+date -s	date		-s&nbsp;<b><i>STRING</i></b>	<dt><b>--set=<i>STRING</i></b></dt>		set time described by <code><i>STRING</i></code>			date
+date -u	date	long option alias	-u	<dt><b>--utc</b></dt>	date --universal	print or set Coordinated Universal Time			date
+date&nbsp;--help	date			<dt><b><br /></b></dt>		display this help and exit			date
+date&nbsp;--version	date			<dt><b><br /></b></dt>		output version information and exit			date
+date	date			<dt><b><br /></b></dt>		Display the current time in the given FORMAT, or set the system date. <div><br /></div><div>After any flags comes an optional field width, as a decimal number; then  an optional modifier, which is either E to use the locale's alternate representations if available, or O to use the locale's alternate numeric  symbols if available.&nbsp;</div>	<code>date [<i>OPTION</i>]... [+<i>FORMAT</i>]</code><div><code>date [-u|--utc|--universal] [<i>MMDDhhmm</i>[[<i>CC</i>]<i>YY</i>][.<i>ss</i>]]&nbsp;</code></div>	y	date
+date string	The <code>--date=<i>STRING</i></code> is a mostly free format human readable <code>date</code> string  such as <code>Sun, 29 Feb 2004 16:21:42 -0800</code> or <code>2004-02-29 16:21:42</code>&nbsp;or even <code>next Thursday</code>. A <code>date</code>  string may contain items indicating calendar date, time of day, time  zone, day of week, relative time, relative date, and numbers. An empty string  indicates the beginning of the day. The <code>date</code> string format is more  complex than is easily documented here but is fully described in the info documentation. 			<dt><b><br /></b></dt>	https://linux.die.net/man/1/date	date
