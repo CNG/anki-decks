@@ -19033,6 +19033,2061 @@
                     "tags": [
                         "find"
                     ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -c", 
+                        "sort", 
+                        "alt long option", 
+                        "-c", 
+                        "--check", 
+                        "--check=diagnose-first", 
+                        "check for sorted input; do not sort", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "wR$)Z~.9KU", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -C", 
+                        "sort", 
+                        "alt long option", 
+                        "-C", 
+                        "--check=quiet", 
+                        "--check=silent", 
+                        "like -c, but do not report first bad line", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "jJXTB;&i;M", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -b", 
+                        "sort", 
+                        "", 
+                        "-b", 
+                        "--ignore-leading-blanks", 
+                        "ignore leading blanks", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "d2}V?IzyLr", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -b", 
+                        "sort", 
+                        "", 
+                        "-b", 
+                        "--ignore-leading-blanks", 
+                        "ignore leading blanks", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "e!kX)?-Q6=", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -d", 
+                        "sort", 
+                        "", 
+                        "-d", 
+                        "--dictionary-order", 
+                        "consider only blanks and alphanumeric characters", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "DoaexFh.SX", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -f", 
+                        "sort", 
+                        "", 
+                        "-f", 
+                        "--ignore-case", 
+                        "fold lower case to upper case characters", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "GCFHKz6pD1", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -g", 
+                        "sort", 
+                        "", 
+                        "-g", 
+                        "--general-numeric-sort", 
+                        "compare according to general numerical value", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "gOgGc@_I*%", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -i", 
+                        "sort", 
+                        "", 
+                        "-i", 
+                        "--ignore-nonprinting", 
+                        "consider only printable characters", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "P8>16pxM~9", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -M", 
+                        "sort", 
+                        "", 
+                        "-M", 
+                        "--month-sort", 
+                        "compare (unknown) < 'JAN' < ... < 'DEC'", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "cdoyX*^q?L", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -h", 
+                        "sort", 
+                        "", 
+                        "-h", 
+                        "--human-numeric-sort", 
+                        "compare human readable numbers (e.g., 2K 1G)", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "e1KE6Rv^yA", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -n", 
+                        "sort", 
+                        "", 
+                        "-n", 
+                        "--numeric-sort", 
+                        "compare according to string numerical value", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "kaF1N*~!x2", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -R", 
+                        "sort", 
+                        "", 
+                        "-R", 
+                        "--random-sort", 
+                        "shuffle, but group identical keys.  See shuf(1)", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "gJtTAD>;g{", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort --random-source", 
+                        "sort", 
+                        "", 
+                        "", 
+                        "--random-source=FILE", 
+                        "get random bytes from FILE", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "c[>Oh8(=&a", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -r", 
+                        "sort", 
+                        "", 
+                        "-r", 
+                        "--reverse", 
+                        "reverse the result of comparisons", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "NFP*5/~a`L", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort --sort", 
+                        "sort", 
+                        "", 
+                        "", 
+                        "--sort=WORD", 
+                        "sort according to WORD: general-numeric -g, human-numeric -h, month -M, numeric -n, random -R, version -V", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "tlsaL^Ust<", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -V", 
+                        "sort", 
+                        "", 
+                        "-V", 
+                        "--version-sort", 
+                        "natural sort of (version) numbers within text", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "D0`(b{nVJ5", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort --batch-size", 
+                        "sort", 
+                        "", 
+                        "", 
+                        "--batch-size=NMERGE", 
+                        "merge at most NMERGE inputs at once; for more use temp files", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "w=Id9YNb~7", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort --compress-program", 
+                        "sort", 
+                        "", 
+                        "", 
+                        "--compress-program=PROG", 
+                        "compress temporaries with PROG; decompress them with PROG -d", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "vb3Xz4EIT9", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort --debug", 
+                        "sort", 
+                        "", 
+                        "", 
+                        "--debug", 
+                        "annotate the part of the line used to sort, and warn about questionable usage to stderr", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "K%91|U@@y?", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort --files0-from", 
+                        "sort", 
+                        "", 
+                        "", 
+                        "--files0-from=F", 
+                        "read input from the files specified by NUL-terminated names in file F; If F is - then read names from standard input", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "G9`%5xB{8v", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -k", 
+                        "sort", 
+                        "", 
+                        "-k", 
+                        "--key=KEYDEF", 
+                        "sort via a key; KEYDEF gives location and type", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "jg>o/SXZK,", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -m", 
+                        "sort", 
+                        "", 
+                        "-m", 
+                        "--merge", 
+                        "merge already sorted files; do not sort", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "gN3|X!~Vmf", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -o", 
+                        "sort", 
+                        "", 
+                        "-o", 
+                        "--output=FILE", 
+                        "write result to FILE instead of standard output", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "lr`Jdq%g$_", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -s", 
+                        "sort", 
+                        "", 
+                        "-s", 
+                        "--stable", 
+                        "stabilize sort by disabling last-resort comparison", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "iRUv2+HVq,", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -S", 
+                        "sort", 
+                        "", 
+                        "-S", 
+                        "--buffer-size=SIZE", 
+                        "use SIZE for main memory buffer", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "N<mA??bjFN", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -t", 
+                        "sort", 
+                        "", 
+                        "-t", 
+                        "--field-separator=SEP", 
+                        "use SEP instead of non-blank to blank transition", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "JYAB*)_LlA", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -T", 
+                        "sort", 
+                        "", 
+                        "-T", 
+                        "--temporary-directory=DIR", 
+                        "use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "r>z_des)`U", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort --parallel", 
+                        "sort", 
+                        "", 
+                        "", 
+                        "--parallel=N", 
+                        "change the number of sorts run concurrently to N", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Pn4<>jZL-T", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -u", 
+                        "sort", 
+                        "", 
+                        "-u", 
+                        "--unique", 
+                        "with -c, check for strict ordering; without -c, output only the first of an equal run", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Pu7i/hJ^.^", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort -z", 
+                        "sort", 
+                        "", 
+                        "-z", 
+                        "--zero-terminated", 
+                        "line delimiter is NUL, not newline", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "hz.fL)(?4x", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort --help", 
+                        "sort", 
+                        "", 
+                        "", 
+                        "--help", 
+                        "display this help and exit", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "n&*j@7{^-l", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort --version", 
+                        "sort", 
+                        "", 
+                        "", 
+                        "--version", 
+                        "output version information and exit", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "tD5y:IaK-4", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "sort"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -a", 
+                        "du", 
+                        "", 
+                        "-a", 
+                        "", 
+                        "", 
+                        "Display an entry for each file in a file hierarchy.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "z5;F^zIHZI", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -c", 
+                        "du", 
+                        "", 
+                        "-c", 
+                        "", 
+                        "", 
+                        "Display a grand total.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "w?6GBSXRY^", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -d", 
+                        "du", 
+                        "", 
+                        "-d <u>depth</u>", 
+                        "", 
+                        "", 
+                        "Display an entry for all files and directories <u><code>depth</code></u> directories deep.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "N.SReg+Y}|", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -H", 
+                        "du", 
+                        "", 
+                        "-H", 
+                        "", 
+                        "", 
+                        "Symbolic links on the command line are followed, symbolic links in file hierarchies are not followed.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "v;0jI+=,Sq", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -h", 
+                        "du", 
+                        "", 
+                        "-h", 
+                        "", 
+                        "", 
+                        "\"Human-readable\" output. &nbsp;Use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "z2l7sAmI~j", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -I", 
+                        "du", 
+                        "", 
+                        "-I <u>mask</u>", 
+                        "", 
+                        "", 
+                        "Ignore files and directories matching the specified <u><code>mask</code></u>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "zybn6eA=8b", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -g", 
+                        "du", 
+                        "", 
+                        "-g", 
+                        "", 
+                        "", 
+                        "Display block counts in 1073741824-byte (1-Gbyte) blocks.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "LbjV)@&jJ@", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -k", 
+                        "du", 
+                        "", 
+                        "-k", 
+                        "", 
+                        "", 
+                        "Display block counts in 1024-byte (1-Kbyte) blocks.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "joTe?%y}&n", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -L", 
+                        "du", 
+                        "", 
+                        "-L", 
+                        "", 
+                        "", 
+                        "Symbolic links on the command line and in file hierarchies are followed.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "x09$#aNGJW", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -m", 
+                        "du", 
+                        "", 
+                        "-m", 
+                        "", 
+                        "", 
+                        "Display block counts in 1048576-byte (1-Mbyte) blocks.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "PS#R*3}&I-", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -P", 
+                        "du", 
+                        "", 
+                        "-P", 
+                        "", 
+                        "", 
+                        "No symbolic links are followed. &nbsp;This is the default.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "H&}cPJ|VE/", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -r", 
+                        "du", 
+                        "", 
+                        "-r", 
+                        "", 
+                        "", 
+                        "Generate messages about directories that cannot be read, files that cannot be opened, and so on.  This\n             is the default case.  This option exists solely for conformance with X/Open Portability Guide Issue 4\n             (XPG4).", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "rQz$H%>xj]", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -s", 
+                        "du", 
+                        "equivalent", 
+                        "-s", 
+                        "", 
+                        "-d 0", 
+                        "Display an entry for each specified file.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "l/Z%LJDgo^", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du -x", 
+                        "du", 
+                        "", 
+                        "-x", 
+                        "", 
+                        "", 
+                        "File system mount points are not traversed.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "j{qH!*{+tL", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "du", 
+                        "du", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        "    This utility displays the file system block usage for each file argument and for each directory in the file\n     hierarchy rooted in each directory argument.  If no file is specified, the block usage of the hierarchy rooted\n     in the current directory is displayed.\n<br /><br />\n     This utility counts the storage used by symbolic links and not the files they reference unless the <code>-H</code> or <code>-L</code>\n     option is specified.  If either the <code>-H</code> or <code>-L</code> options are specified, storage used by any symbolic links which\n     are followed is not counted or displayed.  If more than one of the <code>-H</code>, <code>-L</code>, and <code>-P</code> options is specified, the\n     last one given is used.\n<br /><br />\n     Files having multiple hard links are counted (and displayed) a single time per execution.  Directories having multiple hard links (typically Time Machine backups) are counted a single time per execution.", 
+                        "<code>du [-H | -L | -P] [-a | -s | -d <u>depth</u>] [-c] [-h | -k | -m | -g] [-x] [-I <u>mask</u>] [<u>file</u> ...]</code>", 
+                        "y"
+                    ], 
+                    "flags": 0, 
+                    "guid": "hA-mRs/Vzs", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "sort folders by size", 
+                        "&nbsp; &nbsp; :::bash<div>&nbsp; &nbsp; du --max-depth=1 /home/ | sort -n -r<div>&nbsp; &nbsp; du -h --summarize * | sort -h</div><div>&nbsp; &nbsp; du -h --max-depth=1 /home/ | sort -h -r</div></div>", 
+                        "On non-Linux, you'll need to use <b>GNU</b> <code>sort</code> to get the <code>-h</code> option.  This is\n part of the <b>GNU</b> <code>coreutils</code> package, and might be called <code>gsort</code> on your \nsystem.", 
+                        "reverse", 
+                        "", 
+                        "http://www.ducea.com/2006/05/14/tip-how-to-sort-folders-by-size-with-one-command-line-in-linux/"
+                    ], 
+                    "flags": 0, 
+                    "guid": "q8VE4`SxS?", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "du"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format flag %-", 
+                        "date", 
+                        "format flag", 
+                        "", 
+                        "", 
+                        "%-", 
+                        "(hyphen) do not pad the field", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "od3xin.ylW", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format flag %_", 
+                        "date", 
+                        "format flag", 
+                        "", 
+                        "", 
+                        "%_", 
+                        "(underscore) pad with spaces", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "L}SE3$9Hkh", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format flag %0", 
+                        "date", 
+                        "format flag", 
+                        "", 
+                        "", 
+                        "%0", 
+                        "(zero) pad with zeros", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "bph0eGnt=?", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format flag %^", 
+                        "date", 
+                        "format flag", 
+                        "", 
+                        "", 
+                        "%^", 
+                        "use upper case if possible", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "k9Kbkjem??", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format flag %#", 
+                        "date", 
+                        "format flag", 
+                        "", 
+                        "", 
+                        "%#", 
+                        "use opposite case if possible", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "e2#l~;Un^[", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %%", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%%", 
+                        "a literal <code>%</code>", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "By=>;qLz]l", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %a", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%a", 
+                        "locale's abbreviated weekday name (e.g., Sun)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Ke=i4f?bSS", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %A", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%A", 
+                        "locale's full weekday name (e.g., Sunday)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "jg9~0qxus4", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %b", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%b", 
+                        "locale's abbreviated month name (e.g., Jan). same as&nbsp;<code>%h</code>", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Loo_hq6AG!", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %B", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%B", 
+                        "locale's full month name (e.g., January)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "7U^]9=zyp", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %c", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%c", 
+                        "locale's date and time (e.g., Thu Mar 3 23:05:25 2005)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "dRk4?m(Y:n", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %C", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%C", 
+                        "century; like <code>%Y</code>, except omit last two digits (e.g., 20)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "DBQ|MY_5xt", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %d", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%d", 
+                        "day of month (e.g, 01)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "uV@|O-GwIh", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %D", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%D", 
+                        "date; same as&nbsp;<code>%m/%d/%y</code>", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "/+3)iS,Wl", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %e", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%e", 
+                        "day of month, space padded; same as <code>%_d</code>", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "iUKx(wp%s!", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %F", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%F", 
+                        "full date; same as <code>%Y-%m-%d</code>", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ik#LC[Nk>>", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %g", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%g", 
+                        "last two digits of year of ISO week number (see <code>%G</code>)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "oWN/<KAo)p", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %G", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%G", 
+                        "year of ISO week number (see <code>%V</code>); normally useful only with <code>%V</code>", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "v7]2/>Es_N", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %h", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%h", 
+                        "locale's abbreviated month name (e.g., Jan). same as <code>%b</code>", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "zce8EkI.,k", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %H", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%H", 
+                        "hour (00..23)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "LTQY~Z}=&@", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %I", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%I", 
+                        "hour (01..12)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "hv=fY?62D/", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %j", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%j", 
+                        "day of year (001..366)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "BQ(mb%cw;%", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %k", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%k", 
+                        "hour ( 0..23)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "PZ`TG]i+-Z", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %l", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%l", 
+                        "hour ( 1..12)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "uDp<qxQALb", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %m", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%m", 
+                        "month (01..12)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "w/=Gw-(cI.", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %M", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%M", 
+                        "minute (00..59)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "st7qrf!{$4", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %n", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%n", 
+                        "a newline", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "nF[4%)yFjK", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %N", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%N", 
+                        "nanoseconds (000000000..999999999)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "tbx.nL26ug", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %p", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%p", 
+                        "locale's equivalent of either AM or PM; blank if not known", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "yisz/~RS!{", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %P", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%P", 
+                        "like <code>%p</code>, but lower case", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "pHY-a$,I(<", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %r", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%r", 
+                        "locale's 12-hour clock time (e.g., 11:11:04 PM)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "wMq+au&P!d", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %R", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%R", 
+                        "24-hour hour and minute; same as <code>%H:%M</code>", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "B4DOX}RWb^", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %s", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%s", 
+                        "seconds since 1970-01-01 00:00:00 UTC", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "vLG|0:,Qc(", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %S", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%S", 
+                        "second (00..60)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "MG[lnKE.^|", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %t", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%t", 
+                        "a tab", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "x)fw?hG6=!", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %T", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%T", 
+                        "time; same as <code>%H:%M:%S</code>", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "rO!:~/DGZH", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %u", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%u", 
+                        "day of week (1..7); 1 is Monday", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "b#n,N^h5[{", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %U", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%U", 
+                        "week number of year, with Sunday as first day of week (00..53)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "H8fgVD~n]-", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %V", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%V", 
+                        "ISO week number, with Monday as first day of week (01..53)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "xD#d7_?N|,", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %w", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%w", 
+                        "day of week (0..6); 0 is Sunday", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Oe<28umvzE", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %W", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%W", 
+                        "week number of year, with Monday as first day of week (00..53)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "LJZeiVt5A=", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %x", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%x", 
+                        "locale's date representation (e.g., 12/31/99)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ma__xoep26", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %X", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%X", 
+                        "locale's time representation (e.g., 23:13:48)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Inl:Q9UQ5V", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %y", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%y", 
+                        "last two digits of year (00..99)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "l!afFjU(C;", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %Y", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%Y", 
+                        "year", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "BmU2}Vk><-", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %z", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%z", 
+                        "+hhmm numeric timezone (e.g., -0400)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "bP1bt8+jTp", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %:z", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%:z", 
+                        "+hh:mm numeric timezone (e.g., -04:00)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "bMvfvBkoKS", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %::z", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%::z", 
+                        "+hh:mm:ss numeric time zone (e.g., -04:00:00)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "K&u1BJZ2.*", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %:::z", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%:::z", 
+                        "numeric time zone with : to necessary precision (e.g., -04, +05:30)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "HpR4(?3plk", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "date format %Z", 
+                        "date", 
+                        "format sequence", 
+                        "", 
+                        "", 
+                        "%Z", 
+                        "alphabetic time zone abbreviation (e.g., EDT)", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "enY&9oK5dj", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "date"
+                    ]
                 }
             ]
         }, 
@@ -22706,7 +24761,242 @@
             "extendRev": 50, 
             "media_files": [], 
             "name": "git", 
-            "notes": []
+            "notes": [
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/branches</code>", 
+                        "A deprecated way to store shorthands that specify URL to the <code>git fetch</code>, <code>git pull</code> and <code>git push</code> commands is to store a file in <code><strike>branches</strike>/&lt;name&gt;</code> and give the name to the command in the place of the repository argument.", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "ei)f8yjx;v", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/COMMIT_EDITMSG</code>", 
+                        "This is the last commit message. It’s not actually used by Git at all, but it is for your reference after you have made a commit.", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "j`x$0&Ri>Z", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/config</code>", 
+                        "<div>This is the main Git configuration file. It keeps specific Git options for your project, such as your remotes, push configurations, tracking branches and more. Your configuration will be loaded first from this file, then from a <code>~/.gitconfig</code> file and then from an <code>/etc/gitconfig</code> file, if they exist.</div>", 
+                        "<p>A exemplary content of this file is:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">[core]</span>\n      <span style=\"color: #bbbbbb\">repositoryformatversion</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">0</span>\n<span style=\"color: #ed9d13\">      filemode = false</span>\n<span style=\"color: #ed9d13\">      bare = false</span>\n<span style=\"color: #ed9d13\">      logallrefupdates = true [remote \"origin\"]</span>\n<span style=\"color: #ed9d13\">      url = git@github.com:user/test.git</span>\n<span style=\"color: #ed9d13\">      fetch = +refs/heads/*:refs/remotes/origin/*</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTg3MTQwNTksICJpZCI6ICIxNDk4NzEzOTM0ODU3LTAwMiIsICJtZCI6ICJBIGV4ZW1wbGFyeSBjb250ZW50IG9mIHRoaXMgZmlsZSBpczpcbiAgXG4gIFxuICAgIFtjb3JlXVxuICAgICAgICAgIHJlcG9zaXRvcnlmb3JtYXR2ZXJzaW9uID0gMFxuICAgICAgICAgIGZpbGVtb2RlID0gZmFsc2VcbiAgICAgICAgICBiYXJlID0gZmFsc2VcbiAgICAgICAgICBsb2dhbGxyZWZ1cGRhdGVzID0gdHJ1ZSBbcmVtb3RlICZxdW90O29yaWdpbiZxdW90O11cbiAgICAgICAgICB1cmwgPSBnaXRAZ2l0aHViLmNvbTp1c2VyL3Rlc3QuZ2l0XG4gICAgICAgICAgZmV0Y2ggPSArcmVmcy9oZWFkcy8qOnJlZnMvcmVtb3Rlcy9vcmlnaW4vKlxuIn0=---->", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "IL!Z`W`GGy", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/description</code>", 
+                        "<div>If you’re using gitweb or invoking git instaweb, this will show when you have viewed your repository or the list of all versioned repositories.</div>", 
+                        "<div><br /></div>", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "w*B8_~b>Fl", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/gitweb</code>", 
+                        "<div>A folder with the GIT web scripts. They allow you to browse the git repository using a web browser.</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "wO5WbqB|8[", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/HEAD</code>", 
+                        "<div>This file holds a reference to the branch you are currently on. This tells Git what to use as the parent of your next commit.</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "Moo*O3%t)?", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/hooks/</code>", 
+                        "<div>This directory contains shell scripts that are invoked after the corresponding Git commands. For example, after you run a commit, Git will try to execute the post-commit script.</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "L;qQv.v+O%", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/index</code>", 
+                        "<div>The Git index is used as a staging area between your working directory and your repository. You can use the index to build up a set of changes that you want to commit together. When you create a commit, what is committed is what is currently in the index, not what is in your working directory. It is a binary file containing a sorted list of path names, each with permissions and the SHA-1 of a blob object.</div><div><br /></div><div>Its content can be listed through:</div><div><pre>git ls-files --stage\n100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0 &nbsp; &nbsp;README</pre></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "ib{P+c?i(D", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/logs/</code>", 
+                        "<div>Keeps records of changes made to refs.</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "sS]Q!<_&oY", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/objects/</code>", 
+                        "<div>In this directory the data of your Git objects is stored – all the contents of the files you have ever checked in, your commits, trees and tag objects. The files are stored by their SHA-1 values. The first two characters are for the subdirectory and the next 38 are the filename.&nbsp;</div>", 
+                        "For example, if the SHA-1 for a blob we’ve checked in is <code>a576fac355dd17e39fd2671b010e36299f713b4d</code> the path to the corresponding file is:<div><code><br /></code></div><div><code>[GIT_DIR]/objects/a5/76fac355dd17e39fd2671b010e36299f713b4d</code></div>", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "OxG`<C^+b{", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/ORIG_HEAD</code>", 
+                        "<div>This is the previous state of <code>HEAD</code>.</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "ny5O%6NZ7%", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/packed-refs</code>", 
+                        "<div>The file consists of packed heads and tags. It is useful for an efficient repository access.</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "jON<`,%gnO", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>.git/refs/</code>", 
+                        "<div>This directory normally contains three subfolders – <code>heads</code>, <code>remotes</code> and <code>tags</code>. There you will find the corresponding local branches, remote branches and tags files.</div>", 
+                        "For example, if you create a production branch, the file <code>.git/refs/heads/production</code> will be created and will contain the SHA-1 of the latest branch commit.", 
+                        "reverse", 
+                        "", 
+                        "https://www.siteground.com/tutorials/git/directory.htm"
+                    ], 
+                    "flags": 0, 
+                    "guid": "IKHGr;q.%Y", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "git"
+                    ]
+                }
+            ]
         }, 
         {
             "__type__": "Deck", 
@@ -28170,7 +30460,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "find"
+                "date"
             ], 
             "tmpls": [
                 {
