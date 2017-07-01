@@ -58,7 +58,7 @@
         "ulva.jpg", 
         "entramorpha.jpg"
     ], 
-    "mid": "1475043240989", 
+    "mid": "1494360100815", 
     "name": "General::Science", 
     "note_models": [
         {
@@ -764,7 +764,7 @@
             "data": "", 
             "fields": [
                 "-10 °C", 
-                "14.0 °F", 
+                "+14.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -780,7 +780,7 @@
             "data": "", 
             "fields": [
                 "-9 °C", 
-                "15.8 °F", 
+                "+15.8 °F", 
                 "", 
                 "y", 
                 "", 
@@ -796,7 +796,7 @@
             "data": "", 
             "fields": [
                 "-8 °C", 
-                "17.6 °F", 
+                "+17.6 °F", 
                 "", 
                 "y", 
                 "", 
@@ -812,7 +812,7 @@
             "data": "", 
             "fields": [
                 "-7 °C", 
-                "19.4 °F", 
+                "+19.4 °F", 
                 "", 
                 "y", 
                 "", 
@@ -828,7 +828,7 @@
             "data": "", 
             "fields": [
                 "-6 °C", 
-                "21.2 °F", 
+                "+21.2 °F", 
                 "", 
                 "y", 
                 "", 
@@ -844,7 +844,7 @@
             "data": "", 
             "fields": [
                 "-5 °C", 
-                "23.0 °F", 
+                "+23.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -860,7 +860,7 @@
             "data": "", 
             "fields": [
                 "-4 °C", 
-                "24.8 °F", 
+                "+24.8 °F", 
                 "", 
                 "y", 
                 "", 
@@ -876,7 +876,7 @@
             "data": "", 
             "fields": [
                 "-3 °C", 
-                "26.6 °F", 
+                "+26.6 °F", 
                 "", 
                 "y", 
                 "", 
@@ -892,7 +892,7 @@
             "data": "", 
             "fields": [
                 "-2 °C", 
-                "28.4 °F", 
+                "+28.4 °F", 
                 "", 
                 "y", 
                 "", 
@@ -908,7 +908,7 @@
             "data": "", 
             "fields": [
                 "-1 °C", 
-                "30.2 °F", 
+                "+30.2 °F", 
                 "", 
                 "y", 
                 "", 
@@ -923,8 +923,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "0 °C", 
-                "32.0 °F", 
+                "+0 °C", 
+                "+32.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -939,8 +939,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "1 °C", 
-                "33.8 °F", 
+                "+1 °C", 
+                "+33.8 °F", 
                 "", 
                 "y", 
                 "", 
@@ -955,8 +955,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 °C", 
-                "35.6 °F", 
+                "+2 °C", 
+                "+35.6 °F", 
                 "", 
                 "y", 
                 "", 
@@ -971,8 +971,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 °C", 
-                "37.4 °F", 
+                "+3 °C", 
+                "+37.4 °F", 
                 "", 
                 "y", 
                 "", 
@@ -987,8 +987,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 °C", 
-                "39.2 °F", 
+                "+4 °C", 
+                "+39.2 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1003,8 +1003,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 °C", 
-                "41.0 °F", 
+                "+5 °C", 
+                "+41.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1019,8 +1019,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 °C", 
-                "42.8 °F", 
+                "+6 °C", 
+                "+42.8 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1035,8 +1035,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 °C", 
-                "44.6 °F", 
+                "+7 °C", 
+                "+44.6 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1051,8 +1051,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 °C", 
-                "46.4 °F", 
+                "+8 °C", 
+                "+46.4 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1067,8 +1067,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 °C", 
-                "48.2 °F", 
+                "+9 °C", 
+                "+48.2 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1083,8 +1083,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "10 °C", 
-                "50.0 °F", 
+                "+10 °C", 
+                "+50.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1099,8 +1099,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "20 °C", 
-                "68.0 °F", 
+                "+20 °C", 
+                "+68.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1115,8 +1115,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "21 °C", 
-                "69.8 °F", 
+                "+21 °C", 
+                "+69.8 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1131,8 +1131,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "30 °C", 
-                "86.0 °F", 
+                "+30 °C", 
+                "+86.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1147,8 +1147,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "37 °C", 
-                "98.6 °F", 
+                "+37 °C", 
+                "+98.6 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1163,8 +1163,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "40 °C", 
-                "104.0 °F", 
+                "+40 °C", 
+                "+104.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1179,8 +1179,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "50 °C", 
-                "122.0 °F", 
+                "+50 °C", 
+                "+122.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1195,8 +1195,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "60 °C", 
-                "140.0 °F", 
+                "+60 °C", 
+                "+140.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1211,8 +1211,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "70 °C", 
-                "158.0 °F", 
+                "+70 °C", 
+                "+158.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1227,8 +1227,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "80 °C", 
-                "176.0 °F", 
+                "+80 °C", 
+                "+176.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1243,8 +1243,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "90 °C", 
-                "194.0 °F", 
+                "+90 °C", 
+                "+194.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1259,8 +1259,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "100 °C", 
-                "212.0 °F", 
+                "+100 °C", 
+                "+212.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1275,8 +1275,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "200 °C", 
-                "392.0 °F", 
+                "+200 °C", 
+                "+392.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1291,8 +1291,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "300 °C", 
-                "572.0 °F", 
+                "+300 °C", 
+                "+572.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1307,8 +1307,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "400 °C", 
-                "752.0 °F", 
+                "+400 °C", 
+                "+752.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1323,8 +1323,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "500 °C", 
-                "932.0 °F", 
+                "+500 °C", 
+                "+932.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1339,8 +1339,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "600 °C", 
-                "1112.0 °F", 
+                "+600 °C", 
+                "+1112.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1355,8 +1355,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "700 °C", 
-                "1292.0 °F", 
+                "+700 °C", 
+                "+1292.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1371,8 +1371,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "800 °C", 
-                "1472.0 °F", 
+                "+800 °C", 
+                "+1472.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1387,8 +1387,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "900 °C", 
-                "1652.0 °F", 
+                "+900 °C", 
+                "+1652.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1403,8 +1403,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "1000 °C", 
-                "1832.0 °F", 
+                "+1000 °C", 
+                "+1832.0 °F", 
                 "", 
                 "y", 
                 "", 
@@ -1540,6 +1540,598 @@
             ], 
             "flags": 0, 
             "guid": "M<e~]Yy(d*", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "claimed MMR vaccine linked with autism", 
+                "Andrew Wakefield", 
+                "", 
+                "reverse", 
+                "", 
+                "http://scienceblogs.com/insolence/2011/09/23/mark-blaxill-and-dan-olmsted-polio/"
+            ], 
+            "flags": 0, 
+            "guid": "MW/6`[c>x<", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Susac’s Syndrome", 
+                "a rare disorder characterized by three main problems: impaired brain \nfunction (encephalopathy), partial or complete blockage (occlusion) of \nthe arteries that supply blood to the retina (branch retinal artery \nocclusion, or BRAO), and inner ear disease (hearing loss, most notably)", 
+                "Three main forms of Susac's syndrome have become apparent. In one form, \nencephalopathy is the main problem. In the second form, BRAO and hearing\n loss are the main problems, and there is little or no brain disease. In\n the third form, encephalopathy is the main problem in the beginning, \nbut recurrent episodes of BRAO and hearing loss become the main problem \nafter the encephalopathy goes away.\n\nThe encephalopathic form of Susac's syndrome often resolves \nspontaneously (often going away within 1-3 years). The other forms tend \nto follow a more prolonged, more chronic course (3-10 years, or \nmore).&nbsp;All forms require immunosuppressive treatment while the disease \nis active.\n\nIntroduction\nAlthough considered rare, Susac's syndrome is being recognized more \noften worldwide and its true frequency in the general population is \nunknown. This is because the disorder may be misdiagnosed, often as \n“atypical” multiple sclerosis.\n\nSusac's syndrome is an autoimmune disease---specifically, an autoimmune \nendotheliopathy. \"Autoimmune\" means that a person’s own immune system is\n mistakenly attacking one's own healthy tissue. An \"endotheliopathy\" is \nany disorder that involves injury to the endothelium, which is the thin \nlayer of cells that line the inner walls of blood vessels. In Susac's \nsyndrome, the person's own immune system is mistakenly attacking the \nendothelial lining of the smallest blood vessels (the capillaries, \nvenules and arterioles) in the brain, retina, and inner ear. When the \nendothelial cells become injured, they tend to swell, and this \nendothelial cell swelling plays a key role in the partial or complete \nocclusion (blockage) of the tiny vessels in the brain, retina and inner \near. This blockage results in decreased blood flow through the vessels \nand, therefore, decreased delivery of oxygen and nutrients to the brain,\n retina, and inner ear---causing these three organs to suffer. &nbsp; &nbsp;&nbsp;", 
+                "reverse", 
+                "", 
+                "https://rarediseases.org/rare-diseases/susacs-syndrome/"
+            ], 
+            "flags": 0, 
+            "guid": "zMM{yz^W3)", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "encephalopathy", 
+                "impaired brain function", 
+                "", 
+                "reverse", 
+                "", 
+                "https://rarediseases.org/rare-diseases/susacs-syndrome/"
+            ], 
+            "flags": 0, 
+            "guid": "o2knw%66pq", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "occlusion", 
+                "partial or complete blockage", 
+                "", 
+                "reverse", 
+                "", 
+                "https://rarediseases.org/rare-diseases/susacs-syndrome/"
+            ], 
+            "flags": 0, 
+            "guid": "NNYsBsa%KD", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "endotheliopathy", 
+                "any disorder that involves injury to the endothelium, which is the thin \nlayer of cells that line the inner walls of blood vessels", 
+                "", 
+                "reverse", 
+                "", 
+                "https://rarediseases.org/rare-diseases/susacs-syndrome/"
+            ], 
+            "flags": 0, 
+            "guid": "P!cB221n~]", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "scotoma", 
+                "The medical term for these symptoms:<div><br /></div><div>Branch retinal artery occlusion (BRAO) can cause the patient to notice a\n “dark spot” or “black area” in their field of vision; or, some patients\n describe a “curtain or shade being drawn” over a portion of their \nvision.<div><br /></div></div>", 
+                "These symptoms are due to injury to the retina, because of blocked blood flow. The retina is the thin layer of nerve cells that sense light and convert it to nerve signals, which are then relayed to the brain through the optic nerve. Both eyes can be affected in individuals with Susac’s syndrome.&nbsp; Permanent impairment of vision may occur. BRAOs may occur early in some individuals or much later in the course of the disease in others.", 
+                "reverse", 
+                "", 
+                "https://rarediseases.org/rare-diseases/susacs-syndrome/"
+            ], 
+            "flags": 0, 
+            "guid": "jO*Fyd6YmD", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|1°C|", 
+                "|1.8°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "dlMO}b>Q^h", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|2°C|", 
+                "|3.6°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z4FtJVqClr", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|3°C|", 
+                "|5.4°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "lSiBsvjNGt", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|4°C|", 
+                "|7.2°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xaHANCC`M?", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|5°C|", 
+                "|9°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "cc$JOAK3tT", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|6°C|", 
+                "|10.8°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Bbg|KDnXz]", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|7°C|", 
+                "|12.6°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Km:s[!6<+I", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|8°C|", 
+                "|14.4°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "CmUX_TA.3=", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|9°C|", 
+                "|16.2°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Bs#waT;D0Z", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|10°C|", 
+                "|18°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "x.{;tvSr%1", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|11°C|", 
+                "|19.8°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "c}oEKs|f*p", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|12°C|", 
+                "|21.6°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "K{+fvp}dj]", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|13°C|", 
+                "|23.4°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nI*HE||x_S", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|14°C|", 
+                "|25.2°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "f/.7fu@eMr", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|15°C|", 
+                "|27°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "PGmKt}k%sK", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|16°C|", 
+                "|28.8°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "DEeAkdE%62", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|17°C|", 
+                "|30.6°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "cs<2Ae@,ba", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|18°C|", 
+                "|32.4°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "FfH{!|kcb,", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|19°C|", 
+                "|34.2°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "N?~qTfqS^Q", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|20°C|", 
+                "|36°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "uCml-7*k/j", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|25°C|", 
+                "|45°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "sLR|]}t^GX", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|30°C|", 
+                "|54°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w!>4y%pJc^", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|35°C|", 
+                "|63°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ck8^;6E<Yx", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|40°C|", 
+                "|72°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "gC<|TQpL_Q", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|45°C|", 
+                "|81°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "y)mpqq2gU%", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|50°C|", 
+                "|90°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "BvN`_8qFSr", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|60°C|", 
+                "|108°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z}n;d=oWF_", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|70°C|", 
+                "|126°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "PITY`LY]4U", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|80°C|", 
+                "|144°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "EenB+b*JCQ", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|90°C|", 
+                "|162°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "oZ:^5b=GIs", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "|100°C|", 
+                "|180°F|", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "iA>-KpOVK=", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
         }

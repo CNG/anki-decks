@@ -11,8 +11,11 @@ vaccines that scar	1. smallpox<div>2. BCG (Bacillus Calmette-Guérin), for tuber
 When did smallpox vaccination end?	The last natural case of Smallpox occurred in Somalia in 1977, and the disease was officially declared eradicated in 1980.&nbsp;Routine smallpox vaccination stopped in 1972 in the U.S. All countries had quit routine vaccination by 1986.					
 feather shaped rays that form the crown of feather duster worms	radioles					
 How does feather duster worm sort food particles?	The sorting of trapped particles in the crown begins in the <b>conducting grooves on the radioles</b> and finishes at the base of the crown. Large particles ride high on the conducting grooves and they are rejected and emitted up into the current stream at the base. Medium sized particles pass along the center of the conducting grooves and are moved to storage areas where they are subsequently used in the construction of the tube in soft tube species. Fine particles are moved by cilia along the lower portion of the conducting groove into tracts that lead into the mouth. The food includes bacteria, fine detritus and other particulate organic matter, phytoplankton, and tiny microorganisms					
+feather duster worm&nbsp;phylum	Feather duster worms are members of the Phylum <b>annelida</b>, the segmented worms, which includes the common earthworm.					
 feather duster worm&nbsp;class	"The feather dusters belong to the class <b>Polychaeta</b>, one of the four classes of annelids. The Polychaetes (literally ""many hairs"") have segmented bodies, and each segment bears two or more appendages called parapodia. The appendages are often hair-like, hence the name bristle worms for many varieties of polychaets. In feather duster worms the hair-like chaetae are much reduced."					
 soft tubed feather duster worms family	Those with soft tubes consisting of a polysaccharide matrix and trapped detritus are in the family <b>Sabellidae</b>, which has only one genus with an exceptional calcareous tube.					
+hard tubed feather duster worms family	"Most ""hard-tube"" feather dusters belong to the family <b>Serpulidae</b>, and many members of this family have an operculum that is formed from a modified radiole in their crown. The operculum is a ""trap door"" that shuts the entrance to the tube when the worm withdraws. The ornamentation of the operculum is used for identification of some species."					
+budding process by which dense colonies of feather duster worm clones form	<b>scissipary</b><div><br /></div><div>In this process, the posterior end of the worm breaks off and develops a new crown while the “parent” grows a new posterior.</div>					
 How do feather duster worms reproduce?	Feather duster worms reproduce both <b>sexually and asexually</b>. Sexual reproduction involves the release of gametes into the water where the fertilized eggs develop into free-swimming larvae that eventually settle in an appropriate habitat. In the case of Serpulids, they settle on corals and the coral grows around the calcareous tube they build, making asexual reproduction nearly an impossibility for them.					
 feather duster worm tube rebuild duration	The worm can build a new transparent tube in a matter of hours, and it will coat the tube with sand and detritus over a matter of a few days.					
 cluster duster species	<i>Bispira brunnea</i>					
@@ -32,46 +35,47 @@ anosognosia	Impaired awareness of illness, caused by damage to specific parts of
 -40 °C	-40.0 °F		y			
 -30 °C	-22.0 °F		y			
 -20 °C	-4.0 °F		y			
--10 °C	14.0 °F		y			
--9 °C	15.8 °F		y			
--8 °C	17.6 °F		y			
--7 °C	19.4 °F		y			
--6 °C	21.2 °F		y			
--5 °C	23.0 °F		y			
--3 °C	26.6 °F		y			
--2 °C	28.4 °F		y			
--1 °C	30.2 °F		y			
-0 °C	32.0 °F		y			
-1 °C	33.8 °F		y			
-2 °C	35.6 °F		y			
-3 °C	37.4 °F		y			
-4 °C	39.2 °F		y			
-5 °C	41.0 °F		y			
-6 °C	42.8 °F		y			
-7 °C	44.6 °F		y			
-8 °C	46.4 °F		y			
-9 °C	48.2 °F		y			
-10 °C	50.0 °F		y			
-20 °C	68.0 °F		y			
-21 °C	69.8 °F		y			
-30 °C	86.0 °F		y			
-37 °C	98.6 °F		y			
-40 °C	104.0 °F		y			
-50 °C	122.0 °F		y			
-60 °C	140.0 °F		y			
-70 °C	158.0 °F		y			
-80 °C	176.0 °F		y			
-90 °C	194.0 °F		y			
-100 °C	212.0 °F		y			
-200 °C	392.0 °F		y			
-300 °C	572.0 °F		y			
-400 °C	752.0 °F		y			
-500 °C	932.0 °F		y			
-600 °C	1112.0 °F		y			
-700 °C	1292.0 °F		y			
-800 °C	1472.0 °F		y			
-900 °C	1652.0 °F		y			
-1000 °C	1832.0 °F		y			
+-10 °C	+14.0 °F		y			
+-9 °C	+15.8 °F		y			
+-8 °C	+17.6 °F		y			
+-7 °C	+19.4 °F		y			
+-6 °C	+21.2 °F		y			
+-5 °C	+23.0 °F		y			
+-4 °C	+24.8 °F		y			
+-3 °C	+26.6 °F		y			
+-2 °C	+28.4 °F		y			
+-1 °C	+30.2 °F		y			
++0 °C	+32.0 °F		y			
++1 °C	+33.8 °F		y			
++2 °C	+35.6 °F		y			
++3 °C	+37.4 °F		y			
++4 °C	+39.2 °F		y			
++5 °C	+41.0 °F		y			
++6 °C	+42.8 °F		y			
++7 °C	+44.6 °F		y			
++8 °C	+46.4 °F		y			
++9 °C	+48.2 °F		y			
++10 °C	+50.0 °F		y			
++20 °C	+68.0 °F		y			
++21 °C	+69.8 °F		y			
++30 °C	+86.0 °F		y			
++37 °C	+98.6 °F		y			
++40 °C	+104.0 °F		y			
++50 °C	+122.0 °F		y			
++60 °C	+140.0 °F		y			
++70 °C	+158.0 °F		y			
++80 °C	+176.0 °F		y			
++90 °C	+194.0 °F		y			
++100 °C	+212.0 °F		y			
++200 °C	+392.0 °F		y			
++300 °C	+572.0 °F		y			
++400 °C	+752.0 °F		y			
++500 °C	+932.0 °F		y			
++600 °C	+1112.0 °F		y			
++700 °C	+1292.0 °F		y			
++800 °C	+1472.0 °F		y			
++900 °C	+1652.0 °F		y			
++1000 °C	+1832.0 °F		y			
 Hib-MenCY-TT	bivalent meningococcal conjugate vaccine that&nbsp;protects against serogroups C and Y and&nbsp;and Haemophilus influenzae type b conjugate vaccine		y			
 MenACWY	quadrivalent (protects against serogroups A, C, W, and Y) meningococcal conjugate vaccine		y			
 MPSV4	quadrivalent meningococcal polysaccharide vaccine that protects against serogroups A, C, W, and Y		y			
@@ -80,3 +84,40 @@ meningococcal disease	Meningococcal disease is caused by the bacterium Neisseria
 Cydonia	Region on the planet&nbsp;Mars&nbsp;that has attracted both scientific&nbsp;and popular interest.&nbsp;The name originally referred to the&nbsp;albedo feature&nbsp;(distinctively coloured area) that was visible from Earthbound&nbsp;telescopes.	"<p>The area borders plains of Acidalia Planitia and the Arabia Terra highlands.&nbsp;The area includes the regions: ""<i>Cydonia Mensae</i>"", an area of flat-topped mesa-like features, ""<i>Cydonia Colles</i>"", a region of small hills or knobs, and ""<i>Cydonia Labyrinthus</i>"", a complex of intersecting valleys.&nbsp;As with other albedo features on Mars, the name Cydonia was drawn from classical antiquity, in this case from Kydonia, a historic polis (or ""city-state"") on the island of Crete.&nbsp;Cydonia contains the ""<b>Face on Mars</b>"" feature—located about halfway between Arandas Crater and Bamberg Crater.</p>"	reverse		https://en.wikipedia.org/wiki/Cydonia_(region_of_Mars)	
 renin	protein and enzyme secreted by the kidneys that participates in the body's renin-angiotensin aldosterone system (RAAS)—also known as the renin-angiotensin-aldosterone axis—that mediates extracellular volume (i.e., that of the blood plasma, lymph and interstitial fluid), and arterial vasoconstriction. Thus, it regulates the body's mean arterial blood pressure.		reverse	<!--anki-->angiotensinogenase	https://en.wikipedia.org/wiki/Renin	
 rennet	Complex of enzymes produced in the stomachs of ruminant mammals. Chymosin, its key component, is a protease enzyme that curdles the casein in milk. This helps young mammals digest their mothers' milk. It can also be used to separate milk into solid curds for cheesemaking and liquid whey. In addition to chymosin, it contains other important enzymes such as pepsin and a lipase.		reverse		https://en.wikipedia.org/wiki/Rennet	
+claimed MMR vaccine linked with autism	Andrew Wakefield		reverse		http://scienceblogs.com/insolence/2011/09/23/mark-blaxill-and-dan-olmsted-polio/	
+Susac’s Syndrome	a rare disorder characterized by three main problems: impaired brain  function (encephalopathy), partial or complete blockage (occlusion) of  the arteries that supply blood to the retina (branch retinal artery  occlusion, or BRAO), and inner ear disease (hearing loss, most notably)	"Three main forms of Susac's syndrome have become apparent. In one form,  encephalopathy is the main problem. In the second form, BRAO and hearing  loss are the main problems, and there is little or no brain disease. In  the third form, encephalopathy is the main problem in the beginning,  but recurrent episodes of BRAO and hearing loss become the main problem  after the encephalopathy goes away.  The encephalopathic form of Susac's syndrome often resolves  spontaneously (often going away within 1-3 years). The other forms tend  to follow a more prolonged, more chronic course (3-10 years, or  more).&nbsp;All forms require immunosuppressive treatment while the disease  is active.  Introduction Although considered rare, Susac's syndrome is being recognized more  often worldwide and its true frequency in the general population is  unknown. This is because the disorder may be misdiagnosed, often as  “atypical” multiple sclerosis.  Susac's syndrome is an autoimmune disease---specifically, an autoimmune  endotheliopathy. ""Autoimmune"" means that a person’s own immune system is  mistakenly attacking one's own healthy tissue. An ""endotheliopathy"" is  any disorder that involves injury to the endothelium, which is the thin  layer of cells that line the inner walls of blood vessels. In Susac's  syndrome, the person's own immune system is mistakenly attacking the  endothelial lining of the smallest blood vessels (the capillaries,  venules and arterioles) in the brain, retina, and inner ear. When the  endothelial cells become injured, they tend to swell, and this  endothelial cell swelling plays a key role in the partial or complete  occlusion (blockage) of the tiny vessels in the brain, retina and inner  ear. This blockage results in decreased blood flow through the vessels  and, therefore, decreased delivery of oxygen and nutrients to the brain,  retina, and inner ear---causing these three organs to suffer. &nbsp; &nbsp;&nbsp;"	reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+encephalopathy	impaired brain function		reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+occlusion	partial or complete blockage		reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+endotheliopathy	any disorder that involves injury to the endothelium, which is the thin  layer of cells that line the inner walls of blood vessels		reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+scotoma	The medical term for these symptoms:<div><br /></div><div>Branch retinal artery occlusion (BRAO) can cause the patient to notice a  “dark spot” or “black area” in their field of vision; or, some patients  describe a “curtain or shade being drawn” over a portion of their  vision.<div><br /></div></div>	These symptoms are due to injury to the retina, because of blocked blood flow. The retina is the thin layer of nerve cells that sense light and convert it to nerve signals, which are then relayed to the brain through the optic nerve. Both eyes can be affected in individuals with Susac’s syndrome.&nbsp; Permanent impairment of vision may occur. BRAOs may occur early in some individuals or much later in the course of the disease in others.	reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+|1°C|	|1.8°F|					
+|2°C|	|3.6°F|					
+|3°C|	|5.4°F|					
+|4°C|	|7.2°F|					
+|5°C|	|9°F|					
+|6°C|	|10.8°F|					
+|7°C|	|12.6°F|					
+|8°C|	|14.4°F|					
+|9°C|	|16.2°F|					
+|10°C|	|18°F|					
+|11°C|	|19.8°F|					
+|12°C|	|21.6°F|					
+|13°C|	|23.4°F|					
+|14°C|	|25.2°F|					
+|15°C|	|27°F|					
+|16°C|	|28.8°F|					
+|17°C|	|30.6°F|					
+|18°C|	|32.4°F|					
+|19°C|	|34.2°F|					
+|20°C|	|36°F|					
+|25°C|	|45°F|					
+|30°C|	|54°F|					
+|35°C|	|63°F|					
+|40°C|	|72°F|					
+|45°C|	|81°F|					
+|50°C|	|90°F|					
+|60°C|	|108°F|					
+|70°C|	|126°F|					
+|80°C|	|144°F|					
+|90°C|	|162°F|					
+|100°C|	|180°F|					
