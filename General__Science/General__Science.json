@@ -150,16 +150,16 @@
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -2132,6 +2132,22 @@
             ], 
             "flags": 0, 
             "guid": "iA>-KpOVK=", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "DNA not sequenced by Human Genome Project", 
+                "<b>Satellite DNA</b> consists of very large arrays of tandemly repeating, non-coding DNA. Satellite DNA is the main component of functional centromeres, and form the main structural constituent of heterochromatin.", 
+                "<p>Most of the unsequenced regions, he said, “have some connection to aging&nbsp;and aneuploidy”\n (an abnormal number of chromosomes such as what occurs in Down \nsyndrome).&nbsp;Church estimates 4 percent to 9 percent of the human genome \nhasn’t been sequenced. Miga thinks it’s 8 percent.</p>\n<p>The reason for these gaps&nbsp;is that DNA sequencing machines don’t read \ngenomes like humans read books, from the first word to the last. \nInstead, they first randomly chop up copies of the 23 pairs of \nchromosomes, which total some 3 billion “letters,” so the machines \naren’t overwhelmed. The resulting chunks contain from 1,000 letters \n(during the Human Genome Project) to a few hundred (in today’s more \nadvanced sequencing machines). The chunks overlap. Computers&nbsp;match up \nthe overlaps, assembling the chunks into the correct sequence.</p>\n<p>That’s between difficult and impossible to do if the chunks contain \nlots of repetitive segments, such as TTAATATTAATATTAATA, or TTAATA three\n times. “The problem is, when you have the same exact words, it’s hard \nto assemble,” said Lander, just as if jigsaw puzzle pieces show the same\n exact blue sky.</p>\n<p>In 2004, the genome project reported&nbsp;that\n there were 341 gaps in the sequence. Most of the gaps — 250 — are in \nthe main part of each chromosome, where genes make the proteins that \nlife runs on. These gaps are tiny. Only a&nbsp;few gaps — 33 at last count — \nlie in or near each chromosome’s centromere (where the two parts of a \nchromosome connect) and telomeres (the caps at the end of chromosomes), \nbut these 33 are 10 times as long in total&nbsp;as the 250 gaps.</p>\n<p>That makes the centromeres in particular the genome’s uncharted Zambezi. Evan Eichler of the University of Washington<strong>&nbsp;</strong>said\n every chromosome has such sequence-defying repetitive elements — think \nof them as DNA stutters — including an infamous one that’s 171 letters \nlong and repeated end-to-end for thousands of letters.</p>", 
+                "", 
+                "", 
+                "https://www.statnews.com/2017/06/20/human-genome-not-fully-sequenced<div>https://en.wikipedia.org/wiki/Satellite_DNA</div>"
+            ], 
+            "flags": 0, 
+            "guid": "F]n*o-<[c!", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
         }

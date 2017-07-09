@@ -129,7 +129,7 @@
                         "-e <u>PATTERN</u>", 
                         "--regexp=<u>PATTERN</u>", 
                         "", 
-                        "<div>Use <u>PATTERN</u> as the pattern. If this option is used multiple times or is combined with the <code>-f</code> (<code>--file</code>) option, search for all patterns given. This option can be used to protect a pattern beginning with \"-\".</div>", 
+                        "<div>Use <u>PATTERN</u> as the pattern. If this option is used multiple times or is combined with the <code>-f</code> (<code>--file</code>) option, search for all patterns given. This option can be used to protect a pattern beginning with <code>-</code>.</div>", 
                         "<div><div><code>grep</code> [<u>OPTIONS</u>] <u>PATTERN</u> [<u>FILE</u>...]</div><div><code>grep</code> [<u>OPTIONS</u>] [<code>-e</code> <u>PATTERN</u> | <code>-f</code> <u>FILE</u>] [<u>FILE</u>...]</div></div>", 
                         ""
                     ], 
@@ -776,11 +776,11 @@
                     "fields": [
                         "grep --text", 
                         "grep", 
-                        "", 
+                        "equivalent", 
                         "-a", 
                         "--text", 
-                        "", 
-                        "Process a binary file as if it were text; this is equivalent to the <code>--binary-files=text</code> option.", 
+                        "--binary-files=text", 
+                        "Process a binary file as if it were text", 
                         "", 
                         ""
                     ], 
@@ -5643,7 +5643,7 @@
                         "-s", 
                         "", 
                         "", 
-                        "Cause find to traverse the file hierarchies in lexicographical order, i.e., alphabetical order within each directory.  Note: <code>find -s</code> and <code>find | sort</code> may give different results.", 
+                        "Traverse the file hierarchies in lexicographical order, i.e., alphabetical order within each directory.  Note:&nbsp;<code>find | sort</code> may give different results.", 
                         "", 
                         ""
                     ], 
@@ -5664,7 +5664,7 @@
                         "", 
                         "", 
                         "-Bmin <u>n</u>", 
-                        "True if the difference between the time of a file's inode creation and the time <code>find</code> was started, rounded up to the next full minute, is <code>n</code> minutes.", 
+                        "True if the difference between the time of a file's <b>inode creation</b> and the time <code>find</code> was started, rounded up to the <b>next full minute</b>, is <code>n</code> minutes.", 
                         "", 
                         ""
                     ], 
@@ -5706,7 +5706,7 @@
                         "", 
                         "", 
                         "-Btime <u>n</u>[<u>smhdw</u>]", 
-                        "<div>If no units are specified, this primary evaluates to true if the difference between the time of a file's inode creation and the time find was started, rounded up to the next full 24-hour period, is <code>n</code> 24-hour periods.</div><div>If units are specified, this primary evaluates to true if the difference between the time of a file's inode creation and the time find was started is exactly <code>n</code> units.  Please refer to the <code>-e</code> primary description for information on supported time units.</div>", 
+                        "<div>If no units are specified, this primary evaluates to true if the difference between the time of a file's <b>inode creation</b> and the time find was started, rounded up to the <b>next full 24-hour period</b>, is <code>n</code> 24-hour periods.</div><div>If units are specified, this primary evaluates to true if the difference between the time of a file's inode creation and the time find was started is exactly <code>n</code> units.  Please refer to the <code>-e</code> primary description for information on supported time units.</div>", 
                         "", 
                         ""
                     ], 
@@ -5748,7 +5748,7 @@
                         "", 
                         "", 
                         "-amin <u>n</u>", 
-                        "True if the difference between the file last access time and the time <code>find</code> was started, rounded up to the next full minute, is <code>n</code> minutes.", 
+                        "True if the difference between the file <b>last access time</b> and the time <code>find</code> was started, rounded up to the <b>next full minute</b>, is <code>n</code> minutes.", 
                         "", 
                         ""
                     ], 
@@ -5790,7 +5790,7 @@
                         "", 
                         "", 
                         "-atime <u>n</u>[<u>smhdw</u>]", 
-                        "<div>If no units are specified, this primary evaluates to true if the difference between the file last access time and the time find was started, rounded up to the next full 24-hour period, is <code>n</code> 24-hour periods.</div><div>If units are specified, this primary evaluates to true if the difference between the file last access time and the time find was started is exactly <code>n</code> units.  Possible time units are as follows:</div><ul><li><code>s</code>: second</li><li><code>m</code>: minute (60 seconds)</li><li><code>h</code>: hour (60 minutes)</li><li><code>d</code>: day (24 hours)</li><li><code>w</code>: week (7 days)</li></ul><div>Any number of units may be combined in one <code>-atime</code> argument, for example, <code>-atime -1h30m</code>.  Units are probably only useful when used in conjunction with the <code>+</code> or <code>-</code> modifier.</div>", 
+                        "<div>If no units are specified, this primary evaluates to true if the difference between the file <b>last access time</b> and the time find was started, rounded up to the <b>next full 24-hour period</b>, is <code>n</code> 24-hour periods.</div><div>If units are specified, this primary evaluates to true if the difference between the file last access time and the time find was started is exactly <code>n</code> units.  Possible time units are as follows:</div><ul><li><code>s</code>: second</li><li><code>m</code>: minute (60 seconds)</li><li><code>h</code>: hour (60 minutes)</li><li><code>d</code>: day (24 hours)</li><li><code>w</code>: week (7 days)</li></ul><div>Any number of units may be combined in one <code>-atime</code> argument, for example, <code>-atime -1h30m</code>.  Units are probably only useful when used in conjunction with the <code>+</code> or <code>-</code> modifier.</div>", 
                         "", 
                         ""
                     ], 
@@ -5811,7 +5811,7 @@
                         "", 
                         "", 
                         "-cmin <u>n</u>", 
-                        "True if the difference between the time of last change of file status information and the time find was started, rounded up to the next full minute, is <code>n</code> minutes.", 
+                        "True if the difference between the time of <b>last change</b> of file status information and the time find was started, rounded up to the <b>next full minute</b>, is <code>n</code> minutes.", 
                         "", 
                         ""
                     ], 
@@ -5853,7 +5853,7 @@
                         "", 
                         "", 
                         "-ctime <u>n</u>[<u>smhdw</u>]", 
-                        "<div>If no units are specified, this primary evaluates to true if the difference between the time of last change of file status information and the time find was started, rounded up to the next full 24-hour period, is <code>n</code> 24-hour periods.</div><div>If units are specified, this primary evaluates to true if the difference between the time of last change of file status information and the time find was started is exactly <code>n</code> units.  Please refer to the <code>-e</code> primary description for information on supported time units.</div>", 
+                        "<div>If no units are specified, this primary evaluates to true if the difference between the time of <b>last change</b> of file status information and the time find was started, rounded up to the <b>next full 24-hour period</b>, is <code>n</code> 24-hour periods.</div><div>If units are specified, this primary evaluates to true if the difference between the time of last change of file status information and the time find was started is exactly <code>n</code> units.  Please refer to the <code>-e</code> primary description for information on supported time units.</div>", 
                         "", 
                         ""
                     ], 
@@ -5874,7 +5874,7 @@
                         "", 
                         "", 
                         "-d", 
-                        "Same as <code>-depth</code>.  <b>GNU</b> <code>find</code> implements this as a primary in mistaken emulation of <b>FreeBSD</b> <code>find</code>.", 
+                        "<i>Shorter of two meaning: </i>Always true.&nbsp;Process each directory’s contents before the directory itself. This is implied by&nbsp;<code>-delete</code>.<br /><div><b><br /></b></div><div><b>GNU</b> <code>find</code> implements this as a primary in mistaken emulation of <b>FreeBSD</b> <code>find</code>.</div>", 
                         "", 
                         ""
                     ], 
@@ -5916,7 +5916,7 @@
                         "", 
                         "", 
                         "-depth", 
-                        "Always true; same as the <code>-d</code> option.", 
+                        "<i>Longer of two meaning:&nbsp;</i>Always true.&nbsp;Process each directory’s contents before the directory itself. This is implied by&nbsp;<code>-delete</code>.", 
                         "", 
                         ""
                     ], 
@@ -5958,7 +5958,7 @@
                         "", 
                         "", 
                         "-exec <u>utility</u> [argument ...] ;", 
-                        "True if the program named <u>utility</u> returns a zero value as its exit status.  Optional arguments may be passed to the utility.  The expression must be terminated by a semicolon (<code>;</code>).  If you invoke find from a shell you may need to quote the semicolon if the shell would otherwise treat it as a control operator.  If the string <code>{}</code> appears anywhere in the utility name or the arguments it is replaced by the pathname of the current file.  <u>Utility</u> will be executed from the directory from which find was executed.  Utility and arguments are not subject to the further expansion of shell patterns and constructs.", 
+                        "True if the program named <u>utility</u> returns a zero value as its exit status.  Optional arguments may be passed to the utility.  The expression must be terminated by a semicolon (<code>;</code>).  If you invoke <code>find</code> from a shell you may need to quote the semicolon if the shell would otherwise treat it as a control operator.  If&nbsp;<code>{}</code> appears anywhere in the utility name or the arguments it is replaced by the pathname of the current file. <code><u>utility</u></code> will be executed from the directory from which <code>find</code> was executed.  Utility and arguments are not subject to the further expansion of shell patterns and constructs.", 
                         "", 
                         ""
                     ], 
@@ -5979,7 +5979,7 @@
                         "", 
                         "", 
                         "-execdir <u>utility</u> [<u>argument</u> ...] ;", 
-                        "Identical to the <code>-exec</code> primary with the exception that <u>utility</u> will be executed from the directory that holds the current file.  The filename substituted for the string <code>{}</code> is not qualified.", 
+                        "Identical to&nbsp;<code>-execdir&nbsp;<u>utility</u>&nbsp;[<u>argument</u>&nbsp;...] {} +</code>&nbsp;except&nbsp;<code><u>utility</u></code> will be executed from the directory that holds the current file.  The filename substituted for&nbsp;<code>{}</code> is not qualified.", 
                         "", 
                         ""
                     ], 
@@ -6085,7 +6085,7 @@
                         "", 
                         "", 
                         "-ignore_readdir_race", 
-                        "This option is for GNU <code>find</code> compatibility and is ignored.", 
+                        "<b>BSD: </b>This option is for <b>GNU</b> <code>find</code> compatibility and is ignored.<div><br /></div><div><b>GNU: </b>Normally, <code>find</code> will emit an error message when it fails to <code>stat</code> a file. If you give this option and a file is deleted between the time find\nreads the name of the file from the directory and the time it tries to \n<code>stat</code> the file, no error message will be issued. This also applies to \nfiles or\ndirectories whose names are given on the command line. This option takes\n effect at the time the command line is read, which means that you \ncannot search one\npart of the filesystem with this option on and part of it with this \noption off (if you need to do that, you will need to issue two find commands\ninstead, one with the option and one without it).</div>", 
                         "", 
                         ""
                     ], 
@@ -6513,7 +6513,8 @@
                     "guid": "vXFMYwm%pA", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "find"
+                        "find", 
+                        "marked"
                     ]
                 }, 
                 {
@@ -6547,7 +6548,7 @@
                         "", 
                         "", 
                         "-ok <u>utility</u> [<u>argument</u> ...] ;", 
-                        "The <code>-k</code> primary is identical to the <code>-c</code> primary with the exception that find requests user affirmation for the execution of the utility by printing a message to the terminal and reading a response.  If the response is not affirmative (<code>y</code> in the <code>POSIX</code> locale), the command is not executed and the value of the <code>-ok</code> expression is false.", 
+                        "Identical to the <code>-exec</code> primary with the exception that find requests user affirmation for the execution of the utility by printing a message to the terminal and reading a response.  If the response is not affirmative (<code>y</code> in the <code>POSIX</code> locale), the command is not executed and the value of this&nbsp;primary expression is false.", 
                         "", 
                         ""
                     ], 
@@ -6568,7 +6569,7 @@
                         "", 
                         "", 
                         "-okdir <u>utility</u> [<u>argument</u> ...] ;", 
-                        "The <code>-r</code> primary is identical to the <code>-r</code> primary with the same exception as described for the <code>-k</code> primary.", 
+                        "Identical to the <code>-execdir</code> primary&nbsp;with the exception that find requests user affirmation for the execution of the utility by printing a message to the terminal and reading a response. If the response is not affirmative (<code>y</code>&nbsp;in the&nbsp;<code>POSIX</code>&nbsp;locale), the command is not executed and the value of this&nbsp;primary expression is false.", 
                         "", 
                         ""
                     ], 
@@ -6673,7 +6674,7 @@
                         "", 
                         "", 
                         "-prune", 
-                        "This primary always evaluates to true.  It causes find to not descend into the current file.  Note, the <code>-e</code> primary has no effect if the <code>-d</code> option was specified.", 
+                        "This primary always evaluates to true.  It causes find to not descend into the current file.  Note, this primary has no effect if the <code>-d</code> option was specified.", 
                         "", 
                         ""
                     ], 
@@ -6756,7 +6757,7 @@
                         "primary", 
                         "", 
                         "", 
-                        "-type <u>t</u>", 
+                        "-type <i>[<u>t</u>]</i>", 
                         "<div>True if the file is of the specified type.  Possible file types are as follows:</div><ul><li><code>b</code>: block special</li><li><code>c</code>: character special</li><li><code>d</code>: directory</li><li><code>f</code>: regular file</li><li><code>l</code>: symbolic link</li><li><code>p</code>: FIFO</li><li><code>s</code>: socket</li></ul>", 
                         "", 
                         ""
@@ -6883,7 +6884,7 @@
                         "", 
                         "", 
                         "( <u>expression</u> )", 
-                        "This evaluates to true if the parenthesized expression evaluates to true.", 
+                        "Force precedence. This evaluates to true if the parenthesized expression evaluates to true.&nbsp;Since parentheses are special to the shell, you will normally need to quote them.", 
                         "", 
                         ""
                     ], 
@@ -6904,7 +6905,7 @@
                         "", 
                         "", 
                         "! <u>expression</u>", 
-                        "This is the unary NOT operator.  It evaluates to true if the expression is false.", 
+                        "Unary NOT operator, <b>POSIX</b> compliant. Evaluates to true if the expression is false.", 
                         "", 
                         ""
                     ], 
@@ -6925,7 +6926,7 @@
                         "", 
                         "", 
                         "-not <u>expression</u>", 
-                        "This is the unary NOT operator.  It evaluates to true if the expression is false.", 
+                        "Unary NOT operator, <i>not&nbsp;<b>POSIX</b>&nbsp;compliant</i>. Evaluates to true if the expression is false.", 
                         "", 
                         ""
                     ], 
@@ -6987,8 +6988,8 @@
                         "operator", 
                         "", 
                         "", 
-                        "<u>expression</u> -and <u>expression</u>", 
-                        "The <code>-and</code> operator is the logical AND operator.  As it is implied by the juxtaposition of two expressions it does not have to be specified.  The expression evaluates to true if both expressions are true.  The second expression is not evaluated if the first expression is false.", 
+                        "<u>expr1</u>&nbsp;-and <u>expr2</u>", 
+                        "Logical AND operator, explicit (does not have to be specified) and <i>not&nbsp;<b>POSIX</b> compliant</i>. The expression evaluates to true if both expressions are true.  The second expression is not evaluated if the first expression is false.", 
                         "", 
                         ""
                     ], 
@@ -7003,13 +7004,13 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "find operator <u>EXPR</u> <u>EXPR</u>", 
+                        "find operator {<u>expr1}</u>&nbsp;{<u>expr2}</u>", 
                         "find", 
                         "operator", 
                         "", 
                         "", 
-                        "<u>expression</u> <u>expression</u>", 
-                        "The <code>-and</code> operator is the logical AND operator. The expression evaluates to true if either the first or the second expression is true.  The second expression is not evaluated if the first expression is true.", 
+                        "<u>expr1</u> <u>expr2</u>", 
+                        "Logical AND operator, <b>POSIX</b> compliant. The expression evaluates to true if either the first or the second expression is true.  The second expression is not evaluated if the first expression is true.", 
                         "", 
                         ""
                     ], 
@@ -7029,8 +7030,8 @@
                         "operator", 
                         "", 
                         "", 
-                        "<u>expression</u> -or <u>expression</u>", 
-                        "The <code>-or</code> operator is the logical OR operator.  As it is implied by the juxtaposition of two expressions it does not have to be specified.  The expression evaluates to true if both expressions are true.  The second expression is not evaluated if the first expression is false.", 
+                        "<u>expr1</u>&nbsp;-or <u>expr2</u>", 
+                        "Logical OR operator, <i>not <b>POSIX</b> compliant</i>. The expression evaluates to true if either expression is true.  The second expression is not evaluated if the first expression is true.", 
                         "", 
                         ""
                     ], 
@@ -7047,7 +7048,7 @@
                     "fields": [
                         "find primary -type b", 
                         "find", 
-                        "primary -type", 
+                        "<code>-type</code>", 
                         "", 
                         "", 
                         "b", 
@@ -7068,7 +7069,7 @@
                     "fields": [
                         "find primary -type c", 
                         "find", 
-                        "primary -type", 
+                        "<code>-type</code>", 
                         "", 
                         "", 
                         "c", 
@@ -7089,7 +7090,7 @@
                     "fields": [
                         "find primary -type d", 
                         "find", 
-                        "primary -type", 
+                        "<code>-type</code>", 
                         "", 
                         "", 
                         "d", 
@@ -7110,7 +7111,7 @@
                     "fields": [
                         "find primary -type f", 
                         "find", 
-                        "primary -type", 
+                        "<code>-type</code>", 
                         "", 
                         "", 
                         "f", 
@@ -7131,7 +7132,7 @@
                     "fields": [
                         "find primary -type l", 
                         "find", 
-                        "primary <code>-type</code>", 
+                        "<code></code><code>-type</code>", 
                         "", 
                         "", 
                         "l", 
@@ -7152,11 +7153,11 @@
                     "fields": [
                         "find primary -type p", 
                         "find", 
-                        "primary -type", 
+                        "<code>-type</code>", 
                         "", 
                         "", 
                         "p", 
-                        "FIFO", 
+                        "<span class=\"_Tgc\">A <b>FIFO</b> special <b>file</b> (a named pipe) is \nsimilar to a pipe, except that it is accessed as part of the filesystem.\n It can be opened by multiple processes for reading or writing. When \nprocesses are exchanging data via the <b>FIFO</b>, the kernel passes all data internally without writing it to the filesystem.</span>", 
                         "", 
                         ""
                     ], 
@@ -7173,7 +7174,7 @@
                     "fields": [
                         "find primary -type s", 
                         "find", 
-                        "primary -type", 
+                        "<code>-type</code>", 
                         "", 
                         "", 
                         "s", 
@@ -7402,7 +7403,7 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "find primary -depth<u>n</u>", 
+                        "find primary -depth&nbsp;<u>n</u>", 
                         "find", 
                         "primary", 
                         "", 
@@ -7429,7 +7430,7 @@
                         "", 
                         "", 
                         "-exec <u>utility</u> [<u>argument</u> ...] {} +", 
-                        "Same as <code>-exec</code>, except that <code>{}</code> is replaced with as many pathnames as possible for each invocation of <u>utility</u>.  This behaviour is similar to that of <code>xargs</code>(1).", 
+                        "Same as&nbsp;<code>-exec&nbsp;<u>utility</u>&nbsp;[<u>argument</u>&nbsp;...] ;</code>&nbsp;except&nbsp;<code>{}</code>&nbsp;is replaced with as many pathnames as possible for each invocation of&nbsp;<code><u>utility</u></code>. This behaviour is similar to that of&nbsp;<code>xargs</code>.", 
                         "", 
                         ""
                     ], 
@@ -7450,7 +7451,7 @@
                         "", 
                         "", 
                         "-execdir <u>utility</u> [<u>argument</u> ...] {} +", 
-                        "Same as <code>-execdir</code>, except that <code>{}</code> is replaced with as many pathnames as possible for each invocation of <u>utility</u>.  This behaviour is similar to that of <code>xargs</code>(1).", 
+                        "Same as&nbsp;<code>-execdir&nbsp;<u>utility</u>&nbsp;[<u>argument</u>&nbsp;...] ;</code>&nbsp;except&nbsp;<code>{}</code> is replaced with as many pathnames as possible for each invocation of <code><u>utility</u></code>.  This behaviour is similar to that of <code>xargs</code>.", 
                         "", 
                         ""
                     ], 
@@ -7555,8 +7556,8 @@
                         "-d <u>database</u>", 
                         "", 
                         "", 
-                        "<div>Search in database instead of the default file name database. &nbsp;Multiple <code>-d</code> options are allowed. &nbsp;Each additional <code>-d</code> option adds</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the specified database to the list of databases to be searched.</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The option database may be a colon-separated list of databases. &nbsp;A single colon is a reference to the default database.</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ locate -d $HOME/lib/mydb: foo</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;will first search string \"foo\" in <code>$HOME/lib/mydb</code> and then in <code>/var/db/locate.database</code>.</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$ locate -d $HOME/lib/mydb::/cdrom/locate.database foo</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;will first search string \"foo\" in <code>$HOME/lib/mydb</code> and then in <code>/var/db/locate.database</code> and then in <code>/cdrom/locate.database</code>.</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ locate -d db1 -d db2 -d db3 pattern</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;is the same as</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ locate -d db1:db2:db3 pattern</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ locate -d db1:db2 -d db3 pattern</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If <code>-</code> is given as the database name, standard input will be read instead. &nbsp;For example, you can compress your database and use:</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ zcat database.gz | locate -d - pattern</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;This might be useful on machines with a fast CPU and little RAM and slow I/O. &nbsp;Note: you can only use one pattern for stdin.</div>", 
-                        "", 
+                        "<div>Search in database instead of the default file name database. &nbsp;Multiple of this&nbsp;option are allowed.</div>", 
+                        "<div>&nbsp;Each additional&nbsp;<code>-d</code>&nbsp;option adds</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the specified database to the list of databases to be searched.</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The option database may be a colon-separated list of databases. &nbsp;A single colon is a reference to the default database.</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ locate -d $HOME/lib/mydb: foo</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;will first search string \"foo\" in&nbsp;<code>$HOME/lib/mydb</code>&nbsp;and then in&nbsp;<code>/var/db/locate.database</code>.</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$ locate -d $HOME/lib/mydb::/cdrom/locate.database foo</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;will first search string \"foo\" in&nbsp;<code>$HOME/lib/mydb</code>&nbsp;and then in&nbsp;<code>/var/db/locate.database</code>&nbsp;and then in&nbsp;<code>/cdrom/locate.database</code>.</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ locate -d db1 -d db2 -d db3 pattern</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;is the same as</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ locate -d db1:db2:db3 pattern</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ locate -d db1:db2 -d db3 pattern</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If&nbsp;<code>-</code>&nbsp;is given as the database name, standard input will be read instead. &nbsp;For example, you can compress your database and use:</div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<code>$ zcat database.gz | locate -d - pattern</code></div><div><br /></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;This might be useful on machines with a fast CPU and little RAM and slow I/O. &nbsp;Note: you can only use one pattern for stdin.</div>", 
                         ""
                     ], 
                     "flags": 0, 
@@ -7618,7 +7619,7 @@
                         "-m", 
                         "", 
                         "", 
-                        "<div>Use <code>mmap</code>(2) instead of the <code>stdio</code>(3) library. &nbsp;This is the default behavior and is faster in most cases.</div>", 
+                        "<div>Use <code>mmap</code>&nbsp;instead of the <code>stdio</code>&nbsp;library. &nbsp;This is the default behavior and is faster in most cases.</div>", 
                         "", 
                         ""
                     ], 
@@ -7705,14 +7706,16 @@
                     "flags": 0, 
                     "guid": "D/&uFU>9M{", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
-                    "tags": []
+                    "tags": [
+                        "marked"
+                    ]
                 }, 
                 {
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "What is wrong with --option=~/file", 
-                        "~ only substituted by shell if leading filename, so needs = replaced by space", 
+                        "What is wrong with <code>--option=~/file</code>", 
+                        "<code>~</code> only substituted by shell if leading filename, so needs <code>=</code> replaced by space", 
                         "", 
                         "", 
                         "", 
@@ -7728,7 +7731,7 @@
                     "data": "", 
                     "fields": [
                         "Make the current commit the only (initial) commit in a Git repository?", 
-                        "<div>The only solution that works for me (and keeps submodules working) is</div><div><br /></div><div><b>git checkout --orphan newBranch</b></div><div><b>git add -A &nbsp;# Add all files and commit them</b></div><div><b>git commit</b></div><div><b>git branch -D master &nbsp;# Deletes the master branch</b></div><div><b>git branch -m master &nbsp;# Rename the current branch to master</b></div><div><b>git push -f origin master &nbsp;# Force push master branch to github</b></div><div><b>git gc --aggressive --prune=all &nbsp; &nbsp; # remove the old files</b></div>", 
+                        "<p>The only solution that works for me (and keeps submodules working) is</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><b>git checkout --orphan newBranch</b>\ngit add -A  <span style=\"color: #999999;font-style: italic\"># Add all files and commit them</span>\ngit commit\ngit branch -D master  <span style=\"color: #999999; font-style: italic\"># Deletes the master branch</span>\ngit branch -m master  <span style=\"color: #999999; font-style: italic\"># Rename the current branch to master</span>\ngit push -f origin master  <span style=\"color: #999999; font-style: italic\"># Force push master branch to github</span>\ngit gc --aggressive --prune<span style=\"color: #d0d0d0\">=</span>all     <span style=\"color: #999999; font-style: italic\"># remove the old files</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTkxMTcyODksICJpZCI6ICIxNDk0NjM3NjAwNzcyLTAwMSIsICJtZCI6ICJUaGUgb25seSBzb2x1dGlvbiB0aGF0IHdvcmtzIGZvciBtZSAoYW5kIGtlZXBzIHN1Ym1vZHVsZXMgd29ya2luZykgaXNcbiAgXG4gICAgOjo6YmFzaFxuICAgIGdpdCBjaGVja291dCAtLW9ycGhhbiBuZXdCcmFuY2hcbiAgICBnaXQgYWRkIC1BICAjIEFkZCBhbGwgZmlsZXMgYW5kIGNvbW1pdCB0aGVtXG4gICAgZ2l0IGNvbW1pdFxuICAgIGdpdCBicmFuY2ggLUQgbWFzdGVyICAjIERlbGV0ZXMgdGhlIG1hc3RlciBicmFuY2hcbiAgICBnaXQgYnJhbmNoIC1tIG1hc3RlciAgIyBSZW5hbWUgdGhlIGN1cnJlbnQgYnJhbmNoIHRvIG1hc3RlclxuICAgIGdpdCBwdXNoIC1mIG9yaWdpbiBtYXN0ZXIgICMgRm9yY2UgcHVzaCBtYXN0ZXIgYnJhbmNoIHRvIGdpdGh1YlxuICAgIGdpdCBnYyAtLWFnZ3Jlc3NpdmUgLS1wcnVuZT1hbGwgICAgICMgcmVtb3ZlIHRoZSBvbGQgZmlsZXNcbiJ9---->", 
                         "", 
                         "", 
                         "", 
@@ -7797,7 +7800,7 @@
                         "-n", 
                         "", 
                         "", 
-                        "<p>Give each <var>name</var> the <var>nameref</var> attribute, making it a name reference to another variable. That other variable is defined by the value of <var>name</var>. All references, assignments, and attribute modifications to <var>name</var>, except for those using or changing the <samp>-n</samp> attribute itself, are performed on the variable referenced by <var>name</var>’s value. The nameref attribute cannot be applied to array variables. </p>", 
+                        "<p>Give each <var>name</var> the <var>nameref</var> attribute, making it a name reference to another variable. That other variable is defined by the value of <var>name</var>. All references, assignments, and attribute modifications to <var>name</var>, except for those using or changing this&nbsp;attribute itself, are performed on the variable referenced by <var>name</var>’s value. The nameref attribute cannot be applied to array variables. </p>", 
                         "declare [-aAfFgilnrtux] [-p] [<var>name</var>[=<var>value</var>] …]", 
                         ""
                     ], 
@@ -7818,7 +7821,7 @@
                         "", 
                         "", 
                         "alias", 
-                        "<p>Without arguments or with the <code>-p</code> option, <code>alias</code> prints the list of aliases on the standard output in a form that allows them to be reused as input. If arguments are supplied, an alias is defined for each <code>name</code> whose <code>value</code> is given.  If no <code>value</code> is given, the name and value of the alias is printed.</p> <p>Aliases are described in <a href=\"Aliases.html#Aliases\">Aliases</a>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUyNTA2NDUsICJpZCI6ICIxNDk1MjUwNDIyNDY5LTAwNiIsICJtZCI6ICJXaXRob3V0IGFyZ3VtZW50cyBvciB3aXRoIHRoZSBgLXBgIG9wdGlvbiwgYGFsaWFzYCBwcmludHMgdGhlIGxpc3Qgb2YgYWxpYXNlcyBvbiB0aGUgc3RhbmRhcmQgb3V0cHV0IGluIGEgZm9ybSB0aGF0IGFsbG93cyB0aGVtIHRvIGJlIHJldXNlZCBhcyBpbnB1dC4gSWYgYXJndW1lbnRzIGFyZSBzdXBwbGllZCwgYW4gYWxpYXMgaXMgZGVmaW5lZCBmb3IgZWFjaCBgbmFtZWAgd2hvc2UgYHZhbHVlYCBpcyBnaXZlbi4gIElmIG5vIGB2YWx1ZWAgaXMgZ2l2ZW4sIHRoZSBuYW1lIGFuZCB2YWx1ZSBvZiB0aGUgYWxpYXMgaXMgcHJpbnRlZC5cbiAgXG5BbGlhc2VzIGFyZSBkZXNjcmliZWQgaW4gJmx0O2EgaHJlZj0mcXVvdDtBbGlhc2VzLmh0bWwjQWxpYXNlcyZxdW90OyZndDtBbGlhc2VzJmx0Oy9hJmd0Oy5cbiJ9---->", 
+                        "<p>Without arguments or with the <code>-p</code> option, <code><strike>alias</strike></code> prints the list of aliases on the standard output in a form that allows them to be reused as input. If arguments are supplied, an alias is defined for each <code>name</code> whose <code>value</code> is given.  If no <code>value</code> is given, the name and value of the alias is printed.</p> <p>Aliases are described in <a href=\"Aliases.html#Aliases\">Aliases</a>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUyNTA2NDUsICJpZCI6ICIxNDk1MjUwNDIyNDY5LTAwNiIsICJtZCI6ICJXaXRob3V0IGFyZ3VtZW50cyBvciB3aXRoIHRoZSBgLXBgIG9wdGlvbiwgYGFsaWFzYCBwcmludHMgdGhlIGxpc3Qgb2YgYWxpYXNlcyBvbiB0aGUgc3RhbmRhcmQgb3V0cHV0IGluIGEgZm9ybSB0aGF0IGFsbG93cyB0aGVtIHRvIGJlIHJldXNlZCBhcyBpbnB1dC4gSWYgYXJndW1lbnRzIGFyZSBzdXBwbGllZCwgYW4gYWxpYXMgaXMgZGVmaW5lZCBmb3IgZWFjaCBgbmFtZWAgd2hvc2UgYHZhbHVlYCBpcyBnaXZlbi4gIElmIG5vIGB2YWx1ZWAgaXMgZ2l2ZW4sIHRoZSBuYW1lIGFuZCB2YWx1ZSBvZiB0aGUgYWxpYXMgaXMgcHJpbnRlZC5cbiAgXG5BbGlhc2VzIGFyZSBkZXNjcmliZWQgaW4gJmx0O2EgaHJlZj0mcXVvdDtBbGlhc2VzLmh0bWwjQWxpYXNlcyZxdW90OyZndDtBbGlhc2VzJmx0Oy9hJmd0Oy5cbiJ9---->", 
                         "alias [-p] [&lt;var&gt;name&lt;/var&gt;[=&lt;var&gt;value&lt;/var&gt;] &amp;hellip;]", 
                         ""
                     ], 
@@ -7889,7 +7892,8 @@
                     "guid": "f5B5:V7:5L", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "bash"
+                        "bash", 
+                        "marked"
                     ]
                 }, 
                 {
@@ -7901,7 +7905,7 @@
                         "builtin", 
                         "", 
                         "", 
-                        "caller", 
+                        "command", 
                         "<p>Runs <var>command</var> with <var>arguments</var> ignoring any shell function named <var>command</var>. Only shell builtin commands or commands found by searching the <code>PATH</code> are executed. If there is a shell function named <code>ls</code>, running ‘<samp>command ls</samp>’ within the function will execute the external command <code>ls</code> instead of calling the function recursively. The <samp>-p</samp> option means to use a default value for <code>PATH</code> that is guaranteed to find all of the standard utilities. The return status in this case is 127 if <var>command</var> cannot be found or an error occurred, and the exit status of <var>command</var> otherwise. </p> <p>If either the <samp>-V</samp> or <samp>-v</samp> option is supplied, a description of <var>command</var> is printed.  The <samp>-v</samp> option causes a single word indicating the command or file name used to invoke <var>command</var> to be displayed; the <samp>-V</samp> option produces a more verbose description.  In this case, the return status is zero if <var>command</var> is found, and non-zero if not. </p>", 
                         "command [-pVv] <var>command</var> [<var>arguments</var> …]", 
                         ""
@@ -7910,7 +7914,8 @@
                     "guid": "kIAz{lk*vt", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "bash"
+                        "bash", 
+                        "marked"
                     ]
                 }, 
                 {
@@ -7986,7 +7991,7 @@
                         "", 
                         "", 
                         "help", 
-                        "<p>Display helpful information about builtin commands. If <var>pattern</var> is specified, <code>help</code> gives detailed help on all commands matching <var>pattern</var>, otherwise a list of the builtins is printed. </p> <p>Options, if supplied, have the following meanings: </p> <dl compact=\"compact\"> <dt><code>-d</code></dt> <dd><p>Display a short description of each <var>pattern</var> </p></dd> <dt><code>-m</code></dt> <dd><p>Display the description of each <var>pattern</var> in a manpage-like format </p></dd> <dt><code>-s</code></dt> <dd><p>Display only a short usage synopsis for each <var>pattern</var> </p></dd> </dl> <p>The return status is zero unless no command matches <var>pattern</var>. </p>", 
+                        "<p>Display helpful information about builtin commands. If <var>pattern</var> is specified, <code>help</code> gives detailed help on all commands matching <var>pattern</var>, otherwise a list of the builtins is printed.&nbsp;The return status is zero unless no command matches <var>pattern</var>.</p>", 
                         "help [-dms] [<var>pattern</var>]", 
                         ""
                     ], 
@@ -8016,7 +8021,8 @@
                     "guid": "EY<Gn-Ym54", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "bash"
+                        "bash", 
+                        "marked"
                     ]
                 }, 
                 {
@@ -8050,15 +8056,16 @@
                         "", 
                         "", 
                         "mapfile", 
-                        "<p>Read lines from the standard input into the indexed array variable <var>array</var>, or from file descriptor <var>fd</var> if the <samp>-u</samp> option is supplied. The variable <code>MAPFILE</code> is the default <var>array</var>. Options, if supplied, have the following meanings: </p> <dl compact=\"compact\"> <dt><code>-d</code></dt> <dd><p>The first character of <var>delim</var> is used to terminate each input line, rather than newline. </p></dd> <dt><code>-n</code></dt> <dd><p>Copy at most <var>count</var> lines.  If <var>count</var> is 0, all lines are copied. </p></dd> <dt><code>-O</code></dt> <dd><p>Begin assigning to <var>array</var> at index <var>origin</var>. The default index is 0. </p></dd> <dt><code>-s</code></dt> <dd><p>Discard the first <var>count</var> lines read. </p></dd> <dt><code>-t</code></dt> <dd><p>Remove a trailing <var>delim</var> (default newline) from each line read. </p></dd> <dt><code>-u</code></dt> <dd><p>Read lines from file descriptor <var>fd</var> instead of the standard input. </p></dd> <dt><code>-C</code></dt> <dd><p>Evaluate <var>callback</var> each time <var>quantum</var>P lines are read. The <samp>-c</samp> option specifies <var>quantum</var>. </p></dd> <dt><code>-c</code></dt> <dd><p>Specify the number of lines read between each call to <var>callback</var>. </p></dd> </dl> <p>If <samp>-C</samp> is specified without <samp>-c</samp>, the default quantum is 5000. When <var>callback</var>  is evaluated, it is supplied the index of the next array element to be assigned and the line to be assigned to that element as additional arguments. <var>callback</var> is evaluated after the line is read but before the array element is assigned. </p> <p>If not supplied with an explicit origin, <code>mapfile</code> will clear <var>array</var> before assigning to it. </p> <p><code>mapfile</code> returns successfully unless an invalid option or option argument is supplied, <var>array</var> is invalid or unassignable, or <var>array</var> is not an indexed array. </p>", 
-                        "mapfile [-d <var>delim</var>] [-n <var>count</var>] [-O <var>origin</var>] [-s <var>count</var>] [-t] [-u <var>fd</var>]     [-C <var>callback</var>] [-c <var>quantum</var>] [<var>array</var>]", 
+                        "<p>Read lines from the standard input into the indexed array variable <var><code>array</code></var>, or from file descriptor <var><code>fd</code></var> if the <samp><code>-u</code></samp> option is supplied. The variable <code><strike>MAPFILE</strike></code> is the default <var><code>array</code></var>.</p> <dl compact=\"compact\"> <dt>If not supplied with an explicit origin, will clear <var><code>array</code></var> before assigning to it.</dt></dl> <p>Returns successfully unless an invalid option or option argument is supplied, <var><code>array</code></var> is invalid or unassignable, or <var><code>array</code></var> is not an indexed array. </p>", 
+                        "<code>mapfile [-d <i>delim</i>] [-n <i>count</i>] [-O <i>origin</i>] [-s <i>count</i>] [-t] [-u <i>fd</i>] [-C <i>callback</i>] [-c <i>quantum</i>] [<i>array</i>]</code>", 
                         ""
                     ], 
                     "flags": 0, 
                     "guid": "FL1P~u(yC&", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "bash"
+                        "bash", 
+                        "mapfile"
                     ]
                 }, 
                 {
@@ -8092,7 +8099,7 @@
                         "", 
                         "", 
                         "printf", 
-                        "<p>Write the formatted <var>arguments</var> to the standard output under the control of the <var>format</var>. The <samp>-v</samp> option causes the output to be assigned to the variable <var>var</var> rather than being printed to the standard output. </p> <p>The <var>format</var> is a character string which contains three types of objects: plain characters, which are simply copied to standard output, character escape sequences, which are converted and copied to the standard output, and format specifications, each of which causes printing of the next successive <var>argument</var>. In addition to the standard <code>printf(1)</code> formats, <code>printf</code> interprets the following extensions: </p> <dl compact=\"compact\"> <dt><code>%b</code></dt> <dd><p>Causes <code>printf</code> to expand backslash escape sequences in the corresponding <var>argument</var> in the same way as <code>echo -e</code> (see <a href=\"#Bash-Builtins\">Bash Builtins</a>). </p></dd> <dt><code>%q</code></dt> <dd><p>Causes <code>printf</code> to output the corresponding <var>argument</var> in a format that can be reused as shell input. </p></dd> <dt><code>%(<var>datefmt</var>)T</code></dt> <dd><p>Causes <code>printf</code> to output the date-time string resulting from using <var>datefmt</var> as a format string for <code>strftime</code>(3). The corresponding <var>argument</var> is an integer representing the number of seconds since the epoch. Two special argument values may be used: -1 represents the current time, and -2 represents the time the shell was invoked. If no argument is specified, conversion behaves as if -1 had been given. This is an exception to the usual <code>printf</code> behavior. </p></dd> </dl> <p>Arguments to non-string format specifiers are treated as C language constants, except that a leading plus or minus sign is allowed, and if the leading character is a single or double quote, the value is the ASCII value of the following character. </p> <p>The <var>format</var> is reused as necessary to consume all of the <var>arguments</var>. If the <var>format</var> requires more <var>arguments</var> than are supplied, the extra format specifications behave as if a zero value or null string, as appropriate, had been supplied.  The return value is zero on success, non-zero on failure. </p>", 
+                        "<p>Write the formatted <var>arguments</var> to the standard output under the control of the <var>format</var>. The <samp>-v</samp> option causes the output to be assigned to the variable <var>var</var> rather than being printed to the standard output. </p> <p>The <var>format</var> is a character string which contains three types of objects: plain characters, which are simply copied to standard output, character escape sequences, which are converted and copied to the standard output, and format specifications, each of which causes printing of the next successive <var>argument</var>. In addition to the standard <code>printf(1)</code> formats, <code>printf</code> interprets the following extensions:&nbsp;<code>%b</code>,&nbsp;<code>%q</code>,&nbsp;%(<var>datefmt</var>)T.</p> <p>Arguments to non-string format specifiers are treated as C language constants, except that a leading plus or minus sign is allowed, and if the leading character is a single or double quote, the value is the ASCII value of the following character. </p> <p>The <var>format</var> is reused as necessary to consume all of the <var>arguments</var>. If the <var>format</var> requires more <var>arguments</var> than are supplied, the extra format specifications behave as if a zero value or null string, as appropriate, had been supplied.  The return value is zero on success, non-zero on failure. </p>", 
                         "printf [-v <var>var</var>] <var>format</var> [<var>arguments</var>]", 
                         ""
                     ], 
@@ -8100,7 +8107,8 @@
                     "guid": "dCBn@]AT!@", 
                     "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
                     "tags": [
-                        "bash"
+                        "bash", 
+                        "marked"
                     ]
                 }, 
                 {
@@ -8197,7 +8205,7 @@
                         "", 
                         "", 
                         "typeset", 
-                        "<p>The <code>typeset</code> command is supplied for compatibility with the Korn shell. It is a synonym for the <code>declare</code> builtin command. </p>", 
+                        "<p>Synonym for the <code>declare</code> builtin command supplied for compatibility with the Korn shell. </p>", 
                         "typeset [-afFgrxilnrtux] [-p] [<var>name</var>[=<var>value</var>] …]", 
                         ""
                     ], 
@@ -8218,7 +8226,7 @@
                         "", 
                         "", 
                         "ulimit", 
-                        "<p><code>ulimit</code> provides control over the resources available to processes started by the shell, on systems that allow such control.  If an option is given, it is interpreted as follows: </p> <dl compact=\"compact\"> <dt><code>-S</code></dt> <dd><p>Change and report the soft limit associated with a resource. </p> </dd> <dt><code>-H</code></dt> <dd><p>Change and report the hard limit associated with a resource. </p> </dd> <dt><code>-a</code></dt> <dd><p>All current limits are reported. </p> </dd> <dt><code>-b</code></dt> <dd><p>The maximum socket buffer size. </p> </dd> <dt><code>-c</code></dt> <dd><p>The maximum size of core files created. </p> </dd> <dt><code>-d</code></dt> <dd><p>The maximum size of a process’s data segment. </p> </dd> <dt><code>-e</code></dt> <dd><p>The maximum scheduling priority (\"nice\"). </p> </dd> <dt><code>-f</code></dt> <dd><p>The maximum size of files written by the shell and its children. </p> </dd> <dt><code>-i</code></dt> <dd><p>The maximum number of pending signals. </p> </dd> <dt><code>-k</code></dt> <dd><p>The maximum number of kqueues that may be allocated. </p> </dd> <dt><code>-l</code></dt> <dd><p>The maximum size that may be locked into memory. </p> </dd> <dt><code>-m</code></dt> <dd><p>The maximum resident set size (many systems do not honor this limit). </p> </dd> <dt><code>-n</code></dt> <dd><p>The maximum number of open file descriptors (most systems do not allow this value to be set). </p> </dd> <dt><code>-p</code></dt> <dd><p>The pipe buffer size. </p> </dd> <dt><code>-q</code></dt> <dd><p>The maximum number of bytes in POSIX message queues. </p> </dd> <dt><code>-r</code></dt> <dd><p>The maximum real-time scheduling priority. </p> </dd> <dt><code>-s</code></dt> <dd><p>The maximum stack size. </p> </dd> <dt><code>-t</code></dt> <dd><p>The maximum amount of cpu time in seconds. </p> </dd> <dt><code>-u</code></dt> <dd><p>The maximum number of processes available to a single user. </p> </dd> <dt><code>-v</code></dt> <dd><p>The maximum amount of virtual memory available to the shell, and, on some systems, to its children. </p> </dd> <dt><code>-x</code></dt> <dd><p>The maximum number of file locks. </p> </dd> <dt><code>-P</code></dt> <dd><p>The maximum number of pseudoterminals. </p> </dd> <dt><code>-T</code></dt> <dd><p>The maximum number of threads. </p></dd> </dl> <p>If <var>limit</var> is given, and the <samp>-a</samp> option is not used, <var>limit</var> is the new value of the specified resource. The special <var>limit</var> values <code>hard</code>, <code>soft</code>, and <code>unlimited</code> stand for the current hard limit, the current soft limit, and no limit, respectively. A hard limit cannot be increased by a non-root user once it is set; a soft limit may be increased up to the value of the hard limit. Otherwise, the current value of the soft limit for the specified resource is printed, unless the <samp>-H</samp> option is supplied. When setting new limits, if neither <samp>-H</samp> nor <samp>-S</samp> is supplied, both the hard and soft limits are set. If no option is given, then <samp>-f</samp> is assumed.  Values are in 1024-byte increments, except for <samp>-t</samp>, which is in seconds; <samp>-p</samp>, which is in units of 512-byte blocks; <samp>-P</samp>, <samp>-T</samp>, <samp>-b</samp>, <samp>-k</samp>, <samp>-n</samp> and <samp>-u</samp>, which are unscaled values; and, when in <small>POSIX</small> Mode (see <a href=\"https://www.gnu.org/software/bash/manual/html_node/Bash-POSIX-Mode.html#Bash-POSIX-Mode\">Bash POSIX Mode</a>), <samp>-c</samp> and <samp>-f</samp>, which are in 512-byte increments. </p> <p>The return status is zero unless an invalid option or argument is supplied, or an error occurs while setting a new limit. </p>", 
+                        "<p>Provides control over the resources available to processes started by the shell, on systems that allow such control.  If an option is given, it is interpreted as follows: </p> <dl compact=\"compact\"> <dt><code>-S</code></dt> <dd><p>Change and report the soft limit associated with a resource. </p> </dd> <dt><code>-H</code></dt> <dd><p>Change and report the hard limit associated with a resource. </p> </dd> <dt><code>-a</code></dt> <dd><p>All current limits are reported. </p> </dd> <dt><code>-b</code></dt> <dd><p>The maximum socket buffer size. </p> </dd> <dt><code>-c</code></dt> <dd><p>The maximum size of core files created. </p> </dd> <dt><code>-d</code></dt> <dd><p>The maximum size of a process’s data segment. </p> </dd> <dt><code>-e</code></dt> <dd><p>The maximum scheduling priority (\"nice\"). </p> </dd> <dt><code>-f</code></dt> <dd><p>The maximum size of files written by the shell and its children. </p> </dd> <dt><code>-i</code></dt> <dd><p>The maximum number of pending signals. </p> </dd> <dt><code>-k</code></dt> <dd><p>The maximum number of kqueues that may be allocated. </p> </dd> <dt><code>-l</code></dt> <dd><p>The maximum size that may be locked into memory. </p> </dd> <dt><code>-m</code></dt> <dd><p>The maximum resident set size (many systems do not honor this limit). </p> </dd> <dt><code>-n</code></dt> <dd><p>The maximum number of open file descriptors (most systems do not allow this value to be set). </p> </dd> <dt><code>-p</code></dt> <dd><p>The pipe buffer size. </p> </dd> <dt><code>-q</code></dt> <dd><p>The maximum number of bytes in POSIX message queues. </p> </dd> <dt><code>-r</code></dt> <dd><p>The maximum real-time scheduling priority. </p> </dd> <dt><code>-s</code></dt> <dd><p>The maximum stack size. </p> </dd> <dt><code>-t</code></dt> <dd><p>The maximum amount of cpu time in seconds. </p> </dd> <dt><code>-u</code></dt> <dd><p>The maximum number of processes available to a single user. </p> </dd> <dt><code>-v</code></dt> <dd><p>The maximum amount of virtual memory available to the shell, and, on some systems, to its children. </p> </dd> <dt><code>-x</code></dt> <dd><p>The maximum number of file locks. </p> </dd> <dt><code>-P</code></dt> <dd><p>The maximum number of pseudoterminals. </p> </dd> <dt><code>-T</code></dt> <dd><p>The maximum number of threads. </p></dd> </dl> <p>If <var>limit</var> is given, and the <samp>-a</samp> option is not used, <var>limit</var> is the new value of the specified resource. The special <var>limit</var> values <code>hard</code>, <code>soft</code>, and <code>unlimited</code> stand for the current hard limit, the current soft limit, and no limit, respectively. A hard limit cannot be increased by a non-root user once it is set; a soft limit may be increased up to the value of the hard limit. Otherwise, the current value of the soft limit for the specified resource is printed, unless the <samp>-H</samp> option is supplied. When setting new limits, if neither <samp>-H</samp> nor <samp>-S</samp> is supplied, both the hard and soft limits are set. If no option is given, then <samp>-f</samp> is assumed.  Values are in 1024-byte increments, except for <samp>-t</samp>, which is in seconds; <samp>-p</samp>, which is in units of 512-byte blocks; <samp>-P</samp>, <samp>-T</samp>, <samp>-b</samp>, <samp>-k</samp>, <samp>-n</samp> and <samp>-u</samp>, which are unscaled values; and, when in <small><b>POSIX</b></small> Mode, <samp>-c</samp> and <samp>-f</samp>, which are in 512-byte increments. </p> <p>The return status is zero unless an invalid option or argument is supplied, or an error occurs while setting a new limit. </p>", 
                         "ulimit [-HSabcdefiklmnpqrstuvxPT] [<var>limit</var>]", 
                         ""
                     ], 
@@ -8554,7 +8562,7 @@
                         "-p", 
                         "", 
                         "", 
-                        "<p>The <samp>-p</samp> option will display the attributes and values of each <var>name</var>. When <samp>-p</samp> is used with <var>name</var> arguments, additional options, other than <samp>-f</samp> and <samp>-F</samp>, are ignored. </p> <p>When <samp>-p</samp> is supplied without <var>name</var> arguments, <code>declare</code> will display the attributes and values of all variables having the attributes specified by the additional options. If no other options are supplied with <samp>-p</samp>, <code>declare</code> will display the attributes and values of all shell variables.  The <samp>-f</samp> option will restrict the display to shell functions. </p>", 
+                        "<p>Display the attributes and values of each <var>name</var>. When&nbsp;used with <var>name</var> arguments, other options except&nbsp;<samp>-f</samp> and <samp>-F</samp>&nbsp;are ignored. </p> <p>When&nbsp;<var>name</var> arguments not supplied, <code>declare</code> will display the attributes and values of all variables having the attributes specified by the additional options. If no other options are supplied, <code>declare</code> will display the attributes and values of all shell variables.  The <samp>-f</samp> option will restrict the display to shell functions. </p>", 
                         "declare [-aAfFgilnrtux] [-p] [<var>name</var>[=<var>value</var>] …]", 
                         ""
                     ], 
@@ -8575,7 +8583,7 @@
                         "-F", 
                         "", 
                         "", 
-                        "<p>The <samp>-F</samp> option inhibits the display of function definitions; only the function name and attributes are printed. If the <code>extdebug</code> shell option is enabled using <code>shopt</code> (see <a href=\"https://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html#The-Shopt-Builtin\">The Shopt Builtin</a>), the source file name and line number where each <var>name</var> is defined are displayed as well. <samp>-F</samp> implies <samp>-f</samp>. </p>", 
+                        "<p>Inhibits the display of function definitions; only the function name and attributes are printed. If the <code>extdebug</code> shell option is enabled using <code>shopt</code>, the source file name and line number where each <var>name</var> is defined are displayed as well. This implies <samp>-f</samp>. </p>", 
                         "declare [-aAfFgilnrtux] [-p] [<var>name</var>[=<var>value</var>] …]", 
                         ""
                     ], 
@@ -8596,7 +8604,7 @@
                         "-g", 
                         "", 
                         "", 
-                        "<p>The <samp>-g</samp> option forces variables to be created or modified at the global scope, even when <code>declare</code> is executed in a shell function. It is ignored in all other cases. </p>", 
+                        "<p>Forces variables to be created or modified at the global scope, even when <code>declare</code> is executed in a shell function. It is ignored in all other cases. </p>", 
                         "declare [-aAfFgilnrtux] [-p] [<var>name</var>[=<var>value</var>] …]", 
                         ""
                     ], 
@@ -8638,7 +8646,7 @@
                         "-A", 
                         "", 
                         "", 
-                        "<p>Each <var>name</var> is an associative array variable (see <a href=\"https://www.gnu.org/software/bash/manual/html_node/Arrays.html#Arrays\">Arrays</a>). </p>", 
+                        "Each <var>name</var> is an associative array variable.", 
                         "declare [-aAfFgilnrtux] [-p] [<var>name</var>[=<var>value</var>] …]", 
                         ""
                     ], 
@@ -9373,7 +9381,7 @@
                         "-t", 
                         "", 
                         "", 
-                        "<p>If the <samp>-t</samp> option is used, <code>type</code> prints a single word which is one of ‘<samp>alias</samp>’, ‘<samp>function</samp>’, ‘<samp>builtin</samp>’, ‘<samp>file</samp>’ or ‘<samp>keyword</samp>’, if <var>name</var> is an alias, shell function, shell builtin, disk file, or shell reserved word, respectively. If the <var>name</var> is not found, then nothing is printed, and <code>type</code> returns a failure status. </p>", 
+                        "Print a single word which is one of <samp>alias</samp>, <samp>function</samp>, <samp>builtin</samp>, <samp>file</samp> or <samp>keyword</samp>, if <var>name</var> is an alias, shell function, shell builtin, disk file, or shell reserved word, respectively. If the <var>name</var> is not found, then nothing is printed, and <code>type</code> returns a failure status.", 
                         "type [-afptP] [<var>name</var> …]", 
                         ""
                     ], 
@@ -9394,7 +9402,7 @@
                         "-p", 
                         "", 
                         "", 
-                        "<p>If the <samp>-p</samp> option is used, <code>type</code> either returns the name of the disk file that would be executed, or nothing if <samp>-t</samp> would not return ‘<samp>file</samp>’.</p> <p>If a command is hashed, <samp>-p</samp> and <samp>-P</samp> print the hashed value, which is not necessarily the file that appears first in <code>$PATH</code>. </p>", 
+                        "<p><code>type</code> either returns the name of the disk file that would be executed, or nothing if <samp>-t</samp> would not return <samp>file</samp>.</p> <p>If a command is hashed, <samp>-p</samp> and <samp>-P</samp> print the hashed value, which is not necessarily the file that appears first in <code>$PATH</code>. </p>", 
                         "type [-afptP] [<var>name</var> …]", 
                         ""
                     ], 
@@ -9415,7 +9423,7 @@
                         "-P", 
                         "", 
                         "", 
-                        "<p>The <samp>-P</samp> option forces a path search for each <var>name</var>, even if <samp>-t</samp> would not return ‘<samp>file</samp>’. </p> <p>If a command is hashed, <samp>-p</samp> and <samp>-P</samp> print the hashed value, which is not necessarily the file that appears first in <code>$PATH</code>. </p>", 
+                        "<p>Forces a path search for each <var>name</var>, even if <samp>-t</samp> would not return <samp>file</samp>. </p> <p>If a command is hashed, <samp>-p</samp> and <samp>-P</samp> print the hashed value, which is not necessarily the file that appears first in <code>$PATH</code>. </p>", 
                         "type [-afptP] [<var>name</var> …]", 
                         ""
                     ], 
@@ -9436,7 +9444,7 @@
                         "-a", 
                         "", 
                         "", 
-                        "<p>If the <samp>-a</samp> option is used, <code>type</code> returns all of the places that contain an executable named <var>file</var>. This includes aliases and functions, if and only if the <samp>-p</samp> option is not also used. </p>", 
+                        "<p><code>type</code> returns all of the places that contain an executable named <var>file</var>. This includes aliases and functions, if and only if the <samp>-p</samp> option is not also used. </p>", 
                         "type [-afptP] [<var>name</var> …]", 
                         ""
                     ], 
@@ -9457,7 +9465,7 @@
                         "-f", 
                         "", 
                         "", 
-                        "<p>If the <samp>-f</samp> option is used, <code>type</code> does not attempt to find shell functions, as with the <code>command</code> builtin. </p> <p>The return status is zero if all of the <var>names</var> are found, non-zero if any are not found. </p>", 
+                        "<p><code>type</code> does not attempt to find shell functions, as with the <code>command</code> builtin. </p> <p>The return status is zero if all of the <var>names</var> are found, non-zero if any are not found. </p>", 
                         "type [-afptP] [<var>name</var> …]", 
                         ""
                     ], 
@@ -10715,7 +10723,7 @@
                         "-H", 
                         "-o histexpand", 
                         "", 
-                        "<p>Enable ‘<samp>!</samp>’ style history substitution (see History Interaction). This option is on by default for interactive shells.</p>", 
+                        "<p>Enable <samp>!</samp>&nbsp;style history substitution. This option is on by default for interactive shells.</p>", 
                         "", 
                         ""
                     ], 
@@ -10757,7 +10765,7 @@
                         "--", 
                         "", 
                         "", 
-                        "<p>If no arguments follow this option, then the positional parameters are unset.  Otherwise, the positional parameters are set to the <var>arguments</var>, even if some of them begin with a &lsquo;<samp>-</samp>&rsquo;.</p>", 
+                        "<p>If no arguments follow this option, then the positional parameters are unset.  Otherwise, the positional parameters are set to the <var>arguments</var>, even if some of them begin with <samp>-</samp>.</p>", 
                         "", 
                         ""
                     ], 
@@ -10862,7 +10870,7 @@
                         "-q", 
                         "", 
                         "", 
-                        "<p>Suppresses normal output; the return status indicates whether the <var>optname</var> is set or unset. If multiple <var>optname</var> arguments are given with <samp>-q</samp>, the return status is zero if all <var>optnames</var> are enabled; non-zero otherwise. </p>", 
+                        "<p>Suppresses normal output; the return status indicates whether the <var>optname</var> is set or unset. If multiple <var>optname</var> arguments are given, the return status is zero if all <var>optnames</var> are enabled; non-zero otherwise. </p>", 
                         "shopt [-pqsu] [-o] [<var>optname</var> …]", 
                         ""
                     ], 
@@ -10988,7 +10996,7 @@
                         "", 
                         "", 
                         "checkjobs", 
-                        "<p>If set, Bash lists the status of any stopped and running jobs before exiting an interactive shell.  If any jobs are running, this causes the exit to be deferred until a second exit is attempted without an intervening command (see <a href=Job-Control.html#Job-Control\">Job Control</a>). The shell always postpones exiting if any jobs are stopped.</p>\"", 
+                        "<p>If set, Bash lists the status of any stopped and running jobs before exiting an interactive shell.  If any jobs are running, this causes the exit to be deferred until a second exit is attempted without an intervening command. The shell always postpones exiting if any jobs are stopped.</p>", 
                         "", 
                         ""
                     ], 
@@ -11072,7 +11080,7 @@
                         "", 
                         "", 
                         "compat32", 
-                        "<p>If set, Bash changes its behavior to that of version 3.2 with respect to locale-specific string comparison when using the <code>[[</code> conditional command&rsquo;s &lsquo;<samp>&lt;</samp>&rsquo; and &lsquo;<samp>&gt;</samp>&rsquo; operators (see previous item) and the effect of interrupting a command list. Bash versions 3.2 and earlier continue with the next command in the list after one terminates due to an interrupt.</p>", 
+                        "<p>If set, Bash changes its behavior to that of version 3.2 with respect to locale-specific string comparison when using the <code>[[</code> conditional command’s <samp>&lt;</samp>&nbsp;and <samp>&gt;</samp>&nbsp;operators and the effect of interrupting a command list. Bash versions 3.2 and earlier continue with the next command in the list after one terminates due to an interrupt.</p>", 
                         "", 
                         ""
                     ], 
@@ -11282,7 +11290,7 @@
                         "", 
                         "", 
                         "expand_aliases", 
-                        "<p>If set, aliases are expanded as described below under Aliases, <a href=Aliases.html#Aliases\">Aliases</a>. This option is enabled by default for interactive shells.</p>\"", 
+                        "<p>If set, aliases are expanded. This option is enabled by default for interactive shells.</p>", 
                         "", 
                         ""
                     ], 
@@ -11387,7 +11395,7 @@
                         "", 
                         "", 
                         "force_fignore", 
-                        "<p>If set, the suffixes specified by the <code>FIGNORE</code> shell variable cause words to be ignored when performing word completion even if the ignored words are the only possible completions. See <a href='Bash-Variables.html#Bash-Variables\"'>Bash Variables</a>, for a description of <code>FIGNORE</code>. This option is enabled by default.</p>", 
+                        "<p>If set, the suffixes specified by the <code>FIGNORE</code> shell variable cause words to be ignored when performing word completion even if the ignored words are the only possible completions. This option is enabled by default.</p>", 
                         "", 
                         ""
                     ], 
@@ -11408,7 +11416,7 @@
                         "", 
                         "", 
                         "globasciiranges", 
-                        "<p>If set, range expressions used in pattern matching bracket expressions (see <a href=Pattern-Matching.html#Pattern-Matching\">Pattern Matching</a>) behave as if in the traditional C locale when performing comparisons.  That is, the current locale&rsquo;s collating sequence is not taken into account, so &lsquo;<samp>b</samp>&rsquo; will not collate between &lsquo;<samp>A</samp>&rsquo; and &lsquo;<samp>B</samp>&rsquo;, and upper-case and lower-case ASCII characters will collate together.    </p>\"", 
+                        "<p>If set, range expressions used in pattern matching bracket expressions&nbsp;behave as if in the traditional C locale when performing comparisons.  That is, the current locale’s collating sequence is not taken into account, so <samp>b</samp>&nbsp;will not collate between <samp>A</samp>&nbsp;and <samp>B</samp>, and upper-case and lower-case ASCII characters will collate together.</p>", 
                         "", 
                         ""
                     ], 
@@ -11534,7 +11542,7 @@
                         "", 
                         "", 
                         "hostcomplete", 
-                        "<p>If set, and Readline is being used, Bash will attempt to perform hostname completion when a word containing a &lsquo;<samp>@</samp>&rsquo; is being completed (see <a href=Commands-For-Completion.html#Commands-For-Completion\">Commands For Completion</a>).  This option is enabled by default.</p>\"", 
+                        "<p>If set, and Readline is being used, Bash will attempt to perform hostname completion when a word containing a <samp>@</samp>&nbsp;is being completed.  This option is enabled by default.</p>", 
                         "", 
                         ""
                     ], 
@@ -11660,7 +11668,7 @@
                         "", 
                         "", 
                         "login_shell", 
-                        "<p>The shell sets this option if it is started as a login shell (see <a href=Invoking-Bash.html#Invoking-Bash\">Invoking Bash</a>). The value may not be changed.</p>\"", 
+                        "<p>The shell sets this option if it is started as a login shell. The value may not be changed.</p>", 
                         "", 
                         ""
                     ], 
@@ -19002,6 +19010,90 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
+                        "find primary -newerct", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerct", 
+                        "True if the current file has a more recent&nbsp;<b>change&nbsp;time</b>&nbsp;than the&nbsp;date specified by interpreting&nbsp;<u>file</u>&nbsp;as a direct date specification of the form understood by <code>cvs</code>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "d#]UQpuZ3K", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newerat", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerat", 
+                        "True if the current file has a more recent <b>last access&nbsp;time</b>&nbsp;than the&nbsp;date specified by interpreting&nbsp;<u>file</u>&nbsp;as a direct date specification of the form understood by <code>cvs</code>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "B8-!nOH%$D", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newerBt", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newerBt", 
+                        "True if the current file has a more recent <b>inode creation time</b>&nbsp;than the&nbsp;date specified by interpreting&nbsp;<u>file</u>&nbsp;as a direct date specification of the form understood by <code>cvs</code>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "PRvH:C3q-w", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find primary -newermt", 
+                        "find", 
+                        "primary", 
+                        "", 
+                        "", 
+                        "-newermt", 
+                        "True if the current file has a more recent <b>modification time</b>&nbsp;than the&nbsp;date specified by interpreting&nbsp;<u>file</u>&nbsp;as a direct date specification of the form understood by <code>cvs</code>.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "HsE-yZp*2)", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
                         "<code>ps -aux</code> = <code>ps aux</code> ?", 
                         "No.", 
                         "The POSIX and UNIX standards require that <code>ps -aux</code>&nbsp;print all processes owned by a user\nnamed <i>x</i>, as well as printing all processes that would be selected by the <code>-a</code> option. If the user named <i>x</i>&nbsp;does not exist, some versions of&nbsp;<code>ps</code> may interpret\nthe command as&nbsp;<code>ps aux</code>&nbsp;instead and print a warning. This \nbehavior is intended to aid in transitioning old scripts and habits. It \nis fragile, subject to\nchange, and thus should not be relied upon.", 
@@ -21294,6 +21386,245 @@
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": [
                         "date"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find operator -o", 
+                        "find", 
+                        "operator", 
+                        "", 
+                        "", 
+                        "<u>expression</u>&nbsp;-o&nbsp;<u>expression</u>", 
+                        "Logical OR operator,&nbsp;<b>POSIX</b>&nbsp;compliant. The expression evaluates to true if either expression is true. The second expression is not evaluated if the first expression is true.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "rZA}GVq46G", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find operator -a", 
+                        "find", 
+                        "operator", 
+                        "", 
+                        "", 
+                        "<u>expression</u>&nbsp;-a&nbsp;<u>expression</u>", 
+                        "Logical AND operator, explicit (does not have to be specified) and&nbsp;<b>POSIX</b>&nbsp;compliant. The expression evaluates to true if both expressions are true. The second expression is not evaluated if the first expression is false.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Q5Eyj&}$h0", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "find operator ,", 
+                        "find", 
+                        "operator", 
+                        "", 
+                        "", 
+                        "<u>expr1</u>,&nbsp;<u>expr2</u>", 
+                        "List; both <code><u>expr1</u></code> and <code><u>expr2</u></code> are always evaluated. The value of&nbsp;<code><u>expr1</u></code>&nbsp;is discarded; the value of the list is the value of&nbsp;<code><u>expr2</u></code>.\nThe comma operator can be useful for searching for several different \ntypes of thing, but traversing the filesystem hierarchy only once. The <code>-fprintf</code>\naction can be used to list the various matched items into several different output files.", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "xcP(sQPl+T", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "find"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash builtin mapfile -d", 
+                        "mapfile", 
+                        "", 
+                        "-d", 
+                        "", 
+                        "", 
+                        "The first character of <code>delim</code> is used to terminate each input line, rather than newline.", 
+                        "<code>mapfile [-d <i>delim</i>] [-n <i>count</i>] [-O <i>origin</i>] [-s <i>count</i>] [-t] [-u <i>fd</i>] [-C <i>callback</i>] [-c <i>quantum</i>] [<i>array</i>]</code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "oQ5L<-cJ``", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash", 
+                        "mapfile"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash builtin mapfile -u", 
+                        "mapfile", 
+                        "", 
+                        "-u", 
+                        "", 
+                        "", 
+                        "Read lines from file descriptor <code><i>fd</i></code>&nbsp;instead of the standard input.", 
+                        "<code>mapfile [-d <i>delim</i>] [-n <i>count</i>] [-O <i>origin</i>] [-s <i>count</i>] [-t] [-u <i>fd</i>] [-C <i>callback</i>] [-c <i>quantum</i>] [<i>array</i>]</code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "xYgQCxfrdb", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash", 
+                        "mapfile"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash builtin mapfile -t", 
+                        "mapfile", 
+                        "", 
+                        "-t", 
+                        "", 
+                        "", 
+                        "Remove a trailing <code><i>delim</i></code> (default newline) from each line read.", 
+                        "<code>mapfile [-d <i>delim</i>] [-n <i>count</i>] [-O <i>origin</i>] [-s <i>count</i>] [-t] [-u <i>fd</i>] [-C <i>callback</i>] [-c <i>quantum</i>] [<i>array</i>]</code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "m:apZ,,+2`", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash", 
+                        "mapfile"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash builtin mapfile -s", 
+                        "mapfile", 
+                        "", 
+                        "-s", 
+                        "", 
+                        "", 
+                        "Discard the first <code><i>count</i></code> lines read.", 
+                        "<code>mapfile [-d <i>delim</i>] [-n <i>count</i>] [-O <i>origin</i>] [-s <i>count</i>] [-t] [-u <i>fd</i>] [-C <i>callback</i>] [-c <i>quantum</i>] [<i>array</i>]</code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ma-+;(q$xZ", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash", 
+                        "mapfile"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash builtin mapfile -n", 
+                        "mapfile", 
+                        "", 
+                        "-n", 
+                        "", 
+                        "", 
+                        "Copy at most <code><i>count</i></code> lines. If <code><i>count</i></code> is <code><i>0</i></code>, all lines are copied.", 
+                        "<code>mapfile [-d <i>delim</i>] [-n <i>count</i>] [-O <i>origin</i>] [-s <i>count</i>] [-t] [-u <i>fd</i>] [-C <i>callback</i>] [-c <i>quantum</i>] [<i>array</i>]</code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "jyomAAaN8w", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash", 
+                        "mapfile"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash builtin mapfile -O", 
+                        "mapfile", 
+                        "", 
+                        "-O", 
+                        "", 
+                        "", 
+                        "Begin assigning to array at index <code><i>origin</i></code>. The default index is <code><i>0</i></code>.", 
+                        "<code>mapfile [-d <i>delim</i>] [-n <i>count</i>] [-O <i>origin</i>] [-s <i>count</i>] [-t] [-u <i>fd</i>] [-C <i>callback</i>] [-c <i>quantum</i>] [<i>array</i>]</code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "u4|T3f?%>B", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash", 
+                        "mapfile"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash builtin mapfile -C", 
+                        "mapfile", 
+                        "", 
+                        "-C", 
+                        "", 
+                        "", 
+                        "Evaluate <code><i>callback</i></code> each time <code><i>quantum</i></code> lines are read. The <code><strike>-c</strike></code> option specifies <code><i>quantum</i></code>.", 
+                        "<code>mapfile [-d <i>delim</i>] [-n <i>count</i>] [-O <i>origin</i>] [-s <i>count</i>] [-t] [-u <i>fd</i>] [-C <i>callback</i>] [-c <i>quantum</i>] [<i>array</i>]</code><div><br /></div><div>If&nbsp;<code>-C</code>&nbsp;is specified without&nbsp;<code>-c</code>, the default <code><i>quantum</i></code> is <code>5000</code>. When<code>&nbsp;<i>callback</i></code>&nbsp;is evaluated, it is supplied the index of the next array element to be assigned and the line to be assigned to that element as additional arguments.&nbsp;<code><i>callback</i></code>&nbsp;is evaluated after the line is read but before the array element is assigned.</div>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Q&4lgn[&MH", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash", 
+                        "mapfile"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash builtin mapfile -c", 
+                        "mapfile", 
+                        "", 
+                        "-c", 
+                        "", 
+                        "", 
+                        "Specify the number of lines read between each call to <code><i>callback</i></code>.", 
+                        "<code>mapfile [-d <i>delim</i>] [-n <i>count</i>] [-O <i>origin</i>] [-s <i>count</i>] [-t] [-u <i>fd</i>] [-C <i>callback</i>] [-c <i>quantum</i>] [<i>array</i>]</code><div><br /></div><div>If&nbsp;<code>-C</code>&nbsp;is specified without&nbsp;<code>-c</code>, the default <code><i>quantum</i></code> is <code>5000</code>. When<code>&nbsp;<i>callback</i></code>&nbsp;is evaluated, it is supplied the index of the next array element to be assigned and the line to be assigned to that element as additional arguments.&nbsp;<code><i>callback</i></code>&nbsp;is evaluated after the line is read but before the array element is assigned.</div>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "yT+!o9E{[J", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash", 
+                        "mapfile"
                     ]
                 }
             ]
@@ -26143,8 +26474,8 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "regex: dot matches linebreaks via option except in these flavors", 
-                        "JavaScript and VBScript.<div><br /></div>JavaScript and VBScript do not have an option to make the dot match line break characters. In those languages, you can use a character class such as <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\s</span><span class=\"regexccspecial\">\\S</span><span class=\"regexccopen\">]</span></tt> to match any character. This character matches a character that is either a whitespace character (including line break characters), or a character that is not a whitespace character. Since all characters are either whitespace or non-whitespace, this character class matches any character.", 
+                        "regex flavors without option to make dot match linebreaks", 
+                        "<b>JavaScript</b> and <b>VBScript</b> do not have an option to make the dot match line break characters. In those languages, you can use a character class such as <tt class=\"code\"><span class=\"regexccopen\">[</span><span class=\"regexccspecial\">\\s</span><span class=\"regexccspecial\">\\S</span><span class=\"regexccopen\">]</span></tt> to match any character. This character matches a character that is either a whitespace character (including line break characters), or a character that is not a whitespace character. Since all characters are either whitespace or non-whitespace, this character class matches any character.", 
                         "", 
                         "", 
                         "", 
@@ -30436,7 +30767,7 @@
                     20
                 ], 
                 "order": 1, 
-                "perDay": 100, 
+                "perDay": 250, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -30667,7 +30998,8 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "date"
+                "bash", 
+                "mapfile"
             ], 
             "tmpls": [
                 {
@@ -30880,9 +31212,7 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "date"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
@@ -30891,16 +31221,16 @@
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -31272,8 +31602,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "zsh synonym for true", 
-                ":", 
+                "<b>Zsh</b> synonym for <code>true</code>", 
+                "<code>:</code>", 
                 "", 
                 "", 
                 "", 

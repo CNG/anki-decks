@@ -17300,10 +17300,10 @@
                     "data": "", 
                     "fields": [
                         "conservatory", 
-                        "or <b>conservatoire</b><div>school of the fine arts (especially music or drama); glass-enclosed area<br><i>cf.</i> conservancy</div>", 
+                        "<div>school of the fine arts (especially music or drama); glass-enclosed area<br /><i>cf.</i> conservancy</div>", 
                         "", 
                         "", 
-                        "", 
+                        "conservatoire", 
                         ""
                     ], 
                     "flags": 0, 
@@ -38472,11 +38472,11 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "habituate accustom", 
+                        "habituate", 
                         "or familiarize; addict", 
                         "", 
                         "", 
-                        "", 
+                        "accustom", 
                         ""
                     ], 
                     "flags": 0, 
@@ -45297,8 +45297,8 @@
                     "data": "", 
                     "fields": [
                         "insensible", 
-                        "unconscious; unresponsive; insensitive; unaware; imperceptible<br>/to pain<br><i>cf.</i> not the opposite of sensible", 
-                        "insensible of his danger<br>insensible change", 
+                        "unconscious; unresponsive; insensitive; unaware; imperceptible<br /><i>cf.</i> not the opposite of sensible", 
+                        "insensible of his danger/to pain<br />insensible change", 
                         "", 
                         "", 
                         ""
@@ -58133,9 +58133,9 @@
                     "data": "", 
                     "fields": [
                         "paleontology", 
-                        "study of prehistoric life or fossils<br><i>cf.</i> paleo-: ancient or prehistoric: study of ancient written documents", 
-                        "paleography", 
-                        "", 
+                        "study of prehistoric life or fossils<i><br /></i>", 
+                        "<i>cf.</i>&nbsp;<b>paleo-</b>: ancient or prehistoric<div><i>cf.</i>&nbsp;<b>paleography</b>: study of ancient written documents</div>", 
+                        "y", 
                         "", 
                         ""
                     ], 
@@ -69946,8 +69946,8 @@
                     "data": "", 
                     "fields": [
                         "repress", 
-                        "hold back (the natural expression of); restrain; crush; oppress<br>/rebellion", 
-                        "repressed child<br>repress a laugh", 
+                        "hold back (the natural expression of); restrain; crush; oppress<br />", 
+                        "repressed child<br />repress a laugh/rebellion", 
                         "", 
                         "", 
                         ""
@@ -70198,7 +70198,7 @@
                     "data": "", 
                     "fields": [
                         "reputed", 
-                        "supposed<br><i>v.</i> repute: consider<br><i>n.</i> repute: reputation; esteem", 
+                        "supposed<br /><i>v.</i> <b>repute</b>: consider<br /><i>n.</i> <b>repute</b>: reputation; esteem", 
                         "reputed father of the child", 
                         "", 
                         "", 
@@ -87856,11 +87856,11 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "archine (arshin)", 
+                        "archine", 
                         "A unit of length formerly used in Russia and Turkey, equal to about 71 centimeters (28 inches).", 
                         "", 
                         "", 
-                        "", 
+                        "arshin", 
                         ""
                     ], 
                     "flags": 0, 
@@ -88076,7 +88076,9 @@
                     "flags": 0, 
                     "guid": "qMq<VK9$5?", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-                    "tags": []
+                    "tags": [
+                        "marked"
+                    ]
                 }, 
                 {
                     "__type__": "Note", 
@@ -88741,9 +88743,9 @@
                     "data": "", 
                     "fields": [
                         "debouch", 
-                        "1. To march from a narrow or confined area into the open.<br>2. To emerge; issue: &quot; His companions still lay in the bed of the ravine, through which the smaller stream debouched&quot; (James Fenimore Cooper).", 
-                        "", 
-                        "", 
+                        "1. To march from a narrow or confined area into the open.<br />2. To emerge; issue", 
+                        "2. \"His companions still lay in the bed of the ravine, through which the smaller stream debouched\" —James Fenimore Cooper", 
+                        "y", 
                         "", 
                         ""
                     ], 
@@ -89881,9 +89883,9 @@
                     "data": "", 
                     "fields": [
                         "hypnagogic", 
-                        "<div><i>adj.</i><br />1. Inducing sleep; soporific.<br />2. Of, relating to, or occurring in the state of intermediate consciousness preceding sleep: “hypnagogic hallucinations.”</div>", 
-                        "", 
-                        "", 
+                        "<div><i>adj.</i><br />1. Inducing sleep; soporific.<br />2. Of, relating to, or occurring in the state of intermediate consciousness preceding sleep</div>", 
+                        "hypnagogic hallucinations", 
+                        "y", 
                         "hypnogogic", 
                         ""
                     ], 
@@ -90681,7 +90683,7 @@
                     "data": "", 
                     "fields": [
                         "niddering", 
-                        "<i>n.</i><br>A cowardly person; a wretch.", 
+                        "<i>n. </i>a&nbsp;cowardly person; a wretch.", 
                         "", 
                         "", 
                         "", 
@@ -95677,7 +95679,7 @@
                     "data": "", 
                     "fields": [
                         "cryptoporticus", 
-                        "<i><i>n.</i> pl.<i><br>1. a covered passage, as one underground, lighted on one side.<br>2. a portico at the entrance to a crypt.", 
+                        "<i style=\"font-style: italic; \">n.</i><i> pl.</i><br />1. a covered passage, as one underground, lighted on one side.<br />2. a portico at the entrance to a crypt.", 
                         "", 
                         "", 
                         "", 
@@ -96320,16 +96322,16 @@
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 

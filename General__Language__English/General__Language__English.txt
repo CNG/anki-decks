@@ -914,7 +914,7 @@ conscript	draftee; person forced into military service;<br><div>v.</div>					Bar
 consecrate	dedicate; sanctify; declare as sacred’s life to helping the poor	consecrate one				Barron4841
 consensus	general agreement; opinion reached by a group					Barron4841
 consequential	self-important; significant; consequent; following as a result<br><i>cf.</i> subsequent	consequential air				Barron4841
-conservatory	or <b>conservatoire</b><div>school of the fine arts (especially music or drama); glass-enclosed area<br><i>cf.</i> conservancy</div>					Barron4841
+conservatory	<div>school of the fine arts (especially music or drama); glass-enclosed area<br /><i>cf.</i> conservancy</div>			conservatoire		Barron4841
 consign	send to a person or place for sale; deliver officially; entrust; put into the care of another; set apart (for a special purpose)<br><i>n.</i> consignment<br><i>cf.</i> consignor, consignee					Barron4841
 consistency	absence of contradictions; uniformity; degree of thickness or firmness<br><i>cf.</i> viscous	consistency of thick cream				Barron4841
 console	lessen sadness or disappointment; give comfort; allay the sorrow of<br><i>n.</i> consolation					Barron4841
@@ -2090,7 +2090,7 @@ topple	become unsteady and fall down					Barron4841
 overturn	turn over; capsize; topple					Barron4841
 capsize	(of a boat) turn over					Barron4841
 gyroscope	apparatus used to maintain balance, ascertain direction, etc.					Barron4841
-habituate accustom	or familiarize; addict					Barron4841
+habituate	or familiarize; addict			accustom		Barron4841
 hackles	hairs on back and neck, especially of a dog’s hackles rise	make someone				Barron4841
 growl	low, guttural, menacing sound (as of a dog)					Barron4841
 hackneyed	commonplace; trite					Barron4841
@@ -2469,7 +2469,7 @@ wholesome	conducive to mental or physical health; healthful					Barron4841
 insatiable	not easily satisfied; unquenchable	insatiable appetite				Barron4841
 inscrutable	difficult to understand; impenetrable; not readily understood; mysterious					Barron4841
 insensate	without feeling; lacking sense; foolish					Barron4841
-insensible	unconscious; unresponsive; insensitive; unaware; imperceptible<br>/to pain<br><i>cf.</i> not the opposite of sensible	insensible of his danger<br>insensible change				Barron4841
+insensible	unconscious; unresponsive; insensitive; unaware; imperceptible<br /><i>cf.</i> not the opposite of sensible	insensible of his danger/to pain<br />insensible change				Barron4841
 insidious	treacherous; stealthy; sly; working or spreading harmfully in a stealthy manner	insidious spreading of dry rot				Barron4841
 insightful	discerning; perceptive					Barron4841
 insinuate	hint; imply; suggest indirectly; creep in; introduce or insert (oneself) by artful means’s favor<br><i>cf.</i> ingratiate	insinuate himself into the boss				Barron4841
@@ -3182,7 +3182,7 @@ painstaking	taking pains; showing hard work; taking great care; very careful and
 palatable	agreeable; pleasing to the taste					Barron4841
 palate	roof of the mouth; sense of the taste					Barron4841
 palatial	of or suitable for a palace; magnificent					Barron4841
-paleontology	study of prehistoric life or fossils<br><i>cf.</i> paleo-: ancient or prehistoric: study of ancient written documents	paleography				Barron4841
+paleontology	study of prehistoric life or fossils<i><br /></i>	<i>cf.</i>&nbsp;<b>paleo-</b>: ancient or prehistoric<div><i>cf.</i>&nbsp;<b>paleography</b>: study of ancient written documents</div>	y			Barron4841
 palette	board on which painter mixes pigments (coloring matters)					Barron4841
 palimpsest	parchment or piece of writing material used for second time after original writing has been erased					Barron4841
 parchment	writing material made from the skin of a sheep or goat					Barron4841
@@ -3838,7 +3838,7 @@ replicate	reproduce; duplicate					Barron4841
 repository	storehouse					Barron4841
 repose	resting; state of being at rest; calmness<br><i>v.</i> lie at rest; relax; put or place	repose our hopes in a single man				Barron4841
 reprehensible	deserving blame; blameworthy<br><i>v.</i> reprehend: blame					Barron4841
-repress	hold back (the natural expression of); restrain; crush; oppress<br>/rebellion	repressed child<br>repress a laugh				Barron4841
+repress	hold back (the natural expression of); restrain; crush; oppress<br />	repressed child<br />repress a laugh/rebellion				Barron4841
 reprieve	postponement or cancelation of a punishment; temporary stay<br><i>v.</i> postpone or cancel the punishment of					Barron4841
 reprimand	reprove severely; rebuke;<br><div>n.</div>					Barron4841
 reprisal	retaliation					Barron4841
@@ -3852,7 +3852,7 @@ repugnance	disgust; strong dislike; loathing<br><i>adj.</i> repugnant: arousing 
 repulsion	distaste; disgust; act of driving back<br><i>adj.</i> repulsive: causing disgust; tending to drive away<br><i>v.</i> repel (not “repulse”)					Barron4841
 repulse	reject with rudeness or coldness (an offer or friendship); drive back (an enemy attack)<br><i>cf.</i> repulse &ne; cause repulsion					Barron4841
 reputable	respectable; having a good reputation					Barron4841
-reputed	supposed<br><i>v.</i> repute: consider<br><i>n.</i> repute: reputation; esteem	reputed father of the child				Barron4841
+reputed	supposed<br /><i>v.</i> <b>repute</b>: consider<br /><i>n.</i> <b>repute</b>: reputation; esteem	reputed father of the child				Barron4841
 requiem	mass for the dead; dirge					Barron4841
 mass	Christian religious ceremony<br><i>cf.</i> Mass: ceremony of the Eucharist					Barron4841
 requisite	necessary requirement; something required<br><i>adj.</i> required; necessary					Barron4841
@@ -4836,7 +4836,7 @@ apocarpous	Having carpels that are free from one another. Used of a single flowe
 appoggiatura	An embellishing note, usually one step above or below the note it precedes and indicated by a small note or special sign.					
 aquavit	A strong clear Scandinavian liquor distilled from potato or grain mash and flavored with caraway seed.					
 arcboutant	flying buttress					
-archine (arshin)	A unit of length formerly used in Russia and Turkey, equal to about 71 centimeters (28 inches).					
+archine	A unit of length formerly used in Russia and Turkey, equal to about 71 centimeters (28 inches).			arshin		
 arcuate	Having the form of a bow; curved.<br />other forms: <b>arcuated</b>, <b>arcuately</b>					
 armamentarium	1. The complete equipment of a physician or medical institution, including books, supplies, and instruments.<br>2. The complete range of materials available or used for a task.					
 arriereban	1. A medieval royal proclamation by which vassals were summoned to military service.<br>2. the vassals summoned.					
@@ -4849,7 +4849,7 @@ auscultate	examine by auscultation. (listening to the internal sounds of the bod
 autolysis	The destruction of tissues or cells of an organism by the action of substances, such as enzymes, that are produced within the organism. Also called self-digestion.		y			
 azygous	1. Occurring singly; not one of a pair, as a vein or muscle.<br>2. odd, unpaired.					
 banquette	1. A platform lining a trench or parapet wall on which soldiers may stand when firing.<br>2. <i>Southern Louisiana &amp; East Texas</i> A raised sidewalk<br>3. A long upholstered bench placed against or built into a wall.<br>4. A ledge or shelf, as on a buffet.	2. “The flower of loafers . . . was found stretched on the banquette on Tuesday night” (New Orleans Daily Picayune). See Regional Note at beignet.	y	bankit (<i>2</i>)		
-bathyscaphe	A free-diving deep-sea vessel consisting of a large flotation hull with a crewed observation capsule attached to its underside, usually capable of reaching full ocean depths.					
+bathyscaphe	A free-diving deep-sea vessel consisting of a large flotation hull with a crewed observation capsule attached to its underside, usually capable of reaching full ocean depths.					marked
 benthos	1. The collection of organisms living on or in sea or lake bottoms.<br>2. The bottom of a sea or lake.					
 banderole	1. A narrow forked flag or streamer attached to a staff or lance or flown from a ship’s masthead.<br>2. A representation of a ribbon or scroll bearing an inscription.		y	bannerol		
 bespoke	Custom-made. Said especially of clothes.					
@@ -4891,7 +4891,7 @@ coxcomb	1. A conceited dandy; a fop.<br>2. Obsolete A jester’s cap; a cockscom
 crasis	a type of contraction in which two vowels or diphthongs merge into one new vowel or diphthong — making one word out of two.<br>seen in Portugese, Arabic, and Ancient Greek.<br>French examples:<br>de le → du<br>de les → des<br>à le → au<br>en les → ès					
 cunctation	Procrastination; delay.					
 curettage	The removal of tissue or growths from a body cavity, such as the uterus, by scraping with a curette. Also called curettement.					
-debouch	1. To march from a narrow or confined area into the open.<br>2. To emerge; issue: &quot; His companions still lay in the bed of the ravine, through which the smaller stream debouched&quot; (James Fenimore Cooper).					
+debouch	1. To march from a narrow or confined area into the open.<br />2. To emerge; issue	"2. ""His companions still lay in the bed of the ravine, through which the smaller stream debouched"" —James Fenimore Cooper"	y			
 decalcomania	<i>n.</i><br>1. The process of transferring pictures or designs printed on specially prepared paper to materials such as glass or metal.<br>2. A decal.					
 decrepitate	To make a crackling sound when roasted.					
 deforce	To withhold (something) by force from the rightful owner.					
@@ -4962,7 +4962,7 @@ hematuria	The presence of blood in the urine.		y
 heteroplasty	The surgical grafting of tissue obtained from one individual or species to another.					
 horripilation	The bristling of the body hair, as from fear or cold; goose bumps.					
 hyperopia	farsightedness<br>antonym: myopia					
-hypnagogic	<div><i>adj.</i><br />1. Inducing sleep; soporific.<br />2. Of, relating to, or occurring in the state of intermediate consciousness preceding sleep: “hypnagogic hallucinations.”</div>			hypnogogic		
+hypnagogic	<div><i>adj.</i><br />1. Inducing sleep; soporific.<br />2. Of, relating to, or occurring in the state of intermediate consciousness preceding sleep</div>	hypnagogic hallucinations	y	hypnogogic		
 hypocorism	1. A name of endearment; a pet name.<br>2. The use of such names.					
 iatric	of or pertaining to a physician or physicians.					
 illation	<i>n.</i> <br>1. The act of inferring or drawing conclusions.<br>2. A conclusion drawn; a deduction.		y	illative (<i>2</i>)		
@@ -5012,7 +5012,7 @@ nappe	A sheet of water flowing over a dam or similar structure.
 narghile	hookah					
 neroli	An essential oil distilled from orange flowers and used in perfumery.					
 nevus	A congenital growth or mark on the skin, such as a mole or birthmark.					
-niddering	<i>n.</i><br>A cowardly person; a wretch.					
+niddering	<i>n. </i>a&nbsp;cowardly person; a wretch.					
 nigrosine	Any of a class of dyes, varying from blue to black, used in the manufacture of inks and for dyeing wood and textiles.					
 ombudsman	A man who investigates complaints and mediates fair settlements, especially between aggrieved parties such as consumers or students and an institution or organization.					
 ophidian	adj.<br>Of, relating to, or resembling snakes.					
@@ -5322,7 +5322,7 @@ tablinum	An anteroom in an ancient Roman house, opening out of the atrium opposi
 pyroclastic	Designating, relating to, or consisting of rock fragmented by volcanic action or comminuted in the process of eruption.					
 running dog	<i>n.</i> A servile follower; lackey.					
 opus signinum	A Roman flooring material consisting of broken tiles and other fragments mixed with lime mortar.					latin
-cryptoporticus	<i><i>n.</i> pl.<i><br>1. a covered passage, as one underground, lighted on one side.<br>2. a portico at the entrance to a crypt.					
+cryptoporticus	"<i style=""font-style: italic; "">n.</i><i> pl.</i><br />1. a covered passage, as one underground, lighted on one side.<br />2. a portico at the entrance to a crypt."					
 periplus	1. a. An account or narrative of a circumnavigation or other voyage; a manual of navigation.<div>b. A circuit; a circumnavigation; a voyage or journey round a coastline; an epic journey, an odyssey.<br></div><br><div>2. Ancient Greek Naut. A manoeuvre in naval warfare involving sailing round an enemy fleet. This manoeuvre was favoured by faster, lighter ships; it facilitated ramming from the side or the rear.</div>					
 philomuse	a. A lover of the Muses, a poetry lover.<div>b. Fond of or devoted to the arts or literature.</div>					Greek
 hypostatize	Treat or represent (something abstract) as a concrete reality					
