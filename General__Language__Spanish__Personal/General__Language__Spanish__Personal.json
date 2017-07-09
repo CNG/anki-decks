@@ -32,7 +32,7 @@
                     20
                 ], 
                 "order": 1, 
-                "perDay": 50, 
+                "perDay": 250, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -43,7 +43,7 @@
                 "ivlFct": 1.5, 
                 "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 500
+                "perDay": 1000
             }, 
             "timer": 0
         }
@@ -58,7 +58,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark2.css\");\n\n\n.regexnest1, .regexplain, .regexspecial, .regexnest2, .regexnest3, .regexccopen, .regexccspecial, .regexccliteral, .regexescaped, .regexccrange, .regexcomment, .regexerr, .regexmeta, .replaceplain, .characterstring, .comment, .numericconstant, .reservedword {\n  font-family: Monaco, monospace;\n}\nmark code { color: #d75f00; /* brred */ }\ndetails { color: inherit; }\n\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n}\n</script><style>", 
+            "css": "@import url(\"_dark3.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n}\nfunction playSound() {\n    var a = new Audio(document.getElementById(\"audio\"));\n    a.play();\n}\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -138,22 +138,22 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -165,10 +165,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "to my collection", 
                 "a mi colección", 
+                "to my collection", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -181,10 +181,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "there are still vices to perfect", 
                 "aún quedan vicios por perfeccionar", 
+                "there are still vices to perfect", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -197,10 +197,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "dance like a bow on a fan", 
                 "bailar como un lazo en un ventilador", 
+                "dance like a bow on a fan", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -213,10 +213,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "to wear out", 
                 "cansar", 
+                "to wear out", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -229,10 +229,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "with the emperor’s new suit", 
                 "con el traje nuevo del emperador", 
+                "with the emperor’s new suit", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -245,10 +245,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "with the tip of the shoe", 
                 "con la punta del zapato", 
+                "with the tip of the shoe", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -261,10 +261,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "of medals and scratches", 
                 "de medallas y de arañazos", 
+                "of medals and scratches", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -277,10 +277,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "discover a profile", 
                 "descubran un perfil", 
+                "discover a profile", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -293,10 +293,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "say what you see", 
                 "di que ves", 
+                "say what you see", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -309,10 +309,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "tell me what you see", 
                 "dime que ves", 
+                "tell me what you see", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -325,10 +325,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "the future got dressed", 
                 "el futuro se vistió", 
+                "the future got dressed", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -341,10 +341,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "in the rare days", 
                 "en los días raros", 
+                "in the rare days", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -357,10 +357,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "between the hands", 
                 "entre las manos", 
+                "between the hands", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -373,10 +373,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "there are so many idiots out there", 
                 "hay tanto idiota ahí fuera", 
+                "there are so many idiots out there", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -389,10 +389,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "to throw", 
                 "lanzar", 
+                "to throw", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -405,10 +405,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "coins that when turning", 
                 "monedas que al girar", 
+                "coins that when turning", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -421,10 +421,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "there are no wise men", 
                 "no hay reyes magos", 
+                "there are no wise men", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -437,10 +437,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "no deal", 
                 "no hay trato", 
+                "no deal", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -453,10 +453,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "we will uncover in the intimacy", 
                 "nos destaparemos en la intimidad", 
+                "we will uncover in the intimacy", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -469,10 +469,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "we have many more left", 
                 "nos quedan muchos más", 
+                "we have many more left", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -485,10 +485,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "in order to do it my way", 
                 "por hacerlo a mi manera", 
+                "in order to do it my way", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -501,10 +501,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "anxiety can grind me down", 
                 "puede comerme la ansiedad", 
+                "anxiety can grind me down", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -517,10 +517,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I might make a habit of anger", 
                 "puede ser que haga de la rabia mi flor", 
+                "I might make a habit of anger", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -533,10 +533,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "maybe I make a habit of anger", 
                 "puede ser que haga de la rabia mi flor", 
+                "I might make a habit of anger", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -549,10 +549,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "maybe tomorrow I conceal my voice", 
                 "puede ser que mañana esconda mi voz", 
+                "maybe tomorrow I conceal my voice", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -565,10 +565,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I can destroy", 
                 "puedo arrasar", 
+                "I can destroy", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -581,10 +581,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I can be quiet", 
                 "puedo callar", 
+                "I can be quiet", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -597,10 +597,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I may wear out", 
                 "puedo cansar", 
+                "I may wear out", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -613,10 +613,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I can do harm", 
                 "puedo doler", 
+                "I can do harm", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -629,10 +629,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I can be charming", 
                 "puedo encantar", 
+                "I can be charming", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -645,10 +645,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to escape", 
                 "puedo escapar", 
+                "I’m able to escape", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -661,10 +661,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to dodge", 
                 "puedo escurrir", 
+                "I’m able to dodge", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -677,10 +677,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to pretend that I don’t care", 
                 "puedo fingir que me da igual", 
+                "I’m able to pretend that I don’t care", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -693,10 +693,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to force reality", 
                 "puedo forzar la realidad", 
+                "I’m able to force reality", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -709,10 +709,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to turn", 
                 "puedo girar", 
+                "I’m able to turn", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -725,10 +725,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to insist", 
                 "puedo incidir", 
+                "I’m able to insist", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -741,10 +741,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to piss off", 
                 "puedo joder", 
+                "I’m able to piss off", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -757,10 +757,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to throw", 
                 "puedo lanzar", 
+                "I’m able to throw", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -773,10 +773,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to call you without a single word", 
                 "puedo llamarte sin hablar", 
+                "I’m able to call you without a single word", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -789,10 +789,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I may bite the dust", 
                 "puedo palmar", 
+                "I may bite the dust", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -805,10 +805,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to split myself and negotiate the other half", 
                 "puedo partirme y negociar la otra mitad", 
+                "I’m able to split myself and negotiate the other half", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -821,10 +821,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I may get lost in the obvious", 
                 "puedo perderme en la obviedad", 
+                "I may get lost in the obvious", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -837,10 +837,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to break, I’m able to forget", 
                 "puedo romper puedo olvidar", 
+                "I’m able to break, I’m able to forget", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -853,10 +853,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I do know that, without all of you, this hurts more", 
                 "puedo saber que sin vosotros duele más", 
+                "I do know that, without all of you, this hurts more", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -869,10 +869,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to get out", 
                 "puedo salir", 
+                "I’m able to get out", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -885,10 +885,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I do know when I’ve reached my limit", 
                 "puedo sentir que no doy más", 
+                "I do know when I’ve reached my limit", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -901,10 +901,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I may be deceived easily", 
                 "puedo ser fácil de engañar", 
+                "I may be deceived easily", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -917,10 +917,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I may be helpful", 
                 "puedo servir", 
+                "I may be helpful", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -933,10 +933,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to twist", 
                 "puedo torcer", 
+                "I’m able to twist", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -949,10 +949,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to win", 
                 "puedo vencer", 
+                "I’m able to win", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -965,10 +965,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "I’m able to return", 
                 "puedo volver", 
+                "I’m able to return", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -981,10 +981,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "that without blur", 
                 "que sin borrón", 
+                "that without blur", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -997,10 +997,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "that without coal", 
                 "que sin carbón", 
+                "that without coal", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1013,10 +1013,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "who would say", 
                 "quien iba a decir", 
+                "who would say", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1029,10 +1029,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "who saw it", 
                 "quien lo vio", 
+                "who saw it", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1045,10 +1045,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "regroup pieces", 
                 "reagrupar pedazos", 
+                "regroup pieces", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1061,10 +1061,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "gifts to open", 
                 "regalos por abrir", 
+                "gifts to open", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1077,10 +1077,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "to be helpful", 
                 "servir", 
+                "to be helpful", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1093,10 +1093,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "if there is something", 
                 "si hay algo", 
+                "if there is something", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1109,10 +1109,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "tune in", 
                 "sintonizar", 
+                "tune in", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1125,10 +1125,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "every man for himself", 
                 "sálvese quien pueda", 
+                "every man for himself", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1141,10 +1141,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "touch tune, define stroke", 
                 "toca afinar definir el trazo", 
+                "touch tune, define stroke", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1157,10 +1157,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "a brief and fleeting spring", 
                 "un manantial breve y fugaz", 
+                "a brief and fleeting spring", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1173,10 +1173,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "and ends in echo", 
                 "y acaba en eco", 
+                "and ends in echo", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1189,10 +1189,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "and, with it, my flag", 
                 "y con ella mi bandera", 
+                "and, with it, my flag", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1205,10 +1205,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "and the cellophane begins", 
                 "y ernpieza el celofán", 
+                "and the cellophane begins", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1221,10 +1221,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "it is already here", 
                 "ya está aquí", 
+                "it is already here", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1237,10 +1237,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "open it slowly", 
                 "ábrelo despacio", 
+                "open it slowly", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
@@ -1253,15 +1253,1711 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">I’m able to pass<!--EndFragment--></p>", 
                 "puedo pasar", 
+                "<style type=\"text/css\"> p, li { white-space: pre-wrap; } </style> <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">I’m able to pass<!--EndFragment--></p>", 
                 "", 
-                "", 
+                "reverse", 
                 "", 
                 ""
             ], 
             "flags": 0, 
             "guid": "DTb{mt}+.2", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Camina hacia el Capitolio y después dobla a la izquierda en la calle 8.", 
+                "Walk toward the Capitol and turn left on 8th Street.", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.wordreference.com/es/translation.asp?tranword=towards"
+            ], 
+            "flags": 0, 
+            "guid": "x;9GDdt.N]", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ella estaba de pie, de espalda hacia mí.", 
+                "She was standing with her back towards me.", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.wordreference.com/es/translation.asp?tranword=towards"
+            ], 
+            "flags": 0, 
+            "guid": "h4||5Y?e4,", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Conduzca en dirección a Chicago y tome la salida 73.", 
+                "Drive towards Chicago and take exit 73.", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.wordreference.com/es/translation.asp?tranword=towards"
+            ], 
+            "flags": 0, 
+            "guid": "m3^x,_>4^E", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "La actitud de mi jefe hacia las mujeres es un tanto inquietante.", 
+                "My boss's attitude toward women is a little troubling.", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.wordreference.com/es/translation.asp?tranword=towards"
+            ], 
+            "flags": 0, 
+            "guid": "GnMK7IXuf}", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "He separado un poco de dinero para mis vacaciones de verano.", 
+                "I've put a bit of money away toward my summer holiday.", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.wordreference.com/es/translation.asp?tranword=towards"
+            ], 
+            "flags": 0, 
+            "guid": "K:@Fgf*Lw", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Me di cuenta enseguida de que todo era mentira.", 
+                "I realized right away it was all a lie.", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishdict.com/translate/enseguida"
+            ], 
+            "flags": 0, 
+            "guid": "PD+(T-5O:_", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "lograr", 
+                "to obtain, to get (often intangible)", 
+                "<div><b>conseguir</b>: to find, often something you can see and feel.</div><div><b>lograr</b>: to achieve, often something intangible</div><div><b>obtener</b>: to obtain, both intangible and tangible, with a “reach out and catch” feel</div>", 
+                "y", 
+                "", 
+                "https://forum.wordreference.com/threads/conseguir-lograr-obtener.95594/"
+            ], 
+            "flags": 0, 
+            "guid": "J6[*0+^M)0", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "obtener", 
+                "to obtain, to get (more active)", 
+                "<div><b>conseguir</b>: to find, often something you can see and feel.</div><div><b>lograr</b>: to achieve, often something intangible</div><div><b>obtener</b>: to obtain, both intangible and tangible, with a “reach out and catch” feel</div>", 
+                "y", 
+                "", 
+                "https://forum.wordreference.com/threads/conseguir-lograr-obtener.95594/"
+            ], 
+            "flags": 0, 
+            "guid": "fd;AO]PYM$", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el cuerpo", 
+                "body", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "cT4JKE8=7(", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el cuerpo humano", 
+                "human body", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "k<v+[~#?_J", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el cadáver", 
+                "corpse", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "EXq=WyGy*D", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el torso", 
+                "torso", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "g@,7`QMJMb", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la piel", 
+                "skin", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "pr+q)*E-Z,", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el músculo", 
+                "muscle", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "lr)<T]{z9&", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el tendón", 
+                "tendon", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "BB0aRf`-a^", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el hueso", 
+                "bone", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "zp~`By?G}4", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el esqueleto", 
+                "skeleton", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "d/I#jAs=aQ", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el vaso, el vaso sanguíneo", 
+                "blood vessel", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "z1yy<ZJ|HI", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la vena", 
+                "vein", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "Maxq$EGNMw", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la arteria", 
+                "artery", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "i1hT.wqMAs", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el cerebro", 
+                "brain", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "i/{?7w;jR#", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la mente", 
+                "mind", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "i</)(a,.PI", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el cráneo", 
+                "skull", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "m!.9oRoi)H", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la cabeza", 
+                "head", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "GmBrk|GzBw", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el pelo, el cabello", 
+                "hair", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "vZvg)+9}g5", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la sien", 
+                "temple", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "A>eBv?;V04", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la nariz", 
+                "nose", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "HvpqJ>JC+(", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la ventana de la nariz", 
+                "nostril", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "vp_rdJETAF", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la cara", 
+                "face", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "szjiC_?JNF", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la oreja", 
+                "ear", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "i68}8eP<S1", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el lóbolo de las orejas", 
+                "earlobe", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "CDP{MJ*Z/&", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el tímbano", 
+                "eardrum", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "Kz4n5>zZU9", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "los labios", 
+                "lips", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "uq0]K24=ie", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la mejilla", 
+                "cheek", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "e1Y|E>3>t.", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la ceja", 
+                "eyebrow", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "k3#R6e`nA4", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la pastaña", 
+                "eyelash", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "h~+HI7L?=x", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el párpado", 
+                "eyelid", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "C+c7y8Z>Ll", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el globo ocular", 
+                "eyeball", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "k-W].TG1b_", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la pupila", 
+                "pupil", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "zwf5i]}f7K", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la lágrima", 
+                "teardrop (tear)", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "u)>gL.Iqfe", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el mentón, la barbilla", 
+                "chin", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "dDjX-<xP2T", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la barba", 
+                "beard", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "yTyDOclFs&", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "las barbas, pelos de la barba", 
+                "whiskers", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "r?m/9/P-R1", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "las patillas", 
+                "sideburns", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "z[qf=n@c;e", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la frente", 
+                "forehead", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "l:{w_pi+U&", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la ceja", 
+                "eyebrow", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "lr!p%.P<`>", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el diente", 
+                "tooth", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "}+a)JI%k&", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "los dientes", 
+                "teeth", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "p|vqWTCJ%m", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la boca", 
+                "mouth", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "b7rn+4%0cf", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la mandíbula", 
+                "jaw", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "k!;C+&U|xA", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el pelo", 
+                "hair", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "fj)TKS`|-I", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la garganta", 
+                "throat", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "G_As.h%LBm", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el nuez, el nuez de Adán", 
+                "Adam's Apple", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "ekQ##Bis_f", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la columna", 
+                "spine", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "=vws.-t`m", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la vértebra", 
+                "vertebrae", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "i~)o%b|zN+", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el corazón", 
+                "heart", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "F2B4F(6hmL", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la pezón", 
+                "nipple (woman)", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "h!3.5X{21;", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la tetilla", 
+                "nipple (man)", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "C(Ivma7[sO", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el hombro", 
+                "shoulder", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "ijJ.@OKwLk", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el omóplato", 
+                "shoulder blade", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "lY1)BfLL%<", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el sobaco, la axila", 
+                "armpit", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "EfI_4e~jy+", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la cintura", 
+                "waist", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "hy*#$USr31", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la barriga", 
+                "belly", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "il*-ENrm-M", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la panza", 
+                "tummy", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "A!d$e$|,W1", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el ombligo", 
+                "navel", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "FRSACdO;H6", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "estómago", 
+                "stomache", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "Fg_anLFnHU", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "elabdomen, el vientre", 
+                "abdomen", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "jsOU#nOhGp", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "los intestinos (small-delgados/large-gruesos)", 
+                "intestines", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "K|J9Ppy8az", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "las nalgas", 
+                "buttocks", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "EK|3P7G,^M", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el ano", 
+                "anus", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "LJpqQS[HfJ", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "culo", 
+                "butt", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "HHGfkCqW4n", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la ingle", 
+                "groin", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "OW2H<b9^A(", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el pene", 
+                "penis", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "tKqsE`0g$q", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el escroto", 
+                "scrotum", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "o(KVD(*0ns", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el testículo", 
+                "testicle", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "J}CMA>L<$@", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la vagina", 
+                "vagina", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "b/Kw%tsGC`", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el útero, la matriz", 
+                "uterus", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "pEyZ=ID1{]", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el seno", 
+                "breast", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "h|p=t(QUat", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el brazo", 
+                "arm", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "HOvmG8/3(n", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "los bíceps", 
+                "biceps", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "::=Y@?(&U", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el codo", 
+                "elbow", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "P:XI+3fA2%", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el antebrazo", 
+                "forearm", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "A#8AOC*)vj", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la muñeca", 
+                "wrist", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "OCc7eA$z8", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el dedo", 
+                "finger", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "MR[8Td;eiE", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el pulgar, el dedo gordo", 
+                "thumb", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "sut(Fw2A42", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la uña", 
+                "fingernail", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "N^S48k?h>)", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la uña, la uña del pulgar", 
+                "thumbnail", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "bn``3Sm?r0", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la uña, la uña del pie", 
+                "toenail", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "t_b9no~tk<", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el nudillo", 
+                "knuckle", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "fyk/T%~7yT", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la palma", 
+                "palm", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "Ay}(~#7<sg", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la huella digital", 
+                "fingerprint", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "N;Wfw4X!Go", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la cadera", 
+                "hip", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "C4PM`~71T9", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el muslo", 
+                "thigh", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "Pos}!^#gZ_", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la pierna", 
+                "leg", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "ILXOB)4AtB", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la rodilla", 
+                "knee", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "E_T5:qr_;y", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la rótula", 
+                "kneecap", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "rO|5OiIx$>", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la pantorrilla", 
+                "calf", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "NM)i=kV`.9", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el tobillo", 
+                "ankle", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "A3P*qd;kpC", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la espinilla", 
+                "shin", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "y>_&*Z,=Qw", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el pie", 
+                "foot", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "E@uDrUZmFV", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el dedo, el dedo del pie", 
+                "toe", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "K}%H55ockD", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la uña,  la uña del pie", 
+                "toenail", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "r@}Ke5ZEN[", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la planta", 
+                "sole", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "k@`}@>BL_{", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "la arca", 
+                "arch", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "Fkli$1$paI", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "el talón", 
+                "heel", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
+            ], 
+            "flags": 0, 
+            "guid": "zs5Am9ab!%", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "callar", 
+                "shut up", 
+                "", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "u#riw&%w1n", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
         }

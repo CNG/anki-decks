@@ -1,69 +1,175 @@
-to my collection	a mi colección					
-there are still vices to perfect	aún quedan vicios por perfeccionar					
-dance like a bow on a fan	bailar como un lazo en un ventilador					
-to wear out	cansar					
-with the emperor’s new suit	con el traje nuevo del emperador					
-with the tip of the shoe	con la punta del zapato					
-of medals and scratches	de medallas y de arañazos					
-discover a profile	descubran un perfil					
-say what you see	di que ves					
-tell me what you see	dime que ves					
-the future got dressed	el futuro se vistió					
-in the rare days	en los días raros					
-between the hands	entre las manos					
-there are so many idiots out there	hay tanto idiota ahí fuera					
-to throw	lanzar					
-coins that when turning	monedas que al girar					
-there are no wise men	no hay reyes magos					
-no deal	no hay trato					
-we will uncover in the intimacy	nos destaparemos en la intimidad					
-we have many more left	nos quedan muchos más					
-in order to do it my way	por hacerlo a mi manera					
-anxiety can grind me down	puede comerme la ansiedad					
-I might make a habit of anger	puede ser que haga de la rabia mi flor					
-maybe I make a habit of anger	puede ser que haga de la rabia mi flor					
-maybe tomorrow I conceal my voice	puede ser que mañana esconda mi voz					
-I can destroy	puedo arrasar					
-I can be quiet	puedo callar					
-I may wear out	puedo cansar					
-I can do harm	puedo doler					
-I can be charming	puedo encantar					
-I’m able to escape	puedo escapar					
-I’m able to dodge	puedo escurrir					
-I’m able to pretend that I don’t care	puedo fingir que me da igual					
-I’m able to force reality	puedo forzar la realidad					
-I’m able to turn	puedo girar					
-I’m able to insist	puedo incidir					
-I’m able to piss off	puedo joder					
-I’m able to throw	puedo lanzar					
-I’m able to call you without a single word	puedo llamarte sin hablar					
-I may bite the dust	puedo palmar					
-I’m able to split myself and negotiate the other half	puedo partirme y negociar la otra mitad					
-I may get lost in the obvious	puedo perderme en la obviedad					
-I’m able to break, I’m able to forget	puedo romper puedo olvidar					
-I do know that, without all of you, this hurts more	puedo saber que sin vosotros duele más					
-I’m able to get out	puedo salir					
-I do know when I’ve reached my limit	puedo sentir que no doy más					
-I may be deceived easily	puedo ser fácil de engañar					
-I may be helpful	puedo servir					
-I’m able to twist	puedo torcer					
-I’m able to win	puedo vencer					
-I’m able to return	puedo volver					
-that without blur	que sin borrón					
-that without coal	que sin carbón					
-who would say	quien iba a decir					
-who saw it	quien lo vio					
-regroup pieces	reagrupar pedazos					
-gifts to open	regalos por abrir					
-to be helpful	servir					
-if there is something	si hay algo					
-tune in	sintonizar					
-every man for himself	sálvese quien pueda					
-touch tune, define stroke	toca afinar definir el trazo					
-a brief and fleeting spring	un manantial breve y fugaz					
-and ends in echo	y acaba en eco					
-and, with it, my flag	y con ella mi bandera					
-and the cellophane begins	y ernpieza el celofán					
-it is already here	ya está aquí					
-open it slowly	ábrelo despacio					
-"<style type=""text/css""> p, li { white-space: pre-wrap; } </style> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">I’m able to pass<!--EndFragment--></p>"	puedo pasar					
+a mi colección	to my collection		reverse			
+aún quedan vicios por perfeccionar	there are still vices to perfect		reverse			
+bailar como un lazo en un ventilador	dance like a bow on a fan		reverse			
+cansar	to wear out		reverse			
+con el traje nuevo del emperador	with the emperor’s new suit		reverse			
+con la punta del zapato	with the tip of the shoe		reverse			
+de medallas y de arañazos	of medals and scratches		reverse			
+descubran un perfil	discover a profile		reverse			
+di que ves	say what you see		reverse			
+dime que ves	tell me what you see		reverse			
+el futuro se vistió	the future got dressed		reverse			
+en los días raros	in the rare days		reverse			
+entre las manos	between the hands		reverse			
+hay tanto idiota ahí fuera	there are so many idiots out there		reverse			
+lanzar	to throw		reverse			
+monedas que al girar	coins that when turning		reverse			
+no hay reyes magos	there are no wise men		reverse			
+no hay trato	no deal		reverse			
+nos destaparemos en la intimidad	we will uncover in the intimacy		reverse			
+nos quedan muchos más	we have many more left		reverse			
+por hacerlo a mi manera	in order to do it my way		reverse			
+puede comerme la ansiedad	anxiety can grind me down		reverse			
+puede ser que haga de la rabia mi flor	I might make a habit of anger		reverse			
+puede ser que haga de la rabia mi flor	I might make a habit of anger		reverse			
+puede ser que mañana esconda mi voz	maybe tomorrow I conceal my voice		reverse			
+puedo arrasar	I can destroy		reverse			
+puedo callar	I can be quiet		reverse			
+puedo cansar	I may wear out		reverse			
+puedo doler	I can do harm		reverse			
+puedo encantar	I can be charming		reverse			
+puedo escapar	I’m able to escape		reverse			
+puedo escurrir	I’m able to dodge		reverse			
+puedo fingir que me da igual	I’m able to pretend that I don’t care		reverse			
+puedo forzar la realidad	I’m able to force reality		reverse			
+puedo girar	I’m able to turn		reverse			
+puedo incidir	I’m able to insist		reverse			
+puedo joder	I’m able to piss off		reverse			
+puedo lanzar	I’m able to throw		reverse			
+puedo llamarte sin hablar	I’m able to call you without a single word		reverse			
+puedo palmar	I may bite the dust		reverse			
+puedo partirme y negociar la otra mitad	I’m able to split myself and negotiate the other half		reverse			
+puedo perderme en la obviedad	I may get lost in the obvious		reverse			
+puedo romper puedo olvidar	I’m able to break, I’m able to forget		reverse			
+puedo saber que sin vosotros duele más	I do know that, without all of you, this hurts more		reverse			
+puedo salir	I’m able to get out		reverse			
+puedo sentir que no doy más	I do know when I’ve reached my limit		reverse			
+puedo ser fácil de engañar	I may be deceived easily		reverse			
+puedo servir	I may be helpful		reverse			
+puedo torcer	I’m able to twist		reverse			
+puedo vencer	I’m able to win		reverse			
+puedo volver	I’m able to return		reverse			
+que sin borrón	that without blur		reverse			
+que sin carbón	that without coal		reverse			
+quien iba a decir	who would say		reverse			
+quien lo vio	who saw it		reverse			
+reagrupar pedazos	regroup pieces		reverse			
+regalos por abrir	gifts to open		reverse			
+servir	to be helpful		reverse			
+si hay algo	if there is something		reverse			
+sintonizar	tune in		reverse			
+sálvese quien pueda	every man for himself		reverse			
+toca afinar definir el trazo	touch tune, define stroke		reverse			
+un manantial breve y fugaz	a brief and fleeting spring		reverse			
+y acaba en eco	and ends in echo		reverse			
+y con ella mi bandera	and, with it, my flag		reverse			
+y ernpieza el celofán	and the cellophane begins		reverse			
+ya está aquí	it is already here		reverse			
+ábrelo despacio	open it slowly		reverse			
+puedo pasar	"<style type=""text/css""> p, li { white-space: pre-wrap; } </style> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">I’m able to pass<!--EndFragment--></p>"		reverse			
+Camina hacia el Capitolio y después dobla a la izquierda en la calle 8.	Walk toward the Capitol and turn left on 8th Street.		reverse		http://www.wordreference.com/es/translation.asp?tranword=towards	
+Ella estaba de pie, de espalda hacia mí.	She was standing with her back towards me.		reverse		http://www.wordreference.com/es/translation.asp?tranword=towards	
+Conduzca en dirección a Chicago y tome la salida 73.	Drive towards Chicago and take exit 73.		reverse		http://www.wordreference.com/es/translation.asp?tranword=towards	
+La actitud de mi jefe hacia las mujeres es un tanto inquietante.	My boss's attitude toward women is a little troubling.		reverse		http://www.wordreference.com/es/translation.asp?tranword=towards	
+He separado un poco de dinero para mis vacaciones de verano.	I've put a bit of money away toward my summer holiday.		reverse		http://www.wordreference.com/es/translation.asp?tranword=towards	
+Me di cuenta enseguida de que todo era mentira.	I realized right away it was all a lie.		reverse		http://www.spanishdict.com/translate/enseguida	
+lograr	to obtain, to get (often intangible)	<div><b>conseguir</b>: to find, often something you can see and feel.</div><div><b>lograr</b>: to achieve, often something intangible</div><div><b>obtener</b>: to obtain, both intangible and tangible, with a “reach out and catch” feel</div>	y		https://forum.wordreference.com/threads/conseguir-lograr-obtener.95594/	
+obtener	to obtain, to get (more active)	<div><b>conseguir</b>: to find, often something you can see and feel.</div><div><b>lograr</b>: to achieve, often something intangible</div><div><b>obtener</b>: to obtain, both intangible and tangible, with a “reach out and catch” feel</div>	y		https://forum.wordreference.com/threads/conseguir-lograr-obtener.95594/	
+el cuerpo	body		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el cuerpo humano	human body		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el cadáver	corpse		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el torso	torso		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la piel	skin		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el músculo	muscle		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el tendón	tendon		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el hueso	bone		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el esqueleto	skeleton		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el vaso, el vaso sanguíneo	blood vessel		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la vena	vein		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la arteria	artery		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el cerebro	brain		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la mente	mind		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el cráneo	skull		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la cabeza	head		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el pelo, el cabello	hair		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la sien	temple		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la nariz	nose		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la ventana de la nariz	nostril		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la cara	face		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la oreja	ear		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el lóbolo de las orejas	earlobe		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el tímbano	eardrum		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+los labios	lips		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la mejilla	cheek		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la ceja	eyebrow		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la pastaña	eyelash		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el párpado	eyelid		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el globo ocular	eyeball		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la pupila	pupil		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la lágrima	teardrop (tear)		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el mentón, la barbilla	chin		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la barba	beard		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+las barbas, pelos de la barba	whiskers		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+las patillas	sideburns		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la frente	forehead		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la ceja	eyebrow		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el diente	tooth		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+los dientes	teeth		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la boca	mouth		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la mandíbula	jaw		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el pelo	hair		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la garganta	throat		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el nuez, el nuez de Adán	Adam's Apple		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la columna	spine		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la vértebra	vertebrae		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el corazón	heart		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la pezón	nipple (woman)		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la tetilla	nipple (man)		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el hombro	shoulder		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el omóplato	shoulder blade		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el sobaco, la axila	armpit		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la cintura	waist		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la barriga	belly		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la panza	tummy		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el ombligo	navel		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+estómago	stomache		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+elabdomen, el vientre	abdomen		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+los intestinos (small-delgados/large-gruesos)	intestines		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+las nalgas	buttocks		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el ano	anus		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+culo	butt		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la ingle	groin		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el pene	penis		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el escroto	scrotum		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el testículo	testicle		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la vagina	vagina		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el útero, la matriz	uterus		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el seno	breast		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el brazo	arm		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+los bíceps	biceps		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el codo	elbow		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el antebrazo	forearm		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la muñeca	wrist		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el dedo	finger		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el pulgar, el dedo gordo	thumb		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la uña	fingernail		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la uña, la uña del pulgar	thumbnail		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la uña, la uña del pie	toenail		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el nudillo	knuckle		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la palma	palm		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la huella digital	fingerprint		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la cadera	hip		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el muslo	thigh		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la pierna	leg		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la rodilla	knee		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la rótula	kneecap		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la pantorrilla	calf		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el tobillo	ankle		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la espinilla	shin		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el pie	foot		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el dedo, el dedo del pie	toe		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la uña,  la uña del pie	toenail		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la planta	sole		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+la arca	arch		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+el talón	heel		reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
+callar	shut up		y			
