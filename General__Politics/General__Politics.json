@@ -1,6 +1,683 @@
 {
     "__type__": "Deck", 
-    "children": [], 
+    "children": [
+        {
+            "__type__": "Deck", 
+            "children": [], 
+            "crowdanki_uuid": "45620ea3-6480-11e7-b2dd-2c56dc924912", 
+            "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+            "desc": "Please see the <a href='https://ankiweb.net/shared/info/2087959279'>shared deck page</a> for more info.", 
+            "dyn": 0, 
+            "extendNew": 10, 
+            "extendRev": 50, 
+            "media_files": [
+                "16.jpg", 
+                "22.png", 
+                "03.jpg", 
+                "37.jpg", 
+                "29.jpg", 
+                "09.jpg", 
+                "11.jpg", 
+                "18.jpg", 
+                "19.jpg", 
+                "40.jpg", 
+                "12.png", 
+                "14.jpg", 
+                "33.jpg", 
+                "38.jpg", 
+                "25.jpg", 
+                "13.jpg", 
+                "41.jpg", 
+                "28.jpg", 
+                "05.gif", 
+                "26.jpg", 
+                "_dark3.css", 
+                "08.jpg", 
+                "04.jpg", 
+                "15.jpg", 
+                "23.jpg", 
+                "35.jpg", 
+                "10.jpg", 
+                "42.jpg", 
+                "43.jpeg", 
+                "30.jpg", 
+                "07.jpg", 
+                "02.jpg", 
+                "44.jpg", 
+                "01.jpg", 
+                "21.jpg", 
+                "27.jpg", 
+                "34.jpg", 
+                "32.jpg", 
+                "39.jpg", 
+                "24.jpg", 
+                "36.jpg", 
+                "31.jpg", 
+                "20.jpg", 
+                "17.jpg", 
+                "06.jpg"
+            ], 
+            "name": "U.S. Presidents (pics)", 
+            "notes": [
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "1", 
+                        "George Washington", 
+                        "1789-1797", 
+                        "<img src=\"01.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "l3yc%BU=_*", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "2", 
+                        "John Adams", 
+                        "1797-1801", 
+                        "<img src=\"02.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "qY|fj,/K(D", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "3", 
+                        "Thomas Jefferson", 
+                        "1801-1809", 
+                        "<img src=\"03.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "t?U^R$+a&)", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "4", 
+                        "James Madison", 
+                        "1809-1817", 
+                        "<img src=\"04.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "vX*1o76W3C", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "5", 
+                        "James Monroe", 
+                        "1817-1825", 
+                        "<img src=\"05.gif\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "sP.=KUm*|!", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "6", 
+                        "John Quincy Adams", 
+                        "1825-1829", 
+                        "<img src=\"06.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "n6#!@nG|8", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "7", 
+                        "Andrew Jackson", 
+                        "1829-1837", 
+                        "<img src=\"07.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "iAUA(/d)^0", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "8", 
+                        "Martin Van Buren", 
+                        "1837-1841", 
+                        "<img src=\"08.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "udubHeN2J<", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "9", 
+                        "William Henry Harrison", 
+                        "1841-1841", 
+                        "<img src=\"09.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "ly!+J4(ZMs", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "10", 
+                        "John Tyler", 
+                        "1841-1845", 
+                        "<img src=\"10.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "jiU[~qOvv/", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "11", 
+                        "James K. Polk", 
+                        "1845-1849", 
+                        "<img src=\"11.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "f0c1;#_X0o", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "12", 
+                        "Zachary Taylor", 
+                        "1849-1850", 
+                        "<img src=\"12.png\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "m=Yjf#~b#z", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "13", 
+                        "Millard Fillmore", 
+                        "1850-1853", 
+                        "<img src=\"13.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "va^dp#~.iT", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "14", 
+                        "Franklin Pierce", 
+                        "1853-1857", 
+                        "<img src=\"14.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "mZT#e?B*VD", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "15", 
+                        "James Buchanan", 
+                        "1857-1861", 
+                        "<img src=\"15.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "hFWj=m)a+_", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "16", 
+                        "Abraham Lincoln", 
+                        "1861-1865", 
+                        "<img src=\"16.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "eVhWE&~wVn", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "17", 
+                        "Andrew Johnson", 
+                        "1865-1869", 
+                        "<img src=\"17.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "gLE^iHsC!a", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "18", 
+                        "Ulysses S. Grant", 
+                        "1869-1877", 
+                        "<img src=\"18.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "sMwBVK2xDS", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "19", 
+                        "Rutherford B. Hayes", 
+                        "1877-1881", 
+                        "<img src=\"19.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "vrm5[uOCzy", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "20", 
+                        "James Garfield<br />", 
+                        "1881-1881", 
+                        "<img src=\"20.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "s[g;h{)sCZ", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "21", 
+                        "Chester A. Arthur", 
+                        "1881-1885&nbsp;", 
+                        "<img src=\"21.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "q#YSQpNvHn", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "22", 
+                        "Grover Cleveland", 
+                        "1885-1889", 
+                        "<img src=\"22.png\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "u527y#*ga6", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "23", 
+                        "Benjamin Harrison", 
+                        "1889-1893", 
+                        "<img src=\"23.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "k2oi->u(R:", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "24", 
+                        "Grover Cleveland", 
+                        "1893-1897", 
+                        "<img src=\"24.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "kCq!AU~AHc", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "25", 
+                        "William McKinley", 
+                        "1897-1901", 
+                        "<img src=\"25.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "ecR}~tto4r", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "26", 
+                        "Theodore Roosevelt", 
+                        "1901-1909", 
+                        "<img src=\"26.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "tALYP6AHGg", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "27", 
+                        "William Howard Taft", 
+                        "1909-1913", 
+                        "<img src=\"27.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "sx)Mt(_1Nq", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "28", 
+                        "Woodrow Wilson<br />", 
+                        "1913-1921", 
+                        "<img src=\"28.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "h{7VKh#9)G", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "29", 
+                        "Warren G. Harding", 
+                        "1921-1923", 
+                        "<img src=\"29.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "vEk9.qZ|+T", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "30", 
+                        "Calvin Coolidge", 
+                        "1923-1929", 
+                        "<img src=\"30.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "mqbJ%3=@|T", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "31", 
+                        "Herbert Hoover", 
+                        "1929-1933", 
+                        "<img src=\"31.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "/Fh$,rb&v", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "32", 
+                        "Franklin D. Roosevelt", 
+                        "1933-1945", 
+                        "<img src=\"32.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "iM=nlJZAhJ", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "33", 
+                        "Harry S. Truman", 
+                        "1945-1953", 
+                        "<img src=\"33.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "j_UE)Ibk@C", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "34", 
+                        "Dwight D. Eisenhower", 
+                        "1953-1961", 
+                        "<img src=\"34.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "vy=c]}]v_)", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "35", 
+                        "John F. Kennedy", 
+                        "1961-1963", 
+                        "<img src=\"35.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "d|X^jc;UQ}", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "36", 
+                        "Lyndon B. Johnson", 
+                        "1963-1969", 
+                        "<img src=\"36.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "eHY#%oER`x", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "37", 
+                        "Richard M. Nixon", 
+                        "1969-1974", 
+                        "<img src=\"37.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "d+fd<6,nWg", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "38", 
+                        "Gerald R. Ford", 
+                        "1974-1977", 
+                        "<img src=\"38.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "q2GLx@t+vo", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "39", 
+                        "James Carter", 
+                        "1977-1981", 
+                        "<img src=\"39.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "o]Bz$;YR[f", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "40", 
+                        "Ronald Reagan", 
+                        "1981-1989", 
+                        "<img src=\"40.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "gVMBWRL<N}", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "41", 
+                        "George H.W. Bush", 
+                        "1989-1993", 
+                        "<img src=\"41.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "nE2fvx*5&|", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "42", 
+                        "William J. Clinton", 
+                        "1993-2001", 
+                        "<img src=\"42.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "tc&?PlJ~|v", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "43", 
+                        "George W. Bush", 
+                        "2001-2009", 
+                        "<img src=\"43.jpeg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "vb@18h/%*V", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "44", 
+                        "Barack Obama", 
+                        "2009-2017", 
+                        "<img src=\"44.jpg\" />"
+                    ], 
+                    "flags": 0, 
+                    "guid": "k1(ig)IamL", 
+                    "note_model_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+                    "tags": []
+                }
+            ]
+        }
+    ], 
     "crowdanki_uuid": "5466d345-35b7-11e7-b953-2c56dc924912", 
     "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
     "deck_configurations": [
@@ -23,31 +700,27 @@
             "new": {
                 "bury": true, 
                 "delays": [
-                    1, 
-                    2, 
-                    5, 
-                    25, 
-                    125, 
-                    625
+                    10, 
+                    120
                 ], 
                 "initialFactor": 2500, 
                 "ints": [
                     2, 
                     20
                 ], 
-                "order": 0, 
-                "perDay": 50, 
+                "order": 1, 
+                "perDay": 250, 
                 "separate": true
             }, 
             "replayq": true, 
             "rev": {
                 "bury": true, 
-                "ease4": 1.3, 
+                "ease4": 2.5, 
                 "fuzz": 0.05, 
-                "ivlFct": 1.0, 
+                "ivlFct": 1.5, 
                 "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 250
+                "perDay": 1000
             }, 
             "timer": 0
         }
@@ -56,14 +729,135 @@
     "dyn": 0, 
     "extendNew": 10, 
     "extendRev": 50, 
-    "media_files": [], 
+    "media_files": [
+        "_dark3.css"
+    ], 
     "mid": "1475043240989", 
     "name": "General::Politics", 
     "note_models": [
         {
             "__type__": "NoteModel", 
+            "crowdanki_uuid": "4562fb51-6480-11e7-adf7-2c56dc924912", 
+            "css": "@import url(\"_dark3.css\");\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Name", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Years", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Photo", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic-2d749", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1
+                    ]
+                ], 
+                [
+                    2, 
+                    "all", 
+                    [
+                        1
+                    ]
+                ], 
+                [
+                    3, 
+                    "all", 
+                    [
+                        2
+                    ]
+                ]
+            ], 
+            "sortf": 2, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section>\n<mark id=\"title\">{{Name}}</mark>\n</section>\n\n<section>\n<blockquote>\nPresident No. <b>{{Front}}</b>\n</blockquote>\n</section>\n\n</article>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "# name", 
+                    "ord": 0, 
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section>\n<mark id=\"title\"><var class=\"q\">U.S. president</var></mark>\n</section>\n\n<section>\n<blockquote>\nPresident No. <b>{{Front}}</b>\n</blockquote>\n</section>\n\n</article>\n", 
+                    "scratchPad": 0
+                }, 
+                {
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section>\n<mark id=\"title\">{{Name}}</mark>\n</section>\n\n<section>\n<blockquote>\nPresident No. <b>{{Front}}</b>\n</blockquote>\n</section>\n\n</article>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "name #", 
+                    "ord": 1, 
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section>\n<mark id=\"title\">{{Name}}</mark>\n</section>\n\n<section>\n<blockquote>\nPresident <b><var class=\"q\">number</var></b>\n</blockquote>\n</section>\n\n</article>\n"
+                }, 
+                {
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section>\n<mark id=\"title\">{{Name}}</mark>\n</section>\n\n<section>\n<blockquote>\nServed <b>{{Years}}</b>\n</blockquote>\n</section>\n\n</article>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "name years", 
+                    "ord": 2, 
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section>\n<mark id=\"title\">{{Name}}</mark>\n</section>\n\n<section>\n<blockquote>\nServed <b><var class=\"q\">which years</var></b>\n</blockquote>\n</section>\n\n</article>\n"
+                }, 
+                {
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section>\n<mark id=\"title\">{{Name}}</mark>\n</section>\n\n<section>\n<blockquote>\nServed <b>{{Years}}</b>\n</blockquote>\n</section>\n\n</article>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "years name", 
+                    "ord": 3, 
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section>\n<mark id=\"title\"><var class=\"q\">U.S. president</var></mark>\n</section>\n\n<section>\n<blockquote>\nServed <b>{{Years}}</b>\n</blockquote>\n</section>\n\n</article>\n"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\n\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar fontSize = Math.round( 400 / article.innerText.length * 100 );\nif (fontSize > 100) { fontSize = 100; }\nif (fontSize < 33) { fontSize = 33; }\nsetStyle('blockquote,details', 'fontSize', fontSize + '%');\n\n}\n</script><style>", 
+            "css": "@import url(\"_dark3.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n}\nfunction playSound() {\n    var a = new Audio(document.getElementById(\"audio\"));\n    a.play();\n}\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -86,7 +880,7 @@
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "Example", 
+                    "name": "Other", 
                     "ord": 2, 
                     "rtl": false, 
                     "size": 20, 
@@ -104,17 +898,8 @@
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "LongAnswer", 
+                    "name": "AlternateFront", 
                     "ord": 4, 
-                    "rtl": false, 
-                    "size": 20, 
-                    "sticky": true
-                }, 
-                {
-                    "font": "Arial", 
-                    "media": [], 
-                    "name": "Alternate", 
-                    "ord": 5, 
                     "rtl": false, 
                     "size": 20, 
                     "sticky": false
@@ -122,8 +907,8 @@
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "reference", 
-                    "ord": 6, 
+                    "name": "Source", 
+                    "ord": 5, 
                     "rtl": false, 
                     "size": 20, 
                     "sticky": true
@@ -131,7 +916,7 @@
             ], 
             "latexPost": "\\end{document}", 
             "latexPre": "\\documentclass[18pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}", 
-            "name": "BasicDark", 
+            "name": "CNGBasic", 
             "req": [
                 [
                     0, 
@@ -152,22 +937,22 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>{{Front}}</mark>{{#Alternate}}; <mark>{{Alternate}}</mark>{{/Alternate}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Example}}\n<section>\n<blockquote><var>{{Example}}</var></blockquote>\n</section>\n{{/Example}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>{{Front}}</mark>{{#Alternate}}; <mark>{{Alternate}}</mark>{{/Alternate}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Example}}\n<section>\n<blockquote><var>{{Example}}</var></blockquote>\n</section>\n{{/Example}}\n\n</article>\n<script>currentDeckMessages();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark>\n<var class=\"q subdeck Other\">what does the following describe</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">English</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -181,7 +966,6 @@
             "fields": [
                 "McCutcheon v. FEC", 
                 "struck down overall limits on federal political contributions", 
-                "", 
                 "", 
                 "", 
                 "", 
@@ -201,7 +985,6 @@
                 "", 
                 "", 
                 "", 
-                "", 
                 ""
             ], 
             "flags": 0, 
@@ -218,7 +1001,6 @@
                 "", 
                 "", 
                 "", 
-                "", 
                 ""
             ], 
             "flags": 0, 
@@ -232,7 +1014,6 @@
             "fields": [
                 "Party sponsored portions of TV ads", 
                 "In pre-reform 2000, the Republican and Democratic parties aired two-thirds of all advertisements in the presidential general election. In post-reform 2004, that figure dropped to one-third; in 2008, it was less than one-fourth. By 2012, just 6 percent of all advertisements were sponsored by the political parties.", 
-                "", 
                 "", 
                 "", 
                 "", 

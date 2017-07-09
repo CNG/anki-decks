@@ -1,0 +1,107 @@
+@font-face { font-family: "Optima Regular"; src: url('_Optima-Regular.ttf'); }
+@font-face { font-family: "Monaco"; src: url('_Monaco.ttf'); }
+body { margin: 0.25em; }
+.mobile body { margin:0.1em; }
+.card {
+  font-family:  "Optima", "Optima Regular", Georgia;
+  font-size: 60px;
+  text-align: left;
+  background-color: #002b36;
+  color: #93a1a1; /* grey */
+}
+.mobile .card { font-size: 50px; }
+section, blockquote { margin-bottom: 0.5em; }
+br { display: block; margin-top: 0.25em; content: " "; }
+code {
+  word-spacing: -0.25em;
+  letter-spacing: -0.05em;
+  font-variant-ligatures: none !important;
+  font-variant: none !important;
+}
+
+pre, code, tt { white-space: pre-wrap; }
+code, tt { font-family: Monaco, monospace; }
+blockquote code, details code { word-spacing: inherit; letter-spacing: inherit; }
+a { color: inherit; text-decoration: none; }
+a:hover { color: #d33682; }
+img.latex { padding: 1em; background: #fff; }
+kbd {
+  box-shadow: inset 0px 1px 0px 0px #fff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  padding: 0px 10px;
+  text-align: center;
+  text-shadow: 1px 1px 0px #ffffff;
+}
+div.codehilite { background: inherit !important; }
+
+blockquote { margin: 0; font-size: 0.75em; }
+blockquote pre { font-size: 0.75em; }
+
+mark, cite { font-size: 1em; }
+@media screen and (orientation:portrait) {
+  .mobile mark, .mobile cite { font-size: 0.65em; }
+}
+@media screen and (orientation:landscape) {
+  .mobile blockquote { margin: 0; font-size: 0.55em; }
+  .mobile blockquote pre { font-size: 0.55em; }
+}
+
+mark, cite { font-weight: bold; }
+blockquote { color: #268bd2; /* blue */ }
+mark { background-color: inherit; color: #2aa198; /* cyan */ }
+cite { font-style: inherit; color: #268bd2; /* blue */ }
+mark strong, mark b { color: #d75f00; /* brred */ }
+cite strong, cite b { color: #6c71c4; /* violet */ }
+var { color: #d75f00; /* brred */ }
+var.q { color: #b58900; /* yellow */ }
+var.q:after { content: '?'; }
+small.subdeck { position: absolute; display: inline-block; top: 0; right: 0; color: #6c71c4; font-size: 18px; font-weight: normal; }
+
+details { font-size: 0.5em; margin-top: 1em; }
+.decap:first-letter { text-transform: lowercase; }
+
+samp, em code, i code, code em, code i { color: #6c71c4; /* violet */ }
+strong code, b code, code strong, code b { color: #2aa198; /* cyan */ }
+cite strong code, cite b code, cite code strong, cite code b, strong code cite, b code cite, code strong cite, code b cite {
+  color: #6c71c4; /* violet */
+}
+em blockquote, i blockquote, blockquote em, blockquote i { color: #6c71c4; /* violet */ }
+strong blockquote, b blockquote, blockquote strong, blockquote b { color: #2aa198; /* cyan */ }
+blockquote code, blockquote tt { color: #cb4b16; /* orange */ }
+/* mark code { color: #268bd2; /* blue  } */
+code i, i code, tt i, i tt, pre i, i pre, code em, em code, tt em, em tt, pre em, em pre { xpadding-left: 0.1em; padding-right: 0.35em; font-style: normal; }
+.front strike { text-decoration: none; display: inline-block; width: 4em; overflow: hidden; text-indent: -9000px; box-shadow: inset 0 -5px 0 #b58900;}
+.back strike { text-decoration: none; }
+
+/* styles from www.regular-expressions.info */
+.regexnest1 { color: #000000; background-color: #60F040; }
+.regexplain { background-color: #FFE0C0; }
+.regexspecial { color: #000080; background-color: #80C0FF; }
+.regexnest2 { color: #000000; background-color: #00C000; }
+.regexnest3 { color: #FFFFFF; background-color: #006000; }
+.regexccopen { color: #181000; background-color: #FFC040; font-weight: bold; }
+.regexccspecial { color: #181000; background-color: #F09000; }
+.regexccliteral { color: #302000; background-color: #FFC040; }
+.regexescaped { color: #202020; background-color: #C0C0C0; }
+.regexccrange { color: #302000; background-color: #F8A820; }
+.regexcomment { color: #0000FF; background-color: #FFE0C0; font-weight: bold; font-style: italic; }
+.regexerr { color: #FFFFFF; background-color: #FF0000; }
+.regexmeta { color: #300040; background-color: #C080FF; }
+.replaceplain { background-color: #FFF860; }
+.characterstring { color: #0000FF; }
+.comment { color: #FF0000; font-style: italic; }
+.numericconstant { color: #000080; }
+.reservedword { font-weight: bold; }
+tt.match { background-color: #C0E0FF; }
+tt.string { background-color: #C0FFC0; }
+
+.regexnest1, .regexplain, .regexspecial, .regexnest2, .regexnest3, .regexccopen, .regexccspecial, .regexccliteral, .regexescaped, .regexccrange, .regexcomment, .regexerr, .regexmeta, .replaceplain, .characterstring, .comment, .numericconstant, .reservedword {
+  font-family: Monaco, monospace;
+}
+.CNGBasic mark code { color: #d75f00; /* brred */ }
+details { color: inherit; }
+
