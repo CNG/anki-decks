@@ -3224,8 +3224,8 @@
                         "-8", 
                         "--8-bit-output", 
                         "", 
-                        "leave high-bit chars unescaped in output", 
-                        "", 
+                        "<b>leave high-bit chars unescaped in output</b><div><br /></div><div>This tells rsync to leave all high-bit characters unescaped in the output instead of trying to test them to see if they're valid in the current locale and escaping the invalid ones. All control characters (but never tabs) are always escaped, regardless of this option's setting. The escape idiom that started in 2.6.7 is to output a literal backslash (\\) and a hash (#), followed by exactly 3 octal digits.</div>", 
+                        "For example, a newline would output as \"\\#012\". A literal backslash that is in a filename is not escaped unless it is followed by a hash and 3 digits (0-9).", 
                         ""
                     ], 
                     "flags": 0, 
@@ -3602,7 +3602,7 @@
                         "-4", 
                         "--ipv4", 
                         "", 
-                        "prefer IPv4", 
+                        "Tells rsync to prefer IPv4/IPv6 when creating sockets. This only affects sockets that rsync has direct control over, such as the outgoing socket when directly contacting an rsync daemon. See also these options in the&nbsp;<strong>--daemon</strong>&nbsp;mode section.&nbsp;If rsync was complied without support for IPv6, the&nbsp;<strong>--ipv6</strong>&nbsp;option will have no effect. The&nbsp;<strong>--version</strong>&nbsp;output will tell you if this is the case.&nbsp;", 
                         "", 
                         ""
                     ], 
@@ -3623,7 +3623,7 @@
                         "-6", 
                         "--ipv6", 
                         "", 
-                        "prefer IPv6", 
+                        "Tells rsync to prefer IPv4/IPv6\nwhen creating sockets.  This only affects sockets that rsync has direct\ncontrol over, such as the outgoing socket when directly contacting an\nrsync daemon.  See also these options in the <strong>--daemon</strong> mode section.&nbsp;If rsync was complied without support for IPv6, the <strong>--ipv6</strong> option\nwill have no effect.  The <strong>--version</strong> output will tell you if this\nis the case.&nbsp;", 
                         "", 
                         ""
                     ], 
@@ -8163,7 +8163,7 @@
                         "", 
                         "", 
                         "source", 
-                        "<p>A synonym for <code>.</code> (see <a href=\"https://www.gnu.org/software/bash/manual/html_node/Bourne-Shell-Builtins.html#Bourne-Shell-Builtins\">Bourne Shell Builtins</a>). </p>", 
+                        "<p>synonym for <code>.</code></p>", 
                         "source <var>filename</var>", 
                         ""
                     ], 
@@ -8247,7 +8247,7 @@
                         "", 
                         "", 
                         "unalias", 
-                        "<p>Remove each <var>name</var> from the list of aliases.  If <samp>-a</samp> is supplied, all aliases are removed. Aliases are described in <a href=\"https://www.gnu.org/software/bash/manual/html_node/Aliases.html#Aliases\">Aliases</a>. </p>", 
+                        "Remove each <var>name</var> from the list of aliases.", 
                         "unalias [-a] [<var>name</var> … ]", 
                         ""
                     ], 
@@ -11794,7 +11794,7 @@
                         "", 
                         "", 
                         "progcomp", 
-                        "<p>If set, the programmable completion facilities (see <a href=Programmable-Completion.html#Programmable-Completion\">Programmable Completion</a>) are enabled. This option is enabled by default.</p>\"", 
+                        "<p>If set, the programmable completion facilities&nbsp;are enabled. This option is enabled by default.</p>", 
                         "", 
                         ""
                     ], 
@@ -11815,7 +11815,7 @@
                         "", 
                         "", 
                         "promptvars", 
-                        "<p>If set, prompt strings undergo parameter expansion, command substitution, arithmetic expansion, and quote removal after being expanded as described below (see <a href=Controlling-the-Prompt.html#Controlling-the-Prompt\">Controlling the Prompt</a>). This option is enabled by default.</p>\"", 
+                        "<p>If set, prompt strings undergo parameter expansion, command substitution, arithmetic expansion, and quote removal after being expanded. This option is enabled by default.</p>", 
                         "", 
                         ""
                     ], 
@@ -11836,7 +11836,7 @@
                         "", 
                         "", 
                         "restricted_shell", 
-                        "<p>The shell sets this option if it is started in restricted mode (see <a href=The-Restricted-Shell.html#The-Restricted-Shell\">The Restricted Shell</a>). The value may not be changed. This is not reset when the startup files are executed, allowing the startup files to discover whether or not a shell is restricted.</p>\"", 
+                        "<p>The shell sets this option if it is started in restricted mode. The value may not be changed. This is not reset when the startup files are executed, allowing the startup files to discover whether or not a shell is restricted.</p>", 
                         "", 
                         ""
                     ], 
@@ -21626,6 +21626,27 @@
                         "bash", 
                         "mapfile"
                     ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "bash builtin&nbsp;unalias -a", 
+                        "unalias", 
+                        "", 
+                        "-a", 
+                        "", 
+                        "", 
+                        "Remove all aliases.", 
+                        "<code>unalias -a</code>", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "x^aN+xF/[3", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": [
+                        "bash"
+                    ]
                 }
             ]
         }, 
@@ -28334,6 +28355,1029 @@
                     "guid": "uKcs;^*|t5", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Portable Python shebang", 
+                        "<code>#!/usr/bin/env python</code>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "zJ}Q6G9n84", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Integers in <b>Python 2.x</b>", 
+                        "two integer types: normal (often 32 bits) and long (unlimited precision), and an integer may end in an <code>l</code> or <code>L</code> to force it to become a long integer.<div><br /></div><div>They are automatically converted to long integers when their values overflow their allocated bits, so you never need to type the&nbsp;<code>L</code> yourself.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "h4}-bjRke_", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Integers in <b>Python 3.x</b>", 
+                        "In <b>Python 3.X</b>, the normal and long integer types have been merged — there is only integer, which automatically supports the unlimited precision of <b>Python 2.X</b>’s separate long integer type. Because of this, integers can no longer be coded with a trailing <code>l</code> or <code>L</code>, and integers never print with this character either.", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "v45t+hgL3$", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "How do octal literals differ between <b>Python 2</b> and <b>3</b>?", 
+                        "Octal literals start with a leading <code>0o</code> or <code>0O</code> (zero and lower- or uppercase letter o), followed by a string of digits (<code>0–7</code>). In <b>2.X</b>, octal literals can also be coded with just a leading <code>0</code>, but not in <b>3.X</b> — this original octal form is too easily confused with decimal, and is replaced by the new <code>0o</code> format, which can also be used in <b>2.X</b> as of <b>2.6</b>.", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "gA~DFfZp%!", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Which Python versions support binary literals?", 
+                        "Binary literals, new as of&nbsp;<b>2.6</b>&nbsp;and&nbsp;<b>3.0</b>, begin with a leading&nbsp;<code>0b</code>&nbsp;or&nbsp;<code>0B</code>, followed by binary digits (<code>0–1</code>).", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "hclL8frdwN", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "What object type do a hexadecimal literals produce in Python?", 
+                        "All of the literals produce <b>integer objects</b> in program code; they are just alternative syntaxes for specifying values. The built-in calls <code>hex(I)</code>, <code>oct(I)</code>, and <code>bin(I)</code> convert an integer to its representation string in these three bases, and <code>int(str, base)</code> converts a runtime string to an integer per a given base.", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ofZ*9DNY?*", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "What object type do octal literals produce in Python?", 
+                        "All of the literals produce <b>integer objects</b> in program code; they are just alternative syntaxes for specifying values. The built-in calls <code>hex(I)</code>, <code>oct(I)</code>, and <code>bin(I)</code> convert an integer to its representation string in these three bases, and <code>int(str, base)</code> converts a runtime string to an integer per a given base.", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "dR#3Uv5BDI", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "What object type do binary literals produce in Python?", 
+                        "All of the literals produce <b>integer objects</b> in program code; they are just alternative syntaxes for specifying values. The built-in calls <code>hex(I)</code>, <code>oct(I)</code>, and <code>bin(I)</code> convert an integer to its representation string in these three bases, and <code>int(str, base)</code> converts a runtime string to an integer per a given base.", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "L?L|,kj*S7", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>yield <i>x</i></code>", 
+                        "<b>generator function <code>send</code> protocol</b> operator", 
+                        "requires parentheses if not alone on the right side of an assignment statement", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "OHS4e.F${Q", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>lambda <i>args</i>: <i>expression</i></code>", 
+                        "<b>anonymous function generation</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "pyMC][4@][", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> if <i>y</i> else <i>z</i></code>", 
+                        "<b>ternary selection</b>&nbsp;operator", 
+                        "<code>x</code> is evaluated only if <code>y</code> is true", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "l1We5HJZuR", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> or <i>y</i></code>", 
+                        "<b>logical OR</b>&nbsp;operator", 
+                        "<code>y</code> is evaluated only if <code>x</code> is false", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "C,~Jl*qF$f", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> and <i>y</i></code>", 
+                        "<b>logical AND</b> operator", 
+                        "<code>y</code> is evaluated only if <code>x</code> is true", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "t}gG@mo3mw", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>not <i>x</i></code>", 
+                        "<b>logical negation</b> operator", 
+                        "<br />", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Q}}&DKX(U@", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> in <i>y</i></code>", 
+                        "<b>membership </b>operator&nbsp;(iterables, sets)", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "g1FM_bHv{B", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> not in <i>y</i></code>", 
+                        "<b>negative membership</b> operator&nbsp;(iterables, sets)", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "xr;vZjB[ad", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> is <i>y</i></code>", 
+                        "<b>object identity test</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "cPnLl!dlbb", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> is not <i>y</i></code>", 
+                        "<b>negative object identity test</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "umR~~bb{?g", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> &lt; <i>y</i></code>,<i> </i><code><i>x</i> &lt;= <i>y</i></code>, <code><i>x</i> &gt; <i>y</i></code>, <code><i>x</i> &gt;= <i>y</i></code>", 
+                        "<b>magnitude comparison</b> and <b>set subset and superset</b> operators", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "y(d$wq!G)_", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> == <i>y</i></code>", 
+                        "<b>value equality</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "v{pR}lrOMz", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> != <i>y</i></code>", 
+                        "<b>value inequality</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "E[B-#~~eBJ", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> | <i>y</i></code>", 
+                        "<b>bitwise OR</b> and&nbsp;<b>set union</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "uQ(DUQMo(m", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> ^ <i>y</i></code>", 
+                        "<b>bitwise XOR</b> and&nbsp;<b>set symmetric difference</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "zRe.^Z27O[", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> &amp; <i>y</i></code>", 
+                        "<b>bitwise AND</b> and <b>set intersection</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "t{0tk#KF)L", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> &lt;&lt; <i>y</i></code>, <code><i>x</i> &gt;&gt; <i>y</i></code>", 
+                        "<b>shift <code>x</code> left or right by <code>y</code> bits</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "rxvr|qq!zo", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> + <i>y</i></code>", 
+                        "<b>addition</b> and&nbsp;<b>concatenation</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "o7=j:m6AY0", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> - <i>y</i></code>", 
+                        "<b>subtraction</b> and&nbsp;<b>set difference</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "lDRww7#!?H", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> * <i>y</i></code>", 
+                        "<b>multiplication</b> and&nbsp;<b>repetition</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "L-),vl`dN#", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> % <i>y</i></code>", 
+                        "<b>remainder</b> and&nbsp;<b>format</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "l?4TBeL.+e", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> / <i>y</i></code>", 
+                        "<div><b>true division</b>&nbsp;operator in<b>&nbsp;3.X</b></div><div><b>classic (truncating) division</b>&nbsp;operator in<b>&nbsp;2.X</b></div><div><b><br /></b></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "vwj$S!z*rS", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> // <i>y</i></code>", 
+                        "<b>floor division</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "G,ph!NCL`7", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>-<i>x</i></code>", 
+                        "<b>negation</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "EuCyl?t7CJ", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>+<i>x</i></code>", 
+                        "<b>identity</b> operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "FH-6vpaHg4", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code></code><code>˜<i>x</i></code>", 
+                        "<b>bitwise NOT </b>(inversion) operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "E@w|SlfCZ(", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code></code><code><i>x</i> ** <i>y</i></code>", 
+                        "<b>power</b> (exponentiation)&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "smQ><BLThA", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code></code><code><i>x</i>[<i>i</i>]</code>", 
+                        "<b>indexing</b> (sequence, mapping, others)&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Ck*@fQ[x1-", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code></code><code><i>x</i>[<i>i</i>:<i>j</i>:<i>k</i>]</code>", 
+                        "<b>slicing</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "OH8p{:1=&8", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code></code><code><i>x</i>(<i>...</i>)</code>", 
+                        "<b>call </b>(function, method, class, other callable)&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "f_?E%w`5WQ", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i>.<i>attr</i></code>", 
+                        "<b>attribute reference</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "I*ESsm,J@O", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>(<i>...</i>)</code>", 
+                        "<b>tuple</b>, <b>expression</b> and&nbsp;<b>generator expression</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "qH.tWAP@ka", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>[<i>...</i>]</code>", 
+                        "<b>list</b> and<b> list comprehension</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "r9k6NKYwQT", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>{<i>...</i>}</code>", 
+                        "<b>dictionary</b>,&nbsp;<b style=\"font-weight: bold; \">dictionary comprehension</b>,&nbsp;<b>set</b> and <b>set comprehension</b>&nbsp;operator", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Q}j[xq[4d|", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code><i>x</i> &lt;&gt; <i>y</i></code>", 
+                        "deprecated&nbsp;<b>value inequality</b>&nbsp;operator, works through&nbsp;<b>Python 2.X</b>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "nkL!;y.8yJ", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>`<i>x</i>`</code>", 
+                        "deprecated <b>object to display string</b> operator, works through&nbsp;<b>Python 2.X</b><div>use <code>str</code> and <code>repr</code> built-in functions instead</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "w/wR*$.V@{", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Does <code>yield x</code> require parentheses?", 
+                        "if not alone on the right side of an assignment statement", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "wUP$hR:/&n", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Can comparison operators be chained?", 
+                        "Yes, <code>x &gt; y &gt; z</code> produces the same result as&nbsp;<code>x &gt; y and y &gt; z</code>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "GC^j8kJW+)", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "operators", 
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>math.floor(-2.5)</code>", 
+                        "<div><code>-3</code></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Q+@QAN#)e]", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>math.floor(2.5)</code>", 
+                        "<div><code>2</code></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "e]V]LI#x)E", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>math.trunc(2.5)</code>", 
+                        "<div><code>2</code></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "y8:_N/7PLj", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>math.trunc(-2.5)</code>", 
+                        "<div><code>-2</code></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "O3v#~u9C2l", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "ways to compute square roots", 
+                        "<ul>\n<li style=\"text-align: left; \"><strong>module function</strong>: <code>math.sqrt(144)</code></li>\n<li style=\"text-align: left; \"><strong>expression</strong>: <code>144 ** .5</code></li>\n<li style=\"text-align: left; \"><strong>built-in function</strong>: <code>pow(144, .5)</code></li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk2NzA2NDAsICJpZCI6ICIxNDk5NjcwNDM4OTQ5LTAwMSIsICJtZCI6ICIqICoqbW9kdWxlIGZ1bmN0aW9uKio6IGBtYXRoLnNxcnQoMTQ0KWBcbiogKipleHByZXNzaW9uKio6IGAxNDQgKiogLjVgXG4qICoqYnVpbHQtaW4gZnVuY3Rpb24qKjogYHBvdygxNDQsIC41KWBcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "uRMcTr9Rd$", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "taming <code>a = Fraction(123456, 125412451)</code>", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">a.limit_denominator(</span><span style=\"color: #3677a9\">10</span><span style=\"color: #d0d0d0\">)</span>\n<span style=\"color: #d0d0d0\">Fraction(</span><span style=\"color: #3677a9\">5</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk2NzA3NzQsICJpZCI6ICIxNDk5NjcwNjUyOTk4LTAwMSIsICJtZCI6ICIgICAgOjo6UHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IGEubGltaXRfZGVub21pbmF0b3IoMTApXG4gICAgRnJhY3Rpb24oNSwgMylcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "DuIYM%DfS2", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Can sets be used in <code>len</code>, <code>for</code> loops and list comprehensions?", 
+                        "<div>Yes, because sets are <i>iterable</i> containers</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "yMM+wJO|jt", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Do sets support sequence operations like indexing and slicing?", 
+                        "<div>No, because while sets are <i>iterable</i> containers, they are <i>unordered</i>.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "FQ$Wt@ESY", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Set literals in <b>2.X</b> and <b>3.X</b>", 
+                        "Regardless of how a set is made, <b>3.X</b> displays it using the new literal format. Python <b>2.7</b> accepts the new literal syntax, but still displays sets using the <b>2.6</b> display form of the prior section. In all Pythons, the set built-in is still required to create empty sets and to build sets from existing iterable objects (short of using set comprehensions), but the new literal is convenient for initializing sets of known structure.\n\n", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "MjB2b)1nlY", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "immutable constraints and frozen sets", 
+                        "sets can only contain <i>immutable</i> (a.k.a. “hashable”) object types. Hence, lists and dictionaries cannot be embedded in sets, but tuples can if you need to store compound values.\n\n", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "egIt&?!0kW", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "remove duplicates in list <code>L</code>", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">L</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #24909d\">list</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #24909d\">set</span><span style=\"color: #d0d0d0\">(L))</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk2NzExNjksICJpZCI6ICIxNDk5NjcxMTI4MzQ2LTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgTCA9IGxpc3Qoc2V0KEwpKVxuIn0=---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "MGPtRcv;1N", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
                 }
             ]
         }, 
@@ -30767,7 +31811,7 @@
                     20
                 ], 
                 "order": 1, 
-                "perDay": 250, 
+                "perDay": 100, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -30998,8 +32042,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "bash", 
-                "mapfile"
+                "bash"
             ], 
             "tmpls": [
                 {
@@ -31221,7 +32264,7 @@
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q\">{{Subdeck}} meaning</var>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
@@ -31230,7 +32273,7 @@
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this in {{Subdeck}}</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
