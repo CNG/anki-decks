@@ -10387,7 +10387,7 @@
                         "", 
                         "", 
                         "", 
-                        "<p>If no options or arguments are supplied, <code>set</code> displays the names and values of all shell variables and functions, sorted according to the current locale, in a format that may be reused as input for setting or resetting the currently-set variables. Read-only variables cannot be reset. In <small>POSIX</small> mode, only shell variables are listed. </p> <p>When options are supplied, they set or unset shell attributes.</p> <p>Using <samp><code>+</code></samp>&nbsp;rather than <samp><code>-</code></samp>&nbsp;causes these options to be turned off.  The options can also be used upon invocation of the shell.  The current set of options may be found in <code>$-</code>. </p> <p>The remaining N <var>arguments</var> are positional parameters and are assigned, in order, to <code>$1</code>, <code>$2</code>, …  <code>$N</code>. The special parameter <code>#</code> is set to N. </p> <p>The return status is always zero unless an invalid option is supplied. </p>", 
+                        "<p>If no options or arguments are supplied,&nbsp;displays the names and values of all shell variables and functions, sorted according to the current locale, in a format that may be reused as input for setting or resetting the currently-set variables. Read-only variables cannot be reset. In <small>POSIX</small> mode, only shell variables are listed. </p> <p>When options are supplied, they set or unset shell attributes.</p> <p>Using <samp><code>+</code></samp>&nbsp;rather than <samp><code>-</code></samp>&nbsp;causes these options to be turned off.  The options can also be used upon invocation of the shell.  The current set of options may be found in <code>$-</code>. </p> <p>The remaining N <var>arguments</var> are positional parameters and are assigned, in order, to <code>$1</code>, <code>$2</code>, …  <code>$N</code>. The special parameter <code>#</code> is set to N. </p> <p>The return status is always zero unless an invalid option is supplied. </p>", 
                         "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #24909d\">set</span> <span style=\"color: #d0d0d0\">[</span>--abefhkmnptuvxBCEHPT<span style=\"color: #d0d0d0\">]</span> <span style=\"color: #d0d0d0\">[</span>-o option-name<span style=\"color: #d0d0d0\">]</span> <span style=\"color: #d0d0d0\">[</span>argument …<span style=\"color: #d0d0d0\">]</span> <span style=\"color: #24909d\">set</span> <span style=\"color: #d0d0d0\">[</span>+abefhkmnptuvxBCEHPT<span style=\"color: #d0d0d0\">]</span> <span style=\"color: #d0d0d0\">[</span>+o option-name<span style=\"color: #d0d0d0\">]</span> <span style=\"color: #d0d0d0\">[</span>argument …<span style=\"color: #d0d0d0\">]</span> </pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTUyNjk3MDgsICJpZCI6ICIxNDk1MjY5NDEyMjc1LTAwNyIsICJtZCI6ICIgICAgOjo6YmFzaFxuICAgIHNldCBbLS1hYmVmaGttbnB0dXZ4QkNFSFBUXSBbLW8gb3B0aW9uLW5hbWVdIFthcmd1bWVudCBcdTIwMjZdXG4gICAgc2V0IFsrYWJlZmhrbW5wdHV2eEJDRUhQVF0gWytvIG9wdGlvbi1uYW1lXSBbYXJndW1lbnQgXHUyMDI2XVxuIn0=---->", 
                         "y"
                     ], 
@@ -11563,7 +11563,7 @@
                         "", 
                         "", 
                         "huponexit", 
-                        "<p>If set, Bash will send <code>SIGHUP</code> to all jobs when an interactive login shell exits (see <a href='Signals.html#Signals\"'>Signals</a>).</p>", 
+                        "<p>Send <code>SIGHUP</code> to all jobs when an interactive login shell exits</p>", 
                         "", 
                         ""
                     ], 
@@ -12362,7 +12362,7 @@
                         "", 
                         "", 
                         "The first form lists the active jobs.<div><br /></div><div>If <var>jobspec</var> is given, output is restricted to information about that job.  If <var>jobspec</var> is not supplied, the status of all jobs is listed.</div> <p>If the <samp>-x</samp> option is supplied, <code>jobs</code> replaces any <var>jobspec</var> found in <var>command</var> or <var>arguments</var> with the corresponding process group <small>ID</small>, and executes <var>command</var>, passing it <var>argument</var>s, returning its exit status.  </p>", 
-                        "jobs [-lnprs] [<var>jobspec</var>] jobs -x <var>command</var> [<var>arguments</var>]", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #24909d\">jobs</span> <span style=\"color: #d0d0d0\">[</span>-lnprs<span style=\"color: #d0d0d0\">]</span> <span style=\"color: #d0d0d0\">[</span><i>jobspec</i><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #24909d\">jobs</span> -x <span style=\"color: #24909d\"><i>command</i></span> <span style=\"color: #d0d0d0\">[</span><i>arguments</i><span style=\"color: #d0d0d0\">]</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MjU0MzAsICJpZCI6ICIxNDk1MjcyNjUyNTIxLTAwNyIsICJtZCI6ICIgICAgOjo6YmFzaFxuICAgIGpvYnMgWy1sbnByc10gW2pvYnNwZWNdXG4gICAgam9icyAteCBjb21tYW5kIFthcmd1bWVudHNdXG4ifQ==---->", 
                         "y"
                     ], 
                     "flags": 0, 
@@ -12377,13 +12377,13 @@
                     "data": "", 
                     "fields": [
                         "bash&nbsp;jobs&nbsp;builtin bg", 
-                        "bg", 
+                        "bg&nbsp;[<var>jobspec</var>&nbsp;…]", 
                         "", 
                         "", 
                         "", 
                         "", 
                         "<p>Resume each suspended job <var>jobspec</var> in the background, as if it had been started with <samp><code>&amp;</code></samp>. If <var>jobspec</var> is not supplied, the current job is used. The return status is zero unless it is run when job control is not enabled, or, when run with job control enabled, any <var>jobspec</var> was not found or specifies a job that was started without job control. </p>", 
-                        "bg [<var>jobspec</var>&nbsp;…]", 
+                        "", 
                         "y"
                     ], 
                     "flags": 0, 
@@ -12424,8 +12424,8 @@
                         "", 
                         "", 
                         "", 
-                        "<p>Send a signal specified by <var>sigspec</var> or <var>signum</var> to the process named by job specification <var>jobspec</var> or process <small>ID</small> <var>pid</var>. <var>sigspec</var> is either a case-insensitive signal name such as <code>SIGINT</code> (with or without the <code>SIG</code> prefix) or a signal number; <var>signum</var> is a signal number. If <var>sigspec</var> and <var>signum</var> are not present, <code>SIGTERM</code> is used. The <samp>-l</samp> option lists the signal names. If any arguments are supplied when <samp>-l</samp> is given, the names of the signals corresponding to the arguments are listed, and the return status is zero. <var>exit_status</var> is a number specifying a signal number or the exit status of a process terminated by a signal. The <samp>-L</samp> option is equivalent to <samp>-l</samp>. The return status is zero if at least one signal was successfully sent, or non-zero if an error occurs or an invalid option is encountered. </p><p>When job control is not active, the <code>kill</code> and <code>wait</code> builtins do not accept <var>jobspec</var> arguments.  They must be supplied process <var>ID</var>s.</p>", 
-                        "kill [-s <var>sigspec</var>] [-n <var>signum</var>] [-<var>sigspec</var>] <var>jobspec</var> or <var>pid</var> kill -l|-L [<var>exit_status</var>]", 
+                        "<p>Send a signal specified by <var>sigspec</var> or <var>signum</var> to the process named by job specification <var>jobspec</var> or process <small>ID</small> <var>pid</var>. <var>sigspec</var> is either a case-insensitive signal name such as <code>SIGINT</code> (with or without the <code>SIG</code> prefix) or a signal number; <var>signum</var> is a signal number. If <var>sigspec</var> and <var>signum</var> are not present, <code>SIGTERM</code> is used. The <samp>-l</samp> option lists the signal names. If any arguments are supplied when <samp>-l</samp> is given, the names of the signals corresponding to the arguments are listed, and the return status is zero. <var>exit_status</var> is a number specifying a signal number or the exit status of a process terminated by a signal. The <samp>-L</samp> option is equivalent to <samp>-l</samp>. The return status is zero if at least one signal was successfully sent, or non-zero if an error occurs or an invalid option is encountered. </p><p>When job control is not active, the <code><strike>kill</strike></code> and <code><strike>wait</strike></code> builtins do not accept <var>jobspec</var> arguments.  They must be supplied process <var>ID</var>s.</p>", 
+                        "kill [-s <var>sigspec</var>] [-n <var>signum</var>] [-<var>sigspec</var>] [&nbsp;<var>jobspec</var> | <var>pid ]</var><div>kill -l|-L [<var>exit_status</var>]</div>", 
                         "y"
                     ], 
                     "flags": 0, 
@@ -27925,7 +27925,7 @@
                     "data": "", 
                     "fields": [
                         "Python core mutable types", 
-                        "lists, dictionaries, sets", 
+                        "lists, dictionaries, sets, <code>bytearray</code>", 
                         "", 
                         "", 
                         "", 
@@ -27941,7 +27941,7 @@
                     "data": "", 
                     "fields": [
                         "Python core immutable types", 
-                        "numbers, strings, tuples", 
+                        "numbers, strings, tuples<div>also,&nbsp;<code>frozenset</code> is immutable variant of <code>set</code></div>", 
                         "", 
                         "", 
                         "", 
@@ -28409,7 +28409,7 @@
                     "data": "", 
                     "fields": [
                         "How do octal literals differ between <b>Python 2</b> and <b>3</b>?", 
-                        "Octal literals start with a leading <code>0o</code> or <code>0O</code> (zero and lower- or uppercase letter o), followed by a string of digits (<code>0–7</code>). In <b>2.X</b>, octal literals can also be coded with just a leading <code>0</code>, but not in <b>3.X</b> — this original octal form is too easily confused with decimal, and is replaced by the new <code>0o</code> format, which can also be used in <b>2.X</b> as of <b>2.6</b>.", 
+                        "<div><b>2.X</b>: <code>0[0-7]+</code></div><div><div><b>2.6</b>:&nbsp;<code>0[0-7]+</code> or&nbsp;<code>0o[0-7]+</code> or&nbsp;<code>0O[0-7]+</code></div></div><div><div><b>3.X</b>:&nbsp;<code>0o[0-7]+</code> or&nbsp;<code>0O[0-7]+</code></div></div>", 
                         "", 
                         "", 
                         "", 
@@ -29378,6 +29378,1985 @@
                     "guid": "MGPtRcv;1N", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Can one variable point to another variable?", 
+                        "No.&nbsp;Python variables are always pointers to objects, not labels of changeable memory areas: setting a variable to a new value does not alter the original object, but rather causes the variable to reference an entirely different object. The net effect is that assignment to a variable itself can impact only the single variable being assigned. When mutable objects and in-place changes enter the equation, though, the picture changes somewhat", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "mRfvp)4)NW", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Ways to copy a <i>list</i> instead of making a reference", 
+                        "built in <b><code>list</code> function</b>, standard library <b><code>copy</code> module</b>, <b>slice</b>&nbsp;start to finish <code>[:]</code>&nbsp;or as of <b>3.3</b>:&nbsp;<code><i>X</i>.copy()</code>&nbsp;method call", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "c-Xh[aiN`n", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Ways to copy a <i>dictionary</i>&nbsp;or <i>set</i> instead of making a reference", 
+                        "<p>Slicing won’t work on <em>dictionaries</em> or <em>sets</em> because they are not sequences, so you must use their <em><code>X</code></em><code>.copy()</code> method call (lists have one as of <strong>3.3</strong> as well) or pass the original object to their type names, <code>dict</code> and <code>set</code>.</p>\n<p>The standard library copy module has a call for copying any object type generically, as well as a call for copying nested object structures — a <em>dictionary</em> with nested <em>list</em>​s, for example:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">import</span> <span style=\"color: #447fcf; text-decoration: underline\">copy</span>\n\n<span style=\"color: #999999; font-style: italic\"># Make top-level \"shallow\" copy of any object Y</span>\n<span style=\"color: #d0d0d0\">X</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">copy.copy(Y)</span>\n\n<span style=\"color: #999999; font-style: italic\"># Make deep copy of any object Y: copy all nested parts</span>\n<span style=\"color: #d0d0d0\">X</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">copy.deepcopy(Y)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3Mjg5MjYsICJpZCI6ICIxNDk5NzI4MTYzNjIxLTAwMSIsICJtZCI6ICJTbGljaW5nIHdvblx1MjAxOXQgd29yayBvbiBfZGljdGlvbmFyaWVzXyBvciBfc2V0c18gYmVjYXVzZSB0aGV5IGFyZSBub3Qgc2VxdWVuY2VzLCBzbyB5b3UgbXVzdCB1c2UgdGhlaXIgX2BYYF9gLmNvcHkoKWAgbWV0aG9kIGNhbGwgKGxpc3RzIGhhdmUgb25lIGFzIG9mICoqMy4zKiogYXMgd2VsbCkgb3IgcGFzcyB0aGUgb3JpZ2luYWwgb2JqZWN0IHRvIHRoZWlyIHR5cGUgbmFtZXMsIGBkaWN0YCBhbmQgYHNldGAuXG4gIFxuVGhlIHN0YW5kYXJkIGxpYnJhcnkgY29weSBtb2R1bGUgaGFzIGEgY2FsbCBmb3IgY29weWluZyBhbnkgb2JqZWN0IHR5cGUgZ2VuZXJpY2FsbHksIGFzIHdlbGwgYXMgYSBjYWxsIGZvciBjb3B5aW5nIG5lc3RlZCBvYmplY3Qgc3RydWN0dXJlcyBcdTIwMTQgYSBfZGljdGlvbmFyeV8gd2l0aCBuZXN0ZWQgX2xpc3RfXHUyMDBicywgZm9yIGV4YW1wbGU6XG4gIFxuICAgIDo6OnB5dGhvblxuICAgIGltcG9ydCBjb3B5XG4gIFxuICAgICMgTWFrZSB0b3AtbGV2ZWwgJnF1b3Q7c2hhbGxvdyZxdW90OyBjb3B5IG9mIGFueSBvYmplY3QgWVxuICAgIFggPSBjb3B5LmNvcHkoWSlcbiAgXG4gICAgIyBNYWtlIGRlZXAgY29weSBvZiBhbnkgb2JqZWN0IFk6IGNvcHkgYWxsIG5lc3RlZCBwYXJ0c1xuICAgIFggPSBjb3B5LmRlZXBjb3B5KFkpXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "B!gu_#GUTP", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "reveal number of references to an object", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">import</span> <span style=\"color: #447fcf; text-decoration: underline\">sys</span>\n<span style=\"color: #d0d0d0\">sys.getrefcount(<i>X</i>)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MjkwNjksICJpZCI6ICIxNDk5NzI4OTU1MDUyLTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgaW1wb3J0IHN5c1xuICAgIHN5cy5nZXRyZWZjb3VudChYKVxuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "$rjkbbHW0", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "weak reference", 
+                        "<div>reference to an object that does not by itself prevent the referenced object from being garbage-collected</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "A:g_cm=MEk", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "How are weak references implemented?", 
+                        "<div>the <code>weakref</code> standard library module</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "O=lrhKn2?G", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "use case for weak references", 
+                        "<div>dictionary-based caches of large objects</div>", 
+                        "without weak references, the cache reference alone would keep the object in memory indefinitely", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "F3p>+>!X5[", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "difference between <code>'<i>string</i>'</code> and <code>\"<i>string</i>\"</code>", 
+                        "<div>None, they return the same type of object.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "m8V.Q1Y%K3", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "implicit concatenation", 
+                        "<code>'The' \" \" 'boy ' 'ran' \".\"</code>", 
+                        "<div><div>\n<p>Python automatically concatenates adjacent string literals in any expression. Adding commas would create a tuple, not a string.</p>\n</div></div>", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "QqYG%*#DF;", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "string termination character", 
+                        "<div><div><p><b>No character terminates a string in Python</b>.&nbsp;Zero (null) character like this does not terminate a string the way a “null byte” typically does in C. Instead, Python keeps both the string’s length and text in memory.</p>\n</div></div>", 
+                        "<div><div>\n<p><br /></p>\n</div></div>", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "oe.~w7-$Y=", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "how nonprintable characters are displayed", 
+                        "<div><div><p><div><div>\n<p>Python displays nonprintable characters in <b>hex</b>, regardless of how they were specified.</p>\n</div></div></p>\n</div></div>", 
+                        "<div><div>\n<p><br /></p>\n</div></div>", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "goy`>I])|:", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "string escape: <code>\\</code> followed by newline", 
+                        "continuation line (the newline is ignored)", 
+                        "<div><div>\n<p><br /></p>\n</div></div>", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "NeVj9~h.c.", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "string escape:&nbsp;<code>\\0</code>", 
+                        "null byte (does not end string)", 
+                        "<div><div>\n<p><br /></p>\n</div></div>", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "E7XLWN@b@M", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "string escape:&nbsp;<code></code><code>\\ooo</code>", 
+                        "character with octal value <code>ooo</code> up to 3 digits", 
+                        "<div><div>\n<p><br /></p>\n</div></div>", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "oo[&U-h882", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "string escape:&nbsp;<code></code><code>\\N{ <i>id</i> }</code>", 
+                        "Unicode character with database ID <code><i>id</i></code>", 
+                        "<div><div>\n<p><br /></p>\n</div></div>", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Gr*gpH8%Rx", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "how to end a raw string with a backslash", 
+                        "<ul>\n<li style=\"text-align: left; \">use two and slice off the second: <code>r'1\\nb\\tc\\\\'[:-1]</code></li>\n<li style=\"text-align: left; \">tack one on manually: <code>r'1\\nb\\tc' + '\\\\'</code></li>\n<li style=\"text-align: left; \">skip the raw string syntax and just double up the backslashes in a normal string: <code>'1\\\\nb\\\\tc\\\\'</code></li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzAyMjksICJpZCI6ICIxNDk5NzMwMDc4ODg2LTAwMSIsICJtZCI6ICIqIHVzZSB0d28gYW5kIHNsaWNlIG9mZiB0aGUgc2Vjb25kOiBgciZhcG9zOzFcXG5iXFx0Y1xcXFwmYXBvcztbOi0xXWBcbiogdGFjayBvbmUgb24gbWFudWFsbHk6IGByJmFwb3M7MVxcbmJcXHRjJmFwb3M7ICsgJmFwb3M7XFxcXCZhcG9zO2Bcbiogc2tpcCB0aGUgcmF3IHN0cmluZyBzeW50YXggYW5kIGp1c3QgZG91YmxlIHVwIHRoZSBiYWNrc2xhc2hlcyBpbiBhIG5vcm1hbCBzdHJpbmc6IGAmYXBvczsxXFxcXG5iXFxcXHRjXFxcXCZhcG9zO2BcbiJ9---->", 
+                        "<div><div>\n<p><br /></p>\n</div></div>", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "B]#~.(4xO:", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "how to comment multiline strings", 
+                        "<p>Triple quoted strings retain all enclosed text, so must comment above or below or rely on automatic concatenation and surrounding parentheses to allow line spans.</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">menu</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">\"\"\"spam  # comment here part of string!  </span>\n<span style=\"color: #ed9d13\">eggs            # ditto</span>\n<span style=\"color: #ed9d13\">\"\"\"</span>\n\n<span style=\"color: #d0d0d0\">menu</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">(</span>\n<span style=\"color: #ed9d13\">\"spam\\n\"</span>   <span style=\"color: #999999; font-style: italic\"># comment here ignored</span>\n<span style=\"color: #ed9d13\">\"eggs\\n\"</span>   <span style=\"color: #999999; font-style: italic\"># but newlines not automatic</span>\n<span style=\"color: #d0d0d0\">)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzA1NzAsICJpZCI6ICIxNDk5NzMwMjQ4OTIxLTAwMSIsICJtZCI6ICJUcmlwbGUgcXVvdGVkIHN0cmluZ3MgcmV0YWluIGFsbCBlbmNsb3NlZCB0ZXh0LCBzbyBtdXN0IGNvbW1lbnQgYWJvdmUgb3IgYmVsb3cgb3IgcmVseSBvbiBhdXRvbWF0aWMgY29uY2F0ZW5hdGlvbiBhbmQgc3Vycm91bmRpbmcgcGFyZW50aGVzZXMgdG8gYWxsb3cgbGluZSBzcGFucy5cbiAgXG4gICAgOjo6cHl0aG9uXG4gICAgbWVudSA9ICZxdW90OyZxdW90OyZxdW90O3NwYW0gICMgY29tbWVudCBoZXJlIHBhcnQgb2Ygc3RyaW5nISAgXG4gICAgZWdncyAgICAgICAgICAgICMgZGl0dG9cbiAgICAmcXVvdDsmcXVvdDsmcXVvdDtcbiAgXG4gICAgbWVudSA9IChcbiAgICAmcXVvdDtzcGFtXFxuJnF1b3Q7ICAgIyBjb21tZW50IGhlcmUgaWdub3JlZFxuICAgICZxdW90O2VnZ3NcXG4mcXVvdDsgICAjIGJ1dCBuZXdsaW5lcyBub3QgYXV0b21hdGljXG4gICAgKVxuIn0=---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Qun-W8+mpj", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "step through items in string", 
+                        "<p>(<strong>3.X</strong> <code>print</code>)</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #6ab825; font-weight: bold\">for</span> <span style=\"color: #d0d0d0\">c</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">myjob:</span> <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(c,</span> <span style=\"color: #d0d0d0\">end=</span><span style=\"color: #ed9d13\">' '</span><span style=\"color: #d0d0d0\">)</span>\n<span style=\"color: #d0d0d0\">...</span>\n<span style=\"color: #d0d0d0\">h</span> <span style=\"color: #d0d0d0\">a</span> <span style=\"color: #d0d0d0\">c</span> <span style=\"color: #d0d0d0\">k</span> <span style=\"color: #d0d0d0\">e</span> <span style=\"color: #d0d0d0\">r</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzA3OTAsICJpZCI6ICIxNDk5NzMwNTk2ODIzLTAwMSIsICJtZCI6ICIoKiozLlgqKiBgcHJpbnRgKVxuICBcbiAgICA6OjpweXRob25cbiAgICAmZ3Q7Jmd0OyZndDsgZm9yIGMgaW4gbXlqb2I6IHByaW50KGMsIGVuZD0mYXBvczsgJmFwb3M7KVxuICAgIC4uLlxuICAgIGggYSBjIGsgZSByXG4ifQ==---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Ig-OuM{KNb", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "check for character in string", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">myjob</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">\"hacker\"</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #ed9d13\">\"k\"</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">myjob</span>\n<span style=\"color: #24909d\">True</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #ed9d13\">\"z\"</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">myjob</span>\n<span style=\"color: #24909d\">False</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzA4NzIsICJpZCI6ICIxNDk5NzMwODA0MDk3LTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IG15am9iID0gJnF1b3Q7aGFja2VyJnF1b3Q7XG4gICAgJmd0OyZndDsmZ3Q7ICZxdW90O2smcXVvdDsgaW4gbXlqb2JcbiAgICBUcnVlXG4gICAgJmd0OyZndDsmZ3Q7ICZxdW90O3omcXVvdDsgaW4gbXlqb2JcbiAgICBGYWxzZVxuICBcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "s&n~F#7o+A", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "substring search", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># no position returned</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #ed9d13\">'spam'</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #ed9d13\">'abcspamdef'</span>\n<span style=\"color: #24909d\">True</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzA5NDgsICJpZCI6ICIxNDk5NzMwODgxNzg5LTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7ICMgbm8gcG9zaXRpb24gcmV0dXJuZWRcbiAgICAmZ3Q7Jmd0OyZndDsgJmFwb3M7c3BhbSZhcG9zOyBpbiAmYXBvczthYmNzcGFtZGVmJmFwb3M7XG4gICAgVHJ1ZVxuIn0=---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "e7U^2km,w8", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "extended slicing", 
+                        "<div><div><div>\n<p><code><i>S</i>[<i>i</i>:<i>j</i>:<i>k</i>]</code>&nbsp;accepts a step (or stride) <code><i>k</i></code>, which defaults to <code>+1</code>: allows for skipping items and reversing order</p>\n</div></div></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "x)n]r9jc8,", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "get all command line arguments", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">sys.argv[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">:]</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzE0MDIsICJpZCI6ICIxNDk5NzMxMDQ0NjQxLTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgc3lzLmFyZ3ZbMTpdXG4ifQ==---->", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #999999;font-style: italic\"># File echo.py</span>\n<span style=\"color: #6ab825; font-weight: bold\">import</span> <span style=\"color: #447fcf; text-decoration: underline\">sys</span>\n<span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(sys.argv)</span>\n\n<span style=\"color: #d0d0d0\">%</span> <span style=\"color: #d0d0d0\">python</span> <span style=\"color: #d0d0d0\">echo.py</span> <span style=\"color: #d0d0d0\">-a</span> <span style=\"color: #d0d0d0\">-b</span> <span style=\"color: #d0d0d0\">-c</span>\n<span style=\"color: #d0d0d0\">[</span><span style=\"color: #ed9d13\">'echo.py'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'-a'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'-b'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'-c'</span><span style=\"color: #d0d0d0\">]</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzEyNDMsICJpZCI6ICIxNDk5NzMxMDQ0NjQxLTAwMiIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgIyBGaWxlIGVjaG8ucHlcbiAgICBpbXBvcnQgc3lzXG4gICAgcHJpbnQoc3lzLmFyZ3YpXG4gIFxuICAgICUgcHl0aG9uIGVjaG8ucHkgLWEgLWIgLWNcbiAgICBbJmFwb3M7ZWNoby5weSZhcG9zOywgJmFwb3M7LWEmYXBvczssICZhcG9zOy1iJmFwb3M7LCAmYXBvczstYyZhcG9zO11cbiJ9---->", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "zHDDAfWD,Y", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Python function <code>ord</code>", 
+                        "convert single character to underlying integer code (e.g., its ASCII byte value)", 
+                        "<div>both of these convert characters to and from their Unicode ordinals or “code points,” which are just their identifying number in the underlying character set. For ASCII text, this is the familiar 7-bit integer that fits in a single byte in memory, but the range of code points for other kinds of Unicode text may be wider</div>", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "N306UPG$b_", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Python function <code>chr</code>", 
+                        "convert integer code to corresponding character", 
+                        "both of these convert characters to and from their Unicode ordinals or “code points,” which are just their identifying number in the underlying character set. For ASCII text, this is the familiar 7-bit integer that fits in a single byte in memory, but the range of code points for other kinds of Unicode text may be wider", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ILFmFe%dgE", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "string <code>join</code> method", 
+                        "<div>&nbsp; &nbsp; :::python</div><div>&nbsp; &nbsp; &gt;&gt;&gt; S = ''.join(L)</div><div>&nbsp; &nbsp; &gt;&gt;&gt; S</div><div>&nbsp; &nbsp; 'spaxxy'</div><div><br /></div><div>The `join` method may look a bit backward at first sight. Because it is a method of strings (not of lists), it is called through the desired delimiter. `join` puts the strings in a list (or other iterable) together, with the delimiter between list items; in this case, it uses an empty string delimiter to convert from a list back to a string. More generally, any string delimiter and iterable of strings will do:</div><div><br /></div><div>&nbsp; &nbsp; :::python</div><div>&nbsp; &nbsp; &gt;&gt;&gt; 'SPAM'.join(['eggs', 'sausage', 'ham', 'toast'])</div><div>&nbsp; &nbsp; 'eggsSPAMsausageSPAMhamSPAMtoast'</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "mE;Qi~W^V{", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "test if <code>string</code> ends with <code>sub</code>", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">sub</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'Ni!\\n'</span>\n<span style=\"color: #999999; font-style: italic\"># End test via method call or slice</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">line.endswith(sub)</span>\n<span style=\"color: #24909d\">True</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">line[-</span><span style=\"color: #24909d\">len</span><span style=\"color: #d0d0d0\">(sub):]</span> <span style=\"color: #d0d0d0\">==</span> <span style=\"color: #d0d0d0\">sub</span>\n<span style=\"color: #24909d\">True</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzM0MTIsICJpZCI6ICIxNDk5NzMzMjgzNjQyLTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IHN1YiA9ICZhcG9zO05pIVxcbiZhcG9zO1xuICAgICMgRW5kIHRlc3QgdmlhIG1ldGhvZCBjYWxsIG9yIHNsaWNlXG4gICAgJmd0OyZndDsmZ3Q7IGxpbmUuZW5kc3dpdGgoc3ViKVxuICAgIFRydWVcbiAgICAmZ3Q7Jmd0OyZndDsgbGluZVstbGVuKHN1Yik6XSA9PSBzdWJcbiAgICBUcnVlXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "I~6UnSM{Vc", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<i>string</i> methods <i>vs.</i> <code>string</code> module", 
+                        "<div><div><div>\n<p>In <b>2.X</b>, there technically are still two ways to invoke advanced string operations: by calling object methods, or by calling <code>string</code> module functions and passing in the objects as arguments. Use the string methods for new code.</p>\n</div></div></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Q~^/X2tES^", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<i>string</i> formatting expression syntax", 
+                        "<div><div>\n<p>The general structure of conversion targets looks like this:</p><p><code>%[(<i>keyname</i>)][<i>flags</i>][<i>width</i>][.<i>precision</i>]<i>typecode</i></code></p><p>The type code characters in the first column of Table&nbsp;7-4 show up at the end of this target string’s format. Between the <code>%</code> and the type code character, you can do any of the following:&nbsp;</p><p>* Provide a key name for indexing the dictionary used on the right side of the expression<br />* List flags that specify things like left justification (<code>−</code>), numeric sign (<code>+</code>), a blank before positive numbers and a <code>–</code> for negatives (a space), and zero fills (<code>0</code>)<br />* Give a total minimum field <code><i>width</i></code> for the substituted text<br />* Set the number of digits (precision) to display after a decimal point for floating-point numbers</p><p>Both the <code><i>width</i></code> and <code><i>precision</i></code> parts can also be coded as a <code>*</code> to specify that they should take their values from the next item in the input values on the expression’s right side (useful when this isn’t known until runtime). And if you don’t need any of these extra tools, a simple <code>%s</code> in the format string will be replaced by the corresponding value’s default print string, regardless of its type.</p>\n</div></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "yrcP7h7<};", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "dictionary based <i>string</i> formatting expression syntax", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #ed9d13\">'%(qty)d more %(food)s'</span> <span style=\"color: #d0d0d0\">%</span> <span style=\"color: #d0d0d0\">{</span><span style=\"color: #ed9d13\">'qty'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'food'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #ed9d13\">'spam'</span><span style=\"color: #d0d0d0\">}</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzQ0NjAsICJpZCI6ICIxNDk5NzM0MzcxNjk1LTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmFwb3M7JShxdHkpZCBtb3JlICUoZm9vZClzJmFwb3M7ICUgeyZhcG9zO3F0eSZhcG9zOzogMSwgJmFwb3M7Zm9vZCZhcG9zOzogJmFwb3M7c3BhbSZhcG9zO31cbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ekAh7t0?KK", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "simple templates", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Template with substitution targets</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">reply</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">\"\"\"</span>\n<span style=\"color: #ed9d13\">Greetings...</span>\n<span style=\"color: #ed9d13\">Hello %(name)s!</span>\n<span style=\"color: #ed9d13\">Your age is %(age)s</span>\n<span style=\"color: #ed9d13\">\"\"\"</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Build up values to substitute</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">values</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">{</span><span style=\"color: #ed9d13\">'name'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #ed9d13\">'Bob'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'age'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #3677a9\">40</span><span style=\"color: #d0d0d0\">}</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Perform substitutions</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(reply</span> <span style=\"color: #d0d0d0\">%</span> <span style=\"color: #d0d0d0\">values)</span>\n<span style=\"color: #d0d0d0\">Greetings...</span>\n<span style=\"color: #d0d0d0\">Hello</span> <span style=\"color: #d0d0d0\">Bob</span><span style=\"color: #a61717; background-color: #e3d2d2\">!</span>\n<span style=\"color: #d0d0d0\">Your</span> <span style=\"color: #d0d0d0\">age</span> <span style=\"color: #6ab825; font-weight: bold\">is</span> <span style=\"color: #3677a9\">40</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzQ3MTMsICJpZCI6ICIxNDk5NzM0NDY3ODc4LTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7ICMgVGVtcGxhdGUgd2l0aCBzdWJzdGl0dXRpb24gdGFyZ2V0c1xuICAgICZndDsmZ3Q7Jmd0OyByZXBseSA9ICZxdW90OyZxdW90OyZxdW90O1xuICAgIEdyZWV0aW5ncy4uLlxuICAgIEhlbGxvICUobmFtZSlzIVxuICAgIFlvdXIgYWdlIGlzICUoYWdlKXNcbiAgICAmcXVvdDsmcXVvdDsmcXVvdDtcbiAgICAmZ3Q7Jmd0OyZndDsgIyBCdWlsZCB1cCB2YWx1ZXMgdG8gc3Vic3RpdHV0ZVxuICAgICZndDsmZ3Q7Jmd0OyB2YWx1ZXMgPSB7JmFwb3M7bmFtZSZhcG9zOzogJmFwb3M7Qm9iJmFwb3M7LCAmYXBvczthZ2UmYXBvczs6IDQwfVxuICAgICZndDsmZ3Q7Jmd0OyAjIFBlcmZvcm0gc3Vic3RpdHV0aW9uc1xuICAgICZndDsmZ3Q7Jmd0OyBwcmludChyZXBseSAlIHZhbHVlcylcbiAgICBHcmVldGluZ3MuLi5cbiAgICBIZWxsbyBCb2IhXG4gICAgWW91ciBhZ2UgaXMgNDBcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "r,SF2@pN!C", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Python function <code>vars</code>", 
+                        "returns a <i>dictionary</i> containing all the variables that exist in the place it is called", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "DW!El4_qSU", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "format strings can name object attributes and dictionary keys", 
+                        "<p>as in normal Python syntax, square brackets name dictionary keys and dots denote object attributes of an item referenced by position or keyword</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #6ab825; font-weight: bold\">import</span> <span style=\"color: #447fcf; text-decoration: underline\">sys</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #ed9d13\">'My {1[kind]} runs {0.platform}'</span><span style=\"color: #d0d0d0\">.format(sys,</span> <span style=\"color: #d0d0d0\">{</span><span style=\"color: #ed9d13\">'kind'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #ed9d13\">'laptop'</span><span style=\"color: #d0d0d0\">})</span>\n<span style=\"color: #ed9d13\">'My laptop runs win32'</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #ed9d13\">'My {map[kind]} runs {sys.platform}'</span><span style=\"color: #d0d0d0\">.format(sys=sys,</span> <span style=\"color: #24909d\">map</span><span style=\"color: #d0d0d0\">={</span><span style=\"color: #ed9d13\">'kind'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #ed9d13\">'laptop'</span><span style=\"color: #d0d0d0\">})</span>\n<span style=\"color: #ed9d13\">'My laptop runs win32'</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzUwNzgsICJpZCI6ICIxNDk5NzM0ODQ1OTUyLTAwMSIsICJtZCI6ICJhcyBpbiBub3JtYWwgUHl0aG9uIHN5bnRheCwgc3F1YXJlIGJyYWNrZXRzIG5hbWUgZGljdGlvbmFyeSBrZXlzIGFuZCBkb3RzIGRlbm90ZSBvYmplY3QgYXR0cmlidXRlcyBvZiBhbiBpdGVtIHJlZmVyZW5jZWQgYnkgcG9zaXRpb24gb3Iga2V5d29yZFxuICBcbiAgICA6OjpweXRob25cbiAgICAmZ3Q7Jmd0OyZndDsgaW1wb3J0IHN5c1xuICBcbiAgICAmZ3Q7Jmd0OyZndDsgJmFwb3M7TXkgezFba2luZF19IHJ1bnMgezAucGxhdGZvcm19JmFwb3M7LmZvcm1hdChzeXMsIHsmYXBvcztraW5kJmFwb3M7OiAmYXBvcztsYXB0b3AmYXBvczt9KVxuICAgICZhcG9zO015IGxhcHRvcCBydW5zIHdpbjMyJmFwb3M7XG4gIFxuICAgICZndDsmZ3Q7Jmd0OyAmYXBvcztNeSB7bWFwW2tpbmRdfSBydW5zIHtzeXMucGxhdGZvcm19JmFwb3M7LmZvcm1hdChzeXM9c3lzLCBtYXA9eyZhcG9zO2tpbmQmYXBvczs6ICZhcG9zO2xhcHRvcCZhcG9zO30pXG4gICAgJmFwb3M7TXkgbGFwdG9wIHJ1bnMgd2luMzImYXBvcztcbiJ9---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Dhy,~Ob=lK", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Why the <code>format</code> method?", 
+                        "<p>Although the formatting method can sometimes require more code, it also:</p>\n<ul>\n<li style=\"text-align: left; \">Has a handful of extra features not found in the <code>%</code> expression itself (though <code>%</code> can use alternatives)</li>\n<li style=\"text-align: left; \">Has more flexible value reference syntax (though it may be overkill, and <code>%</code> often has equivalents)</li>\n<li style=\"text-align: left; \">Can make substitution value references more explicit (though this is now optional)  </li>\n<li style=\"text-align: left; \">Trades an operator for a more mnemonic method name (though this is also more verbose)</li>\n<li style=\"text-align: left; \">Does not allow different syntax for single and multiple values (though practice suggests this is trivial)</li>\n<li style=\"text-align: left; \">As a function can be used in places an expression cannot (though a one-line function renders this moot)</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzU2NjEsICJpZCI6ICIxNDk5NzM1MTAzNzg0LTAwMSIsICJtZCI6ICJBbHRob3VnaCB0aGUgZm9ybWF0dGluZyBtZXRob2QgY2FuIHNvbWV0aW1lcyByZXF1aXJlIG1vcmUgY29kZSwgaXQgYWxzbzpcbiAgXG4qIEhhcyBhIGhhbmRmdWwgb2YgZXh0cmEgZmVhdHVyZXMgbm90IGZvdW5kIGluIHRoZSBgJWAgZXhwcmVzc2lvbiBpdHNlbGYgKHRob3VnaCBgJWAgY2FuIHVzZSBhbHRlcm5hdGl2ZXMpXG4qIEhhcyBtb3JlIGZsZXhpYmxlIHZhbHVlIHJlZmVyZW5jZSBzeW50YXggKHRob3VnaCBpdCBtYXkgYmUgb3ZlcmtpbGwsIGFuZCBgJWAgb2Z0ZW4gaGFzIGVxdWl2YWxlbnRzKVxuKiBDYW4gbWFrZSBzdWJzdGl0dXRpb24gdmFsdWUgcmVmZXJlbmNlcyBtb3JlIGV4cGxpY2l0ICh0aG91Z2ggdGhpcyBpcyBub3cgb3B0aW9uYWwpICBcbiogVHJhZGVzIGFuIG9wZXJhdG9yIGZvciBhIG1vcmUgbW5lbW9uaWMgbWV0aG9kIG5hbWUgKHRob3VnaCB0aGlzIGlzIGFsc28gbW9yZSB2ZXJib3NlKVxuKiBEb2VzIG5vdCBhbGxvdyBkaWZmZXJlbnQgc3ludGF4IGZvciBzaW5nbGUgYW5kIG11bHRpcGxlIHZhbHVlcyAodGhvdWdoIHByYWN0aWNlIHN1Z2dlc3RzIHRoaXMgaXMgdHJpdmlhbClcbiogQXMgYSBmdW5jdGlvbiBjYW4gYmUgdXNlZCBpbiBwbGFjZXMgYW4gZXhwcmVzc2lvbiBjYW5ub3QgKHRob3VnaCBhIG9uZS1saW5lIGZ1bmN0aW9uIHJlbmRlcnMgdGhpcyBtb290KVxuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "z5p:c1^6ux", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>string</code> formatting expression of single value tuple", 
+                        "<div>'%s' % ((1.23,),)</div>", 
+                        "Formatting expression accepts tuples of values or a single value. Therefore to actually format a tuple containing one item, you must double enclose it.", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "OHOTe?Y~=L", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>string</code> module’s <code>Template</code> tool", 
+                        "<p>The module’s templating system allows values to be referenced by name too, prefixed by a <code>$</code>, as either dictionary keys or keywords, but does not support all the utilities of the other two methods — a limitation that yields simplicity, the prime motivation for this tool:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #6ab825; font-weight: bold\">import</span> <span style=\"color: #447fcf; text-decoration: underline\">string</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">t</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">string.Template(</span><span style=\"color: #ed9d13\">'$num = $title'</span><span style=\"color: #d0d0d0\">)</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">t.substitute({</span><span style=\"color: #ed9d13\">'num'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #3677a9\">7</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'title'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #ed9d13\">'Strings'</span><span style=\"color: #d0d0d0\">})</span>\n<span style=\"color: #ed9d13\">'7 = Strings'</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">t.substitute(num=</span><span style=\"color: #3677a9\">7</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #d0d0d0\">title=</span><span style=\"color: #ed9d13\">'Strings'</span><span style=\"color: #d0d0d0\">)</span>\n<span style=\"color: #ed9d13\">'7 = Strings'</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">t.substitute(</span><span style=\"color: #24909d\">dict</span><span style=\"color: #d0d0d0\">(num=</span><span style=\"color: #3677a9\">7</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #d0d0d0\">title=</span><span style=\"color: #ed9d13\">'Strings'</span><span style=\"color: #d0d0d0\">))</span>\n<span style=\"color: #ed9d13\">'7 = Strings'</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzYwOTMsICJpZCI6ICIxNDk5NzM1OTMyODk2LTAwMSIsICJtZCI6ICJUaGUgbW9kdWxlXHUyMDE5cyB0ZW1wbGF0aW5nIHN5c3RlbSBhbGxvd3MgdmFsdWVzIHRvIGJlIHJlZmVyZW5jZWQgYnkgbmFtZSB0b28sIHByZWZpeGVkIGJ5IGEgYCRgLCBhcyBlaXRoZXIgZGljdGlvbmFyeSBrZXlzIG9yIGtleXdvcmRzLCBidXQgZG9lcyBub3Qgc3VwcG9ydCBhbGwgdGhlIHV0aWxpdGllcyBvZiB0aGUgb3RoZXIgdHdvIG1ldGhvZHMgXHUyMDE0IGEgbGltaXRhdGlvbiB0aGF0IHlpZWxkcyBzaW1wbGljaXR5LCB0aGUgcHJpbWUgbW90aXZhdGlvbiBmb3IgdGhpcyB0b29sOlxuICBcbiAgICA6OjpweXRob25cbiAgICAmZ3Q7Jmd0OyZndDsgaW1wb3J0IHN0cmluZ1xuICAgICZndDsmZ3Q7Jmd0OyB0ID0gc3RyaW5nLlRlbXBsYXRlKCZhcG9zOyRudW0gPSAkdGl0bGUmYXBvczspXG4gICAgJmd0OyZndDsmZ3Q7IHQuc3Vic3RpdHV0ZSh7JmFwb3M7bnVtJmFwb3M7OiA3LCAmYXBvczt0aXRsZSZhcG9zOzogJmFwb3M7U3RyaW5ncyZhcG9zO30pXG4gICAgJmFwb3M7NyA9IFN0cmluZ3MmYXBvcztcbiAgICAmZ3Q7Jmd0OyZndDsgdC5zdWJzdGl0dXRlKG51bT03LCB0aXRsZT0mYXBvcztTdHJpbmdzJmFwb3M7KVxuICAgICZhcG9zOzcgPSBTdHJpbmdzJmFwb3M7XG4gICAgJmd0OyZndDsmZ3Q7IHQuc3Vic3RpdHV0ZShkaWN0KG51bT03LCB0aXRsZT0mYXBvcztTdHJpbmdzJmFwb3M7KSlcbiAgICAmYXBvczs3ID0gU3RyaW5ncyZhcG9zO1xuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "wX1<sl3VDO", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "slice assignment/insertion/deletion", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">]</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Replacement/insertion</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">:</span><span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">]</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">5</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span>\n<span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">5</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">]</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Insertion (replace nothing)</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">:</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">]</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">6</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">7</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span>\n<span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">6</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">7</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">5</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">]</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Deletion (insert nothing)</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">:</span><span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">]</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span>\n<span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">7</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">5</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">]</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzczMjMsICJpZCI6ICIxNDk5NzM2MTAzMDAwLTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IEwgPSBbMSwgMiwgM11cbiAgXG4gICAgJmd0OyZndDsmZ3Q7ICMgUmVwbGFjZW1lbnQvaW5zZXJ0aW9uXG4gICAgJmd0OyZndDsmZ3Q7IExbMToyXSA9IFs0LCA1XVxuICAgICZndDsmZ3Q7Jmd0OyBMXG4gICAgWzEsIDQsIDUsIDNdXG4gIFxuICAgICZndDsmZ3Q7Jmd0OyAjIEluc2VydGlvbiAocmVwbGFjZSBub3RoaW5nKVxuICAgICZndDsmZ3Q7Jmd0OyBMWzE6MV0gPSBbNiwgN11cbiAgICAmZ3Q7Jmd0OyZndDsgTFxuICAgIFsxLCA2LCA3LCA0LCA1LCAzXVxuICBcbiAgICAmZ3Q7Jmd0OyZndDsgIyBEZWxldGlvbiAoaW5zZXJ0IG5vdGhpbmcpXG4gICAgJmd0OyZndDsmZ3Q7IExbMToyXSA9IFtdXG4gICAgJmd0OyZndDsmZ3Q7IExcbiAgICBbMSwgNywgNCwgNSwgM11cbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "GB!z~/uz^W", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<code>append</code> and <code>sort</code>", 
+                        "<div>Beware that <code>append</code> and <code>sort</code> change the associated list object in place, but don’t return the list as a result (technically, they both return a value called <code>None</code>).</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "BF{>F@$4wW", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "passing in an arbitrary comparison function to sorts", 
+                        "<div><b>Python 3.X</b> also no longer supports passing in an arbitrary comparison function to sorts, to implement different orderings. The suggested workaround is to use the <code>key=func</code> keyword argument to code value transformations during the sort, and use the <code>reverse=True</code> keyword argument to change the sort order to descending. These were the typical uses of comparison functions in the past.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ngZB-gTPU^", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "built in sorting", 
+                        "<p>sorting is also available in recent Pythons as a built-in function, which sorts any collection (not just lists) and returns a new list for the result (instead of in-place changes):</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #ed9d13\">'abc'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'ABD'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'aBe'</span><span style=\"color: #d0d0d0\">]</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Sorting built-in</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #24909d\">sorted</span><span style=\"color: #d0d0d0\">(L,</span> <span style=\"color: #d0d0d0\">key=</span><span style=\"color: #24909d\">str</span><span style=\"color: #d0d0d0\">.lower,</span> <span style=\"color: #d0d0d0\">reverse=</span><span style=\"color: #24909d\">True</span><span style=\"color: #d0d0d0\">)</span>\n<span style=\"color: #d0d0d0\">[</span><span style=\"color: #ed9d13\">'aBe'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'ABD'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'abc'</span><span style=\"color: #d0d0d0\">]</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Pretransform items: differs!</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #ed9d13\">'abc'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'ABD'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'aBe'</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #24909d\">sorted</span><span style=\"color: #d0d0d0\">([x.lower()</span> <span style=\"color: #6ab825; font-weight: bold\">for</span> <span style=\"color: #d0d0d0\">x</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">L],</span> <span style=\"color: #d0d0d0\">reverse=</span><span style=\"color: #24909d\">True</span><span style=\"color: #d0d0d0\">)</span>\n<span style=\"color: #d0d0d0\">[</span><span style=\"color: #ed9d13\">'abe'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'abd'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'abc'</span><span style=\"color: #d0d0d0\">]</span>\n</pre></div>\n<p>Notice the last example here — we can convert to lowercase prior to the sort with a list comprehension, but the result does not contain the original list’s values as it does with the <code>key</code> argument. The latter is applied temporarily during the sort, instead of changing the values to be sorted altogether.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3Mzc1OTAsICJpZCI6ICIxNDk5NzM3NDY5MjgyLTAwMSIsICJtZCI6ICJzb3J0aW5nIGlzIGFsc28gYXZhaWxhYmxlIGluIHJlY2VudCBQeXRob25zIGFzIGEgYnVpbHQtaW4gZnVuY3Rpb24sIHdoaWNoIHNvcnRzIGFueSBjb2xsZWN0aW9uIChub3QganVzdCBsaXN0cykgYW5kIHJldHVybnMgYSBuZXcgbGlzdCBmb3IgdGhlIHJlc3VsdCAoaW5zdGVhZCBvZiBpbi1wbGFjZSBjaGFuZ2VzKTpcbiAgXG4gICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IEwgPSBbJmFwb3M7YWJjJmFwb3M7LCAmYXBvcztBQkQmYXBvczssICZhcG9zO2FCZSZhcG9zO11cbiAgXG4gICAgJmd0OyZndDsmZ3Q7ICMgU29ydGluZyBidWlsdC1pblxuICAgICZndDsmZ3Q7Jmd0OyBzb3J0ZWQoTCwga2V5PXN0ci5sb3dlciwgcmV2ZXJzZT1UcnVlKVxuICAgIFsmYXBvczthQmUmYXBvczssICZhcG9zO0FCRCZhcG9zOywgJmFwb3M7YWJjJmFwb3M7XVxuICBcbiAgICAmZ3Q7Jmd0OyZndDsgIyBQcmV0cmFuc2Zvcm0gaXRlbXM6IGRpZmZlcnMhXG4gICAgJmd0OyZndDsmZ3Q7IEwgPSBbJmFwb3M7YWJjJmFwb3M7LCAmYXBvcztBQkQmYXBvczssICZhcG9zO2FCZSZhcG9zO11cbiAgICAmZ3Q7Jmd0OyZndDsgc29ydGVkKFt4Lmxvd2VyKCkgZm9yIHggaW4gTF0sIHJldmVyc2U9VHJ1ZSlcbiAgICBbJmFwb3M7YWJlJmFwb3M7LCAmYXBvczthYmQmYXBvczssICZhcG9zO2FiYyZhcG9zO11cbiAgXG5Ob3RpY2UgdGhlIGxhc3QgZXhhbXBsZSBoZXJlIFx1MjAxNCB3ZSBjYW4gY29udmVydCB0byBsb3dlcmNhc2UgcHJpb3IgdG8gdGhlIHNvcnQgd2l0aCBhIGxpc3QgY29tcHJlaGVuc2lvbiwgYnV0IHRoZSByZXN1bHQgZG9lcyBub3QgY29udGFpbiB0aGUgb3JpZ2luYWwgbGlzdFx1MjAxOXMgdmFsdWVzIGFzIGl0IGRvZXMgd2l0aCB0aGUgYGtleWAgYXJndW1lbnQuIFRoZSBsYXR0ZXIgaXMgYXBwbGllZCB0ZW1wb3JhcmlseSBkdXJpbmcgdGhlIHNvcnQsIGluc3RlYWQgb2YgY2hhbmdpbmcgdGhlIHZhbHVlcyB0byBiZSBzb3J0ZWQgYWx0b2dldGhlci5cbiAgXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "f.B6ou}(JZ", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "two ways to reverse", 
+                        "<div><code><i>L</i>.reverse()</code> and <code>list(reversed(<i>L</i>))</code></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "i~c$7S!p9q", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "new list of <code>D</code>’s keys", 
+                        "<div><div>\n<p><code>list(D.keys())</code></p><p>The <code>in</code> membership test used for strings and lists also works on dictionaries — it checks whether a key is stored in the dictionary. Technically, this works because dictionaries define keys <i>iterators</i>, and use fast direct lookups whenever possible. Other types provide iterators that reflect their common uses; files, for example, have iterators that read line by line.</p><p>We have to enclose the above in a <code>list</code> call in <b>Python 3.X</b> for similar reasons — <code>keys</code> in <b>3.X</b> returns an <i>iterable</i> object, instead of a physical list. The <code>list</code> call forces it to produce all its values at once so we can print them interactively, though this call isn’t required some other contexts. In <b>2.X</b>, keys builds and returns an actual list, so the <code>list</code> call isn’t even needed to display a result.</p>\n</div></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "gzgFOu5PH#", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "dictionary <code>update</code> method", 
+                        "<p>The <code>update</code> method provides something similar to concatenation for dictionaries, though it has nothing to do with left-to-right ordering (again, there is no such thing in dictionaries). It merges the keys and values of one dictionary into another, blindly overwriting values of the same key if there’s a clash.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3MzgwNDIsICJpZCI6ICIxNDk5NzM3OTU2NDYyLTAwMSIsICJtZCI6ICJUaGUgYHVwZGF0ZWAgbWV0aG9kIHByb3ZpZGVzIHNvbWV0aGluZyBzaW1pbGFyIHRvIGNvbmNhdGVuYXRpb24gZm9yIGRpY3Rpb25hcmllcywgdGhvdWdoIGl0IGhhcyBub3RoaW5nIHRvIGRvIHdpdGggbGVmdC10by1yaWdodCBvcmRlcmluZyAoYWdhaW4sIHRoZXJlIGlzIG5vIHN1Y2ggdGhpbmcgaW4gZGljdGlvbmFyaWVzKS4gSXQgbWVyZ2VzIHRoZSBrZXlzIGFuZCB2YWx1ZXMgb2Ygb25lIGRpY3Rpb25hcnkgaW50byBhbm90aGVyLCBibGluZGx5IG92ZXJ3cml0aW5nIHZhbHVlcyBvZiB0aGUgc2FtZSBrZXkgaWYgdGhlcmVcdTIwMTlzIGEgY2xhc2guXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Bo0?TIhIx|", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "stepping through dictionary keys in <code>for</code> loop", 
+                        "Python also lets you step through a dictionary’s keys list without actually calling the <code>keys</code> method in most <code>for</code> loops. For any dictionary <code>D</code>, saying <code>for key in D</code> works the same as saying the complete <code>for key in D.keys()</code>. This is really just another instance of the iterators mentioned earlier, which allow the <code>in</code> membership operator to work on dictionaries as well\n\n", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "uw!-ZpzlnE", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "valid dictionary keys&nbsp;", 
+                        "<div><div>\n<p>Keys need not always be strings. Our examples so far have used strings as keys, but any other immutable objects work just as well. For instance, you can use integers as keys, which makes the dictionary look much like a list (when indexing, at least). Tuples may be used as dictionary keys too, allowing compound key values — such as dates and IP addresses — to have associated values. User-defined class instance objects can also be used as keys, as long as they have the proper protocol methods; roughly, they need to tell Python that their values are “<b>hashable</b>” and thus won’t change, as otherwise they would be useless as fixed keys.</p>\n</div></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "q(XB#KL8+Y", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "ways to build dictionaries", 
+                        "<ul>\n<li style=\"text-align: left; \">traditional literal expression: <code>{'name': 'Bob', 'age': 40}</code></li>\n<li style=\"text-align: left; \">assign by keys dynamically: <code>D = {}; D['name'] = 'Bob'; D['age'] = 40</code></li>\n<li style=\"text-align: left; \"><code>dict</code> keyword argument form: <code>dict(name='Bob', age=40)</code></li>\n<li style=\"text-align: left; \"><code>dict</code> key/value tuples form: <code>dict([('name', 'Bob'), ('age', 40)])</code></li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDQxODYsICJpZCI6ICIxNDk5NzQ0MDQ4NDg4LTAwMSIsICJtZCI6ICIqIHRyYWRpdGlvbmFsIGxpdGVyYWwgZXhwcmVzc2lvbjogYHsmYXBvcztuYW1lJmFwb3M7OiAmYXBvcztCb2ImYXBvczssICZhcG9zO2FnZSZhcG9zOzogNDB9YFxuKiBhc3NpZ24gYnkga2V5cyBkeW5hbWljYWxseTogYEQgPSB7fTsgRFsmYXBvcztuYW1lJmFwb3M7XSA9ICZhcG9zO0JvYiZhcG9zOzsgRFsmYXBvczthZ2UmYXBvcztdID0gNDBgXG4qIGBkaWN0YCBrZXl3b3JkIGFyZ3VtZW50IGZvcm06IGBkaWN0KG5hbWU9JmFwb3M7Qm9iJmFwb3M7LCBhZ2U9NDApYFxuKiBgZGljdGAga2V5L3ZhbHVlIHR1cGxlcyBmb3JtOiBgZGljdChbKCZhcG9zO25hbWUmYXBvczssICZhcG9zO0JvYiZhcG9zOyksICgmYXBvczthZ2UmYXBvczssIDQwKV0pYFxuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "IxcKd;~}fG", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "initialize dictionary with same value for all keys", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #24909d\">dict</span><span style=\"color: #d0d0d0\">.fromkeys([</span><span style=\"color: #ed9d13\">'a'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'b'</span><span style=\"color: #d0d0d0\">],</span> <span style=\"color: #3677a9\">0</span><span style=\"color: #d0d0d0\">)</span>\n<span style=\"color: #d0d0d0\">{</span><span style=\"color: #ed9d13\">'a'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #3677a9\">0</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'b'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #3677a9\">0</span><span style=\"color: #d0d0d0\">}</span>\n</pre></div>\n<p>default is <code>None</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDQzNTYsICJpZCI6ICIxNDk5NzQ0MjAxODcxLTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IGRpY3QuZnJvbWtleXMoWyZhcG9zO2EmYXBvczssICZhcG9zO2ImYXBvcztdLCAwKVxuICAgIHsmYXBvczthJmFwb3M7OiAwLCAmYXBvcztiJmFwb3M7OiAwfVxuICBcbmRlZmF1bHQgaXMgYE5vbmVgXG4ifQ==---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "q8xbkp{%C;", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<i>dictionary</i> backports to <b>2.7</b> from <b>3.X</b>", 
+                        "<div><div><div>\n<p>dictionary <b>comprehensions</b> and set-like <b>iterable views</b> (but using names <code><i>D</i>.viewkeys</code>, <code><i>D</i>.viewvalues</code>, <code><i>D</i>.viewitems</code>)</p>\n</div></div></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "jrDrgBa=-I", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<i>dictionary</i>&nbsp;changes in&nbsp;<b>3.X</b>", 
+                        "<div><div><div>\n<p>new: dictionary <b>comprehensions</b> and set-like <b>iterable views</b> for&nbsp;<code><i>D</i>.keys</code>, <code><i>D</i>.values</code>&nbsp;and&nbsp;<code><i>D</i>.items</code></p><p>removed: relative magnitude comparisons and <code><i>D</i>.has_key</code> method (use <code>in</code> membership test instead)</p>\n</div></div></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "m~V-!A5$f`", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<i>dictionary</i>&nbsp;comprehension", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">D</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">{k:</span> <span style=\"color: #d0d0d0\">v</span> <span style=\"color: #6ab825; font-weight: bold\">for</span> <span style=\"color: #d0d0d0\">(k,</span> <span style=\"color: #d0d0d0\">v)</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #24909d\">zip</span><span style=\"color: #d0d0d0\">([</span><span style=\"color: #ed9d13\">'a'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'b'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'c'</span><span style=\"color: #d0d0d0\">],</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">])}</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">D</span>\n<span style=\"color: #d0d0d0\">{</span><span style=\"color: #ed9d13\">'b'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'c'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'a'</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">}</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDUyMjgsICJpZCI6ICIxNDk5NzQ0OTMxMjEyLTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IEQgPSB7azogdiBmb3IgKGssIHYpIGluIHppcChbJmFwb3M7YSZhcG9zOywgJmFwb3M7YiZhcG9zOywgJmFwb3M7YyZhcG9zO10sIFsxLCAyLCAzXSl9XG4gICAgJmd0OyZndDsmZ3Q7IERcbiAgICB7JmFwb3M7YiZhcG9zOzogMiwgJmFwb3M7YyZhcG9zOzogMywgJmFwb3M7YSZhcG9zOzogMX0gXG4ifQ==---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "u?<kLl^;yv", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<i>dictionary</i>&nbsp;views and sets", 
+                        "<div><div><div>\n<p>Unlike <b>2.X</b>’s list results, <b>3.X</b>’s view objects returned by the <code>keys</code> method are set-like and support common set operations such as intersection and union; <code>values</code> views are not set-like, but <code>items</code> results are if their <code>(key, value)</code> pairs are unique and hashable (immutable). Given that sets behave much like valueless <i>dictionaries</i> (and may even be coded in curly braces like <i>dictionaries</i> in <b>3.X</b> and <b>2.7</b>), this is a logical symmetry. Set items are unordered, unique, and immutable, just like dictionary keys.</p>\n</div></div></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "E11J4,_@0{", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "single item <i>tuple</i>", 
+                        "must use trailing comma since parentheses can enclose expressions: <code>(40,)</code>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "x<JPu{J8~~", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Why <i>lists</i> and <i>tuples</i>?", 
+                        "<div>Some of the reasoning may be historic; Python’s creator is a mathematician by training, and he has been quoted as seeing a tuple as a simple association of objects and a list as a data structure that changes over time. In fact, this use of the word “tuple” derives from mathematics, as does its frequent use for a row in a relational database table.</div><div><br /></div><div>The best answer, however, seems to be that the immutability of tuples provides some integrity — you can be sure a tuple won’t be changed through another reference elsewhere in a program, but there’s no such guarantee for lists. Tuples and other immutables, therefore, serve a similar role to “constant” declarations in other languages, though the notion of constantness is associated with objects in Python, not variables.</div><div><br /></div><div>Tuples can also be used in places that lists cannot — for example, as dictionary keys (see the sparse matrix example in Chapter 8). Some built-in operations may also require or imply tuples instead of lists (e.g., the substitution values in a string format expression), though such operations have often been generalized in recent years to be more flexible. As a rule of thumb, lists are the tool of choice for ordered collections that might need to change; tuples can handle the other cases of fixed associations.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "lXd`)G->>E", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "file <code>write</code> calls in <b>2.X</b> <i>vs.</i> <b>3.X</b>", 
+                        "<div><div><div>\n<p>they return the number of characters written in Python <b>3.X</b>; in <b>2.X</b> they don’t, so you won’t see these numbers echoed interactively.</p>\n</div></div></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "sNFYbR7SYn", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Does Python support multiple assignment?", 
+                        "<div><div><div>\n<p><code>X, Y, Z = 1, 2, 3</code></p>\n</div></div></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "QTC<{;AaEc", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "files in <b>2.X</b>&nbsp;<i>vs.</i> <b>3.X</b>", 
+                        "<div><div><div>\n<p></p><div><div>\n<p>In Python <b>2.X</b>, the built-in name <code>open</code> is essentially a synonym for the name <code>file</code>, and you may technically open files by calling either <code>open</code> or <code>file</code> (though <code>open</code> is generally preferred for opening). In Python <b>3.X</b>, the name <code>file</code> is no longer available, because of its redundancy with <code>open</code>. Python <b>2.X</b> users may also use the name <code>file</code> as the file object type, in order to customize files with object-oriented programming. In Python <b>3.X</b>, files have changed radically. The classes used to implement file objects live in the standard library module <code>io</code>.</p>\n</div></div><p></p>\n</div></div></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "b)v<6NzEo3", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "comparison mechanism for <i>strings</i>", 
+                        "<b>lexicographically</b> (by the character set code point values returned by <code>ord)</code>&nbsp;character by character until the end or first mismatch", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "n)I0y*b)I$", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "comparison mechanism for <i>lists</i> and <i>tuples</i>", 
+                        "<b>comparing each component</b> from left to right, and recursively for nested structures, until the end or first mismatch\n\n", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "yX!fT-S-$O", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "comparison mechanism for <i>sets</i>", 
+                        "Sets are equal if both contain the same items (formally, if each is a subset of the other), and set relative magnitude comparisons apply subset and superset tests.\n\n", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "z6Zut~iTr.", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "comparison mechanism for <i>dictionaries</i>", 
+                        "Equal if their sorted <code>(key, value)</code> lists are equal. Relative magnitude comparisons are not supported in<b>&nbsp;3.X</b>&nbsp;but work in <b>2.X</b> as though comparing sorted <code>(key, value)</code> lists.\n\n", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "F,VG&rN2]j", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "true and false in Python", 
+                        "<i>numbers</i> are false if zero, <i>objects</i> are false if empty<div><br /></div><div>So if&nbsp;<code>X</code> is a string, can do <code>if X:</code> instead of <code>if X != '':</code>.</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "f!a}$h&u$o", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "preallocate 100 item list", 
+                        "<code>L = [None] * 100</code>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Er2tgpn75^", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for creating references", 
+                        "<p>assignment</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">a,</span> <span style=\"color: #d0d0d0\">b</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'good'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'bad'</span>\n</pre></div>\n<p>Assignment statements come in a variety of syntax flavors: basic, sequence, augmented, and more.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTAwODIsICJpZCI6ICIxNDk5NzQ3NzY0Mjc5LTAwMSIsICJtZCI6ICJhc3NpZ25tZW50XG4gIFxuICAgIDo6OnB5dGhvblxuICAgIGEsIGIgPSAmYXBvcztnb29kJmFwb3M7LCAmYXBvcztiYWQmYXBvcztcbiAgXG5Bc3NpZ25tZW50IHN0YXRlbWVudHMgY29tZSBpbiBhIHZhcmlldHkgb2Ygc3ludGF4IGZsYXZvcnM6IGJhc2ljLCBzZXF1ZW5jZSwgYXVnbWVudGVkLCBhbmQgbW9yZS5cbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Ff.q)QOX#Z", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for running functions", 
+                        "<p>calls and other expressions</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">log.write(</span><span style=\"color: #ed9d13\">\"spam, ham\"</span><span style=\"color: #d0d0d0\">)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDkwNzAsICJpZCI6ICIxNDk5NzQ4OTk0MTAyLTAwMSIsICJtZCI6ICJjYWxscyBhbmQgb3RoZXIgZXhwcmVzc2lvbnNcbiAgXG4gICAgOjo6cHl0aG9uXG4gICAgbG9nLndyaXRlKCZxdW90O3NwYW0sIGhhbSZxdW90OylcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "q`Z+ALK3EH", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for printing objects", 
+                        "<p><code>print</code> calls</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #ed9d13\">'The Killer'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #d0d0d0\">joke)</span>\n</pre></div>\n<p><code>print</code> is technically neither a reserved word nor a statement in <strong>3.X</strong>, but a built-in function call; because it will nearly always be run as an expression statement, though (and often on a line by itself), it’s generally thought of as a statement type. In <strong>2.X</strong>, <code>print</code> is a statement instead of a built-in function call, with specific syntax.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTAyOTMsICJpZCI6ICIxNDk5NzQ5MDczMTA1LTAwMSIsICJtZCI6ICJgcHJpbnRgIGNhbGxzXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIHByaW50KCZhcG9zO1RoZSBLaWxsZXImYXBvczssIGpva2UpXG4gIFxuYHByaW50YCBpcyB0ZWNobmljYWxseSBuZWl0aGVyIGEgcmVzZXJ2ZWQgd29yZCBub3IgYSBzdGF0ZW1lbnQgaW4gKiozLlgqKiwgYnV0IGEgYnVpbHQtaW4gZnVuY3Rpb24gY2FsbDsgYmVjYXVzZSBpdCB3aWxsIG5lYXJseSBhbHdheXMgYmUgcnVuIGFzIGFuIGV4cHJlc3Npb24gc3RhdGVtZW50LCB0aG91Z2ggKGFuZCBvZnRlbiBvbiBhIGxpbmUgYnkgaXRzZWxmKSwgaXRcdTIwMTlzIGdlbmVyYWxseSB0aG91Z2h0IG9mIGFzIGEgc3RhdGVtZW50IHR5cGUuIEluICoqMi5YKiosIGBwcmludGAgaXMgYSBzdGF0ZW1lbnQgaW5zdGVhZCBvZiBhIGJ1aWx0LWluIGZ1bmN0aW9uIGNhbGwsIHdpdGggc3BlY2lmaWMgc3ludGF4LlxuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "KE5]YztkZ0", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for selecting actions", 
+                        "<p><code>if</code> / <code>elif</code> / <code>else</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">if</span> <span style=\"color: #ed9d13\">\"python\"</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">text:</span>\n  <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(text)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDkxNzUsICJpZCI6ICIxNDk5NzQ5MTIwOTIwLTAwMSIsICJtZCI6ICJgaWZgIC8gYGVsaWZgIC8gYGVsc2VgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIGlmICZxdW90O3B5dGhvbiZxdW90OyBpbiB0ZXh0OlxuICAgICAgcHJpbnQodGV4dClcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Bk8eLyesJ_", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for iteration", 
+                        "<p><code>for</code> / <code>else</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">for</span> <span style=\"color: #d0d0d0\">x</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">mylist:</span>\n  <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(x)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDkyMjEsICJpZCI6ICIxNDk5NzQ5MTgxMTU1LTAwMSIsICJtZCI6ICJgZm9yYCAvIGBlbHNlYFxuICBcbiAgICA6OjpweXRob25cbiAgICBmb3IgeCBpbiBteWxpc3Q6XG4gICAgICBwcmludCh4KVxuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "m:J@0LiVUK", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for general loops", 
+                        "<p><code>while</code> / <code>else</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">while</span> <span style=\"color: #d0d0d0\">X</span> <span style=\"color: #d0d0d0\">&gt;</span> <span style=\"color: #d0d0d0\">Y:</span>\n  <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #ed9d13\">'hello'</span><span style=\"color: #d0d0d0\">)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDkyNTcsICJpZCI6ICIxNDk5NzQ5MjIzODE3LTAwMSIsICJtZCI6ICJgd2hpbGVgIC8gYGVsc2VgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIHdoaWxlIFggJmd0OyBZOlxuICAgICAgcHJpbnQoJmFwb3M7aGVsbG8mYXBvczspXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "s{gL*c2GB#", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for empty placeholder", 
+                        "<p><code>pass</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">while</span> <span style=\"color: #24909d\">True</span><span style=\"color: #d0d0d0\">:</span>\n  <span style=\"color: #6ab825; font-weight: bold\">pass</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDkyOTYsICJpZCI6ICIxNDk5NzQ5MjU5MzUzLTAwMSIsICJtZCI6ICJgcGFzc2BcbiAgXG4gICAgOjo6cHl0aG9uXG4gICAgd2hpbGUgVHJ1ZTpcbiAgICAgIHBhc3NcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "cxU.[N2DA(", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for loop exit", 
+                        "<p><code>break</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">while</span> <span style=\"color: #24909d\">True</span><span style=\"color: #d0d0d0\">:</span>\n  <span style=\"color: #6ab825; font-weight: bold\">if</span> <span style=\"color: #d0d0d0\">exittest():</span> <span style=\"color: #6ab825; font-weight: bold\">break</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDkzMzksICJpZCI6ICIxNDk5NzQ5MzAwMzYwLTAwMSIsICJtZCI6ICJgYnJlYWtgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIHdoaWxlIFRydWU6XG4gICAgICBpZiBleGl0dGVzdCgpOiBicmVha1xuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "N;D=UyU3)@", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for loop continue", 
+                        "<p><code>continue</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">while</span> <span style=\"color: #24909d\">True</span><span style=\"color: #d0d0d0\">:</span>\n  <span style=\"color: #6ab825; font-weight: bold\">if</span> <span style=\"color: #d0d0d0\">skiptest():</span> <span style=\"color: #6ab825; font-weight: bold\">continue</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDkzNjgsICJpZCI6ICIxNDk5NzQ5MzQ0ODE2LTAwMSIsICJtZCI6ICJgY29udGludWVgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIHdoaWxlIFRydWU6XG4gICAgICBpZiBza2lwdGVzdCgpOiBjb250aW51ZVxuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "xHa[%m?A*o", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for functions and methods", 
+                        "<p><code>def</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">def</span> <span style=\"color: #447fcf\">f</span><span style=\"color: #d0d0d0\">(a,</span> <span style=\"color: #d0d0d0\">b,</span> <span style=\"color: #d0d0d0\">c=</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #d0d0d0\">*d):</span>\n  <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(a+b+c+d[</span><span style=\"color: #3677a9\">0</span><span style=\"color: #d0d0d0\">])</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk0MjUsICJpZCI6ICIxNDk5NzQ5MzcwMTE0LTAwMSIsICJtZCI6ICJgZGVmYFxuICBcbiAgICA6OjpweXRob25cbiAgICBkZWYgZihhLCBiLCBjPTEsICpkKTpcbiAgICAgIHByaW50KGErYitjK2RbMF0pXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "E*K$n}(|CN", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "statement for functions results", 
+                        "<p><code>return</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">def</span> <span style=\"color: #447fcf\">f</span><span style=\"color: #d0d0d0\">(a,</span> <span style=\"color: #d0d0d0\">b,</span> <span style=\"color: #d0d0d0\">c=</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #d0d0d0\">*d):</span>\n  <span style=\"color: #6ab825; font-weight: bold\">return</span> <span style=\"color: #d0d0d0\">a+b+c+d[</span><span style=\"color: #3677a9\">0</span><span style=\"color: #d0d0d0\">]</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk0NTUsICJpZCI6ICIxNDk5NzQ5NDMwMjkzLTAwMSIsICJtZCI6ICJgcmV0dXJuYFxuICBcbiAgICA6OjpweXRob25cbiAgICBkZWYgZihhLCBiLCBjPTEsICpkKTpcbiAgICAgIHJldHVybiBhK2IrYytkWzBdXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "8f>)N8_KR", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for generator functions</div>", 
+                        "<p><code>yield</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">def</span> <span style=\"color: #447fcf\">gen</span><span style=\"color: #d0d0d0\">(n):</span>\n  <span style=\"color: #6ab825; font-weight: bold\">for</span> <span style=\"color: #d0d0d0\">i</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">n:</span> <span style=\"color: #6ab825; font-weight: bold\">yield</span> <span style=\"color: #d0d0d0\">i*</span><span style=\"color: #3677a9\">2</span>\n</pre></div>\n<p><code>yield</code> is also an expression instead of a statement as of <strong>2.5</strong>; like <code>print</code>, it’s typically used as an expression statement, but scripts occasionally assign or otherwise use its result. As an expression, <code>yield</code> is also a reserved word, unlike <code>print</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTAyMzUsICJpZCI6ICIxNDk5NzQ5NDYwMTE3LTAwMSIsICJtZCI6ICJgeWllbGRgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIGRlZiBnZW4obik6XG4gICAgICBmb3IgaSBpbiBuOiB5aWVsZCBpKjJcbiAgXG5geWllbGRgIGlzIGFsc28gYW4gZXhwcmVzc2lvbiBpbnN0ZWFkIG9mIGEgc3RhdGVtZW50IGFzIG9mICoqMi41Kio7IGxpa2UgYHByaW50YCwgaXRcdTIwMTlzIHR5cGljYWxseSB1c2VkIGFzIGFuIGV4cHJlc3Npb24gc3RhdGVtZW50LCBidXQgc2NyaXB0cyBvY2Nhc2lvbmFsbHkgYXNzaWduIG9yIG90aGVyd2lzZSB1c2UgaXRzIHJlc3VsdC4gQXMgYW4gZXhwcmVzc2lvbiwgYHlpZWxkYCBpcyBhbHNvIGEgcmVzZXJ2ZWQgd29yZCwgdW5saWtlIGBwcmludGAuXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "PI7KidK4},", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for namespaces</div>", 
+                        "<p><code>global</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">x</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'old'</span>\n<span style=\"color: #6ab825; font-weight: bold\">def</span> <span style=\"color: #447fcf\">function</span><span style=\"color: #d0d0d0\">():</span>\n  <span style=\"color: #6ab825; font-weight: bold\">global</span> <span style=\"color: #d0d0d0\">x,</span> <span style=\"color: #d0d0d0\">y;</span> <span style=\"color: #d0d0d0\">x</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'new'</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk5OTQsICJpZCI6ICIxNDk5NzQ5NTAyODcyLTAwMSIsICJtZCI6ICJgZ2xvYmFsYFxuICBcbiAgICA6OjpweXRob25cbiAgICB4ID0gJmFwb3M7b2xkJmFwb3M7XG4gICAgZGVmIGZ1bmN0aW9uKCk6XG4gICAgICBnbG9iYWwgeCwgeTsgeCA9ICZhcG9zO25ldyZhcG9zO1xuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "c(g[jFY8-v", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for namespaces (<b>3.X</b>)</div>", 
+                        "<p><code>nonlocal</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">def</span> <span style=\"color: #447fcf\">outer</span><span style=\"color: #d0d0d0\">():</span>\n  <span style=\"color: #d0d0d0\">x</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'old'</span>\n  <span style=\"color: #6ab825; font-weight: bold\">def</span> <span style=\"color: #447fcf\">function</span><span style=\"color: #d0d0d0\">():</span>\n    <span style=\"color: #d0d0d0\">nonlocal</span> <span style=\"color: #d0d0d0\">x;</span> <span style=\"color: #d0d0d0\">x</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'new'</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk2NTAsICJpZCI6ICIxNDk5NzQ5NTgzNzQ2LTAwMSIsICJtZCI6ICJgbm9ubG9jYWxgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIGRlZiBvdXRlcigpOlxuICAgICAgeCA9ICZhcG9zO29sZCZhcG9zO1xuICAgICAgZGVmIGZ1bmN0aW9uKCk6XG4gICAgICAgIG5vbmxvY2FsIHg7IHggPSAmYXBvcztuZXcmYXBvcztcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "j&mAttUy+C", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for module access</div>", 
+                        "<p><code>import</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">import</span> <span style=\"color: #447fcf; text-decoration: underline\">sys</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk2NzksICJpZCI6ICIxNDk5NzQ5NjUyMjcwLTAwMSIsICJtZCI6ICJgaW1wb3J0YFxuICBcbiAgICA6OjpweXRob25cbiAgICBpbXBvcnQgc3lzXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "m%@p2wfgvM", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for attribute access</div>", 
+                        "<p><code>from</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">from</span> <span style=\"color: #447fcf; text-decoration: underline\">sys</span> <span style=\"color: #6ab825; font-weight: bold\">import</span> <span style=\"color: #d0d0d0\">stdin</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk3MDIsICJpZCI6ICIxNDk5NzQ5NjgxODIyLTAwMSIsICJtZCI6ICJgZnJvbWBcbiAgXG4gICAgOjo6cHl0aG9uXG4gICAgZnJvbSBzeXMgaW1wb3J0IHN0ZGluXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "g=sFREXT>v", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for building objects</div>", 
+                        "<p><code>class</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">class</span> <span style=\"color: #447fcf; text-decoration: underline\">Subclass</span><span style=\"color: #d0d0d0\">(Superclass):</span>\n  <span style=\"color: #d0d0d0\">staticData</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[]</span>\n  <span style=\"color: #6ab825; font-weight: bold\">def</span> <span style=\"color: #447fcf\">method</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #24909d\">self</span><span style=\"color: #d0d0d0\">):</span> <span style=\"color: #6ab825; font-weight: bold\">pass</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk3NDUsICJpZCI6ICIxNDk5NzQ5NzA1MzgzLTAwMSIsICJtZCI6ICJgY2xhc3NgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIGNsYXNzIFN1YmNsYXNzKFN1cGVyY2xhc3MpOlxuICAgICAgc3RhdGljRGF0YSA9IFtdXG4gICAgICBkZWYgbWV0aG9kKHNlbGYpOiBwYXNzXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "jiTOA6aK&s", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for catching exceptions</div>", 
+                        "<p><code>try</code> / <code>except</code> / <code>finally</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">try</span><span style=\"color: #d0d0d0\">:</span>\n  <span style=\"color: #d0d0d0\">action()</span>\n<span style=\"color: #6ab825; font-weight: bold\">except</span><span style=\"color: #d0d0d0\">:</span>\n  <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #ed9d13\">'action error'</span><span style=\"color: #d0d0d0\">)</span>\n</pre></div>\n<p>In <strong>2.5</strong>, the <code>try</code> / <code>except</code> and <code>try</code> / <code>finally</code> statements were merged: the two were formerly separate statements, but we can now say both <code>except</code> and <code>finally</code> in the same <code>try</code> statement.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTA3MjQsICJpZCI6ICIxNDk5NzQ5NzQ2NzQ0LTAwMSIsICJtZCI6ICJgdHJ5YCAvIGBleGNlcHRgIC8gYGZpbmFsbHlgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIHRyeTpcbiAgICAgIGFjdGlvbigpXG4gICAgZXhjZXB0OlxuICAgICAgcHJpbnQoJmFwb3M7YWN0aW9uIGVycm9yJmFwb3M7KVxuICBcbkluICoqMi41KiosIHRoZSBgdHJ5YCAvIGBleGNlcHRgIGFuZCBgdHJ5YCAvIGBmaW5hbGx5YCBzdGF0ZW1lbnRzIHdlcmUgbWVyZ2VkOiB0aGUgdHdvIHdlcmUgZm9ybWVybHkgc2VwYXJhdGUgc3RhdGVtZW50cywgYnV0IHdlIGNhbiBub3cgc2F5IGJvdGggYGV4Y2VwdGAgYW5kIGBmaW5hbGx5YCBpbiB0aGUgc2FtZSBgdHJ5YCBzdGF0ZW1lbnQuXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Gl@++x3p&x", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for triggering exceptions</div>", 
+                        "<p><code>raise</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">raise</span> <span style=\"color: #d0d0d0\">EndSearch(location)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk4MjYsICJpZCI6ICIxNDk5NzQ5Nzk5Nzg1LTAwMSIsICJtZCI6ICJgcmFpc2VgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIHJhaXNlIEVuZFNlYXJjaChsb2NhdGlvbilcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "f0burCf|QW", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for debugging checks</div>", 
+                        "<p><code>assert</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">assert</span> <span style=\"color: #d0d0d0\">X</span> <span style=\"color: #d0d0d0\">&gt;</span> <span style=\"color: #d0d0d0\">Y,</span> <span style=\"color: #ed9d13\">'X too small'</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk4NTAsICJpZCI6ICIxNDk5NzQ5ODI5MDE4LTAwMSIsICJtZCI6ICJgYXNzZXJ0YFxuICBcbiAgICA6OjpweXRob25cbiAgICBhc3NlcnQgWCAmZ3Q7IFksICZhcG9zO1ggdG9vIHNtYWxsJmFwb3M7XG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "i>NX#{cW,V", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for context managers&nbsp;(<b>3.X</b>, <b>2.6+</b>)</div>", 
+                        "<p><code>with</code> / <code>as</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">with</span> <span style=\"color: #24909d\">open</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #ed9d13\">'data'</span><span style=\"color: #d0d0d0\">)</span> <span style=\"color: #6ab825; font-weight: bold\">as</span> <span style=\"color: #d0d0d0\">myfile:</span>\n  <span style=\"color: #d0d0d0\">process(myfile)</span>\n</pre></div>\n<p>In <strong>2.5</strong>, <code>with</code> / <code>as</code> is an optional extension, and it is not available unless you explicitly turn it on by running the statement:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825; font-weight: bold\">from</span> <span style=\"color: #447fcf; text-decoration: underline\">__future__</span> <span style=\"color: #6ab825; font-weight: bold\">import</span> <span style=\"color: #d0d0d0\">with_statement</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTA3OTQsICJpZCI6ICIxNDk5NzQ5ODUzNjg3LTAwMSIsICJtZCI6ICJgd2l0aGAgLyBgYXNgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIHdpdGggb3BlbigmYXBvcztkYXRhJmFwb3M7KSBhcyBteWZpbGU6XG4gICAgICBwcm9jZXNzKG15ZmlsZSlcbiAgXG5JbiAqKjIuNSoqLCBgd2l0aGAgLyBgYXNgIGlzIGFuIG9wdGlvbmFsIGV4dGVuc2lvbiwgYW5kIGl0IGlzIG5vdCBhdmFpbGFibGUgdW5sZXNzIHlvdSBleHBsaWNpdGx5IHR1cm4gaXQgb24gYnkgcnVubmluZyB0aGUgc3RhdGVtZW50OlxuICBcbiAgICA6OjpweXRob25cbiAgICBmcm9tIF9fZnV0dXJlX18gaW1wb3J0IHdpdGhfc3RhdGVtZW50XG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ynu0]nczii", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for deleting references</div>", 
+                        "<p><code>del</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">del</span> <span style=\"color: #d0d0d0\">data[k]</span>\n<span style=\"color: #6ab825; font-weight: bold\">del</span> <span style=\"color: #d0d0d0\">data[i:j]</span>\n<span style=\"color: #6ab825; font-weight: bold\">del</span> <span style=\"color: #d0d0d0\">obj.attr</span>\n<span style=\"color: #6ab825; font-weight: bold\">del</span> <span style=\"color: #d0d0d0\">variable</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NDk5MzAsICJpZCI6ICIxNDk5NzQ5ODk3Mjk2LTAwMSIsICJtZCI6ICJgZGVsYFxuICBcbiAgICA6OjpweXRob25cbiAgICBkZWwgZGF0YVtrXVxuICAgIGRlbCBkYXRhW2k6al1cbiAgICBkZWwgb2JqLmF0dHJcbiAgICBkZWwgdmFyaWFibGVcbiJ9---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "J/iy[y3$T8", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>statement for executing statements (<b>2.X</b>)</div>", 
+                        "<p><code>exec</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825;font-weight: bold\">exec</span> <span style=\"color: #ed9d13\">'print 5'</span>\n<span style=\"color: #6ab825; font-weight: bold\">exec</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #ed9d13\">'print 5'</span><span style=\"color: #d0d0d0\">)</span>\n</pre></div>\n<p>In <strong>2.X</strong>, the <strong>3.X</strong> <code>exec</code> code execution built-in function is a statement, with specific syntax; since it supports enclosing parentheses, though, you can generally use its <strong>3.X</strong> call form in <strong>2.X</strong> code.</p>\n<p><code>eval()</code> is restricted to only accepting expressions, which are a kind of statement. <code>exec()</code>, however, can handle all statements.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTA2MzksICJpZCI6ICIxNDk5NzUwMTY3MDMzLTAwMSIsICJtZCI6ICJgZXhlY2BcbiAgXG4gICAgOjo6cHl0aG9uXG4gICAgZXhlYyAmYXBvcztwcmludCA1JmFwb3M7XG4gICAgZXhlYygmYXBvcztwcmludCA1JmFwb3M7KVxuICBcbkluICoqMi5YKiosIHRoZSAqKjMuWCoqIGBleGVjYCBjb2RlIGV4ZWN1dGlvbiBidWlsdC1pbiBmdW5jdGlvbiBpcyBhIHN0YXRlbWVudCwgd2l0aCBzcGVjaWZpYyBzeW50YXg7IHNpbmNlIGl0IHN1cHBvcnRzIGVuY2xvc2luZyBwYXJlbnRoZXNlcywgdGhvdWdoLCB5b3UgY2FuIGdlbmVyYWxseSB1c2UgaXRzICoqMy5YKiogY2FsbCBmb3JtIGluICoqMi5YKiogY29kZS5cbiAgXG5gZXZhbCgpYCBpcyByZXN0cmljdGVkIHRvIG9ubHkgYWNjZXB0aW5nIGV4cHJlc3Npb25zLCB3aGljaCBhcmUgYSBraW5kIG9mIHN0YXRlbWVudC4gYGV4ZWMoKWAsIGhvd2V2ZXIsIGNhbiBoYW5kbGUgYWxsIHN0YXRlbWVudHMuXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ma@On/Faxe", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>Is <code>if (x &lt; y)</code> valid Python?</div>", 
+                        "<div>Yes, every expression can be enclosed in parentheses, but they are not required: <code>if x &lt; y</code></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ws,Bp/t=6P", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>Does Python require semicolon terminated lines?</div>", 
+                        "<div>No, end of line is end of statement, but semicolons can separate statements when combined on the same line, so it is not an error to terminate lines with them.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "OuX1<z;h[<", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>Python indentation</div>", 
+                        "<b>For a given single nested block, all of its statements must be indented the same.</b><div><br /></div><div>You may use any number of either spaces or tabs, and the indentation of one nested block can be totally different from that of another.</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "n}WZfj:+gB", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>Python statements on one line</div>", 
+                        "The only place in Python where semicolons are required is as statement separators, which only works if the statements thus combined are not themselves compound statements. You can chain together <b>only simple statements</b>, like assignments, <code>print</code>s, and function calls. Compound statements like <code>if</code> tests and <code>while</code> loops must still appear on lines of their own.", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "v1npUnC5K,", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>continuation line indentation</div>", 
+                        "<div><div>\n<p>The indentation of the continuation lines does not matter, though common sense dictates that the lines should be aligned somehow for readability.</p>\n</div></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "l6p4[#v(gi", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>making statements multiline</div>", 
+                        "<p>Parentheses are the catchall device — because any expression can be wrapped in them, simply inserting a left parenthesis allows you to drop down to the next line and continue your statement: </p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">X</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">(A</span> <span style=\"color: #d0d0d0\">+</span> <span style=\"color: #d0d0d0\">B</span> <span style=\"color: #d0d0d0\">+</span>\n     <span style=\"color: #d0d0d0\">C</span> <span style=\"color: #d0d0d0\">+</span> <span style=\"color: #d0d0d0\">D)</span>\n</pre></div>\n<p>This technique works with compound statements, too. Anywhere you need to code a large expression, simply wrap it in parentheses to continue it on the next line:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #6ab825; font-weight: bold\">if</span> <span style=\"color: #d0d0d0\">(A</span> <span style=\"color: #d0d0d0\">==</span> <span style=\"color: #3677a9\">1</span> <span style=\"color: #6ab825; font-weight: bold\">and</span>\n    <span style=\"color: #d0d0d0\">B</span> <span style=\"color: #d0d0d0\">==</span> <span style=\"color: #3677a9\">2</span> <span style=\"color: #6ab825; font-weight: bold\">and</span>\n    <span style=\"color: #d0d0d0\">C</span> <span style=\"color: #d0d0d0\">==</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">):</span>\n        <span style=\"color: #6ab825; font-weight: bold\">print</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #ed9d13\">'spam'</span> <span style=\"color: #d0d0d0\">*</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">)</span>\n</pre></div>\n<p>An older rule also allows for continuation lines when the prior line ends in a backslash:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #999999; font-style: italic\"># An error-prone older alternative  </span>\n<span style=\"color: #d0d0d0\">X</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">A</span> <span style=\"color: #d0d0d0\">+</span> <span style=\"color: #d0d0d0\">B</span> <span style=\"color: #d0d0d0\">+</span> \\\n    <span style=\"color: #d0d0d0\">C</span> <span style=\"color: #d0d0d0\">+</span> <span style=\"color: #d0d0d0\">D</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTE5MTgsICJpZCI6ICIxNDk5NzUxNjk1MTcxLTAwMSIsICJtZCI6ICJQYXJlbnRoZXNlcyBhcmUgdGhlIGNhdGNoYWxsIGRldmljZSBcdTIwMTQgYmVjYXVzZSBhbnkgZXhwcmVzc2lvbiBjYW4gYmUgd3JhcHBlZCBpbiB0aGVtLCBzaW1wbHkgaW5zZXJ0aW5nIGEgbGVmdCBwYXJlbnRoZXNpcyBhbGxvd3MgeW91IHRvIGRyb3AgZG93biB0byB0aGUgbmV4dCBsaW5lIGFuZCBjb250aW51ZSB5b3VyIHN0YXRlbWVudDogXG4gIFxuICAgIDo6OnB5dGhvblxuICAgIFggPSAoQSArIEIgK1xuICAgICAgICAgQyArIEQpXG4gIFxuVGhpcyB0ZWNobmlxdWUgd29ya3Mgd2l0aCBjb21wb3VuZCBzdGF0ZW1lbnRzLCB0b28uIEFueXdoZXJlIHlvdSBuZWVkIHRvIGNvZGUgYSBsYXJnZSBleHByZXNzaW9uLCBzaW1wbHkgd3JhcCBpdCBpbiBwYXJlbnRoZXNlcyB0byBjb250aW51ZSBpdCBvbiB0aGUgbmV4dCBsaW5lOlxuICBcbiAgICA6OjpweXRob25cbiAgICBpZiAoQSA9PSAxIGFuZFxuICAgICAgICBCID09IDIgYW5kXG4gICAgICAgIEMgPT0gMyk6XG4gICAgICAgICAgICBwcmludCgmYXBvcztzcGFtJmFwb3M7ICogMylcbiAgXG5BbiBvbGRlciBydWxlIGFsc28gYWxsb3dzIGZvciBjb250aW51YXRpb24gbGluZXMgd2hlbiB0aGUgcHJpb3IgbGluZSBlbmRzIGluIGEgYmFja3NsYXNoOlxuICBcbiAgICA6OjpweXRob25cbiAgICAjIEFuIGVycm9yLXByb25lIG9sZGVyIGFsdGVybmF0aXZlICBcbiAgICBYID0gQSArIEIgKyBcXFxuICAgICAgICBDICsgRCAgICAgICAgICAgICAgICAgIFxuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "xZN0/mcOR9", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div><code>input</code> in <b>2.X</b></div>", 
+                        "<div><code>raw_input</code></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "Qq.dNGI/7z", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>assignment statement form: basic</div>", 
+                        "<div><code>spam = 'Spam'</code></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "qg#gl):r7L", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>assignment statement form: tuple (positional)</div>", 
+                        "<div><code>spam, ham = 'yum', 'YUM'</code></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "C1}-[R,HQ#", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>assignment statement form: list (positional)</div>", 
+                        "<div><code>[spam, ham] = ['yum', 'YUM']</code></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "pd%pfuWTU!", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>assignment statement form: sequence, generalized</div>", 
+                        "<div><code>a, b, c, d = 'spam'</code></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "se8Z]FI/mq", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>assignment statement form: extended sequence unpacking (<b>3.X</b>)</div>", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">a,</span> <span style=\"color: #d0d0d0\">*b</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'spam'</span>\n<span style=\"color: #d0d0d0\">*a,</span> <span style=\"color: #d0d0d0\">b</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'spam'</span>\n<span style=\"color: #d0d0d0\">a,</span> <span style=\"color: #d0d0d0\">*b,</span> <span style=\"color: #d0d0d0\">c</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'spam'</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTM1MDYsICJpZCI6ICIxNDk5NzUyMzE1NTM0LTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgYSwgKmIgPSAmYXBvcztzcGFtJmFwb3M7XG4gICAgKmEsIGIgPSAmYXBvcztzcGFtJmFwb3M7XG4gICAgYSwgKmIsIGMgPSAmYXBvcztzcGFtJmFwb3M7XG4ifQ==---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "vol(aA_Z[%", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>assignment statement form: multiple target</div>", 
+                        "<div><code>spam = ham = 'lunch'</code></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ZOSWptta3", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>assignment statement form: augmented</div>", 
+                        "<div><code>spam += 42</code></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "IUIv$qc/Te", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>swap two variables</div>", 
+                        "<div><code>a, b = b, a</code></div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "M8v-UZ)_XF", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>sequence assignment supports these types of objects</div>", 
+                        "<div>any iterable object can be on the right</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "FI-^t516fk", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "<div>Does sequence assignment support nesting?</div>", 
+                        "<p>Yes. Nested tuple (really, sequence) unpacking assignment works for function argument lists in <strong>2.X</strong> (though not in <strong>3.X</strong>), because function arguments are passed by assignment as well.</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">string</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">'SPAM'</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">(a,</span> <span style=\"color: #d0d0d0\">b),</span> <span style=\"color: #d0d0d0\">c</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">string[:</span><span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">],</span> <span style=\"color: #d0d0d0\">string[</span><span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">:]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">a,</span> <span style=\"color: #d0d0d0\">b,</span> <span style=\"color: #d0d0d0\">c</span>\n<span style=\"color: #d0d0d0\">(</span><span style=\"color: #ed9d13\">'S'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'P'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'AM'</span><span style=\"color: #d0d0d0\">)</span>\n\n<span style=\"color: #999999; font-style: italic\"># Nested tuple assignment</span>\n<span style=\"color: #6ab825; font-weight: bold\">for</span> <span style=\"color: #d0d0d0\">((a,</span> <span style=\"color: #d0d0d0\">b),</span> <span style=\"color: #d0d0d0\">c)</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">[((</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">),</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">),</span> <span style=\"color: #d0d0d0\">((</span><span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">5</span><span style=\"color: #d0d0d0\">),</span> <span style=\"color: #3677a9\">6</span><span style=\"color: #d0d0d0\">)]:</span> <span style=\"color: #d0d0d0\">...</span>\n\n<span style=\"color: #999999; font-style: italic\"># For arguments too in Python 2.X, but not 3.X</span>\n<span style=\"color: #6ab825; font-weight: bold\">def</span> <span style=\"color: #447fcf\">f</span><span style=\"color: #d0d0d0\">(((a,</span> <span style=\"color: #d0d0d0\">b),</span> <span style=\"color: #d0d0d0\">c)):</span> <span style=\"color: #d0d0d0\">...</span>\n<span style=\"color: #d0d0d0\">f(((</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">),</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">))</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTI4NjIsICJpZCI6ICIxNDk5NzUyNzA4MjI1LTAwMSIsICJtZCI6ICJZZXMuIE5lc3RlZCB0dXBsZSAocmVhbGx5LCBzZXF1ZW5jZSkgdW5wYWNraW5nIGFzc2lnbm1lbnQgd29ya3MgZm9yIGZ1bmN0aW9uIGFyZ3VtZW50IGxpc3RzIGluICoqMi5YKiogKHRob3VnaCBub3QgaW4gKiozLlgqKiksIGJlY2F1c2UgZnVuY3Rpb24gYXJndW1lbnRzIGFyZSBwYXNzZWQgYnkgYXNzaWdubWVudCBhcyB3ZWxsLlxuICBcbiAgICA6OjpweXRob25cbiAgICAmZ3Q7Jmd0OyZndDsgc3RyaW5nID0gJmFwb3M7U1BBTSZhcG9zO1xuICAgICZndDsmZ3Q7Jmd0OyAoYSwgYiksIGMgPSBzdHJpbmdbOjJdLCBzdHJpbmdbMjpdXG4gICAgJmd0OyZndDsmZ3Q7IGEsIGIsIGNcbiAgICAoJmFwb3M7UyZhcG9zOywgJmFwb3M7UCZhcG9zOywgJmFwb3M7QU0mYXBvczspXG4gIFxuICAgICMgTmVzdGVkIHR1cGxlIGFzc2lnbm1lbnRcbiAgICBmb3IgKChhLCBiKSwgYykgaW4gWygoMSwgMiksIDMpLCAoKDQsIDUpLCA2KV06IC4uLlxuICBcbiAgICAjIEZvciBhcmd1bWVudHMgdG9vIGluIFB5dGhvbiAyLlgsIGJ1dCBub3QgMy5YXG4gICAgZGVmIGYoKChhLCBiKSwgYykpOiAuLi5cbiAgICBmKCgoMSwgMiksIDMpKVxuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "vI%VACs]!H", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Python’s equivalent of the enumerated data types\n\n", 
+                        "<div>&nbsp; &nbsp; :::python</div><div>&nbsp; &nbsp;&nbsp;&gt;&gt;&gt; red, green, blue = range(3)</div><div>&nbsp; &nbsp; &gt;&gt;&gt; red, blue</div><div>&nbsp; &nbsp; (0, 2)</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "o4.zqn,t,b", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "difference between sequence unpacking and slices", 
+                        "<div>the former always returns a list for multiple matched items, whereas the latter returns a sequence of the same type as the original object</div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "JDS(W^JQ76", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python", 
+                        "statements"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "what a starred name is assigned if there is nothing left to match", 
+                        "<div>an empty list</div>", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "mO#)=`k,uI", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Must starred names be within a sequence?", 
+                        "<p>Yes: <code>*a, = seq</code> not <code>*a = seq</code></p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">*a</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">seq</span>\n<span style=\"color: #bbbbbb\">SyntaxError</span><span style=\"color: #d0d0d0\">:</span> <span style=\"color: #d0d0d0\">starred</span> <span style=\"color: #d0d0d0\">assignment</span> <span style=\"color: #d0d0d0\">target</span> <span style=\"color: #d0d0d0\">must</span> <span style=\"color: #d0d0d0\">be</span> <span style=\"color: #6ab825; font-weight: bold\">in</span> <span style=\"color: #d0d0d0\">a</span> <span style=\"color: #24909d\">list</span> <span style=\"color: #6ab825; font-weight: bold\">or</span> <span style=\"color: #24909d\">tuple</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">*a,</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">seq</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">a</span>\n<span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">]</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTM5MTAsICJpZCI6ICIxNDk5NzUzNzQzMTI4LTAwMSIsICJtZCI6ICJZZXM6IGAqYSwgPSBzZXFgIG5vdCBgKmEgPSBzZXFgXG4gIFxuICAgIDo6OnB5dGhvblxuICAgICZndDsmZ3Q7Jmd0OyAqYSA9IHNlcVxuICAgIFN5bnRheEVycm9yOiBzdGFycmVkIGFzc2lnbm1lbnQgdGFyZ2V0IG11c3QgYmUgaW4gYSBsaXN0IG9yIHR1cGxlXG4gIFxuICAgICZndDsmZ3Q7Jmd0OyAqYSwgPSBzZXFcbiAgICAmZ3Q7Jmd0OyZndDsgYVxuICAgIFsxLCAyLCAzLCA0XVxuIn0=---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "z}Bp_8Qb>o", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Is <code>a = b = []</code> valid?", 
+                        "<p>Yes, but <code>a</code> and <code>b</code> will both point to the same mutable object.</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">a</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">b</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">b.append(</span><span style=\"color: #3677a9\">42</span><span style=\"color: #d0d0d0\">)</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">a,</span> <span style=\"color: #d0d0d0\">b</span>\n<span style=\"color: #d0d0d0\">([</span><span style=\"color: #3677a9\">42</span><span style=\"color: #d0d0d0\">],</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">42</span><span style=\"color: #d0d0d0\">])</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTQwMjksICJpZCI6ICIxNDk5NzUzOTIxMjgxLTAwMSIsICJtZCI6ICJZZXMsIGJ1dCBgYWAgYW5kIGBiYCB3aWxsIGJvdGggcG9pbnQgdG8gdGhlIHNhbWUgbXV0YWJsZSBvYmplY3QuXG4gIFxuICAgIDo6OnB5dGhvblxuICAgICZndDsmZ3Q7Jmd0OyBhID0gYiA9IFtdXG4gICAgJmd0OyZndDsmZ3Q7IGIuYXBwZW5kKDQyKVxuICAgICZndDsmZ3Q7Jmd0OyBhLCBiXG4gICAgKFs0Ml0sIFs0Ml0pXG4ifQ==---->", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "dUn$YH&cF4", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "variable name syntax", 
+                        "<div><div><div>\n<p>(underscore or letter) + (any number of letters, digits, or underscores)</p>\n</div></div></div>", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "nnS:Xzzflv", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "Are&nbsp;<code>L += [3, 4]</code> and <code>L = L + [3, 4]</code>&nbsp;the same?", 
+                        "<p>The <code>+=</code> is an in-place change for lists; thus, it is not exactly like <code>+</code> concatenation, which always makes a new object.</p>\n<p>As for all shared reference cases, this difference might matter if other names reference the object being changed:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">M</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">L</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># L and M reference the same object</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">L</span> <span style=\"color: #d0d0d0\">+</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Concatenation makes a new object</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L,</span> <span style=\"color: #d0d0d0\">M</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># Changes L but not M</span>\n<span style=\"color: #d0d0d0\">([</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">],</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">])</span>\n\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">M</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #d0d0d0\">L</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L</span> <span style=\"color: #d0d0d0\">+=</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">]</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># But += really means extend</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">L,</span> <span style=\"color: #d0d0d0\">M</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #999999; font-style: italic\"># M sees the in-place change too!</span>\n<span style=\"color: #d0d0d0\">([</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">],</span> <span style=\"color: #d0d0d0\">[</span><span style=\"color: #3677a9\">1</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">4</span><span style=\"color: #d0d0d0\">])</span>\n</pre></div>\n<p>This only matters for mutables like lists and dictionaries, and it is a fairly obscure case (at least, until it impacts your code!). As always, make copies of your mutable objects if you need to break the shared reference structure.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk3NTQ1NzIsICJpZCI6ICIxNDk5NzU0MTcwODgwLTAwMSIsICJtZCI6ICJUaGUgYCs9YCBpcyBhbiBpbi1wbGFjZSBjaGFuZ2UgZm9yIGxpc3RzOyB0aHVzLCBpdCBpcyBub3QgZXhhY3RseSBsaWtlIGArYCBjb25jYXRlbmF0aW9uLCB3aGljaCBhbHdheXMgbWFrZXMgYSBuZXcgb2JqZWN0LlxuICBcbkFzIGZvciBhbGwgc2hhcmVkIHJlZmVyZW5jZSBjYXNlcywgdGhpcyBkaWZmZXJlbmNlIG1pZ2h0IG1hdHRlciBpZiBvdGhlciBuYW1lcyByZWZlcmVuY2UgdGhlIG9iamVjdCBiZWluZyBjaGFuZ2VkOlxuICBcbiAgICA6OjpweXRob24gIFxuICAgICZndDsmZ3Q7Jmd0OyBMID0gWzEsIDJdXG4gICAgJmd0OyZndDsmZ3Q7IE0gPSBMXG4gICAgJmd0OyZndDsmZ3Q7ICMgTCBhbmQgTSByZWZlcmVuY2UgdGhlIHNhbWUgb2JqZWN0XG4gICAgJmd0OyZndDsmZ3Q7IEwgPSBMICsgWzMsIDRdXG4gICAgJmd0OyZndDsmZ3Q7ICMgQ29uY2F0ZW5hdGlvbiBtYWtlcyBhIG5ldyBvYmplY3RcbiAgICAmZ3Q7Jmd0OyZndDsgTCwgTVxuICAgICZndDsmZ3Q7Jmd0OyAjIENoYW5nZXMgTCBidXQgbm90IE1cbiAgICAoWzEsIDIsIDMsIDRdLCBbMSwgMl0pXG4gIFxuICAgICZndDsmZ3Q7Jmd0OyBMID0gWzEsIDJdXG4gICAgJmd0OyZndDsmZ3Q7IE0gPSBMXG4gICAgJmd0OyZndDsmZ3Q7IEwgKz0gWzMsIDRdXG4gICAgJmd0OyZndDsmZ3Q7ICMgQnV0ICs9IHJlYWxseSBtZWFucyBleHRlbmRcbiAgICAmZ3Q7Jmd0OyZndDsgTCwgTVxuICAgICZndDsmZ3Q7Jmd0OyAjIE0gc2VlcyB0aGUgaW4tcGxhY2UgY2hhbmdlIHRvbyFcbiAgICAoWzEsIDIsIDMsIDRdLCBbMSwgMiwgMywgNF0pXG4gIFxuVGhpcyBvbmx5IG1hdHRlcnMgZm9yIG11dGFibGVzIGxpa2UgbGlzdHMgYW5kIGRpY3Rpb25hcmllcywgYW5kIGl0IGlzIGEgZmFpcmx5IG9ic2N1cmUgY2FzZSAoYXQgbGVhc3QsIHVudGlsIGl0IGltcGFjdHMgeW91ciBjb2RlISkuIEFzIGFsd2F5cywgbWFrZSBjb3BpZXMgb2YgeW91ciBtdXRhYmxlIG9iamVjdHMgaWYgeW91IG5lZWQgdG8gYnJlYWsgdGhlIHNoYXJlZCByZWZlcmVuY2Ugc3RydWN0dXJlLlxuIn0=---->", 
+                        "", 
+                        "reverse", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "xx3VLUymEh", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": [
+                        "python"
+                    ]
                 }
             ]
         }, 
@@ -32255,7 +34234,9 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [], 
+            "tags": [
+                "python"
+            ], 
             "tmpls": [
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
@@ -32264,7 +34245,7 @@
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q\">{{Subdeck}} meaning</var>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck\">{{Subdeck}} meaning</var>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
