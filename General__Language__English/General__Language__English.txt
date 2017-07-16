@@ -4965,7 +4965,7 @@ hyperopia	farsightedness<br>antonym: myopia
 hypnagogic	<div><i>adj.</i><br />1. Inducing sleep; soporific.<br />2. Of, relating to, or occurring in the state of intermediate consciousness preceding sleep</div>	hypnagogic hallucinations	y	hypnogogic		
 hypocorism	1. A name of endearment; a pet name.<br>2. The use of such names.					
 iatric	of or pertaining to a physician or physicians.					
-illation	<i>n.</i> <br>1. The act of inferring or drawing conclusions.<br>2. A conclusion drawn; a deduction.		y	illative (<i>2</i>)		
+illation	<i>n.</i> <br>1. The act of inferring or drawing conclusions.<br>2. A conclusion drawn; a deduction.		y	illative		
 imbricate	<i>adj.</i><br>Having regularly arranged, overlapping edges, as roof tiles or fish scales.<br>verb:<br>To overlap in a regular pattern, to be arranged with regular overlapping edges (as in roofing tiles)					
 imperforate	<i>adj.</i><br>1. Having no opening; not perforated.<br>2. Not separated by rows of perforations: imperforate sheets of stamps.<br>3. (Medicine) Lacking a normal opening: “an imperforate anus.”					
 inanition	1. Exhaustion, as from lack of nourishment or vitality.<br>2. The condition or quality of being empty.					
@@ -5232,7 +5232,7 @@ aurorean	<div><i>adj.</i> Of or belonging to the dawn</div><br><div>From Latin a
 adhocracy	<div><i>n.</i> A flexible and informal style of organization and management, characterized by a lack of bureaucracy. Also (depreciative): bureaucracy characterized by inconsistency and lack of planning.</div>					
 conterminous	<i>adj.</i> <div>1. Having a common boundary. </div><div>2. Confined within one common boundary. </div><div>3. Having the same scope, in time, meaning, etc</div>					
 monkery	<div><i>n.</i> The countryside; a district, esp. one frequented by tramps. Hence: the way of life of a tramp (British)</div>					
-apoplectic	<i>adj.</i> <div>1. Overcome with anger; extremely indignant. </div><div>2. Relating to or denoting apoplexy (stroke): “an apoplectic attack”.</div>					
+apoplectic	<i>adj.</i> <div>1. Overcome with anger; extremely indignant. </div><div>2. Relating to or denoting apoplexy (stroke)</div>	an apoplectic attack				
 caveat emptor	<div>let the buyer beware</div><div><br></div>a principle in commerce: without a warranty the buyer takes the risk<div><br></div><div>(from caveat, “may he beware”, the subjunctive of cavere, “to beware” + emptor, “buyer”)<br></div>					latin
 filipendulous	<div><i>adj.</i> Hanging by a thread.</div>					
 aumbry	<div>noun.</div>1. A container for storing books, a bookcase; <div>2. (occas.) a room where books or other documents are stored, a library, an archive. 3. <i>formerly</i> a repository or compendium of knowledge, such as a chronicle or commentary (obs.). Now hist. (chiefly in the form almery) and rare.</div>					
@@ -5363,29 +5363,29 @@ macédoine	1. a confused mixture; medley <div><br><div>2. a mixture of fruits or
 /y/	<b>y</b>es, on<b>i</b>on		y			
 /z/	<b>z</b>oo, ea<b>s</b>y, bu<b>zz</b>		y			
 /ʒ/	mea<b>s</b>ure, televi<b>s</b>ion, bei<b>ge</b>		y			
-/æ/	<b>a</b>pple, c<b>a</b>n, h<b>a</b>t		y			
-/eɪ/	<b>ai</b>d, h<b>a</b>te, d<b>ay</b>		y			
-/ɑ/	<b>a</b>rm, f<b>a</b>ther, ah<b>a</b>		y			
-/ɛər/	<b>air</b>, c<b>are</b>ful, w<b>ear</b>		y			
-/ɔ/	<b>a</b>ll, <b>o</b>r, t<b>a</b>lk, l<b>o</b>st, s<b>aw</b>		y			marked
-/aʊər/	<b>hour</b>		y			
-/ɛ/	<b>e</b>ver, h<b>ea</b>d, g<b>e</b>t		y			
-/i/	<b>ea</b>t, s<b>ee</b>, n<b>ee</b>d		y			
-/ɪər/	<b>ear</b>, h<b>e</b>ro, b<b>eer</b>		y			
-/ər/	teach<b>er</b>, aft<b>er</b>ward, murd<b>erer</b>		y			
-/ɜr/	<b>ear</b>ly, b<b>ir</b>d, st<b>irr</b>ing		y			
-/ɪ/	<b>i</b>t, b<b>i</b>g, f<b>i</b>n<b>i</b>sh<b>e</b>s		y			
-/aɪ/	<b>I</b>, <b>i</b>ce, h<b>i</b>de, den<b>y</b>		y			
-/aɪər/	f<b>ire</b>, t<b>ire</b>d		y			
-/ɒ/	<b>o</b>dd, h<b>o</b>t, w<b>a</b>ffle		y			
-/oʊ/	<b>owe</b>, r<b>oa</b>d, bel<b>ow</b>		y			
-/u/	<b>oo</b>ze, f<b>oo</b>d, s<b>ou</b>p, s<b>ue</b>		y			
-/ʊ/	g<b>oo</b>d, b<b>oo</b>k, p<b>u</b>t		y			
-/ɔɪ/	<b>oi</b>l, ch<b>oi</b>ce, t<b>oy</b>		y			
-/aʊ/	<b>o</b>ut, l<b>ou</b>d, h<b>o</b>w		y			
-/ʌ/	<b>u</b>p, m<b>o</b>ther, m<b>u</b>d		y			
-/ə/	<b>a</b>bout, anim<b>a</b>l, probl<b>e</b>m, circ<b>us</b>		y			
-/ˈ/ and /ˌ/	/ˈ/ indicates primary stressed syllable follows; /ˌ/ indicates secondary stressed syllable follows, as in news‧pa‧per /ˈnuzˌpeɪ pər/ and in‧for‧ma‧tion /ˌɪn fərˈmeɪ ʃən/		y			
+/æ/	<b>a</b>pple, c<b>a</b>n, h<b>a</b>t	"<img src=""vowels-chart.jpg"" />"	y			
+/eɪ/	<b>ai</b>d, h<b>a</b>te, d<b>ay</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/ɑ/	<b>a</b>rm, f<b>a</b>ther, ah<b>a</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/ɛər/	<b>air</b>, c<b>are</b>ful, w<b>ear</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/ɔ/	<b>a</b>ll, <b>o</b>r, t<b>a</b>lk, l<b>o</b>st, s<b>aw</b>	"<img src=""vowels-chart.jpg"" />"	y			marked
+/aʊər/	<b>hour</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/ɛ/	<b>e</b>ver, h<b>ea</b>d, g<b>e</b>t	"<img src=""vowels-chart.jpg"" />"	y			
+/i/	<b>ea</b>t, s<b>ee</b>, n<b>ee</b>d	"<img src=""vowels-chart.jpg"" />"	y			
+/ɪər/	<b>ear</b>, h<b>e</b>ro, b<b>eer</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/ər/	teach<b>er</b>, aft<b>er</b>ward, murd<b>erer</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/ɜr/	<b>ear</b>ly, b<b>ir</b>d, st<b>irr</b>ing	"<img src=""vowels-chart.jpg"" />"	y			
+/ɪ/	<b>i</b>t, b<b>i</b>g, f<b>i</b>n<b>i</b>sh<b>e</b>s	"<img src=""vowels-chart.jpg"" />"	y			
+/aɪ/	<b>I</b>, <b>i</b>ce, h<b>i</b>de, den<b>y</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/aɪər/	f<b>ire</b>, t<b>ire</b>d	"<img src=""vowels-chart.jpg"" />"	y			
+/ɒ/	<b>o</b>dd, h<b>o</b>t, w<b>a</b>ffle	"<img src=""vowels-chart.jpg"" />"	y			
+/oʊ/	<b>owe</b>, r<b>oa</b>d, bel<b>ow</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/u/	<b>oo</b>ze, f<b>oo</b>d, s<b>ou</b>p, s<b>ue</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/ʊ/	g<b>oo</b>d, b<b>oo</b>k, p<b>u</b>t	"<img src=""vowels-chart.jpg"" />"	y			
+/ɔɪ/	<b>oi</b>l, ch<b>oi</b>ce, t<b>oy</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/aʊ/	<b>o</b>ut, l<b>ou</b>d, h<b>o</b>w	"<img src=""vowels-chart.jpg"" />"	y			
+/ʌ/	<b>u</b>p, m<b>o</b>ther, m<b>u</b>d	"<img src=""vowels-chart.jpg"" />"	y			
+/ə/	<b>a</b>bout, anim<b>a</b>l, probl<b>e</b>m, circ<b>us</b>	"<img src=""vowels-chart.jpg"" />"	y			
+/ˈ/	indicates primary stressed syllable follows	as in news‧pa‧per /ˈnuzˌpeɪ pər/ and in‧for‧ma‧tion /ˌɪn fərˈmeɪ ʃən/	y			
 pendentive	"<div>a curved triangle of vaulting formed by the intersection of a dome with its supporting arches.</div><img src=""PEND2.JPG"" />"					
 erstwhile	former, formerly					
 <i>cf.</i>	compare with; consult		y	confer (Latin)		latin
@@ -5400,3 +5400,4 @@ erstwhile	former, formerly
 magpie	<div><i>n.</i></div> 1. either of two corvine birds, <i>Pica pica</i> (black-billed magpie) of Eurasia and North America, or <i>P. nuttalli</i> (yellow-billed magpie) of California, having long, graduated tails, black-and-white plumage, and noisy, mischievous habits.<div>2. any of several related corvine birds.</div><div>3. any of several black-and-white birds not related to the true magpies, as Gymnorhina tibicen, of Australia.</div><div>4. an incessantly talkative person; noisy chatterer; chatterbox.</div><div>5. a person who collects or hoards things, especially indiscriminately.</div><div>6. Western U.S. a black-and-white cow or steer, as a Holstein. </div>		y			
 brouhaha	<i>n.</i><div>1. excited public interest, discussion, or the like, as the clamor attending some sensational event; hullabaloo</div><div>2. an episode involving excitement, confusion, turmoil, etc., especially a broil over a minor or ridiculous cause </div>	1. The brouhaha followed disclosures of graft at City Hall.<div>2. A brouhaha by the baseball players resulted in three black eyes. </div>				
 wan	"<style type=""text/css""> p, li { white-space: pre-wrap; } </style> <p style=""-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><br /></p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><i>adj.</i>, <b>wanner</b>, <b>wannest</b>.</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">1. of an unnatural or sickly pallor; pallid; lacking color:</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">2. showing or suggesting ill health, fatigue, unhappiness, etc.:</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">3. lacking in forcefulness, competence, or effectiveness:</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">4. <i>Archaic. </i>dark or gloomy. pale in color or hue.</p> <p style=""-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><br /></p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><i>v. (used with or without object)</i>, <b>wanned</b>, <b>wanning</b>.</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"">5. to become or make wan.</p> <p style=""-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><br /><!--EndFragment--></p>"	"<p style=""white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; "">1. His wan face suddenly flushed.</p><p style=""white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; "">2. a wan look; a wan smile.</p><p style=""white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; "">3. their wan attempts to organize the alumni.</p><div><br /></div>"				
+/ˌ/	indicates secondary stressed syllable follows	as in news‧pa‧per /ˈnuzˌpeɪ pər/ and in‧for‧ma‧tion /ˌɪn fərˈmeɪ ʃən/	y			

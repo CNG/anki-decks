@@ -10,7 +10,9 @@
             "dyn": 0, 
             "extendNew": 10, 
             "extendRev": 50, 
-            "media_files": [], 
+            "media_files": [
+                "vowels-chart.jpg"
+            ], 
             "name": "IPA for English (Dictionary.com)", 
             "notes": [
                 {
@@ -419,7 +421,7 @@
                     "fields": [
                         "/æ/", 
                         "<b>a</b>pple, c<b>a</b>n, h<b>a</b>t", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -435,7 +437,7 @@
                     "fields": [
                         "/eɪ/", 
                         "<b>ai</b>d, h<b>a</b>te, d<b>ay</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -451,7 +453,7 @@
                     "fields": [
                         "/ɑ/", 
                         "<b>a</b>rm, f<b>a</b>ther, ah<b>a</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -467,7 +469,7 @@
                     "fields": [
                         "/ɛər/", 
                         "<b>air</b>, c<b>are</b>ful, w<b>ear</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -483,7 +485,7 @@
                     "fields": [
                         "/ɔ/", 
                         "<b>a</b>ll, <b>o</b>r, t<b>a</b>lk, l<b>o</b>st, s<b>aw</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -501,7 +503,7 @@
                     "fields": [
                         "/aʊər/", 
                         "<b>hour</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -517,7 +519,7 @@
                     "fields": [
                         "/ɛ/", 
                         "<b>e</b>ver, h<b>ea</b>d, g<b>e</b>t", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -533,7 +535,7 @@
                     "fields": [
                         "/i/", 
                         "<b>ea</b>t, s<b>ee</b>, n<b>ee</b>d", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -549,7 +551,7 @@
                     "fields": [
                         "/ɪər/", 
                         "<b>ear</b>, h<b>e</b>ro, b<b>eer</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -565,7 +567,7 @@
                     "fields": [
                         "/ər/", 
                         "teach<b>er</b>, aft<b>er</b>ward, murd<b>erer</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -581,7 +583,7 @@
                     "fields": [
                         "/ɜr/", 
                         "<b>ear</b>ly, b<b>ir</b>d, st<b>irr</b>ing", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -597,7 +599,7 @@
                     "fields": [
                         "/ɪ/", 
                         "<b>i</b>t, b<b>i</b>g, f<b>i</b>n<b>i</b>sh<b>e</b>s", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -613,7 +615,7 @@
                     "fields": [
                         "/aɪ/", 
                         "<b>I</b>, <b>i</b>ce, h<b>i</b>de, den<b>y</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -629,7 +631,7 @@
                     "fields": [
                         "/aɪər/", 
                         "f<b>ire</b>, t<b>ire</b>d", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -645,7 +647,7 @@
                     "fields": [
                         "/ɒ/", 
                         "<b>o</b>dd, h<b>o</b>t, w<b>a</b>ffle", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -661,7 +663,7 @@
                     "fields": [
                         "/oʊ/", 
                         "<b>owe</b>, r<b>oa</b>d, bel<b>ow</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -677,7 +679,7 @@
                     "fields": [
                         "/u/", 
                         "<b>oo</b>ze, f<b>oo</b>d, s<b>ou</b>p, s<b>ue</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -693,7 +695,7 @@
                     "fields": [
                         "/ʊ/", 
                         "g<b>oo</b>d, b<b>oo</b>k, p<b>u</b>t", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -709,7 +711,7 @@
                     "fields": [
                         "/ɔɪ/", 
                         "<b>oi</b>l, ch<b>oi</b>ce, t<b>oy</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -725,7 +727,7 @@
                     "fields": [
                         "/aʊ/", 
                         "<b>o</b>ut, l<b>ou</b>d, h<b>o</b>w", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -741,7 +743,7 @@
                     "fields": [
                         "/ʌ/", 
                         "<b>u</b>p, m<b>o</b>ther, m<b>u</b>d", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -757,7 +759,7 @@
                     "fields": [
                         "/ə/", 
                         "<b>a</b>bout, anim<b>a</b>l, probl<b>e</b>m, circ<b>us</b>", 
-                        "", 
+                        "<img src=\"vowels-chart.jpg\" />", 
                         "y", 
                         "", 
                         ""
@@ -771,15 +773,31 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "/ˈ/ and /ˌ/", 
-                        "/ˈ/ indicates primary stressed syllable follows; /ˌ/ indicates secondary stressed syllable follows, as in news‧pa‧per /ˈnuzˌpeɪ pər/ and in‧for‧ma‧tion /ˌɪn fərˈmeɪ ʃən/", 
-                        "", 
+                        "/ˈ/", 
+                        "indicates primary stressed syllable follows", 
+                        "as in news‧pa‧per /ˈnuzˌpeɪ pər/ and in‧for‧ma‧tion /ˌɪn fərˈmeɪ ʃən/", 
                         "y", 
                         "", 
                         ""
                     ], 
                     "flags": 0, 
                     "guid": "C:.}V>S1Wd", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "/ˌ/", 
+                        "indicates secondary stressed syllable follows", 
+                        "as in news‧pa‧per /ˈnuzˌpeɪ pər/ and in‧for‧ma‧tion /ˌɪn fərˈmeɪ ʃən/", 
+                        "y", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "ygjIz4bbar", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
                 }
@@ -89934,7 +89952,7 @@
                         "<i>n.</i> <br>1. The act of inferring or drawing conclusions.<br>2. A conclusion drawn; a deduction.", 
                         "", 
                         "y", 
-                        "illative (<i>2</i>)", 
+                        "illative", 
                         ""
                     ], 
                     "flags": 0, 
@@ -94213,8 +94231,8 @@
                     "data": "", 
                     "fields": [
                         "apoplectic", 
-                        "<i>adj.</i> <div>1. Overcome with anger; extremely indignant. </div><div>2. Relating to or denoting apoplexy (stroke): “an apoplectic attack”.</div>", 
-                        "", 
+                        "<i>adj.</i> <div>1. Overcome with anger; extremely indignant. </div><div>2. Relating to or denoting apoplexy (stroke)</div>", 
+                        "an apoplectic attack", 
                         "", 
                         "", 
                         ""
@@ -96322,16 +96340,16 @@
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck Technical\">{{Subdeck}} meaning</var>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this in {{Subdeck}}</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
