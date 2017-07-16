@@ -4146,41 +4146,6 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "ocha", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "tea.", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "http://www.sushifaq.com/sushi-sashimi-info/sushi-terminology/"
-                    ], 
-                    "flags": 0, 
-                    "guid": "Mq`1sGvF#>", 
-                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-                    "tags": [
-                        "sushi"
-                    ]
-                }, 
-                {
-                    "__type__": "Note", 
-                    "data": "", 
-                    "fields": [
                         "odori ebi", 
                         "", 
                         "", 
