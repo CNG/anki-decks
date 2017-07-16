@@ -170,7 +170,7 @@
                         "obsolete alias", 
                         "-i", 
                         "--ignore-case", 
-                        "-y", 
+                        "grep -y", 
                         "Ignore case distinctions in both the <u>PATTERN</u> and the input files.", 
                         "<div><div><code><div>grep -i \"the\" demo_file</div></code></div></div>", 
                         ""
@@ -25452,7 +25452,7 @@
                     "data": "", 
                     "fields": [
                         "<code>.git/index</code>", 
-                        "<div>The Git index is used as a staging area between your working directory and your repository. You can use the index to build up a set of changes that you want to commit together. When you create a commit, what is committed is what is currently in the index, not what is in your working directory. It is a binary file containing a sorted list of path names, each with permissions and the SHA-1 of a blob object.</div><div><br /></div><div>Its content can be listed through:</div><div><pre>git ls-files --stage\n100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0 &nbsp; &nbsp;README</pre></div>", 
+                        "<div>binary file containing a sorted list of path names, each with permissions and the SHA-1 of a blob object</div><div><br /></div><div>Its content can be listed through:</div><div><pre>git ls-files --stage\n100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0 &nbsp; &nbsp;README</pre></div>", 
                         "", 
                         "reverse", 
                         "", 
@@ -25554,6 +25554,25 @@
                     "tags": [
                         "git"
                     ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "git ls-files --stage", 
+                        "git ls-files", 
+                        "", 
+                        "", 
+                        "--stage", 
+                        "", 
+                        "show index files", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "EEw&*cq,4", 
+                    "note_model_uuid": "54286cbd-35b7-11e7-bc63-2c56dc924912", 
+                    "tags": []
                 }
             ]
         }, 
@@ -29207,7 +29226,7 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "<code>math.floor(-2.5)</code>", 
+                        "<code>math.floor(-2.499)</code>", 
                         "<div><code>-3</code></div>", 
                         "", 
                         "", 
@@ -29352,7 +29371,7 @@
                     "data": "", 
                     "fields": [
                         "immutable constraints and frozen sets", 
-                        "sets can only contain <i>immutable</i> (a.k.a. “hashable”) object types. Hence, lists and dictionaries cannot be embedded in sets, but tuples can if you need to store compound values.\n\n", 
+                        "(word \"frozen\" missing here?) sets can only contain <i>immutable</i> (a.k.a. “hashable”) object types. Hence, lists and dictionaries cannot be embedded in sets, but tuples can if you need to store compound values.\n\n", 
                         "", 
                         "", 
                         "", 
@@ -29816,7 +29835,7 @@
                     "data": "", 
                     "fields": [
                         "string <code>join</code> method", 
-                        "<div>&nbsp; &nbsp; :::python</div><div>&nbsp; &nbsp; &gt;&gt;&gt; S = ''.join(L)</div><div>&nbsp; &nbsp; &gt;&gt;&gt; S</div><div>&nbsp; &nbsp; 'spaxxy'</div><div><br /></div><div>The `join` method may look a bit backward at first sight. Because it is a method of strings (not of lists), it is called through the desired delimiter. `join` puts the strings in a list (or other iterable) together, with the delimiter between list items; in this case, it uses an empty string delimiter to convert from a list back to a string. More generally, any string delimiter and iterable of strings will do:</div><div><br /></div><div>&nbsp; &nbsp; :::python</div><div>&nbsp; &nbsp; &gt;&gt;&gt; 'SPAM'.join(['eggs', 'sausage', 'ham', 'toast'])</div><div>&nbsp; &nbsp; 'eggsSPAMsausageSPAMhamSPAMtoast'</div>", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">S</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #ed9d13\">''</span><span style=\"color: #d0d0d0\">.join(L)</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">S</span>\n<span style=\"color: #ed9d13\">'spaxxy'</span>\n</pre></div>\n<p>The <code>join</code> method may look a bit backward at first sight. Because it is a method of strings (not of lists), it is called through the desired delimiter. <code>join</code> puts the strings in a list (or other iterable) together, with the delimiter between list items; in this case, it uses an empty string delimiter to convert from a list back to a string. More generally, any string delimiter and iterable of strings will do:</p>\n<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #ed9d13\">'SPAM'</span><span style=\"color: #d0d0d0\">.join([</span><span style=\"color: #ed9d13\">'eggs'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'sausage'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'ham'</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #ed9d13\">'toast'</span><span style=\"color: #d0d0d0\">])</span>\n<span style=\"color: #ed9d13\">'eggsSPAMsausageSPAMhamSPAMtoast'</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0OTk4MDAzODMsICJpZCI6ICIxNDk5NzMxNjUwNjIyLTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IFMgPSAmYXBvczsmYXBvczsuam9pbihMKVxuICAgICZndDsmZ3Q7Jmd0OyBTXG4gICAgJmFwb3M7c3BheHh5JmFwb3M7XG4gIFxuVGhlIGBqb2luYCBtZXRob2QgbWF5IGxvb2sgYSBiaXQgYmFja3dhcmQgYXQgZmlyc3Qgc2lnaHQuIEJlY2F1c2UgaXQgaXMgYSBtZXRob2Qgb2Ygc3RyaW5ncyAobm90IG9mIGxpc3RzKSwgaXQgaXMgY2FsbGVkIHRocm91Z2ggdGhlIGRlc2lyZWQgZGVsaW1pdGVyLiBgam9pbmAgcHV0cyB0aGUgc3RyaW5ncyBpbiBhIGxpc3QgKG9yIG90aGVyIGl0ZXJhYmxlKSB0b2dldGhlciwgd2l0aCB0aGUgZGVsaW1pdGVyIGJldHdlZW4gbGlzdCBpdGVtczsgaW4gdGhpcyBjYXNlLCBpdCB1c2VzIGFuIGVtcHR5IHN0cmluZyBkZWxpbWl0ZXIgdG8gY29udmVydCBmcm9tIGEgbGlzdCBiYWNrIHRvIGEgc3RyaW5nLiBNb3JlIGdlbmVyYWxseSwgYW55IHN0cmluZyBkZWxpbWl0ZXIgYW5kIGl0ZXJhYmxlIG9mIHN0cmluZ3Mgd2lsbCBkbzpcbiAgXG4gICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7ICZhcG9zO1NQQU0mYXBvczsuam9pbihbJmFwb3M7ZWdncyZhcG9zOywgJmFwb3M7c2F1c2FnZSZhcG9zOywgJmFwb3M7aGFtJmFwb3M7LCAmYXBvczt0b2FzdCZhcG9zO10pXG4gICAgJmFwb3M7ZWdnc1NQQU1zYXVzYWdlU1BBTWhhbVNQQU10b2FzdCZhcG9zO1xuIn0=---->", 
                         "", 
                         "", 
                         "", 
@@ -29978,7 +29997,7 @@
                     "data": "", 
                     "fields": [
                         "<code>string</code> formatting expression of single value tuple", 
-                        "<div>'%s' % ((1.23,),)</div>", 
+                        "<div><code>'%s' % ((1.23,),)</code></div>", 
                         "Formatting expression accepts tuples of values or a single value. Therefore to actually format a tuple containing one item, you must double enclose it.", 
                         "reverse", 
                         "", 
@@ -30268,7 +30287,7 @@
                         "<i>dictionary</i>&nbsp;views and sets", 
                         "<div><div><div>\n<p>Unlike <b>2.X</b>’s list results, <b>3.X</b>’s view objects returned by the <code>keys</code> method are set-like and support common set operations such as intersection and union; <code>values</code> views are not set-like, but <code>items</code> results are if their <code>(key, value)</code> pairs are unique and hashable (immutable). Given that sets behave much like valueless <i>dictionaries</i> (and may even be coded in curly braces like <i>dictionaries</i> in <b>3.X</b> and <b>2.7</b>), this is a logical symmetry. Set items are unordered, unique, and immutable, just like dictionary keys.</p>\n</div></div></div>", 
                         "", 
-                        "reverse", 
+                        "", 
                         "", 
                         ""
                     ], 
@@ -30284,7 +30303,7 @@
                     "data": "", 
                     "fields": [
                         "single item <i>tuple</i>", 
-                        "must use trailing comma since parentheses can enclose expressions: <code>(40,)</code>", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">(</span><span style=\"color: #3677a9\">40</span><span style=\"color: #d0d0d0\">,)</span>\n</pre></div>\n<p>must use trailing comma since parentheses can enclose expressions</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDAwMTcxOTEsICJpZCI6ICIxNDk5NzQ2MDE2MTY2LTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgKDQwLClcbiAgXG5tdXN0IHVzZSB0cmFpbGluZyBjb21tYSBzaW5jZSBwYXJlbnRoZXNlcyBjYW4gZW5jbG9zZSBleHByZXNzaW9uc1xuIn0=---->", 
                         "", 
                         "", 
                         "", 
@@ -30319,8 +30338,8 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "file <code>write</code> calls in <b>2.X</b> <i>vs.</i> <b>3.X</b>", 
-                        "<div><div><div>\n<p>they return the number of characters written in Python <b>3.X</b>; in <b>2.X</b> they don’t, so you won’t see these numbers echoed interactively.</p>\n</div></div></div>", 
+                        "file <code>write</code> calls return in <b>2.X</b> <i>vs.</i> <b>3.X</b>", 
+                        "<div><div><div>\n<p>these return the number of characters written in the latter versions, so in the former you won’t see these numbers echoed interactively</p>\n</div></div></div>", 
                         "", 
                         "reverse", 
                         "", 
@@ -30374,7 +30393,7 @@
                     "data": "", 
                     "fields": [
                         "comparison mechanism for <i>strings</i>", 
-                        "<b>lexicographically</b> (by the character set code point values returned by <code>ord)</code>&nbsp;character by character until the end or first mismatch", 
+                        "<b>lexicographically</b> (by the character set code point values returned by <code>ord</code>)&nbsp;character by character until the end or first mismatch", 
                         "", 
                         "reverse", 
                         "", 
@@ -30990,10 +31009,10 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "<div>continuation line indentation</div>", 
-                        "<div><div>\n<p>The indentation of the continuation lines does not matter, though common sense dictates that the lines should be aligned somehow for readability.</p>\n</div></div>", 
+                        "<div>how continuation lines must be indented</div>", 
+                        "It does not matter, though common sense dictates they should be aligned somehow for readability.", 
                         "", 
-                        "", 
+                        "reverse", 
                         "", 
                         ""
                     ], 
@@ -31235,7 +31254,7 @@
                     "data": "", 
                     "fields": [
                         "Python’s equivalent of the enumerated data types\n\n", 
-                        "<div>&nbsp; &nbsp; :::python</div><div>&nbsp; &nbsp;&nbsp;&gt;&gt;&gt; red, green, blue = range(3)</div><div>&nbsp; &nbsp; &gt;&gt;&gt; red, blue</div><div>&nbsp; &nbsp; (0, 2)</div>", 
+                        "<div class=\"codehilite\" style=\"background: #202020\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">red,</span> <span style=\"color: #d0d0d0\">green,</span> <span style=\"color: #d0d0d0\">blue</span> <span style=\"color: #d0d0d0\">=</span> <span style=\"color: #24909d\">range</span><span style=\"color: #d0d0d0\">(</span><span style=\"color: #3677a9\">3</span><span style=\"color: #d0d0d0\">)</span>\n<span style=\"color: #d0d0d0\">&gt;&gt;&gt;</span> <span style=\"color: #d0d0d0\">red,</span> <span style=\"color: #d0d0d0\">blue</span>\n<span style=\"color: #d0d0d0\">(</span><span style=\"color: #3677a9\">0</span><span style=\"color: #d0d0d0\">,</span> <span style=\"color: #3677a9\">2</span><span style=\"color: #d0d0d0\">)</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDAwMTc5MDIsICJpZCI6ICIxNDk5NzUyOTE2OTQyLTAwMSIsICJtZCI6ICIgICAgOjo6cHl0aG9uXG4gICAgJmd0OyZndDsmZ3Q7IHJlZCwgZ3JlZW4sIGJsdWUgPSByYW5nZSgzKVxuICAgICZndDsmZ3Q7Jmd0OyByZWQsIGJsdWVcbiAgICAoMCwgMilcbiJ9---->", 
                         "", 
                         "reverse", 
                         "", 
@@ -33790,7 +33809,7 @@
                     20
                 ], 
                 "order": 1, 
-                "perDay": 100, 
+                "perDay": 200, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -34020,9 +34039,7 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "bash"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\" class=\"back\">\n\n<section>\n<mark><code>{{command}}</code></mark>\n</section>\n\n{{#description}}\n<section>\n<blockquote>{{description}}</blockquote>\n</section>\n{{/description}}\n\n{{#examples}}\n<section>\n<details><summary></summary>\n<blockquote>{{examples}}</blockquote>\n</details>\n</section>\n{{/examples}}\n\n</article>\n<script>currentDeckMessages();</script>\n\n\n", 
@@ -34234,9 +34251,7 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "python"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
@@ -34245,10 +34260,10 @@
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck\">{{Subdeck}} meaning</var>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck Technical\">{{Subdeck}} meaning</var>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -35352,7 +35367,8 @@
             "guid": "FsfRairw^y", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
-                "awk"
+                "awk", 
+                "marked"
             ]
         }, 
         {

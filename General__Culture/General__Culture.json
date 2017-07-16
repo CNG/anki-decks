@@ -799,7 +799,7 @@
                 "bonito-katsuo-web-japan.org-230low.jpg", 
                 "mackerel-shime-saba-naruto-mon.jp-230low.jpg", 
                 "agari-dengonnet.net-230low.jpg", 
-                "yellow-arctic-surf-clam-pafco.net-230.jpg", 
+                "Acanthocybium_solandri.png", 
                 "lotus-root-made-in-china.com-230.jpg", 
                 "mirugai-clam-geoduck-oksfood-230low.jpg", 
                 "oshizushi_mold_allaboutsushiguide-230low.jpg", 
@@ -807,6 +807,7 @@
                 "riceball_230.jpg", 
                 "glass-bowl-230.jpg", 
                 "susuhi-moriawase-appetiteforinstruction-230low.jpg", 
+                "yellow-arctic-surf-clam-pafco.net-230.jpg", 
                 "green-iron-teapot-230.jpg", 
                 "tuna-naruto-okko-hiltonhead-230low.jpg", 
                 "mixed-oshinko-nobuLanaiPint-230low.jpg", 
@@ -962,7 +963,7 @@
                     "data": "", 
                     "fields": [
                         "agari", 
-                        "", 
+                        "<span class=\"st\">あがり</span>", 
                         "", 
                         "", 
                         "", 
@@ -1277,6 +1278,7 @@
                     "data": "", 
                     "fields": [
                         "an", 
+                        "anko", 
                         "", 
                         "", 
                         "", 
@@ -1285,8 +1287,7 @@
                         "", 
                         "", 
                         "", 
-                        "", 
-                        "sweetened puree of cooked red beans. also called anko, thought not to be confused with monkfish, also called anko, but contextually the difference will be apparent to japanese speakers.", 
+                        "sweetened puree of cooked red beans. also called <b>anko</b>, thought not to be confused with monkfish, also called anko, but contextually the difference will be apparent to japanese speakers.", 
                         "", 
                         "", 
                         "", 
@@ -4226,7 +4227,8 @@
                         "", 
                         "", 
                         "", 
-                        "wahoo. as much fun to catch as to eat, ono (hawaiian for ‘delicious’) has a very white flesh with a delicate consistency, similar to a white hamachi (yellowtail).", 
+                        "wahoo", 
+                        "<img src=\"Acanthocybium_solandri.png\" />", 
                         "", 
                         "", 
                         "", 
@@ -4235,8 +4237,7 @@
                         "", 
                         "", 
                         "", 
-                        "", 
-                        "", 
+                        "<span>A scombrid fish found worldwide in tropical and subtropical seas.&nbsp;as much fun to catch as to eat, ono (hawaiian for ‘delicious’) has a very white flesh with a delicate consistency, similar to a white hamachi (yellowtail).</span>", 
                         "", 
                         "http://www.sushifaq.com/sushi-sashimi-info/sushi-terminology/"
                     ], 
@@ -6795,6 +6796,24 @@
                     "guid": "gPoCWuX%b-", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "hardboil eggs", 
+                        "", 
+                        "cover room temp eggs with cool water by 1 inch, slowly bring to boil, lid and let sit 12 minutes, transfer to colander and run cold water over to stop cooking", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        "http://www.marthastewart.com/354061/perfect-hard-boiled-eggs"
+                    ], 
+                    "flags": 0, 
+                    "guid": "s{TyfEMHd(", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
                 }
             ]
         }
@@ -6856,7 +6875,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark3.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);\nvar h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n//h = h - document.getElementsByTagName('section')[0].offsetHeight - 200;\nh = Math.round(h * 0.7);\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n[].forEach.call(document.getElementsByTagName('img'), function (el) {\nel.style.maxWidth = w+\"px\";\nel.style.maxHeight = h+\"px\";\n})\n\n}\n</script><style>", 
+            "css": "@import url(\"_dark3.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar body = document.getElementsByTagName(\"body\")[0];\nvar article = document.getElementsByTagName(\"article\")[0];\n\n// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\nvar bodyFontSizeMin = 50;\nvar bodyFontSizeMax = 250;\nvar bodyFontSize = bodyFontSizeMin;\nvar step = 10;\n\nfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\nwhile( step > 0.1 ){\n\tdo {\n\t\tbodyFontSize += step;\n\t\tsetBodyFontSize(bodyFontSize);\n\t} while( window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\tbodyFontSize -= step;\n\tstep = step / 2;\n\tsetBodyFontSize(bodyFontSizeMin);\n\tsetBodyFontSize(bodyFontSize);\n}\nif( bodyFontSize > bodyFontSizeMin + 1 ){\n\t//body.style.overflow = 'hidden';\n}\n\n[].forEach.call(document.getElementsByTagName('img'), function (el) {\nel.style.maxWidth = w+\"px\";\nel.style.maxHeight = h+\"px\";\n})\n\n}\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
