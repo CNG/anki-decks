@@ -56,6 +56,7 @@
         "codium.jpg", 
         "agardhiella.jpg", 
         "ulva.jpg", 
+        "voice4.gif", 
         "entramorpha.jpg"
     ], 
     "mid": "1494360100815", 
@@ -150,16 +151,16 @@
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck Technical\">{{Subdeck}} meaning</var>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this in {{Subdeck}}</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -2148,6 +2149,294 @@
             ], 
             "flags": 0, 
             "guid": "F]n*o-<[c!", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Who first predicted a future event?", 
+                "“What Kepler has glimpsed, so Newton had uncovered, and <b>Halley</b> had proved: mathematical analysis of nature could determine the cause of events, and revel the order of the Universe.”", 
+                "The commet returned Chistmas Day 1758 as Halley predicted, though he died 14 January 1742.", 
+                "", 
+                "", 
+                "The Unknown Universe: A New Exploration of Time, Space, and Modern Cosmology\nBy Stuart Clark"
+            ], 
+            "flags": 0, 
+            "guid": "eFrQvA3T/[", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "hurricane vs. cyclone vs. typhoon", 
+                "<h1 class=\"title\">The <span>only difference</span> between a hurricane, a cyclone, and a typhoon is the <span>location where the storm occurs</span>.</h1><div class=\"row\"><div class=\"span8 pad5\">\n<div class=\"pad30\"></div>\n<p>Hurricanes, cyclones, and typhoons are all the same weather \nphenomenon;  we just use different names for these storms in different \nplaces. In the  Atlantic and Northeast Pacific, the term “hurricane” is \nused. The same type of  disturbance in the Northwest Pacific is called a\n “typhoon” and “cyclones” occur  in the South Pacific and Indian Ocean.</p>\n<p>The ingredients for these storms include a \npre-existing  weather disturbance, warm tropical oceans, moisture, and \nrelatively light winds.  If the right conditions persist long enough, \nthey can combine to produce the violent  winds, incredible waves, \ntorrential rains, and floods we associate with this  phenomenon.</p>\n<p>In the Atlantic, hurricane season officially runs \nJune 1 to November  30. However, while 97 percent of tropical activity \noccurs during this time  period, there is nothing magical in these \ndates, and hurricanes have occurred  outside of these six months.</p>\n<div class=\"well\">\n<p><span>Tropical cyclone or cyclone. What's the difference?</span></p>\n<p>Confused about the difference between a \"tropical cyclone\" and a \"cyclone?\"  A <strong>tropical cyclone</strong>\n is a generic term used by meteorologists to describe a rotating, \norganized system of clouds and thunderstorms that originates over \ntropical or subtropical waters and has closed, low-level circulation.  \nOnce a tropical cyclone reaches maximum sustained winds of <abbr title=\"119 kilometers per hour or 64 knots\">74 miles per hour</abbr> or higher, it is then classified as a <strong>hurricane</strong>, <strong>typhoon</strong>, or <strong>cyclone</strong> depending upon where the storm originates in the world.</p></div></div></div>", 
+                "", 
+                "", 
+                "", 
+                "https://oceanservice.noaa.gov/fac"
+            ], 
+            "flags": 0, 
+            "guid": "I?x`Q>N|GY", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                " electroglottograph", 
+                "<p>We apply a small radio frequency voltage \n              across the neck using skin electrodes at the level of the vocal \n              folds. The magnitude of the current that flows varies as the folds \n              come into contact and separate. The spectra and sound files at the \n              top of the figure are an EGG signal. Below that, we show the results \n              of measurements of the resonances of the vocal tract, made at the \n              mouth, during speech. This gives a quasi-continuous line whose peaks \n              identify the resonances. It also shows the harmonics of the voice.&nbsp;Below that are the spectra measured for \n              that particular vowel, in the same gestur</p><p><img src=\"voice4.gif\" />\n</p>", 
+                "", 
+                "", 
+                "", 
+                "www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "go#_V%I[:W", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                " adduction", 
+                "<p>When we move the arytenoid cartillages closer than their \n              separated breathing position, which brings the vocal folds closer to \n              each other.</p><p>This reduced aperture \n              between the folds is called the <b>glottis</b>. Compared to the \n              breathing position, the narrow glottis restricts the flow of air, \n              which in turn means that the steady pressure drop across the larynx \n              is greater when the aperture is small. The higher pressure drop \n              means that the speed of air through the glottis is high, but the \n              small cross section means that the volume flow (in litres per \n              second) is less.</p>", 
+                "", 
+                "y", 
+                "", 
+                "www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "HaM[Cw%)*r", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "larynx", 
+                "voice box", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "mD>w-kxFZl", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "articulators", 
+                "tongue, teeth, lips, velum, etc., collectively", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "i(*FzBFWoP", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "voiced speech", 
+                "vocal folds (sometimes misleadingly called ‘vocal cords’) vibrate", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "L?h[%>z,i^", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "whispering", 
+                "vocal folds do not vibrate, but are held close together. This produces a turbulent (irregular) flow of air.", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "D]~>:T(V-H", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "broad band sound", 
+                "sound comprising a mixture of very many frequencies, such as during whispering", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "bcEj/Cawe$", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "phoneme", 
+                "element of speech sound", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "B{cev`H358", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "fricative description", 
+                "tract is so constricted (by tongue, palate, teeth, lips or a combination) that sustained turbulent flow contributes broad-band sound to the spectrum", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "ekbyoKr6Ac", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the voiced fricatives", 
+                "z, j, v", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "m%TrJ]!yMK", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the unvoiced fricatives", 
+                "ss, sh, f", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "kiK(R],blB", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the voiced plosives", 
+                "b, d, g", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "Ka,GO/Uq.%", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the unvoiced plosives", 
+                "p, t, k", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "eWl/,cEG4a", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "plosive description", 
+                "involve opening and/or closing of the tract with the lips (p, b) or the tongue (t, d; k, g) at different places of articulation", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "wG;v}K,M$$", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "velum", 
+                "soft palate, which closes air to mouth to varying extents to create nasal phonemes", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "hnjiGPQGzE", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "EGG", 
+                "electroglottograph", 
+                "", 
+                "y", 
+                "", 
+                "http://www.animations.physics.unsw.edu.au/jw/voice.html"
+            ], 
+            "flags": 0, 
+            "guid": "OwC`mQ9jbC", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
         }
