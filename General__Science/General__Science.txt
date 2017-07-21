@@ -1,142 +1,143 @@
-metagenesis	The regular alternation of forms or of mode of reproduction in the life cycle of an organism, such as the alternation between diploid and haploid phases, or between sexual and asexual reproductive cycles.		y			
-diazotroph	bacteria and archaea that fix atmospheric nitrogen gas into a more usable form such as ammonia, which are able to grow without external sources of fixed nitrogen<div><br /></div><div>Examples include rhizobia and Frankia (in symbiosis) and Azospirillum.</div>		y			
-N<sub>2</sub>O	Nitrous oxide, commonly known as laughing gas, nitrous, nitro, or NOS is a chemical compound with the formula N<sub>2</sub>O. It is an oxide of nitrogen. At room temperature, it is a colorless, odorless non-flammable gas, with a slightly sweet taste.					
-diagenesis	breakdown of organic material		y			
-remineralization	breakdown of large, complex organic molecules into their building blocks	"<div>the first step in diagenesis is the breakdown of large, complex organic molecules into their building blocks, the process called remineralization, the general form of which is:</div><div><br /></div><div>(CH2O)<sub>x</sub>(NH3)<sub>y</sub>&nbsp;+&nbsp;<i>x</i>TER +&nbsp;<i>y</i>H+ --&gt;&nbsp;<i>x</i>CO2 +&nbsp;<i>y</i>NH4+ +&nbsp;<i>x</i>H2O</div><div><br /></div><div>Where I have used ""TER"" to indicate the terminal electron acceptor and x and y are subscripts indicating the makeup of the organic matter. Usually, these values are 106 and 16, respectively, indicating the famous Redfield ratio of these elements in plankton.</div>"	y			
-denitrification	nitrate reduction to nitrogen gas	<div>Denitrification is a heterotrophic process (meaning the organisms involved must consume their carbon, rather than producing it themselves) that reduces nitrate into nitrogen gas, and follows the general equation:</div><div><br /></div><div>(CH<sub>2</sub>O)<sub>106</sub>(NH<sub>3</sub>)<sub>16</sub>&nbsp;+ 85NO<sub>3</sub>&nbsp;+ 100H<sup>+</sup>&nbsp;--&gt; 106CO<sub>2</sub>&nbsp;+ 16NH<sub>4</sub><sup>+</sup>&nbsp;+ 43N<sub>2</sub>&nbsp;+ 149H<sub>2</sub>O</div><div><br /></div><div>(Please Note that the equation is very slightly imbalanced, as I have rounded the decimal points in the stoichiometric coefficients).</div><div><br /></div><div>The net result of this equation is the relatively large removal of nitrogen in the form of dinitrogen gas.</div>	y			
-benthic zone	The ecological region at the lowest level of a body of water such as an ocean or a lake, including the sediment surface and some sub-surface layers. Organisms living in this zone are called benthos, e.g. the benthic invertebrate community, including crustaceans and polychaetes.		y			
-redox cascade	Progression of decreasingly desirable terminal electron acceptors as heterotrophic organisms consume organic matter in the sediment.<div><br /></div><div>Once both nitrate and oxygen have been consumed, any remaining organic material continues to be broken down by energetically less favorable terminal electron acceptors according to a well-established cascade, continuing next with iron reduction, and finally with sulfate reduction. In most cases, organic matter is consumed long before sulfate is depleted, so our discussion can end with that step.</div>		y			
-carbonate	<div>1. salt of carbonic acid (H<sub>2</sub>CO<sub>3</sub>), characterized by the presence of the carbonate ion, CO<sub>3</sub><sup>2−</sup></div><div>2.&nbsp;an ester of carbonic acid, an organic compound containing the carbonate group C(=O)(O–)<sub>2</sub></div>					
-vaccines that scar	1. smallpox<div>2. BCG (Bacillus Calmette-Guérin), for tuberculosis</div>					
-When did smallpox vaccination end?	The last natural case of Smallpox occurred in Somalia in 1977, and the disease was officially declared eradicated in 1980.&nbsp;Routine smallpox vaccination stopped in 1972 in the U.S. All countries had quit routine vaccination by 1986.					
-feather shaped rays that form the crown of feather duster worms	radioles					
-How does feather duster worm sort food particles?	The sorting of trapped particles in the crown begins in the <b>conducting grooves on the radioles</b> and finishes at the base of the crown. Large particles ride high on the conducting grooves and they are rejected and emitted up into the current stream at the base. Medium sized particles pass along the center of the conducting grooves and are moved to storage areas where they are subsequently used in the construction of the tube in soft tube species. Fine particles are moved by cilia along the lower portion of the conducting groove into tracts that lead into the mouth. The food includes bacteria, fine detritus and other particulate organic matter, phytoplankton, and tiny microorganisms					
-feather duster worm&nbsp;phylum	Feather duster worms are members of the Phylum <b>annelida</b>, the segmented worms, which includes the common earthworm.					
-feather duster worm&nbsp;class	"The feather dusters belong to the class <b>Polychaeta</b>, one of the four classes of annelids. The Polychaetes (literally ""many hairs"") have segmented bodies, and each segment bears two or more appendages called parapodia. The appendages are often hair-like, hence the name bristle worms for many varieties of polychaets. In feather duster worms the hair-like chaetae are much reduced."					
-soft tubed feather duster worms family	Those with soft tubes consisting of a polysaccharide matrix and trapped detritus are in the family <b>Sabellidae</b>, which has only one genus with an exceptional calcareous tube.					
-hard tubed feather duster worms family	"Most ""hard-tube"" feather dusters belong to the family <b>Serpulidae</b>, and many members of this family have an operculum that is formed from a modified radiole in their crown. The operculum is a ""trap door"" that shuts the entrance to the tube when the worm withdraws. The ornamentation of the operculum is used for identification of some species."					
-budding process by which dense colonies of feather duster worm clones form	<b>scissipary</b><div><br /></div><div>In this process, the posterior end of the worm breaks off and develops a new crown while the “parent” grows a new posterior.</div>					
-How do feather duster worms reproduce?	Feather duster worms reproduce both <b>sexually and asexually</b>. Sexual reproduction involves the release of gametes into the water where the fertilized eggs develop into free-swimming larvae that eventually settle in an appropriate habitat. In the case of Serpulids, they settle on corals and the coral grows around the calcareous tube they build, making asexual reproduction nearly an impossibility for them.					
-feather duster worm tube rebuild duration	The worm can build a new transparent tube in a matter of hours, and it will coat the tube with sand and detritus over a matter of a few days.					
-cluster duster species	<i>Bispira brunnea</i>					
-rhodophyta pigment	Red algae contain a pigment called <b>phycoerythrin</b>. This pigment absorbs blue light and reflects red light, giving the algae its red color. Being that blue light penetrates deeper in the water column, red algae tend to be found growing at greater depths.					
-red algae	rhodophyta					
-"<img src=""entramorpha.jpg"" />"	<i>Ulva intestinalis</i>					
-"<img src=""ulva.jpg"" />"	<i>Ulva lactuca</i>					
-"<img src=""codium.jpg"" />"	<i>Codium fragile</i> with a red algae growing as an epiphyte					
-Dead Man's Fingers or Green Fleece	Arriving to the east coast of America from the Pacific in 1957, <i>Codium fragile</i> is an invasive green alga that is quite abundant. Commonly called Dead Man's Fingers or Green Fleece, <i>C. fragile</i> grows in ropelike spongy branches, and when exposed at low tide, it looks like fingers. <i>C. fragile</i> is unique as it is a long single cell that is made up of many nuclei but no cell wall dividing them. Being able to reproduce by fragmentation has allowed it to spread easily through out the east coast of North America.					
-brown algae	<b>Chrysophyta</b>, the brown algae, tend to grow much larger than the greens. Some of The most common brown algae of the intertidal zone belong to the genus, <i>Fucus</i>. <i>Fucus</i> can tolerate exposure to a wide range of environmental conditions. Being exposed at low tide, it is subject to freezing in winter months, and to extreme heat and dehydration in the summer. To adapt to these harsh conditions, <i>Fucus</i> has thick rubbery blades allowing the algae to retain moisture while it is exposed. The blades of <i>Fucus</i> have many air bladders that provide buoyancy for the blades. This buoyancy allows the blades to sway in the currents removing any detritus that has settled during the low tide.					
-"<img src=""agardhiella.jpg"" />"	<i><b>Agardhiella tenera</b></i><div><i><br /></i></div><div>Two other species of red algae commonly found around Long Island and ranging to the tropics are, <i>Agardhiella tenera</i> and <i>Gracilaria foliifera</i>. Both species are delicately branched and their color can vary from a bright red to almost brown. They can be found attached to rocks or shells, but are more commonly found free floating. They seem to prefer calm waters where they are less likely to be washed ashore.</div>					
-Reason pure water is does not conduct electricity	<div>Pure water is a compound of one hydrogen and two oxygen atoms. During bonding (to form water) these atoms share all free electrons between themselves. Due to the absence of free electrons &nbsp;to conduct electricity, pure water is an insulator. On the contrary, tap water contains dissolved salts. When salts dissolve in water, the resulting solution contains ions; cations and anions of the respective salts. It is the ions in water that conduct electricity.</div>					
-teratogen	an agent or factor that causes malformation of an embryo		y			
-anosognosia	Impaired awareness of illness, caused by damage to specific parts of the brain, especially the right hemisphere.<div><br /></div><div>It is the main reason people with schizophrenia and bipolar disorder do not take their medications.</div>		y			
--273.15 °C	-459.67 °F		y			
--50 °C	-58.0 °F		y			
--40 °C	-40.0 °F		y			
--30 °C	-22.0 °F		y			
--20 °C	-4.0 °F		y			
--10 °C	+14.0 °F		y			
--9 °C	+15.8 °F		y			
--8 °C	+17.6 °F		y			
--7 °C	+19.4 °F		y			
--6 °C	+21.2 °F		y			
--5 °C	+23.0 °F		y			
--4 °C	+24.8 °F		y			
--3 °C	+26.6 °F		y			
--2 °C	+28.4 °F		y			
--1 °C	+30.2 °F		y			
-+0 °C	+32.0 °F		y			
-+1 °C	+33.8 °F		y			
-+2 °C	+35.6 °F		y			
-+3 °C	+37.4 °F		y			
-+4 °C	+39.2 °F		y			
-+5 °C	+41.0 °F		y			
-+6 °C	+42.8 °F		y			
-+7 °C	+44.6 °F		y			
-+8 °C	+46.4 °F		y			
-+9 °C	+48.2 °F		y			
-+10 °C	+50.0 °F		y			
-+20 °C	+68.0 °F		y			
-+21 °C	+69.8 °F		y			
-+30 °C	+86.0 °F		y			
-+37 °C	+98.6 °F		y			
-+40 °C	+104.0 °F		y			
-+50 °C	+122.0 °F		y			
-+60 °C	+140.0 °F		y			
-+70 °C	+158.0 °F		y			
-+80 °C	+176.0 °F		y			
-+90 °C	+194.0 °F		y			
-+100 °C	+212.0 °F		y			
-+200 °C	+392.0 °F		y			
-+300 °C	+572.0 °F		y			
-+400 °C	+752.0 °F		y			
-+500 °C	+932.0 °F		y			
-+600 °C	+1112.0 °F		y			
-+700 °C	+1292.0 °F		y			
-+800 °C	+1472.0 °F		y			
-+900 °C	+1652.0 °F		y			
-+1000 °C	+1832.0 °F		y			
-Hib-MenCY-TT	bivalent meningococcal conjugate vaccine that&nbsp;protects against serogroups C and Y and&nbsp;and Haemophilus influenzae type b conjugate vaccine		y			
-MenACWY	quadrivalent (protects against serogroups A, C, W, and Y) meningococcal conjugate vaccine		y			
-MPSV4	quadrivalent meningococcal polysaccharide vaccine that protects against serogroups A, C, W, and Y		y			
-MenB	monovalent meningococcal vaccine that protects against serogroup B		y			
-meningococcal disease	Meningococcal disease is caused by the bacterium Neisseria meningitidis, also called meningococcus. Some people carry these bacteria in the back of their nose and throat with no signs or symptoms of disease. But sometimes these bacteria can invade the body causing certain illnesses, which collectively are known as meningococcal disease.<div><br /></div><div>The two most severe and common illnesses caused by Neisseria meningitidis include infections of the lining of the brain and spinal cord (meningitis) and bloodstream infections (bacteremia or septicemia). Meningococcal disease can be deadly and should always be viewed as a medical emergency. About 10 to 15 percent of meningococcal disease cases are fatal. Of patients who recover, up to 1 in 5 experience long-term disabilities, such as loss of limbs, deafness, nervous system problems, or brain damage.</div>		y			
-Cydonia	Region on the planet&nbsp;Mars&nbsp;that has attracted both scientific&nbsp;and popular interest.&nbsp;The name originally referred to the&nbsp;albedo feature&nbsp;(distinctively coloured area) that was visible from Earthbound&nbsp;telescopes.	"<p>The area borders plains of Acidalia Planitia and the Arabia Terra highlands.&nbsp;The area includes the regions: ""<i>Cydonia Mensae</i>"", an area of flat-topped mesa-like features, ""<i>Cydonia Colles</i>"", a region of small hills or knobs, and ""<i>Cydonia Labyrinthus</i>"", a complex of intersecting valleys.&nbsp;As with other albedo features on Mars, the name Cydonia was drawn from classical antiquity, in this case from Kydonia, a historic polis (or ""city-state"") on the island of Crete.&nbsp;Cydonia contains the ""<b>Face on Mars</b>"" feature—located about halfway between Arandas Crater and Bamberg Crater.</p>"	reverse		https://en.wikipedia.org/wiki/Cydonia_(region_of_Mars)	
-renin	protein and enzyme secreted by the kidneys that participates in the body's renin-angiotensin aldosterone system (RAAS)—also known as the renin-angiotensin-aldosterone axis—that mediates extracellular volume (i.e., that of the blood plasma, lymph and interstitial fluid), and arterial vasoconstriction. Thus, it regulates the body's mean arterial blood pressure.		reverse	<!--anki-->angiotensinogenase	https://en.wikipedia.org/wiki/Renin	
-rennet	Complex of enzymes produced in the stomachs of ruminant mammals. Chymosin, its key component, is a protease enzyme that curdles the casein in milk. This helps young mammals digest their mothers' milk. It can also be used to separate milk into solid curds for cheesemaking and liquid whey. In addition to chymosin, it contains other important enzymes such as pepsin and a lipase.		reverse		https://en.wikipedia.org/wiki/Rennet	
-claimed MMR vaccine linked with autism	Andrew Wakefield		reverse		http://scienceblogs.com/insolence/2011/09/23/mark-blaxill-and-dan-olmsted-polio/	
-Susac’s Syndrome	a rare disorder characterized by three main problems: impaired brain  function (encephalopathy), partial or complete blockage (occlusion) of  the arteries that supply blood to the retina (branch retinal artery  occlusion, or BRAO), and inner ear disease (hearing loss, most notably)	"Three main forms of Susac's syndrome have become apparent. In one form,  encephalopathy is the main problem. In the second form, BRAO and hearing  loss are the main problems, and there is little or no brain disease. In  the third form, encephalopathy is the main problem in the beginning,  but recurrent episodes of BRAO and hearing loss become the main problem  after the encephalopathy goes away.  The encephalopathic form of Susac's syndrome often resolves  spontaneously (often going away within 1-3 years). The other forms tend  to follow a more prolonged, more chronic course (3-10 years, or  more).&nbsp;All forms require immunosuppressive treatment while the disease  is active.  Introduction Although considered rare, Susac's syndrome is being recognized more  often worldwide and its true frequency in the general population is  unknown. This is because the disorder may be misdiagnosed, often as  “atypical” multiple sclerosis.  Susac's syndrome is an autoimmune disease---specifically, an autoimmune  endotheliopathy. ""Autoimmune"" means that a person’s own immune system is  mistakenly attacking one's own healthy tissue. An ""endotheliopathy"" is  any disorder that involves injury to the endothelium, which is the thin  layer of cells that line the inner walls of blood vessels. In Susac's  syndrome, the person's own immune system is mistakenly attacking the  endothelial lining of the smallest blood vessels (the capillaries,  venules and arterioles) in the brain, retina, and inner ear. When the  endothelial cells become injured, they tend to swell, and this  endothelial cell swelling plays a key role in the partial or complete  occlusion (blockage) of the tiny vessels in the brain, retina and inner  ear. This blockage results in decreased blood flow through the vessels  and, therefore, decreased delivery of oxygen and nutrients to the brain,  retina, and inner ear---causing these three organs to suffer. &nbsp; &nbsp;&nbsp;"	reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
-encephalopathy	impaired brain function		reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
-occlusion	partial or complete blockage		reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
-endotheliopathy	any disorder that involves injury to the endothelium, which is the thin  layer of cells that line the inner walls of blood vessels		reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
-scotoma	The medical term for these symptoms:<div><br /></div><div>Branch retinal artery occlusion (BRAO) can cause the patient to notice a  “dark spot” or “black area” in their field of vision; or, some patients  describe a “curtain or shade being drawn” over a portion of their  vision.<div><br /></div></div>	These symptoms are due to injury to the retina, because of blocked blood flow. The retina is the thin layer of nerve cells that sense light and convert it to nerve signals, which are then relayed to the brain through the optic nerve. Both eyes can be affected in individuals with Susac’s syndrome.&nbsp; Permanent impairment of vision may occur. BRAOs may occur early in some individuals or much later in the course of the disease in others.	reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
-|1°C|	|1.8°F|					
-|2°C|	|3.6°F|					
-|3°C|	|5.4°F|					
-|4°C|	|7.2°F|					
-|5°C|	|9°F|					
-|6°C|	|10.8°F|					
-|7°C|	|12.6°F|					
-|8°C|	|14.4°F|					
-|9°C|	|16.2°F|					
-|10°C|	|18°F|					
-|11°C|	|19.8°F|					
-|12°C|	|21.6°F|					
-|13°C|	|23.4°F|					
-|14°C|	|25.2°F|					
-|15°C|	|27°F|					
-|16°C|	|28.8°F|					
-|17°C|	|30.6°F|					
-|18°C|	|32.4°F|					
-|19°C|	|34.2°F|					
-|20°C|	|36°F|					
-|25°C|	|45°F|					
-|30°C|	|54°F|					
-|35°C|	|63°F|					
-|40°C|	|72°F|					
-|45°C|	|81°F|					
-|50°C|	|90°F|					
-|60°C|	|108°F|					
-|70°C|	|126°F|					
-|80°C|	|144°F|					
-|90°C|	|162°F|					
-|100°C|	|180°F|					
-DNA not sequenced by Human Genome Project	<b>Satellite DNA</b> consists of very large arrays of tandemly repeating, non-coding DNA. Satellite DNA is the main component of functional centromeres, and form the main structural constituent of heterochromatin.	<p>Most of the unsequenced regions, he said, “have some connection to aging&nbsp;and aneuploidy”  (an abnormal number of chromosomes such as what occurs in Down  syndrome).&nbsp;Church estimates 4 percent to 9 percent of the human genome  hasn’t been sequenced. Miga thinks it’s 8 percent.</p> <p>The reason for these gaps&nbsp;is that DNA sequencing machines don’t read  genomes like humans read books, from the first word to the last.  Instead, they first randomly chop up copies of the 23 pairs of  chromosomes, which total some 3 billion “letters,” so the machines  aren’t overwhelmed. The resulting chunks contain from 1,000 letters  (during the Human Genome Project) to a few hundred (in today’s more  advanced sequencing machines). The chunks overlap. Computers&nbsp;match up  the overlaps, assembling the chunks into the correct sequence.</p> <p>That’s between difficult and impossible to do if the chunks contain  lots of repetitive segments, such as TTAATATTAATATTAATA, or TTAATA three  times. “The problem is, when you have the same exact words, it’s hard  to assemble,” said Lander, just as if jigsaw puzzle pieces show the same  exact blue sky.</p> <p>In 2004, the genome project reported&nbsp;that  there were 341 gaps in the sequence. Most of the gaps — 250 — are in  the main part of each chromosome, where genes make the proteins that  life runs on. These gaps are tiny. Only a&nbsp;few gaps — 33 at last count —  lie in or near each chromosome’s centromere (where the two parts of a  chromosome connect) and telomeres (the caps at the end of chromosomes),  but these 33 are 10 times as long in total&nbsp;as the 250 gaps.</p> <p>That makes the centromeres in particular the genome’s uncharted Zambezi. Evan Eichler of the University of Washington<strong>&nbsp;</strong>said  every chromosome has such sequence-defying repetitive elements — think  of them as DNA stutters — including an infamous one that’s 171 letters  long and repeated end-to-end for thousands of letters.</p>			https://www.statnews.com/2017/06/20/human-genome-not-fully-sequenced<div>https://en.wikipedia.org/wiki/Satellite_DNA</div>	
-Who first predicted a future event?	“What Kepler has glimpsed, so Newton had uncovered, and <b>Halley</b> had proved: mathematical analysis of nature could determine the cause of events, and revel the order of the Universe.”	The commet returned Chistmas Day 1758 as Halley predicted, though he died 14 January 1742.			The Unknown Universe: A New Exploration of Time, Space, and Modern Cosmology By Stuart Clark	
-hurricane vs. cyclone vs. typhoon	"<h1 class=""title"">The <span>only difference</span> between a hurricane, a cyclone, and a typhoon is the <span>location where the storm occurs</span>.</h1><div class=""row""><div class=""span8 pad5""> <div class=""pad30""></div> <p>Hurricanes, cyclones, and typhoons are all the same weather  phenomenon;  we just use different names for these storms in different  places. In the  Atlantic and Northeast Pacific, the term “hurricane” is  used. The same type of  disturbance in the Northwest Pacific is called a  “typhoon” and “cyclones” occur  in the South Pacific and Indian Ocean.</p> <p>The ingredients for these storms include a  pre-existing  weather disturbance, warm tropical oceans, moisture, and  relatively light winds.  If the right conditions persist long enough,  they can combine to produce the violent  winds, incredible waves,  torrential rains, and floods we associate with this  phenomenon.</p> <p>In the Atlantic, hurricane season officially runs  June 1 to November  30. However, while 97 percent of tropical activity  occurs during this time  period, there is nothing magical in these  dates, and hurricanes have occurred  outside of these six months.</p> <div class=""well""> <p><span>Tropical cyclone or cyclone. What's the difference?</span></p> <p>Confused about the difference between a ""tropical cyclone"" and a ""cyclone?""  A <strong>tropical cyclone</strong>  is a generic term used by meteorologists to describe a rotating,  organized system of clouds and thunderstorms that originates over  tropical or subtropical waters and has closed, low-level circulation.   Once a tropical cyclone reaches maximum sustained winds of <abbr title=""119 kilometers per hour or 64 knots"">74 miles per hour</abbr> or higher, it is then classified as a <strong>hurricane</strong>, <strong>typhoon</strong>, or <strong>cyclone</strong> depending upon where the storm originates in the world.</p></div></div></div>"				https://oceanservice.noaa.gov/fac	
- electroglottograph	"<p>We apply a small radio frequency voltage                across the neck using skin electrodes at the level of the vocal                folds. The magnitude of the current that flows varies as the folds                come into contact and separate. The spectra and sound files at the                top of the figure are an EGG signal. Below that, we show the results                of measurements of the resonances of the vocal tract, made at the                mouth, during speech. This gives a quasi-continuous line whose peaks                identify the resonances. It also shows the harmonics of the voice.&nbsp;Below that are the spectra measured for                that particular vowel, in the same gestur</p><p><img src=""voice4.gif"" /> </p>"				www.animations.physics.unsw.edu.au/jw/voice.html	
- adduction	<p>When we move the arytenoid cartillages closer than their                separated breathing position, which brings the vocal folds closer to                each other.</p><p>This reduced aperture                between the folds is called the <b>glottis</b>. Compared to the                breathing position, the narrow glottis restricts the flow of air,                which in turn means that the steady pressure drop across the larynx                is greater when the aperture is small. The higher pressure drop                means that the speed of air through the glottis is high, but the                small cross section means that the volume flow (in litres per                second) is less.</p>		y		www.animations.physics.unsw.edu.au/jw/voice.html	
-larynx	voice box		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-articulators	tongue, teeth, lips, velum, etc., collectively		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-voiced speech	vocal folds (sometimes misleadingly called ‘vocal cords’) vibrate		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-whispering	vocal folds do not vibrate, but are held close together. This produces a turbulent (irregular) flow of air.		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-broad band sound	sound comprising a mixture of very many frequencies, such as during whispering		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-phoneme	element of speech sound		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-fricative description	tract is so constricted (by tongue, palate, teeth, lips or a combination) that sustained turbulent flow contributes broad-band sound to the spectrum		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-the voiced fricatives	z, j, v		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-the unvoiced fricatives	ss, sh, f		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-the voiced plosives	b, d, g		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-the unvoiced plosives	p, t, k		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-plosive description	involve opening and/or closing of the tract with the lips (p, b) or the tongue (t, d; k, g) at different places of articulation		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-velum	soft palate, which closes air to mouth to varying extents to create nasal phonemes		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
-EGG	electroglottograph		y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+metagenesis		The regular alternation of forms or of mode of reproduction in the life cycle of an organism, such as the alternation between diploid and haploid phases, or between sexual and asexual reproductive cycles.			y			
+diazotroph		bacteria and archaea that fix atmospheric nitrogen gas into a more usable form such as ammonia, which are able to grow without external sources of fixed nitrogen<div><br /></div><div>Examples include rhizobia and Frankia (in symbiosis) and Azospirillum.</div>			y			
+N<sub>2</sub>O		Nitrous oxide, commonly known as laughing gas, nitrous, nitro, or NOS is a chemical compound with the formula N<sub>2</sub>O. It is an oxide of nitrogen. At room temperature, it is a colorless, odorless non-flammable gas, with a slightly sweet taste.						
+diagenesis		breakdown of organic material			y			
+remineralization		breakdown of large, complex organic molecules into their building blocks		"<div>the first step in diagenesis is the breakdown of large, complex organic molecules into their building blocks, the process called remineralization, the general form of which is:</div><div><br /></div><div>(CH2O)<sub>x</sub>(NH3)<sub>y</sub>&nbsp;+&nbsp;<i>x</i>TER +&nbsp;<i>y</i>H+ --&gt;&nbsp;<i>x</i>CO2 +&nbsp;<i>y</i>NH4+ +&nbsp;<i>x</i>H2O</div><div><br /></div><div>Where I have used ""TER"" to indicate the terminal electron acceptor and x and y are subscripts indicating the makeup of the organic matter. Usually, these values are 106 and 16, respectively, indicating the famous Redfield ratio of these elements in plankton.</div>"	y			
+denitrification		nitrate reduction to nitrogen gas		<div>Denitrification is a heterotrophic process (meaning the organisms involved must consume their carbon, rather than producing it themselves) that reduces nitrate into nitrogen gas, and follows the general equation:</div><div><br /></div><div>(CH<sub>2</sub>O)<sub>106</sub>(NH<sub>3</sub>)<sub>16</sub>&nbsp;+ 85NO<sub>3</sub>&nbsp;+ 100H<sup>+</sup>&nbsp;--&gt; 106CO<sub>2</sub>&nbsp;+ 16NH<sub>4</sub><sup>+</sup>&nbsp;+ 43N<sub>2</sub>&nbsp;+ 149H<sub>2</sub>O</div><div><br /></div><div>(Please Note that the equation is very slightly imbalanced, as I have rounded the decimal points in the stoichiometric coefficients).</div><div><br /></div><div>The net result of this equation is the relatively large removal of nitrogen in the form of dinitrogen gas.</div>	y			
+benthic zone		The ecological region at the lowest level of a body of water such as an ocean or a lake, including the sediment surface and some sub-surface layers. Organisms living in this zone are called benthos, e.g. the benthic invertebrate community, including crustaceans and polychaetes.			y			
+redox cascade		Progression of decreasingly desirable terminal electron acceptors as heterotrophic organisms consume organic matter in the sediment.<div><br /></div><div>Once both nitrate and oxygen have been consumed, any remaining organic material continues to be broken down by energetically less favorable terminal electron acceptors according to a well-established cascade, continuing next with iron reduction, and finally with sulfate reduction. In most cases, organic matter is consumed long before sulfate is depleted, so our discussion can end with that step.</div>			y			
+carbonate		<div>1. salt of carbonic acid (H<sub>2</sub>CO<sub>3</sub>), characterized by the presence of the carbonate ion, CO<sub>3</sub><sup>2−</sup></div><div>2.&nbsp;an ester of carbonic acid, an organic compound containing the carbonate group C(=O)(O–)<sub>2</sub></div>						
+vaccines that scar		1. smallpox<div>2. BCG (Bacillus Calmette-Guérin), for tuberculosis</div>						
+When did smallpox vaccination end?		The last natural case of Smallpox occurred in Somalia in 1977, and the disease was officially declared eradicated in 1980.&nbsp;Routine smallpox vaccination stopped in 1972 in the U.S. All countries had quit routine vaccination by 1986.						
+feather shaped rays that form the crown of feather duster worms		radioles						
+How does feather duster worm sort food particles?		The sorting of trapped particles in the crown begins in the <b>conducting grooves on the radioles</b> and finishes at the base of the crown. Large particles ride high on the conducting grooves and they are rejected and emitted up into the current stream at the base. Medium sized particles pass along the center of the conducting grooves and are moved to storage areas where they are subsequently used in the construction of the tube in soft tube species. Fine particles are moved by cilia along the lower portion of the conducting groove into tracts that lead into the mouth. The food includes bacteria, fine detritus and other particulate organic matter, phytoplankton, and tiny microorganisms						
+feather duster worm&nbsp;phylum		Feather duster worms are members of the Phylum <b>annelida</b>, the segmented worms, which includes the common earthworm.						
+feather duster worm&nbsp;class		"The feather dusters belong to the class <b>Polychaeta</b>, one of the four classes of annelids. The Polychaetes (literally ""many hairs"") have segmented bodies, and each segment bears two or more appendages called parapodia. The appendages are often hair-like, hence the name bristle worms for many varieties of polychaets. In feather duster worms the hair-like chaetae are much reduced."						
+soft tubed feather duster worms family		Those with soft tubes consisting of a polysaccharide matrix and trapped detritus are in the family <b>Sabellidae</b>, which has only one genus with an exceptional calcareous tube.						
+hard tubed feather duster worms family		"Most ""hard-tube"" feather dusters belong to the family <b>Serpulidae</b>, and many members of this family have an operculum that is formed from a modified radiole in their crown. The operculum is a ""trap door"" that shuts the entrance to the tube when the worm withdraws. The ornamentation of the operculum is used for identification of some species."						
+budding process by which dense colonies of feather duster worm clones form		<b>scissipary</b><div><br /></div><div>In this process, the posterior end of the worm breaks off and develops a new crown while the “parent” grows a new posterior.</div>						
+How do feather duster worms reproduce?		Feather duster worms reproduce both <b>sexually and asexually</b>. Sexual reproduction involves the release of gametes into the water where the fertilized eggs develop into free-swimming larvae that eventually settle in an appropriate habitat. In the case of Serpulids, they settle on corals and the coral grows around the calcareous tube they build, making asexual reproduction nearly an impossibility for them.						
+feather duster worm tube rebuild duration		The worm can build a new transparent tube in a matter of hours, and it will coat the tube with sand and detritus over a matter of a few days.						
+cluster duster species		<i>Bispira brunnea</i>						
+rhodophyta pigment		Red algae contain a pigment called <b>phycoerythrin</b>. This pigment absorbs blue light and reflects red light, giving the algae its red color. Being that blue light penetrates deeper in the water column, red algae tend to be found growing at greater depths.						
+red algae		rhodophyta						
+"<img src=""entramorpha.jpg"" />"		<i>Ulva intestinalis</i>						
+"<img src=""ulva.jpg"" />"		<i>Ulva lactuca</i>						
+"<img src=""codium.jpg"" />"		<i>Codium fragile</i> with a red algae growing as an epiphyte						
+Dead Man's Fingers or Green Fleece		Arriving to the east coast of America from the Pacific in 1957, <i>Codium fragile</i> is an invasive green alga that is quite abundant. Commonly called Dead Man's Fingers or Green Fleece, <i>C. fragile</i> grows in ropelike spongy branches, and when exposed at low tide, it looks like fingers. <i>C. fragile</i> is unique as it is a long single cell that is made up of many nuclei but no cell wall dividing them. Being able to reproduce by fragmentation has allowed it to spread easily through out the east coast of North America.						
+brown algae		<b>Chrysophyta</b>, the brown algae, tend to grow much larger than the greens. Some of The most common brown algae of the intertidal zone belong to the genus, <i>Fucus</i>. <i>Fucus</i> can tolerate exposure to a wide range of environmental conditions. Being exposed at low tide, it is subject to freezing in winter months, and to extreme heat and dehydration in the summer. To adapt to these harsh conditions, <i>Fucus</i> has thick rubbery blades allowing the algae to retain moisture while it is exposed. The blades of <i>Fucus</i> have many air bladders that provide buoyancy for the blades. This buoyancy allows the blades to sway in the currents removing any detritus that has settled during the low tide.						
+"<img src=""agardhiella.jpg"" />"		<i><b>Agardhiella tenera</b></i><div><i><br /></i></div><div>Two other species of red algae commonly found around Long Island and ranging to the tropics are, <i>Agardhiella tenera</i> and <i>Gracilaria foliifera</i>. Both species are delicately branched and their color can vary from a bright red to almost brown. They can be found attached to rocks or shells, but are more commonly found free floating. They seem to prefer calm waters where they are less likely to be washed ashore.</div>						
+Reason pure water is does not conduct electricity		<div>Pure water is a compound of one hydrogen and two oxygen atoms. During bonding (to form water) these atoms share all free electrons between themselves. Due to the absence of free electrons &nbsp;to conduct electricity, pure water is an insulator. On the contrary, tap water contains dissolved salts. When salts dissolve in water, the resulting solution contains ions; cations and anions of the respective salts. It is the ions in water that conduct electricity.</div>						
+teratogen		an agent or factor that causes malformation of an embryo			y			
+anosognosia		Impaired awareness of illness, caused by damage to specific parts of the brain, especially the right hemisphere.<div><br /></div><div>It is the main reason people with schizophrenia and bipolar disorder do not take their medications.</div>			y			
+-273.15 °C		-459.67 °F			y			
+-50 °C		-58.0 °F			y			
+-40 °C		-40.0 °F			y			
+-30 °C		-22.0 °F			y			
+-20 °C		-4.0 °F			y			
+-10 °C		+14.0 °F			y			
+-9 °C		+15.8 °F			y			
+-8 °C		+17.6 °F			y			
+-7 °C		+19.4 °F			y			
+-6 °C		+21.2 °F			y			
+-5 °C		+23.0 °F			y			
+-4 °C		+24.8 °F			y			
+-3 °C		+26.6 °F			y			
+-2 °C		+28.4 °F			y			
+-1 °C		+30.2 °F			y			
++0 °C		+32.0 °F			y			
++1 °C		+33.8 °F			y			
++2 °C		+35.6 °F			y			
++3 °C		+37.4 °F			y			
++4 °C		+39.2 °F			y			
++5 °C		+41.0 °F			y			
++6 °C		+42.8 °F			y			
++7 °C		+44.6 °F			y			
++8 °C		+46.4 °F			y			
++9 °C		+48.2 °F			y			
++10 °C		+50.0 °F			y			
++20 °C		+68.0 °F			y			
++21 °C		+69.8 °F			y			
++30 °C		+86.0 °F			y			
++37 °C		+98.6 °F			y			
++40 °C		+104.0 °F			y			
++50 °C		+122.0 °F			y			
++60 °C		+140.0 °F			y			
++70 °C		+158.0 °F			y			
++80 °C		+176.0 °F			y			
++90 °C		+194.0 °F			y			
++100 °C		+212.0 °F			y			
++200 °C		+392.0 °F			y			
++300 °C		+572.0 °F			y			
++400 °C		+752.0 °F			y			
++500 °C		+932.0 °F			y			
++600 °C		+1112.0 °F			y			
++700 °C		+1292.0 °F			y			
++800 °C		+1472.0 °F			y			
++900 °C		+1652.0 °F			y			
++1000 °C		+1832.0 °F			y			
+Hib-MenCY-TT		bivalent meningococcal conjugate vaccine that&nbsp;protects against serogroups C and Y and&nbsp;and Haemophilus influenzae type b conjugate vaccine			y			
+MenACWY		quadrivalent (protects against serogroups A, C, W, and Y) meningococcal conjugate vaccine			y			
+MPSV4		quadrivalent meningococcal polysaccharide vaccine that protects against serogroups A, C, W, and Y			y			
+MenB		monovalent meningococcal vaccine that protects against serogroup B			y			
+meningococcal disease		Meningococcal disease is caused by the bacterium Neisseria meningitidis, also called meningococcus. Some people carry these bacteria in the back of their nose and throat with no signs or symptoms of disease. But sometimes these bacteria can invade the body causing certain illnesses, which collectively are known as meningococcal disease.<div><br /></div><div>The two most severe and common illnesses caused by Neisseria meningitidis include infections of the lining of the brain and spinal cord (meningitis) and bloodstream infections (bacteremia or septicemia). Meningococcal disease can be deadly and should always be viewed as a medical emergency. About 10 to 15 percent of meningococcal disease cases are fatal. Of patients who recover, up to 1 in 5 experience long-term disabilities, such as loss of limbs, deafness, nervous system problems, or brain damage.</div>			y			
+Cydonia		Region on the planet&nbsp;Mars&nbsp;that has attracted both scientific&nbsp;and popular interest.&nbsp;The name originally referred to the&nbsp;albedo feature&nbsp;(distinctively coloured area) that was visible from Earthbound&nbsp;telescopes.		"<p>The area borders plains of Acidalia Planitia and the Arabia Terra highlands.&nbsp;The area includes the regions: ""<i>Cydonia Mensae</i>"", an area of flat-topped mesa-like features, ""<i>Cydonia Colles</i>"", a region of small hills or knobs, and ""<i>Cydonia Labyrinthus</i>"", a complex of intersecting valleys.&nbsp;As with other albedo features on Mars, the name Cydonia was drawn from classical antiquity, in this case from Kydonia, a historic polis (or ""city-state"") on the island of Crete.&nbsp;Cydonia contains the ""<b>Face on Mars</b>"" feature—located about halfway between Arandas Crater and Bamberg Crater.</p>"	reverse		https://en.wikipedia.org/wiki/Cydonia_(region_of_Mars)	
+renin		protein and enzyme secreted by the kidneys that participates in the body's renin-angiotensin aldosterone system (RAAS)—also known as the renin-angiotensin-aldosterone axis—that mediates extracellular volume (i.e., that of the blood plasma, lymph and interstitial fluid), and arterial vasoconstriction. Thus, it regulates the body's mean arterial blood pressure.			reverse	<!--anki-->renin, angiotensinogenase	https://en.wikipedia.org/wiki/Renin	
+rennet		Complex of enzymes produced in the stomachs of ruminant mammals. Chymosin, its key component, is a protease enzyme that curdles the casein in milk. This helps young mammals digest their mothers' milk. It can also be used to separate milk into solid curds for cheesemaking and liquid whey. In addition to chymosin, it contains other important enzymes such as pepsin and a lipase.			reverse		https://en.wikipedia.org/wiki/Rennet	
+claimed MMR vaccine linked with autism		Andrew Wakefield			reverse		http://scienceblogs.com/insolence/2011/09/23/mark-blaxill-and-dan-olmsted-polio/	
+Susac’s Syndrome		a rare disorder characterized by three main problems: impaired brain  function (encephalopathy), partial or complete blockage (occlusion) of  the arteries that supply blood to the retina (branch retinal artery  occlusion, or BRAO), and inner ear disease (hearing loss, most notably)		"Three main forms of Susac's syndrome have become apparent. In one form,  encephalopathy is the main problem. In the second form, BRAO and hearing  loss are the main problems, and there is little or no brain disease. In  the third form, encephalopathy is the main problem in the beginning,  but recurrent episodes of BRAO and hearing loss become the main problem  after the encephalopathy goes away.  The encephalopathic form of Susac's syndrome often resolves  spontaneously (often going away within 1-3 years). The other forms tend  to follow a more prolonged, more chronic course (3-10 years, or  more).&nbsp;All forms require immunosuppressive treatment while the disease  is active.  Introduction Although considered rare, Susac's syndrome is being recognized more  often worldwide and its true frequency in the general population is  unknown. This is because the disorder may be misdiagnosed, often as  “atypical” multiple sclerosis.  Susac's syndrome is an autoimmune disease---specifically, an autoimmune  endotheliopathy. ""Autoimmune"" means that a person’s own immune system is  mistakenly attacking one's own healthy tissue. An ""endotheliopathy"" is  any disorder that involves injury to the endothelium, which is the thin  layer of cells that line the inner walls of blood vessels. In Susac's  syndrome, the person's own immune system is mistakenly attacking the  endothelial lining of the smallest blood vessels (the capillaries,  venules and arterioles) in the brain, retina, and inner ear. When the  endothelial cells become injured, they tend to swell, and this  endothelial cell swelling plays a key role in the partial or complete  occlusion (blockage) of the tiny vessels in the brain, retina and inner  ear. This blockage results in decreased blood flow through the vessels  and, therefore, decreased delivery of oxygen and nutrients to the brain,  retina, and inner ear---causing these three organs to suffer. &nbsp; &nbsp;&nbsp;"	reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+encephalopathy		impaired brain function			reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+occlusion		partial or complete blockage			reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+endotheliopathy		any disorder that involves injury to the endothelium, which is the thin  layer of cells that line the inner walls of blood vessels			reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+scotoma		The medical term for these symptoms:<div><br /></div><div>Branch retinal artery occlusion (BRAO) can cause the patient to notice a  “dark spot” or “black area” in their field of vision; or, some patients  describe a “curtain or shade being drawn” over a portion of their  vision.<div><br /></div></div>		These symptoms are due to injury to the retina, because of blocked blood flow. The retina is the thin layer of nerve cells that sense light and convert it to nerve signals, which are then relayed to the brain through the optic nerve. Both eyes can be affected in individuals with Susac’s syndrome.&nbsp; Permanent impairment of vision may occur. BRAOs may occur early in some individuals or much later in the course of the disease in others.	reverse		https://rarediseases.org/rare-diseases/susacs-syndrome/	
+|1°C|		|1.8°F|						
+|2°C|		|3.6°F|						
+|3°C|		|5.4°F|						
+|4°C|		|7.2°F|						
+|5°C|		|9°F|						
+|6°C|		|10.8°F|						
+|7°C|		|12.6°F|						
+|8°C|		|14.4°F|						
+|9°C|		|16.2°F|						
+|10°C|		|18°F|						
+|11°C|		|19.8°F|						
+|12°C|		|21.6°F|						
+|13°C|		|23.4°F|						
+|14°C|		|25.2°F|						
+|15°C|		|27°F|						
+|16°C|		|28.8°F|						
+|17°C|		|30.6°F|						
+|18°C|		|32.4°F|						
+|19°C|		|34.2°F|						
+|20°C|		|36°F|						
+|25°C|		|45°F|						
+|30°C|		|54°F|						
+|35°C|		|63°F|						
+|40°C|		|72°F|						
+|45°C|		|81°F|						
+|50°C|		|90°F|						
+|60°C|		|108°F|						
+|70°C|		|126°F|						
+|80°C|		|144°F|						
+|90°C|		|162°F|						
+|100°C|		|180°F|						
+DNA not sequenced by Human Genome Project		<b>Satellite DNA</b> consists of very large arrays of tandemly repeating, non-coding DNA. Satellite DNA is the main component of functional centromeres, and form the main structural constituent of heterochromatin.		<p>Most of the unsequenced regions, he said, “have some connection to aging&nbsp;and aneuploidy”  (an abnormal number of chromosomes such as what occurs in Down  syndrome).&nbsp;Church estimates 4 percent to 9 percent of the human genome  hasn’t been sequenced. Miga thinks it’s 8 percent.</p> <p>The reason for these gaps&nbsp;is that DNA sequencing machines don’t read  genomes like humans read books, from the first word to the last.  Instead, they first randomly chop up copies of the 23 pairs of  chromosomes, which total some 3 billion “letters,” so the machines  aren’t overwhelmed. The resulting chunks contain from 1,000 letters  (during the Human Genome Project) to a few hundred (in today’s more  advanced sequencing machines). The chunks overlap. Computers&nbsp;match up  the overlaps, assembling the chunks into the correct sequence.</p> <p>That’s between difficult and impossible to do if the chunks contain  lots of repetitive segments, such as TTAATATTAATATTAATA, or TTAATA three  times. “The problem is, when you have the same exact words, it’s hard  to assemble,” said Lander, just as if jigsaw puzzle pieces show the same  exact blue sky.</p> <p>In 2004, the genome project reported&nbsp;that  there were 341 gaps in the sequence. Most of the gaps — 250 — are in  the main part of each chromosome, where genes make the proteins that  life runs on. These gaps are tiny. Only a&nbsp;few gaps — 33 at last count —  lie in or near each chromosome’s centromere (where the two parts of a  chromosome connect) and telomeres (the caps at the end of chromosomes),  but these 33 are 10 times as long in total&nbsp;as the 250 gaps.</p> <p>That makes the centromeres in particular the genome’s uncharted Zambezi. Evan Eichler of the University of Washington<strong>&nbsp;</strong>said  every chromosome has such sequence-defying repetitive elements — think  of them as DNA stutters — including an infamous one that’s 171 letters  long and repeated end-to-end for thousands of letters.</p>			https://www.statnews.com/2017/06/20/human-genome-not-fully-sequenced<div>https://en.wikipedia.org/wiki/Satellite_DNA</div>	
+Who first predicted a future event?		“What Kepler has glimpsed, so Newton had uncovered, and <b>Halley</b> had proved: mathematical analysis of nature could determine the cause of events, and revel the order of the Universe.”		The commet returned Chistmas Day 1758 as Halley predicted, though he died 14 January 1742.			The Unknown Universe: A New Exploration of Time, Space, and Modern Cosmology By Stuart Clark	
+hurricane vs. cyclone vs. typhoon		"<h1 class=""title"">The <span>only difference</span> between a hurricane, a cyclone, and a typhoon is the <span>location where the storm occurs</span>.</h1><div class=""row""><div class=""span8 pad5""> <div class=""pad30""></div> <p>Hurricanes, cyclones, and typhoons are all the same weather  phenomenon;  we just use different names for these storms in different  places. In the  Atlantic and Northeast Pacific, the term “hurricane” is  used. The same type of  disturbance in the Northwest Pacific is called a  “typhoon” and “cyclones” occur  in the South Pacific and Indian Ocean.</p> <p>The ingredients for these storms include a  pre-existing  weather disturbance, warm tropical oceans, moisture, and  relatively light winds.  If the right conditions persist long enough,  they can combine to produce the violent  winds, incredible waves,  torrential rains, and floods we associate with this  phenomenon.</p> <p>In the Atlantic, hurricane season officially runs  June 1 to November  30. However, while 97 percent of tropical activity  occurs during this time  period, there is nothing magical in these  dates, and hurricanes have occurred  outside of these six months.</p> <div class=""well""> <p><span>Tropical cyclone or cyclone. What's the difference?</span></p> <p>Confused about the difference between a ""tropical cyclone"" and a ""cyclone?""  A <strong>tropical cyclone</strong>  is a generic term used by meteorologists to describe a rotating,  organized system of clouds and thunderstorms that originates over  tropical or subtropical waters and has closed, low-level circulation.   Once a tropical cyclone reaches maximum sustained winds of <abbr title=""119 kilometers per hour or 64 knots"">74 miles per hour</abbr> or higher, it is then classified as a <strong>hurricane</strong>, <strong>typhoon</strong>, or <strong>cyclone</strong> depending upon where the storm originates in the world.</p></div></div></div>"					https://oceanservice.noaa.gov/fac	
+ electroglottograph		"<p>We apply a small radio frequency voltage                across the neck using skin electrodes at the level of the vocal                folds. The magnitude of the current that flows varies as the folds                come into contact and separate. The spectra and sound files at the                top of the figure are an EGG signal. Below that, we show the results                of measurements of the resonances of the vocal tract, made at the                mouth, during speech. This gives a quasi-continuous line whose peaks                identify the resonances. It also shows the harmonics of the voice.&nbsp;Below that are the spectra measured for                that particular vowel, in the same gestur</p><p><img src=""voice4.gif"" /> </p>"					www.animations.physics.unsw.edu.au/jw/voice.html	
+ adduction		<p>When we move the arytenoid cartillages closer than their                separated breathing position, which brings the vocal folds closer to                each other.</p><p>This reduced aperture                between the folds is called the <b>glottis</b>. Compared to the                breathing position, the narrow glottis restricts the flow of air,                which in turn means that the steady pressure drop across the larynx                is greater when the aperture is small. The higher pressure drop                means that the speed of air through the glottis is high, but the                small cross section means that the volume flow (in litres per                second) is less.</p>			y		www.animations.physics.unsw.edu.au/jw/voice.html	
+larynx		voice box			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+articulators		tongue, teeth, lips, velum, etc., collectively			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+voiced speech		vocal folds (sometimes misleadingly called ‘vocal cords’) vibrate			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+whispering		vocal folds do not vibrate, but are held close together. This produces a turbulent (irregular) flow of air.			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+broad band sound		sound comprising a mixture of very many frequencies, such as during whispering			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+phoneme		element of speech sound			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+fricative description		tract is so constricted (by tongue, palate, teeth, lips or a combination) that sustained turbulent flow contributes broad-band sound to the spectrum			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+the voiced fricatives		z, j, v			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+the unvoiced fricatives		ss, sh, f			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+the voiced plosives		b, d, g			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+the unvoiced plosives		p, t, k			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+plosive description		involve opening and/or closing of the tract with the lips (p, b) or the tongue (t, d; k, g) at different places of articulation			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+velum		soft palate, which closes air to mouth to varying extents to create nasal phonemes			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+EGG		electroglottograph			y		http://www.animations.physics.unsw.edu.au/jw/voice.html	
+hearing loss relation to tinnitus		necessary but not sufficient to cause tinnitus			y			
