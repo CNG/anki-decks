@@ -32,7 +32,7 @@
                     20
                 ], 
                 "order": 1, 
-                "perDay": 250, 
+                "perDay": 100, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -52,13 +52,15 @@
     "dyn": 0, 
     "extendNew": 10, 
     "extendRev": 50, 
-    "media_files": [], 
+    "media_files": [
+        "aqui-alli-small.gif"
+    ], 
     "name": "General::Language::Spanish::Personal", 
     "note_models": [
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark3.css\");\n</style><script>\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\nfunction currentDeckMessages() {\n\nvar article = document.getElementsByTagName(\"article\")[0];\nsetStyle('.subdeck', 'display', 'none');\nvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\nif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\nelse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\nvar title = document.getElementById(\"title\");\nif ( title.innerText.length > 50 ){\ntitle.style.fontSize = '80%';\n}\nif ( title.innerText.length > 30 ){\ntitle.style.fontWeight = '500';\ntitle.style.letterSpacing = '-4px';\n}\n\n[].forEach.call(document.querySelectorAll('blockquote'), function (el) {\nvar fontSize = Math.round( 300 / el.innerText.length * 100 );\nif (fontSize > 70) { fontSize = 70; }\nif (fontSize < 30) { fontSize = 30; }\nif (el.parentElement.nodeName == \"DETAILS\"){ fontSize = fontSize * 3; }\nel.style['fontSize'] = fontSize + '%';\n//title.innerText = document.defaultView.getComputedStyle(el).getPropertyValue('font-size');\n});\n\narticle.insertAdjacentHTML('beforeend', '<p style=\"font-size:15px; text-align:center; opacity: 0.5;\">'+subdeck+\"</p>\");\n\n}\nfunction playSound() {\n    var a = new Audio(document.getElementById(\"audio\"));\n    a.play();\n}\n</script><style>", 
+            "css": "@import url(\"_dark4.css\");\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 25;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+4;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -72,7 +74,7 @@
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "Back", 
+                    "name": "FrontType", 
                     "ord": 1, 
                     "rtl": false, 
                     "size": 20, 
@@ -81,7 +83,7 @@
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "Other", 
+                    "name": "Back", 
                     "ord": 2, 
                     "rtl": false, 
                     "size": 20, 
@@ -90,7 +92,7 @@
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "ShowReversed", 
+                    "name": "BackType", 
                     "ord": 3, 
                     "rtl": false, 
                     "size": 20, 
@@ -99,8 +101,26 @@
                 {
                     "font": "Arial", 
                     "media": [], 
-                    "name": "AlternateFront", 
+                    "name": "Other", 
                     "ord": 4, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "ShowReversed", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "AlternateFront", 
+                    "ord": 6, 
                     "rtl": false, 
                     "size": 20, 
                     "sticky": false
@@ -109,7 +129,7 @@
                     "font": "Arial", 
                     "media": [], 
                     "name": "Source", 
-                    "ord": 5, 
+                    "ord": 7, 
                     "rtl": false, 
                     "size": 20, 
                     "sticky": true
@@ -121,39 +141,44 @@
             "req": [
                 [
                     0, 
-                    "all", 
+                    "any", 
                     [
-                        0
+                        0, 
+                        1, 
+                        3, 
+                        6
                     ]
                 ], 
                 [
                     1, 
                     "all", 
                     [
-                        3
+                        5
                     ]
                 ]
             ], 
             "sortf": 0, 
-            "tags": [], 
+            "tags": [
+                "bash"
+            ], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}</span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other English Spanish Politics Personal\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Science\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Technical Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>\n</section>\n\n<section>\n<blockquote>\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<blockquote>\n{{#BackType}}\n<var class=\"q\">{{#FrontType}}{{FrontType}} to {{/FrontType}}{{BackType}}</var>\n{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">What is this {{FrontType}}</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{Front}}</mark>{{#AlternateFront}}; <mark>{{AlternateFront}}</mark>{{/AlternateFront}}\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Technical Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n<var class=\"q subdeck Other Technical Science Politics Personal Math Geography\">What is this</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n{{#FrontType}}\n\n{{#BackType}}\n<var class=\"q\">{{BackType}} to {{FrontType}}</var>\n{{/BackType}}\n{{^BackType}}\n<var class=\"q\">{{FrontType}}</var>\n{{/BackType}}\n\n\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n{{/FrontType}}\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -166,7 +191,9 @@
             "data": "", 
             "fields": [
                 "a mi colección", 
+                "", 
                 "to my collection", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -182,7 +209,9 @@
             "data": "", 
             "fields": [
                 "aún quedan vicios por perfeccionar", 
+                "", 
                 "there are still vices to perfect", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -198,7 +227,9 @@
             "data": "", 
             "fields": [
                 "bailar como un lazo en un ventilador", 
+                "", 
                 "dance like a bow on a fan", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -214,7 +245,9 @@
             "data": "", 
             "fields": [
                 "cansar", 
+                "", 
                 "to wear out", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -230,7 +263,9 @@
             "data": "", 
             "fields": [
                 "con el traje nuevo del emperador", 
+                "", 
                 "with the emperor’s new suit", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -246,7 +281,9 @@
             "data": "", 
             "fields": [
                 "con la punta del zapato", 
+                "", 
                 "with the tip of the shoe", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -262,7 +299,9 @@
             "data": "", 
             "fields": [
                 "de medallas y de arañazos", 
+                "", 
                 "of medals and scratches", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -278,7 +317,9 @@
             "data": "", 
             "fields": [
                 "descubran un perfil", 
+                "", 
                 "discover a profile", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -294,7 +335,9 @@
             "data": "", 
             "fields": [
                 "di que ves", 
+                "", 
                 "say what you see", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -310,7 +353,9 @@
             "data": "", 
             "fields": [
                 "dime que ves", 
+                "", 
                 "tell me what you see", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -326,7 +371,9 @@
             "data": "", 
             "fields": [
                 "el futuro se vistió", 
+                "", 
                 "the future got dressed", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -342,7 +389,9 @@
             "data": "", 
             "fields": [
                 "en los días raros", 
+                "", 
                 "in the rare days", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -358,7 +407,9 @@
             "data": "", 
             "fields": [
                 "entre las manos", 
+                "", 
                 "between the hands", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -374,7 +425,9 @@
             "data": "", 
             "fields": [
                 "hay tanto idiota ahí fuera", 
+                "", 
                 "there are so many idiots out there", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -390,7 +443,9 @@
             "data": "", 
             "fields": [
                 "lanzar", 
+                "", 
                 "to throw", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -406,7 +461,9 @@
             "data": "", 
             "fields": [
                 "monedas que al girar", 
+                "", 
                 "coins that when turning", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -422,7 +479,9 @@
             "data": "", 
             "fields": [
                 "no hay reyes magos", 
+                "", 
                 "there are no wise men", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -438,7 +497,9 @@
             "data": "", 
             "fields": [
                 "no hay trato", 
+                "", 
                 "no deal", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -454,7 +515,9 @@
             "data": "", 
             "fields": [
                 "nos destaparemos en la intimidad", 
+                "", 
                 "we will uncover in the intimacy", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -470,7 +533,9 @@
             "data": "", 
             "fields": [
                 "nos quedan muchos más", 
+                "", 
                 "we have many more left", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -486,7 +551,9 @@
             "data": "", 
             "fields": [
                 "por hacerlo a mi manera", 
+                "", 
                 "in order to do it my way", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -502,7 +569,9 @@
             "data": "", 
             "fields": [
                 "puede comerme la ansiedad", 
+                "", 
                 "anxiety can grind me down", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -518,23 +587,9 @@
             "data": "", 
             "fields": [
                 "puede ser que haga de la rabia mi flor", 
+                "", 
                 "I might make a habit of anger", 
                 "", 
-                "reverse", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "IO|Ve3Uuzw", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "puede ser que haga de la rabia mi flor", 
-                "I might make a habit of anger", 
                 "", 
                 "reverse", 
                 "", 
@@ -550,7 +605,9 @@
             "data": "", 
             "fields": [
                 "puede ser que mañana esconda mi voz", 
+                "", 
                 "maybe tomorrow I conceal my voice", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -566,7 +623,9 @@
             "data": "", 
             "fields": [
                 "puedo arrasar", 
+                "", 
                 "I can destroy", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -582,7 +641,9 @@
             "data": "", 
             "fields": [
                 "puedo callar", 
+                "", 
                 "I can be quiet", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -598,7 +659,9 @@
             "data": "", 
             "fields": [
                 "puedo cansar", 
+                "", 
                 "I may wear out", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -614,7 +677,9 @@
             "data": "", 
             "fields": [
                 "puedo doler", 
+                "", 
                 "I can do harm", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -630,7 +695,9 @@
             "data": "", 
             "fields": [
                 "puedo encantar", 
+                "", 
                 "I can be charming", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -646,7 +713,9 @@
             "data": "", 
             "fields": [
                 "puedo escapar", 
+                "", 
                 "I’m able to escape", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -662,7 +731,9 @@
             "data": "", 
             "fields": [
                 "puedo escurrir", 
+                "", 
                 "I’m able to dodge", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -678,7 +749,9 @@
             "data": "", 
             "fields": [
                 "puedo fingir que me da igual", 
+                "", 
                 "I’m able to pretend that I don’t care", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -694,7 +767,9 @@
             "data": "", 
             "fields": [
                 "puedo forzar la realidad", 
+                "", 
                 "I’m able to force reality", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -710,7 +785,9 @@
             "data": "", 
             "fields": [
                 "puedo girar", 
+                "", 
                 "I’m able to turn", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -726,7 +803,9 @@
             "data": "", 
             "fields": [
                 "puedo incidir", 
+                "", 
                 "I’m able to insist", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -742,7 +821,9 @@
             "data": "", 
             "fields": [
                 "puedo joder", 
+                "", 
                 "I’m able to piss off", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -758,7 +839,9 @@
             "data": "", 
             "fields": [
                 "puedo lanzar", 
+                "", 
                 "I’m able to throw", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -774,7 +857,9 @@
             "data": "", 
             "fields": [
                 "puedo llamarte sin hablar", 
+                "", 
                 "I’m able to call you without a single word", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -790,7 +875,9 @@
             "data": "", 
             "fields": [
                 "puedo palmar", 
+                "", 
                 "I may bite the dust", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -806,7 +893,9 @@
             "data": "", 
             "fields": [
                 "puedo partirme y negociar la otra mitad", 
+                "", 
                 "I’m able to split myself and negotiate the other half", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -822,7 +911,9 @@
             "data": "", 
             "fields": [
                 "puedo perderme en la obviedad", 
+                "", 
                 "I may get lost in the obvious", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -838,7 +929,9 @@
             "data": "", 
             "fields": [
                 "puedo romper puedo olvidar", 
+                "", 
                 "I’m able to break, I’m able to forget", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -854,7 +947,9 @@
             "data": "", 
             "fields": [
                 "puedo saber que sin vosotros duele más", 
+                "", 
                 "I do know that, without all of you, this hurts more", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -870,7 +965,9 @@
             "data": "", 
             "fields": [
                 "puedo salir", 
+                "", 
                 "I’m able to get out", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -886,7 +983,9 @@
             "data": "", 
             "fields": [
                 "puedo sentir que no doy más", 
+                "", 
                 "I do know when I’ve reached my limit", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -902,7 +1001,9 @@
             "data": "", 
             "fields": [
                 "puedo ser fácil de engañar", 
+                "", 
                 "I may be deceived easily", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -918,7 +1019,9 @@
             "data": "", 
             "fields": [
                 "puedo servir", 
+                "", 
                 "I may be helpful", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -934,7 +1037,9 @@
             "data": "", 
             "fields": [
                 "puedo torcer", 
+                "", 
                 "I’m able to twist", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -950,7 +1055,9 @@
             "data": "", 
             "fields": [
                 "puedo vencer", 
+                "", 
                 "I’m able to win", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -966,7 +1073,9 @@
             "data": "", 
             "fields": [
                 "puedo volver", 
+                "", 
                 "I’m able to return", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -982,7 +1091,9 @@
             "data": "", 
             "fields": [
                 "que sin borrón", 
+                "", 
                 "that without blur", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -998,7 +1109,9 @@
             "data": "", 
             "fields": [
                 "que sin carbón", 
+                "", 
                 "that without coal", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1014,7 +1127,9 @@
             "data": "", 
             "fields": [
                 "quien iba a decir", 
+                "", 
                 "who would say", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1030,7 +1145,9 @@
             "data": "", 
             "fields": [
                 "quien lo vio", 
+                "", 
                 "who saw it", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1046,7 +1163,9 @@
             "data": "", 
             "fields": [
                 "reagrupar pedazos", 
+                "", 
                 "regroup pieces", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1062,7 +1181,9 @@
             "data": "", 
             "fields": [
                 "regalos por abrir", 
+                "", 
                 "gifts to open", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1078,7 +1199,9 @@
             "data": "", 
             "fields": [
                 "servir", 
+                "", 
                 "to be helpful", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1094,7 +1217,9 @@
             "data": "", 
             "fields": [
                 "si hay algo", 
+                "", 
                 "if there is something", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1110,7 +1235,9 @@
             "data": "", 
             "fields": [
                 "sintonizar", 
+                "", 
                 "tune in", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1126,7 +1253,9 @@
             "data": "", 
             "fields": [
                 "sálvese quien pueda", 
+                "", 
                 "every man for himself", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1142,7 +1271,9 @@
             "data": "", 
             "fields": [
                 "toca afinar definir el trazo", 
+                "", 
                 "touch tune, define stroke", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1158,7 +1289,9 @@
             "data": "", 
             "fields": [
                 "un manantial breve y fugaz", 
+                "", 
                 "a brief and fleeting spring", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1174,7 +1307,9 @@
             "data": "", 
             "fields": [
                 "y acaba en eco", 
+                "", 
                 "and ends in echo", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1190,7 +1325,9 @@
             "data": "", 
             "fields": [
                 "y con ella mi bandera", 
+                "", 
                 "and, with it, my flag", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1206,7 +1343,9 @@
             "data": "", 
             "fields": [
                 "y ernpieza el celofán", 
+                "", 
                 "and the cellophane begins", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1222,7 +1361,9 @@
             "data": "", 
             "fields": [
                 "ya está aquí", 
+                "", 
                 "it is already here", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1238,7 +1379,9 @@
             "data": "", 
             "fields": [
                 "ábrelo despacio", 
+                "", 
                 "open it slowly", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1254,7 +1397,9 @@
             "data": "", 
             "fields": [
                 "puedo pasar", 
+                "", 
                 "<style type=\"text/css\"> p, li { white-space: pre-wrap; } </style> <p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">I’m able to pass<!--EndFragment--></p>", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1270,7 +1415,9 @@
             "data": "", 
             "fields": [
                 "Camina hacia el Capitolio y después dobla a la izquierda en la calle 8.", 
+                "", 
                 "Walk toward the Capitol and turn left on 8th Street.", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1286,7 +1433,9 @@
             "data": "", 
             "fields": [
                 "Ella estaba de pie, de espalda hacia mí.", 
+                "", 
                 "She was standing with her back towards me.", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1302,7 +1451,9 @@
             "data": "", 
             "fields": [
                 "Conduzca en dirección a Chicago y tome la salida 73.", 
+                "", 
                 "Drive towards Chicago and take exit 73.", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1318,7 +1469,9 @@
             "data": "", 
             "fields": [
                 "La actitud de mi jefe hacia las mujeres es un tanto inquietante.", 
+                "", 
                 "My boss's attitude toward women is a little troubling.", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1334,7 +1487,9 @@
             "data": "", 
             "fields": [
                 "He separado un poco de dinero para mis vacaciones de verano.", 
+                "", 
                 "I've put a bit of money away toward my summer holiday.", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1350,7 +1505,9 @@
             "data": "", 
             "fields": [
                 "Me di cuenta enseguida de que todo era mentira.", 
+                "", 
                 "I realized right away it was all a lie.", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1366,7 +1523,9 @@
             "data": "", 
             "fields": [
                 "lograr", 
+                "", 
                 "to obtain, to get (often intangible)", 
+                "", 
                 "<div><b>conseguir</b>: to find, often something you can see and feel.</div><div><b>lograr</b>: to achieve, often something intangible</div><div><b>obtener</b>: to obtain, both intangible and tangible, with a “reach out and catch” feel</div>", 
                 "y", 
                 "", 
@@ -1382,7 +1541,9 @@
             "data": "", 
             "fields": [
                 "obtener", 
+                "", 
                 "to obtain, to get (more active)", 
+                "", 
                 "<div><b>conseguir</b>: to find, often something you can see and feel.</div><div><b>lograr</b>: to achieve, often something intangible</div><div><b>obtener</b>: to obtain, both intangible and tangible, with a “reach out and catch” feel</div>", 
                 "y", 
                 "", 
@@ -1398,7 +1559,9 @@
             "data": "", 
             "fields": [
                 "el cuerpo", 
+                "", 
                 "body", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1414,7 +1577,9 @@
             "data": "", 
             "fields": [
                 "el cuerpo humano", 
+                "", 
                 "human body", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1430,7 +1595,9 @@
             "data": "", 
             "fields": [
                 "el cadáver", 
+                "", 
                 "corpse", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1446,7 +1613,9 @@
             "data": "", 
             "fields": [
                 "el torso", 
+                "", 
                 "torso", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1462,7 +1631,9 @@
             "data": "", 
             "fields": [
                 "la piel", 
+                "", 
                 "skin", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1478,7 +1649,9 @@
             "data": "", 
             "fields": [
                 "el músculo", 
+                "", 
                 "muscle", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1494,7 +1667,9 @@
             "data": "", 
             "fields": [
                 "el tendón", 
+                "", 
                 "tendon", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1510,7 +1685,9 @@
             "data": "", 
             "fields": [
                 "el hueso", 
+                "", 
                 "bone", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1526,7 +1703,9 @@
             "data": "", 
             "fields": [
                 "el esqueleto", 
+                "", 
                 "skeleton", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1542,7 +1721,9 @@
             "data": "", 
             "fields": [
                 "el vaso, el vaso sanguíneo", 
+                "", 
                 "blood vessel", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1558,7 +1739,9 @@
             "data": "", 
             "fields": [
                 "la vena", 
+                "", 
                 "vein", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1574,7 +1757,9 @@
             "data": "", 
             "fields": [
                 "la arteria", 
+                "", 
                 "artery", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1590,7 +1775,9 @@
             "data": "", 
             "fields": [
                 "el cerebro", 
+                "", 
                 "brain", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1606,7 +1793,9 @@
             "data": "", 
             "fields": [
                 "la mente", 
+                "", 
                 "mind", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1622,7 +1811,9 @@
             "data": "", 
             "fields": [
                 "el cráneo", 
+                "", 
                 "skull", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1638,7 +1829,9 @@
             "data": "", 
             "fields": [
                 "la cabeza", 
+                "", 
                 "head", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1654,7 +1847,9 @@
             "data": "", 
             "fields": [
                 "el pelo, el cabello", 
+                "", 
                 "hair", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1670,7 +1865,9 @@
             "data": "", 
             "fields": [
                 "la sien", 
+                "", 
                 "temple", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1686,7 +1883,9 @@
             "data": "", 
             "fields": [
                 "la nariz", 
+                "", 
                 "nose", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1702,7 +1901,9 @@
             "data": "", 
             "fields": [
                 "la ventana de la nariz", 
+                "", 
                 "nostril", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1718,7 +1919,9 @@
             "data": "", 
             "fields": [
                 "la cara", 
+                "", 
                 "face", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1734,7 +1937,9 @@
             "data": "", 
             "fields": [
                 "la oreja", 
+                "", 
                 "ear", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1750,7 +1955,9 @@
             "data": "", 
             "fields": [
                 "el lóbolo de las orejas", 
+                "", 
                 "earlobe", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1766,7 +1973,9 @@
             "data": "", 
             "fields": [
                 "el tímbano", 
+                "", 
                 "eardrum", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1782,7 +1991,9 @@
             "data": "", 
             "fields": [
                 "los labios", 
+                "", 
                 "lips", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1798,7 +2009,9 @@
             "data": "", 
             "fields": [
                 "la mejilla", 
+                "", 
                 "cheek", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1813,24 +2026,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "la ceja", 
-                "eyebrow", 
-                "", 
-                "reverse", 
-                "", 
-                "http://www.spanishclassonline.com/vocabulary/bodyparts.htm"
-            ], 
-            "flags": 0, 
-            "guid": "k3#R6e`nA4", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
                 "la pastaña", 
+                "", 
                 "eyelash", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1846,7 +2045,9 @@
             "data": "", 
             "fields": [
                 "el párpado", 
+                "", 
                 "eyelid", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1862,7 +2063,9 @@
             "data": "", 
             "fields": [
                 "el globo ocular", 
+                "", 
                 "eyeball", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1878,7 +2081,9 @@
             "data": "", 
             "fields": [
                 "la pupila", 
+                "", 
                 "pupil", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1894,7 +2099,9 @@
             "data": "", 
             "fields": [
                 "la lágrima", 
+                "", 
                 "teardrop (tear)", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1910,7 +2117,9 @@
             "data": "", 
             "fields": [
                 "el mentón, la barbilla", 
+                "", 
                 "chin", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1926,7 +2135,9 @@
             "data": "", 
             "fields": [
                 "la barba", 
+                "", 
                 "beard", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1942,7 +2153,9 @@
             "data": "", 
             "fields": [
                 "las barbas, pelos de la barba", 
+                "", 
                 "whiskers", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1958,7 +2171,9 @@
             "data": "", 
             "fields": [
                 "las patillas", 
+                "", 
                 "sideburns", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1974,7 +2189,9 @@
             "data": "", 
             "fields": [
                 "la frente", 
+                "", 
                 "forehead", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -1990,7 +2207,9 @@
             "data": "", 
             "fields": [
                 "la ceja", 
+                "", 
                 "eyebrow", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2006,7 +2225,9 @@
             "data": "", 
             "fields": [
                 "el diente", 
+                "", 
                 "tooth", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2022,7 +2243,9 @@
             "data": "", 
             "fields": [
                 "los dientes", 
+                "", 
                 "teeth", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2038,7 +2261,9 @@
             "data": "", 
             "fields": [
                 "la boca", 
+                "", 
                 "mouth", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2054,7 +2279,9 @@
             "data": "", 
             "fields": [
                 "la mandíbula", 
+                "", 
                 "jaw", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2070,7 +2297,9 @@
             "data": "", 
             "fields": [
                 "el pelo", 
+                "", 
                 "hair", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2086,7 +2315,9 @@
             "data": "", 
             "fields": [
                 "la garganta", 
+                "", 
                 "throat", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2102,7 +2333,9 @@
             "data": "", 
             "fields": [
                 "el nuez, el nuez de Adán", 
+                "", 
                 "Adam's Apple", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2118,7 +2351,9 @@
             "data": "", 
             "fields": [
                 "la columna", 
+                "", 
                 "spine", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2134,7 +2369,9 @@
             "data": "", 
             "fields": [
                 "la vértebra", 
+                "", 
                 "vertebrae", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2150,7 +2387,9 @@
             "data": "", 
             "fields": [
                 "el corazón", 
+                "", 
                 "heart", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2166,7 +2405,9 @@
             "data": "", 
             "fields": [
                 "la pezón", 
+                "", 
                 "nipple (woman)", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2182,7 +2423,9 @@
             "data": "", 
             "fields": [
                 "la tetilla", 
+                "", 
                 "nipple (man)", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2198,7 +2441,9 @@
             "data": "", 
             "fields": [
                 "el hombro", 
+                "", 
                 "shoulder", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2214,7 +2459,9 @@
             "data": "", 
             "fields": [
                 "el omóplato", 
+                "", 
                 "shoulder blade", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2230,7 +2477,9 @@
             "data": "", 
             "fields": [
                 "el sobaco, la axila", 
+                "", 
                 "armpit", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2246,7 +2495,9 @@
             "data": "", 
             "fields": [
                 "la cintura", 
+                "", 
                 "waist", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2262,7 +2513,9 @@
             "data": "", 
             "fields": [
                 "la barriga", 
+                "", 
                 "belly", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2278,7 +2531,9 @@
             "data": "", 
             "fields": [
                 "la panza", 
+                "", 
                 "tummy", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2294,7 +2549,9 @@
             "data": "", 
             "fields": [
                 "el ombligo", 
+                "", 
                 "navel", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2310,7 +2567,9 @@
             "data": "", 
             "fields": [
                 "estómago", 
+                "", 
                 "stomache", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2326,7 +2585,9 @@
             "data": "", 
             "fields": [
                 "elabdomen, el vientre", 
+                "", 
                 "abdomen", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2342,7 +2603,9 @@
             "data": "", 
             "fields": [
                 "los intestinos (small-delgados/large-gruesos)", 
+                "", 
                 "intestines", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2358,7 +2621,9 @@
             "data": "", 
             "fields": [
                 "las nalgas", 
+                "", 
                 "buttocks", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2374,7 +2639,9 @@
             "data": "", 
             "fields": [
                 "el ano", 
+                "", 
                 "anus", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2390,7 +2657,9 @@
             "data": "", 
             "fields": [
                 "culo", 
+                "", 
                 "butt", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2406,7 +2675,9 @@
             "data": "", 
             "fields": [
                 "la ingle", 
+                "", 
                 "groin", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2422,7 +2693,9 @@
             "data": "", 
             "fields": [
                 "el pene", 
+                "", 
                 "penis", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2438,7 +2711,9 @@
             "data": "", 
             "fields": [
                 "el escroto", 
+                "", 
                 "scrotum", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2454,7 +2729,9 @@
             "data": "", 
             "fields": [
                 "el testículo", 
+                "", 
                 "testicle", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2470,7 +2747,9 @@
             "data": "", 
             "fields": [
                 "la vagina", 
+                "", 
                 "vagina", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2486,7 +2765,9 @@
             "data": "", 
             "fields": [
                 "el útero, la matriz", 
+                "", 
                 "uterus", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2502,7 +2783,9 @@
             "data": "", 
             "fields": [
                 "el seno", 
+                "", 
                 "breast", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2518,7 +2801,9 @@
             "data": "", 
             "fields": [
                 "el brazo", 
+                "", 
                 "arm", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2534,7 +2819,9 @@
             "data": "", 
             "fields": [
                 "los bíceps", 
+                "", 
                 "biceps", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2550,7 +2837,9 @@
             "data": "", 
             "fields": [
                 "el codo", 
+                "", 
                 "elbow", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2566,7 +2855,9 @@
             "data": "", 
             "fields": [
                 "el antebrazo", 
+                "", 
                 "forearm", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2582,7 +2873,9 @@
             "data": "", 
             "fields": [
                 "la muñeca", 
+                "", 
                 "wrist", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2598,7 +2891,9 @@
             "data": "", 
             "fields": [
                 "el dedo", 
+                "", 
                 "finger", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2614,7 +2909,9 @@
             "data": "", 
             "fields": [
                 "el pulgar, el dedo gordo", 
+                "", 
                 "thumb", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2630,7 +2927,9 @@
             "data": "", 
             "fields": [
                 "la uña", 
+                "", 
                 "fingernail", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2646,7 +2945,9 @@
             "data": "", 
             "fields": [
                 "la uña, la uña del pulgar", 
+                "", 
                 "thumbnail", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2662,7 +2963,9 @@
             "data": "", 
             "fields": [
                 "la uña, la uña del pie", 
+                "", 
                 "toenail", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2678,7 +2981,9 @@
             "data": "", 
             "fields": [
                 "el nudillo", 
+                "", 
                 "knuckle", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2694,7 +2999,9 @@
             "data": "", 
             "fields": [
                 "la palma", 
+                "", 
                 "palm", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2710,7 +3017,9 @@
             "data": "", 
             "fields": [
                 "la huella digital", 
+                "", 
                 "fingerprint", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2726,7 +3035,9 @@
             "data": "", 
             "fields": [
                 "la cadera", 
+                "", 
                 "hip", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2742,7 +3053,9 @@
             "data": "", 
             "fields": [
                 "el muslo", 
+                "", 
                 "thigh", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2758,7 +3071,9 @@
             "data": "", 
             "fields": [
                 "la pierna", 
+                "", 
                 "leg", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2774,7 +3089,9 @@
             "data": "", 
             "fields": [
                 "la rodilla", 
+                "", 
                 "knee", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2790,7 +3107,9 @@
             "data": "", 
             "fields": [
                 "la rótula", 
+                "", 
                 "kneecap", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2806,7 +3125,9 @@
             "data": "", 
             "fields": [
                 "la pantorrilla", 
+                "", 
                 "calf", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2822,7 +3143,9 @@
             "data": "", 
             "fields": [
                 "el tobillo", 
+                "", 
                 "ankle", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2838,7 +3161,9 @@
             "data": "", 
             "fields": [
                 "la espinilla", 
+                "", 
                 "shin", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2854,7 +3179,9 @@
             "data": "", 
             "fields": [
                 "el pie", 
+                "", 
                 "foot", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2870,7 +3197,9 @@
             "data": "", 
             "fields": [
                 "el dedo, el dedo del pie", 
+                "", 
                 "toe", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2886,7 +3215,9 @@
             "data": "", 
             "fields": [
                 "la uña,  la uña del pie", 
+                "", 
                 "toenail", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2902,7 +3233,9 @@
             "data": "", 
             "fields": [
                 "la planta", 
+                "", 
                 "sole", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2918,7 +3251,9 @@
             "data": "", 
             "fields": [
                 "la arca", 
+                "", 
                 "arch", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2934,7 +3269,9 @@
             "data": "", 
             "fields": [
                 "el talón", 
+                "", 
                 "heel", 
+                "", 
                 "", 
                 "reverse", 
                 "", 
@@ -2950,7 +3287,9 @@
             "data": "", 
             "fields": [
                 "callar", 
+                "", 
                 "shut up", 
+                "", 
                 "", 
                 "y", 
                 "", 
@@ -2958,6 +3297,474 @@
             ], 
             "flags": 0, 
             "guid": "u#riw&%w1n", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Spanish CH", 
+                "", 
+                "There’s nothing complicated here. The <strong>CH</strong> in <em>escucha</em> (\"listen\") is the same as in “church.\" You probably already know it from the famous <em>chorizo</em>!", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "wQv0K[_>|#", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Spanish GU", 
+                "", 
+                "When <strong>G</strong> is followed by a <strong>U</strong>, it sounds like the <strong>G</strong> in \"guru\" or \"golf.\" When it’s followed by an <strong>E</strong> or <strong>I</strong>, the <strong>U</strong> is not pronounced — for example <em>guisante</em> (\"pea\") or the well known (but not Spanish) “Guinness!\"", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "vG}NlK!DE8", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Spanish LL", 
+                "", 
+                "In Spain, <strong>LL</strong> is pronounced more or less like an English <strong>J</strong>. In <em>llámame</em> (call me) it sounds similar to the <strong>J</strong> in “jump.\" We also pronounce <strong>Y</strong> at the beginning of a word the same way, as in <em>yema</em> (yolk). In most of Latin America, however, folks take the <strong>double-L</strong> a little easier and pronounce it like the <strong>Y</strong> in \"yes.\"", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "J^IEV7,h]I", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Spanish J", 
+                "", 
+                "This one doesn’t have an exact parallel in English. The strong <strong>J</strong> we use for <em>jamón</em> is similar to the <strong>H</strong> in “ham\" (but a bit throatier). Plus, <em>jamón</em> actually means ham — BOOM!", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "CVD{Sy%M]a", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Spanish C", 
+                "", 
+                "For many Spaniards, a <strong>C</strong> followed by an <strong>E</strong> or <strong>I</strong> is pronounced like <strong>TH</strong> in English: for example <em>céntimo</em> (cent) or <em>cigarro</em> (cigarette). When an <strong>S</strong> comes before the <strong>C</strong>, like in <em>escéptico</em>,\n you need to be careful to pronounce the letters separately (more on \nthat later). However, in Latin America and some parts of Spain, the \nCastilian \"lisp\" is avoided and the <strong>C</strong> in <em>ciudad</em> is pronounced like an <strong>S</strong> (the same as in “city\").", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "lq1<.n]bx}", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Spanish RR", 
+                "", 
+                "Rrrrrolling your <strong>RR</strong>s might be the trickiest business \nwhen speaking Spanish. Some people even blame their tongues for not \nbeing able to move or vibrate that much, but there is hope, <em>amigos</em> — don’t be <em>desesperados</em>. The rolled <strong>RR</strong> comes from the tip of your tongue and goes all the way to the top of your palate. Try to emphasize the <strong>R</strong>\n in the word “throat\" by saying it for 5 whole seconds. Feel that \nvibration coming up to your palate? That’s what you want to achieve. It \nmight take some practice, but keep at it. And <em>rrrremember!</em> not all words that include an <strong>R</strong> need to roll — only the words that start with <strong>R</strong> (“The Ramones\" for example!), words where an <strong>R</strong> follows an <strong>N</strong> and the ones that have two <strong>RR</strong>s.", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "nClra9vI:-", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Spanish Z", 
+                "", 
+                "The <strong>Z</strong> in Spanish is pronounced like the <strong>C</strong> that’s followed by an <strong>E</strong> or <strong>I</strong>.<div><br /></div><div>For many Spaniards, a <strong>C</strong> followed by an <strong>E</strong> or <strong>I</strong> is pronounced like <strong>TH</strong> in English: for example <em>céntimo</em> (cent) or <em>cigarro</em> (cigarette).&nbsp;However, in Latin America and some parts of Spain, the Castilian \"lisp\" is avoided and the <strong>C</strong> in <em>ciudad</em> is pronounced like an <strong>S</strong> (the same as in “city\").</div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "dL|f_SzJ-d", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "sonrojado", 
+                "", 
+                "blushing", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "gbg7cs/KP~", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ascensor", 
+                "", 
+                "elevator", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "fzOf{@v0Dr", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "zurcir", 
+                "", 
+                "to darn, to mend, to sew", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "M=L<uXMIRO", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "juguetón", 
+                "", 
+                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><!--StartFragment-->playful<!--EndFragment--></p>", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "y7Q-q-hi#", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "aguja", 
+                "", 
+                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><!--StartFragment-->needle<!--EndFragment--></p>", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "Bf}`Q=ZW-E", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "desarrollador", 
+                "", 
+                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><!--StartFragment-->developer<!--EndFragment--></p>", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish"
+            ], 
+            "flags": 0, 
+            "guid": "Dg.1k*gPlL", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "allí", 
+                "", 
+                "there, close to the listener (longer version)", 
+                "", 
+                "<img src=\"aqui-alli-small.gif\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "yNTh+5MgQ.", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "this-that-here-there"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "esta", 
+                "", 
+                "<i>fem.</i>&nbsp;this", 
+                "", 
+                "<img src=\"aqui-alli-small.gif\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "idZY%$Ru_X", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "this-that-here-there"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "esa", 
+                "", 
+                "<i>fem.</i>&nbsp;that", 
+                "", 
+                "<img src=\"aqui-alli-small.gif\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "L.}1)6DR>!", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "this-that-here-there"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "estos", 
+                "", 
+                "<i style=\"font-style: italic; \">masc.</i>&nbsp;these", 
+                "", 
+                "<img src=\"aqui-alli-small.gif\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "j#l?-EBy@9", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "this-that-here-there"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "estas", 
+                "", 
+                "<i style=\"font-style: italic; \">fem.</i>&nbsp;these", 
+                "", 
+                "<img src=\"aqui-alli-small.gif\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jGiN^/qVag", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "this-that-here-there"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "esas", 
+                "", 
+                "<i style=\"font-style: italic; \">fem.</i>&nbsp;those", 
+                "", 
+                "<img src=\"aqui-alli-small.gif\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Gu4gglSdm(", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "this-that-here-there"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "esos", 
+                "", 
+                "<i style=\"font-style: italic; \">masc.</i>&nbsp;those", 
+                "", 
+                "<img src=\"aqui-alli-small.gif\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "vUEl`G&e28", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "this-that-here-there"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "aquellos", 
+                "", 
+                "<i style=\"font-style: italic; \">masc.</i>&nbsp;those over there", 
+                "", 
+                "<img src=\"aqui-alli-small.gif\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "s2`/7fR?P<", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "this-that-here-there"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "aquellas", 
+                "", 
+                "<i style=\"font-style: italic; \">fem.</i>&nbsp;those over there", 
+                "", 
+                "<img src=\"aqui-alli-small.gif\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qO:Z(?FMnW", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "this-that-here-there"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "estas flores aquí son bonitas", 
+                "", 
+                "these flowers here are pretty", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "http://www.spanish.bz/blog/2004/09/aqui-alli-and-alla-lesson-about-this.htm"
+            ], 
+            "flags": 0, 
+            "guid": "p9Kg|y|%GU", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ese hombre allí no habla inglés", 
+                "", 
+                "that guy there doesn’t speak English", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "http://www.spanish.bz/blog/2004/09/aqui-alli-and-alla-lesson-about-this.htm"
+            ], 
+            "flags": 0, 
+            "guid": "wJ3?w!{Ioc", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "aquellos países allá en la Africa", 
+                "", 
+                "those countries over there in Africa", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "http://www.spanish.bz/blog/2004/09/aqui-alli-and-alla-lesson-about-this.htm"
+            ], 
+            "flags": 0, 
+            "guid": "e)*Dz@Q8ER", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
         }
