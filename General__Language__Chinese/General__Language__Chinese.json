@@ -1,0 +1,1815 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "012dc940-71de-11e7-8f86-2c56dc924912", 
+    "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 10, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Lang", 
+            "new": {
+                "bury": false, 
+                "delays": [
+                    40, 
+                    120
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    2, 
+                    20
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 3650, 
+                "minSpace": 1, 
+                "perDay": 500
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "Tone Pair 1-2.mp3", 
+        "chinese-tone-1.png", 
+        "Tone Pair 1-4.mp3", 
+        "chinese-tone-4.png", 
+        "Tone Pair 2-5.mp3", 
+        "chinese-tone-5.png", 
+        "Tone Pair 4-4.mp3", 
+        "Tone Pair 1-1.mp3", 
+        "Tone Pair 4-5.mp3", 
+        "Tone Pair 3-1.mp3", 
+        "Tone Pair 3-3.mp3", 
+        "Tone Pair 3-2.mp3", 
+        "Tone Pair 3-4.mp3", 
+        "Tone Pair 2-4.mp3", 
+        "Tone Pair 4-2.mp3", 
+        "chinese-tone-2.png", 
+        "chinese-tone-3.png", 
+        "Tone Pair 1-5.mp3", 
+        "Tone Pair 2-2.mp3", 
+        "Tone Pair 2-1.mp3", 
+        "Tone Pair 2-3.mp3", 
+        "Tone Pair 1-3.mp3", 
+        "Tone Pair 4-3.mp3", 
+        "Tone Pair 4-1.mp3", 
+        "Tone Pair 3-5.mp3"
+    ], 
+    "mid": "1475043240989", 
+    "name": "General::Language::Chinese", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "css": "@import url(\"_dark4.css\");\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 25;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+4;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\n</script><style>", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "FrontType", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "BackType", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Other", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "ShowReversed", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "AlternateFront", 
+                    "ord": 6, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 7, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[18pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}", 
+            "name": "CNGBasic", 
+            "req": [
+                [
+                    0, 
+                    "any", 
+                    [
+                        0, 
+                        1, 
+                        3, 
+                        6
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        5
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "bash"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Technical Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Forward", 
+                    "ord": 0, 
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<blockquote>\n{{#BackType}}\n<var class=\"q\">{{#FrontType}}{{FrontType}} to {{/FrontType}}{{BackType}}</var>\n{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">What is this {{FrontType}}</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                }, 
+                {
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Technical Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Reverse", 
+                    "ord": 1, 
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n{{#FrontType}}\n\n{{#BackType}}\n<var class=\"q\">{{BackType}} to {{FrontType}}</var>\n{{/BackType}}\n{{^BackType}}\n<var class=\"q\">{{FrontType}}</var>\n{{/BackType}}\n\n\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n{{/FrontType}}\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tone: 1", 
+                "", 
+                "<img src=\"chinese-tone-1.png\" />", 
+                "", 
+                "", 
+                "", 
+                "first tone", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "ePFf`^t}#*", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "tones"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tone: 2", 
+                "", 
+                "<img src=\"chinese-tone-2.png\" />", 
+                "", 
+                "", 
+                "", 
+                "second tone", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "u[EAMVv%c.", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "tones"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tone: 3", 
+                "", 
+                "<img src=\"chinese-tone-3.png\" />", 
+                "", 
+                "", 
+                "", 
+                "third tone", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "r!e1Z=@2dI", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "tones"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tone: 4", 
+                "", 
+                "<img src=\"chinese-tone-4.png\" />", 
+                "", 
+                "", 
+                "", 
+                "fourth tone", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "wgBDX[`ncz", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "tones"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tone: 5", 
+                "", 
+                "<img src=\"chinese-tone-5.png\" />", 
+                "", 
+                "", 
+                "", 
+                "fifth tone", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "ON[]IXf_kC", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "tones"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "today", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>今天</span></span>", 
+                "jīn tiān", 
+                "[sound:Tone Pair 1-1.mp3]", 
+                "1+1", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "sX&_oRWZEE", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "China", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>中国</span></span>", 
+                "zhōng guó", 
+                "[sound:Tone Pair 1-2.mp3]", 
+                "1+2", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "rN7)>Tg)@{", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ice water", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>冰水</span></span>", 
+                "bīng shuǐ", 
+                "[sound:Tone Pair 1-3.mp3]", 
+                "1+3", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "vX!I!rrr1K", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "to know", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>知道</span></span>", 
+                "zhī dào", 
+                "[sound:Tone Pair 1-4.mp3]", 
+                "1+4", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "sS>*VAXrSW", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "really", 
+                "真的", 
+                "zhēn de", 
+                "[sound:Tone Pair 1-5.mp3]", 
+                "1+5", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "p}.*YNys4y", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tomorrow", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>明天</span></span>", 
+                "míng tiān", 
+                "[sound:Tone Pair 2-1.mp3]", 
+                "2+1", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "zneiaie-cc", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "next year", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span class=\"\">明年</span></span>", 
+                "míng nián", 
+                "[sound:Tone Pair 2-2.mp3]", 
+                "2+2", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "vk!^[D#@f5", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "beer", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span class=\"\">啤酒</span></span>", 
+                "pí jiǔ", 
+                "[sound:Tone Pair 2-3.mp3]", 
+                "2+3", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "hKH1dL:&m4", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "easy", 
+                "", 
+                "róng yì", 
+                "[sound:Tone Pair 2-4.mp3]", 
+                "2+4", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "cBnE*s2Vfz", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "what", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>什么</span></span>", 
+                "shén me", 
+                "[sound:Tone Pair 2-5.mp3]", 
+                "2+5", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "t:[355&#IP", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "to like", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span class=\"\">喜欢</span></span>", 
+                "xǐ huān", 
+                "[sound:Tone Pair 3-1.mp3]", 
+                "3+1", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "iR(6j8vZ:j", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "to get up", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>起床</span></span>", 
+                "qǐ chuáng", 
+                "[sound:Tone Pair 3-2.mp3]", 
+                "3+2", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Ea62qZ/g[v", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "hello", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>你好</span></span>", 
+                "nǐ hǎo", 
+                "[sound:Tone Pair 3-3.mp3]", 
+                "3+3 &gt; 2+3", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "8hyp(3X#p", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "fried rice", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span class=\"\">炒饭</span></span>", 
+                "chǎo fàn", 
+                "[sound:Tone Pair 3-4.mp3]", 
+                "3+4", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "LN9w.N[8B8", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "my, mine", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>我的</span></span>", 
+                "wǒ de", 
+                "[sound:Tone Pair 3-5.mp3]", 
+                "3+5", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "nMRRUS<W{", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "bread", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>面包</span></span>", 
+                "miàn bāo", 
+                "[sound:Tone Pair 4-1.mp3]", 
+                "4+1", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "N.]C}[dLlh", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "question", 
+                "问题", 
+                "wèn tí", 
+                "[sound:Tone Pair 4-2.mp3]", 
+                "4+2", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Bpun=;:o,=", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "here", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span>这里</span></span>", 
+                "zhè lǐ", 
+                "[sound:Tone Pair 4-3.mp3]", 
+                "4+3", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "B&=5m0J05y", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "bye", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span class=\"\">再见</span></span>", 
+                "zài jiàn", 
+                "[sound:Tone Pair 4-4.mp3]", 
+                "4+4", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "u)2fM&P@L(", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "thanks", 
+                "<span id=\"result_box\" class=\"short_text\" tabindex=\"-1\" lang=\"zh-CN\"><span class=\"\">谢谢</span></span>", 
+                "xiè xie", 
+                "[sound:Tone Pair 4-5.mp3]", 
+                "4+5", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "gZ~344m=y3", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "b", 
+                "pinyin", 
+                "<b>b</b>ear", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "de2~rS-yG%", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "p", 
+                "pinyin", 
+                "<b>p</b>oor", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "HV$mD:%ip$", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "m", 
+                "pinyin", 
+                "<b>m</b>ore", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "qO4UdT{~l7", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "f", 
+                "pinyin", 
+                "<b>f</b>ake", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Q>~~2~*%|e", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "d", 
+                "pinyin", 
+                "<b>d</b>are", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "lS+bjz:qOm", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "t", 
+                "pinyin", 
+                "<b>t</b>ake", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "vU[|Q%PaU9", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "n", 
+                "pinyin", 
+                "<b>n</b>ow", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "z`a&vB]3[[", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<code>l</code>", 
+                "pinyin", 
+                "<b>l</b>earn", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "G!Y.u7FhA", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "g", 
+                "pinyin", 
+                "<b>g</b>et", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "hL<_+s5.>J", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "k", 
+                "pinyin", 
+                "<b>k</b>ing", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "cD3B9:Y#v", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "h", 
+                "pinyin", 
+                "<b>h</b>elp", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "h4>t4#.RUs", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "j", 
+                "pinyin", 
+                "<b>jee</b>p", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "P6RXMgm}a+", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "q", 
+                "pinyin", 
+                "won’<b>t you</b>, <b>chee</b>se", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "wl;Xo0pH9e", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "x", 
+                "pinyin", 
+                "<b>shee</b>p", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "J&CiFID|+l", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "zh", 
+                "pinyin", 
+                "ju<b>dge</b>, Geor<b>ge</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "v~fpQT4>WP", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ch", 
+                "pinyin", 
+                "chur<b>ch</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "L`s(G#!ne!", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "sh", 
+                "pinyin", 
+                "<b>sh</b>hhh!", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "gDNqaf~Q{L", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "r", 
+                "pinyin", 
+                "<b>J</b>acque, A<b>s</b>ia, mea<b>s</b>ure", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "LP]zxeeq{O", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "z", 
+                "pinyin", 
+                "yar<b>ds</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "g@8j#h&U]x", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "c", 
+                "pinyin", 
+                "i<b>ts</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "xJXb-cV9Bb", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "s", 
+                "pinyin", 
+                "<b>s</b>ing", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "vf-RtJENl(", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "w", 
+                "pinyin", 
+                "<b>w</b>ant", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "p4%gRse6uj", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "y", 
+                "pinyin", 
+                "<b>y</b>es", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "gpPA[#=&Hu", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "a", 
+                "pinyin", 
+                "f<b>a</b>ther", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "jQ}`{uhxlZ", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ai", 
+                "pinyin", 
+                "m<b>y</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "ilrPQe{|p1", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "an", 
+                "pinyin", 
+                "s<b>un</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "jb(,)J*@)0", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ang", 
+                "pinyin", 
+                "<b>ahng</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "sl4YD#LK@<", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ao", 
+                "pinyin", 
+                "p<b>ou</b>t", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Q;&8-Nzg&>", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "e&nbsp;", 
+                "pinyin", 
+                "s<b>e</b>rve", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "AHRIr0Gy>?", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ei", 
+                "pinyin", 
+                "d<b>ay</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "J/Q{Uh`-S?", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "en", 
+                "pinyin", 
+                "tak<b>en</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Rj#md6N_{X", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "eng", 
+                "pinyin", 
+                "m<b>ung</b>, <b>e</b>r<b>ng</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Ig2#N7pj9v", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "er", 
+                "pinyin", 
+                "<b>are</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Qa>1g;dX()", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "i", 
+                "pinyin", 
+                "s<b>ee</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "ug~FWX$KjD", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ia", 
+                "pinyin", 
+                "<b>yah</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "e?^9rkUd.K", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "iao", 
+                "pinyin", 
+                "m<b>eow</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "he:/~b4t(v", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ian", 
+                "pinyin", 
+                "<b>yen</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "LziD_=P3<z", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "iang", 
+                "pinyin", 
+                "<b>young</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "bCm6h}x%J[", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ie", 
+                "pinyin", 
+                "<b>ye</b>s", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "p{nRW]*HOB", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "in", 
+                "pinyin", 
+                "s<b>in</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Pk/-B;t`{v", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ing", 
+                "pinyin", 
+                "<b>eeng</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "ci`q@[/)]Y", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "iong", 
+                "pinyin", 
+                "<b>ee-own</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "C3WssjpIcS", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "iu", 
+                "pinyin&nbsp;(shorter of 2)", 
+                "<b>yo</b>-yo", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Kh7]R&FQ`T", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "o", 
+                "pinyin", 
+                "<b>aw</b>esome (British accent)", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "H4E.`2-GQP", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ou", 
+                "pinyin", 
+                "b<b>oa</b>t", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "eGV[6Q.KnM", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ong", 
+                "pinyin", 
+                "l<b>oan</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "Q[i~zAJuR~", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "u", 
+                "pinyin", 
+                "sh<b>oo</b>t", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "yU<#lk_R20", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ua", 
+                "pinyin", 
+                "s<b>ua</b>ve", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "MbplEUp%GF", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "uai", 
+                "pinyin", 
+                "<b>wi</b>de", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "uY6^rag0,u", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "uan", 
+                "pinyin", 
+                "<b>won</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "bD=3HOuujr", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "uang", 
+                "pinyin", 
+                "<b>oo-ahng</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "D_j]&-=iqg", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "ui", 
+                "pinyin&nbsp;(shorter of 2)", 
+                "<b>way</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "rHF4?(/wST", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "un", 
+                "pinyin&nbsp;(shorter of 2)", 
+                "<b>oo</b>+tak<b>en</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "HIka6|g}Vq", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "uo", 
+                "pinyin", 
+                "<b>wo</b>k", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "eX9?*I?*!6", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "iou", 
+                "pinyin (longer of 2)", 
+                "<b>yo</b>-yo", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "yt@}GxJHLF", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "uei", 
+                "pinyin (longer of 2)", 
+                "<b>way</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "fQ`SUy;C>O", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "uen", 
+                "pinyin (longer of 2)", 
+                "<b>oo</b>+tak<b>en</b>", 
+                "pronunciation", 
+                "", 
+                "reverse", 
+                "", 
+                "yoyochinese.com"
+            ], 
+            "flags": 0, 
+            "guid": "l//0hFhM?)", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "pinyin"
+            ]
+        }
+    ]
+}
