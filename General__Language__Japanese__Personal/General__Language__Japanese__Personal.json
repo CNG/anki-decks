@@ -1,0 +1,679 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "15d5a6bd-71de-11e7-886f-2c56dc924912", 
+    "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 10, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    10, 
+                    120
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    2, 
+                    20
+                ], 
+                "order": 1, 
+                "perDay": 100, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 2.5, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.5, 
+                "maxIvl": 3650, 
+                "minSpace": 1, 
+                "perDay": 1000
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "torikatsu.jpg", 
+        "main-tonkatsu.jpg"
+    ], 
+    "name": "General::Language::Japanese::Personal", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "css": "a {\n    position: absolute;\n    z-index: 100;\n    top: 0.5em;\n    left: 0.5em;\n    display: inline-block;\n    width: 30px;\n}\nsection {\n    margin: 30px 0 30px;\n}\n#character img { width: 145px; position:relative;top:14px;}\n.radicals #prompt h1::before { content: 'radical '; }\n.vocabulary #prompt h1::before { content: 'vocabulary '; }\n.kanji #prompt h1::before { content: 'kanji '; }\n\n.meaning #prompt h1 strong::before { content: 'meaning'; }\n.reading #prompt h1 strong::before { content: 'reading'; }\n\nhtml {\n    font-size: 100%;\n    -webkit-text-size-adjust: 100%;\n}\n@media (min-width: 1500px) {\nhtml { font-size: 200%; }\n}\n\nbody {\n    background-color: #eee;\n    font-family: \"Source Sans Pro\", sans-serif;\n    margin: 0;\n}\n\n#question {\n    position: relative;\n    text-align: center;\n    z-index: 10;\n}\n.kanji #character {\n    background-color: #f100a1;\n    background-image: -moz-linear-gradient(top, #f0a, #dd0093);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0a), to(#dd0093));\n    background-image: -webkit-linear-gradient(top, #f0a, #dd0093);\n    background-image: -o-linear-gradient(top, #f0a, #dd0093);\n    background-image: linear-gradient(to bottom, #f0a, #dd0093);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF00AA, endColorstr=#FFDD0093, GradientType=0);\n    text-shadow: 5px 5px 0 #dd0093;\n}\n.vocabulary #character {\n    font-size: 6.125em;\n    line-height: 2.21em;\n    background-color: #a100f1;\n    background-image: -moz-linear-gradient(top, #a0f, #9300dd);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a0f), to(#9300dd));\n    background-image: -webkit-linear-gradient(top, #a0f, #9300dd);\n    background-image: -o-linear-gradient(top, #a0f, #9300dd);\n    background-image: linear-gradient(to bottom, #a0f, #9300dd);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFAA00FF, endColorstr=#FF9300DD, GradientType=0);\n    text-shadow: 5px 5px 0 #9300dd;\n}\n.radicals #character {\n    background-color: #00a1f1;\n    background-image: -moz-linear-gradient(top, #0af, #0093dd);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0af), to(#0093dd));\n    background-image: -webkit-linear-gradient(top, #0af, #0093dd);\n    background-image: -o-linear-gradient(top, #0af, #0093dd);\n    background-image: linear-gradient(to bottom, #0af, #0093dd);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF00AAFF, endColorstr=#FF0093DD, GradientType=0);\n    text-shadow: 5px 5px 0 #0093dd;\n}\n#character {\n    position: relative;\n    color: #fff;\n    font-size: 12.25em;\n    font-weight: normal;\n    line-height: 1.6em;\n    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.25);\n    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,0.25);\n    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);\n}\n[lang=\"ja\"] {\n    font-family: \"Hiragino Kaku Gothic Pro\", \"Meiryo\", \"Source Han Sans Japanese\", \"NotoSansCJK\", \"TakaoPGothic\", \"Yu Gothic\", \"ヒラギノ角ゴ Pro W3\", \"メイリオ\", \"Osaka\", \"MS PGothic\", \"ＭＳ Ｐゴシック\", sans-serif;\n}\n#prompt {\n    position: relative;\n}\n#prompt h1 {\n    font-weight: normal;\n    letter-spacing: -1px;\n    text-transform: capitalize;\nline-height:1.5em;\n}\nh1 {\n    font-size: 2em;\n    margin: .67em 0;\n}\n.meaning #prompt {\n    color: #555;\n    text-shadow: -1px -1px 0 rgba(255,255,255,0.1);\n    border-top: 1px solid #d5d5d5;\n    border-bottom: 1px solid #c8c8c8;\n    background-color: #e9e9e9;\n    background-image: -moz-linear-gradient(top, #eee, #e1e1e1);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#e1e1e1));\n    background-image: -webkit-linear-gradient(top, #eee, #e1e1e1);\n    background-image: -o-linear-gradient(top, #eee, #e1e1e1);\n    background-image: linear-gradient(to bottom, #eee, #e1e1e1);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEEEEEE, endColorstr=#FFE1E1E1, GradientType=0);\n}\n.reading #prompt {\n    color: #fff;\n    text-shadow: -1px -1px 0 #000;\n    border-top: 1px solid #555;\n    border-bottom: 1px solid #000;\n    background-color: #2e2e2e;\n    background-image: -moz-linear-gradient(top, #3c3c3c, #1a1a1a);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3c3c3c), to(#1a1a1a));\n    background-image: -webkit-linear-gradient(top, #3c3c3c, #1a1a1a);\n    background-image: -o-linear-gradient(top, #3c3c3c, #1a1a1a);\n    background-image: linear-gradient(to bottom, #3c3c3c, #1a1a1a);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF3C3C3C, endColorstr=#FF1A1A1A, GradientType=0);\n}\n#answer {\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    box-sizing: border-box;\n    -webkit-box-shadow: 3px 3px 0 #e1e1e1;\n    -moz-box-shadow: 3px 3px 0 #e1e1e1;\n    box-shadow: 3px 3px 0 #e1e1e1;\n}\n#answer>div {\n    font-size:3em;\n    padding: 0.5em 0;\n}\n#answer .type, #answer .reading {\n    display: inline-block;\n    width: 33%;\n}\n#answer .type {\n    font-size:0.75em;\n    line-height: 3em;\n    position: relative;\n    top: 1em;\n    color: #999;\n}\n\n#answer.onyomi .onyomi, #answer.kunyomi .kunyomi { }\n#answer.kunyomi .onyomi, #answer.onyomi .kunyomi,\n#answer.kunyomi .nanori, #answer.onyomi .nanori {\n    font-size:1.5em;\n    position: relative;\n    top: -0.15em;\n    color: #555;\n}\n.front #answer .reading, .front #answer .meaning { visibility: hidden !important; }\n.front #answer .type { visibility: inherit !important; }\n\n\n\n\nul, ol {\n    padding: 0;\n    margin: 0 0 10px 25px;\n}\nul.single-character-grid, ul.multi-character-grid { margin: 0; }\nli {\n    line-height: 20px;display: block;\n}\n\nul.single-character-grid li.character-item, ul.multi-character-grid li.character-item {\n    display: inline-block;\n    position: relative;\n    width: 116px;\n    color: #ffffff;\n    text-align: center;\n}\nul.single-character-grid li.character-item span.character, ul.multi-character-grid li.character-item span.character {\n    font-size: 72px;\n    font-weight: bold;\n    line-height: 1.5em;\n    text-shadow: 0 2px 0 rgba(0,0,0,0.3);\n}\nul.single-character-grid li.character-item ul, ul.multi-character-grid li.character-item ul {\n    margin: 0;\n    padding-bottom: 10px;\n}\nul.single-character-grid li.character-item ul>li, ul.multi-character-grid li.character-item ul>li {\n    display: block;\n    font-weight: 400;\n    line-height: 1.5em;\n    text-shadow: 0 1px 0 rgba(0,0,0,0.3);\n}\n\nul.multi-character-grid-extra-styling {\n    -webkit-border-radius: 3px;\n    -moz-border-radius: 3px;\n    border-radius: 3px;\n    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.3);\n    -moz-box-shadow: 0 2px 0 rgba(0,0,0,0.3);\n    box-shadow: 0 2px 0 rgba(0,0,0,0.3);\n  xmargin: 0 10px;\n}\n.notusedithink {\n    /*radical*/\n    background-color: #00a1f1;\n    background-image: -moz-linear-gradient(top, #0af, #0093dd);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0af), to(#0093dd));\n    background-image: -webkit-linear-gradient(top, #0af, #0093dd);\n    background-image: -o-linear-gradient(top, #0af, #0093dd);\n    background-image: linear-gradient(to bottom, #0af, #0093dd);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF00AAFF', endColorstr='#FF0093DD', GradientType=0);\n    border-top: 1px solid #88d7ff;\n    border-bottom: 1px solid #069;\n    border-left: 1px solid #88d7ff;\n}\n.radicals ul.single-character-grid > li,\n.vocabulary ul.single-character-grid > li,\n.kanji ul.single-character-grid > li {\n    /*kanji*/\n    background-color: #f100a1;\n    background-image: -moz-linear-gradient(top, #f0a, #dd0093);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0a), to(#dd0093));\n    background-image: -webkit-linear-gradient(top, #f0a, #dd0093);\n    background-image: -o-linear-gradient(top, #f0a, #dd0093);\n    background-image: linear-gradient(to bottom, #f0a, #dd0093);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF00AA', endColorstr='#FFDD0093', GradientType=0);\n    border-top: 1px solid #f6c;\n    border-bottom: 1px solid #cc0088;\n    border-left: 1px solid #f6c;\n}\n.kanji ul.multi-character-grid > li {\n    /*vocabulary*/\n    background-color: #a100f1;\n    background-image: -moz-linear-gradient(top, #a0f, #9300dd);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a0f), to(#9300dd));\n    background-image: -webkit-linear-gradient(top, #a0f, #9300dd);\n    background-image: -o-linear-gradient(top, #a0f, #9300dd);\n    background-image: linear-gradient(to bottom, #a0f, #9300dd);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFAA00FF', endColorstr='#FF9300DD', GradientType=0);\n    border-top: 1px solid #c655ff;\n    border-bottom: 1px solid #8800cc;\n    border-left: 1px solid #c655ff;\n}\nul.single-character-grid li.character-item, ul.multi-character-grid li.character-item {\n    display: inline-block;\n    position: relative;\n    width: 116px;\n    color: #ffffff;\n    text-align: center;\n}\nul.multi-character-grid li.character-item {\n    display: block;\n    width: 100%;\n    text-align: left;\n    border-left: none;\npadding: 12px;\n}\nul.multi-character-grid-extra-styling li.character-item:first-child {\n    -webkit-border-top-left-radius: 3px;\n    -moz-border-radius-topleft: 3px;\n    border-top-left-radius: 3px;\n    -webkit-border-top-right-radius: 3px;\n    -moz-border-radius-topright: 3px;\n    border-top-right-radius: 3px;\n}\nul.multi-character-grid li.character-item ul {\n    display: inline-block;\n    float: right;\n    text-align: right;\n    font-size: 10px;\n}\nul.multi-character-grid li.character-item span.character {\n    font-size: 27px;\n    line-height: 1em;\n}\n\nh1, html#public-profile div.wall-of-shame div.title, h2, h3, h4, h5, h6 {\n    margin: 10px 0;\n    font-family: inherit;\n    font-weight: bold;\n    line-height: 20px;\n    color: inherit;\n    text-rendering: optimizelegibility;\n}\nh1, html#public-profile div.wall-of-shame div.title, h2, h3 {\n    line-height: 40px;\n}\nh1, html#public-profile div.wall-of-shame div.title, h2, h3, h4, h5, h6 {\n    font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n}\nh2 {\n    font-size: 31.5px;\n}\nh1, html#public-profile div.wall-of-shame div.title, h2, h3 {\n    font-weight: 300;\n    letter-spacing: -1px;\n    text-shadow: 0 1px 0 #fff;\n}\nh2 {\n    font-size: 28px;\n}\nh2 {\n    padding-bottom: 0.25em;\n    border-bottom: 1px solid #d5d5d5;\n}\n\n\n\n[class*=\"-icon\"] {\n    display: inline-block;\n    position: relative;\n    width: 1.8em;\n    height: 1.8em;\n    color: #fff;\n    font-size: 27px;\n    font-weight: bold;\n    line-height: 1.8em;\n    text-align: center;\n    text-shadow: 0 2px 0 rgba(0,0,0,0.3);\n    vertical-align: top;\n    -webkit-border-radius: 3px;\n    -moz-border-radius: 3px;\n    border-radius: 3px;\n    -webkit-box-shadow: 0 -3px 0 rgba(0,0,0,0.2) inset, 0 0 10px rgba(255,255,255,0.5);\n    -moz-box-shadow: 0 -3px 0 rgba(0,0,0,0.2) inset,0 0 10px rgba(255,255,255,0.5);\n    box-shadow: 0 -3px 0 rgba(0,0,0,0.2) inset, 0 0 10px rgba(255,255,255,0.5);\n    -webkit-transition: text-shadow ease-out 0.3s;\n    -moz-transition: text-shadow ease-out 0.3s;\n    -o-transition: text-shadow ease-out 0.3s;\n    transition: text-shadow ease-out 0.3s;\n}\n[class*=\"-highlight\"] {\nmargin:0 2px;\n    cursor: help;\n    padding: 1px 4px;\n    color: #fff;\n    text-shadow: 0 1px 0 rgba(0,0,0,0.2);\n    white-space: nowrap;\n    -webkit-border-radius: 3px;\n    -moz-border-radius: 3px;\n    border-radius: 3px;\n    -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;\n    -moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;\n    box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;\n}\n.radical-highlight {\n    background-color: #00a1f1;\n    background-image: -moz-linear-gradient(top, #0af, #0093dd);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0af), to(#0093dd));\n    background-image: -webkit-linear-gradient(top, #0af, #0093dd);\n    background-image: -o-linear-gradient(top, #0af, #0093dd);\n    background-image: linear-gradient(to bottom, #0af, #0093dd);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF00AAFF', endColorstr='#FF0093DD', GradientType=0);\n}\n.kanji-highlight {\n    background-color: #f100a1;\n    background-image: -moz-linear-gradient(top, #f0a, #dd0093);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0a), to(#dd0093));\n    background-image: -webkit-linear-gradient(top, #f0a, #dd0093);\n    background-image: -o-linear-gradient(top, #f0a, #dd0093);\n    background-image: linear-gradient(to bottom, #f0a, #dd0093);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF00AA', endColorstr='#FFDD0093', GradientType=0);\n}\n.vocabulary-highlight {\n    background-color: #a100f1;\n    background-image: -moz-linear-gradient(top, #a0f, #9300dd);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a0f), to(#9300dd));\n    background-image: -webkit-linear-gradient(top, #a0f, #9300dd);\n    background-image: -o-linear-gradient(top, #a0f, #9300dd);\n    background-image: linear-gradient(to bottom, #a0f, #9300dd);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFAA00FF', endColorstr='#FF9300DD', GradientType=0);\n}\n.reading-highlight {\n    background-color: #474747;\n    background-image: -moz-linear-gradient(top, #555, #333);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#555), to(#333));\n    background-image: -webkit-linear-gradient(top, #555, #333);\n    background-image: -o-linear-gradient(top, #555, #333);\n    background-image: linear-gradient(to bottom, #555, #333);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF555555', endColorstr='#FF333333', GradientType=0);\n    -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.8) inset;\n    -moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.8) inset;\n    box-shadow: 0 -2px 0 rgba(0,0,0,0.8) inset;\n}\n\nul.alt-character-list li {\n    display: inline-block;\n    position: relative;\n    font-size: 20px;\n    font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    line-height: 2.2em;\n    text-shadow: 0 1px 0 #fff;\ncolor: #555;\n\n}\n.radical-icon {\n    background-color: #00a1f1;\n    background-image: -moz-linear-gradient(top, #0af, #0093dd);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0af), to(#0093dd));\n    background-image: -webkit-linear-gradient(top, #0af, #0093dd);\n    background-image: -o-linear-gradient(top, #0af, #0093dd);\n    background-image: linear-gradient(to bottom, #0af, #0093dd);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF00AAFF', endColorstr='#FF0093DD', GradientType=0);\n}\n.kanji-icon {\n    background-color: #f100a1;\n    background-image: -moz-linear-gradient(top, #f0a, #dd0093);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0a), to(#dd0093));\n    background-image: -webkit-linear-gradient(top, #f0a, #dd0093);\n    background-image: -o-linear-gradient(top, #f0a, #dd0093);\n    background-image: linear-gradient(to bottom, #f0a, #dd0093);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF00AA', endColorstr='#FFDD0093', GradientType=0);\n}\n.vocabulary-icon {\n    width: auto;\n    padding-left: 0.45em;\n    padding-right: 0.45em;\n    background-color: #a100f1;\n    background-image: -moz-linear-gradient(top, #a0f, #9300dd);\n    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a0f), to(#9300dd));\n    background-image: -webkit-linear-gradient(top, #a0f, #9300dd);\n    background-image: -o-linear-gradient(top, #a0f, #9300dd);\n    background-image: linear-gradient(to bottom, #a0f, #9300dd);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFAA00FF', endColorstr='#FF9300DD', GradientType=0);\n}\n\nul.alt-character-list [class*=\"-icon\"] {\n    margin-right: 0.25em;\n    font-size: 24px;\n    line-height: 1.7em;\n}\n\nh3 {\n    font-size: 18px;\n    line-height: 20px;\n}\n.additional-info h3, .small-caps {\n    display: block;\n    margin: 0;\n    margin-bottom: 15px;\n    padding: 0;\n    font-size: 11px;\n    font-weight: bold;\n    letter-spacing: 0;\n    line-height: 20px;\n    color: #555;\n    text-transform: uppercase;\n    text-shadow: 0 1px 0 #fff;\n}\np { margin: 0 0 10px; }\np, ol, figcaption, .body-copy, .body-copy li {\n    font-family: \"Ubuntu\", Helvetica, Arial, sans-serif;\n    font-size: 16px;\n    text-shadow: 0 1px 0 #fff;\n    line-height: 1.6em;\n}\np, ol {\n    color: #666666;\n}\narticle, aside, details, figcaption, figure, footer, header, hgroup, nav, section {\n    display: block;\n}\n.additional-info, .additional-info {\n    margin-bottom: 30px;\n    padding: 20px;\n    background-color: #e1e1e1;\n    color: #666666;\n}\n.individual-item .context-sentence-group {\n    margin-top: 1em;\n}\n.individual-item .context-sentence-group p {\n    line-height: 1em;\n}\nul.alt-character-list li:after {\n    content: \"+\";\n    margin: 0 0.8em;\n    color: #999;\n    font-weight: bold;\n    text-shadow: 0 1px 0 #fff;\n}\nul.alt-character-list li:last-child:after{content:none}\nsection h1, section h2 {    text-align: left; padding: 0 0.5em; }\np, ul {    text-align: left; padding: 0 1em; }\naside { margin: 0 1em;}\naside.additional-info h3, aside.additional-info p { display:inline;}\nh1, h2, h3, h4, h5, h6 {\n    font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\nfont-weight: 300;\n    letter-spacing: -1px;\n    text-shadow: 0 1px 0 #fff;\ntext-rendering: optimizelegibility;\n}\n\ndetails { text-align:left; }\ndetails summary { margin: 20px; font-size:2em; opacity: 0.25; } \n\n\n\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementById(\"question\");\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 5;\n\tvar bodyFontSizeMax = 1025;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+2;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n\n}\n\nsetInterval(function(){ if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }, 100);\n//setInterval(function(){ currentDeckMessages();  }, 100);\n</script><style>\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "sort", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "appears", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "audio", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "character", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "composed", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "context", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "important_reading", 
+                    "ord": 6, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "kana", 
+                    "ord": 7, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "kunyomi", 
+                    "ord": 8, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "level", 
+                    "ord": 9, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "meaning", 
+                    "ord": 10, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "meaning_m", 
+                    "ord": 11, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "nanori", 
+                    "ord": 12, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "onyomi", 
+                    "ord": 13, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "reading_m", 
+                    "ord": 14, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "similar", 
+                    "ord": 15, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "type", 
+                    "ord": 16, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[18pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}", 
+            "name": "WaniKani", 
+            "req": [
+                [
+                    0, 
+                    "any", 
+                    [
+                        1, 
+                        3, 
+                        6, 
+                        7, 
+                        10, 
+                        11, 
+                        16
+                    ]
+                ], 
+                [
+                    1, 
+                    "any", 
+                    [
+                        6, 
+                        7
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "<a href=\"https://www.wanikani.com/{{type}}/{{^important_reading}}{{^kana}}{{meaning}}{{/kana}}{{/important_reading}}{{#important_reading}}{{character}}{{/important_reading}}\"><img src=\"_wanikani_logo.png\"></a>{{#audio}}{{audio}}{{/audio}}\n<div id=\"question\" class=\"{{type}} {{Card}} back\">\n  <div id=\"character\">\n    <span lang=\"ja\">{{character}}</span>\n  </div>\n  <div id=\"prompt\">\n    <h1><strong></strong></h1>\n  </div>\n  <div id=\"answer\">\n    <div>{{meaning}}</div>\n  </div>\n{{#kana}}\n\n  <!-- THIS IS VOCAB -->\n  <div id=\"answer\" style=\"font-size:75%;\"><div>{{kana}}</div></div>\n<details><summary>More</summary>\n  {{#meaning_m}}<section><h2>Meaning mnemonic</h2><p>{{meaning_m}}</p></section>{{/meaning_m}}\n  {{#reading_m}}<section><h2>Reading mnemonic</h2><p>{{reading_m}}</p></section>{{/reading_m}}\n  {{#composed}}<section><h2>Utilized kanji</h2><ul class=\"single-character-grid kanji multi-character-grid-extra-styling-767px\">{{composed}}</ul></section>{{/composed}}\n\n{{/kana}}\n{{^kana}}\n{{#important_reading}}\n\n  <!-- THIS IS KANJI -->\n  <div id=\"answer\" class=\"{{important_reading}}\">\n    <div class=\"type\">on'yomi</div><div class=\"type\">kun'yomi</div><div class=\"type\">nanori</div>\n    <div class=\"reading onyomi\">{{onyomi}}</div><div class=\"reading kunyomi\">{{kunyomi}}</div><div class=\"reading nanori\">{{nanori}}</div>\n  </div>\n<details><summary>More</summary>\n  {{#meaning_m}}<section><h2>Meaning mnemonic</h2><p>{{meaning_m}}</p></section>{{/meaning_m}}\n  {{#reading_m}}<section><h2>Reading mnemonic</h2><p>{{reading_m}}</p></section>{{/reading_m}}\n  {{#composed}}<section><h2>Radical combination</h2><ul class=\"alt-character-list\">{{composed}}</ul></section>{{/composed}}\n  {{#similar}}<section><h2>Similar kanji</h2><ul class=\"single-character-grid multi-character-grid-extra-styling-767px\">{{similar}}</ul></section>{{/similar}}\n  {{#appears}}<section><h2>Found in vocabulary</h2><ul class=\"multi-character-grid vocabulary multi-character-grid-extra-styling\">{{appears}}</ul></section>{{/appears}}\n\n{{/important_reading}}\n{{^important_reading}}\n\n  <!-- THIS IS RADICAL -->\n<details ><summary>More</summary>\n  {{#meaning_m}}<section><h2>Name mnemonic</h2><p>{{meaning_m}}</p></section>{{/meaning_m}}\n  {{#appears}}<section><h2>Found in kanji</h2><ul class=\"single-character-grid kanji multi-character-grid-extra-styling-767px\">{{appears}}</ul></section>{{/appears}}\n\n{{/important_reading}}\n{{/kana}}\n</details>\n</div><script>document.getElementsByTagName(\"body\")[0].style.fontSize = '';currentDeckMessages();</script>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "meaning", 
+                    "ord": 0, 
+                    "qfmt": "<a href=\"https://www.wanikani.com/{{type}}/{{^important_reading}}{{^kana}}{{meaning}}{{/kana}}{{/important_reading}}{{#important_reading}}{{character}}{{/important_reading}}{{#kana}}{{character}}{{/kana}}\"><img src=\"_wanikani_logo.png\"></a>\n<div id=\"question\" class=\"{{type}} {{Card}} front\">\n  <div id=\"character\">\n    <span lang=\"ja\">{{character}}</span>\n  </div>\n  <div id=\"prompt\">\n    <h1><strong></strong></h1>\n  </div>\n  <div id=\"answer\">\n    <div class=\"meaning\">{{meaning}}</div>\n  </div>\n{{#kana}}\n\n  <!-- THIS IS VOCAB -->\n  <div id=\"answer\" style=\"font-size:75%;\"><div class=\"reading\">{{kana}}</div></div>\n<details><summary>More</summary>\n  {{#meaning_m}}<section><h2>Meaning mnemonic</h2><p>{{meaning_m}}</p></section>{{/meaning_m}}\n  {{#reading_m}}<section><h2>Reading mnemonic</h2><p>{{reading_m}}</p></section>{{/reading_m}}\n  {{#composed}}<section><h2>Utilized kanji</h2><ul class=\"single-character-grid kanji multi-character-grid-extra-styling-767px\">{{composed}}</ul></section>{{/composed}}\n\n{{/kana}}\n{{^kana}}\n{{#important_reading}}\n\n  <!-- THIS IS KANJI -->\n  <div id=\"answer\" class=\"{{important_reading}}\">\n    <div class=\"type\">on'yomi</div><div class=\"type\">kun'yomi</div><div class=\"type\">nanori</div>\n    <div class=\"reading onyomi\">{{onyomi}}</div><div class=\"reading kunyomi\">{{kunyomi}}</div><div class=\"reading nanori\">{{nanori}}</div>\n  </div>\n<details><summary>More</summary>\n  {{#meaning_m}}<section><h2>Meaning mnemonic</h2><p>{{meaning_m}}</p></section>{{/meaning_m}}\n  {{#reading_m}}<section><h2>Reading mnemonic</h2><p>{{reading_m}}</p></section>{{/reading_m}}\n  {{#composed}}<section><h2>Radical combination</h2><ul class=\"alt-character-list\">{{composed}}</ul></section>{{/composed}}\n  {{#similar}}<section><h2>Similar kanji</h2><ul class=\"single-character-grid multi-character-grid-extra-styling-767px\">{{similar}}</ul></section>{{/similar}}\n  {{#appears}}<section><h2>Found in vocabulary</h2><ul class=\"multi-character-grid vocabulary multi-character-grid-extra-styling\">{{appears}}</ul></section>{{/appears}}\n\n{{/important_reading}}\n{{^important_reading}}\n\n  <!-- THIS IS RADICAL -->\n<details ><summary>More</summary>\n  {{#meaning_m}}<section><h2>Name mnemonic</h2><p>{{meaning_m}}</p></section>{{/meaning_m}}\n  {{#appears}}<section><h2>Found in kanji</h2><ul class=\"single-character-grid kanji multi-character-grid-extra-styling-767px\">{{appears}}</ul></section>{{/appears}}\n\n{{/important_reading}}\n{{/kana}}\n</details>\n</div><script>document.getElementsByTagName(\"body\")[0].style.fontSize = '';currentDeckMessages();</script>"
+                }, 
+                {
+                    "afmt": "<a href=\"https://www.wanikani.com/{{type}}/{{^important_reading}}{{^kana}}{{meaning}}{{/kana}}{{/important_reading}}{{#important_reading}}{{character}}{{/important_reading}}\"><img src=\"_wanikani_logo.png\"></a>{{#audio}}{{audio}}{{/audio}}\n<div id=\"question\" class=\"{{type}} {{Card}} back\">\n  <div id=\"character\">\n    <span lang=\"ja\">{{character}}</span>\n  </div>\n  <div id=\"prompt\">\n    <h1><strong></strong></h1>\n  </div>\n  {{#important_reading}}\n  <div id=\"answer\" class=\"{{important_reading}}\">\n    <div class=\"type\">on'yomi</div><div class=\"type\">kun'yomi</div>c\n    <div class=\"reading onyomi\">{{onyomi}}</div><div class=\"reading kunyomi\">{{kunyomi}}</div><div class=\"reading nanori\">{{nanori}}</div>\n  </div>\n  {{/important_reading}}\n  {{#kana}}\n  <div id=\"answer\">\n    <div>{{kana}}</div>\n  </div>\n  {{/kana}}\n  <div id=\"answer\" style=\"font-size:50%;\">\n    <div>{{meaning}}</div>\n  </div>\n<details><summary>More</summary>\n{{#kana}}\n\n  <!-- THIS IS VOCAB -->\n  {{#meaning_m}}<section><h2>Meaning mnemonic</h2><p>{{meaning_m}}</p></section>{{/meaning_m}}\n  {{#reading_m}}<section><h2>Reading mnemonic</h2><p>{{reading_m}}</p></section>{{/reading_m}}\n  {{#composed}}<section><h2>Utilized kanji</h2><ul class=\"single-character-grid kanji multi-character-grid-extra-styling-767px\">{{composed}}</ul></section>{{/composed}}\n\n{{/kana}}\n{{^kana}}\n{{#important_reading}}\n\n  <!-- THIS IS KANJI -->\n  {{#meaning_m}}<section><h2>Meaning mnemonic</h2><p>{{meaning_m}}</p></section>{{/meaning_m}}\n  {{#reading_m}}<section><h2>Reading mnemonic</h2><p>{{reading_m}}</p></section>{{/reading_m}}\n  {{#composed}}<section><h2>Radical combination</h2><ul class=\"alt-character-list\">{{composed}}</ul></section>{{/composed}}\n  {{#similar}}<section><h2>Similar kanji</h2><ul class=\"single-character-grid kanji multi-character-grid-extra-styling-767px\">{{similar}}</ul></section>{{/similar}}\n  {{#appears}}<section><h2>Found in vocabulary</h2><ul class=\"multi-character-grid vocabulary multi-character-grid-extra-styling\">{{appears}}</ul></section>{{/appears}}\n\n{{/important_reading}}\n{{^important_reading}}\n\n  <!-- THIS IS RADICAL -->\n  {{#meaning_m}}<section><h2>Name mnemonic</h2><p>{{meaning_m}}</p></section>{{/meaning_m}}\n  {{#appears}}<section><h2>Found in kanji</h2><ul class=\"single-character-grid multi-character-grid-extra-styling-767px\">{{appears}}</ul></section>{{/appears}}\n\n{{/important_reading}}\n{{/kana}}\n</details>\n</div><script>document.getElementsByTagName(\"body\")[0].style.fontSize = '';</script>\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "reading", 
+                    "ord": 1, 
+                    "qfmt": "<a href=\"https://www.wanikani.com/{{#important_reading}}{{type}}/{{character}}{{/important_reading}}{{#kana}}{{type}}/{{character}}{{/kana}}\"><img src=\"_wanikani_logo.png\"></a>\n<div id=\"question\" class=\"{{#important_reading}}{{type}}{{/important_reading}}{{#kana}}{{type}}{{/kana}} {{Card}} front\">\n  <div id=\"character\">\n    <span lang=\"ja\">{{#important_reading}}{{character}}{{/important_reading}}{{#kana}}{{character}}{{/kana}}</span>\n  </div>\n  <div id=\"prompt\">\n    <h1><strong></strong></h1>\n  </div>\n  {{#important_reading}}\n  <div id=\"answer\" class=\"{{important_reading}}\">\n    <div class=\"type\">on'yomi</div><div class=\"type\">kun'yomi</div><div class=\"type\">nanori</div>\n    <div class=\"reading onyomi\">&nbsp;</div><div class=\"reading kunyomi\">&nbsp;</div><div class=\"reading nanori\">&nbsp;</div>\n  </div>\n  {{/important_reading}}\n  {{#kana}}\n  <div id=\"answer\">\n    <div>&nbsp;</div>\n  </div>\n  {{/kana}}\n</div><script>document.getElementsByTagName(\"body\")[0].style.fontSize = '';</script>\n"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 豚カツ", 
+                "", 
+                "", 
+                "豚カツ", 
+                "", 
+                "", 
+                "", 
+                "とんかつ", 
+                "", 
+                "0", 
+                "pork cutlet<div><img src=\"main-tonkatsu.jpg\" /></div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "IymhWZlXGz", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 アンチョビ", 
+                "", 
+                "", 
+                "アンチョビ", 
+                "", 
+                "", 
+                "", 
+                "アンチョビ", 
+                "", 
+                "0", 
+                "anchovy (meat)", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "zV3w}hZEM4", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 牛肉ステーキ", 
+                "", 
+                "", 
+                "牛肉ステーキ", 
+                "", 
+                "", 
+                "", 
+                "ぎゅうにくすてーき", 
+                "", 
+                "0", 
+                "beef steak", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "E0X=`J1fFS", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 鶏肉", 
+                "", 
+                "", 
+                "鶏肉", 
+                "", 
+                "", 
+                "", 
+                "すてえき", 
+                "", 
+                "0", 
+                "chicken (meat)", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "xb=j#&QkUM", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 鴨", 
+                "", 
+                "", 
+                "鴨", 
+                "", 
+                "", 
+                "", 
+                "けいにく", 
+                "", 
+                "0", 
+                "duck (meat)", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "kiWl5>CblB", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 ハム", 
+                "", 
+                "", 
+                "ハム", 
+                "", 
+                "", 
+                "", 
+                "はむ", 
+                "", 
+                "0", 
+                "ham (meat)", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "F**SVkz7F<", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 チョップ子羊", 
+                "", 
+                "", 
+                "チョップ子羊", 
+                "", 
+                "", 
+                "", 
+                "ちょっぷこひつじ", 
+                "", 
+                "0", 
+                "lamb chop", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "F6T*-HviXp", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 ラム", 
+                "", 
+                "", 
+                "ラム", 
+                "", 
+                "", 
+                "", 
+                "らむ", 
+                "", 
+                "0", 
+                "lamb (meat)", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "KiKvx#U1~4", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 ポークチョップ", 
+                "", 
+                "", 
+                "ポークチョップ", 
+                "", 
+                "", 
+                "", 
+                "ポークチョップ", 
+                "", 
+                "0", 
+                "pork chop<div><img src=\"main-tonkatsu.jpg\" /></div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "Jye;B5@Q+=", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 豚肉", 
+                "", 
+                "", 
+                "豚肉", 
+                "", 
+                "", 
+                "", 
+                "ぶたにく", 
+                "", 
+                "0", 
+                "pork (meat)", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "fm{mZ,<^/;", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 ウサギ", 
+                "", 
+                "", 
+                "ウサギ", 
+                "", 
+                "", 
+                "", 
+                "ウサギ", 
+                "", 
+                "0", 
+                "rabbit (meat)", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "EW@T-j_I3h", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 ソーセージ", 
+                "", 
+                "", 
+                "ソーセージ", 
+                "", 
+                "", 
+                "", 
+                "ソーセージ", 
+                "", 
+                "0", 
+                "sausage", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "gtFrJaVi6D", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 子牛肉", 
+                "", 
+                "", 
+                "子牛肉", 
+                "", 
+                "", 
+                "", 
+                "こ ぎゅうにく", 
+                "", 
+                "0", 
+                "veal", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "GlMoIH>u[%", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "L00-3 七面鳥", 
+                "", 
+                "", 
+                "七面鳥", 
+                "", 
+                "", 
+                "", 
+                "しちめんちょお", 
+                "", 
+                "0", 
+                "turkey (meat)", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "GJU+(Y>0qW", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><!--StartFragment-->L00-3 とりかつ<!--EndFragment--></p>", 
+                "", 
+                "", 
+                "とりかつ", 
+                "", 
+                "", 
+                "", 
+                "とりかつ", 
+                "", 
+                "0", 
+                "chicken cutlet<div><img src=\"torikatsu.jpg\" /></div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "vocabulary"
+            ], 
+            "flags": 0, 
+            "guid": "d9c/?P(=M5", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }
+    ]
+}

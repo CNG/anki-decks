@@ -1,0 +1,15 @@
+L00-3 豚カツ			豚カツ				とんかつ		0	"pork cutlet<div><img src=""main-tonkatsu.jpg"" /></div>"						vocabulary	
+L00-3 アンチョビ			アンチョビ				アンチョビ		0	anchovy (meat)						vocabulary	
+L00-3 牛肉ステーキ			牛肉ステーキ				ぎゅうにくすてーき		0	beef steak						vocabulary	
+L00-3 鶏肉			鶏肉				すてえき		0	chicken (meat)						vocabulary	
+L00-3 鴨			鴨				けいにく		0	duck (meat)						vocabulary	
+L00-3 ハム			ハム				はむ		0	ham (meat)						vocabulary	
+L00-3 チョップ子羊			チョップ子羊				ちょっぷこひつじ		0	lamb chop						vocabulary	
+L00-3 ラム			ラム				らむ		0	lamb (meat)						vocabulary	
+L00-3 ポークチョップ			ポークチョップ				ポークチョップ		0	"pork chop<div><img src=""main-tonkatsu.jpg"" /></div>"						vocabulary	
+L00-3 豚肉			豚肉				ぶたにく		0	pork (meat)						vocabulary	
+L00-3 ウサギ			ウサギ				ウサギ		0	rabbit (meat)						vocabulary	
+L00-3 ソーセージ			ソーセージ				ソーセージ		0	sausage						vocabulary	
+L00-3 子牛肉			子牛肉				こ ぎゅうにく		0	veal						vocabulary	
+L00-3 七面鳥			七面鳥				しちめんちょお		0	turkey (meat)						vocabulary	
+"<style type=""text/css""> p, li { white-space: pre-wrap; } </style> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><!--StartFragment-->L00-3 とりかつ<!--EndFragment--></p>"			とりかつ				とりかつ		0	"chicken cutlet<div><img src=""torikatsu.jpg"" /></div>"						vocabulary	
