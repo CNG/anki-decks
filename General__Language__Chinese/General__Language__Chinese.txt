@@ -23,60 +23,60 @@ question	问题	wèn tí	[sound:Tone Pair 4-2.mp3]	4+2	yoyochinese.com	pinyin
 here	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>这里</span></span>"	zhè lǐ	[sound:Tone Pair 4-3.mp3]	4+3	yoyochinese.com	pinyin
 bye	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">再见</span></span>"	zài jiàn	[sound:Tone Pair 4-4.mp3]	4+4	yoyochinese.com	pinyin
 thanks	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">谢谢</span></span>"	xiè xie	[sound:Tone Pair 4-5.mp3]	4+5	yoyochinese.com	pinyin
-b	pinyin	<b>b</b>ear	pronunciation		reverse		yoyochinese.com	pinyin
-p	pinyin	<b>p</b>oor	pronunciation		reverse		yoyochinese.com	pinyin
-m	pinyin	<b>m</b>ore	pronunciation		reverse		yoyochinese.com	pinyin
-f	pinyin	<b>f</b>ake	pronunciation		reverse		yoyochinese.com	pinyin
-d	pinyin	<b>d</b>are	pronunciation		reverse		yoyochinese.com	pinyin
-t	pinyin	<b>t</b>ake	pronunciation		reverse		yoyochinese.com	pinyin
-n	pinyin	<b>n</b>ow	pronunciation		reverse		yoyochinese.com	pinyin
-<code>l</code>	pinyin	<b>l</b>earn	pronunciation		reverse		yoyochinese.com	pinyin
-g	pinyin	<b>g</b>et	pronunciation		reverse		yoyochinese.com	pinyin
-k	pinyin	<b>k</b>ing	pronunciation		reverse		yoyochinese.com	pinyin
-h	pinyin	<b>h</b>elp	pronunciation		reverse		yoyochinese.com	pinyin
-j	pinyin	<b>jee</b>p	pronunciation		reverse		yoyochinese.com	pinyin
-q	pinyin	won’<b>t you</b>, <b>chee</b>se	pronunciation		reverse		yoyochinese.com	pinyin
-x	pinyin	<b>shee</b>p	pronunciation		reverse		yoyochinese.com	pinyin
-zh	pinyin	ju<b>dge</b>, Geor<b>ge</b>	pronunciation		reverse		yoyochinese.com	pinyin
-ch	pinyin	chur<b>ch</b>	pronunciation		reverse		yoyochinese.com	pinyin
-sh	pinyin	<b>sh</b>hhh!	pronunciation		reverse		yoyochinese.com	pinyin
-r	pinyin	<b>J</b>acque, A<b>s</b>ia, mea<b>s</b>ure	pronunciation		reverse		yoyochinese.com	pinyin
-z	pinyin	yar<b>ds</b>	pronunciation		reverse		yoyochinese.com	pinyin
-c	pinyin	i<b>ts</b>	pronunciation		reverse		yoyochinese.com	pinyin
-s	pinyin	<b>s</b>ing	pronunciation		reverse		yoyochinese.com	pinyin
-w	pinyin	<b>w</b>ant	pronunciation		reverse		yoyochinese.com	pinyin
-y	pinyin	<b>y</b>es	pronunciation		reverse		yoyochinese.com	pinyin
-a	pinyin	f<b>a</b>ther	pronunciation		reverse		yoyochinese.com	pinyin
-ai	pinyin	m<b>y</b>	pronunciation		reverse		yoyochinese.com	pinyin
-an	pinyin	s<b>un</b>	pronunciation		reverse		yoyochinese.com	pinyin
-ang	pinyin	<b>ahng</b>	pronunciation		reverse		yoyochinese.com	pinyin
-ao	pinyin	p<b>ou</b>t	pronunciation		reverse		yoyochinese.com	pinyin
-e&nbsp;	pinyin	s<b>e</b>rve	pronunciation		reverse		yoyochinese.com	pinyin
-ei	pinyin	d<b>ay</b>	pronunciation		reverse		yoyochinese.com	pinyin
-en	pinyin	tak<b>en</b>	pronunciation		reverse		yoyochinese.com	pinyin
-eng	pinyin	m<b>ung</b>, <b>e</b>r<b>ng</b>	pronunciation		reverse		yoyochinese.com	pinyin
-er	pinyin	<b>are</b>	pronunciation		reverse		yoyochinese.com	pinyin
-i	pinyin	s<b>ee</b>	pronunciation		reverse		yoyochinese.com	pinyin
-ia	pinyin	<b>yah</b>	pronunciation		reverse		yoyochinese.com	pinyin
-iao	pinyin	m<b>eow</b>	pronunciation		reverse		yoyochinese.com	pinyin
-ian	pinyin	<b>yen</b>	pronunciation		reverse		yoyochinese.com	pinyin
-iang	pinyin	<b>young</b>	pronunciation		reverse		yoyochinese.com	pinyin
-ie	pinyin	<b>ye</b>s	pronunciation		reverse		yoyochinese.com	pinyin
-in	pinyin	s<b>in</b>	pronunciation		reverse		yoyochinese.com	pinyin
-ing	pinyin	<b>eeng</b>	pronunciation		reverse		yoyochinese.com	pinyin
-iong	pinyin	<b>ee-own</b>	pronunciation		reverse		yoyochinese.com	pinyin
-iu	pinyin&nbsp;(shorter of 2)	<b>yo</b>-yo	pronunciation		reverse		yoyochinese.com	pinyin
-o	pinyin	<b>aw</b>esome (British accent)	pronunciation		reverse		yoyochinese.com	pinyin
-ou	pinyin	b<b>oa</b>t	pronunciation		reverse		yoyochinese.com	pinyin
-ong	pinyin	l<b>oan</b>	pronunciation		reverse		yoyochinese.com	pinyin
-u	pinyin	sh<b>oo</b>t	pronunciation		reverse		yoyochinese.com	pinyin
-ua	pinyin	s<b>ua</b>ve	pronunciation		reverse		yoyochinese.com	pinyin
-uai	pinyin	<b>wi</b>de	pronunciation		reverse		yoyochinese.com	pinyin
-uan	pinyin	<b>won</b>	pronunciation		reverse		yoyochinese.com	pinyin
-uang	pinyin	<b>oo-ahng</b>	pronunciation		reverse		yoyochinese.com	pinyin
-ui	pinyin&nbsp;(shorter of 2)	<b>way</b>	pronunciation		reverse		yoyochinese.com	pinyin
-un	pinyin&nbsp;(shorter of 2)	<b>oo</b>+tak<b>en</b>	pronunciation		reverse		yoyochinese.com	pinyin
-uo	pinyin	<b>wo</b>k	pronunciation		reverse		yoyochinese.com	pinyin
-iou	pinyin (longer of 2)	<b>yo</b>-yo	pronunciation		reverse		yoyochinese.com	pinyin
-uei	pinyin (longer of 2)	<b>way</b>	pronunciation		reverse		yoyochinese.com	pinyin
-uen	pinyin (longer of 2)	<b>oo</b>+tak<b>en</b>	pronunciation		reverse		yoyochinese.com	pinyin
+b	pinyin	<b>b</b>ear	reading		reverse		yoyochinese.com	pinyin
+p	pinyin	<b>p</b>oor	reading		reverse		yoyochinese.com	pinyin
+m	pinyin	<b>m</b>ore	reading		reverse		yoyochinese.com	pinyin
+f	pinyin	<b>f</b>ake	reading		reverse		yoyochinese.com	pinyin
+d	pinyin	<b>d</b>are	reading		reverse		yoyochinese.com	pinyin
+t	pinyin	<b>t</b>ake	reading		reverse		yoyochinese.com	pinyin
+n	pinyin	<b>n</b>ow	reading		reverse		yoyochinese.com	pinyin
+<code>l</code>	pinyin	<b>l</b>earn	reading		reverse		yoyochinese.com	pinyin
+g	pinyin	<b>g</b>et	reading		reverse		yoyochinese.com	pinyin
+k	pinyin	<b>k</b>ing	reading		reverse		yoyochinese.com	pinyin
+h	pinyin	<b>h</b>elp	reading		reverse		yoyochinese.com	pinyin
+j	pinyin	<b>jee</b>p	reading		reverse		yoyochinese.com	pinyin
+q	pinyin	won’<b>t you</b>, <b>chee</b>se	reading		reverse		yoyochinese.com	pinyin
+x	pinyin	<b>shee</b>p	reading		reverse		yoyochinese.com	pinyin
+zh	pinyin	ju<b>dge</b>, Geor<b>ge</b>	reading		reverse		yoyochinese.com	pinyin
+ch	pinyin	chur<b>ch</b>	reading		reverse		yoyochinese.com	pinyin
+sh	pinyin	<b>sh</b>hhh!	reading		reverse		yoyochinese.com	pinyin
+r	pinyin	<b>J</b>acque, A<b>s</b>ia, mea<b>s</b>ure	reading		reverse		yoyochinese.com	pinyin
+z	pinyin	yar<b>ds</b>	reading		reverse		yoyochinese.com	pinyin
+c	pinyin	i<b>ts</b>	reading		reverse		yoyochinese.com	pinyin
+s	pinyin	<b>s</b>ing	reading		reverse		yoyochinese.com	pinyin
+w	pinyin	<b>w</b>ant	reading		reverse		yoyochinese.com	pinyin
+y	pinyin	<b>y</b>es	reading		reverse		yoyochinese.com	pinyin
+a	pinyin	f<b>a</b>ther	reading		reverse		yoyochinese.com	pinyin
+ai	pinyin	m<b>y</b>	reading		reverse		yoyochinese.com	pinyin
+an	pinyin	s<b>un</b>	reading		reverse		yoyochinese.com	pinyin
+ang	pinyin	<b>ahng</b>	reading		reverse		yoyochinese.com	pinyin
+ao	pinyin	p<b>ou</b>t	reading		reverse		yoyochinese.com	pinyin
+e&nbsp;	pinyin	s<b>e</b>rve	reading		reverse		yoyochinese.com	pinyin
+ei	pinyin	d<b>ay</b>	reading		reverse		yoyochinese.com	pinyin
+en	pinyin	tak<b>en</b>	reading		reverse		yoyochinese.com	pinyin
+eng	pinyin	m<b>ung</b>, <b>e</b>r<b>ng</b>	reading		reverse		yoyochinese.com	pinyin
+er	pinyin	<b>are</b>	reading		reverse		yoyochinese.com	pinyin
+i	pinyin	s<b>ee</b>	reading		reverse		yoyochinese.com	pinyin
+ia	pinyin	<b>yah</b>	reading		reverse		yoyochinese.com	pinyin
+iao	pinyin	m<b>eow</b>	reading		reverse		yoyochinese.com	pinyin
+ian	pinyin	<b>yen</b>	reading		reverse		yoyochinese.com	pinyin
+iang	pinyin	<b>young</b>	reading		reverse		yoyochinese.com	pinyin
+ie	pinyin	<b>ye</b>s	reading		reverse		yoyochinese.com	pinyin
+in	pinyin	s<b>in</b>	reading		reverse		yoyochinese.com	pinyin
+ing	pinyin	<b>eeng</b>	reading		reverse		yoyochinese.com	pinyin
+iong	pinyin	<b>ee-own</b>	reading		reverse		yoyochinese.com	pinyin
+iu	pinyin&nbsp;(1)	<b>yo</b>-yo	reading		reverse		yoyochinese.com	pinyin
+o	pinyin	<b>aw</b>esome (British accent)	reading		reverse		yoyochinese.com	pinyin
+ou	pinyin	b<b>oa</b>t	reading		reverse		yoyochinese.com	pinyin
+ong	pinyin	l<b>oan</b>	reading		reverse		yoyochinese.com	pinyin
+u	pinyin	sh<b>oo</b>t	reading		reverse		yoyochinese.com	pinyin
+ua	pinyin	s<b>ua</b>ve	reading		reverse		yoyochinese.com	pinyin
+uai	pinyin	<b>wi</b>de	reading		reverse		yoyochinese.com	pinyin
+uan	pinyin	<b>won</b>	reading		reverse		yoyochinese.com	pinyin
+uang	pinyin	<b>oo-ahng</b>	reading		reverse		yoyochinese.com	pinyin
+ui	pinyin&nbsp;(1)	<b>way</b>	reading		reverse		yoyochinese.com	pinyin
+un	pinyin&nbsp;(1)	<b>oo</b>+tak<b>en</b>	reading		reverse		yoyochinese.com	pinyin
+uo	pinyin	<b>wo</b>k	reading		reverse		yoyochinese.com	pinyin
+iou	pinyin (2)	<b>yo</b>-yo	reading		reverse		yoyochinese.com	pinyin
+uei	pinyin (2)	<b>way</b>	reading		reverse		yoyochinese.com	pinyin
+uen	pinyin (2)	<b>oo</b>+tak<b>en</b>	reading		reverse		yoyochinese.com	pinyin
