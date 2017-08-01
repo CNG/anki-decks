@@ -635,3 +635,29 @@ aquellas		"<i style=""font-style: italic; "">fem.</i>&nbsp;those over there"		"<
 estas flores aquí son bonitas		these flowers here are pretty			y		http://www.spanish.bz/blog/2004/09/aqui-alli-and-alla-lesson-about-this.htm	
 ese hombre allí no habla inglés		that guy there doesn’t speak English			y		http://www.spanish.bz/blog/2004/09/aqui-alli-and-alla-lesson-about-this.htm	
 aquellos países allá en la Africa		those countries over there in Africa			y		http://www.spanish.bz/blog/2004/09/aqui-alli-and-alla-lesson-about-this.htm	
+La manzana es roja	Spanish	The apple is red	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Es la manzana de John	Spanish	It is John’s apple	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Le doy la manzana a John	Spanish	I give John the apple	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Le damos la manzana	Spanish	We give him the apple	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Él se la da a John	Spanish	He gives it to John	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Ella se la da	Spanish	She gives it to him	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Debo dársela a él	Spanish	I must give it to him	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Quiero dársela (a ella)	Spanish	I want to give it to her	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Voy a conocer mañana	Spanish	I’m going to know tomorrow	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+No puedo comer la manzana	Spanish	I can’t eat the apple	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Me he comido la manzana	Spanish	I have eaten the apple	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+¿Es la manzana roja?	Spanish	Is the apple red?	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Las manzanas son rojas	Spanish	The apples are red	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+La idea es interesante	Spanish	The idea is interesting	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Es la idea de María	Spanish	It is María’s idea	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Le digo la idea a Carlos	Spanish	I tell Carlos the idea	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Le decimos la idea	Spanish	We tell him the idea	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Él se la dice a Carlos	Spanish	He tells it to Carlos	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Ella se la dice	Spanish	She tells it to him	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Tengo que decírsela (a él)	Spanish	I have to tell it to him	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Quiero decírsela (a ella)	Spanish	I want to tell it to her	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Le voy a decir la idea mañana	Spanish	I’m going to tell him the idea tomorrow	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+No te puedo decir la idea	Spanish	I can’t tell you the idea	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Le he dicho la idea	Spanish	I have told him the idea	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+¿Es la idea interesante?	Spanish	Is the idea interesting?	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
+Las ideas son interesantes	Spanish	The ideas are interesting	English		reverse		http://www.realfastspanish.com/grammar/13-sentences-need-know-guide-spanish-grammar-hacking	
