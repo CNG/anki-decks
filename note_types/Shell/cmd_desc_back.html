@@ -1,21 +1,16 @@
-<article data-deck="{{Deck}}">
+<article data-deck="{{Deck}}" class="back">
 
 <section>
 <mark><code>{{command}}</code></mark>
 </section>
 
-{{#description}}
-<section>
-<blockquote>{{description}}</blockquote>
-</section>
-{{/description}}
-
+{{#description}}<section id="description"><blockquote>{{description}}</blockquote></section>{{/description}}
+{{#synopsis}}<section id="synopsis"><blockquote><code>{{synopsis}}</code></blockquote></section>{{/synopsis}}
 {{#examples}}
-<section>
-  <details open="open">
-    <summary>Examples</summary>
-    <pre><code>{{examples}}</code></pre>
-  </details>
+<section id="examples">
+<details><summary></summary>
+<blockquote>{{examples}}</blockquote>
+</details>
 </section>
 {{/examples}}
 

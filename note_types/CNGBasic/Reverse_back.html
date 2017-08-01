@@ -1,0 +1,29 @@
+<article data-deck="{{Deck}}" class="back {{Type}}">
+
+<section style="position: relative;">
+<small class="subdeck English">
+<a href="http://dictionary.com/browse/{{text:Front}}">dictionary</a> | <a href="https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3">audio</a>
+</small>
+{{#FrontType}}<div class="legend fronttype">{{FrontType}}</div>{{/FrontType}}
+<mark id="title">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>
+</section>
+
+<section>
+{{#BackType}}<div class="legend backtype">{{BackType}}</div>{{/BackType}}
+<blockquote>
+{{Back}}
+</blockquote>
+</section>
+
+{{#Other}}
+<section>
+<blockquote class="subdeck Other Science Politics Culture Geography Math Personal Chinese"><var>{{Other}}</var></blockquote>
+<details zopen="open" class="subdeck Technical Spanish Python Science Math Politics">
+<summary>info</summary>
+{{Other}}
+</details>
+</section>
+{{/Other}}
+
+</article>
+<script>currentDeckMessages();playSound();</script>

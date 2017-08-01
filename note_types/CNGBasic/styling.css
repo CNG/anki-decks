@@ -1,5 +1,15 @@
 @import url("_dark4.css");
-img {width:100%;}
+.legend {
+font-size:25%;xline-height:0.15;opacity:0.75;
+position:relative; top:0.3em;
+}
+
+.front.Forward .legend.backtype, .front.Reverse .legend.fronttype { visibility: hidden; }
+code {
+  word-spacing: 0;
+}
+img { background-color: #ccc !important; }
+
 </style><script>
 
 var body = document.getElementsByTagName("body")[0];
@@ -19,11 +29,23 @@ function setStyle(selector, propName, propVal) { [].forEach.call(document.queryS
 
 function currentDeckMessages() {
 
+	var article = document.getElementsByTagName("article")[0];
+	setStyle('.subdeck', 'display', 'none');
+	var subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');
+	if(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }
+	else { setStyle('.subdeck.' + subdeck, 'display', ''); }
+
+	var section = document.getElementsByTagName("section");
+	for(var i = 0; i < section.length; i++){
+		// replace hyphens not inside tags (properties) with nonbreaking hyphens
+		section[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\/)/g, '\u2011');
+	}
+
 	var body = document.getElementsByTagName("body")[0];
 	var article = document.getElementsByTagName("article")[0];
 
 	// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));
-	var bodyFontSizeMin = 25;
+	var bodyFontSizeMin = 35;
 	var bodyFontSizeMax = 725;
 	var bodyFontSize = bodyFontSizeMin;
 
@@ -47,5 +69,18 @@ function currentDeckMessages() {
 	}
 
 }
+
+function playSound() {
+	var article = document.getElementsByTagName("article")[0];
+	var subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');
+	if(subdeck === 'English'){
+		var a = new Audio(document.getElementById("audio"));
+		a.play();
+	}
+}
+setInterval(function(){
+  if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); }
+}, 500);
+//setInterval(function(){ currentDeckMessages();  }, 500);
 
 </script><style>

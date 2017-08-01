@@ -1,0 +1,28 @@
+<article data-deck="{{Deck}}" class="front {{Type}} {{Card}}">
+
+<section style="position: relative;">
+<small class="subdeck English">
+<a href="http://dictionary.com/browse/{{text:Front}}">dictionary</a> | <a id="audio" href="https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3">audio</a>
+</small>
+<div class="legend fronttype">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}}{{/FrontType}}</div>
+<mark id="title">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>
+</section>
+
+<section>
+<div class="legend backtype">{{#BackType}}{{BackType}}{{/BackType}}{{^BackType}}{{Deck}}{{/BackType}}</div>
+<blockquote>
+{{#BackType}}<var class="q">{{BackType}}</var>{{/BackType}}
+{{^BackType}}
+{{#FrontType}}
+<var class="q">meaning</var>
+{{/FrontType}}
+{{^FrontType}}
+<var class="q subdeck English">definition</var>
+<var class="q subdeck Spanish">en inglés</var>
+{{/FrontType}}
+{{/BackType}}
+</blockquote>
+</section>
+
+</article>
+<script>currentDeckMessages();playSound();</script>

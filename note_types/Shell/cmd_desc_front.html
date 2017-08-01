@@ -1,6 +1,6 @@
 {{#description}}
 {{#command only}}
-<article data-deck="{{Deck}}">
+<article data-deck="{{Deck}}" class="front">
 
 <section>
 <mark><code>{{command}}</code></mark>
@@ -9,6 +9,15 @@
 <section>
 <blockquote><var class="q">description</var></blockquote>
 </section>
+
+{{#synopsis}}<section id="synopsis"><blockquote><code>{{synopsis}}</code></blockquote></section>{{/synopsis}}
+{{#examples}}
+<section id="examples">
+<details><summary></summary>
+<blockquote>{{examples}}</blockquote>
+</details>
+</section>
+{{/examples}}
 
 </article>
 <script>currentDeckMessages();</script>

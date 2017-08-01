@@ -1,18 +1,69 @@
-@import url("_dark.css");
+@import url("_dark4.css");
+article > section:first-child {text-align:left; display:inline-block;line-height:1em; white-space: nowrap;}
+article > section:first-child code { white-space: nowrap;}
+section {width: 100%;}
+code {
+  word-spacing: 0;
+}
+.front #description, .front #synopsis, .front #examples { visibility:hidden; }
 </style><script>
+
+var body = document.getElementsByTagName("body")[0];
+// body.insertAdjacentHTML("beforeend", '<div style="white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;" id="debug">DEBUG</div>');
+var printDimensions = function(pre, extra){
+	if( ! document.getElementById("debug") ) return;
+	document.getElementById("debug").insertAdjacentHTML("beforeend", "<br>" + pre
+		+ " W:" + window.innerWidth + "x" + window.innerHeight
+		+ " O:" + body.offsetWidth + "x" + body.offsetHeight
+		+ " C:" + body.clientWidth + "x" + body.clientHeight
+		+ " S:" + body.scrollWidth + "x" + body.scrollHeight
+		+ extra
+	);
+}
+
 function setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }
+
 function currentDeckMessages() {
 
-var article = document.getElementsByTagName("article")[0];
+	var article = document.getElementsByTagName("article")[0];
+	setStyle('.subdeck', 'display', 'none');
+	var subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');
+	if(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }
+	else { setStyle('.subdeck.' + subdeck, 'display', ''); }
 
-var subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');
-if(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }
-else { setStyle('.subdeck.' + subdeck, 'display', ''); }
+	var section = document.getElementsByTagName("section");
+	for(var i = 0; i < section.length; i++){
+		// replace hyphens not inside tags (properties) with nonbreaking hyphens
+		section[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\/)/g, '\u2011');
+	}
 
-var fontSize = Math.round( 400 / article.innerText.length * 100 );
-if (fontSize > 75) { fontSize = 75; }
-if (fontSize < 33) { fontSize = 33; }
-setStyle('blockquote,details', 'fontSize', fontSize + '%');
+	var body = document.getElementsByTagName("body")[0];
+	var article = document.getElementsByTagName("article")[0];
+
+	// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));
+	var bodyFontSizeMin = 25;
+	var bodyFontSizeMax = 725;
+	var bodyFontSize = bodyFontSizeMin;
+
+	function setBodyFontSize(int){ body.style.fontSize = int + 'px'; }
+
+	var step = 350;
+	// while( step >= 1 ){
+	while( step >= 0.1 ){
+		do {
+			bodyFontSize += step;
+			setBodyFontSize(bodyFontSize);
+			printDimensions("i ", " fS:" + bodyFontSize + " step:" + step);
+		} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );
+		bodyFontSize -= step+3;
+		if( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }
+		// step = Math.floor(step / 4);
+		step = step / 4;
+		setBodyFontSize(bodyFontSizeMin);
+		setBodyFontSize(bodyFontSize);
+		printDimensions("o ", " fS:" + bodyFontSize);
+	}
 
 }
+
 </script><style>
