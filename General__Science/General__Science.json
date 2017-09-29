@@ -53,11 +53,17 @@
     "extendNew": 10, 
     "extendRev": 50, 
     "media_files": [
-        "codium.jpg", 
-        "agardhiella.jpg", 
         "ulva.jpg", 
+        "470px-Digital_micromirror2.svg.png", 
+        "960px-EmbryonicBrain.svg.png", 
+        "agardhiella.jpg", 
+        "Amyg.png", 
+        "Gray715.png", 
+        "amy.png", 
         "voice4.gif", 
-        "entramorpha.jpg"
+        "entramorpha.jpg", 
+        "codium.jpg", 
+        "Amigdale1.jpg"
     ], 
     "mid": "1494360100815", 
     "name": "General::Science", 
@@ -65,7 +71,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark4.css\");\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 25;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+4;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\n</script><style>", 
+            "css": "@import url(\"dark4.css\");\nmark { font-weight: bold; }\n.front.Forward .legend.backtype, .front.Reverse .legend.fronttype { visibility: hidden; }\narticle img { width: 100%; }\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 35;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+5;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\n// setInterval(function(){ if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }, 500);\n// setInterval(function(){ currentDeckMessages();  }, 500);\n\nfunction resize(e) { if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }\nwindow.onclicke = window.onresize = resize;\n\n\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -163,27 +169,25 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "bash"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Technical Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<blockquote>\n{{#BackType}}\n<var class=\"q\">{{#FrontType}}{{FrontType}} to {{/FrontType}}{{BackType}}</var>\n{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">What is this {{FrontType}}</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<div class=\"legend fronttype\">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}}{{/FrontType}}</div>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<div class=\"legend backtype\">{{#BackType}}{{BackType}}{{/BackType}}{{^BackType}}{{Deck}}{{/BackType}}</div>\n<blockquote>\n{{#BackType}}<var class=\"q\">{{BackType}}</var>{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">meaning</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Technical Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>\n{{Back}}\n</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n{{#FrontType}}\n\n{{#BackType}}\n<var class=\"q\">{{BackType}} to {{FrontType}}</var>\n{{/BackType}}\n{{^BackType}}\n<var class=\"q\">{{FrontType}}</var>\n{{/BackType}}\n\n\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n{{/FrontType}}\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n\n<div class=\"legend fronttype\">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}}{{/FrontType}}</div>\n<mark id=\"title\">\n{{#FrontType}}<var class=\"q\">{{FrontType}}</var>{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck Other Technical Politics Science\">{{Subdeck}} meaning</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n{{/FrontType}}\n</mark>\n\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>\n{{Back}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -377,7 +381,7 @@
             "fields": [
                 "When did smallpox vaccination end?", 
                 "", 
-                "The last natural case of Smallpox occurred in Somalia in 1977, and the disease was officially declared eradicated in 1980.&nbsp;Routine smallpox vaccination stopped in 1972 in the U.S. All countries had quit routine vaccination by 1986.", 
+                "The last natural case of Smallpox occurred in Somalia in 1977, and the disease was officially declared eradicated in 1980.&nbsp;Routine smallpox vaccination stopped in 1972 in the U.S. All countries had quit routine vaccination by<b> 1986</b>.", 
                 "", 
                 "", 
                 "", 
@@ -1863,7 +1867,9 @@
             "flags": 0, 
             "guid": "dlMO}b>Q^h", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "basics"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -1881,7 +1887,9 @@
             "flags": 0, 
             "guid": "z4FtJVqClr", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "basics"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -1899,7 +1907,9 @@
             "flags": 0, 
             "guid": "lSiBsvjNGt", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "basics"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -1917,7 +1927,9 @@
             "flags": 0, 
             "guid": "xaHANCC`M?", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "basics"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -1935,7 +1947,9 @@
             "flags": 0, 
             "guid": "cc$JOAK3tT", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "basics"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -1953,7 +1967,9 @@
             "flags": 0, 
             "guid": "Bbg|KDnXz]", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "basics"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -1971,7 +1987,9 @@
             "flags": 0, 
             "guid": "Km:s[!6<+I", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "basics"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -1989,7 +2007,9 @@
             "flags": 0, 
             "guid": "CmUX_TA.3=", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "basics"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -2007,7 +2027,9 @@
             "flags": 0, 
             "guid": "Bs#waT;D0Z", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": []
+            "tags": [
+                "basics"
+            ]
         }, 
         {
             "__type__": "Note", 
@@ -2762,6 +2784,336 @@
             ], 
             "flags": 0, 
             "guid": "i4Bse6R}Zk", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Digital Light Processing&nbsp;(DLP)", 
+                "", 
+                "Display device based on optical micro-electro-mechanical technology that uses a digital micromirror device (DMD). It was originally developed in 1987 by Larry Hornbeck of Texas Instruments.<div><img src=\"470px-Digital_micromirror2.svg.png\" /></div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Js!U|SNuo|", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "soldering", 
+                "", 
+                "Low temperature analog to brazing using fillers that melt at below 840°F (450°C). Can be used with metals including gold, silver, copper, brass, and iron. When the filler solidifies, it is bonded to the metal parts and joins them. The filler was once made mainly of lead, but environmental concerns are pushing industry to \nlead-free alternatives.", 
+                "", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.machinedesign.com/fasteners/whats-difference-between-soldering-brazing-and-welding"
+            ], 
+            "flags": 0, 
+            "guid": "pUQqvz0)sE", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "brazing", 
+                "", 
+                "Joins two metals by heating and melting a filler (alloy) that bonds to \nthe two pieces of metal and joins them. The filler must have a\n melting temperature below that of the  metal pieces. Can join dissimilar metals such as aluminum, silver, copper, gold, and nickel.", 
+                "", 
+                "Properly brazed joints can be stronger than the pieces being joined, but\n are not as strong as welded joints. Brazing also has minimal effects on\n the two metal parts.", 
+                "reverse", 
+                "", 
+                "http://www.machinedesign.com/fasteners/whats-difference-between-soldering-brazing-and-welding"
+            ], 
+            "flags": 0, 
+            "guid": "o/Y?ozkqB6", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "flux", 
+                "", 
+                "Often used during brazing and soldering. It is a liquid that promotes wetting, which \nlets the filler flow over the metal parts to be joined. It also cleans \nthe parts of oxides so that the filler bonds more tightly to the metal \nparts. In addition, it is used in welding to clean the metal \nsurfaces.", 
+                "", 
+                "", 
+                "reverse", 
+                "", 
+                "http://www.machinedesign.com/fasteners/whats-difference-between-soldering-brazing-and-welding"
+            ], 
+            "flags": 0, 
+            "guid": "c1WMuejLWn", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "welding", 
+                "", 
+                "Uses high temperatures to melt and join two metal  (or thermoplastic) parts, which must be similar.", 
+                "", 
+                "When properly done, the finished weld is as strong as the surrounding \nmetal. But if the process is not carried out and the welder applies too \nmuch heat, it can change the metal’s properties and weaken the weld. \nThere are several different types of welding, including metal inert gas \n(MIG), arc, electron beam, laser, and stir friction. Welding is also \nwidely used to slice apart large metal structures by melting through \nthem.", 
+                "reverse", 
+                "", 
+                "http://www.machinedesign.com/fasteners/whats-difference-between-soldering-brazing-and-welding"
+            ], 
+            "flags": 0, 
+            "guid": "DPI%`@`b~s", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>sociopathy frequency</div>", 
+                "", 
+                "4% in America, but relatively rare in Japan and China (0.03% 0.14% in Taiwan)", 
+                "", 
+                "", 
+                "reverse", 
+                "", 
+                "The Sociopath Next Door"
+            ], 
+            "flags": 0, 
+            "guid": "j}G5q,o]mj", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "physiology of panic", 
+                "", 
+                "<span class=\"st\">Panic does not cause heart failure, but it sure feels that way. Muscle tension and hyperventilation cause severe chest pains. Then, because the rapid, shallow breathing expels too much carbon dioxide, the blood's pH level drops, triggering an alarm from the brain stem that causes the muscles to constrict even more. This is why breathing into a paper bag stops us from hyperventilating: it forces us to rebreathe the carbon dioxide.</span>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "Spark: The Revolutionary New Science of Exercise and the Brain\nBy John J. Ratey, Eric Hagerman"
+            ], 
+            "flags": 0, 
+            "guid": "B>|9Ii/xgW", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "causes of stronger hurricanes", 
+                "", 
+                "warmer-than-average ocean surface temperatures, which provide fuel for \nhurricanes, as well as weaker-than-average wind shear, which can help to\n dissipate storms", 
+                "", 
+                "", 
+                "reverse", 
+                "", 
+                "https://www.nytimes.com/2017/09/08/climate/how-hurricane-irma-became-so-huge-and-destructive.html"
+            ], 
+            "flags": 0, 
+            "guid": "d6xoY?:P2i", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<i></i><i>P</i><sub>(W)</sub>", 
+                "", 
+                "<i></i><i>I</i><sub>(A)</sub><i>&nbsp;</i>×<i>&nbsp;V</i><sub>(V)</sub>", 
+                "", 
+                "", 
+                "reverse", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qbb8lyc[~Z", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "SRE"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<i></i><i>V</i><sub>(V)</sub>", 
+                "", 
+                "<i></i><i></i><i>P</i><sub>(W)</sub>&nbsp;<b>/</b> I<sub>(A)</sub>", 
+                "", 
+                "", 
+                "reverse", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jbWZ_bYP{%", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "SRE"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<i></i>I<sub>(A)</sub>", 
+                "", 
+                "<i></i><i></i><i>P</i><sub>(W)</sub>&nbsp;<b>/</b>&nbsp;<i>V</i><sub>(V)</sub>", 
+                "", 
+                "", 
+                "reverse", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "L=EJ*kC)TW", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "SRE"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "swollen tastebud treatments", 
+                "", 
+                "<h4>1. Try Ice</h4>\n<p>Applying ice on the swollen areas of your tongue will relieve the \nswelling. You can use ice cubes to soothe your tongue but you must be \ncareful not to burn it. They can burn your tongue if you keep them on \nyour tongue for long.</p>\n<h4>2. Get Hydrated</h4>\n<p>Dehydration and a dry mouth will cause sore and swollen taste buds. \nTake lots of fluids everyday to hydrate your tongue and reduce the \nirritation. Alternatively take probiotic yogurts for a fast relief from \nirritated taste receptors.</p>\n<h4>3. Use Baking Soda</h4>\n<p>The anti-inflammatory properties in baking soda make it an effective \nremedy to inflamed taste buds. You can apply baking soda on the affected\n areas and leave it there to reduce the swelling and irritation. Baking \nsoda removes the gastric acid in your mouth from regurgitated food, \nwhich causes sore taste buds.</p>\n<h4>4. Gargle with Salt Water</h4>\n<p>Add one teaspoon of salt to lukewarm water until it dissolves to form\n a salt solution. Gargle your mouth with this solution to relieve the \nswollen areas. To treat a swollen taste bud on tip of tongue, gargle the\n solution at least three times every day. This will also relieve swollen\n buds at the back of your tongue.</p>\n<h4>5. Rinse with Tea Tree Oil</h4>\n<p>Tea tree oil can relieve swollen tongue. Mix a few drops of this \nnatural oil with warm water and gargle your mouth with the mixture. This\n solution is very effective in reducing swelling that is caused by \nbacteria in the mouth. Be careful with this remedy because excess tea \ntree oil may cause hallucinations.</p>\n<h4>6. Apply Honey</h4>\n<p>Honey is the best home remedy for swollen taste buds because it has \nhealing and anti-bacterial properties. You can swash honey in your mouth\n or tongue to relieve swelling. You can also make a warm honey solution \nand gargle it several times in your mouth.</p>\n<h4>7. Pepper, Ginger and Garlic</h4>\n<p>Use the three ingredients to make a solution and take it at least \nfour times in a day. This solution is very effective when bacteria cause\n a swollen taste bud on tip of tongue.</p>\n<h4>8. Glycerin</h4>\n<p>If your taste buds swell because of mouth sores or physical injuries,\n apply glycerin on the affected areas. Glycerin heals an inflamed tongue\n and taste receptors.</p>\n<h4>9. Try Medical Treatments</h4>\n<p>Doctors will prescribe different medical treatment for swollen buds \ndepending on their cause. Hence, you will get different treatments for \nswelling caused by trauma, STDs, viral infections, and bacteria. In case\n of nutritional deficiency, doctors recommend Vitamin C and B complex. \nIn case of bacterial infections and HPV herpes, doctors prescribe \nantivirals and antibiotics. Fungal medications treat any yeast \ninfections.</p>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "http://www.newhealthadvisor.com/Swollen-Taste-Bud-on-Tip-of-Tongue.html"
+            ], 
+            "flags": 0, 
+            "guid": "b#V{NY`K(J", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "the real reason I jumped", 
+                "", 
+                "an automatic nonconscious reaction to the fear response set into play by the amygdala", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "Who’s in Charge?"
+            ], 
+            "flags": 0, 
+            "guid": "q.~;|=%*d(", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "amygdala", 
+                "", 
+                "one of two almond-shaped groups of nuclei located deep and medially within the temporal lobes of the brain in complex vertebrates, including humans;&nbsp;considered part of the&nbsp;limbic system (shown in research to perform a primary role in the processing of memory, decision-making, and emotional reactions)", 
+                "", 
+                "<img src=\"amy.png\" /><img src=\"Amigdale1.jpg\" /><img src=\"Amyg.png\" />", 
+                "", 
+                "", 
+                "https://en.wikipedia.org/wiki/Amygdala"
+            ], 
+            "flags": 0, 
+            "guid": "n^)qr5D[~x", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "limbic system", 
+                "", 
+                "supports a variety of functions including emotion, behavior, motivation, long-term memory, and olfaction", 
+                "", 
+                "The <b>limbic system</b> is a set of brain structures located on both sides of the thalamus, immediately beneath the cerebrum.&nbsp;It has also been referred to as the <b>paleomammalian cortex</b>. It is not a separate system but a collection of structures from the telencephalon, diencephalon, and mesencephalon.&nbsp;It includes the olfactory bulbs, hippocampus, hypothalamus, amygdala, anterior thalamic nuclei, fornix, columns of fornix, mammillary body, septum pellucidum, habenular commissure, cingulate gyrus, parahippocampal gyrus, entorhinal cortex, and limbic midbrain areas.", 
+                "", 
+                "", 
+                "https://en.wikipedia.org/wiki/Limbic_system"
+            ], 
+            "flags": 0, 
+            "guid": "J$W.wJCh|n", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "thalamus", 
+                "", 
+                "the large mass of gray matter in the dorsal part of the diencephalon of the brain with several functions such as relaying of sensory signals, including motor signals, to the cerebral cortex,&nbsp;and the regulation of consciousness, sleep, and alertness", 
+                "", 
+                "It is a midline symmetrical structure of two halves, within the vertebrate brain, situated between the cerebral cortex and the midbrain.", 
+                "", 
+                "", 
+                "https://en.wikipedia.org/wiki/Thalamus"
+            ], 
+            "flags": 0, 
+            "guid": "v>{H33:`nm", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "diencephalon", 
+                "", 
+                "the region of the embryonic vertebrate neural tube that gives rise to anteriorforebrain structures including the thalamus, hypothalamus, posterior portion of the pituitary gland, and pineal gland<div><img src=\"Gray715.png\" /></div><div><br /></div><div><b>main subdivisions of the embryonic vertebrate brain</b></div><div><img src=\"960px-EmbryonicBrain.svg.png\" /></div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://en.wikipedia.org/wiki/Diencephalon"
+            ], 
+            "flags": 0, 
+            "guid": "yMC,<LOK7o", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "frequency matching", 
+                "", 
+                "humans age 4+ switch from maximizing to frequency matching, where they tend to match the frequency of previous occurrences in their guesses", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ub{)Sfx<h8", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
         }
