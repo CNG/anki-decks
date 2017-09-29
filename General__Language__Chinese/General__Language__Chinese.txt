@@ -1,82 +1,61 @@
 tone: 1		"<img src=""chinese-tone-1.png"" />"				first tone	yoyochinese.com	tones
 tone: 2		"<img src=""chinese-tone-2.png"" />"				second tone	yoyochinese.com	tones
-tone: 3		"<img src=""chinese-tone-3.png"" />"				third tone	yoyochinese.com	tones
 tone: 4		"<img src=""chinese-tone-4.png"" />"				fourth tone	yoyochinese.com	tones
 tone: 5		"<img src=""chinese-tone-5.png"" />"				fifth tone	yoyochinese.com	tones
-today	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>今天</span></span>"	jīn tiān	[sound:Tone Pair 1-1.mp3]	1+1	yoyochinese.com	pinyin
-China	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>中国</span></span>"	zhōng guó	[sound:Tone Pair 1-2.mp3]	1+2	yoyochinese.com	pinyin
-ice water	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>冰水</span></span>"	bīng shuǐ	[sound:Tone Pair 1-3.mp3]	1+3	yoyochinese.com	pinyin
-to know	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>知道</span></span>"	zhī dào	[sound:Tone Pair 1-4.mp3]	1+4	yoyochinese.com	pinyin
-really	真的	zhēn de	[sound:Tone Pair 1-5.mp3]	1+5	yoyochinese.com	pinyin
-tomorrow	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>明天</span></span>"	míng tiān	[sound:Tone Pair 2-1.mp3]	2+1	yoyochinese.com	pinyin
-next year	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">明年</span></span>"	míng nián	[sound:Tone Pair 2-2.mp3]	2+2	yoyochinese.com	pinyin
-beer	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">啤酒</span></span>"	pí jiǔ	[sound:Tone Pair 2-3.mp3]	2+3	yoyochinese.com	pinyin
-easy		róng yì	[sound:Tone Pair 2-4.mp3]	2+4	yoyochinese.com	pinyin
-what	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>什么</span></span>"	shén me	[sound:Tone Pair 2-5.mp3]	2+5	yoyochinese.com	pinyin
-to like	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">喜欢</span></span>"	xǐ huān	[sound:Tone Pair 3-1.mp3]	3+1	yoyochinese.com	pinyin
-to get up	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>起床</span></span>"	qǐ chuáng	[sound:Tone Pair 3-2.mp3]	3+2	yoyochinese.com	pinyin
-hello	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>你好</span></span>"	nǐ hǎo	[sound:Tone Pair 3-3.mp3]	3+3 &gt; 2+3	yoyochinese.com	pinyin
-fried rice	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">炒饭</span></span>"	chǎo fàn	[sound:Tone Pair 3-4.mp3]	3+4	yoyochinese.com	pinyin
-my, mine	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>我的</span></span>"	wǒ de	[sound:Tone Pair 3-5.mp3]	3+5	yoyochinese.com	pinyin
-bread	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>面包</span></span>"	miàn bāo	[sound:Tone Pair 4-1.mp3]	4+1	yoyochinese.com	pinyin
-question	问题	wèn tí	[sound:Tone Pair 4-2.mp3]	4+2	yoyochinese.com	pinyin
-here	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>这里</span></span>"	zhè lǐ	[sound:Tone Pair 4-3.mp3]	4+3	yoyochinese.com	pinyin
-bye	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">再见</span></span>"	zài jiàn	[sound:Tone Pair 4-4.mp3]	4+4	yoyochinese.com	pinyin
-thanks	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">谢谢</span></span>"	xiè xie	[sound:Tone Pair 4-5.mp3]	4+5	yoyochinese.com	pinyin
+today	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>今天</span></span>"	jīn tiān	[sound:Tone Pair 1-1.mp3]	1+1	yoyochinese.com	pinyin pinyin1
+China	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>中国</span></span>"	zhōng guó	[sound:Tone Pair 1-2.mp3]	1+2	yoyochinese.com	pinyin pinyin1
+ice water	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>冰水</span></span>"	bīng shuǐ	[sound:Tone Pair 1-3.mp3]	1+3	yoyochinese.com	pinyin pinyin1
+to know	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>知道</span></span>"	zhī dào	[sound:Tone Pair 1-4.mp3]	1+4	yoyochinese.com	pinyin pinyin1
+really	真的	zhēn de	[sound:Tone Pair 1-5.mp3]	1+5	yoyochinese.com	pinyin pinyin1
+tomorrow	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>明天</span></span>"	míng tiān	[sound:Tone Pair 2-1.mp3]	2+1	yoyochinese.com	pinyin pinyin2
+next year	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">明年</span></span>"	míng nián	[sound:Tone Pair 2-2.mp3]	2+2	yoyochinese.com	pinyin pinyin2
+beer	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">啤酒</span></span>"	pí jiǔ	[sound:Tone Pair 2-3.mp3]	2+3	yoyochinese.com	pinyin pinyin2
+easy		róng yì	[sound:Tone Pair 2-4.mp3]	2+4	yoyochinese.com	pinyin pinyin2
+what	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>什么</span></span>"	shén me	[sound:Tone Pair 2-5.mp3]	2+5	yoyochinese.com	pinyin pinyin2
+to like	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">喜欢</span></span>"	xǐ huān	[sound:Tone Pair 3-1.mp3]	3+1	yoyochinese.com	pinyin pinyin3
+to get up	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>起床</span></span>"	qǐ chuáng	[sound:Tone Pair 3-2.mp3]	3+2	yoyochinese.com	pinyin pinyin3
+hello	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>你好</span></span>"	nǐ hǎo	[sound:Tone Pair 3-3.mp3]	3+3 &gt; 2+3	yoyochinese.com	pinyin pinyin3
+fried rice	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">炒饭</span></span>"	chǎo fàn	[sound:Tone Pair 3-4.mp3]	3+4	yoyochinese.com	pinyin pinyin3
+my, mine	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>我的</span></span>"	wǒ de	[sound:Tone Pair 3-5.mp3]	3+5	yoyochinese.com	pinyin pinyin3
+bread	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>面包</span></span>"	miàn bāo	[sound:Tone Pair 4-1.mp3]	4+1	yoyochinese.com	pinyin pinyin5
+question	问题	wèn tí	[sound:Tone Pair 4-2.mp3]	4+2	yoyochinese.com	pinyin pinyin5
+here	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span>这里</span></span>"	zhè lǐ	[sound:Tone Pair 4-3.mp3]	4+3	yoyochinese.com	pinyin pinyin5
+bye	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">再见</span></span>"	zài jiàn	[sound:Tone Pair 4-4.mp3]	4+4	yoyochinese.com	pinyin pinyin5
+thanks	"<span id=""result_box"" class=""short_text"" tabindex=""-1"" lang=""zh-CN""><span class="""">谢谢</span></span>"	xiè xie	[sound:Tone Pair 4-5.mp3]	4+5	yoyochinese.com	pinyin pinyin5
 b	pinyin	<b>b</b>ear	reading		reverse		yoyochinese.com	pinyin
 p	pinyin	<b>p</b>oor	reading		reverse		yoyochinese.com	pinyin
 m	pinyin	<b>m</b>ore	reading		reverse		yoyochinese.com	pinyin
 f	pinyin	<b>f</b>ake	reading		reverse		yoyochinese.com	pinyin
-d	pinyin	<b>d</b>are	reading		reverse		yoyochinese.com	pinyin
-t	pinyin	<b>t</b>ake	reading		reverse		yoyochinese.com	pinyin
 n	pinyin	<b>n</b>ow	reading		reverse		yoyochinese.com	pinyin
 <code>l</code>	pinyin	<b>l</b>earn	reading		reverse		yoyochinese.com	pinyin
 g	pinyin	<b>g</b>et	reading		reverse		yoyochinese.com	pinyin
 k	pinyin	<b>k</b>ing	reading		reverse		yoyochinese.com	pinyin
-h	pinyin	<b>h</b>elp	reading		reverse		yoyochinese.com	pinyin
 j	pinyin	<b>jee</b>p	reading		reverse		yoyochinese.com	pinyin
-q	pinyin	won’<b>t you</b>, <b>chee</b>se	reading		reverse		yoyochinese.com	pinyin
-x	pinyin	<b>shee</b>p	reading		reverse		yoyochinese.com	pinyin
 zh	pinyin	ju<b>dge</b>, Geor<b>ge</b>	reading		reverse		yoyochinese.com	pinyin
 ch	pinyin	chur<b>ch</b>	reading		reverse		yoyochinese.com	pinyin
 sh	pinyin	<b>sh</b>hhh!	reading		reverse		yoyochinese.com	pinyin
 r	pinyin	<b>J</b>acque, A<b>s</b>ia, mea<b>s</b>ure	reading		reverse		yoyochinese.com	pinyin
-z	pinyin	yar<b>ds</b>	reading		reverse		yoyochinese.com	pinyin
-c	pinyin	i<b>ts</b>	reading		reverse		yoyochinese.com	pinyin
 s	pinyin	<b>s</b>ing	reading		reverse		yoyochinese.com	pinyin
 w	pinyin	<b>w</b>ant	reading		reverse		yoyochinese.com	pinyin
 y	pinyin	<b>y</b>es	reading		reverse		yoyochinese.com	pinyin
 a	pinyin	f<b>a</b>ther	reading		reverse		yoyochinese.com	pinyin
 ai	pinyin	m<b>y</b>	reading		reverse		yoyochinese.com	pinyin
 an	pinyin	s<b>un</b>	reading		reverse		yoyochinese.com	pinyin
-ang	pinyin	<b>ahng</b>	reading		reverse		yoyochinese.com	pinyin
 ao	pinyin	p<b>ou</b>t	reading		reverse		yoyochinese.com	pinyin
 e&nbsp;	pinyin	s<b>e</b>rve	reading		reverse		yoyochinese.com	pinyin
 ei	pinyin	d<b>ay</b>	reading		reverse		yoyochinese.com	pinyin
 en	pinyin	tak<b>en</b>	reading		reverse		yoyochinese.com	pinyin
 eng	pinyin	m<b>ung</b>, <b>e</b>r<b>ng</b>	reading		reverse		yoyochinese.com	pinyin
-er	pinyin	<b>are</b>	reading		reverse		yoyochinese.com	pinyin
 i	pinyin	s<b>ee</b>	reading		reverse		yoyochinese.com	pinyin
-ia	pinyin	<b>yah</b>	reading		reverse		yoyochinese.com	pinyin
 iao	pinyin	m<b>eow</b>	reading		reverse		yoyochinese.com	pinyin
-ian	pinyin	<b>yen</b>	reading		reverse		yoyochinese.com	pinyin
 iang	pinyin	<b>young</b>	reading		reverse		yoyochinese.com	pinyin
 ie	pinyin	<b>ye</b>s	reading		reverse		yoyochinese.com	pinyin
 in	pinyin	s<b>in</b>	reading		reverse		yoyochinese.com	pinyin
 ing	pinyin	<b>eeng</b>	reading		reverse		yoyochinese.com	pinyin
 iong	pinyin	<b>ee-own</b>	reading		reverse		yoyochinese.com	pinyin
 iu	pinyin&nbsp;(1)	<b>yo</b>-yo	reading		reverse		yoyochinese.com	pinyin
-o	pinyin	<b>aw</b>esome (British accent)	reading		reverse		yoyochinese.com	pinyin
-ou	pinyin	b<b>oa</b>t	reading		reverse		yoyochinese.com	pinyin
-ong	pinyin	l<b>oan</b>	reading		reverse		yoyochinese.com	pinyin
-u	pinyin	sh<b>oo</b>t	reading		reverse		yoyochinese.com	pinyin
-ua	pinyin	s<b>ua</b>ve	reading		reverse		yoyochinese.com	pinyin
 uai	pinyin	<b>wi</b>de	reading		reverse		yoyochinese.com	pinyin
-uan	pinyin	<b>won</b>	reading		reverse		yoyochinese.com	pinyin
 uang	pinyin	<b>oo-ahng</b>	reading		reverse		yoyochinese.com	pinyin
-ui	pinyin&nbsp;(1)	<b>way</b>	reading		reverse		yoyochinese.com	pinyin
 un	pinyin&nbsp;(1)	<b>oo</b>+tak<b>en</b>	reading		reverse		yoyochinese.com	pinyin
-uo	pinyin	<b>wo</b>k	reading		reverse		yoyochinese.com	pinyin
 iou	pinyin (2)	<b>yo</b>-yo	reading		reverse		yoyochinese.com	pinyin
-uei	pinyin (2)	<b>way</b>	reading		reverse		yoyochinese.com	pinyin
 uen	pinyin (2)	<b>oo</b>+tak<b>en</b>	reading		reverse		yoyochinese.com	pinyin
