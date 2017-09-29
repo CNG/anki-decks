@@ -1287,7 +1287,7 @@
                         "", 
                         "", 
                         "", 
-                        "sweetened puree of cooked red beans. also called <b>anko</b>, thought not to be confused with monkfish, also called anko, but contextually the difference will be apparent to japanese speakers.", 
+                        "sweetened puree of cooked red beans", 
                         "", 
                         "", 
                         "", 
@@ -1297,7 +1297,7 @@
                         "", 
                         "", 
                         "", 
-                        "", 
+                        "not to be confused with monkfish (anko), but contextually the difference will be apparent to Japanese speakers", 
                         "", 
                         "http://www.sushifaq.com/sushi-sashimi-info/sushi-terminology/"
                     ], 
@@ -6869,13 +6869,20 @@
     "dyn": 0, 
     "extendNew": 100, 
     "extendRev": 50, 
-    "media_files": [], 
+    "media_files": [
+        "Brahma_on_hamsa.jpg", 
+        "1024px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg", 
+        "1280px-Sholes-Glidden_1874.jpg", 
+        "02d9bcd84587c4871ae50434ecb0844a.jpg", 
+        "800px-Bhagavan_Vishnu.jpg", 
+        "Shiva_cropped.jpg"
+    ], 
     "name": "General::Culture", 
     "note_models": [
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark4.css\");\n.legend {\nfont-size:25%;xline-height:0.15;opacity:0.75;\nposition:relative; top:0.3em;\n}\n\n.front.Forward .legend.backtype, .front.Reverse .legend.fronttype { visibility: hidden; }\ncode {\n  word-spacing: 0;\n}\nimg { background-color: #ccc !important; }\n\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 35;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+5;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\nsetInterval(function(){\n  if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); }\n}, 500);\n//setInterval(function(){ currentDeckMessages();  }, 500);\n\n</script><style>", 
+            "css": "@import url(\"dark4.css\");\nmark { font-weight: bold; }\n.front.Forward .legend.backtype, .front.Reverse .legend.fronttype { visibility: hidden; }\narticle img { width: 100%; }\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 35;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+5;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\n// setInterval(function(){ if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }, 500);\n// setInterval(function(){ currentDeckMessages();  }, 500);\n\nfunction resize(e) { if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }\nwindow.onclicke = window.onresize = resize;\n\n\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -6973,9 +6980,7 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "unix"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
                     "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
@@ -7038,6 +7043,114 @@
             "tags": [
                 "quotes"
             ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Sholes and Glidden typewriter&nbsp;", 
+                "", 
+                "the first commercially successful typewriter, 1874, introduced QWERTY", 
+                "", 
+                "<div class=\"mw-mmv-image\"><img src=\"1280px-Sholes-Glidden_1874.jpg\" width=\"1259\" /></div>", 
+                "", 
+                "Remington No. 1", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "f7e7ool-}_", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Shiva", 
+                "", 
+                "<div><img src=\"Shiva_cropped.jpg\" /></div>", 
+                "", 
+                "<p><i><b>Shiva</b></i> (<span class=\"nowrap\"><span class=\"IPA nopopups noexcerpt\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"/ʃ/: 'sh' in 'shy'\">ʃ</span><span title=\"/iː/ or /ɪ/: 'y' in 'happy'\">i</span><span title=\"'v' in 'vie'\">v</span><span title=\"/ə/: 'a' in 'about'\">ə</span></span>/</span></span>; Sanskrit: शिव, IAST: Śiva, lit. <i>the auspicious one</i>) is one of the principal deities of Hinduism. He is the Supreme Being within Shaivism, one of the major traditions within contemporary Hinduism.<sup id=\"cite_ref-Flood_1996.2C_p._17_11-0\" class=\"reference\">[11]</sup><sup id=\"cite_ref-12\" class=\"reference\">[12]</sup></p>\n<p>Shiva is the \"destroyer of evil and the transformer\" within the Trimurti, the Hindu trinity that includes Brahma and Vishnu.<sup id=\"cite_ref-Zimmer_1972_p._124_1-1\" class=\"reference\">[1]</sup><sup id=\"cite_ref-13\" class=\"reference\">[13]</sup> In Shaivism tradition, Shiva is the Supreme being who creates, protects and transforms the universe.<sup id=\"cite_ref-FOOTNOTEArvind_Sharma200065_14-0\" class=\"reference\">[14]</sup><sup id=\"cite_ref-FOOTNOTEIssittMain2014147.2C_168_15-0\" class=\"reference\">[15]</sup><sup id=\"cite_ref-FOOTNOTEFlood1996151_16-0\" class=\"reference\">[16]</sup> In the goddess tradition of Hinduism called Shaktism,\n the goddess is described as supreme, yet Shiva is revered along with \nVishnu and Brahma. A goddess is stated to be the energy and creative \npower (Shakti) of each, with Parvati the equal complementary partner of Shiva.<sup id=\"cite_ref-FOOTNOTEDavid_Kinsley198850.2C_103.E2.80.93104_10-1\" class=\"reference\">[10]</sup><sup id=\"cite_ref-FOOTNOTETracy_Pintchman2015113.2C_119.2C_144.2C_171_17-0\" class=\"reference\">[17]</sup> He is one of the five equivalent deities in Panchayatana puja of the Smarta tradition of Hinduism.<sup id=\"cite_ref-Flood_1996.2C_p._17_11-1\" class=\"reference\">[11]</sup></p>", 
+                "reverse", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "m]<eR!]JWB", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Vishnu", 
+                "", 
+                "<div class=\"mw-mmv-image\"><img src=\"800px-Bhagavan_Vishnu.jpg\" width=\"639\" /></div>", 
+                "", 
+                "<p></p><p>Vishnu (<small>Sanskrit pronunciation:&nbsp;</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\" class=\"IPA\">[vɪʂɳu]</span>; Sanskrit: विष्णु, IAST: <span title=\"International Alphabet of Sanskrit Transliteration\" class=\"Unicode\" style=\"white-space:normal; text-decoration: none\">Viṣṇu</span>) is one of the principal deities of Hinduism, and the Supreme Being in its Vaishnavism tradition.<sup id=\"cite_ref-5\" class=\"reference\">[5]</sup><sup id=\"cite_ref-Flood_1996.2C_p._17_6-0\" class=\"reference\">[6]</sup> Vishnu is the \"preserver\" in the Hindu trinity (Trimurti) that includes Brahma and Shiva.<sup id=\"cite_ref-davidwhite29_7-0\" class=\"reference\">[7]</sup></p>\n<p>In Vaishnavism, Vishnu is identical to the formless metaphysical concept called Brahman, the supreme, the Svayam Bhagavan, who takes various avatars as \"the preserver, protector\" whenever the world is threatened with evil, chaos, and destructive forces.<sup id=\"cite_ref-Zimmer_1972_p._124_8-0\" class=\"reference\">[8]</sup> His avatars most notably include Rama in the Ramayana and Krishna in the Mahabharata.He is also known as Narayana, Jagannath, Vasudeva, Vithoba, and Hari. He is one of the five equivalent deities worshipped in Panchayatana puja of the Smarta Tradition of Hinduism.<sup id=\"cite_ref-Flood_1996.2C_p._17_6-1\" class=\"reference\">[6]</sup></p>", 
+                "reverse", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "!B?#}AS;i", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Brahma", 
+                "", 
+                "<div class=\"mw-mmv-image\"><img src=\"Brahma_on_hamsa.jpg\" width=\"926\" /></div>", 
+                "", 
+                "<p><b>Brahma</b> (<span class=\"nowrap\"><span class=\"IPA nopopups noexcerpt\">/<span style=\"border-bottom:1px dotted\"><span title=\"/ˈ/: primary stress follows\">ˈ</span><span title=\"'b' in 'buy'\">b</span><span title=\"'r' in 'rye'\">r</span><span title=\"/ə/: 'a' in 'about'\">ə</span><span title=\"'h' in 'hi'\">h</span><span title=\"'m' in 'my'\">m</span><span title=\"/ɑː/: 'a' in 'father'\">ɑː</span></span>/</span></span>; Sanskrit: ब्रह्मा, IAST: Brahmā) is a creator god in Hinduism.<sup id=\"cite_ref-1\" class=\"reference\">[1]</sup> He has four faces.<sup id=\"cite_ref-bruce86_2-0\" class=\"reference\">[2]</sup> Brahma is also known as <i>Svayambhu</i> (self-born),<sup id=\"cite_ref-3\" class=\"reference\">[3]</sup> <i>Vāgīśa</i> (Lord of Speech), and the creator of the four Vedas, one from each of his mouths.<sup id=\"cite_ref-bruce86_2-1\" class=\"reference\">[2]</sup><sup id=\"cite_ref-4\" class=\"reference\">[4]</sup></p>\n<p>Brahma is sometimes identified with the Vedic god Prajapati, as well as linked to Kama and Hiranyagarbha (the cosmic egg)<sup id=\"cite_ref-turner258_5-0\" class=\"reference\">[5]</sup><sup id=\"cite_ref-david183_6-0\" class=\"reference\">[6]</sup>. He is more prominently mentioned in the post-Vedic Hindu epics and the mythologies in the Puranas. In the epics, he is conflated with Purusha.<sup id=\"cite_ref-bruce86_2-2\" class=\"reference\">[2]</sup> Although, Brahma is part of the \"Brahma, Vishnu, Shiva\" in Trimurti, ancient Hindu scriptures mention multiple trinities of gods or goddesses which do not include Brahma.<sup id=\"cite_ref-davidwhite29_7-0\" class=\"reference\">[7]</sup><sup id=\"cite_ref-gonda212_8-0\" class=\"reference\">[8]</sup><sup id=\"cite_ref-10\" class=\"reference\">[note 1]</sup></p>\n<p>Several puranas describe him emerging from a lotus, connected to the \nnavel of Lord Vishnu. Other Puranas suggest that he is born from Shiva \nor his aspects,<sup id=\"cite_ref-Stella_Kramrisch_1994_pages_205-206_11-0\" class=\"reference\">[10]</sup> or he is a supreme god in diverse versions of Hindu mythology.<sup id=\"cite_ref-turner258_5-1\" class=\"reference\">[5]</sup> Brahma, along with all deities, is sometimes viewed as a form (saguna) of the otherwise formless (nirguna) Brahman, the ultimate metaphysical reality in Vedantic Hinduism.<sup id=\"cite_ref-gonda212_8-2\" class=\"reference\">[8]</sup><sup id=\"cite_ref-david183_6-1\" class=\"reference\">[6]</sup></p>\n<p>Brahma does not enjoy popular worship in present-age Hinduism and has lesser importance than the other members of the Trimurti, Vishnu and Shiva. Brahma is revered in ancient texts, yet rarely worshipped as a primary deity in India.<sup id=\"cite_ref-morris123_12-0\" class=\"reference\">[11]</sup> Very few temples dedicated to him exist in India; the most famous being the Brahma Temple, Pushkar in Rajasthan.<sup id=\"cite_ref-chakravarti15_13-0\" class=\"reference\">[12]</sup> Brahma temples are found outside India, such as in Thailand at the Erawan Shrine in Bangkok.<sup id=\"cite_ref-ellenlondon74_14-0\" class=\"reference\">[13]</sup></p>", 
+                "reverse", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Q{&S~_&`JF", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Nataraja", 
+                "", 
+                "a depiction of the&nbsp;Hindu god&nbsp;Shiva&nbsp;as the cosmic ecstatic dancer<div><img src=\"1024px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg\" /></div>", 
+                "", 
+                "<p><b>Nataraja</b> நடராஜர் नटराज, \"the lord of dance\"), is a depiction of the Hindu god Shiva as the cosmic ecstatic dancer. His dance is called Tandavam or Nadanta, depending on the context of the dance.&nbsp;The pose and artwork is described in many Hindu texts such as the <i>Anshumadbhed agama</i> and <i>Uttarakamika agama</i>, the dance relief or idol featured in all major Hindu temples of Shaivism.</p>\n<p>The classical form of the depiction appears in stone reliefs, as at the Ellora Caves and the Badami Caves, by around the 6th-century.&nbsp;Around the 10th century, it emerged in Tamil Nadu in its mature and best-known expression in Chola bronzes, of various heights typically less than four feet,&nbsp;some over.&nbsp;The Nataraja reliefs have been identified in historic artwork from many parts of South Asia, in southeast Asia such as in Bali, Cambodia, and in central Asia.</p>\n<p>The sculpture is symbolic of Shiva as the lord of dance and dramatic arts,&nbsp;with its style and proportions made according to Hindu texts on arts.&nbsp;It typically shows Shiva dancing in one of the <i>Natya Shastra</i> poses, holding Agni (fire) in his left back hand, the front hand in <i>gajahasta</i> or <i>dandahasta</i> mudra, the front right hand with a wrapped snake that is in <i>abhaya</i> (fear not) mudra while pointing to a <i>Sutra</i> text, and the back hand holding a musical instrument usually a <i>damaru</i>.&nbsp;His body, fingers, ankles, neck, face, head, ear lobes and dress are \nshown decorated with symbolic items, which vary with historic period and\n region.&nbsp;He is surrounded by a ring of flames, standing on a lotus pedestal, \nlifting his left leg (or in rare cases, the right leg) and balancing \nover a demon shown as a dwarf (Apasmara&nbsp;or Muyalaka) who symbolizes ignorance.&nbsp;The dynamism of the energetic dance is depicted with the whirling hair \nwhich spread out in thin strands as a fan behind his head.&nbsp;The details in the Nataraja artwork has been variously interpreted by \nIndian scholars since the 12th-century for its symbolic meaning and \ntheological essence.</p>\n<p>Nataraja is a well known sculptural symbol in India and popularly used as a symbol of Indian culture,&nbsp;in particular as one of the finest illustrations of Hindu art.</p>", 
+                "", 
+                "", 
+                "https://en.wikipedia.org/wiki/Nataraja"
+            ], 
+            "flags": 0, 
+            "guid": "J,htEmcdb-", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ambika", 
+                "", 
+                "Goddess-Mother,&nbsp;protector goddess<div><img src=\"02d9bcd84587c4871ae50434ecb0844a.jpg\" /></div>", 
+                "", 
+                "In&nbsp;Jainism,&nbsp;<b>Ambika</b>&nbsp;(Sanskrit:&nbsp;<span xml:lang=\"sa\" lang=\"sa\">अम्बिका</span>,&nbsp;Odia:&nbsp;<span xml:lang=\"or\" lang=\"or\">ଅମ୍ବିକା</span>&nbsp;<span title=\"International Alphabet of Sanskrit Transliteration\" class=\"Unicode\" style=\"white-space: normal; text-decoration: none; \">Ambikā</span>&nbsp;\"Mother\") or&nbsp;<b>Ambika Devi</b>&nbsp;(<span xml:lang=\"sa\" lang=\"sa\">अम्बिका देवी</span>&nbsp;<span title=\"International Alphabet of Sanskrit Transliteration\" class=\"Unicode\" style=\"white-space: normal; text-decoration: none; \">Ambikā Devī</span>&nbsp;\"the Goddess-Mother\") is the&nbsp;<span title=\"International Alphabet of Sanskrit Transliteration\" class=\"Unicode\" style=\"white-space: normal; text-decoration: none; \">Yakṣi</span>&nbsp;\"dedicated attendant deity\" or&nbsp;<span title=\"International Alphabet of Sanskrit Transliteration\" class=\"Unicode\" style=\"white-space: normal; text-decoration: none; \">Śāsana Devī</span>&nbsp;\"protector goddess\" of the 22nd&nbsp;Tirthankara,&nbsp;Neminatha. She is also known as&nbsp;<i>Ambai</i>,&nbsp;<i>Amba</i>,&nbsp;<i>Kushmandini</i>&nbsp;and&nbsp;<i>Amra Kushmandini</i>.", 
+                "", 
+                "", 
+                "https://en.wikipedia.org/wiki/Ambika_(Jainism)"
+            ], 
+            "flags": 0, 
+            "guid": "QG7Uz[m0py", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
         }
     ]
 }
