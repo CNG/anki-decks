@@ -53,58 +53,195 @@
     "extendNew": 1000, 
     "extendRev": 50, 
     "media_files": [
-        "latex-eaf4418fbe935c15a606516d8f55dc380cd8e822.png", 
-        "latex-fa63107e1a21cb3276476c4b1aeffda667c6d6e8.png", 
-        "latex-ddbfea9651f1525cf71b3e41d82b3207972d7a2d.png", 
+        "latex-6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png", 
+        "latex-c8eb4bf005bf1ebac434507544f20eca2090fcff.png", 
         "latex-fc97ef67268cd4e91bacdf12b8901d7036c9a056.png", 
-        "latex-3a6cfdf962f9f78464b21ded0c6311cd8413ccb0.png", 
-        "latex-fa35d9fc104207e09a712110ac81612c5b279a6c.png", 
-        "latex-d35db02982222b2ed57327df056c3844a2628752.png", 
-        "latex-d6a7ccf879c4a4fe694033606332cb83806db296.png", 
-        "latex-4fb382b5e56d61bc1669509bfc060c8deb1d71ef.png", 
-        "latex-3243b0201974298da01e0e70408fe6629a7b2146.png", 
+        "latex-9152c16570b0de8a51ac4996d61be23656c65ee1.png", 
+        "latex-21038a83d8774576eadcca9367ffb30e1467bc45.png", 
+        "latex-bf2247d117787c027dd077a5991a3245c536ab72.png", 
+        "latex-3ead47fb9fb4a4c273feee398f72ff2a09702b84.png", 
+        "latex-2a251e20bf26c1c893688d9f4e34f8bc63300adf.png", 
+        "latex-fa63107e1a21cb3276476c4b1aeffda667c6d6e8.png", 
         "latex-c6dd6b322a1d042d13b2ceba7a6f45be7eb8de6c.png", 
-        "latex-174fadd07fd54c9afe288e96558c92e0c1da733a.png", 
-        "latex-59f3e3a16c3cc14ef1fb66c4514f838bf8949eed.png", 
-        "latex-bae5aba07d37ff6ff813107e76260fb31ad5794e.png", 
-        "latex-30b8bb9930eed4cf77d7574af700f64a69b1cede.png", 
-        "latex-10f32377ac67d94f764f12a15ea987e88c85d3e1.png", 
-        "Screen Shot 2016-12-29 at 21.47.09.png", 
-        "latex-e394d1efd05a00d1e561e3dfa8deb80488d8a1a5.png", 
+        "latex-a0a3d6f6d277aa1d3385fb7ca699bf76fc443684.png", 
+        "latex-0ba1d4bef30ac562e9530aa0f854c608398004ad.png", 
+        "latex-4fb382b5e56d61bc1669509bfc060c8deb1d71ef.png", 
+        "latex-75b04387daddfdad2ef55b5a9dfec552ea41db50.png", 
+        "latex-9b0028aaec510244d7dbc28e2e12780485827085.png", 
+        "latex-bcd058eb0d7d28c36bf6545cfe3130ead4e800f6.png", 
+        "latex-691ce47e9b9ad84559f9109385fa5953d9795d9d.png", 
         "latex-52e8ed7a3ba22130ad3984eb2cd413406475a689.png", 
         "latex-4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png", 
         "latex-b9904282b277d5afca7b6fb12f3bb7c5ff616510.png", 
-        "latex-44d261beb855f1876dcb08f0fed9baee49ad69e8.png", 
+        "latex-c3e77f8dac39bd44cff4ca15469c871bab27c02e.png", 
+        "latex-5ea8ed928b547cfbfa26b11d34345f2eed7f1c1d.png", 
+        "latex-0a737670d481129e2ead6d7223437f3cf70ea53f.png", 
+        "latex-f54ff5c88402200c0df0a2a0fe55567448b3fd48.png", 
+        "latex-d460dae1b4b1aed8f27180a9f4c9fbf584e82b52.png", 
+        "CircumscribedAngleTheoremEx1.png", 
+        "latex-804b0f86b861806daac20ec88ade204d0eb2e107.png", 
+        "latex-e8fcc7d5bd2ac6fa5a1256880936848094259d35.png", 
+        "latex-1161d5b4f5777f322eec944fae4e16ccd7359e17.png", 
+        "latex-c938e3f9dea789595c6290070f7975f45bc4300a.png", 
+        "latex-5319c726bf703ac241e2d424ee0cace349fdee1a.png", 
+        "latex-1cdc3131417190b2e4b3a0c4586f592f2c20ae78.png", 
+        "latex-66981fa3920210c6ad8dbe5e968783d5dd7520c3.png", 
+        "latex-54d7d48553f4d9e7ab418118607ea324cbfddfda.png", 
+        "latex-b583c5da82fc9dfee108cfc8bd890a63051a9dbf.png", 
+        "latex-6dcb9b88aaa5f14312835145edf06fb2d0823c29.png", 
+        "latex-ad002ec42c51afe3d50436373e5b29d2207d7651.png", 
+        "latex-d71e0133cf258fc060b666cb7bf05eab0d266c49.png", 
+        "latex-a3e69ad45d49435f1f12bc5385accc3d1f436f5b.png", 
+        "latex-d112c798b935105bbc46454b8414c5489cbb3fab.png", 
+        "latex-8ada738001410f131563551fb68731e4f302048d.png", 
+        "latex-ba52653ca63dc50439864a843917f9bcce58fd61.png", 
+        "latex-afeaab2dc1ee275b7a5f05ec96992e99c3cf14c0.png", 
+        "latex-529288946002099b4d70b89007322683ee0eecfa.png", 
+        "latex-bfeb75fb36b8987924cd73c3c30c75435bd3b4ba.png", 
+        "latex-5e465c20041e8cc36ab086deda00884d12687ee4.png", 
+        "latex-4be8f0ec495e316144c03396fbdd79804a50340a.png", 
+        "latex-2c175f60eecef1de7560c3bdea495d69f26f719d.png", 
+        "latex-2554b6496c3b678897e9b060ef00aa9f0a7d7ece.png", 
+        "latex-f2ca003a7da0de4994b4733e203b74ff52d42553.png", 
+        "latex-921aade3100afbc11d0d13f71cdd7e68d83ad52e.png", 
+        "latex-eaf4418fbe935c15a606516d8f55dc380cd8e822.png", 
+        "latex-da61bb0fa48fe71269aebf9c8e56b39275813994.png", 
+        "latex-dce34f4dfb2406144304ad0d6106c5382ddd1446.png", 
+        "latex-3a626cdd578305db7cb5ad5c78037075792579f9.png", 
+        "latex-8e238eaaf8c240c1709629c4135d4f11b84063c3.png", 
+        "latex-16810075998c1cb7aa7f359e24ec8de4a667c88b.png", 
+        "latex-e264f19881909d23e076e29aafc8317f501e9ddf.png", 
+        "latex-0a42a8b725c200085e5253db2d2fbf8dab898a8f.png", 
+        "latex-59f3e3a16c3cc14ef1fb66c4514f838bf8949eed.png", 
+        "latex-ef8362e1f78725beb1de44c30360f0a10d0d3c82.png", 
+        "latex-30b8bb9930eed4cf77d7574af700f64a69b1cede.png", 
+        "latex-ce4588fd900d02afcbd260bc07f54cce49a7dc4a.png", 
+        "Screen Shot 2016-12-29 at 21.47.09.png", 
+        "latex-e394d1efd05a00d1e561e3dfa8deb80488d8a1a5.png", 
+        "latex-0027034d8a10372a06deaf4f4084c01956587479.png", 
+        "latex-16437af730db11afc5b2beb97a59363da68e6ec3.png", 
+        "latex-a7d995d5ddd65feb69ea390e5b41df73030327c0.png", 
+        "latex-ee47ee2a025b1bfdcc0b7f6daa914131295b7714.png", 
+        "Screen Shot 2016-12-29 at 21.49.45.png", 
+        "latex-b9c39789e3991f7b3192ece401c0871fc13b6f04.png", 
+        "latex-881c68972c4df8765304074ae5ca713ff6d4d799.png", 
+        "latex-3cadd89f74f0c94d1306d31bf48ddb7d8bd8d049.png", 
+        "latex-39795f81156bbed65c4d683a0cf2d29262593a62.png", 
+        "latex-8dac8c0b57943c0227682fbddaa9eebc0426ac54.png", 
+        "latex-3de624f086ee8e9a31e2720ed786aba646327cbb.png", 
+        "latex-d792ba6fac8dc00a5626659c0b9cf56716701f3d.png", 
+        "latex-2ee1351d93de3b16c9ccb3b41d6110db63e87aa8.png", 
+        "latex-9e2b196e9b7e57d1ec99f6534c581ea9759d2170.png", 
+        "latex-a3a59bb1293ee3f6dec19de4019a7178874219ae.png", 
+        "latex-43ce4f96ac9ede941fe252c05235d19c83f7bc4e.png", 
+        "latex-bae5aba07d37ff6ff813107e76260fb31ad5794e.png", 
+        "latex-18e3ba1a47536f89120c3ec5da27881741ee0f21.png", 
+        "latex-ccfd1641d037d427d9dbf42cdd54b485a03eafe9.png", 
+        "latex-4854c1a755ace05a64cd1bcb0c9814f8fc8973f8.png", 
+        "latex-192183d3cee1c1da8e27b38f28e82ae9f230de44.png", 
+        "latex-9a32e414f13071a85f52c90ce88e25332fd2152c.png", 
+        "latex-4a2c4a9171005f41c31dc1e7423881d31788008a.png", 
+        "latex-b0cf57d5bb314cb8feccb200f39ce77c3e8a1b6c.png", 
+        "latex-08b37549addb92da83c1b842518c22328f331746.png", 
+        "latex-e6ffbe0cb0b8d47bd10eec85fb336adf7694f896.png", 
+        "latex-337ad1668743dbd93c83c5a92d2667841619d6d4.png", 
+        "latex-b6c0288c4271c6150e490afa1e6f3d5fbf490d01.png", 
+        "latex-bd7e6a0d380937c33586961e28ff939d94dcd6f1.png", 
+        "latex-bf92317e8baf996e3628d6f6636aa8282a89d7eb.png", 
+        "latex-f5451590e41b731933710d9f34b93b6dd2994139.png", 
+        "latex-a081c47e17c33d9fa8b85bc7cc3ed00cca4f8b35.png", 
+        "latex-ce4fdc09ad6e22c87ac2b5d36e39199322fb4698.png", 
+        "latex-a321d1b883ba985b1f59ca076beaaf17aa8ab06c.png", 
+        "latex-121cd605cf7dc1e301ccc7c17f9ad3cb39ca2c84.png", 
+        "latex-1cffe4de61d5305be383137a99b0101e74c0f2db.png", 
+        "latex-dfeb65e6fab95d1a595364cd16488627b3db17d1.png", 
+        "latex-ddbfea9651f1525cf71b3e41d82b3207972d7a2d.png", 
+        "latex-866f0204648be9ca6b10e14dd72295295dd53a79.png", 
+        "latex-6f2a8482362eab4cd6e0e4980f3f7306de1fc88f.png", 
+        "latex-d8f17ebc95f1d650ec4c809d9657e6d894ce93bb.png", 
+        "latex-327a43563ed80eabce335bbe6b048cf242edb055.png", 
+        "latex-52e28a55487878d0cbe02ca0e44f98808f3d3879.png", 
+        "latex-3a6cfdf962f9f78464b21ded0c6311cd8413ccb0.png", 
+        "latex-ccc037c2e90e0f2554e3d0d67b7a963398c313b1.png", 
+        "latex-b5e0019e6bb3107e429d9ba3f9bf9e4d617f30c3.png", 
+        "latex-8ecf62303fe605236f7f98ddebf657c8866bc2f8.png", 
+        "latex-3243b0201974298da01e0e70408fe6629a7b2146.png", 
+        "latex-0704fe5b59be666f20925f34b3f949c7f9247876.png", 
         "latex-a5544786abebf78b0ef72b5241cdb1196effabd2.png", 
+        "latex-51da37d984564162c87710ca27bea422f657fb73.png", 
+        "latex-34857b3ba74ce5cd8607f3ebd23e9015908ada71.png", 
         "latex-03a45952f8115322d2879f7d090126f059757ba0.png", 
-        "latex-4b051e6a2cd8671fa772a9ae55068de5f910ce63.png", 
+        "latex-fda38f45a64bbd4451aedeeb4584e01d91239172.png", 
         "latex-dfb064112b6c94470339f6571f69d07afc1c024c.png", 
         "latex-0fda51aabf3fa68a72ba3b46518abc175c76dab2.png", 
-        "CircumscribedAngleTheoremEx1.png", 
-        "latex-3cadd89f74f0c94d1306d31bf48ddb7d8bd8d049.png", 
-        "latex-6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png", 
-        "latex-eabbb6e0ff2ee1372444a313b487ac27dc0c132a.png", 
-        "latex-b85bbfb165b853d6f5f9734be4cdabbb453f4e43.png", 
-        "latex-a321d1b883ba985b1f59ca076beaaf17aa8ab06c.png", 
-        "latex-d091cd93291a02d01c92bdc835e0b73f7faed864.png", 
-        "latex-4cb280ca8699d235832ccc038024a0e215b1a047.png", 
-        "latex-18e3ba1a47536f89120c3ec5da27881741ee0f21.png", 
-        "latex-54d7d48553f4d9e7ab418118607ea324cbfddfda.png", 
-        "latex-ccfd1641d037d427d9dbf42cdd54b485a03eafe9.png", 
+        "latex-3b777a79f19daf5ed262a89d36871485f63781cb.png", 
+        "latex-d739dce93fc8643bb7690924eee89c228bd3074f.png", 
+        "latex-e7fe4fc87a1b38d0b6f1f34da3c84a3fd3cb64c6.png", 
+        "latex-d97ef4abe2de155c5e1a576662fa2e9e87a4f6cd.png", 
+        "latex-fdb63b9e51abe6bbb16acfb5d7b773ddbb5bf4a8.png", 
+        "latex-2f2bf0ea526c70ebc6486e1a12971fafbdbab8a6.png", 
         "latex-2d295c3b71504a216422e5fffdfbad742c7add64.png", 
-        "latex-fda38f45a64bbd4451aedeeb4584e01d91239172.png", 
-        "latex-9a32e414f13071a85f52c90ce88e25332fd2152c.png", 
-        "latex-6dcb9b88aaa5f14312835145edf06fb2d0823c29.png", 
-        "latex-027f4a11d6090f9eac0ce2488df6384dad1263ea.png", 
-        "latex-913e49ea63c6c130bb8d9d1c3556b052ecc404f8.png", 
-        "latex-d71e0133cf258fc060b666cb7bf05eab0d266c49.png", 
-        "latex-e6ffbe0cb0b8d47bd10eec85fb336adf7694f896.png", 
-        "latex-ba52653ca63dc50439864a843917f9bcce58fd61.png", 
+        "latex-7e335b83b5b1f5ffded9a4b5e48c6427d33e08b6.png", 
+        "latex-a7ef1eef320e474683dd0df0af5e0576e6fc2849.png", 
+        "latex-600c0a8d9dc8f3fa390e5be72344d24193260cdf.png", 
+        "latex-5678ef519ba739e7e500bbeda45a6bfb0c508809.png", 
+        "latex-58e77c3d70f718ce45e6dcf3066eb1d7c060f931.png", 
+        "latex-a69ee38e0dff3b901ae6653b730b32506f5bdaa7.png", 
+        "latex-05d143ee24c45bf3ac36d708a4d1b86851b8845f.png", 
+        "latex-6fb300dacfcde1b57ad070409262b1743e0cd966.png", 
         "latex-8c325612684d41304b9751c175df7bcc0f61f64f.png", 
         "latex-89db07258d2e7a1c9aac138b7c1846645bdf79eb.png", 
-        "Screen Shot 2016-12-29 at 21.49.45.png", 
+        "latex-85127826a8d0119decf3073fe365ba74fe648688.png", 
+        "latex-3eabe6c97f03e413d1aa3c292e9478f286e64df1.png", 
+        "latex-32b1c49f2f8ec91159dae8dad65d3dea97689ec3.png", 
+        "latex-357adf75e47e0365114ff07b9a41301c93b560ca.png", 
+        "latex-ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png", 
+        "latex-84a617726b2b88d64503d56be739a4880b4f3ac3.png", 
+        "latex-5e46ba9c72f86769fb14a32f8eb271bc440e2061.png", 
+        "latex-fa35d9fc104207e09a712110ac81612c5b279a6c.png", 
+        "latex-1aaac9dd19564d770191f619cf02267664c27bfa.png", 
+        "latex-d35db02982222b2ed57327df056c3844a2628752.png", 
+        "latex-4e0d84e699ac67df014db5c69cd6347789327d10.png", 
+        "latex-7cde38ea4e9c7c27027d0e08c40040a13ea48277.png", 
+        "latex-7d06ffc58f7729a7ab2b0b18c3b7ca9ebab0278f.png", 
+        "latex-d6a7ccf879c4a4fe694033606332cb83806db296.png", 
         "Screen Shot 2016-12-29 at 23.07.26.png", 
-        "latex-f5451590e41b731933710d9f34b93b6dd2994139.png", 
+        "latex-5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png", 
+        "latex-c8f77e3035db5fe9a4975967750ac1a6454bda8c.png", 
+        "latex-174fadd07fd54c9afe288e96558c92e0c1da733a.png", 
+        "latex-f8f4e233cbd90fc482d9e34def76d72033116329.png", 
+        "latex-11303cd923877716bbb6fde144d09687260910fb.png", 
+        "latex-a94c504beef546a33494a7820d5fbd2a1658200e.png", 
+        "latex-063330d788d61e14b55adc0a3c08f0dc65954a1a.png", 
+        "latex-2d8c833ed800824727cd7bd2fb9de1a12ad7e674.png", 
+        "latex-b1902d279ba37d60bdce4e0e987b7cd19d48974e.png", 
+        "latex-44d261beb855f1876dcb08f0fed9baee49ad69e8.png", 
+        "latex-4b051e6a2cd8671fa772a9ae55068de5f910ce63.png", 
+        "latex-335977913022df1fb3a473f90be2743ad42ada67.png", 
+        "latex-6c911e6dd243d0a3984022b3cfed1081e6b519d3.png", 
+        "latex-134004c561e4c0cca193dbf5122e5ca963dd5b7f.png", 
+        "latex-bb5e108fdc4bf4fb6151cb922992f23bc6c35985.png", 
+        "latex-d318ee6fd84b189978c97c035a4b3d18c453cf6b.png", 
+        "latex-9bba90b7eb819db060976383dd8c0a6e733fe35e.png", 
+        "latex-1dc1c0119a604b91be9142370dc3159b6a9bbcb9.png", 
+        "latex-d0a55feba64f27388840df4a58a487fb6813f086.png", 
+        "latex-eabbb6e0ff2ee1372444a313b487ac27dc0c132a.png", 
+        "latex-b85bbfb165b853d6f5f9734be4cdabbb453f4e43.png", 
+        "latex-65c852956c1310702ba8734b41cd21afd9bb64f7.png", 
+        "latex-98e85a50c97dd5280dcbd2400e1ae8c4681cb2bb.png", 
+        "latex-d091cd93291a02d01c92bdc835e0b73f7faed864.png", 
+        "latex-b8fc201eec518e2509cdf369292d7247e494c283.png", 
+        "latex-4cb280ca8699d235832ccc038024a0e215b1a047.png", 
+        "latex-98c5c8c04bc457aa09fefeb13f39d4a5053b4974.png", 
+        "latex-e131bb60b1b75a055d9b487af06c46ca906c4065.png", 
+        "latex-027f4a11d6090f9eac0ce2488df6384dad1263ea.png", 
+        "latex-913e49ea63c6c130bb8d9d1c3556b052ecc404f8.png", 
+        "latex-0d282dad0c2d4ce54aed0c412855531420c9f51f.png", 
+        "latex-10f32377ac67d94f764f12a15ea987e88c85d3e1.png", 
+        "latex-019e9892786e493964e145e7c5cf7b700314e53b.png", 
+        "latex-f2b1cffd475cb9e0dbbb66da52e4eddacf38286e.png", 
+        "latex-e2a63918a6fa75b62ad87ad17aaf65f782d71546.png", 
+        "latex-9db9c285157b8b9ecccc567f3f5c526f0ada4ed3.png", 
         "latex-7af4f46fd0cf5cdbed23e67e7896f64cb380ee52.png"
     ], 
     "mid": "1488238597068", 
@@ -113,7 +250,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"_dark4.css\");\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 25;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+4;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\n</script><style>", 
+            "css": "@import url(\"dark4.css\");\nmark { font-weight: bold; }\n.front.Forward .legend.backtype, .front.Reverse .legend.fronttype { visibility: hidden; }\narticle img { width: 100%; }\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 35;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+5;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\n// setInterval(function(){ if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }, 500);\n// setInterval(function(){ currentDeckMessages();  }, 500);\n\nfunction resize(e) { if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }\nwindow.onclicke = window.onresize = resize;\n\n\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -211,27 +348,25 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "bash"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Technical Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<blockquote>\n{{#BackType}}\n<var class=\"q\">{{#FrontType}}{{FrontType}} to {{/FrontType}}{{BackType}}</var>\n{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">What is this {{FrontType}}</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<div class=\"legend fronttype\">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}}{{/FrontType}}</div>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<div class=\"legend backtype\">{{#BackType}}{{BackType}}{{/BackType}}{{^BackType}}{{Deck}}{{/BackType}}</div>\n<blockquote>\n{{#BackType}}<var class=\"q\">{{BackType}}</var>{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">meaning</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Technical Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary></summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>\n{{Back}}\n</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Reverse", 
                     "ord": 1, 
-                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<mark id=\"title\">\n{{#FrontType}}\n\n{{#BackType}}\n<var class=\"q\">{{BackType}} to {{FrontType}}</var>\n{{/BackType}}\n{{^BackType}}\n<var class=\"q\">{{FrontType}}</var>\n{{/BackType}}\n\n\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n{{/FrontType}}\n</mark>\n</section>\n\n<section>\n<blockquote>{{Back}}</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
+                    "qfmt": "{{#ShowReversed}}\n<article data-deck=\"{{Deck}}\" class=\"front {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n\n<div class=\"legend fronttype\">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}}{{/FrontType}}</div>\n<mark id=\"title\">\n{{#FrontType}}<var class=\"q\">{{FrontType}}</var>{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck Other Technical Politics Science\">{{Subdeck}} meaning</var>\n<var class=\"q subdeck English\">word or phrase</var>\n<var class=\"q subdeck Spanish\">en español</var>\n{{/FrontType}}\n</mark>\n\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>\n{{Back}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();</script>\n{{/ShowReversed}}"
                 }
             ], 
             "type": 0, 
@@ -243,27 +378,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  1", 
-                "", 
-                "2", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "D=qM?YU};/", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "multiplication"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "2 ×  2", 
+                "2 × 2", 
                 "", 
                 "4", 
                 "", 
@@ -283,7 +398,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  3", 
+                "2 × 3", 
                 "", 
                 "6", 
                 "", 
@@ -303,7 +418,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  4", 
+                "2 × 4", 
                 "", 
                 "8", 
                 "", 
@@ -323,7 +438,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  5", 
+                "2 × 5", 
                 "", 
                 "10", 
                 "", 
@@ -343,7 +458,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  6", 
+                "2 × 6", 
                 "", 
                 "12", 
                 "", 
@@ -363,7 +478,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  7", 
+                "2 × 7", 
                 "", 
                 "14", 
                 "", 
@@ -383,7 +498,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  8", 
+                "2 × 8", 
                 "", 
                 "16", 
                 "", 
@@ -403,7 +518,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  9", 
+                "2 × 9", 
                 "", 
                 "18", 
                 "", 
@@ -423,7 +538,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  10", 
+                "2 × 10", 
                 "", 
                 "20", 
                 "", 
@@ -443,7 +558,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  11", 
+                "2 × 11", 
                 "", 
                 "22", 
                 "", 
@@ -463,7 +578,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  12", 
+                "2 × 12", 
                 "", 
                 "24", 
                 "", 
@@ -483,7 +598,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  13", 
+                "2 × 13", 
                 "", 
                 "26", 
                 "", 
@@ -503,7 +618,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  14", 
+                "2 × 14", 
                 "", 
                 "28", 
                 "", 
@@ -523,7 +638,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  15", 
+                "2 × 15", 
                 "", 
                 "30", 
                 "", 
@@ -543,7 +658,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  16", 
+                "2 × 16", 
                 "", 
                 "32", 
                 "", 
@@ -563,7 +678,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  17", 
+                "2 × 17", 
                 "", 
                 "34", 
                 "", 
@@ -583,7 +698,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  18", 
+                "2 × 18", 
                 "", 
                 "36", 
                 "", 
@@ -603,7 +718,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  19", 
+                "2 × 19", 
                 "", 
                 "38", 
                 "", 
@@ -623,7 +738,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "2 ×  20", 
+                "2 × 20", 
                 "", 
                 "40", 
                 "", 
@@ -643,27 +758,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  1", 
-                "", 
-                "3", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "hU?ZC,K]qE", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "multiplication"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "3 ×  2", 
+                "3 × 2", 
                 "", 
                 "6", 
                 "", 
@@ -683,7 +778,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  3", 
+                "3 × 3", 
                 "", 
                 "9", 
                 "", 
@@ -703,7 +798,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  4", 
+                "3 × 4", 
                 "", 
                 "12", 
                 "", 
@@ -723,7 +818,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  5", 
+                "3 × 5", 
                 "", 
                 "15", 
                 "", 
@@ -743,7 +838,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  6", 
+                "3 × 6", 
                 "", 
                 "18", 
                 "", 
@@ -763,7 +858,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  7", 
+                "3 × 7", 
                 "", 
                 "21", 
                 "", 
@@ -783,7 +878,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  8", 
+                "3 × 8", 
                 "", 
                 "24", 
                 "", 
@@ -803,7 +898,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  9", 
+                "3 × 9", 
                 "", 
                 "27", 
                 "", 
@@ -823,7 +918,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  10", 
+                "3 × 10", 
                 "", 
                 "30", 
                 "", 
@@ -843,7 +938,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  11", 
+                "3 × 11", 
                 "", 
                 "33", 
                 "", 
@@ -863,7 +958,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  12", 
+                "3 × 12", 
                 "", 
                 "36", 
                 "", 
@@ -883,7 +978,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  13", 
+                "3 × 13", 
                 "", 
                 "39", 
                 "", 
@@ -903,7 +998,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  14", 
+                "3 × 14", 
                 "", 
                 "42", 
                 "", 
@@ -923,7 +1018,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  15", 
+                "3 × 15", 
                 "", 
                 "45", 
                 "", 
@@ -943,7 +1038,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  16", 
+                "3 × 16", 
                 "", 
                 "48", 
                 "", 
@@ -963,7 +1058,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  17", 
+                "3 × 17", 
                 "", 
                 "51", 
                 "", 
@@ -983,7 +1078,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  18", 
+                "3 × 18", 
                 "", 
                 "54", 
                 "", 
@@ -1003,7 +1098,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  19", 
+                "3 × 19", 
                 "", 
                 "57", 
                 "", 
@@ -1023,7 +1118,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "3 ×  20", 
+                "3 × 20", 
                 "", 
                 "60", 
                 "", 
@@ -1043,27 +1138,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  1", 
-                "", 
-                "4", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "h}1/nMd&tE", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "multiplication"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "4 ×  2", 
+                "4 × 2", 
                 "", 
                 "8", 
                 "", 
@@ -1083,7 +1158,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  3", 
+                "4 × 3", 
                 "", 
                 "12", 
                 "", 
@@ -1103,7 +1178,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  4", 
+                "4 × 4", 
                 "", 
                 "16", 
                 "", 
@@ -1123,7 +1198,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  5", 
+                "4 × 5", 
                 "", 
                 "20", 
                 "", 
@@ -1143,7 +1218,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  6", 
+                "4 × 6", 
                 "", 
                 "24", 
                 "", 
@@ -1163,7 +1238,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  7", 
+                "4 × 7", 
                 "", 
                 "28", 
                 "", 
@@ -1183,7 +1258,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  8", 
+                "4 × 8", 
                 "", 
                 "32", 
                 "", 
@@ -1203,7 +1278,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  9", 
+                "4 × 9", 
                 "", 
                 "36", 
                 "", 
@@ -1223,7 +1298,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  10", 
+                "4 × 10", 
                 "", 
                 "40", 
                 "", 
@@ -1243,7 +1318,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  11", 
+                "4 × 11", 
                 "", 
                 "44", 
                 "", 
@@ -1263,7 +1338,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  12", 
+                "4 × 12", 
                 "", 
                 "48", 
                 "", 
@@ -1283,7 +1358,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  13", 
+                "4 × 13", 
                 "", 
                 "52", 
                 "", 
@@ -1303,7 +1378,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  14", 
+                "4 × 14", 
                 "", 
                 "56", 
                 "", 
@@ -1323,7 +1398,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  15", 
+                "4 × 15", 
                 "", 
                 "60", 
                 "", 
@@ -1343,7 +1418,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  16", 
+                "4 × 16", 
                 "", 
                 "64", 
                 "", 
@@ -1363,7 +1438,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  17", 
+                "4 × 17", 
                 "", 
                 "68", 
                 "", 
@@ -1383,7 +1458,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  18", 
+                "4 × 18", 
                 "", 
                 "72", 
                 "", 
@@ -1403,7 +1478,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  19", 
+                "4 × 19", 
                 "", 
                 "76", 
                 "", 
@@ -1423,7 +1498,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "4 ×  20", 
+                "4 × 20", 
                 "", 
                 "80", 
                 "", 
@@ -1443,27 +1518,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  1", 
-                "", 
-                "5", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "yO,]{q|uXv", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "multiplication"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "5 ×  2", 
+                "5 × 2", 
                 "", 
                 "10", 
                 "", 
@@ -1483,7 +1538,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  3", 
+                "5 × 3", 
                 "", 
                 "15", 
                 "", 
@@ -1503,7 +1558,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  4", 
+                "5 × 4", 
                 "", 
                 "20", 
                 "", 
@@ -1523,7 +1578,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  5", 
+                "5 × 5", 
                 "", 
                 "25", 
                 "", 
@@ -1543,7 +1598,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  6", 
+                "5 × 6", 
                 "", 
                 "30", 
                 "", 
@@ -1563,7 +1618,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  7", 
+                "5 × 7", 
                 "", 
                 "35", 
                 "", 
@@ -1583,7 +1638,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  8", 
+                "5 × 8", 
                 "", 
                 "40", 
                 "", 
@@ -1603,7 +1658,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  9", 
+                "5 × 9", 
                 "", 
                 "45", 
                 "", 
@@ -1623,7 +1678,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  10", 
+                "5 × 10", 
                 "", 
                 "50", 
                 "", 
@@ -1643,7 +1698,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  11", 
+                "5 × 11", 
                 "", 
                 "55", 
                 "", 
@@ -1663,7 +1718,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  12", 
+                "5 × 12", 
                 "", 
                 "60", 
                 "", 
@@ -1683,7 +1738,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  13", 
+                "5 × 13", 
                 "", 
                 "65", 
                 "", 
@@ -1703,7 +1758,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  14", 
+                "5 × 14", 
                 "", 
                 "70", 
                 "", 
@@ -1723,7 +1778,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  15", 
+                "5 × 15", 
                 "", 
                 "75", 
                 "", 
@@ -1743,7 +1798,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  16", 
+                "5 × 16", 
                 "", 
                 "80", 
                 "", 
@@ -1763,7 +1818,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  17", 
+                "5 × 17", 
                 "", 
                 "85", 
                 "", 
@@ -1783,7 +1838,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  18", 
+                "5 × 18", 
                 "", 
                 "90", 
                 "", 
@@ -1803,7 +1858,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  19", 
+                "5 × 19", 
                 "", 
                 "95", 
                 "", 
@@ -1823,7 +1878,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "5 ×  20", 
+                "5 × 20", 
                 "", 
                 "100", 
                 "", 
@@ -1843,27 +1898,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  1", 
-                "", 
-                "6", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "n=(2La]$}5", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "multiplication"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "6 ×  2", 
+                "6 × 2", 
                 "", 
                 "12", 
                 "", 
@@ -1883,7 +1918,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  3", 
+                "6 × 3", 
                 "", 
                 "18", 
                 "", 
@@ -1903,7 +1938,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  4", 
+                "6 × 4", 
                 "", 
                 "24", 
                 "", 
@@ -1923,7 +1958,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  5", 
+                "6 × 5", 
                 "", 
                 "30", 
                 "", 
@@ -1943,7 +1978,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  6", 
+                "6 × 6", 
                 "", 
                 "36", 
                 "", 
@@ -1963,7 +1998,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  7", 
+                "6 × 7", 
                 "", 
                 "42", 
                 "", 
@@ -1976,6 +2011,7 @@
             "guid": "Pg&Z@#3(o*", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -1983,7 +2019,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  8", 
+                "6 × 8", 
                 "", 
                 "48", 
                 "", 
@@ -1996,6 +2032,7 @@
             "guid": "gD=6oZ,OwH", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -2003,7 +2040,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  9", 
+                "6 × 9", 
                 "", 
                 "54", 
                 "", 
@@ -2016,6 +2053,7 @@
             "guid": "F=(v`EW%jT", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -2023,7 +2061,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  10", 
+                "6 × 10", 
                 "", 
                 "60", 
                 "", 
@@ -2043,7 +2081,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  11", 
+                "6 × 11", 
                 "", 
                 "66", 
                 "", 
@@ -2063,7 +2101,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  12", 
+                "6 × 12", 
                 "", 
                 "72", 
                 "", 
@@ -2083,7 +2121,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  13", 
+                "6 × 13", 
                 "", 
                 "78", 
                 "", 
@@ -2103,7 +2141,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  14", 
+                "6 × 14", 
                 "", 
                 "84", 
                 "", 
@@ -2123,7 +2161,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  15", 
+                "6 × 15", 
                 "", 
                 "90", 
                 "", 
@@ -2143,7 +2181,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  16", 
+                "6 × 16", 
                 "", 
                 "96", 
                 "", 
@@ -2163,7 +2201,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  17", 
+                "6 × 17", 
                 "", 
                 "102", 
                 "", 
@@ -2183,7 +2221,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  18", 
+                "6 × 18", 
                 "", 
                 "108", 
                 "", 
@@ -2203,7 +2241,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  19", 
+                "6 × 19", 
                 "", 
                 "114", 
                 "", 
@@ -2223,7 +2261,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "6 ×  20", 
+                "6 × 20", 
                 "", 
                 "120", 
                 "", 
@@ -2243,27 +2281,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  1", 
-                "", 
-                "7", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "lYohroRStz", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "multiplication"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "7 ×  2", 
+                "7 × 2", 
                 "", 
                 "14", 
                 "", 
@@ -2283,7 +2301,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  3", 
+                "7 × 3", 
                 "", 
                 "21", 
                 "", 
@@ -2303,7 +2321,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  4", 
+                "7 × 4", 
                 "", 
                 "28", 
                 "", 
@@ -2323,7 +2341,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  5", 
+                "7 × 5", 
                 "", 
                 "35", 
                 "", 
@@ -2343,7 +2361,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  6", 
+                "7 × 6", 
                 "", 
                 "42", 
                 "", 
@@ -2356,6 +2374,7 @@
             "guid": "p!LO=iaGIU", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -2363,7 +2382,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  7", 
+                "7 × 7", 
                 "", 
                 "49", 
                 "", 
@@ -2383,7 +2402,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  8", 
+                "7 × 8", 
                 "", 
                 "56", 
                 "", 
@@ -2396,6 +2415,7 @@
             "guid": "BskD@gr;Z:", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -2403,7 +2423,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  9", 
+                "7 × 9", 
                 "", 
                 "63", 
                 "", 
@@ -2416,6 +2436,7 @@
             "guid": "RbNbc|;h2z", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -2423,7 +2444,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  10", 
+                "7 × 10", 
                 "", 
                 "70", 
                 "", 
@@ -2443,7 +2464,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  11", 
+                "7 × 11", 
                 "", 
                 "77", 
                 "", 
@@ -2463,7 +2484,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  12", 
+                "7 × 12", 
                 "", 
                 "84", 
                 "", 
@@ -2483,7 +2504,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  13", 
+                "7 × 13", 
                 "", 
                 "91", 
                 "", 
@@ -2503,7 +2524,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  14", 
+                "7 × 14", 
                 "", 
                 "98", 
                 "", 
@@ -2523,7 +2544,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  15", 
+                "7 × 15", 
                 "", 
                 "105", 
                 "", 
@@ -2543,7 +2564,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  16", 
+                "7 × 16", 
                 "", 
                 "112", 
                 "", 
@@ -2563,7 +2584,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  17", 
+                "7 × 17", 
                 "", 
                 "119", 
                 "", 
@@ -2583,7 +2604,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  18", 
+                "7 × 18", 
                 "", 
                 "126", 
                 "", 
@@ -2603,7 +2624,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  19", 
+                "7 × 19", 
                 "", 
                 "133", 
                 "", 
@@ -2623,7 +2644,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "7 ×  20", 
+                "7 × 20", 
                 "", 
                 "140", 
                 "", 
@@ -2643,27 +2664,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  1", 
-                "", 
-                "8", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "LaKi73CX[^", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "multiplication"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "8 ×  2", 
+                "8 × 2", 
                 "", 
                 "16", 
                 "", 
@@ -2683,7 +2684,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  3", 
+                "8 × 3", 
                 "", 
                 "24", 
                 "", 
@@ -2703,7 +2704,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  4", 
+                "8 × 4", 
                 "", 
                 "32", 
                 "", 
@@ -2723,7 +2724,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  5", 
+                "8 × 5", 
                 "", 
                 "40", 
                 "", 
@@ -2743,7 +2744,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  6", 
+                "8 × 6", 
                 "", 
                 "48", 
                 "", 
@@ -2756,6 +2757,7 @@
             "guid": "D!sPo`,OHX", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -2763,7 +2765,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  7", 
+                "8 × 7", 
                 "", 
                 "56", 
                 "", 
@@ -2776,6 +2778,7 @@
             "guid": "j|?qw-n~G@", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -2783,7 +2786,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  8", 
+                "8 × 8", 
                 "", 
                 "64", 
                 "", 
@@ -2803,7 +2806,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  9", 
+                "8 × 9", 
                 "", 
                 "72", 
                 "", 
@@ -2816,6 +2819,7 @@
             "guid": "cu4X]<c.g-", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -2823,7 +2827,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  10", 
+                "8 × 10", 
                 "", 
                 "80", 
                 "", 
@@ -2843,7 +2847,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  11", 
+                "8 × 11", 
                 "", 
                 "88", 
                 "", 
@@ -2863,7 +2867,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  12", 
+                "8 × 12", 
                 "", 
                 "96", 
                 "", 
@@ -2883,7 +2887,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  13", 
+                "8 × 13", 
                 "", 
                 "104", 
                 "", 
@@ -2903,7 +2907,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  14", 
+                "8 × 14", 
                 "", 
                 "112", 
                 "", 
@@ -2923,7 +2927,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  15", 
+                "8 × 15", 
                 "", 
                 "120", 
                 "", 
@@ -2943,7 +2947,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  16", 
+                "8 × 16", 
                 "", 
                 "128", 
                 "", 
@@ -2963,7 +2967,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  17", 
+                "8 × 17", 
                 "", 
                 "136", 
                 "", 
@@ -2983,7 +2987,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  18", 
+                "8 × 18", 
                 "", 
                 "144", 
                 "", 
@@ -3003,7 +3007,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  19", 
+                "8 × 19", 
                 "", 
                 "152", 
                 "", 
@@ -3023,7 +3027,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "8 ×  20", 
+                "8 × 20", 
                 "", 
                 "160", 
                 "", 
@@ -3043,27 +3047,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  1", 
-                "", 
-                "9", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "A;*kU`z`NV", 
-            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "tags": [
-                "multiplication"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "9 ×  2", 
+                "9 × 2", 
                 "", 
                 "18", 
                 "", 
@@ -3083,7 +3067,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  3", 
+                "9 × 3", 
                 "", 
                 "27", 
                 "", 
@@ -3103,7 +3087,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  4", 
+                "9 × 4", 
                 "", 
                 "36", 
                 "", 
@@ -3123,7 +3107,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  5", 
+                "9 × 5", 
                 "", 
                 "45", 
                 "", 
@@ -3143,7 +3127,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  6", 
+                "9 × 6", 
                 "", 
                 "54", 
                 "", 
@@ -3156,6 +3140,7 @@
             "guid": "MZH@2BnD~^", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -3163,7 +3148,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  7", 
+                "9 × 7", 
                 "", 
                 "63", 
                 "", 
@@ -3176,6 +3161,7 @@
             "guid": "I6n*Qk*T7.", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -3183,7 +3169,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  8", 
+                "9 × 8", 
                 "", 
                 "72", 
                 "", 
@@ -3196,6 +3182,7 @@
             "guid": "b(>BGkOk|M", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": [
+                "basics", 
                 "multiplication"
             ]
         }, 
@@ -3203,7 +3190,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  9", 
+                "9 × 9", 
                 "", 
                 "81", 
                 "", 
@@ -3223,7 +3210,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  10", 
+                "9 × 10", 
                 "", 
                 "90", 
                 "", 
@@ -3243,7 +3230,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  11", 
+                "9 × 11", 
                 "", 
                 "99", 
                 "", 
@@ -3263,7 +3250,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  12", 
+                "9 × 12", 
                 "", 
                 "108", 
                 "", 
@@ -3283,7 +3270,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  13", 
+                "9 × 13", 
                 "", 
                 "117", 
                 "", 
@@ -3303,7 +3290,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  14", 
+                "9 × 14", 
                 "", 
                 "126", 
                 "", 
@@ -3323,7 +3310,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  15", 
+                "9 × 15", 
                 "", 
                 "135", 
                 "", 
@@ -3343,7 +3330,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  16", 
+                "9 × 16", 
                 "", 
                 "144", 
                 "", 
@@ -3363,7 +3350,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  17", 
+                "9 × 17", 
                 "", 
                 "153", 
                 "", 
@@ -3383,7 +3370,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  18", 
+                "9 × 18", 
                 "", 
                 "162", 
                 "", 
@@ -3403,7 +3390,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  19", 
+                "9 × 19", 
                 "", 
                 "171", 
                 "", 
@@ -3423,7 +3410,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "9 ×  20", 
+                "9 × 20", 
                 "", 
                 "180", 
                 "", 
@@ -9859,7 +9846,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "sine in terms of the sides of a right triangle", 
+                "sine&nbsp;in terms of right triangle sides", 
                 "", 
                 "[$]\\sin=\\frac{\\text{opposite}}{\\text{hypotenuse}}[/$]", 
                 "", 
@@ -9877,7 +9864,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "cosine in terms of the sides of a right triangle", 
+                "cosine in terms of right triangle sides", 
                 "", 
                 "[$]\\cos=\\frac{\\text{adjacent}}{\\text{hypotenuse}}[/$]", 
                 "", 
@@ -9913,7 +9900,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "cosecant in terms of the sides of a right triangle", 
+                "cosecant&nbsp;in terms of right triangle sides", 
                 "", 
                 "[$]\\csc=\\frac{\\text{hypotenuse}}{\\text{opposite}}[/$]", 
                 "", 
@@ -9931,7 +9918,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "secant in terms of the sides of a right triangle", 
+                "secant in terms of right triangle sides", 
                 "", 
                 "[$]\\sec=\\frac{\\text{hypotenuse}}{\\text{adjacent}}[/$]", 
                 "", 
@@ -9949,7 +9936,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "cotangent in terms of the sides of a right triangle", 
+                "cotangent in terms of right triangle sides", 
                 "", 
                 "[$]\\cot=\\frac{\\text{adjacent}}{\\text{opposite}}[/$]", 
                 "", 
@@ -10988,6 +10975,26 @@
             "guid": "I3]mX^IYbb", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "sum of numbers from 1 to&nbsp;<span style=\"white-space: nowrap\"><i><span></span><span><span></span><span aria-hidden=\"true\"><span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><mi>n</mi></mrow></semantics></math></span></span></span></span></i></span>", 
+                "", 
+                "<mn>\\sum_{k=1}^n =&nbsp;</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo>\\frac{n}{2} =&nbsp;\\frac{n^{2}+n}{2}", 
+                "", 
+                "", 
+                "reverse", 
+                "", 
+                "https://www.khanacademy.org/computing/computer-science/algorithms/sorting-algorithms/a/selection-sort-pseudocode"
+            ], 
+            "flags": 0, 
+            "guid": "P)8[k-|lxf", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "algorithms"
+            ]
         }
     ]
 }

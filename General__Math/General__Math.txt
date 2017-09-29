@@ -1,183 +1,117 @@
-2 ×  1		2						multiplication
-2 ×  2		4						multiplication
-2 ×  3		6						multiplication
-2 ×  4		8						multiplication
-2 ×  5		10						multiplication
-2 ×  6		12						multiplication
-2 ×  7		14						multiplication
-2 ×  8		16						multiplication
-2 ×  9		18						multiplication
-2 ×  10		20						multiplication
-2 ×  11		22						multiplication
-2 ×  12		24						multiplication
-2 ×  13		26						multiplication
-2 ×  14		28						multiplication
-2 ×  15		30						multiplication
-2 ×  16		32						multiplication
-2 ×  17		34						multiplication
-2 ×  18		36						multiplication
-2 ×  19		38						multiplication
-2 ×  20		40						multiplication
-3 ×  1		3						multiplication
-3 ×  2		6						multiplication
-3 ×  3		9						multiplication
-3 ×  4		12						multiplication
-3 ×  5		15						multiplication
-3 ×  6		18						multiplication
-3 ×  7		21						multiplication
-3 ×  8		24						multiplication
-3 ×  9		27						multiplication
-3 ×  10		30						multiplication
-3 ×  11		33						multiplication
-3 ×  12		36						multiplication
-3 ×  13		39						multiplication
-3 ×  14		42						multiplication
-3 ×  15		45						multiplication
-3 ×  16		48						multiplication
-3 ×  17		51						multiplication
-3 ×  18		54						multiplication
-3 ×  19		57						multiplication
-3 ×  20		60						multiplication
-4 ×  1		4						multiplication
-4 ×  2		8						multiplication
-4 ×  3		12						multiplication
-4 ×  4		16						multiplication
-4 ×  5		20						multiplication
-4 ×  6		24						multiplication
-4 ×  7		28						multiplication
-4 ×  8		32						multiplication
-4 ×  9		36						multiplication
-4 ×  10		40						multiplication
-4 ×  11		44						multiplication
-4 ×  12		48						multiplication
-4 ×  13		52						multiplication
-4 ×  14		56						multiplication
-4 ×  15		60						multiplication
-4 ×  16		64						multiplication
-4 ×  17		68						multiplication
-4 ×  18		72						multiplication
-4 ×  19		76						multiplication
-4 ×  20		80						multiplication
-5 ×  1		5						multiplication
-5 ×  2		10						multiplication
-5 ×  3		15						multiplication
-5 ×  4		20						multiplication
-5 ×  5		25						multiplication
-5 ×  6		30						multiplication
-5 ×  7		35						multiplication
-5 ×  8		40						multiplication
-5 ×  9		45						multiplication
-5 ×  10		50						multiplication
-5 ×  11		55						multiplication
-5 ×  12		60						multiplication
-5 ×  13		65						multiplication
-5 ×  14		70						multiplication
-5 ×  15		75						multiplication
-5 ×  16		80						multiplication
-5 ×  17		85						multiplication
-5 ×  18		90						multiplication
-5 ×  19		95						multiplication
-5 ×  20		100						multiplication
-6 ×  1		6						multiplication
-6 ×  2		12						multiplication
-6 ×  3		18						multiplication
-6 ×  4		24						multiplication
-6 ×  5		30						multiplication
-6 ×  6		36						multiplication
-6 ×  7		42						multiplication
-6 ×  8		48						multiplication
-6 ×  9		54						multiplication
-6 ×  10		60						multiplication
-6 ×  11		66						multiplication
-6 ×  12		72						multiplication
-6 ×  13		78						multiplication
-6 ×  14		84						multiplication
-6 ×  15		90						multiplication
-6 ×  16		96						multiplication
-6 ×  17		102						multiplication
-6 ×  18		108						multiplication
-6 ×  19		114						multiplication
-6 ×  20		120						multiplication
-7 ×  1		7						multiplication
-7 ×  2		14						multiplication
-7 ×  3		21						multiplication
-7 ×  4		28						multiplication
-7 ×  5		35						multiplication
-7 ×  6		42						multiplication
-7 ×  7		49						multiplication
-7 ×  8		56						multiplication
-7 ×  9		63						multiplication
-7 ×  10		70						multiplication
-7 ×  11		77						multiplication
-7 ×  12		84						multiplication
-7 ×  13		91						multiplication
-7 ×  14		98						multiplication
-7 ×  15		105						multiplication
-7 ×  16		112						multiplication
-7 ×  17		119						multiplication
-7 ×  18		126						multiplication
-7 ×  19		133						multiplication
-7 ×  20		140						multiplication
-8 ×  1		8						multiplication
-8 ×  2		16						multiplication
-8 ×  3		24						multiplication
-8 ×  4		32						multiplication
-8 ×  5		40						multiplication
-8 ×  6		48						multiplication
-8 ×  7		56						multiplication
-8 ×  8		64						multiplication
-8 ×  9		72						multiplication
-8 ×  10		80						multiplication
-8 ×  11		88						multiplication
-8 ×  12		96						multiplication
-8 ×  13		104						multiplication
-8 ×  14		112						multiplication
-8 ×  15		120						multiplication
-8 ×  16		128						multiplication
-8 ×  17		136						multiplication
-8 ×  18		144						multiplication
-8 ×  19		152						multiplication
-8 ×  20		160						multiplication
-9 ×  1		9						multiplication
-9 ×  2		18						multiplication
-9 ×  3		27						multiplication
-9 ×  4		36						multiplication
-9 ×  5		45						multiplication
-9 ×  6		54						multiplication
-9 ×  7		63						multiplication
-9 ×  8		72						multiplication
-9 ×  9		81						multiplication
-9 ×  10		90						multiplication
-9 ×  11		99						multiplication
-9 ×  12		108						multiplication
-9 ×  13		117						multiplication
-9 ×  14		126						multiplication
-9 ×  15		135						multiplication
-9 ×  16		144						multiplication
-9 ×  17		153						multiplication
-9 ×  18		162						multiplication
-9 ×  19		171						multiplication
-9 ×  20		180						multiplication
+2 × 2		4						multiplication
+2 × 3		6						multiplication
+2 × 10		20						multiplication
+2 × 11		22						multiplication
+2 × 13		26						multiplication
+2 × 14		28						multiplication
+2 × 15		30						multiplication
+2 × 16		32						multiplication
+2 × 18		36						multiplication
+2 × 19		38						multiplication
+2 × 20		40						multiplication
+3 × 5		15						multiplication
+3 × 7		21						multiplication
+3 × 9		27						multiplication
+3 × 10		30						multiplication
+3 × 11		33						multiplication
+3 × 12		36						multiplication
+3 × 13		39						multiplication
+3 × 15		45						multiplication
+3 × 16		48						multiplication
+3 × 17		51						multiplication
+3 × 20		60						multiplication
+4 × 2		8						multiplication
+4 × 4		16						multiplication
+4 × 7		28						multiplication
+4 × 10		40						multiplication
+4 × 11		44						multiplication
+4 × 13		52						multiplication
+4 × 14		56						multiplication
+4 × 15		60						multiplication
+4 × 16		64						multiplication
+4 × 17		68						multiplication
+4 × 18		72						multiplication
+4 × 20		80						multiplication
+5 × 3		15						multiplication
+5 × 4		20						multiplication
+5 × 5		25						multiplication
+5 × 6		30						multiplication
+5 × 7		35						multiplication
+5 × 10		50						multiplication
+5 × 11		55						multiplication
+5 × 15		75						multiplication
+5 × 16		80						multiplication
+5 × 17		85						multiplication
+5 × 18		90						multiplication
+5 × 19		95						multiplication
+6 × 2		12						multiplication
+6 × 5		30						multiplication
+6 × 7		42						basics multiplication
+6 × 8		48						basics multiplication
+6 × 10		60						multiplication
+6 × 11		66						multiplication
+6 × 12		72						multiplication
+6 × 13		78						multiplication
+6 × 14		84						multiplication
+6 × 15		90						multiplication
+6 × 16		96						multiplication
+6 × 17		102						multiplication
+7 × 2		14						multiplication
+7 × 3		21						multiplication
+7 × 5		35						multiplication
+7 × 7		49						multiplication
+7 × 8		56						basics multiplication
+7 × 9		63						basics multiplication
+7 × 11		77						multiplication
+7 × 12		84						multiplication
+7 × 14		98						multiplication
+7 × 15		105						multiplication
+7 × 16		112						multiplication
+7 × 17		119						multiplication
+7 × 19		133						multiplication
+8 × 3		24						multiplication
+8 × 4		32						multiplication
+8 × 5		40						multiplication
+8 × 7		56						basics multiplication
+8 × 9		72						basics multiplication
+8 × 10		80						multiplication
+8 × 11		88						multiplication
+8 × 12		96						multiplication
+8 × 13		104						multiplication
+8 × 14		112						multiplication
+8 × 15		120						multiplication
+8 × 16		128						multiplication
+8 × 17		136						multiplication
+8 × 18		144						multiplication
+8 × 19		152						multiplication
+8 × 20		160						multiplication
+9 × 4		36						multiplication
+9 × 7		63						basics multiplication
+9 × 8		72						basics multiplication
+9 × 10		90						multiplication
+9 × 11		99						multiplication
+9 × 12		108						multiplication
+9 × 13		117						multiplication
+9 × 14		126						multiplication
+9 × 15		135						multiplication
+9 × 17		153						multiplication
+9 × 18		162						multiplication
+9 × 19		171						multiplication
+9 × 20		180						multiplication
 10 ×  1		10						multiplication
 10 ×  2		20						multiplication
 10 ×  3		30						multiplication
 10 ×  4		40						multiplication
-10 ×  5		50						multiplication
 10 ×  6		60						multiplication
 10 ×  7		70						multiplication
-10 ×  8		80						multiplication
 10 ×  9		90						multiplication
 10 ×  10		100						multiplication
-10 ×  11		110						multiplication
 10 ×  12		120						multiplication
 10 ×  13		130						multiplication
 10 ×  14		140						multiplication
 10 ×  15		150						multiplication
 10 ×  16		160						multiplication
-10 ×  17		170						multiplication
 10 ×  18		180						multiplication
-10 ×  19		190						multiplication
-10 ×  20		200						multiplication
 11 ×  1		11						multiplication
 11 ×  2		22						multiplication
 11 ×  3		33						multiplication
@@ -199,23 +133,16 @@
 11 ×  19		209						multiplication
 11 ×  20		220						multiplication
 12 ×  1		12						multiplication
-12 ×  2		24						multiplication
 12 ×  3		36						multiplication
 12 ×  4		48						multiplication
 12 ×  5		60						multiplication
 12 ×  6		72						multiplication
 12 ×  7		84						multiplication
 12 ×  8		96						multiplication
-12 ×  9		108						multiplication
 12 ×  10		120						multiplication
 12 ×  11		132						multiplication
-12 ×  12		144						multiplication
-12 ×  13		156						multiplication
-12 ×  14		168						multiplication
-12 ×  15		180						multiplication
 12 ×  16		192						multiplication
 12 ×  17		204						multiplication
-12 ×  18		216						multiplication
 12 ×  19		228						multiplication
 12 ×  20		240						multiplication
 13 ×  1		13						multiplication
@@ -242,7 +169,6 @@
 14 ×  2		28						multiplication
 14 ×  3		42						multiplication
 14 ×  4		56						multiplication
-14 ×  5		70						multiplication
 14 ×  6		84						multiplication
 14 ×  7		98						multiplication
 14 ×  8		112						multiplication
@@ -251,10 +177,8 @@
 14 ×  11		154						multiplication
 14 ×  12		168						multiplication
 14 ×  13		182						multiplication
-14 ×  14		196						multiplication
 14 ×  15		210						multiplication
 14 ×  16		224						multiplication
-14 ×  17		238						multiplication
 14 ×  18		252						multiplication
 14 ×  19		266						multiplication
 14 ×  20		280						multiplication
@@ -287,17 +211,14 @@
 16 ×  7		112						multiplication
 16 ×  8		128						multiplication
 16 ×  9		144						multiplication
-16 ×  10		160						multiplication
 16 ×  11		176						multiplication
 16 ×  12		192						multiplication
 16 ×  13		208						multiplication
 16 ×  14		224						multiplication
-16 ×  15		240						multiplication
 16 ×  16		256						multiplication
 16 ×  17		272						multiplication
 16 ×  18		288						multiplication
 16 ×  19		304						multiplication
-16 ×  20		320						multiplication
 17 ×  1		17						multiplication
 17 ×  2		34						multiplication
 17 ×  3		51						multiplication
@@ -460,7 +381,6 @@ equation: combinations of [$]k[/$] items from [$]n[/$] total		[$]_nC_k = \frac{n
 equation: Law of Sines		[$]\frac{\sin(A)}{a}=\frac{\sin(B)}{b}=\frac{\sin(C)}{c}[/$]						
 equation: Law of Cosines		[$]a^2=b^2+c^2-2bc\cos(A)[/$]						
 equation: [$]\cos(x)[/$] in terms of [$]\sin[/$]		[$]\cos(x)=\sin(90-x)[/$] or [$]\cos(x)=\sin(\frac{\pi}{2}-x)[/$]						
-circumscribed angle		"angle formed by lines just touching a circle from a point, where those lines are at a right angle to the line from the center of the circle to the point of contact with the circle<div><img src=""CircumscribedAngleTheoremEx1.png"" /></div>"						
 Is [$]\cos[/$] even or odd?		Even: [$]\cos(x)=\cos(-x)[/$]						
 Is [$]\sin[/$] even or odd?		Odd: [$]\sin(-x)=-\sin(x)[/$] and [$]\sin(x)=-\sin(-x)[/$]						
 Is [$]\tan[/$] even or odd?		Odd: [$]\tan(-x)=-\tan(x)[/$] and [$]\tan(x)=-\tan(-x)[/$]						
@@ -468,7 +388,6 @@ How does tangent relate to slope?		Tangent is the slope: [$]\tan=\frac{\sin}{\co
 [$]\tau[/$] (trigonometry)		symbol: trigonometry: [$]\frac{circumference}{radius}[/$]						
 [$]\pi[/$] in terms of [$]\tau[/$] (trigonometry)		equation: trigonometry: [$]\tau=2\pi[/$]						
 [$]\sin^2(x)+\cos^2(x)[/$]		[$]\sin^2(x)+\cos^2(x)=1[/$]						
-Pythagorean identity		[$]\sin^2(x)+\cos^2(x)=1[/$]						
 Euler‘s formula		[$]e^{i\theta}=\cos(\theta)+i\sin(\theta)[/$]						
 Euler‘s identity		[$]e^{i\pi}+1=0[/$] or [$]e^{i\tau}=1[/$]						
 [$]\sqrt{-1}[/$]		[$]i[/$]						
@@ -484,18 +403,16 @@ equation: line: point-slope form		[$]y-y_1=m(x-x_1)[/$]
 equation: line: slope-intercept form		[$]y=mx+b[/$]						
 equation: line: standard form		[$]Ax+By=C[/$]						
 equation: line: two-intercept form		[$]\frac{x}{a}+\frac{y}{b}=1[/$]						
-relatively prime		simplified as much as possible, no common factors						
 Is [$][...][/$] inclusive or exclusive?		[$][...][/$] is inclusive and [$](...)[/$] is exclusive						
 equation: axis of symmetry of parabola		[$]x=-\frac{b}{2a}[/$]						
 How can you tell if parabola opens down from the standard form equation?		Parabola is concave down if [$]a&lt;0[/$]						
 [$]81^\frac{3}{4}[/$]		[$]81^\frac{3}{4}=3^3=27[/$]						
 Definition of [$]e[/$]		[$]\lim_{n\to\infty} (1+\frac{1}{n})^n=e[/$]						
-sine in terms of the sides of a right triangle		[$]\sin=\frac{\text{opposite}}{\text{hypotenuse}}[/$]						
-cosine in terms of the sides of a right triangle		[$]\cos=\frac{\text{adjacent}}{\text{hypotenuse}}[/$]						
+sine&nbsp;in terms of right triangle sides		[$]\sin=\frac{\text{opposite}}{\text{hypotenuse}}[/$]						
+cosine in terms of right triangle sides		[$]\cos=\frac{\text{adjacent}}{\text{hypotenuse}}[/$]						
 tangent in terms of the sides of a right triangle		[$]\tan=\frac{\text{opposite}}{\text{adjacent}}[/$]						
-cosecant in terms of the sides of a right triangle		[$]\csc=\frac{\text{hypotenuse}}{\text{opposite}}[/$]						
-secant in terms of the sides of a right triangle		[$]\sec=\frac{\text{hypotenuse}}{\text{adjacent}}[/$]						
-cotangent in terms of the sides of a right triangle		[$]\cot=\frac{\text{adjacent}}{\text{opposite}}[/$]						
+cosecant&nbsp;in terms of right triangle sides		[$]\csc=\frac{\text{hypotenuse}}{\text{opposite}}[/$]						
+cotangent in terms of right triangle sides		[$]\cot=\frac{\text{adjacent}}{\text{opposite}}[/$]						
 cosecant in terms of sine, cosine or tangent		[$]\csc=\frac{1}{\sin}[/$]						
 secant in terms of sine, cosine or tangent		[$]\sec=\frac{1}{\cos}[/$]						
 cotangent in terms of sine, cosine or tangent		[$]\cot=\frac{1}{\tan}[/$]						
@@ -542,14 +459,8 @@ Reason for gold plated electrical circuit contacts		<div>1. Gold is the least li
 144 to 192 by 12s		<pre></pre><pre>12: 144 13: 156 14: 168 15: 180 16: 192<br /></pre>						
 192 to 240 by 12s		<pre></pre><pre></pre><pre>16: 192 17: 204 18: 216 19: 228 20: 240</pre>						
 unary operation		operation with only one operand, i.e. a single input						
-algorithm: 2 machine scheduling		Order tasks by duration, start shortest task for first machine and finish with shortest task for second machine.				"<style type=""text/css""> p, li { white-space: pre-wrap; } </style> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><!--StartFragment-->Johnson’s algorithm (2 machine scheduling)<!--EndFragment--></p>"	Algorithms to Live By	
 algorithm: minimize lateness		earliest due date strategy (all that matters is when tasks due, doesn't matter how long they will take to complete) (customer service)					Algorithms to Live By	
 algorithm: minimize number of late items		ignore largest unfinished item every time we become late, size of late tasks doesn't matter and they can therefore be done in any order since they are all already late					Algorithms to Live By	
 algorithm: minimize sum of completion times		start with shortest processing time to shrink number of outstanding tasks quickly as possible		debt snowball: payment by size to reduce number of debts and hassle			Algorithms to Live By	
-algorithm: minimize sum of weighted completion times		"minimizing total oppression by dividing weight of each task by how long it will take to finish, and work in order of ""density"", so only prioritze a task that takes twice as long if it's twice as important"		contracting, debt avalanche: payment by interest rate to reduce debt burden			Algorithms to Live By	
-precrastination		hastening subgoal completion prioritizes reducing number of items so is optimizing on unweighted shortest processing time					Algorithms to Live By	
 precedence constraint		when a task depends on another task being completed					Algorithms to Live By	
-priority inversion and precedence constraints		high priority task blocked by low priority task that is paused to get high priority tasks done. fix by automatic inheritance of priority by low tasks if required by high tasks					Algorithms to Live By	
-intractible scheduling problems		scheduling becomes intractible when some tasks depend on other tasks or some tasks cannot be done until a specific time. 9% of scheduling can be solved and 90% proven intractible					Algorithms to Live By	
-scheduling problems with preemption		<div>being able to stop a task to work on another task makes the problem tractible: when a task's starting time comes, compare that task to the one currently underway. work on the one with the earliest due date, or the one that can be completed first if working on shortest processing time</div>					Algorithms to Live By	
-algorithm: general scheduling		<div>as soon as task comes in, divide its weight by time to complete and switch to it if greater than that value for the currently being worked on task.</div>		note: knowing all this ahead of time makes the problem intractible, but deciding as things comes in yields this optimal strategy. clairvoyance can be a burden!			Algorithms to Live By	
+"sum of numbers from 1 to&nbsp;<span style=""white-space: nowrap""><i><span></span><span><span></span><span aria-hidden=""true""><span class=""katex""><span class=""katex-mathml""><math><semantics><mrow><mi>n</mi></mrow></semantics></math></span></span></span></span></i></span>"		<mn>\sum_{k=1}^n =&nbsp;</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo>\frac{n}{2} =&nbsp;\frac{n^{2}+n}{2}			reverse		https://www.khanacademy.org/computing/computer-science/algorithms/sorting-algorithms/a/selection-sort-pseudocode	algorithms
