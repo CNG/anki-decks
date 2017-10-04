@@ -41216,7 +41216,7 @@
                         "Python builtin function", 
                         "<p>As <code class=\"xref py py-func docutils literal\"><span class=\"pre\">repr()</span></code>, return a string containing a printable representation of an\nobject, but escape the non-ASCII characters in the string returned by\n<code class=\"xref py py-func docutils literal\"><span class=\"pre\">repr()</span></code> using <code class=\"docutils literal\"><span class=\"pre\">\\x</span></code>, <code class=\"docutils literal\"><span class=\"pre\">\\u</span></code> or <code class=\"docutils literal\"><span class=\"pre\">\\U</span></code> escapes.  This generates a string\nsimilar to that returned by <code class=\"xref py py-func docutils literal\"><span class=\"pre\">repr()</span></code> in Python 2.</p>", 
                         "", 
-                        "<p><code>ascii(<em>object</em>)<em><em>object</em></em></code></p>", 
+                        "<p><code>ascii(<em>object</em>)<em></em><em>object</em></code></p>", 
                         "reverse", 
                         "<code>ascii()</code>", 
                         "https://docs.python.org/3.6/library/functions.html"
@@ -54380,7 +54380,7 @@
             "fields": [
                 "Why monitor?", 
                 "SRE concept", 
-                "<div><div><div><ul style=\"margin-left: 20px; \"><li><b>Analyzing long-term trends</b><br />How big is my database and how fast is it growing? How quickly is my daily-active user count growing?&nbsp;</li><li><b>Comparing over time or experiment groups</b><br />Are queries faster with Acme Bucket of Bytes 2.72 versus Ajax DB 3.14? How much better is my memcache hit rate with an extra node? Is my site slower than it was last week?</li><li><b>Alerting</b><br />Something is broken, and somebody needs to fix it right now! Or, something might break soon, so somebody should look soon.&nbsp;</li><li><b>Building dashboards</b><br />Dashboards should answer basic questions about your service, and normally include some form of the four golden signals (discussed in “The Four Golden Signals”).</li><li><b>Conducting ad hoc retrospective analysis (i.e., debugging)</b><br />Our latency just shot up; what else happened around the same time?</li></ul></div></div></div>", 
+                "<div><div><div><ul style=\"margin-left: 20px; \"><li><b>Analyzing long-term trends</b><br>How big is my database and how fast is it growing? How quickly is my daily-active user count growing?&nbsp;</li><li><b>Comparing over time or experiment groups</b><br>Are queries faster with Acme Bucket of Bytes 2.72 versus Ajax DB 3.14? How much better is my memcache hit rate with an extra node? Is my site slower than it was last week?</li><li><b>Alerting</b><br>Something is broken, and somebody needs to fix it right now! Or, something might break soon, so somebody should look soon.&nbsp;</li><li><b>Building dashboards</b><br>Dashboards should answer basic questions about your service, and normally include some form of the four golden signals (discussed in “The Four Golden Signals”).</li><li><b>Conducting ad hoc retrospective analysis (i.e., debugging)</b><br>Our latency just shot up; what else happened around the same time?</li></ul></div></div></div>", 
                 "", 
                 "", 
                 "reverse", 
