@@ -1,0 +1,124 @@
+@font-face { font-family: "Local Optima"; src: url('_Optima-Regular.ttf'); }
+@font-face { font-family: "Local Optima"; src: url('_Optima-Bold.ttf'); font-weight: bold; }
+@font-face { font-family: "Local Optima"; src: url('_Optima-BoldItalic.ttf'); font-weight: bold; font-style: italic; }
+@font-face { font-family: "Local Optima"; src: url('_Optima-Italic.ttf'); font-style: italic; }
+@font-face { font-family: "Local Input Mono Narrow"; src: url('_InputMonoNarrow-Medium.ttf'); }
+@font-face { font-family: "Local Input Mono Narrow"; src: url('_InputMonoNarrow-MediumItalic.ttf'); font-style: italic; }
+@font-face { font-family: "Local Input Mono Narrow"; src: url('_InputMonoNarrow-Black.ttf'); font-weight: bold; }
+@font-face { font-family: "Local Input Mono Narrow"; src: url('_InputMonoNarrow-BlackItalic.ttf'); font-weight: bold; font-style: italic; }
+body { margin: 5%; }
+html.mobile body { margin: 1%; }
+.card {
+  font-family: "Optima", "Local Optima";
+  font-size: 60px;
+  text-align: center;
+  background-color: #002b36;
+  color: #93a1a1; /* grey */
+}
+code, tt, .codehilite pre, kbd { font-family: "Input Mono Narrow", "Local Input Mono Narrow", monospace; }
+.regexnest1, .regexplain, .regexspecial, .regexnest2, .regexnest3, .regexccopen, .regexccspecial, .regexccliteral, .regexescaped, .regexccrange, .regexcomment, .regexerr, .regexmeta, .replaceplain, .characterstring, .comment, .numericconstant, .reservedword {
+  font-family: "Input Mono Narrow", "Local Input Mono Narrow", monospace;
+}
+.card ul, .card li {
+  text-align: left !important;
+}
+section, blockquote { margin-bottom: 0.5em; }
+br { display: block; margin-top: 0.25em; content: " "; }
+code {
+  letter-spacing: -0.05em;
+  font-variant-ligatures: none !important;
+  font-variant: none !important;
+}
+
+pre, code, tt { white-space: pre-wrap; }
+pre { white-space: pre; }
+blockquote code, details code { word-spacing: inherit; letter-spacing: inherit; }
+a { color: inherit; text-decoration: none; }
+a:hover { color: #d33682; }
+img.latex { padding: 1em; background: #fff; }
+kbd {
+  border-radius: 5px;
+  color: #002b36;
+  background-color: #ddd;
+  padding: 0.08em 0.14em 0 0;
+  font-size: 84%;
+  line-height: 80%;
+  position: relative;
+  top: -0.06em;
+  display: inline-block;
+  text-align: center;
+}
+div.codehilite { background: inherit !important; }
+
+blockquote { margin: 0; font-size: 0.75em; }
+blockquote pre { font-size: 0.75em; }
+
+mark, cite { font-size: 1em; }
+mark, cite { font-weight: bold; }
+blockquote { color: #268bd2; /* blue */ }
+mark { background-color: inherit; color: #2aa198; /* cyan */ }
+cite { font-style: inherit; color: #268bd2; /* blue */ }
+mark strong, mark b { color: #d75f00; /* brred */ }
+cite strong, cite b { color: #6c71c4; /* violet */ }
+var { color: #d75f00; /* brred */ }
+var.q { color: #b58900; /* yellow */ }
+var.q:after { content: '?'; }
+small.subdeck { position: absolute; display: inline-block; top: 0; right: 0; color: #6c71c4; font-size: 18px; font-weight: normal; }
+
+details { font-size: 0.5em; margin-top: 1em; }
+.decap:first-letter { text-transform: lowercase; }
+
+samp, em code, i code, code em, code i { color: #6c71c4; /* violet */ }
+strong code, b code, code strong, code b { color: #2aa198; /* cyan */ }
+cite strong code, cite b code, cite code strong, cite code b, strong code cite, b code cite, code strong cite, code b cite {
+  color: #6c71c4; /* violet */
+}
+em blockquote, i blockquote, blockquote em, blockquote i { color: #6c71c4; /* violet */ }
+strong blockquote, b blockquote, blockquote strong, blockquote b { color: #2aa198; /* cyan */ }
+blockquote code, blockquote tt { color: #cb4b16; /* orange */ }
+/* mark code { color: #268bd2; /* blue  } */
+code i, i code, tt i, i tt, pre i, i pre, code em, em code, tt em, em tt, pre em, em pre { xpadding-left: 0.1em; xpadding-right: 0.35em; font-style: normal; }
+.front strike { text-decoration: none; display: inline-block; width: 4em; overflow: hidden; text-indent: -9000px; box-shadow: inset 0 -5px 0 #b58900;}
+.back strike { text-decoration: none; }
+
+/* styles from www.regular-expressions.info */
+.regexnest1 { color: #000000; background-color: #60F040; }
+.regexplain { background-color: #FFE0C0; }
+.regexspecial { color: #000080; background-color: #80C0FF; }
+.regexnest2 { color: #000000; background-color: #00C000; }
+.regexnest3 { color: #FFFFFF; background-color: #006000; }
+.regexccopen { color: #181000; background-color: #FFC040; font-weight: bold; }
+.regexccspecial { color: #181000; background-color: #F09000; }
+.regexccliteral { color: #302000; background-color: #FFC040; }
+.regexescaped { color: #202020; background-color: #C0C0C0; }
+.regexccrange { color: #302000; background-color: #F8A820; }
+.regexcomment { color: #0000FF; background-color: #FFE0C0; font-weight: bold; font-style: italic; }
+.regexerr { color: #FFFFFF; background-color: #FF0000; }
+.regexmeta { color: #300040; background-color: #C080FF; }
+.replaceplain { background-color: #FFF860; }
+.characterstring { color: #0000FF; }
+.comment { color: #FF0000; font-style: italic; }
+.numericconstant { color: #000080; }
+.reservedword { font-weight: bold; }
+tt.match { background-color: #C0E0FF; }
+tt.string { background-color: #C0FFC0; }
+
+.CNGBasic mark code { color: #d75f00; /* brred */ }
+details { color: inherit; }
+
+.legend {
+  font-size:25%;xline-height:0.15;opacity:0.75;
+  position:relative; top:0.3em;
+}
+img { background-color: #ccc !important; }
+
+
+.CNGBasic mark { font-weight: bold; }
+.CNGBasic.front.Forward .legend.backtype, .CNGBasic.front.Reverse .legend.fronttype { visibility: hidden; }
+article.CNGMulti img, article.CNGBasic img, article.States img, article.can img { max-height: 70%; max-width: 100%; width:auto; }
+.CNGBasic details { color: inherit; }
+.CNGChinese .char, .CNGJapanese .char { font-size:200%;}
+article.Shell > section:first-child {text-align:left; display:inline-block;line-height:1em; white-space: nowrap;}
+article.Shell > section:first-child code { white-space: nowrap;}
+.Shell section {width: 100%;}
+.Shell.front #description, .Shell.front #synopsis, .Shell.front #examples { visibility:hidden; }

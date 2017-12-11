@@ -44,6 +44,7 @@
                 "02.jpg", 
                 "44.jpg", 
                 "01.jpg", 
+                "_dark4.css", 
                 "21.jpg", 
                 "27.jpg", 
                 "34.jpg", 
@@ -678,7 +679,7 @@
         }
     ], 
     "crowdanki_uuid": "5466d345-35b7-11e7-b953-2c56dc924912", 
-    "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+    "deck_config_uuid": "b259e745-de26-11e7-afc7-2c56dc924912", 
     "deck_configurations": [
         {
             "__type__": "DeckConfig", 
@@ -689,17 +690,17 @@
                 "delays": [
                     10
                 ], 
-                "leechAction": 0, 
+                "leechAction": 1, 
                 "leechFails": 10, 
                 "minInt": 1, 
                 "mult": 0.0
             }, 
             "maxTaken": 60, 
-            "name": "Default", 
+            "name": "Slow", 
             "new": {
                 "bury": true, 
                 "delays": [
-                    10, 
+                    40, 
                     120
                 ], 
                 "initialFactor": 2500, 
@@ -708,18 +709,62 @@
                     20
                 ], 
                 "order": 1, 
-                "perDay": 100, 
+                "perDay": 2, 
                 "separate": true
             }, 
             "replayq": true, 
             "rev": {
                 "bury": true, 
-                "ease4": 2.5, 
+                "ease4": 1.3, 
                 "fuzz": 0.05, 
-                "ivlFct": 1.5, 
+                "ivlFct": 1.0, 
                 "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 1000
+                "perDay": 500
+            }, 
+            "timer": 0
+        }, 
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "b259e745-de26-11e7-afc7-2c56dc924912", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    5
+                ], 
+                "leechAction": 1, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 100, 
+                "separate": true
+            }, 
+            "replayq": false, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 2000
             }, 
             "timer": 0
         }
@@ -728,14 +773,16 @@
     "dyn": 0, 
     "extendNew": 10, 
     "extendRev": 50, 
-    "media_files": [], 
+    "media_files": [
+        "_dark4.css"
+    ], 
     "mid": "1475043240989", 
     "name": "General::Politics", 
     "note_models": [
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "65fc2a99-7561-11e7-bf8b-a8667f30bd72", 
-            "css": "@import url(\"dark4.css\");\n", 
+            "css": "@import url(\"_dark4.css\");\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" W:\" + window.outerWidth + \"x\" + window.outerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nif (document.documentElement.className.indexOf('android') !== -1) {\n  var windowHeight = function(){ return window.outerHeight; }\n  var windowWidth = function(){ return window.outerWidth; }\n} else {\n  var windowHeight = function(){ return window.innerHeight; }\n  var windowWidth = function(){ return window.innerWidth; }\n}\n\nvar encodeHTML = function() { document.getElementsByTagName(\"body\")[0].insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:5px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\">' +document.documentElement.outerHTML.replace(/</g,\"<\").replace(/>/g,\">\")+'</div>'); }\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>)/g, '\\u2011'); // changed /-(?![^<]*>|[^<>]*<\\/)/g because targeting within tags too\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 25;\n  if (document.documentElement.className.indexOf('android') !== -1) { bodyFontSizeMin = 14; }\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( windowWidth() >= body.scrollWidth && windowHeight() >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+3;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\nsetInterval(function(){ resize();  }, 500);\n// window.onclick = window.onresize = currentDeckMessages;\nwindow.onresize = currentDeckMessages;\nfunction resize() { if(windowHeight() < body.scrollHeight || windowHeight()-50 > body.clientHeight){ currentDeckMessages(); } }\n\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -776,7 +823,7 @@
             ], 
             "latexPost": "\\end{document}", 
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
-            "name": "Basic-2d749", 
+            "name": "CNGPresidents", 
             "req": [
                 [
                     0, 
@@ -854,7 +901,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"dark4.css\");\nmark { font-weight: bold; }\n.front.Forward .legend.backtype, .front.Reverse .legend.fronttype { visibility: hidden; }\narticle img { width: 100%; }\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 35;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+5;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\n// setInterval(function(){ if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }, 500);\n// setInterval(function(){ currentDeckMessages();  }, 500);\n\nfunction resize(e) { if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }\nwindow.onclicke = window.onresize = resize;\n\n\n</script><style>", 
+            "css": "@import url(\"_dark4.css\");\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" W:\" + window.outerWidth + \"x\" + window.outerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nif (document.documentElement.className.indexOf('android') !== -1) {\n  var windowHeight = function(){ return window.outerHeight; }\n  var windowWidth = function(){ return window.outerWidth; }\n} else {\n  var windowHeight = function(){ return window.innerHeight; }\n  var windowWidth = function(){ return window.innerWidth; }\n}\n\nvar encodeHTML = function() { document.getElementsByTagName(\"body\")[0].insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:5px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\">' +document.documentElement.outerHTML.replace(/</g,\"<\").replace(/>/g,\">\")+'</div>'); }\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>)/g, '\\u2011'); // changed /-(?![^<]*>|[^<>]*<\\/)/g because targeting within tags too\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 25;\n  if (document.documentElement.className.indexOf('android') !== -1) { bodyFontSizeMin = 14; }\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( windowWidth() >= body.scrollWidth && windowHeight() >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+3;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\nsetInterval(function(){ resize();  }, 500);\n// window.onclick = window.onresize = currentDeckMessages;\nwindow.onresize = currentDeckMessages;\nfunction resize() { if(windowHeight() < body.scrollHeight || windowHeight()-50 > body.clientHeight){ currentDeckMessages(); } }\n\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -955,16 +1002,16 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}  {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese English\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<div class=\"legend fronttype\">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}}{{/FrontType}}</div>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<div class=\"legend backtype\">{{#BackType}}{{BackType}}{{/BackType}}{{^BackType}}{{Deck}}{{/BackType}}</div>\n<blockquote>\n{{#BackType}}<var class=\"q\">{{BackType}}</var>{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">meaning</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/20160317/{{text:Front}}--_us_1.mp3\">audio</a>\n</small>\n<div class=\"legend fronttype\">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}}{{/FrontType}}</div>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<div class=\"legend backtype\">{{#BackType}}{{BackType}}{{/BackType}}{{^BackType}}{{Deck}}{{/BackType}}</div>\n<blockquote>\n{{#BackType}}<var class=\"q\">{{BackType}}</var>{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">meaning</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>\n{{Back}}\n</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -1049,6 +1096,44 @@
             "guid": "oVyPuS)(TZ", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "incentive stock options (ISOs)", 
+                "", 
+                "With an ISO, someone doesn’t have to pay tax at the time of exercise on the difference between the exercise price of the option and the fair market value (though there are cases where the alternative minimum tax can come into play). Basically, ISOs mean that startup employees can defer those taxes until they sell the underlying stock and, if they hold it for 1 year from the exercise date (and 2 years from the grant date), can qualify for capital gains tax treatment.", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://a16z.com/2016/08/24/options-ownership/"
+            ], 
+            "flags": 0, 
+            "guid": "K1BHIJBinB", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "non-qualified options (NQOs)", 
+                "", 
+                "less favorable in that someone must pay taxes at the time of exercise, \nregardless of whether they choose to hold the stock longer term. Since \nthe amount of those taxes is calculated on the exercise date, employees \nwould still owe taxes based on the historic, higher price of the stock —\n even if the stock price were to later fall in value.", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "https://a16z.com/2016/08/24/options-ownership/"
+            ], 
+            "flags": 0, 
+            "guid": "A}j)nwONU[", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": [
+                "marked"
+            ]
         }
     ]
 }
