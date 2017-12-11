@@ -1,7 +1,8 @@
-que		that (referring to subject not predicate)			y			
+que		that (subject)			y			
 a …		to, at			y			
 la		the (fem.)			y			
 el		the (masc.)			y			
+ser		to be (used for permanent qualities or states)			y			
 un		a [English word]			y			
 por		by, for			y			
 me		me			y			
@@ -11,10 +12,11 @@ con		with			y
 para		for, in order to			y			
 estar		to be [temporary qualities/states, location, feeling]			y			
 sí		yes			y			
-yo		I			y			
+yo		<code>I</code>			y			
 si		if			y			
 tu		your (informal)			y			
 aquí		here (longer version)		"<img src=""aqui-alli-small.gif"" />"	y			this-that-here-there
+del		of the			y			
 al		to the			y			
 más		more			y			
 esto		<i></i><i>neut.</i>&nbsp;this		"<img src=""aqui-alli-small.gif"" />"	y			this-that-here-there
@@ -23,20 +25,31 @@ ir		to go			y
 haber		to have (auxiliary verb)			y			
 ahora		now			y			
 algo		some (something, somewhat)			y			
+nos		us, ourselves			y			
 nada		nothing (negative - anything)			y			
+este		<i>masc.</i>&nbsp;this		"<img src=""aqui-alli-small.gif"" />"	y			this-that-here-there
+así		like that, thus		"<img src=""aqui-alli-small.gif"" />"	y			this-that-here-there
 poder		to be able to			y			
+cómo		how			y			
 le		him (3rd pers. indirect object pronoun)			y			
 querer		to want, to love, to like			y			
+sólo		only, just			y			
 gracias		thanks			y			
 o		or			y			
+bueno		good			y			
+tú		you (familiar)			y			
+creer		to think, to believe			y			
 ella		she			y			
 ese		<i>masc. </i>that		"<img src=""aqui-alli-small.gif"" />"	y			this-that-here-there
 porque		because			y			
+quien		who, whom, that (not interrogative)			y			
 dos		two			y			
+el tiempo		the time, weather			y			
 la verdad		the truth			y			
 usted		you (polite sing.)			y			
 mucho		much, many, a lot			y			
 entonces		then, at that time			y			
+ahí		there, close to the listener (shorter version)		"<img src=""aqui-alli-small.gif"" />"	y			this-that-here-there
 ti		you<div>(informal, after preposition)</div>			y			
 ver		to see			y			
 alguien		somebody			y			
@@ -52,6 +65,7 @@ mismo		"<div class=""gt-baf-cell gt-baf-translations"" style=""""><span class=""
 ellos		they (masc.)			y			
 pasar		to pass, to happen			y			
 hablar		to speak			y			
+seguro		safe, certain			y			
 el lugar		the place			y			
 el mundo		the world			y			
 esperar		to wait for, to hope for			y			
@@ -62,23 +76,35 @@ el tipo		the type, kind, guy			y
 grande		big, large, grand, great			y			
 nuestro		our			y			
 nuevo		new			y			
+venir		to come			y			
 tres		three			y			
 deber		to have to, to owe			y			
 mal		bad, wrong			y			
 hoy		today			y			
+la mamá		the mom, mum			y			
+importar		to be important, to matter			y			
 tarde		late			y			
+aún		still, yet			y			
+alguno		some (before noun)			y			
 cierto		true, certain			y			
 morir		to die			y			
 salir		to leave, to go out			y			
 allá		there, away from the listener		"<img src=""aqui-alli-small.gif"" />"	y			this-that-here-there
 algún		some (any, used in a question)			y			
+cuidar		to care for, look after			y			
 la cuenta		the count, account, bill (noun)			y			
 casi		almost			y			
 la forma		the shape, form			y			
 caminar		to walk			y			
+hacia		toward			y			
 el niño		the boy, the child			y			
 la historia		the history			y			
+mientras		while			y			
+cuanto		as much as			y			
+cualquier		any; whatever; whichever			y			
 dar		to give			y			
+volver		to return			y			
+listo		clever, ready			y			
 junto		together, next to			y			
 único		unique, only one			y			
 arriba		above [describing a higher area]			y			
@@ -86,21 +112,37 @@ la manera		the way, manner			y
 feliz		happy			y			
 significar		to signify, to mean			y			
 el fin		the end			y			
+llamar		to call			y			
+entrar		to enter			y			
 durante		during			y			
+abajo		down, downstairs, downhill			y			
 llegar		to arrive			y			
+la señora		the lady, Mrs.			y			
+suficiente		sufficient, enough			y			
 la tierra		the earth			y			
+siquiera		at least, if only, even		"<style type=""text/css""> p, li { white-space: pre-wrap; } </style> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><!--StartFragment--><i>conjunction</i></p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><b>even if</b>: Debes ir a la fiesta, siquiera sea para saludar. You should go to the party, even if it’s just to say hello.</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><br /></p><p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><i>adverb</i></p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><b>at least</b>: ¿Puedes intentar siquiera hacer algo de ejercicio hoy?Could you at least try to do some exercise today?</p> <p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><b>even</b>: No fui a la fiesta ni siquiera para ver a los famosos que estaban allí. I didn't go to the party not even to see the celebrities who were there. </p>"	y			
 genial		great, brilliant			y			
 jugar		to play, to bet			y			
 maldito		damned			y			
 aunque		although, though, even though			y			
 igual		"<div class=""gt-baf-cell gt-baf-translations"" style=""""><span class=""gt-baf-back"">equal</span>, <span class=""gt-baf-back"">same</span>, <span class=""gt-baf-back"">like</span>, <span class=""gt-baf-back"">alike</span>, <span class=""gt-baf-back"">even</span>, <span class=""gt-baf-back"">uniform</span></div>"			y			
+la puta		the prostitute			y			
+preguntar		to ask (a question)			y			
+alto		tall, high			y			
+el punto		the point			y			
+mayor		old, great [in magnitude]			y			
+el cuarto		the quarter, room			y			
 la persona		the person			y			
 claro		clearly, of course			y			
+la gente		the people			y			
 la mano		the hand			y			
 el final		the end, final			y			
+bastante		enough, rather			y			
 acá		here, over here (shorter version)		"<img src=""aqui-alli-small.gif"" />"	y			this-that-here-there
 tampoco		neither			y			
+veras		really (v...)			y			
 adónde		where, to which place			y			
+buscar		to search, to seek			y			
 perdón		pardon			y			
 idiota		idiot, idiotic			y			
 pequeño		small			y			
@@ -110,51 +152,79 @@ cambiar		to change, to exchange			y
 llevar		to wear, carry			y			
 el presidente		the president			y			
 os		you (peninsular Spanish)			y			
-el coche		the car (not auto, automóvil, carro or vehículo)			y			
+el coche		the car, <b>auto</b>, <b>automóvil</b>, <b>carro</b>, <b>vehículo</b>			y			
+la orden		the order, command			y			
 además		moreover, in addition			y			
 libre		free (at liberty, available)			y			
+el frente		the front part			y			
 millón		million			y			
+la maldición		the curse			y			
 lamentar		to lament, to regret			y			
 usar		to use, to wear			y			
+ustedes		you (formal plural)			y			
 incluso		even, including			y			
 el dolor		the pain, sorrow			y			
 bañarse		to bathe oneself			y			
-el profesor		the professor, teacher (not maestro)			y			
+el profesor		the professor, teacher, <b>maestro</b>			y			
 dañar		to damage, harm, injure			y			
 demás		rest of, others			y			
+tranquilo		tranquil, quiet, peaceful			y			
 el asunto		the matter, issue			y			
+quedarse		to stay			y			
 todo recto		straight ahead			y			
 placer		to please, to be glad to			y			
+sino		but, but rather, but instead			y			
+andar		to walk, to go			y			
 la novia		the girlfriend			y			
+el trasero		the buttocks, butt			y			
 la música		the music			y			
 empezar		to begin, to start			y			
 estúpido		stupid			y			
 el modo		the way (of being)			y			
+encontrarse		to meet, to encounter			y			
+la Navidad		the Christmas			y			
 penar		to suffer, punish, haunt			y			
+tras		behind, after (position)			y			
 el centro		the center, downtown			y			
+encantar		to enchant, like			y			
 el culo		the backside, breech, buttock			y			
 conseguir		to obtain, to get (often tangible)		<div><b>conseguir</b>: to find, often something you can see and feel.</div><div><b>lograr</b>: to achieve, often something intangible</div><div><b>obtener</b>: to obtain, both intangible and tangible, with a “reach out and catch” feel</div>	y		https://forum.wordreference.com/threads/conseguir-lograr-obtener.95594/	
 gracioso		funny, graceful			y			
 la derecha		the right (direction)			y			
+el próximo		the next, near			y			
 la respuesta		the response, reply, answer			y			
-la señal		the signal, sign (not signo)			y			
+salvo		except, safe			y			
+la señal		the signal, sign, <b>signo</b>			y			
+pelar		to peel			y			
 la nena		the infant, baby			y			
 ellas		they (fem.)			y			
+divertirse		to enjoy yourself			y			
+siguiente		following, after			y			
 el oro		the gold [metal]			y			
 orar		to pray			y			
-enseguida		immediately, at once (not inmediatamente)			y			
+enseguida		immediately, at once, <b>inmediatamente</b>			y			
 alrededor		around, round			y			
+la ley		the law			y			
 verdadero		true, real			y			
+pelear		to fight, quarrel			y			
+crear		to create			y			
 existir		to exist			y			
+través		through, across, over			y			
 cuántos		how many			y			
 la dirección		the address, direction			y			
 el detective		the detective			y			
 el abuelo		the grandfather			y			
+ante		in front of, before [referring to relative position]			y			
 la bienvenida		the welcome			y			
+la base		the base, foundation			y			
+el rato		the short while, an instant			y			
+tender		to stretch, hang, lay, spread			y			
+según		according to			y			
 el papel		the paper, role			y			
 la salida		the exit, departure			y			
 el bar		the bar			y			
 la relación		the relationship			y			
+bromear		to joke			y			
 el radio		the radius			y			
 la investigación		the investigation			y			
 el encuentro		the encounter, meeting			y			
@@ -169,6 +239,7 @@ el orden		the order (as in “we need order in here”)			y
 animal		animal (adjective)			y			
 el sistema		the system			y			
 la carta		the letter, menu			y			
+hermoso		beautiful			y			
 la espalda		the back [anatomy]			y			
 el país		the country, nation			y			
 el programa		the program, schedule			y			
@@ -177,6 +248,7 @@ el cielo		the heaven, sky			y
 suya		hers			y			
 rico		rich, tasty, yummy			y			
 tocar		to touch, to play [an instrument]			y			
+el mando		the command, rule, leadership, <b>dirigente</b>			y			
 formar		to form			y			
 la memoria		the memory			y			
 mover		to move, to shift			y			
@@ -199,9 +271,10 @@ subir		to go up, to rise, to ascend			y
 confiar		to trust, to rely			y			
 el color		the colour, color			y			
 aquel		<i>masc.</i> that over there		"<img src=""aqui-alli-small.gif"" />"	y			this-that-here-there
-tirar		to throw, to toss, to shoot (not echar or lanzar)			y			
+tirar		to throw, to toss, to shoot, <b>echar</b>, <b>lanzar</b>			y			
 principal		principal			y			
 el principal		the principal, director			y			
+respecto		in respect to, in consideration of			y			
 la arte		the art			y			
 brillante		bright, shiny, sparkling, brilliant			y			
 el monstruo		the monster			y			
@@ -211,7 +284,8 @@ la tía		the aunt			y
 largar		to let go, let out			y			
 soler		to be usual/customary, in the habit of			y			
 estupendo		marvelous			y			
-seguramente		surely, certainly (not ciertamente)			y			
+el juicio		the judgment			y			
+seguramente		surely, certainly, <b>ciertamente</b>			y			
 la majestad		the majesty			y			
 ridículo		ridiculous			y			
 culpable		guilty			y			
@@ -221,11 +295,13 @@ el vistazo		the glance, quick look			y
 los pantalones		pants, trousers			y			
 la cinta		the tape, ribbon			y			
 la tontería		the nonsense, silly thing			y			
+botar		to fling, bounce, throw out			y			
 el pedazo		the piece, chunk, morsel			y			
 comenzar		to commence, begin			y			
 la lástima		the pity, shame			y			
+la red		the net, network			y			
 desgraciar		to ruin			y			
-oscuro		dark [as in color]			y			
+oscuro		dark (color)			y			
 embarazar		to get pregnant, impregnate			y			
 curar		to heal, to cure			y			
 arañar		to scratch			y			
@@ -240,13 +316,13 @@ entero		entire, whole			y
 el turno		the turn, shift			y			
 familiar		of the family, familiar			y			
 el diario		the daily newspaper, diary			y			
-diario		daily, every day (d...)			y			
+diario		daily, every day			y			
 apurar		to finish off, drain, hurry			y			
 quieto		quiet, still			y			
-el tamaño		the size, sized (not talla)			y			
+el tamaño		the size, sized, <b>talla</b>			y			
 la pelota		the ball			y			
 el pecho		the chest (on body)			y			
-estrellar		to smash, crash, shatter (e...)			y			
+estrellar		to smash, crash, shatter			y			
 robar		to rob, steal			y			
 amenazar		to menace, threaten			y			
 combatir		to combat, fight			y			
@@ -286,10 +362,10 @@ la palabra		the word			y
 mi		my			y			
 uno		one			y			
 qué		what			y			
-hondo		deep (not profundo, terrible or grave)			y			
+hondo		deep, <b>profundo</b>, <b>terrible</b>, <b>grave</b>			y			
 la semana		the week			y			
 común		common			y			
-el viaje		the journey (not jornada)			y			
+el viaje		the journey, <b>jornada</b>			y			
 el año		the year			y			
 el dinero		the money			y			
 la seguridad		the security, safety			y			
@@ -302,7 +378,7 @@ la noche		the night			y
 dejar		to leave, abandon, quit			y			
 sentir		to feel, regret, be sorry			y			
 mirar		to look at, to watch			y			
-la mitad		the half, middle (not media, medio, or ecuador)			y			
+la mitad		the half, middle, <b>media</b>, <b>medio</b>, <b>ecuador</b>			y			
 la hija		the daughter			y			
 el ojo		the eye			y			
 el destino		the destiny, destination			y			
@@ -313,7 +389,7 @@ tratar		to treat, to try, to be about			y
 la carrera		the career, race (speed)			y			
 el libro		the book			y			
 pensar		to think			y			
-regresar		to regress, to return (not volver, devolver or retornar)			y			
+regresar		to regress, to return, <b>volver</b>, <b>devolve</b>, <b>retornar</b>			y			
 el regalo		the gift, present			y			
 ninguno		none, neither			y			
 la hora		the hour			y			
@@ -350,13 +426,13 @@ el don		the gift, talent			y
 el higo		the fig			y			
 la vida		the life			y			
 el agua		the water			y			
-partir		to depart, cut, leave (not cortar)			y			
+partir		to depart, cut, leave, <b>cortar</b>			y			
 atrás		back, at the back			y			
 el golpe		the blow, knock, bump			y			
 sacar		to take out, to remove, to get			y			
 marchar		to march, leave			y			
 maravilloso		wonderful, marvelous			y			
-el compañero		the colleague, partner, mate (not colega)			y			
+el compañero		the colleague, partner, mate, <b>colega</b>			y			
 suponer		to suppose, to assume			y			
 el fondo		the background, bottom, backyard			y			
 el sexo		the sex, gender			y			
@@ -436,6 +512,7 @@ La actitud de mi jefe hacia las mujeres es un tanto inquietante.		My boss's atti
 He separado un poco de dinero para mis vacaciones de verano.		I've put a bit of money away toward my summer holiday.			reverse		http://www.wordreference.com/es/translation.asp?tranword=towards	
 Me di cuenta enseguida de que todo era mentira.		I realized right away it was all a lie.			reverse		http://www.spanishdict.com/translate/enseguida	
 lograr		to obtain, to get (often intangible)		<div><b>conseguir</b>: to find, often something you can see and feel.</div><div><b>lograr</b>: to achieve, often something intangible</div><div><b>obtener</b>: to obtain, both intangible and tangible, with a “reach out and catch” feel</div>	y		https://forum.wordreference.com/threads/conseguir-lograr-obtener.95594/	
+obtener		to obtain, to get (more active)		<div><b>conseguir</b>: to find, often something you can see and feel.</div><div><b>lograr</b>: to achieve, often something intangible</div><div><b>obtener</b>: to obtain, both intangible and tangible, with a “reach out and catch” feel</div>	y		https://forum.wordreference.com/threads/conseguir-lograr-obtener.95594/	
 el cuerpo		body			reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
 el cuerpo humano		human body			reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
 el cadáver		corpse			reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
@@ -533,6 +610,7 @@ la planta		sole			reverse		http://www.spanishclassonline.com/vocabulary/bodypart
 la arca		arch			reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
 el talón		heel			reverse		http://www.spanishclassonline.com/vocabulary/bodyparts.htm	
 callar		shut up			y			
+Spanish CH		"There’s nothing complicated here. The <strong>CH</strong> in <em>escucha</em> (""listen"") is the same as in “church."" You probably already know it from the famous <em>chorizo</em>!"					https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish	
 Spanish GU		"When <strong>G</strong> is followed by a <strong>U</strong>, it sounds like the <strong>G</strong> in ""guru"" or ""golf."" When it’s followed by an <strong>E</strong> or <strong>I</strong>, the <strong>U</strong> is not pronounced — for example <em>guisante</em> (""pea"") or the well known (but not Spanish) “Guinness!"""					https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish	
 Spanish LL		"In Spain, <strong>LL</strong> is pronounced more or less like an English <strong>J</strong>. In <em>llámame</em> (call me) it sounds similar to the <strong>J</strong> in “jump."" We also pronounce <strong>Y</strong> at the beginning of a word the same way, as in <em>yema</em> (yolk). In most of Latin America, however, folks take the <strong>double-L</strong> a little easier and pronounce it like the <strong>Y</strong> in ""yes."""					https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish	
 Spanish J		"This one doesn’t have an exact parallel in English. The strong <strong>J</strong> we use for <em>jamón</em> is similar to the <strong>H</strong> in “ham"" (but a bit throatier). Plus, <em>jamón</em> actually means ham — BOOM!"					https://www.babbel.com/en/magazine/7-spanish-words-you-ll-struggle-to-pronounce-if-you-are-not-spanish	
