@@ -5,7 +5,7 @@
             "__type__": "Deck", 
             "children": [], 
             "crowdanki_uuid": "54473714-4cde-11e7-8ff2-2c56dc924912", 
-            "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+            "deck_config_uuid": "b259e745-de26-11e7-afc7-2c56dc924912", 
             "desc": "", 
             "dyn": 0, 
             "extendNew": 10, 
@@ -756,7 +756,7 @@
             "__type__": "Deck", 
             "children": [], 
             "crowdanki_uuid": "54494b8a-4cde-11e7-ace6-2c56dc924912", 
-            "deck_config_uuid": "54261142-35b7-11e7-8db2-2c56dc924912", 
+            "deck_config_uuid": "b259e745-de26-11e7-afc7-2c56dc924912", 
             "desc": "", 
             "dyn": 0, 
             "extendNew": 10, 
@@ -902,7 +902,7 @@
                         "", 
                         "", 
                         "", 
-                        "fried tofu pouches usually prepared by cooking in sweet cooking sake, shoyu, and dashi. used in various dishes, in miso shiru and for inari zushi.", 
+                        "fried tofu pouches usually prepared by cooking in sweet cooking sake, shoyu, and dashi; used in various dishes, in miso shiru and for inari zushi", 
                         "<img src=\"Abura-age.jpg\" />", 
                         "", 
                         "", 
@@ -972,7 +972,7 @@
                         "", 
                         "", 
                         "", 
-                        "a japanese sushi-bar term for green tea.<div><br /></div><div>While the Japanese word, ocha, refers to all tea, agari is a lower-grade tea given away at lower-end sushi bars. It is not whole leaf, but made of a mix of the residual dust, fannings, leaf particles, and bits of stem broken off and sifted out during the processing of quality teas, like gyokuro or sencha (paradoxically, it’s low-quality tea from high-quality leaves). The tiny particles of tea that pass through a strainer give, the tea a strong green color and an intense flavor. The flavor is also bitter, a taste that complements the flavor components of of sushi and sashimi very well.</div>", 
+                        "a japanese sushi-bar term for green tea.<div><br></div><div>While the Japanese word, ocha, refers to all tea, agari is a lower-grade tea given away at lower-end sushi bars. It is not whole leaf, but made of a mix of the residual dust, fannings, leaf particles, and bits of stem broken off and sifted out during the processing of quality teas, like gyokuro or sencha (paradoxically, it’s low-quality tea from high-quality leaves). The tiny particles of tea that pass through a strainer give, the tea a strong green color and an intense flavor. The flavor is also bitter, a taste that complements the flavor components of of sushi and sashimi very well.</div>", 
                         "<img src=\"agari-dengonnet.net-230low.jpg\" height=\"265\" />", 
                         "", 
                         "", 
@@ -1322,7 +1322,7 @@
                         "", 
                         "", 
                         "", 
-                        "salt water eel (a type of conger eel) pre-cooked (boiled) and then grilled before serving, less rich than unagi (fresh water eel).", 
+                        "salt water eel (a type of conger eel) pre-cooked (boiled) and then grilled before serving, less rich than <strike>unagi</strike> (fresh water eel).", 
                         "", 
                         "", 
                         "", 
@@ -1532,7 +1532,7 @@
                         "", 
                         "", 
                         "", 
-                        "small red beans used to make an. azuki connotes uncooked form.", 
+                        "uncooked small red beans used to make an", 
                         "", 
                         "", 
                         "", 
@@ -1602,7 +1602,7 @@
                         "", 
                         "", 
                         "", 
-                        "yellowtail. hamachi refers to the young yellowtail and buri are the older ones.", 
+                        "(older) yellowtail", 
                         "", 
                         "", 
                         "", 
@@ -1672,7 +1672,7 @@
                         "", 
                         "", 
                         "", 
-                        "pork. buta means pig.", 
+                        "pork", 
                         "", 
                         "", 
                         "", 
@@ -1697,7 +1697,7 @@
                     "__type__": "Note", 
                     "data": "", 
                     "fields": [
-                        "california roll", 
+                        "chikuwa", 
                         "", 
                         "", 
                         "", 
@@ -1707,7 +1707,7 @@
                         "", 
                         "", 
                         "", 
-                        "(chee-koo-wah) – browned fish cake with a hole running through its length.", 
+                        "browned fish cake with a hole running through its length", 
                         "", 
                         "", 
                         "", 
@@ -1847,7 +1847,7 @@
                         "", 
                         "", 
                         "", 
-                        "basic soup and cooking stock usually made from, or from a combination of iriko (dried anchovies), konbu (type of kelp) and katsuobushi (dried bonito flakes). however any form of stock can be called this", 
+                        "any form of soup and cooking stock, usually made from iriko (dried anchovies), konbu (type of kelp), katsuobushi (dried bonito flakes) or a combination", 
                         "", 
                         "", 
                         "", 
@@ -1882,7 +1882,7 @@
                         "", 
                         "", 
                         "", 
-                        "a large bowl for noodle and rice dishes. also refers specifically to a rice dish served in such a large bowl with with the main items placed on top of the rice, examples include tendon (tenpura donburi) and unadon (unagi donburi).", 
+                        "a large bowl for noodle and rice dishes. also refers specifically to a rice dish served in such a large bowl with with the main items placed on top of the rice, examples include tendon (tenpura <strike>donburi</strike>) and unadon (unagi <strike>donburi</strike>).", 
                         "", 
                         "", 
                         "", 
@@ -1917,7 +1917,7 @@
                         "", 
                         "", 
                         "", 
-                        "shrimp. not the same as sweet shrimp, as ebi is cooked, while ami ebi is served in raw form.", 
+                        "cooked shrimp", 
                         "", 
                         "", 
                         "", 
@@ -1952,7 +1952,7 @@
                         "", 
                         "", 
                         "", 
-                        "young green soybeans served steamed and salted and usually still in the pod.", 
+                        "young green soybeans served steamed and salted and usually still in the pod", 
                         "<strong><img src=\"edamame-260.jpg\" hspace=\"0\" /></strong>", 
                         "", 
                         "", 
@@ -1987,7 +1987,7 @@
                         "", 
                         "", 
                         "", 
-                        "fugu is puffer fish which is a delicacy, though its innards and blood contain extremely poisonous tetrodotoxin. in japan only licensed fugu chefs are allowed to prepare fugu or puffer fish.", 
+                        "puffer fish, a delicacy, though its innards and blood contain extremely poisonous tetrodotoxin. in japan only licensed chefs are allowed to prepare it.", 
                         "", 
                         "", 
                         "", 
@@ -2022,7 +2022,7 @@
                         "", 
                         "", 
                         "", 
-                        "fuki is a japanese butterbur plant which contains a bitter substance called “fukinon” (a kind of ketone compound), but upon blanching fukinon is easily washed out from its petioles (edible parts) and is prepared for an excellent japanese vegetable dish.", 
+                        "a japanese butterbur plant which contains a bitter substance called “fukinon” (a kind of ketone compound), but upon blanching fukinon is easily washed out from its petioles (edible parts) and is prepared for an excellent japanese vegetable dish.", 
                         "", 
                         "", 
                         "", 
@@ -2057,7 +2057,7 @@
                         "", 
                         "", 
                         "", 
-                        "big, oversized rolls.", 
+                        "oversized rolls", 
                         "", 
                         "", 
                         "", 
@@ -2862,7 +2862,7 @@
                         "", 
                         "", 
                         "", 
-                        "salmon roe. (fyi, ikura means ‘how much?’ in japanese) the word ikura is shared with the russian word “ikra” meaning salmon roe.", 
+                        "salmon roe", 
                         "", 
                         "", 
                         "", 
@@ -3352,7 +3352,7 @@
                         "", 
                         "", 
                         "", 
-                        "herring roe, usually served marinated in sake, broth, and soy sauce, sometimes served raw, kazunoko konbu.", 
+                        "herring roe, usually served marinated in sake, broth, and soy sauce, sometimes served raw", 
                         "<img src=\"Kazunoko-herring-roe-re-discoveryjapan.net-230low.jpg\" />", 
                         "", 
                         "", 
@@ -3387,7 +3387,7 @@
                         "", 
                         "", 
                         "", 
-                        "japanese shad (or young punctatus, it’s latin species name). kohada is the name when marinated and used as sushi neta. prior to this the fish is called konoshiro (ko-no-shee-roh).", 
+                        "japanese shad (or young punctatus, it’s latin species name). this is the name when marinated and used as sushi neta. prior to this the fish is called konoshiro.", 
                         "", 
                         "", 
                         "", 
@@ -5715,6 +5715,7 @@
                     "guid": "K0u*yG9f$7", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": [
+                        "leech", 
                         "sushi"
                     ]
                 }, 
@@ -6814,6 +6815,24 @@
                     "guid": "s{TyfEMHd(", 
                     "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
                     "tags": []
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "California roll", 
+                        "", 
+                        "crab meat (or fake crab meat sticks), smelt or flying fish roe, \n            avocado", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "k=A9edK#%(", 
+                    "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+                    "tags": []
                 }
             ]
         }
@@ -6830,7 +6849,7 @@
                 "delays": [
                     10
                 ], 
-                "leechAction": 0, 
+                "leechAction": 1, 
                 "leechFails": 10, 
                 "minInt": 1, 
                 "mult": 0.0
@@ -6849,7 +6868,7 @@
                     20
                 ], 
                 "order": 0, 
-                "perDay": 1, 
+                "perDay": 10, 
                 "separate": true
             }, 
             "replayq": true, 
@@ -6860,7 +6879,51 @@
                 "ivlFct": 1.0, 
                 "maxIvl": 3650, 
                 "minSpace": 1, 
-                "perDay": 30
+                "perDay": 3000
+            }, 
+            "timer": 0
+        }, 
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "b259e745-de26-11e7-afc7-2c56dc924912", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    5
+                ], 
+                "leechAction": 1, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 100, 
+                "separate": true
+            }, 
+            "replayq": false, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 2000
             }, 
             "timer": 0
         }
@@ -6870,11 +6933,28 @@
     "extendNew": 100, 
     "extendRev": 50, 
     "media_files": [
-        "Brahma_on_hamsa.jpg", 
-        "1024px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg", 
+        "placket_tuxedo_bib_front.png", 
+        "covered_placket1.png", 
         "1280px-Sholes-Glidden_1874.jpg", 
+        "TheMilitaryTuck4S_AOM-400.jpg", 
+        "placket_french_front.png", 
+        "TheGigLine-AOM-400.jpg", 
         "02d9bcd84587c4871ae50434ecb0844a.jpg", 
+        "How-To-Keep-Your-Shirt-Tucked-In-AOM-400.jpg", 
+        "front_placket.png", 
+        "placket_tuxedo_pleated_front.png", 
+        "soft_front_placket.png", 
+        "DressShirtStays_AOM-400.jpg", 
+        "1024px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg", 
+        "Guayabera-400.jpg", 
         "800px-Bhagavan_Vishnu.jpg", 
+        "placket_popover.png", 
+        "carhartt.jpg", 
+        "Brahma_on_hamsa.jpg", 
+        "placket_tuxedo.png", 
+        "placket_western.png", 
+        "MilitaryTuck-TopView-AOM-400.jpg", 
+        "THE-PLACKET.png", 
         "Shiva_cropped.jpg"
     ], 
     "name": "General::Culture", 
@@ -6882,7 +6962,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
-            "css": "@import url(\"dark4.css\");\nmark { font-weight: bold; }\n.front.Forward .legend.backtype, .front.Reverse .legend.fronttype { visibility: hidden; }\narticle img { width: 100%; }\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>|[^<>]*<\\/)/g, '\\u2011');\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 35;\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\t// while( step >= 1 ){\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( window.innerWidth >= body.scrollWidth && window.innerHeight >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+5;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\n// setInterval(function(){ if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }, 500);\n// setInterval(function(){ currentDeckMessages();  }, 500);\n\nfunction resize(e) { if(window.innerHeight < body.scrollHeight || window.innerHeight-50 > body.clientHeight){ currentDeckMessages(); } }\nwindow.onclicke = window.onresize = resize;\n\n\n</script><style>", 
+            "css": "@import url(\"_dark4.css\");\n</style><script>\n\nvar body = document.getElementsByTagName(\"body\")[0];\n// body.insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:12px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\" id=\"debug\">DEBUG</div>');\nvar printDimensions = function(pre, extra){\n\tif( ! document.getElementById(\"debug\") ) return;\n\tdocument.getElementById(\"debug\").insertAdjacentHTML(\"beforeend\", \"<br>\" + pre\n\t\t+ \" W:\" + window.innerWidth + \"x\" + window.innerHeight\n\t\t+ \" W:\" + window.outerWidth + \"x\" + window.outerHeight\n\t\t+ \" O:\" + body.offsetWidth + \"x\" + body.offsetHeight\n\t\t+ \" C:\" + body.clientWidth + \"x\" + body.clientHeight\n\t\t+ \" S:\" + body.scrollWidth + \"x\" + body.scrollHeight\n\t\t+ extra\n\t);\n}\n\nif (document.documentElement.className.indexOf('android') !== -1) {\n  var windowHeight = function(){ return window.outerHeight; }\n  var windowWidth = function(){ return window.outerWidth; }\n} else {\n  var windowHeight = function(){ return window.innerHeight; }\n  var windowWidth = function(){ return window.innerWidth; }\n}\n\nvar encodeHTML = function() { document.getElementsByTagName(\"body\")[0].insertAdjacentHTML(\"beforeend\", '<div style=\"white-space:pre;position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;text-align:left;font-size:5px;color:#fff;background-color: rgba(0,0,0,0.50);font-family:Monaco,monospace;\">' +document.documentElement.outerHTML.replace(/</g,\"<\").replace(/>/g,\">\")+'</div>'); }\n\nfunction setStyle(selector, propName, propVal) { [].forEach.call(document.querySelectorAll(selector), function (el) { el.style[propName] = propVal; }); }\n\nfunction currentDeckMessages() {\n\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tsetStyle('.subdeck', 'display', 'none');\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === ''){ setStyle('.subdeck.Other', 'display', ''); }\n\telse { setStyle('.subdeck.' + subdeck, 'display', ''); }\n\n\tvar section = document.getElementsByTagName(\"section\");\n\tfor(var i = 0; i < section.length; i++){\n\t\t// replace hyphens not inside tags (properties) with nonbreaking hyphens\n\t\tsection[i].innerHTML = section[i].innerHTML.replace(/-(?![^<]*>)/g, '\\u2011'); // changed /-(?![^<]*>|[^<>]*<\\/)/g because targeting within tags too\n\t}\n\n\tvar body = document.getElementsByTagName(\"body\")[0];\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\n\t// var bodyFontSize = parseInt(document.defaultView.getComputedStyle(body).getPropertyValue('font-size'));\n\tvar bodyFontSizeMin = 25;\n  if (document.documentElement.className.indexOf('android') !== -1) { bodyFontSizeMin = 14; }\n\tvar bodyFontSizeMax = 725;\n\tvar bodyFontSize = bodyFontSizeMin;\n\n\tfunction setBodyFontSize(int){ body.style.fontSize = int + 'px'; }\n\n\tvar step = 350;\n\twhile( step >= 0.1 ){\n\t\tdo {\n\t\t\tbodyFontSize += step;\n\t\t\tsetBodyFontSize(bodyFontSize);\n\t\t\tprintDimensions(\"i \", \" fS:\" + bodyFontSize + \" step:\" + step);\n\t\t} while( windowWidth() >= body.scrollWidth && windowHeight() >= body.scrollHeight && bodyFontSize <= bodyFontSizeMax && bodyFontSize >= bodyFontSizeMin );\n\t\tbodyFontSize -= step+3;\n\t\tif( bodyFontSize < bodyFontSizeMin ){ bodyFontSize = bodyFontSizeMin; }\n\t\t// step = Math.floor(step / 4);\n\t\tstep = step / 4;\n\t\tsetBodyFontSize(bodyFontSizeMin);\n\t\tsetBodyFontSize(bodyFontSize);\n\t\tprintDimensions(\"o \", \" fS:\" + bodyFontSize);\n\t}\n\n}\n\nfunction playSound() {\n\tvar article = document.getElementsByTagName(\"article\")[0];\n\tvar subdeck = article.dataset.deck.replace(/^General(?:::Language)?::((?:(?!::).)*)(?:::.*)?/, '$1');\n\tif(subdeck === 'English'){\n\t\tvar a = new Audio(document.getElementById(\"audio\"));\n\t\ta.play();\n\t}\n}\n\nsetInterval(function(){ resize();  }, 500);\n// window.onclick = window.onresize = currentDeckMessages;\nwindow.onresize = currentDeckMessages;\nfunction resize() { if(windowHeight() < body.scrollHeight || windowHeight()-50 > body.clientHeight){ currentDeckMessages(); } }\n\n</script><style>", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -6983,16 +7063,16 @@
             "tags": [], 
             "tmpls": [
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}  {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<span id=\"title\"><mark>{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark></span>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese English\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
                     "name": "Forward", 
                     "ord": 0, 
-                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n<div class=\"legend fronttype\">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}}{{/FrontType}}</div>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<div class=\"legend backtype\">{{#BackType}}{{BackType}}{{/BackType}}{{^BackType}}{{Deck}}{{/BackType}}</div>\n<blockquote>\n{{#BackType}}<var class=\"q\">{{BackType}}</var>{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">meaning</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
+                    "qfmt": "<article data-deck=\"{{Deck}}\" class=\"front {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a id=\"audio\" href=\"https://ssl.gstatic.com/dictionary/static/sounds/20160317/{{text:Front}}--_us_1.mp3\">audio</a>\n</small>\n<div class=\"legend fronttype\">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}}{{/FrontType}}</div>\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n<div class=\"legend backtype\">{{#BackType}}{{BackType}}{{/BackType}}{{^BackType}}{{Deck}}{{/BackType}}</div>\n<blockquote>\n{{#BackType}}<var class=\"q\">{{BackType}}</var>{{/BackType}}\n{{^BackType}}\n{{#FrontType}}\n<var class=\"q\">meaning</var>\n{{/FrontType}}\n{{^FrontType}}\n<var class=\"q subdeck English\">definition</var>\n<var class=\"q subdeck Spanish\">en inglés</var>\n{{/FrontType}}\n{{/BackType}}\n</blockquote>\n</section>\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n"
                 }, 
                 {
-                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>\n{{Back}}\n</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n{{Other}}\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
+                    "afmt": "<article data-deck=\"{{Deck}}\" class=\"back {{Type}} {{Card}}\">\n\n<section style=\"position: relative;\">\n<small class=\"subdeck English\">\n<a href=\"http://dictionary.com/browse/{{text:Front}}\">dictionary</a> | <a href=\"https://ssl.gstatic.com/dictionary/static/sounds/de/0//{{text:Front}}.mp3\">audio</a>\n</small>\n{{#FrontType}}<div class=\"legend fronttype\">{{FrontType}}</div>{{/FrontType}}\n<mark id=\"title\">{{#AlternateFront}}{{AlternateFront}}{{/AlternateFront}}{{^AlternateFront}}{{Front}}{{/AlternateFront}}</mark>\n</section>\n\n<section>\n{{#BackType}}<div class=\"legend backtype\">{{BackType}}</div>{{/BackType}}\n<blockquote>{{Back}}</blockquote>\n</section>\n\n{{#Other}}\n<section>\n<blockquote class=\"subdeck Other Science Politics Culture Geography Math Personal Chinese\"><var>{{Other}}</var></blockquote>\n<details zopen=\"open\" class=\"subdeck Technical Spanish Python Science Math Politics\">\n<summary>info</summary>\n<blockquote>{{Other}}</blockquote>\n</details>\n</section>\n{{/Other}}\n\n</article>\n<script>currentDeckMessages();playSound();</script>\n", 
                     "bafmt": "", 
                     "bqfmt": "", 
                     "did": null, 
@@ -7086,7 +7166,7 @@
             "fields": [
                 "Vishnu", 
                 "", 
-                "<div class=\"mw-mmv-image\"><img src=\"800px-Bhagavan_Vishnu.jpg\" width=\"639\" /></div>", 
+                "<div class=\"mw-mmv-image\"><img src=\"800px-Bhagavan_Vishnu.jpg\" /></div>", 
                 "", 
                 "<p></p><p>Vishnu (<small>Sanskrit pronunciation:&nbsp;</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\" class=\"IPA\">[vɪʂɳu]</span>; Sanskrit: विष्णु, IAST: <span title=\"International Alphabet of Sanskrit Transliteration\" class=\"Unicode\" style=\"white-space:normal; text-decoration: none\">Viṣṇu</span>) is one of the principal deities of Hinduism, and the Supreme Being in its Vaishnavism tradition.<sup id=\"cite_ref-5\" class=\"reference\">[5]</sup><sup id=\"cite_ref-Flood_1996.2C_p._17_6-0\" class=\"reference\">[6]</sup> Vishnu is the \"preserver\" in the Hindu trinity (Trimurti) that includes Brahma and Shiva.<sup id=\"cite_ref-davidwhite29_7-0\" class=\"reference\">[7]</sup></p>\n<p>In Vaishnavism, Vishnu is identical to the formless metaphysical concept called Brahman, the supreme, the Svayam Bhagavan, who takes various avatars as \"the preserver, protector\" whenever the world is threatened with evil, chaos, and destructive forces.<sup id=\"cite_ref-Zimmer_1972_p._124_8-0\" class=\"reference\">[8]</sup> His avatars most notably include Rama in the Ramayana and Krishna in the Mahabharata.He is also known as Narayana, Jagannath, Vasudeva, Vithoba, and Hari. He is one of the five equivalent deities worshipped in Panchayatana puja of the Smarta Tradition of Hinduism.<sup id=\"cite_ref-Flood_1996.2C_p._17_6-1\" class=\"reference\">[6]</sup></p>", 
                 "reverse", 
@@ -7149,6 +7229,474 @@
             ], 
             "flags": 0, 
             "guid": "QG7Uz[m0py", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Bridgewater Associates", 
+                "", 
+                "American investment management firm founded by Ray Dalio in 1975. The firm serves institutional clients including pension funds, endowments, foundations, foreign governments, and central banks.\n\nIt utilizes a global macro investing style based on economic trends such as inflation, currency exchange rates, and U.S. gross domestic product. It began as an institutional investment advisory service, graduated to institutional investing, and pioneered the risk parity investment approach in 1996.\n\nIn 1981 the company moved its headquarters from New York City to Westport, Connecticut and currently engages 1,700 employees. In 2011, it was the \"world's largest macro hedge fund\" company with US$150 billion in assets under management.", 
+                "", 
+                "", 
+                "reverse", 
+                "", 
+                "https://en.wikipedia.org/wiki/Bridgewater_Associates"
+            ], 
+            "flags": 0, 
+            "guid": "u!oZuqCqqv", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tucking guidelines undershirts<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "garment", 
+                "These can always be tucked, and absolutely should be if there’s any chance of them poking out from beneath your other layers. For best results, tuck into underwear.", 
+                "tucking guidelines", 
+                "", 
+                "", 
+                "undershirts", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "DZ]hs4|zY%", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tucking guidelines polo shirts<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "garment", 
+                "They have an even hem and can be worn untucked, but are often tucked in \nfor a little dressier look, especially by golfers. Rugby shirts, their \nlong-sleeved cousins, are almost never tucked in, however.", 
+                "tucking guidelines", 
+                "", 
+                "", 
+                "polo shirts", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "s,J,NwOrF;", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tucking guidelines turtleneck/roll collars<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "garment", 
+                "When worn under a sports jacket or blazer, these are often tucked so \nthat the belt buckle is visible. On their own, it’s better to leave them\n untucked.", 
+                "tucking guidelines", 
+                "", 
+                "", 
+                "turtleneck/roll collars", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "OAaW%$Ow{B", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tucking guidelines Hawaiian shirts<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "garment", 
+                "These and any other loud-print shirts don’t get tucked no matter what \ntheir hem looks like. Seriously, just don’t. Nothing looks dorkier than a\n tucked-in vacation shirt. This goes for Guayaberas as well.", 
+                "tucking guidelines", 
+                "", 
+                "", 
+                "Hawaiian shirts", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "QE3|]]Fd~J", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tucking guidelines T-shirts<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "garment", 
+                "Some subcultures love this tucked with the visible belt buckle; others will think you look like a total nerd. It depends a lot on the shirt, the belt, and the trousers, as well as your overall style. In general, don’t tuck one unless it’s a deliberate style statement.", 
+                "tucking guidelines", 
+                "", 
+                "", 
+                "T-shirts", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "BAk(9}uIL3", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "gig line<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "", 
+                "a military term for the imaginary line straight down the front of your body, from the point of your chin to your crotch", 
+                "", 
+                "<p><img src=\"TheGigLine-AOM-400.jpg\" /></p>", 
+                "y", 
+                "", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "igEs-c!]Qe", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "placket<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "", 
+                "the rectangle of fabric on shirt where the front buttons are located", 
+                "", 
+                "<img src=\"THE-PLACKET.png\" />", 
+                "y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "yw(iE?m3^|", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tuck type basic trouser<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "tuck type", 
+                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><!--StartFragment-->This is where most men start and finish their shirt-tucking education — shirttails inside the trousers but above the underpants, shoved straight down all the way around the waist. It’s the no-thought way to do it, and it’s the most common as a result.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Here’s the easiest way to do this one, and you’ve probably done it a million times unless your father taught you a different method from a young age: put your underwear on, then put your shirt on and button it up, and then finally pull your pants on, buttoning them closed over the shirttails.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Your shirt ends up pinned beneath your trousers with no effort on your part. It just got there by virtue of the order you did things. And as long as your trousers aren’t too loose, the shirt will probably stay there. Just because it’s easy doesn’t mean this is a bad tuck.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">If you don’t want to think too hard, this is the way to go. But be cautioned: it works well with a fitted shirt, and terribly with anything else. If your shirt doesn’t have a close, well-tailored fit, you need a little more technique to deal with the excess fabric.<!--EndFragment--></p>", 
+                "", 
+                "", 
+                "y", 
+                "basic trouser", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "P2{IogPuQ^", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tuck type military<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "tuck type", 
+                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><!--StartFragment-->This is how the armed forces are taught to tuck in their uniform shirts. It creates a pair of folded pleats, which are then pinned flat by the trouser waist for a crisp, stiff tuck.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Different services in different countries have variations on this, but the basic principle is the same: you stand straight in your shirt, and if there’s any loose fabric hanging on either side of you, you fold it into a sharp, diagonal crease, sort of like making the nose on a paper airplane. Then you tuck the creases in at the hips, belting your trousers on above them.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Below are the step-by-step instructions. Don’t be discouraged if this one takes you a few tries to get right! It really starts to shine once you’ve practiced it enough for the movements to become routine.</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><ol type=\"1\" start=\"1\"><li>Have your pants on, but unbuttoned. You’ll need to close them up quickly over the shirt once you’re done with your folding.</li><li>Pinch each of the shirt’s side seams between a thumb and forefinger. Pull down to tug all the fabric taut.</li><li>Fold the seams backward toward your rear end, creating a pleat that folds over any loose fabric in the sides. Use enough pressure to pull the shirtfront smooth and taut across the front of your chest.</li><li>Button your pants up and belt them to hold the pleats flat against your body. Depending on how much excess fabric the shirt had, the folds should sit somewhere behind your hips, underneath the back of your armpits.</li></ol></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">The military tuck can take practice getting the folds straight and flat, and it works best in stiff, smooth fabrics that can hold the crease well. Use it any time you’ve got excess fabric around the waist and sides of the shirt.<!--EndFragment--></p>", 
+                "", 
+                "<p><img src=\"TheMilitaryTuck4S_AOM-400.jpg\" /></p><p><img src=\"MilitaryTuck-TopView-AOM-400.jpg\" /></p>", 
+                "y", 
+                "military", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "jaggEAyP*{", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tuck type underwear<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "tuck type", 
+                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><!--StartFragment-->No, I’m not talking about tucking your dress shirt into your underwear.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Although this method is effective, it can backfire when your puppy dog boxers creep up past your waistline.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">No, the underwear tuck refers to the need to properly tuck your undershirt into your underwear in order to ensure the dress shirt is between your underwear and trousers (vs. your undershirt and dress shirt sitting between your underwear and trousers).</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Believe it or not this small difference has a large impact on how your shirt stays tucked in throughout the day.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p><p><img src=\"How-To-Keep-Your-Shirt-Tucked-In-AOM-400.jpg\" /></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Your ideal tuck, if you’re an undershirt wearer, should go in this order, from the body outward: undershirt, waistband of your underwear, regular shirt, waistband of the trousers, and finally your belt.</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Oh, and if this doesn’t work well enough, you should look into purchasing a pair of underwear with grip technology that is designed to hold your dress shirt in place.<!--EndFragment--></p>", 
+                "", 
+                "", 
+                "", 
+                "underwear", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "y2dshXrHc.", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "tuck type shirt stays<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "tuck type", 
+                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p><p><img src=\"DressShirtStays_AOM-400.jpg\" /></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><!--EndFragment--></p>", 
+                "", 
+                "", 
+                "", 
+                "shirt stays", 
+                "http://www.artofmanliness.com/2014/04/15/how-tuck-in-shirt/"
+            ], 
+            "flags": 0, 
+            "guid": "mmE8~Sy*,H", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "guayabera<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "", 
+                "<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Traditional Latin American garment. Most in the United States originate from factories in and around Miami, Florida, which are often owned by Cuban-Americans.</p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\"Guayabera-400.jpg\" /></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">The basic features:</p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><ul style=\"margin-left: 20px; \"><li>Either two or four patch pockets on the shirt front</li><li>Two vertical rows of either small pleats (actually called tuxes) and/or embroidery</li><li>Straight hem meant to be worn untucked</li></ul></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><!--EndFragment--></p>", 
+                "", 
+                "<p style=\"white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; \">Different artisans over the years have taken the liberty to create variations of the garment, such as adjustable buttoning slits at the sides of the shirt, french cuffs, short sleeves, and even no pockets.  For the purposes of this article, I will include them all.</p><p style=\"white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; \"><br /></p><p style=\"white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; \">As for color, white and light pastel colors are the most common and traditional, but like any shirt, guayaberas now come in both traditional and brighter colors as young men have asked for more variety.</p><p style=\"white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; \"><br /></p><p style=\"white-space: pre-wrap; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; \">100% cotton or 100% linen are used to make the highest quality guayaberas. Light weaves are prized in hot, humid climates. A thriving tourist market has led to production of lower-cost, part-synthetic guayaberas that are sold as affordable souvenirs; depending on the weave, they are fine for most men, but if you can, try to find one made from natural material.</p>", 
+                "", 
+                "", 
+                "http://www.artofmanliness.com/2012/07/25/guayabera/"
+            ], 
+            "flags": 0, 
+            "guid": "F/~/#8Do_V", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shirt front type: fused&nbsp;placket<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "shirt front type", 
+                "<img src=\"front_placket.png\" />", 
+                "", 
+                "A dress shirt front placket is the most common dress shirt front style. The fabric is folded back over and sewn with a fused interlining to give it that crisp, dressy appeal. You’ll rarely, if ever, go wrong with this on a business shirt.", 
+                "y", 
+                "fused&nbsp;placket", 
+                "https://propercloth.com/reference/dress-shirt-front-placket-types/"
+            ], 
+            "flags": 0, 
+            "guid": "k@bB}l84tr", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shirt front type: soft&nbsp;placket<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "shirt front type", 
+                "<img src=\"soft_front_placket.png\" />", 
+                "", 
+                "The soft front placket is very similar in style to the classic fused front placket, but with a soft, unfused construction. It’s ideal for casual shirts and pairs really nicely with a soft collar and cuffs.", 
+                "y", 
+                "soft&nbsp;placket", 
+                "https://propercloth.com/reference/dress-shirt-front-placket-types/"
+            ], 
+            "flags": 0, 
+            "guid": "x^:u94TGmt", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shirt front type: French front<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "shirt front type", 
+                "<img src=\"placket_french_front.png\" />", 
+                "", 
+                "The French front is a popular placket style that features no fold back placket. It has a “cleaner” more “downtown” appeal to it. It can be slightly more difficult to iron than the standard front placket, but works well on both business and casual shirts.", 
+                "y", 
+                "French front", 
+                "https://propercloth.com/reference/dress-shirt-front-placket-types/"
+            ], 
+            "flags": 0, 
+            "guid": "IPfuQCf>nd", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shirt front type: popover&nbsp;front<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "shirt front type", 
+                "<img src=\"placket_popover.png\" />", 
+                "", 
+                "Part dress shirt, part polo. Features a soft front placket, with only three buttons below the collar, requiring you to “pop” it “over” your head. A casual design option, for sure.", 
+                "y", 
+                "popover&nbsp;front", 
+                "https://propercloth.com/reference/dress-shirt-front-placket-types/"
+            ], 
+            "flags": 0, 
+            "guid": "dswX%FFs|z", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shirt front type: Western front<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "shirt front type", 
+                "<img src=\"placket_western.png\" />", 
+                "", 
+                "The Western front incorporates both a soft front placket and the extended, stylized yoke detail along the shoulders. A casual design option, the Western front will automatically set the yoke to our Western yoke style to complete the look. Western flap pockets and snap buttons are optional.", 
+                "y", 
+                "Western front", 
+                "https://propercloth.com/reference/dress-shirt-front-placket-types/"
+            ], 
+            "flags": 0, 
+            "guid": "gBdeQ*5=-W", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shirt front type: fly front/covered placket<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "shirt front", 
+                "<img src=\"covered_placket1.png\" />", 
+                "", 
+                "Commonly known as the fly front, the covered placket is a more formal style placket with an extra piece that covers up the buttons on the front of the shirt. Commonly used for tuxedo shirts, this certainly will give your shirt a very clean, dressed-up look.", 
+                "y", 
+                "fly front/covered placket", 
+                "https://propercloth.com/reference/dress-shirt-front-placket-types/"
+            ], 
+            "flags": 0, 
+            "guid": "hg59x]*(ak", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shirt front type: tuxedo (plain)<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "shirt front", 
+                "<img src=\"placket_tuxedo.png\" />", 
+                "", 
+                "Similar to the French front in look and construction, but the top four buttons are removable so that one can put in tuxedo studs. We suggest only going with this option when buying a tuxedo shirt.", 
+                "y", 
+                "tuxedo (plain)", 
+                "https://propercloth.com/reference/dress-shirt-front-placket-types/"
+            ], 
+            "flags": 0, 
+            "guid": "N:.X}&6e<=", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shirt front type: tuxedo pique (bib)<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "shirt front", 
+                "<img src=\"placket_tuxedo_bib_front.png\" />", 
+                "", 
+                "A timeless formalwear staple featuring a textured Thomas Mason Marcella white pique fabric sewn on the front of the shirt. The pique bib is 10” wide, ends just below the 5th button, and features no placket.", 
+                "y", 
+                "tuxedo pique (bib)", 
+                "https://propercloth.com/reference/dress-shirt-front-placket-types/"
+            ], 
+            "flags": 0, 
+            "guid": "cD[%/v0t#8", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "shirt front type: tuxedo pleated<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "shirt front", 
+                "<img src=\"placket_tuxedo_pleated_front.png\" />", 
+                "", 
+                "A classic formal option featuring ten 7/16″ pleats on each side of the (fused) front placket, made from the shirt’s fabric. The top four buttons (below the collar button) are removable in order to be replaced with tuxedo studs.", 
+                "y", 
+                "tuxedo pleated", 
+                "https://propercloth.com/reference/dress-shirt-front-placket-types/"
+            ], 
+            "flags": 0, 
+            "guid": "sAA~?jY^[k", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "union suit<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "", 
+                "<img src=\"carhartt.jpg\" />", 
+                "", 
+                "", 
+                "y", 
+                "", 
+                "http://www.artofmanliness.com/2013/06/27/mans-guide-to-undershirts/"
+            ], 
+            "flags": 0, 
+            "guid": "o@e%4{^P{`", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "polyester, nylon, and spandex<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "fabrics", 
+                "almost always machine washable. Nylon tends to get staticky, but opting \nfor air drying, rather than machine drying, will eliminate that problem.\n Chlorine bleach should never be used on garments containing Spandex.", 
+                "washing guidelines", 
+                "", 
+                "", 
+                "", 
+                "http://www.esquire.com/style/mens-fashion/news/a52671/wash-dress-shirts-at-home/"
+            ], 
+            "flags": 0, 
+            "guid": "M3[4R`<+5q", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "cotton and linen<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "fabrics", 
+                "Prone to shrinking and fading. Washing in cold water in the wash and air drying, or machine drying on low or no heat, will address both problems.", 
+                "washing guidelines", 
+                "", 
+                "", 
+                "", 
+                "http://www.esquire.com/style/mens-fashion/news/a52671/wash-dress-shirts-at-home/"
+            ], 
+            "flags": 0, 
+            "guid": "bkoq)n::%<", 
+            "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "wool, silk, and rayon/viscose<style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style>", 
+                "fabrics", 
+                "Fabrics that don't love exposure to water; while wool and silk can be hand-washed, clothing that contains rayon or viscose should only be dry cleaned.", 
+                "washing guidelines", 
+                "", 
+                "", 
+                "", 
+                "http://www.esquire.com/style/mens-fashion/news/a52671/wash-dress-shirts-at-home/"
+            ], 
+            "flags": 0, 
+            "guid": "wQW9ip8G*c", 
             "note_model_uuid": "542689c7-35b7-11e7-bf3b-2c56dc924912", 
             "tags": []
         }
