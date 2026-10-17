@@ -1,0 +1,98 @@
+{{#ShowReversed}}
+<section> <span id="priority"></span>
+  <mark>
+    <var class="q">{{#FrontType}}{{FrontType}}{{/FrontType}}{{^FrontType}}{{Subdeck}} meaning{{/FrontType}}</var>
+  </mark>
+</section>
+<section class="front">
+  {{#BackType}}<div class="legend">{{BackType}}</div>{{/BackType}}
+  <blockquote>{{Back}}</blockquote>
+</section>
+
+<script>
+  /*
+  (function () {
+    const deck = "{{Deck}}";
+    const parts = deck.split("::");
+    if (parts.length >= 2) {
+      document.getElementById("priority").textContent = "("+parts[1].toLowerCase()+")";
+    }
+  })();
+	*/
+  (function () {
+    const deck = "{{Deck}}";
+    const parts = deck.split("::");
+    const el = document.getElementById("priority");
+    const card = document.querySelector(".card");
+
+    if (parts.length >= 2) {
+      const priority = parts[1].toLowerCase();
+
+      if (el) {
+        el.textContent = priority;
+
+        const styles = {
+          critical: "#dc322f",  // red
+          essential: "#cb4b16", // orange
+          extra: "#b58900",     // yellow
+          familiar: "#859900"   // green
+        };
+
+        if (styles[priority]) {
+          const color = styles[priority];
+
+          // Badge styling
+          el.style.backgroundColor = color;
+          el.style.color = "#ffffff";
+
+          // Top border styling
+          if (card) {
+            card.style.borderTop = "4px solid " + color;
+          }
+        }
+      }
+    }
+    // Image layout logic
+    const images = document.querySelectorAll("img");
+
+    if (images.length === 1) {
+      images[0].classList.add("img-single");
+    } else if (images.length >= 2) {
+      images.forEach(img => img.classList.add("img-multi"));
+    }
+  // Transparency detection
+  images.forEach(img => {
+    if (!img.complete) {
+      img.onload = () => checkTransparency(img);
+    } else {
+      checkTransparency(img);
+    }
+  });
+
+  function checkTransparency(img) {
+    try {
+      const canvas = document.createElement("canvas");
+      const ctx = canvas.getContext("2d");
+
+      const w = canvas.width = img.naturalWidth;
+      const h = canvas.height = img.naturalHeight;
+
+      ctx.drawImage(img, 0, 0);
+
+      const data = ctx.getImageData(0, 0, w, h).data;
+
+      // sample pixels instead of checking all (faster)
+      for (let i = 3; i < data.length; i += 40) {
+        if (data[i] < 255) {
+          img.classList.add("img-transparent");
+          return;
+        }
+      }
+    } catch (e) {
+      // fails silently (e.g., cross-origin)
+    }
+  }
+  })();
+</script>
+
+{{/ShowReversed}}
